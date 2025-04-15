@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { ILogServiceOptions } from '@opensumi/ide-core-common';
+import { ILogServiceOptions } from '@Nuvio-MCP/ide-core-common';
 
 export default class LogServiceClass {
   constructor(args: ILogServiceOptions) {

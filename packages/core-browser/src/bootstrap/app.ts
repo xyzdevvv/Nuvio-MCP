@@ -2,9 +2,9 @@
  * editor.main 包含了所有 monaco 自带的编辑器相关核心功能以及 contributes
  * 并且 editor.main 也包含对 editor.all 的导入
  */
-import '@opensumi/monaco-editor-core/esm/vs/editor/editor.main';
+import '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/editor.main';
 
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   AppLifeCycleServiceToken,
   CommandRegistry,
@@ -31,14 +31,14 @@ import {
   getDebugLogger,
   isOSX,
   setLanguageId,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   DEFAULT_APPLICATION_DESKTOP_HOST,
   DEFAULT_APPLICATION_NAME,
   DEFAULT_APPLICATION_WEB_HOST,
   DEFAULT_URI_SCHEME,
-} from '@opensumi/ide-core-common/lib/const/application';
-import { IElectronMainLifeCycleService } from '@opensumi/ide-core-common/lib/electron';
+} from '@Nuvio-MCP/ide-core-common/lib/const/application';
+import { IElectronMainLifeCycleService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { ClientAppStateService } from '../application';
 import { ConnectionHelperFactory, ESupportRuntime } from '../application/runtime';
@@ -75,7 +75,7 @@ import { injectInnerProviders } from './inner-providers';
 
 import './polyfills';
 
-import type { MessageConnection } from '@opensumi/vscode-jsonrpc/lib/common/connection';
+import type { MessageConnection } from '@Nuvio-MCP/vscode-jsonrpc/lib/common/connection';
 
 export class ClientApp implements IClientApp, IDisposable {
   /**
@@ -156,9 +156,9 @@ export class ClientApp implements IClientApp, IDisposable {
     this.injector.addProviders({ token: RendererRuntime, useValue: this.runtime });
 
     if (this.config.devtools) {
-      // set a global so the opensumi devtools can identify that
-      // the current page is powered by opensumi core
-      window.__OPENSUMI_DEVTOOLS_GLOBAL_HOOK__ = {};
+      // set a global so the Nuvio-MCP devtools can identify that
+      // the current page is powered by Nuvio-MCP core
+      window.__Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__ = {};
     }
 
     if (opts.extensionDevelopmentPath) {

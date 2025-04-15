@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   CommandContribution,
@@ -12,11 +12,11 @@ import {
   ToolbarRegistry,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IEditor } from '@opensumi/ide-editor';
-import { BrowserEditorContribution, IEditorFeatureRegistry } from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IEditor } from '@Nuvio-MCP/ide-editor';
+import { BrowserEditorContribution, IEditorFeatureRegistry } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import {
   CloseThreadId,

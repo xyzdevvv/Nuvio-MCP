@@ -1,4 +1,4 @@
-import { Event } from '@opensumi/ide-core-common';
+import { Event } from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalExitEvent, ITerminalTitleChangeEvent } from './client';
 import { ITerminalExternalClient } from './controller';

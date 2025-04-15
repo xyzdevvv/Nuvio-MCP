@@ -1,5 +1,5 @@
-import { Uri, objects } from '@opensumi/ide-core-browser';
-import { IConfigurationService } from '@opensumi/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
+import { Uri, objects } from '@Nuvio-MCP/ide-core-browser';
+import { IConfigurationService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
 
 import { IConvertedMonacoOptions } from '../types';
 

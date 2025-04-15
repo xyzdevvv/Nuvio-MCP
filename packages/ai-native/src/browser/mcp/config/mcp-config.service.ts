@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ILogger } from '@opensumi/ide-core-browser';
-import { PreferenceService } from '@opensumi/ide-core-browser/lib/preferences';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ILogger } from '@Nuvio-MCP/ide-core-browser';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser/lib/preferences';
 import {
   Deferred,
   Disposable,
@@ -10,9 +10,9 @@ import {
   STORAGE_NAMESPACE,
   StorageProvider,
   localize,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IMessageService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 
 import { BUILTIN_MCP_SERVER_NAME, ISumiMCPServerBackend, SumiMCPServerProxyServicePath } from '../../../common';
 import {

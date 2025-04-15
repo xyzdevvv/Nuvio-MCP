@@ -1,4 +1,4 @@
-import { Uri } from '@opensumi/ide-core-common';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
 
 export function getRelatedFilePath(uri: string | undefined, projectRoot: string | undefined) {
   if (projectRoot) {

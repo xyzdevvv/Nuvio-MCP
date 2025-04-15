@@ -1,4 +1,4 @@
-import { DisposableCollection } from '@opensumi/ide-core-common';
+import { DisposableCollection } from '@Nuvio-MCP/ide-core-common';
 
 import { InputValidationType, SCMService } from '../../src/common';
 import { MockSCMProvider } from '../scm-test-util';

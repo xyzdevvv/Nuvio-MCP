@@ -5,10 +5,10 @@ import { promisify } from 'util';
 
 import * as pty from 'node-pty';
 
-import { RPCServiceCenter, initRPCService } from '@opensumi/ide-connection';
-import { SumiConnection } from '@opensumi/ide-connection/lib/common/rpc/connection';
-import { DisposableCollection, getDebugLogger } from '@opensumi/ide-core-node';
-import { isLinux, isMacintosh } from '@opensumi/ide-utils/lib/platform';
+import { RPCServiceCenter, initRPCService } from '@Nuvio-MCP/ide-connection';
+import { SumiConnection } from '@Nuvio-MCP/ide-connection/lib/common/rpc/connection';
+import { DisposableCollection, getDebugLogger } from '@Nuvio-MCP/ide-core-node';
+import { isLinux, isMacintosh } from '@Nuvio-MCP/ide-utils/lib/platform';
 
 import {
   IPtyProxyRPCService,
@@ -55,7 +55,7 @@ type PID = number;
 type SessionId = string;
 
 /**
- * NOTE: 这里面的Session通常是短Session  也就是OpenSumi里面Session `${clientId}|${sessionId}` 的sessionId部分
+ * NOTE: 这里面的Session通常是短Session  也就是Nuvio-MCP里面Session `${clientId}|${sessionId}` 的sessionId部分
  * 因为ClientId在每次刷新都会变化，而SessionId可以被持久化保存，后续按照之前的SessionID连接Pty的时候就可以做到Terminal Resume
  *
  * PtyServiceProxy是真实运行的托管着NodePty的代理

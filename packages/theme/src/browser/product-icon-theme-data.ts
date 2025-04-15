@@ -1,8 +1,8 @@
 import * as parser from 'jsonc-parser';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Logger, ThemeIcon, URI, isString, path } from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Logger, ThemeIcon, URI, isString, path } from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { ExtensionData, IProductIconTheme, IThemeContribution } from '../common';
 import {

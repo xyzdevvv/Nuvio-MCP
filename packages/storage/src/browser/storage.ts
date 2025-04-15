@@ -1,4 +1,4 @@
-import { AppConfig, StorageService } from '@opensumi/ide-core-browser';
+import { AppConfig, StorageService } from '@Nuvio-MCP/ide-core-browser';
 import {
   Deferred,
   DisposableCollection,
@@ -9,8 +9,8 @@ import {
   URI,
   getDebugLogger,
   isUndefinedOrNull,
-} from '@opensumi/ide-core-common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IStorageServer, IUpdateRequest } from '../common';
 

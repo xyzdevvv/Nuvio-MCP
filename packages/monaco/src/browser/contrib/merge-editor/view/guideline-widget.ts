@@ -1,4 +1,4 @@
-import { ZoneWidget } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget';
+import { ZoneWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget';
 
 import { ICodeEditor } from '../../../monaco-api/types';
 import { DECORATIONS_CLASSNAME, LineRangeType } from '../types';

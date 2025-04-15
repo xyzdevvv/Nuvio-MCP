@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { AppConfig, IEventBus, localize, useInjectable } from '@opensumi/ide-core-browser';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
+import { INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { AppConfig, IEventBus, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 import {
   ReactEditorComponent,
   ResourceOpenTypeChangedEvent,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { PreventComponent } from './prevent.view';
 

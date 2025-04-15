@@ -1,8 +1,8 @@
-import { IBasicInlineMenu, IBasicInlineMenuPosition } from '@opensumi/ide-components';
+import { IBasicInlineMenu, IBasicInlineMenuPosition } from '@Nuvio-MCP/ide-components';
 
 import { DebugTestCommand, GoToTestCommand, RuntTestCommand } from './commands';
 
-export const TestingViewId = '@opensumi/ide-testing';
+export const TestingViewId = '@Nuvio-MCP/ide-testing';
 
 export const TestingContainerId = 'testing';
 

@@ -1,5 +1,5 @@
-import { strings } from '@opensumi/ide-core-browser';
-import { SnippetParser } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/snippet/browser/snippetParser';
+import { strings } from '@Nuvio-MCP/ide-core-browser';
+import { SnippetParser } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/snippet/browser/snippetParser';
 
 import { DebugConfiguration } from '../common';
 

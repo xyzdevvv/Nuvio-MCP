@@ -1,9 +1,9 @@
 import { ElementHandle, Page } from '@playwright/test';
 
-import { OpenSumiApp } from './app';
-import { OpenSumiContextMenu } from './context-menu';
-import { OpenSumiEditor } from './editor';
-import { OpenSumiTreeNode } from './tree-node';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPContextMenu } from './context-menu';
+import { Nuvio-MCPEditor } from './editor';
+import { Nuvio-MCPTreeNode } from './tree-node';
 import { keypressWithCmdCtrl, keypressWithCmdCtrlAndShift } from './utils';
 
 abstract class ViewsModel {
@@ -101,11 +101,11 @@ class OverlaysModel extends ViewsModel {
   }
 }
 
-export class OpenSumiTextEditor extends OpenSumiEditor {
+export class Nuvio-MCPTextEditor extends Nuvio-MCPEditor {
   private glyphMarginModel: GlyphMarginModel;
   private overlaysModel: OverlaysModel;
 
-  constructor(app: OpenSumiApp, filestatElement: OpenSumiTreeNode) {
+  constructor(app: Nuvio-MCPApp, filestatElement: Nuvio-MCPTreeNode) {
     super(app, filestatElement);
     this.glyphMarginModel = new GlyphMarginModel(this.page);
     this.overlaysModel = new OverlaysModel(this.page);
@@ -128,7 +128,7 @@ export class OpenSumiTextEditor extends OpenSumiEditor {
     if (!existingLine) {
       return;
     }
-    return OpenSumiContextMenu.open(this.app, async () => existingLine);
+    return Nuvio-MCPContextMenu.open(this.app, async () => existingLine);
   }
 
   async openGlyphMarginContextMenu() {
@@ -137,7 +137,7 @@ export class OpenSumiTextEditor extends OpenSumiEditor {
     if (!view) {
       return;
     }
-    return OpenSumiContextMenu.open(this.app, async () => view);
+    return Nuvio-MCPContextMenu.open(this.app, async () => view);
   }
 
   async openTabContextMenu() {
@@ -145,7 +145,7 @@ export class OpenSumiTextEditor extends OpenSumiEditor {
     if (!view) {
       return;
     }
-    return OpenSumiContextMenu.open(this.app, async () => view);
+    return Nuvio-MCPContextMenu.open(this.app, async () => view);
   }
 
   async numberOfLines(): Promise<number | undefined> {

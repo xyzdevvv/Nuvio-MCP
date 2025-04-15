@@ -1,9 +1,9 @@
-import { Event, IRelativePattern, Uri, match as matchGlobPattern } from '@opensumi/ide-core-common';
-import { normalize } from '@opensumi/ide-utils/lib/path';
+import { Event, IRelativePattern, Uri, match as matchGlobPattern } from '@Nuvio-MCP/ide-core-common';
+import { normalize } from '@Nuvio-MCP/ide-utils/lib/path';
 
 import * as types from '../../../../common/vscode/ext-types';
 
-import type { LanguageFilter, LanguageSelector } from '@opensumi/ide-editor';
+import type { LanguageFilter, LanguageSelector } from '@Nuvio-MCP/ide-editor';
 import type vscode from 'vscode';
 
 export function createToken(): any {

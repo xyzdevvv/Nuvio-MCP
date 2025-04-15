@@ -1,4 +1,4 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   GeneralSettingsId,
   MenubarSettingId,
@@ -6,9 +6,9 @@ import {
   SUPPORTED_ENCODINGS,
   getAvailableLanguages,
   localize,
-} from '@opensumi/ide-core-common';
-import { LOCALE_TYPES } from '@opensumi/ide-core-common/lib/const';
-import { defaultFilesWatcherExcludes } from '@opensumi/ide-core-common/lib/preferences/file-watch';
+} from '@Nuvio-MCP/ide-core-common';
+import { LOCALE_TYPES } from '@Nuvio-MCP/ide-core-common/lib/const';
+import { defaultFilesWatcherExcludes } from '@Nuvio-MCP/ide-core-common/lib/preferences/file-watch';
 
 import { PreferenceProxy, PreferenceService, createPreferenceProxy } from './preferences';
 
@@ -58,8 +58,8 @@ export const corePreferenceSchema: PreferenceSchema = {
     },
     [GeneralSettingsId.ProductIconTheme]: {
       type: 'string',
-      default: 'opensumi-icons',
-      enum: ['opensumi-icons'],
+      default: 'Nuvio-MCP-icons',
+      enum: ['Nuvio-MCP-icons'],
     },
     'workbench.colorCustomizations': {
       type: 'object',

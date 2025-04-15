@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { observableValue, transaction } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+import { Injectable } from '@Nuvio-MCP/di';
+import { observableValue, transaction } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
 
 import { IProgressIndicator, IProgressRunner } from '.';
 

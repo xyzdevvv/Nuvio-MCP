@@ -17,8 +17,8 @@
 
 import cloneDeep from 'lodash/cloneDeep';
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter, Event, PreferenceScope, isObject, isUndefined, mixin } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter, Event, PreferenceScope, isObject, isUndefined, mixin } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ConfigurationTarget,

@@ -1,6 +1,6 @@
-import { Deferred, Event, IDisposable, IJSONSchemaMap, TaskIdentifier, URI, Uri } from '@opensumi/ide-core-common';
-import { UriComponents } from '@opensumi/ide-editor';
-import { IShellLaunchConfig, ITerminalClient } from '@opensumi/ide-terminal-next/lib/common';
+import { Deferred, Event, IDisposable, IJSONSchemaMap, TaskIdentifier, URI, Uri } from '@Nuvio-MCP/ide-core-common';
+import { UriComponents } from '@Nuvio-MCP/ide-editor';
+import { IShellLaunchConfig, ITerminalClient } from '@Nuvio-MCP/ide-terminal-next/lib/common';
 
 // eslint-disable-next-line import/no-restricted-paths
 import { ConfiguringTask, ContributedTask, KeyedTaskIdentifier, Task, TaskEvent, TaskSet } from './task';

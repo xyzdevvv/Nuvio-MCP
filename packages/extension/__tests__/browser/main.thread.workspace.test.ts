@@ -11,11 +11,11 @@ import {
   PreferenceProviderProvider,
   PreferenceService,
   PreferenceServiceImpl,
-} from '@opensumi/ide-core-browser';
-import { injectMockPreferences } from '@opensumi/ide-core-browser/__mocks__/preference';
-import { useMockStorage } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { StaticResourceServiceImpl } from '@opensumi/ide-core-browser/lib/static-resource/static.service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { injectMockPreferences } from '@Nuvio-MCP/ide-core-browser/__mocks__/preference';
+import { useMockStorage } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { StaticResourceServiceImpl } from '@Nuvio-MCP/ide-core-browser/lib/static-resource/static.service';
 import {
   CommonServerPath,
   Deferred,
@@ -30,12 +30,12 @@ import {
   URI,
   Uri,
   Uri as vscodeUri,
-} from '@opensumi/ide-core-common';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { AppConfig } from '@opensumi/ide-core-node/lib/types';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { AppConfig } from '@Nuvio-MCP/ide-core-node/lib/types';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   EditorComponentRegistry,
   EditorDocumentModelCreationEvent,
@@ -43,57 +43,57 @@ import {
   EmptyDocCacheImpl,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorComponentRegistryImpl } from '@opensumi/ide-editor/lib/browser/component';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorComponentRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/component';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
-} from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { ResourceServiceImpl } from '@opensumi/ide-editor/lib/browser/resource.service';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import { IDocPersistentCacheProvider, ResourceService } from '@opensumi/ide-editor/lib/common';
-import { ExtensionService } from '@opensumi/ide-extension';
-import { ExtensionServiceImpl } from '@opensumi/ide-extension/lib/browser/extension.service';
-import { MainThreadExtensionDocumentData } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.doc';
-import { MainThreadFileSystem } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.file-system';
-import { MainThreadPreference } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.preference';
-import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import { Position, WorkspaceEdit } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import { ExtensionDocumentDataManagerImpl } from '@opensumi/ide-extension/lib/hosted/api/vscode/doc';
-import { ExtHostFileSystem } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.file-system';
-import { ExtHostFileSystemEvent } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.file-system-event';
-import { ExtHostMessage } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.message';
-import { ExtensionNotebookDocumentManagerImpl } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.notebook';
-import { ExtHostPreference } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.preference';
-import { ExtHostStorage } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.storage';
-import { ExtHostTerminal } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.terminal';
-import { ExtHostTasks } from '@opensumi/ide-extension/lib/hosted/api/vscode/tasks/ext.host.tasks';
-import { ExtensionStorageModule } from '@opensumi/ide-extension-storage/lib/browser';
-import { FileSchemeDocumentProvider } from '@opensumi/ide-file-scheme/lib/browser/file-doc';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { ResourceServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/resource.service';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import { IDocPersistentCacheProvider, ResourceService } from '@Nuvio-MCP/ide-editor/lib/common';
+import { ExtensionService } from '@Nuvio-MCP/ide-extension';
+import { ExtensionServiceImpl } from '@Nuvio-MCP/ide-extension/lib/browser/extension.service';
+import { MainThreadExtensionDocumentData } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.doc';
+import { MainThreadFileSystem } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.file-system';
+import { MainThreadPreference } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.preference';
+import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { Position, WorkspaceEdit } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import { ExtensionDocumentDataManagerImpl } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/doc';
+import { ExtHostFileSystem } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.file-system';
+import { ExtHostFileSystemEvent } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.file-system-event';
+import { ExtHostMessage } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.message';
+import { ExtensionNotebookDocumentManagerImpl } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.notebook';
+import { ExtHostPreference } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.preference';
+import { ExtHostStorage } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.storage';
+import { ExtHostTerminal } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.terminal';
+import { ExtHostTasks } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/tasks/ext.host.tasks';
+import { ExtensionStorageModule } from '@Nuvio-MCP/ide-extension-storage/lib/browser';
+import { FileSchemeDocumentProvider } from '@Nuvio-MCP/ide-file-scheme/lib/browser/file-doc';
 import {
   FileServicePath,
   FileStat,
   FileType,
   IBrowserFileSystemRegistry,
   IDiskFileProvider,
-} from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-file-service';
 import {
   BrowserFileSystemRegistryImpl,
   FileServiceClient,
-} from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { FileService, FileSystemNodeOptions } from '@opensumi/ide-file-service/lib/node';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
-import { MonacoService } from '@opensumi/ide-monaco';
-import MonacoServiceImpl from '@opensumi/ide-monaco/lib/browser/monaco.service';
-import { IWebviewService } from '@opensumi/ide-webview';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
-import { IBulkEditServiceShape, IWorkspaceEditService, IWorkspaceFileService } from '@opensumi/ide-workspace-edit';
-import { MonacoBulkEditService } from '@opensumi/ide-workspace-edit/lib/browser/bulk-edit.service';
-import { WorkspaceEditServiceImpl } from '@opensumi/ide-workspace-edit/lib/browser/workspace-edit.service';
-import { WorkspaceFileService } from '@opensumi/ide-workspace-edit/lib/browser/workspace-file.service';
+} from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { FileService, FileSystemNodeOptions } from '@Nuvio-MCP/ide-file-service/lib/node';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
+import { MonacoService } from '@Nuvio-MCP/ide-monaco';
+import MonacoServiceImpl from '@Nuvio-MCP/ide-monaco/lib/browser/monaco.service';
+import { IWebviewService } from '@Nuvio-MCP/ide-webview';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
+import { IBulkEditServiceShape, IWorkspaceEditService, IWorkspaceFileService } from '@Nuvio-MCP/ide-workspace-edit';
+import { MonacoBulkEditService } from '@Nuvio-MCP/ide-workspace-edit/lib/browser/bulk-edit.service';
+import { WorkspaceEditServiceImpl } from '@Nuvio-MCP/ide-workspace-edit/lib/browser/workspace-edit.service';
+import { WorkspaceFileService } from '@Nuvio-MCP/ide-workspace-edit/lib/browser/workspace-file.service';
 
 import { mockExtensions } from '../../__mocks__/extensions';
 import { createMockPairRPCProtocol } from '../../__mocks__/initRPCProtocol';
@@ -376,10 +376,10 @@ describe('MainThreadWorkspace API Test Suite', () => {
       const encoder = new util.TextEncoder();
       await extHostWorkspaceAPI.fs.writeFile(
         vscodeUri.file(filepath),
-        new Uint8Array(encoder.encode('hello opensumi')),
+        new Uint8Array(encoder.encode('hello Nuvio-MCP')),
       );
       expect(fs.existsSync(filepath)).toBeTruthy();
-      expect(fs.readFileSync(filepath).toString()).toBe('hello opensumi');
+      expect(fs.readFileSync(filepath).toString()).toBe('hello Nuvio-MCP');
     });
   });
 

@@ -1,6 +1,6 @@
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { Emitter } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { createElectronBasicInjector } from '../__mocks__';
 import { ElectronHeaderService, SEPARATOR, TITLE_DIRTY } from '../src/browser/header/header.service';
@@ -11,7 +11,7 @@ describe('header service should work', () => {
   const emitter = new Emitter();
   const appConfig = {
     workspaceDir: '/Users/Development',
-    appName: 'OpenSumi',
+    appName: 'Nuvio-MCP',
   };
   const editor = {
     onActiveResourceChange: emitter.event,
@@ -77,7 +77,7 @@ describe('header service should work', () => {
       folderPath|/Users/Development|
       rootName|Development|
       rootPath|/Users/Development|
-      appName|OpenSumi|
+      appName|Nuvio-MCP|
       dirty|● |
       remoteName||"
     `);
@@ -92,7 +92,7 @@ describe('header service should work', () => {
   });
   it('can set template', () => {
     headerService.titleTemplate = 'hello-${appName}';
-    expect(headerService.appTitle).toEqual('hello-OpenSumi');
+    expect(headerService.appTitle).toEqual('hello-Nuvio-MCP');
   });
   it('can inject variable', () => {
     headerService.setTemplateVariables('projectName', 'proposed-acquisition-of-twitter');
@@ -103,6 +103,6 @@ describe('header service should work', () => {
   it('can process empty between separator', () => {
     appConfig.workspaceDir = '';
     headerService.titleTemplate = '${activeEditorShort}${separator}${rootName}${separator}${appName}';
-    expect(headerService.appTitle).toEqual('myFile.txt - OpenSumi');
+    expect(headerService.appTitle).toEqual('myFile.txt - Nuvio-MCP');
   });
 });

@@ -1,4 +1,4 @@
-import { BasicEvent, Event, MaybeNull } from '@opensumi/ide-core-common';
+import { BasicEvent, Event, MaybeNull } from '@Nuvio-MCP/ide-core-common';
 
 import { Layout } from '../components/layout/index';
 

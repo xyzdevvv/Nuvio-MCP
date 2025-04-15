@@ -6,7 +6,7 @@
 
 // copy and modified from https://github.com/Daninet/hash-wasm/blob/bd3a205ca5603fc80adf71d0966fc72e8d4fa0ef/lib/util.ts
 
-export { IDataType, ITypedArray, getUInt8Buffer } from '@opensumi/ide-utils/lib/buffer';
+export { IDataType, ITypedArray, getUInt8Buffer } from '@Nuvio-MCP/ide-utils/lib/buffer';
 
 export function intArrayToString(arr: Uint8Array, len: number): string {
   return String.fromCharCode(...arr.subarray(0, len));

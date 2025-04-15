@@ -5,25 +5,25 @@ import {
   KeybindingRegistry,
   KeybindingRegistryImpl,
   PreferenceScope,
-} from '@opensumi/ide-core-browser';
-import { IToolbarRegistry } from '@opensumi/ide-core-browser/lib/toolbar';
-import { IMenuItem, IMenuRegistry, MenuRegistryImpl } from '@opensumi/ide-core-browser/src/menu/next';
-import { NextToolbarRegistryImpl } from '@opensumi/ide-core-browser/src/toolbar/toolbar.registry';
-import { AppLifeCycleServiceToken, IAppLifeCycleService, IEventBus, LifeCyclePhase } from '@opensumi/ide-core-common';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IToolbarRegistry } from '@Nuvio-MCP/ide-core-browser/lib/toolbar';
+import { IMenuItem, IMenuRegistry, MenuRegistryImpl } from '@Nuvio-MCP/ide-core-browser/src/menu/next';
+import { NextToolbarRegistryImpl } from '@Nuvio-MCP/ide-core-browser/src/toolbar/toolbar.registry';
+import { AppLifeCycleServiceToken, IAppLifeCycleService, IEventBus, LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 import {
   AbstractExtInstanceManagementService,
   ExtensionBeforeActivateEvent,
   IActivationEventService,
-} from '@opensumi/ide-extension/lib/browser/types';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { LayoutService } from '@opensumi/ide-main-layout/lib/browser/layout.service';
-import { TabbarService } from '@opensumi/ide-main-layout/lib/browser/tabbar/tabbar.service';
-import { PreferenceSettingsService } from '@opensumi/ide-preferences/lib/browser/preference-settings.service';
-import { WorkbenchThemeService } from '@opensumi/ide-theme/lib/browser/workbench.theme.service';
-import { IThemeService, getColorRegistry } from '@opensumi/ide-theme/lib/common';
+} from '@Nuvio-MCP/ide-extension/lib/browser/types';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { LayoutService } from '@Nuvio-MCP/ide-main-layout/lib/browser/layout.service';
+import { TabbarService } from '@Nuvio-MCP/ide-main-layout/lib/browser/tabbar/tabbar.service';
+import { PreferenceSettingsService } from '@Nuvio-MCP/ide-preferences/lib/browser/preference-settings.service';
+import { WorkbenchThemeService } from '@Nuvio-MCP/ide-theme/lib/browser/workbench.theme.service';
+import { IThemeService, getColorRegistry } from '@Nuvio-MCP/ide-theme/lib/common';
 
-import '@opensumi/ide-i18n';
+import '@Nuvio-MCP/ide-i18n';
 
 import { SumiContributionsServiceToken } from '../../../src/browser/sumi/contributes';
 import { VSCodeContributesService, VSCodeContributesServiceToken } from '../../../src/browser/vscode/contributes';

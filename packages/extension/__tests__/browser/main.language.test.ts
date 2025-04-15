@@ -1,28 +1,28 @@
-import { CancellationToken, DisposableCollection, MonacoService } from '@opensumi/ide-core-browser';
-import { useMockStorage } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { URI, Uri } from '@opensumi/ide-core-common';
+import { CancellationToken, DisposableCollection, MonacoService } from '@Nuvio-MCP/ide-core-browser';
+import { useMockStorage } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { URI, Uri } from '@Nuvio-MCP/ide-core-common';
 import {
   EvaluatableExpressionServiceImpl,
   IEvaluatableExpressionService,
-} from '@opensumi/ide-debug/lib/browser/editor/evaluatable-expression';
-import { addEditorProviders } from '@opensumi/ide-dev-tool/src/injector-editor';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-debug/lib/browser/editor/evaluatable-expression';
+import { addEditorProviders } from '@Nuvio-MCP/ide-dev-tool/src/injector-editor';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
-} from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { CallHierarchyService, TypeHierarchyService } from '@opensumi/ide-editor/lib/browser/monaco-contrib';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { CallHierarchyService, TypeHierarchyService } from '@Nuvio-MCP/ide-editor/lib/browser/monaco-contrib';
 import {
   EmptyDocCacheImpl,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/src/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICallHierarchyService, ITypeHierarchyService } from '@opensumi/ide-monaco/lib/browser/contrib';
-import { monaco as monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { createModel } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneEditor';
+} from '@Nuvio-MCP/ide-editor/src/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICallHierarchyService, ITypeHierarchyService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib';
+import { monaco as monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { createModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneEditor';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { mockService } from '../../../../tools/dev-tool/src/mock-injector';

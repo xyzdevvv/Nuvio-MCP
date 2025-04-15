@@ -1,4 +1,4 @@
-import { Event, IDisposable } from '@opensumi/ide-core-common';
+import { Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 export interface IWindowInfo {
   windowId: number;

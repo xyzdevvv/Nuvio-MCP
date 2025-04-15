@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { getExternalIcon } from '@opensumi/ide-core-browser';
-import { IQuickPickItemButtonEvent, QuickInputButton } from '@opensumi/ide-core-browser/lib/quick-open';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { Emitter, Event, ThemeIcon, URI } from '@opensumi/ide-core-common';
-import { IIconService, IThemeService, IconType } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { getExternalIcon } from '@Nuvio-MCP/ide-core-browser';
+import { IQuickPickItemButtonEvent, QuickInputButton } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { Emitter, Event, ThemeIcon, URI } from '@Nuvio-MCP/ide-core-common';
+import { IIconService, IThemeService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { iconPath2URI } from '../common/icon';
 

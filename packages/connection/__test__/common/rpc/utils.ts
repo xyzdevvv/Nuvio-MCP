@@ -5,12 +5,12 @@ import { MessageChannel, MessagePort } from 'worker_threads';
 
 import { Type, TypeDescription } from '@furyjs/fury';
 
-import { ProxyJson } from '@opensumi/ide-connection';
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { createWebSocketConnection } from '@opensumi/ide-connection/lib/common/message';
-import { Deferred, isUint8Array } from '@opensumi/ide-core-common';
-import { normalizedIpcHandlerPathAsync } from '@opensumi/ide-core-common/lib/utils/ipc';
-import { MessageConnection } from '@opensumi/vscode-jsonrpc';
+import { ProxyJson } from '@Nuvio-MCP/ide-connection';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { createWebSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/message';
+import { Deferred, isUint8Array } from '@Nuvio-MCP/ide-core-common';
+import { normalizedIpcHandlerPathAsync } from '@Nuvio-MCP/ide-core-common/lib/utils/ipc';
+import { MessageConnection } from '@Nuvio-MCP/vscode-jsonrpc';
 
 import { NodeMessagePortConnection } from '../../../src/common/connection/drivers/node-message-port';
 import { SumiConnection } from '../../../src/common/rpc/connection';

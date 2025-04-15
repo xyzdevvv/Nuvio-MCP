@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { Input } from '@opensumi/ide-components';
-import { localize } from '@opensumi/ide-core-common/lib/localize';
+import { Input } from '@Nuvio-MCP/ide-components';
+import { localize } from '@Nuvio-MCP/ide-core-common/lib/localize';
 
 import styles from './search.module.less';
 

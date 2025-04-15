@@ -1,7 +1,7 @@
 import * as jsoncparser from 'jsonc-parser';
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   Disposable,
@@ -21,9 +21,9 @@ import {
   URI,
   VSCODE_WORKSPACE_CONFIGURATION_DIR_NAME,
   isUndefined,
-} from '@opensumi/ide-core-browser';
-import { EditorDocumentModelSavedEvent } from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EditorDocumentModelSavedEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { IPreferenceTask } from '../common';
 

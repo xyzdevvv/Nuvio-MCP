@@ -1,13 +1,13 @@
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { Disposable, EventBusImpl, IEventBus, StorageProvider, URI } from '@opensumi/ide-core-common';
-import { DEFAULT_CONFIGURATION_NAME_SEPARATOR, IDebugSessionManager } from '@opensumi/ide-debug';
-import { DebugConfigurationManager } from '@opensumi/ide-debug/lib/browser/debug-configuration-manager';
-import { DebugConfigurationService } from '@opensumi/ide-debug/lib/browser/view/configuration/debug-configuration.service';
-import { DebugConsoleService } from '@opensumi/ide-debug/lib/browser/view/console/debug-console.service';
-import { DebugViewModel } from '@opensumi/ide-debug/lib/browser/view/debug-view-model';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, EventBusImpl, IEventBus, StorageProvider, URI } from '@Nuvio-MCP/ide-core-common';
+import { DEFAULT_CONFIGURATION_NAME_SEPARATOR, IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { DebugConfigurationManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-configuration-manager';
+import { DebugConfigurationService } from '@Nuvio-MCP/ide-debug/lib/browser/view/configuration/debug-configuration.service';
+import { DebugConsoleService } from '@Nuvio-MCP/ide-debug/lib/browser/view/console/debug-console.service';
+import { DebugViewModel } from '@Nuvio-MCP/ide-debug/lib/browser/view/debug-view-model';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 describe('Debug Configuration Service', () => {
   const mockInjector = createBrowserInjector(

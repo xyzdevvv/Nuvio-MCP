@@ -1,6 +1,6 @@
-import { IToolbarActionBtnStyle, IToolbarPopoverStyle, IToolbarSelectStyle } from '@opensumi/ide-core-browser';
+import { IToolbarActionBtnStyle, IToolbarPopoverStyle, IToolbarSelectStyle } from '@Nuvio-MCP/ide-core-browser';
 
-import type { DropDownProps } from '@opensumi/ide-components';
+import type { DropDownProps } from '@Nuvio-MCP/ide-components';
 
 export interface IToolbarActionBasicContribution {
   id: string;

@@ -1,7 +1,7 @@
 import * as fs from 'fs-extra';
 import temp from 'temp';
 
-import { Injectable, Injector } from '@opensumi/di';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   DefaultStorageProvider,
@@ -13,11 +13,11 @@ import {
   ScopedBrowserStorageService,
   StorageProvider,
   URI,
-} from '@opensumi/ide-core-browser';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IDiskFileProvider, IFileServiceClient } from '@opensumi/ide-file-service';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IDiskFileProvider, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { StorageModule } from '../../src/browser';
 import { IStoragePathServer } from '../../src/common';
@@ -138,7 +138,7 @@ describe('StorageProvider should be work', () => {
     const extensionStorage = await getStorage(STORAGE_NAMESPACE.EXTENSIONS);
     expect(extensionStorage).toBeDefined();
     await extensionStorage.whenReady;
-    const extensions = ['opensumi.test.extension'];
+    const extensions = ['Nuvio-MCP.test.extension'];
     await extensionStorage.set('extensions', extensions);
     expect(extensionStorage.get('extensions')).toEqual(extensions);
     const browserLocalStorage = injector.get(ScopedBrowserStorageService, [MockWorkspaceService.workspace.uri]);
@@ -152,7 +152,7 @@ describe('StorageProvider should be work', () => {
     const recentStorage = await getStorage(STORAGE_NAMESPACE.GLOBAL_RECENT_DATA);
     expect(recentStorage).toBeDefined();
     await recentStorage.whenReady;
-    const recents = ['opensumi.test.recent'];
+    const recents = ['Nuvio-MCP.test.recent'];
     await recentStorage.set('recents', recents);
     expect(recentStorage.get('recents')).toEqual(recents);
     const browserLocalStorage = injector.get(GlobalBrowserStorageService);

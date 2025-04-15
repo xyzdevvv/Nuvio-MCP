@@ -1,6 +1,6 @@
-import { Autowired } from '@opensumi/di';
-import { ContributionProvider } from '@opensumi/ide-core-common/lib/contribution-provider';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper/index';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ContributionProvider } from '@Nuvio-MCP/ide-core-common/lib/contribution-provider';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper/index';
 
 import { ClientAppContribution } from '../common/common.define';
 

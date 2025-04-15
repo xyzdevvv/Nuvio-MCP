@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, IAppLifeCycleService, LifeCyclePhase } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, IAppLifeCycleService, LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 @Injectable()
 export class AppLifeCycleService implements IAppLifeCycleService {

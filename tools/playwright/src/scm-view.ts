@@ -1,10 +1,10 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiOpenedEditorView } from './opened-editor-view';
-import { OpenSumiPanel } from './panel';
-import { OpenSumiSourceControlView } from './source-control-view';
-import { OpenSumiTreeNode } from './tree-node';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPOpenedEditorView } from './opened-editor-view';
+import { Nuvio-MCPPanel } from './panel';
+import { Nuvio-MCPSourceControlView } from './source-control-view';
+import { Nuvio-MCPTreeNode } from './tree-node';
 
-export class OpenSumiSCMFileStatNode extends OpenSumiTreeNode {
+export class Nuvio-MCPSCMFileStatNode extends Nuvio-MCPTreeNode {
   async getFsPath() {
     return await this.elementHandle.getAttribute('title');
   }
@@ -39,13 +39,13 @@ export class OpenSumiSCMFileStatNode extends OpenSumiTreeNode {
   }
 }
 
-export class OpenSumiSCMView extends OpenSumiPanel {
-  private _scmView: OpenSumiSourceControlView;
-  private _openedEditorView: OpenSumiOpenedEditorView;
+export class Nuvio-MCPSCMView extends Nuvio-MCPPanel {
+  private _scmView: Nuvio-MCPSourceControlView;
+  private _openedEditorView: Nuvio-MCPOpenedEditorView;
 
-  constructor(app: OpenSumiApp) {
+  constructor(app: Nuvio-MCPApp) {
     super(app, 'SCM');
-    this._scmView = new OpenSumiSourceControlView(app, 'SOURCE CONTROL');
+    this._scmView = new Nuvio-MCPSourceControlView(app, 'SOURCE CONTROL');
   }
 
   get scmView() {
@@ -58,11 +58,11 @@ export class OpenSumiSCMView extends OpenSumiPanel {
 
   async getTreeItems() {
     const treeItems = await (await this.scmView.getViewElement())?.$$('[class*="scm_tree_node___"]');
-    const node: OpenSumiSCMFileStatNode[] = [];
+    const node: Nuvio-MCPSCMFileStatNode[] = [];
 
     if (treeItems) {
       for (const item of treeItems) {
-        node.push(new OpenSumiSCMFileStatNode(item, this.app));
+        node.push(new Nuvio-MCPSCMFileStatNode(item, this.app));
       }
     }
 
@@ -84,7 +84,7 @@ export class OpenSumiSCMView extends OpenSumiPanel {
       }
     }
     if (node) {
-      return new OpenSumiSCMFileStatNode(node, this.app);
+      return new Nuvio-MCPSCMFileStatNode(node, this.app);
     }
   }
 }

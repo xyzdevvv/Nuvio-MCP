@@ -1,9 +1,9 @@
-import { IContextKeyService, QuickPickService } from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-core-common';
-import { DebugPreferences } from '@opensumi/ide-debug/lib/browser/debug-preferences';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
-import { MockFileServiceClient } from '@opensumi/ide-file-service/__mocks__/file-service-client';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { IContextKeyService, QuickPickService } from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-core-common';
+import { DebugPreferences } from '@Nuvio-MCP/ide-debug/lib/browser/debug-preferences';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { MockFileServiceClient } from '@Nuvio-MCP/ide-file-service/__mocks__/file-service-client';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

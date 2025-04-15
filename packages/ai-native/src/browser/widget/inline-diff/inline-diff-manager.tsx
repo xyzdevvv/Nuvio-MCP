@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { Icon, Popover } from '@opensumi/ide-components';
-import { AppConfig, IDisposable, URI, localize, path, useInjectable } from '@opensumi/ide-core-browser';
-import { IResource, WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Icon, Popover } from '@Nuvio-MCP/ide-components';
+import { AppConfig, IDisposable, URI, localize, path, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IResource, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { BaseApplyService } from '../../mcp/base-apply.service';
 

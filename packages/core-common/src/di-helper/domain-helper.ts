@@ -1,4 +1,4 @@
-import { Domain, getInjectableOpts, markInjectable } from '@opensumi/di';
+import { Domain, getInjectableOpts, markInjectable } from '@Nuvio-MCP/di';
 
 import { ConstructorOf } from '../declare';
 

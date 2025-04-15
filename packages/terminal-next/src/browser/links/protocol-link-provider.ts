@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { ILinkComputerTarget, LinkComputer } from '../../common';
 

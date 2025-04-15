@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { ReconnectingWebSocketConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/reconnecting-websocket';
-import { UrlProvider, uuid } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { ReconnectingWebSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/reconnecting-websocket';
+import { UrlProvider, uuid } from '@Nuvio-MCP/ide-core-common';
 
 import { BaseConnectionHelper } from '../base-socket';
 

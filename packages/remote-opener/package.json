@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-remote-opener",
+  "name": "@Nuvio-MCP/ide-remote-opener",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-connection": "workspace:*",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
   },
   "devDependencies": {
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-editor": "workspace:*"
   }
 }

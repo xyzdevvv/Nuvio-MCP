@@ -1,5 +1,5 @@
-import { DebugStackFrame, DebugThread } from '@opensumi/ide-debug/lib/browser/model';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { DebugStackFrame, DebugThread } from '@Nuvio-MCP/ide-debug/lib/browser/model';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 describe('DebugThread Model', () => {
   describe('DebugThread should be work after init', () => {

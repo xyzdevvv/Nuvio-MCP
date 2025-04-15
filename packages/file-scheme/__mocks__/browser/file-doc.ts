@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { MaybePromise, Schemes, URI, Emitter, Event } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelContentProvider } from '@opensumi/ide-editor/lib/browser/index';
+import { Injectable } from '@Nuvio-MCP/di';
+import { MaybePromise, Schemes, URI, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelContentProvider } from '@Nuvio-MCP/ide-editor/lib/browser/index';
 
 @Injectable()
 export class MockWalkThroughSnippetSchemeDocumentProvider implements IEditorDocumentModelContentProvider {

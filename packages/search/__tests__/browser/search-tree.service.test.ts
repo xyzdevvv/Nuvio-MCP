@@ -1,22 +1,22 @@
-import { Injectable, Injector } from '@opensumi/di';
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { Disposable, URI } from '@opensumi/ide-core-common';
-import { SearchSettingId } from '@opensumi/ide-core-common/lib/settings/search';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, URI } from '@Nuvio-MCP/ide-core-common';
+import { SearchSettingId } from '@Nuvio-MCP/ide-core-common/lib/settings/search';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
   ResourceService,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorDocumentModelServiceImpl } from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { ResourceServiceImpl } from '@opensumi/ide-editor/lib/browser/resource.service';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common';
-import { OverlayModule } from '@opensumi/ide-overlay/lib/browser';
-import { SearchFileNode, SearchRoot } from '@opensumi/ide-search/lib/browser/tree/tree-node.defined';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { IWorkspaceEditService } from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorDocumentModelServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { ResourceServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/resource.service';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common';
+import { OverlayModule } from '@Nuvio-MCP/ide-overlay/lib/browser';
+import { SearchFileNode, SearchRoot } from '@Nuvio-MCP/ide-search/lib/browser/tree/tree-node.defined';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { IWorkspaceEditService } from '@Nuvio-MCP/ide-workspace-edit';
 
 import { MockContentSearchServer } from '../../__mocks__/content-search.service';
 import { SearchModule } from '../../src/browser/';

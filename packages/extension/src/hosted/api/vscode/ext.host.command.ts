@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   DisposableStore,
   IExtensionInfo,
@@ -10,7 +10,7 @@ import {
   revive,
   toDisposable,
   validateConstraint,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IBuiltInCommand } from '../../../common/ext.process';
 import {

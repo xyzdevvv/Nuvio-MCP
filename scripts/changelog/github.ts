@@ -3,7 +3,7 @@ import { DefaultLogFields } from 'simple-git';
 
 import { ICommitLogFields, PR_STATE } from './types';
 
-const GITHUB_URL = 'https://github.com/opensumi/core';
+const GITHUB_URL = 'https://github.com/Nuvio-MCP/core';
 
 export function getCompareLink(from: string, to: string) {
   return `${GITHUB_URL}/compare/${from}...${to}`;
@@ -13,7 +13,7 @@ export function getPullRequestLink(prId: string) {
   return `${GITHUB_URL}/pull/${prId}`;
 }
 
-async function getPrDesc(prIid: string, projectId = 'opensumi/core') {
+async function getPrDesc(prIid: string, projectId = 'Nuvio-MCP/core') {
   const res = await fetch(`https://api.github.com/repos/${projectId}/pulls/${prIid}`, {
     method: 'GET',
     headers: {
@@ -25,7 +25,7 @@ async function getPrDesc(prIid: string, projectId = 'opensumi/core') {
   return ret;
 }
 
-export async function getTagList(per_page: number = 10, projectId = 'opensumi/core') {
+export async function getTagList(per_page: number = 10, projectId = 'Nuvio-MCP/core') {
   const res = await fetch(`https://api.github.com/repos/${projectId}/tags?per_page=${per_page}`, {
     method: 'GET',
     headers: {
@@ -37,7 +37,7 @@ export async function getTagList(per_page: number = 10, projectId = 'opensumi/co
   return ret;
 }
 
-export async function compareCommits(base: string, head: string, projectId = 'opensumi/core') {
+export async function compareCommits(base: string, head: string, projectId = 'Nuvio-MCP/core') {
   const res = await fetch(`https://api.github.com/repos/${projectId}/compare/${base}...${head}`, {
     method: 'GET',
     headers: {
@@ -79,7 +79,7 @@ export async function extractChangelog(logs: ReadonlyArray<DefaultLogFields>): P
  * @param state 状态，合并的、关闭的、新建的
  * @param projectId
  */
-export async function getPrList(startTime: number = Date.now(), state = PR_STATE.CLOSED, projectId = 'opensumi/core') {
+export async function getPrList(startTime: number = Date.now(), state = PR_STATE.CLOSED, projectId = 'Nuvio-MCP/core') {
   const per_page = 100;
   let page = 1;
   const start = new Date(startTime).getTime();

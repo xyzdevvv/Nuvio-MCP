@@ -7,10 +7,10 @@ import httpProxy from 'http-proxy';
 import * as pty from 'node-pty';
 import WebSocket from 'ws';
 
-import { WSChannel } from '@opensumi/ide-connection';
-import { createWSChannelForClient } from '@opensumi/ide-connection/__test__/common/ws-channel';
-import { WSWebSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { uuid } from '@opensumi/ide-core-browser';
+import { WSChannel } from '@Nuvio-MCP/ide-connection';
+import { createWSChannelForClient } from '@Nuvio-MCP/ide-connection/__test__/common/ws-channel';
+import { WSWebSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { uuid } from '@Nuvio-MCP/ide-core-browser';
 
 function getRandomInt(min: number, max: number) {
   min = Math.ceil(min);

@@ -1,6 +1,6 @@
 import { IRawThemeSetting } from 'vscode-textmate';
 
-import { Deferred, Event, IDisposable, IThemeColor, MaybePromise, URI } from '@opensumi/ide-core-common';
+import { Deferred, Event, IDisposable, IThemeColor, MaybePromise, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { Color } from './color';
 import { hc_black, hc_light, vs, vs_dark } from './default-themes';
@@ -10,8 +10,8 @@ export const ThemeServicePath = 'themeServicePath';
 
 export const DEFAULT_THEME_ID = 'ide-dark';
 
-export const DEFAULT_PRODUCT_ICON_THEME_ID = 'opensumi-icons';
-export const DEFAULT_PRODUCT_ICON_THEME_LABEL = 'OpenSumi Icons';
+export const DEFAULT_PRODUCT_ICON_THEME_ID = 'Nuvio-MCP-icons';
+export const DEFAULT_PRODUCT_ICON_THEME_LABEL = 'Nuvio-MCP Icons';
 
 export const PRODUCT_ICON_STYLE_ID = 'product-icon-style';
 // codiconStyles 为 monaco 内置样式表

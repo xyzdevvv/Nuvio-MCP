@@ -1,4 +1,4 @@
-import { FileTreeDropEvent } from '@opensumi/ide-core-common';
+import { FileTreeDropEvent } from '@Nuvio-MCP/ide-core-common';
 
 export const FileDropServicePath = 'FileDropServicePath';
 

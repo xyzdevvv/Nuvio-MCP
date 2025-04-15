@@ -1,11 +1,11 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution, Domain } from '@opensumi/ide-core-browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution, Domain } from '@Nuvio-MCP/ide-core-browser';
 import {
   BrowserConnectionCloseEvent,
   BrowserConnectionOpenEvent,
   OnEvent,
   WithEventBus,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalInternalService, ITerminalNetwork, TerminalNetworkStatus } from '../../common';
 

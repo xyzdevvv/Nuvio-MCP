@@ -1,6 +1,6 @@
-import { Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable } from '@opensumi/ide-core-common';
+import { Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 import { MainThreadSumiAPIIdentifier } from '../../common/sumi';
 

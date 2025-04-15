@@ -1,7 +1,7 @@
 import { ILinkProvider, IViewportRange, Terminal } from '@xterm/xterm';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IOpenerService, PreferenceService } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IOpenerService, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   Disposable,
   DisposableCollection,
@@ -15,9 +15,9 @@ import {
   isWindows,
   localize,
   path,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import {
   ITerminalClient,

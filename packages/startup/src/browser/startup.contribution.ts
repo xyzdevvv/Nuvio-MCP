@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   IToolbarRegistry,
@@ -10,15 +10,15 @@ import {
   createToolbarActionBtn,
   createToolbarActionSelect,
   getIcon,
-} from '@opensumi/ide-core-browser';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IStatusBarService } from '@opensumi/ide-core-browser/lib/services';
-import { CommandContribution, CommandRegistry, CommandService, IEventBus, Schemes } from '@opensumi/ide-core-common';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
-import { BrowserEditorContribution, EditorComponentRegistry } from '@opensumi/ide-editor/lib/browser';
-import { OutputService } from '@opensumi/ide-output/lib/browser/output.service';
-import { ISCMProvider } from '@opensumi/ide-scm';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IStatusBarService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { CommandContribution, CommandRegistry, CommandService, IEventBus, Schemes } from '@Nuvio-MCP/ide-core-common';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
+import { BrowserEditorContribution, EditorComponentRegistry } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { OutputService } from '@Nuvio-MCP/ide-output/lib/browser/output.service';
+import { ISCMProvider } from '@Nuvio-MCP/ide-scm';
 
 import { ExampleEditorBottomWidget } from './editor-bottom-example';
 import { ExampleEditorTopWidget } from './editor-top-example';

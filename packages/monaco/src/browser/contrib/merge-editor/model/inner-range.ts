@@ -1,4 +1,4 @@
-import { Range as MonacoRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+import { Range as MonacoRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 
 import { IPosition } from '../../../monaco-api/types';
 import { ECompleteReason, ETurnDirection, IRangeContrast, LineRangeType } from '../types';

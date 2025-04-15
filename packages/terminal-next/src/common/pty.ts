@@ -2,7 +2,7 @@ import { Terminal as XTerm } from '@xterm/xterm';
 import { IPty as INodePty } from 'node-pty';
 import * as pty from 'node-pty';
 
-import { IThemeColor, MaybePromise, OperatingSystem, Uri } from '@opensumi/ide-core-common';
+import { IThemeColor, MaybePromise, OperatingSystem, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalError } from './error';
 import { ITerminalEnvironment, ITerminalProcessExtHostProxy, TerminalLocation } from './extension';
@@ -365,12 +365,12 @@ export interface ITerminalInfo {
   isActive: boolean;
 }
 
-// 搜了一下代码，在 OpenSumi 里已经没有地方引用了
+// 搜了一下代码，在 Nuvio-MCP 里已经没有地方引用了
 export const IExternalTerminalService = Symbol('IExternalTerminalService');
 /**
  * 使用依赖注入的方式复写这个类型，
  * 支持更多形式的 terminal 实现。
- * 搜了一下代码，在 OpenSumi 里已经没有地方引用了。
+ * 搜了一下代码，在 Nuvio-MCP 里已经没有地方引用了。
  */
 export interface IExternalTerminalService {
   /**

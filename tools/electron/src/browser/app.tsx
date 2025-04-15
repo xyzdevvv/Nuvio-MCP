@@ -1,13 +1,13 @@
 /* eslint-disable no-console */
 console.time('Render');
-import { Domain, Injector } from '@opensumi/di';
-import { IClientAppOpts, URI, electronEnv } from '@opensumi/ide-core-browser';
-import { ClientApp } from '@opensumi/ide-core-browser/lib/bootstrap/app';
+import { Domain, Injector } from '@Nuvio-MCP/di';
+import { IClientAppOpts, URI, electronEnv } from '@Nuvio-MCP/ide-core-browser';
+import { ClientApp } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/app';
 // 引入公共样式文件
-import '@opensumi/ide-core-browser/lib/style/index.less';
+import '@Nuvio-MCP/ide-core-browser/lib/style/index.less';
 // 引入本地icon，不使用cdn版本，与useCdnIcon配套使用
-import '@opensumi/ide-core-browser/lib/style/icon.less';
-import { IElectronMainLifeCycleService } from '@opensumi/ide-core-common/lib/electron';
+import '@Nuvio-MCP/ide-core-browser/lib/style/icon.less';
+import { IElectronMainLifeCycleService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 export async function renderApp(main: Domain, modules?: Domain[]);
 export async function renderApp(opts: IClientAppOpts);

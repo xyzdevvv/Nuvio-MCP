@@ -1,6 +1,6 @@
 import { ITerminalOptions as IXtermTerminalOptions } from '@xterm/xterm';
 
-import { IDisposable, OperatingSystem } from '@opensumi/ide-core-common';
+import { IDisposable, OperatingSystem } from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalConnection } from './client';
 import { ITerminalError } from './error';

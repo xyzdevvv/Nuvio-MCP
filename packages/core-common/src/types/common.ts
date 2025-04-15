@@ -1,4 +1,4 @@
-import { OperatingSystem } from '@opensumi/ide-utils';
+import { OperatingSystem } from '@Nuvio-MCP/ide-utils';
 
 export const CommonServerPath = 'CommonServerPath';
 

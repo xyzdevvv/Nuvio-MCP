@@ -1,9 +1,9 @@
-import '@opensumi/ide-i18n';
-import { BrowserModule, ConstructorOf, IClientAppOpts } from '@opensumi/ide-core-browser';
-import { ExpressFileServerModule } from '@opensumi/ide-express-file-server/lib/browser';
-import { defaultConfig } from '@opensumi/ide-main-layout/lib/browser/default-config';
-import { CommonBrowserModules } from '@opensumi/ide-startup/lib/browser/common-modules';
-import '@opensumi/ide-core-browser/lib/style/index.less';
+import '@Nuvio-MCP/ide-i18n';
+import { BrowserModule, ConstructorOf, IClientAppOpts } from '@Nuvio-MCP/ide-core-browser';
+import { ExpressFileServerModule } from '@Nuvio-MCP/ide-express-file-server/lib/browser';
+import { defaultConfig } from '@Nuvio-MCP/ide-main-layout/lib/browser/default-config';
+import { CommonBrowserModules } from '@Nuvio-MCP/ide-startup/lib/browser/common-modules';
+import '@Nuvio-MCP/ide-core-browser/lib/style/index.less';
 
 import { renderApp } from './app';
 import './style.less';

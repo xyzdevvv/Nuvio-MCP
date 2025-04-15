@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeNodeType } from '@opensumi/ide-components';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeNodeType } from '@Nuvio-MCP/ide-components';
 import {
   CancellationTokenSource,
   CommandService,
@@ -12,14 +12,14 @@ import {
   ILogger,
   PreferenceService,
   URI,
-} from '@opensumi/ide-core-browser';
-import { ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/base';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { IIconService, IIconTheme } from '@opensumi/ide-theme';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/base';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { IIconService, IIconTheme } from '@Nuvio-MCP/ide-theme';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { ISCMRepository, ISCMResource, scmResourceViewId } from '../../../common';
 import { ViewModelContext } from '../../scm-model';

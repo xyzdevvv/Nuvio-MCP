@@ -3,15 +3,15 @@ import React, { memo, useCallback, useEffect, useState } from 'react';
 
 import 'rc-collapse/assets/index.css';
 
-import { Icon } from '@opensumi/ide-components/lib/icon/icon';
-import { Popover, getIcon } from '@opensumi/ide-core-browser/lib/components';
-import { EnhanceIcon } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks/injectable-hooks';
-import { AppConfig } from '@opensumi/ide-core-browser/lib/react-providers/config-provider';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services/label-service';
-import { localize } from '@opensumi/ide-core-common/lib/localize';
-import { Event, URI } from '@opensumi/ide-core-common/lib/utils';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser/types';
+import { Icon } from '@Nuvio-MCP/ide-components/lib/icon/icon';
+import { Popover, getIcon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EnhanceIcon } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks/injectable-hooks';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser/lib/react-providers/config-provider';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services/label-service';
+import { localize } from '@Nuvio-MCP/ide-core-common/lib/localize';
+import { Event, URI } from '@Nuvio-MCP/ide-core-common/lib/utils';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser/types';
 
 import { FileContext, LLMContextService, LLMContextServiceToken } from '../../../common/llm-context';
 

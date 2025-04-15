@@ -1,5 +1,5 @@
-import { ProxyIdentifier } from '@opensumi/ide-connection';
-import { Event } from '@opensumi/ide-core-common';
+import { ProxyIdentifier } from '@Nuvio-MCP/ide-connection';
+import { Event } from '@Nuvio-MCP/ide-core-common';
 
 import type * as net from 'net';
 

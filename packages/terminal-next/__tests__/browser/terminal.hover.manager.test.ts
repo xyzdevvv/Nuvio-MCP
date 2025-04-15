@@ -1,16 +1,16 @@
 /* eslint-disable no-console */
 import { IViewportRange, Terminal } from '@xterm/xterm';
 
-import { Injector } from '@opensumi/di';
-import { LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
-import { Disposable } from '@opensumi/ide-core-common';
-import { CommandService, CommandServiceImpl } from '@opensumi/ide-core-common/lib/command';
-import { mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IDialogService } from '@opensumi/ide-overlay/lib/common';
-import { IStatusBarService } from '@opensumi/ide-status-bar';
-import { StatusBarService } from '@opensumi/ide-status-bar/lib/browser/status-bar.service';
-import { ITerminalProcessPath } from '@opensumi/ide-terminal-next';
-import { IWorkspaceStorageService } from '@opensumi/ide-workspace/lib/common';
+import { Injector } from '@Nuvio-MCP/di';
+import { LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { CommandService, CommandServiceImpl } from '@Nuvio-MCP/ide-core-common/lib/command';
+import { mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay/lib/common';
+import { IStatusBarService } from '@Nuvio-MCP/ide-status-bar';
+import { StatusBarService } from '@Nuvio-MCP/ide-status-bar/lib/browser/status-bar.service';
+import { ITerminalProcessPath } from '@Nuvio-MCP/ide-terminal-next';
+import { IWorkspaceStorageService } from '@Nuvio-MCP/ide-workspace/lib/common';
 
 import { TerminalLink } from '../../lib/browser/links/link';
 import { ITerminalHoverManagerService } from '../../lib/common';

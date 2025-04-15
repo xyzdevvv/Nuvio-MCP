@@ -1,7 +1,7 @@
-import { ConstructorOf, CreatorStatus, Injector, InstanceOpts, Token, TokenResult } from '@opensumi/di';
-import { MockLoggerManageClient, MockLoggerService } from '@opensumi/ide-core-browser/__mocks__/logger';
-import { CommandRegistry, ILogServiceManager, ILoggerManagerClient, getDebugLogger } from '@opensumi/ide-core-common';
-import { INodeLogger, NodeModule, ServerApp } from '@opensumi/ide-core-node';
+import { ConstructorOf, CreatorStatus, Injector, InstanceOpts, Token, TokenResult } from '@Nuvio-MCP/di';
+import { MockLoggerManageClient, MockLoggerService } from '@Nuvio-MCP/ide-core-browser/__mocks__/logger';
+import { CommandRegistry, ILogServiceManager, ILoggerManagerClient, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
+import { INodeLogger, NodeModule, ServerApp } from '@Nuvio-MCP/ide-core-node';
 
 export class MockInjector extends Injector {
   private mockMap = new Map<Token, [any, any][]>();

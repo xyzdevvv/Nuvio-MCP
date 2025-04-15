@@ -1,4 +1,4 @@
-import { Uri } from '@opensumi/ide-utils';
+import { Uri } from '@Nuvio-MCP/ide-utils';
 
 import { BasicEvent } from '../event-bus';
 

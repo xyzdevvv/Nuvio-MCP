@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   COMMON_COMMANDS,
   ClientAppContribution,
@@ -18,12 +18,12 @@ import {
   getIcon,
   getKeyboardLayoutId,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IResource, IResourceProvider, ResourceService } from '@opensumi/ide-editor';
-import { BrowserEditorContribution, EditorComponentRegistry, EditorOpenType } from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { QuickPickItem, QuickPickService } from '@opensumi/ide-quick-open';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IResource, IResourceProvider, ResourceService } from '@Nuvio-MCP/ide-editor';
+import { BrowserEditorContribution, EditorComponentRegistry, EditorOpenType } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { QuickPickItem, QuickPickService } from '@Nuvio-MCP/ide-quick-open';
 
 import { IKeymapService, KEYMAPS_SCHEME } from '../common';
 

@@ -1,13 +1,13 @@
-import { CommandService, URI, formatLocalize, path } from '@opensumi/ide-core-browser';
-import { ScmChangeTitleCallback } from '@opensumi/ide-core-browser/lib/menu/next';
-import { ZoneWidget } from '@opensumi/ide-monaco-enhance/lib/browser';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { CommandService, URI, formatLocalize, path } from '@Nuvio-MCP/ide-core-browser';
+import { ScmChangeTitleCallback } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { ZoneWidget } from '@Nuvio-MCP/ide-monaco-enhance/lib/browser';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
 
 import { IDirtyDiffModel, OPEN_DIRTY_DIFF_WIDGET } from '../../common';
 
 import { ChangeType, getChangeType, toChange } from './dirty-diff-util';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 export enum DirtyDiffWidgetActionType {
   close,

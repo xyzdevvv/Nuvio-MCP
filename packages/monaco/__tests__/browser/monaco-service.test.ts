@@ -1,4 +1,4 @@
-import { MonacoOverrideServiceRegistry } from '@opensumi/ide-core-browser';
+import { MonacoOverrideServiceRegistry } from '@Nuvio-MCP/ide-core-browser';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

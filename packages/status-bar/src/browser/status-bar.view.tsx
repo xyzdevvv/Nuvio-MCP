@@ -1,12 +1,12 @@
 import cls from 'classnames';
 import React, { memo, useCallback } from 'react';
 
-import { StatusBarEntry, useAutorun, useEventDrivenState } from '@opensumi/ide-core-browser';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { ICtxMenuRenderer, generateCtxMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
-import { IStatusBarService } from '@opensumi/ide-core-browser/lib/services';
+import { StatusBarEntry, useAutorun, useEventDrivenState } from '@Nuvio-MCP/ide-core-browser';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { ICtxMenuRenderer, generateCtxMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
+import { IStatusBarService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 
 import { StatusBarItem } from './status-bar-item.view';
 import styles from './status-bar.module.less';

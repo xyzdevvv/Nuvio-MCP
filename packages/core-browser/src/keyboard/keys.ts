@@ -15,7 +15,7 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/core/src/browser/keyboard/keys.ts
 
-import { isOSX, isWindows } from '@opensumi/ide-core-common';
+import { isOSX, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 export type KeySequence = KeyCode[];
 

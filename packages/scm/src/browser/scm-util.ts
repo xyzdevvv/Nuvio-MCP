@@ -1,4 +1,4 @@
-import { path } from '@opensumi/ide-core-browser';
+import { path } from '@Nuvio-MCP/ide-core-browser';
 
 import { ISCMRepository, ISCMResource, ISCMResourceGroup } from '../common';
 

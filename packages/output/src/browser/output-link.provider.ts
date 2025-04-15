@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Schemes, URI, Uri, path, strings } from '@opensumi/ide-core-browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Schemes, URI, Uri, path, strings } from '@Nuvio-MCP/ide-core-browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 export interface IResourceCreator {
   toResource: (folderRelativePath: string) => string | undefined;

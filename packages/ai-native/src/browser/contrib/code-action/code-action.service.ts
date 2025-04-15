@@ -1,8 +1,8 @@
-import { Injectable } from '@opensumi/di';
-import { AI_CODE_ACTION } from '@opensumi/ide-core-browser/lib/ai-native/command';
-import { AIActionItem } from '@opensumi/ide-core-browser/lib/components/ai-native/index';
-import { Disposable, Emitter, IRange } from '@opensumi/ide-core-common';
-import { CodeAction } from '@opensumi/ide-monaco';
+import { Injectable } from '@Nuvio-MCP/di';
+import { AI_CODE_ACTION } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
+import { AIActionItem } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/index';
+import { Disposable, Emitter, IRange } from '@Nuvio-MCP/ide-core-common';
+import { CodeAction } from '@Nuvio-MCP/ide-monaco';
 
 @Injectable()
 export class CodeActionService extends Disposable {

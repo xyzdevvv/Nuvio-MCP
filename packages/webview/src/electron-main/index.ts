@@ -1,9 +1,9 @@
 import { protocol } from 'electron';
 
-import { Injectable } from '@opensumi/di';
-import { Domain } from '@opensumi/ide-core-common';
-import { ElectronMainContribution, ElectronMainModule } from '@opensumi/ide-core-electron-main';
-import { ProtocolElectronMainContribution } from '@opensumi/ide-core-electron-main/lib/bootstrap/services/protocol';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Domain } from '@Nuvio-MCP/ide-core-common';
+import { ElectronMainContribution, ElectronMainModule } from '@Nuvio-MCP/ide-core-electron-main';
+import { ProtocolElectronMainContribution } from '@Nuvio-MCP/ide-core-electron-main/lib/bootstrap/services/protocol';
 
 import { WebviewScheme } from '../common';
 

@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 @Injectable()
 export class MockContextKeyService extends Disposable {

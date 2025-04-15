@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ITreeNodeOrCompositeTreeNode, Tree } from '@opensumi/ide-components';
-import { Emitter, Event, PreferenceService } from '@opensumi/ide-core-browser';
-import { PreferenceScope, URI } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ITreeNodeOrCompositeTreeNode, Tree } from '@Nuvio-MCP/ide-components';
+import { Emitter, Event, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { PreferenceScope, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { ISCMResource, ISCMResourceGroup, SCMViewModelMode } from '../../../common';
 

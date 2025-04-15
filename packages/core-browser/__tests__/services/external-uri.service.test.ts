@@ -43,27 +43,27 @@ describe('external-uri service test', () => {
   });
 
   it('not transfer if it is the remote url', async () => {
-    const uri = new URI('https://opensumi.com/workspaces/5fb21cc29b67dcd76a27272f');
+    const uri = new URI('https://Nuvio-MCP.com/workspaces/5fb21cc29b67dcd76a27272f');
     const externalUri = externalUriService.resolveExternalUri(uri);
     expect(externalUri.scheme).toBe('https');
-    expect(externalUri.authority).toBe('opensumi.com');
+    expect(externalUri.authority).toBe('Nuvio-MCP.com');
     expect(externalUri.path.toString()).toBe('/workspaces/5fb21cc29b67dcd76a27272f');
-    expect(externalUri.toString(true)).toBe('https://opensumi.com/workspaces/5fb21cc29b67dcd76a27272f');
+    expect(externalUri.toString(true)).toBe('https://Nuvio-MCP.com/workspaces/5fb21cc29b67dcd76a27272f');
   });
 
   it('use remote host', async () => {
     injector.overrideProviders({
       token: AppConfig,
       useValue: {
-        remoteHostname: 'opensumi.com',
+        remoteHostname: 'Nuvio-MCP.com',
       },
     });
     const uri = new URI('http://localhost:8080?userId=1');
     const externalUri = externalUriService.resolveExternalUri(uri);
     expect(externalUri.scheme).toBe('https');
-    expect(externalUri.authority).toBe('opensumi.com:8080');
+    expect(externalUri.authority).toBe('Nuvio-MCP.com:8080');
     expect(externalUri.path.toString()).toBe('/');
     expect(externalUri.query).toBe('userId=1');
-    expect(externalUri.toString(true)).toBe('https://opensumi.com:8080/?userId=1');
+    expect(externalUri.toString(true)).toBe('https://Nuvio-MCP.com:8080/?userId=1');
   });
 });

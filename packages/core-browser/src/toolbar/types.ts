@@ -1,5 +1,5 @@
-import { DropDownProps, IDataOption, IDataOptionGroup } from '@opensumi/ide-components';
-import { BasicEvent, Event, IDisposable } from '@opensumi/ide-core-common';
+import { DropDownProps, IDataOption, IDataOptionGroup } from '@Nuvio-MCP/ide-components';
+import { BasicEvent, Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 export const IToolbarRegistry = Symbol('IToolbarRegistry');
 

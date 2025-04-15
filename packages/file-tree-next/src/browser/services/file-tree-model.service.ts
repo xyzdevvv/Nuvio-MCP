@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   Decoration,
   DecorationsManager,
@@ -10,8 +10,8 @@ import {
   TreeModel,
   TreeNodeEvent,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { ISerializableState, TreeStateWatcher } from '@opensumi/ide-components/lib/recycle-tree/tree/model/treeState';
+} from '@Nuvio-MCP/ide-components';
+import { ISerializableState, TreeStateWatcher } from '@Nuvio-MCP/ide-components/lib/recycle-tree/tree/model/treeState';
 import {
   CommandService,
   CorePreferences,
@@ -37,15 +37,15 @@ import {
   path,
   strings,
   toMarkdown,
-} from '@opensumi/ide-core-browser';
-import { ResourceContextKey } from '@opensumi/ide-core-browser/lib/contextkey/resource';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { FileStat, IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { RETRACT_BOTTOM_PANEL } from '@opensumi/ide-main-layout/lib/browser/main-layout.contribution';
-import { IDialogService, IMessageService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ResourceContextKey } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/resource';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { FileStat, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { RETRACT_BOTTOM_PANEL } from '@Nuvio-MCP/ide-main-layout/lib/browser/main-layout.contribution';
+import { IDialogService, IMessageService } from '@Nuvio-MCP/ide-overlay';
 
 import { IFileTreeAPI, IFileTreeService, PasteTypes } from '../../common';
 import { Directory, File } from '../../common/file-tree-node.define';

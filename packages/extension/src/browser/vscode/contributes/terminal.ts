@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { LifeCyclePhase, localize } from '@opensumi/ide-core-common';
-import { ITerminalContributions, ITerminalProfileService } from '@opensumi/ide-terminal-next/lib/common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { LifeCyclePhase, localize } from '@Nuvio-MCP/ide-core-common';
+import { ITerminalContributions, ITerminalProfileService } from '@Nuvio-MCP/ide-terminal-next/lib/common';
 
 import { Contributes, ExtensionContributePoint, LifeCycle, VSCodeContributePoint } from '../../../common';
 

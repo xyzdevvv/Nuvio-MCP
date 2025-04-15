@@ -1,9 +1,9 @@
 import { z } from 'zod';
 
-import { Autowired } from '@opensumi/di';
-import { Domain, URI, path } from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain, URI, path } from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IMCPServerRegistry, MCPLogger, MCPServerContribution, MCPToolDefinition } from '../../types';
 import { BaseApplyService } from '../base-apply.service';

@@ -1,10 +1,10 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { CheckBox, Input, Popover, PopoverPosition, PopoverTriggerType } from '@opensumi/ide-components';
-import { ConfigContext } from '@opensumi/ide-core-browser/lib/react-providers/config-provider';
-import { getExternalIcon, getIcon } from '@opensumi/ide-core-browser/lib/style/icon/icon';
-import { localize } from '@opensumi/ide-core-common/lib/localize';
+import { CheckBox, Input, Popover, PopoverPosition, PopoverTriggerType } from '@Nuvio-MCP/ide-components';
+import { ConfigContext } from '@Nuvio-MCP/ide-core-browser/lib/react-providers/config-provider';
+import { getExternalIcon, getIcon } from '@Nuvio-MCP/ide-core-browser/lib/style/icon/icon';
+import { localize } from '@Nuvio-MCP/ide-core-common/lib/localize';
 
 import { IContentSearchClientService } from '../common/content-search';
 

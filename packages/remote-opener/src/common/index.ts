@@ -1,4 +1,4 @@
-import { IDisposable, Uri } from '@opensumi/ide-core-browser';
+import { IDisposable, Uri } from '@Nuvio-MCP/ide-core-browser';
 
 export const RemoteOpenerServicePath = 'RemoteOpenerService';
 
@@ -43,7 +43,7 @@ export interface IRemoteHostConverter {
    * ```typescript
    * // port: 3030
    * const host = converter.convert('3030');
-   * // host: 'cloud-ide.opensumi-3030.com'
+   * // host: 'cloud-ide.Nuvio-MCP-3030.com'
    * ```
    */
   convert(port: string): string;

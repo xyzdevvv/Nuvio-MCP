@@ -1,6 +1,6 @@
-import { Autowired } from '@opensumi/di';
-import { AINativeConfigService, ClientAppContribution, Domain } from '@opensumi/ide-core-browser';
-import { TerminalRegistryToken } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { AINativeConfigService, ClientAppContribution, Domain } from '@Nuvio-MCP/ide-core-browser';
+import { TerminalRegistryToken } from '@Nuvio-MCP/ide-core-common';
 
 import { AITerminalService } from './ai-terminal.service';
 import { AITerminalDecorationService } from './decoration/terminal-decoration';

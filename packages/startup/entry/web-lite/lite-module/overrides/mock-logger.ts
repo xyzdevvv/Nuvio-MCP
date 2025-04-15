@@ -1,8 +1,8 @@
 // FIXME: 替换成自定义的后端实现
 
-import { Injectable } from '@opensumi/di';
-import { LogLevel, SupportLogNamespace } from '@opensumi/ide-core-browser';
-import { ensureDir } from '@opensumi/ide-core-common/lib/browser-fs/ensure-dir';
+import { Injectable } from '@Nuvio-MCP/di';
+import { LogLevel, SupportLogNamespace } from '@Nuvio-MCP/ide-core-browser';
+import { ensureDir } from '@Nuvio-MCP/ide-core-common/lib/browser-fs/ensure-dir';
 
 @Injectable()
 export class MockLogServiceForClient {

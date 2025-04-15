@@ -1,4 +1,4 @@
-import { Autowired, Injector } from '@opensumi/di';
+import { Autowired, Injector } from '@Nuvio-MCP/di';
 
 import { DataStoreOptions, InMemoryDataStore } from './store';
 

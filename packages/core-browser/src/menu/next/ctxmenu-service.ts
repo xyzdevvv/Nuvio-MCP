@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { Disposable, Emitter, Event, IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IContextKeyService } from '../../context-key';
 

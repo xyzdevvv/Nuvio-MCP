@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/1.86.0/src/vs/base/common/codicons.ts
-import { isString } from '@opensumi/ide-utils';
+import { isString } from '@Nuvio-MCP/ide-utils';
 
 import { ThemeIcon } from './theme';
 

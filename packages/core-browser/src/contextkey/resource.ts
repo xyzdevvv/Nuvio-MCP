@@ -1,4 +1,4 @@
-import { Schemes, URI } from '@opensumi/ide-core-common';
+import { Schemes, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { IContextKey, IContextKeyService } from '../context-key';
 import { getLanguageIdFromMonaco } from '../services/label-service';

@@ -1,8 +1,8 @@
 // eslint-disable-next-line import/order
-import { mockElectronRenderer } from '@opensumi/ide-core-common/lib/mocks/electron/browserMock';
+import { mockElectronRenderer } from '@Nuvio-MCP/ide-core-common/lib/mocks/electron/browserMock';
 
 mockElectronRenderer();
-import { MockedElectronIpcRenderer } from '@opensumi/ide-core-common/lib/mocks/electron/ipcRenderer';
+import { MockedElectronIpcRenderer } from '@Nuvio-MCP/ide-core-common/lib/mocks/electron/ipcRenderer';
 
 import { ElectronWebviewChannel } from '../../src/electron-webview/host-channel';
 import { WebIframeChannel, getIdFromSearch } from '../../src/webview-host/web-iframe-channel';

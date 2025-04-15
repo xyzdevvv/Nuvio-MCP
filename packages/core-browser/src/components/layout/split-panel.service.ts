@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Deferred, Disposable, IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Deferred, Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { AppConfig, SlotRenderer } from '../../react-providers';
 import { RESIZE_LOCK } from '../resize/resize';

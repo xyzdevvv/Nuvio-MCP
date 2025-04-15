@@ -2,9 +2,9 @@ import path from 'path';
 
 import { URI as Uri } from 'vscode-uri';
 
-import { Injector } from '@opensumi/di';
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { IExtensionProps, URI, isWindows } from '@opensumi/ide-core-common';
+import { Injector } from '@Nuvio-MCP/di';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { IExtensionProps, URI, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 import { initMockRPCProtocol } from '../../../../__mocks__/initRPCProtocol';
 import { ExtensionMode } from '../../../../src/common/vscode/ext-types';

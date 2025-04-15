@@ -1,4 +1,4 @@
-import { IMarkdownString, UriComponents } from '@opensumi/ide-core-common';
+import { IMarkdownString, UriComponents } from '@Nuvio-MCP/ide-core-common';
 
 import { illegalArgument } from '../utils';
 

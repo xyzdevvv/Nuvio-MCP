@@ -1,4 +1,4 @@
-import { PreferenceService } from '@opensumi/ide-core-browser';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   AINativeSettingSectionsId,
   ChatResponse,
@@ -8,9 +8,9 @@ import {
   Event,
   IDisposable,
   ReplyResponse,
-} from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICodeEditor } from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
 import {
   IObservable,
   ISettableObservable,
@@ -18,7 +18,7 @@ import {
   observableFromEvent,
   observableValue,
   transaction,
-} from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { BaseAIMonacoEditorController } from '../../contrib/base';
 import { EInlineDiffPreviewMode } from '../../preferences/schema';

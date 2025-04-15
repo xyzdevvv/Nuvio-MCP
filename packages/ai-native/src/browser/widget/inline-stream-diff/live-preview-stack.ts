@@ -1,8 +1,8 @@
-import { ITextModel, Uri } from '@opensumi/ide-monaco';
+import { ITextModel, Uri } from '@Nuvio-MCP/ide-monaco';
 import {
   IResourceUndoRedoElement,
   UndoRedoElementType,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
 
 import { LivePreviewDiffDecorationModel } from './live-preview.decoration';
 

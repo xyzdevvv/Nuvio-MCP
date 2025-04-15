@@ -1,4 +1,4 @@
-import { Emitter, Event, ISplice, Sequence, URI, Uri } from '@opensumi/ide-core-common';
+import { Emitter, Event, ISplice, Sequence, URI, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { ISCMProvider, ISCMResource, ISCMResourceGroup, VSCommand } from '../src/common';
 

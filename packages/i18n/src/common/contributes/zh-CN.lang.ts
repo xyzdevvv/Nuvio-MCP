@@ -1,6 +1,6 @@
 export const browserViews = {
   // sumiContributes
-  'sumiContributes.contributes': '声明 OpenSumi 扩展的所有贡献点信息',
+  'sumiContributes.contributes': '声明 Nuvio-MCP 扩展的所有贡献点信息',
 
   // 公用 properties，如 command
   'sumiContributes.common.command': '要执行的命令。该命令必须在 "contributes.command" 中声明（内置命令除外）',
@@ -14,7 +14,7 @@ export const browserViews = {
   'sumiContributes.browserViews.bottom': '在底部标签栏容器提供视图（不会渲染图标，所以需要提供标题）',
   'sumiContributes.browserViews.location.custom': '向 "{0}" 容器提供视图',
   'sumiContributes.browserViews.view.id': '视图 id, browser/index 中需要导出一个与此 id 相同名称的组件',
-  'sumiContributes.browserViews.view.icon': '图标名称，参考: [内置图标集](https://opensumi.github.io/core/)',
+  'sumiContributes.browserViews.view.icon': '图标名称，参考: [内置图标集](https://Nuvio-MCP.github.io/core/)',
   'sumiContributes.browserViews.view.iconPath': '本地图标相对路径',
   'sumiContributes.browserViews.view.title': '视图标题（当 type 为 bottom 时，将展示）',
   'sumiContributes.browserViews.view.titleComponentId': '自定义视图标题组件 id, 特性与普通的 browserView 完全一致',

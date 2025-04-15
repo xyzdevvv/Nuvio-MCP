@@ -1,6 +1,6 @@
 import cloneDeep from 'lodash/cloneDeep';
 
-import { Uri, isObject } from '@opensumi/ide-core-common';
+import { Uri, isObject } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtHostWorkspace } from '../../../../common/vscode';
 

@@ -8,10 +8,10 @@ import {
   URI,
   localize,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { ReactEditorComponent } from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMessageService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ReactEditorComponent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 
 import { IWelcomeMetaData } from './common';
 import styles from './welcome.module.less';

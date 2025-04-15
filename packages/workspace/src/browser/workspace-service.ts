@@ -1,6 +1,6 @@
 import * as jsoncparser from 'jsonc-parser';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   Deferred,
@@ -16,7 +16,7 @@ import {
   PreferenceScope,
   PreferenceService,
   path,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   IStorage,
   STORAGE_NAMESPACE,
@@ -25,10 +25,10 @@ import {
   URI,
   formatLocalize,
   localize,
-} from '@opensumi/ide-core-common';
-import { flattenExcludes } from '@opensumi/ide-core-common/lib/preferences/file-watch';
-import { FileStat } from '@opensumi/ide-file-service';
-import { FileChangeEvent, IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-core-common';
+import { flattenExcludes } from '@Nuvio-MCP/ide-core-common/lib/preferences/file-watch';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
+import { FileChangeEvent, IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import {
   DEFAULT_WORKSPACE_SUFFIX_NAME,

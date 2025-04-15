@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { ValidateInput } from '@opensumi/ide-components';
-import { getIcon, localize, useInjectable } from '@opensumi/ide-core-browser';
+import { ValidateInput } from '@Nuvio-MCP/ide-components';
+import { getIcon, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { ISearchResult, ITerminalSearchService } from '../../common';
 

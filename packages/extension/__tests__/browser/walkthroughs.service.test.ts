@@ -1,6 +1,6 @@
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IExtension } from '@opensumi/ide-extension';
-import { AbstractExtInstanceManagementService } from '@opensumi/ide-extension/lib/browser/types';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IExtension } from '@Nuvio-MCP/ide-extension';
+import { AbstractExtInstanceManagementService } from '@Nuvio-MCP/ide-extension/lib/browser/types';
 
 import { WalkthroughsService } from '../../src/browser/walkthroughs.service';
 

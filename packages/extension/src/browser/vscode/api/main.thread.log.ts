@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { ILogger, LogLevel } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { ILogger, LogLevel } from '@Nuvio-MCP/ide-core-common';
 
 import { IMainThreadExtensionLog, MainThreadExtensionLogIdentifier } from '../../../common/extension-log';
 

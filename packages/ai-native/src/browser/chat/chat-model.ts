@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   Disposable,
   Emitter,
@@ -10,8 +10,8 @@ import {
   IChatToolContent,
   IChatTreeData,
   uuid,
-} from '@opensumi/ide-core-common';
-import { MarkdownString, isMarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
+} from '@Nuvio-MCP/ide-core-common';
+import { MarkdownString, isMarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
 
 import {
   CoreMessage,

@@ -1,4 +1,4 @@
-import { URI } from '@opensumi/ide-utils';
+import { URI } from '@Nuvio-MCP/ide-utils';
 
 export const IClipboardService = Symbol('IClipboardService');
 export const CLIPBOARD_FILE_TOKEN = 'clipboard/file-list';

@@ -1,7 +1,7 @@
 {
-  "name": "@opensumi/ide-core-browser",
+  "name": "@Nuvio-MCP/ide-core-browser",
   "version": "3.8.2",
-  "description": "@opensumi/ide-core-browser",
+  "description": "@Nuvio-MCP/ide-core-browser",
   "files": [
     "lib",
     "src"
@@ -11,17 +11,17 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "scripts": {
     "prepublishOnly": "yarn run build",
     "build": "tsc --build ../../configs/ts/references/tsconfig.core-browser.json"
   },
   "dependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-connection": "workspace:*",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/vscode-debugprotocol": "1.49.0-beta.1",
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-connection": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/vscode-debugprotocol": "1.49.0-beta.1",
     "@vscode/codicons": "0.0.35",
     "ajv": "^6.10.0",
     "classnames": "2.5.1",

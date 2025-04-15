@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-static-resource",
+  "name": "@Nuvio-MCP/ide-static-resource",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
   },
   "devDependencies": {
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

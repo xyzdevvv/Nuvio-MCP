@@ -1,4 +1,4 @@
-import { IJSONSchema, localize } from '@opensumi/ide-core-common';
+import { IJSONSchema, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { MenuId } from '../../menu/next';
 

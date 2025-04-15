@@ -5,8 +5,8 @@
 
 import React = require('react');
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { close, update } from '@opensumi/ide-components';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { close, update } from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   Disposable,
@@ -30,7 +30,7 @@ import {
   strings,
   timeout,
   toDisposable,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { open } from '../components';
 import { toMarkdown } from '../markdown';

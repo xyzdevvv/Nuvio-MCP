@@ -1,7 +1,7 @@
-import { Emitter } from '@opensumi/ide-core-common';
-import { CursorStatus, ILanguageService, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EditorStatusBarService } from '@opensumi/ide-editor/lib/browser/editor.status-bar.service';
-import { IStatusBarService } from '@opensumi/ide-status-bar/lib/common';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { CursorStatus, ILanguageService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EditorStatusBarService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.status-bar.service';
+import { IStatusBarService } from '@Nuvio-MCP/ide-status-bar/lib/common';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 

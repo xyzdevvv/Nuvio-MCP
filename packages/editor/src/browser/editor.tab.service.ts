@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
-import { Injectable } from '@opensumi/di';
-import { WithEventBus } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { WithEventBus } from '@Nuvio-MCP/ide-core-browser';
 
 import { IEditorTabService } from './types';
 

@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, URI, WithEventBus, getIcon } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, URI, WithEventBus, getIcon } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { IResourceProvider, ResourceService } from '../../common';
 import { IMultiDiffSourceResolverService } from '../../common/multi-diff';

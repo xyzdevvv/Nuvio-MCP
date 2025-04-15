@@ -1,6 +1,6 @@
-import { StorageService } from '@opensumi/ide-core-browser/lib/services';
-import { Event, URI } from '@opensumi/ide-core-common';
-import { FileStat } from '@opensumi/ide-file-service';
+import { StorageService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { Event, URI } from '@Nuvio-MCP/ide-core-common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 export interface WorkspaceInput {
   /**

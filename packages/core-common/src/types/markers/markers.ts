@@ -1,4 +1,4 @@
-import { Uri, isEmptyObject } from '@opensumi/ide-utils';
+import { Uri, isEmptyObject } from '@Nuvio-MCP/ide-utils';
 
 export interface MapMap<V> {
   [key: string]: { [key: string]: V };

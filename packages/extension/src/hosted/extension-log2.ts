@@ -1,6 +1,6 @@
-import { Injector } from '@opensumi/di';
-import { IExtensionLogger, ILogService, LogLevel, SupportLogNamespace } from '@opensumi/ide-core-common';
-import { LogServiceManager } from '@opensumi/ide-logs/lib/node/log-manager';
+import { Injector } from '@Nuvio-MCP/di';
+import { IExtensionLogger, ILogService, LogLevel, SupportLogNamespace } from '@Nuvio-MCP/ide-core-common';
+import { LogServiceManager } from '@Nuvio-MCP/ide-logs/lib/node/log-manager';
 
 import { ExtHostAppConfig } from '../common/ext.process';
 import { getNodeRequire } from '../common/utils';

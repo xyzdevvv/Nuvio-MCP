@@ -1,10 +1,10 @@
-import { Injectable, Injector } from '@opensumi/di';
-import { MockLogger, MockLoggerManageClient, MockLoggerService } from '@opensumi/ide-core-browser/__mocks__/logger';
-import { useMockStorage } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { ClientApp } from '@opensumi/ide-core-browser/lib/bootstrap/app';
-import { BrowserModule } from '@opensumi/ide-core-browser/lib/browser-module';
-import { IContextKeyService } from '@opensumi/ide-core-browser/lib/context-key';
-import { RecentFilesManager } from '@opensumi/ide-core-browser/lib/quick-open';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { MockLogger, MockLoggerManageClient, MockLoggerService } from '@Nuvio-MCP/ide-core-browser/__mocks__/logger';
+import { useMockStorage } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { ClientApp } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/app';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser/lib/browser-module';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser/lib/context-key';
+import { RecentFilesManager } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 import {
   CommonServerPath,
   ConstructorOf,
@@ -15,8 +15,8 @@ import {
   LogServiceForClientPath,
   OS,
   getDebugLogger,
-} from '@opensumi/ide-core-common';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
+} from '@Nuvio-MCP/ide-core-common';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
 
 import { MockInjector } from './mock-injector';
 

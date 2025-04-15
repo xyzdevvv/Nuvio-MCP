@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-file-service",
+  "name": "@Nuvio-MCP/ide-file-service",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-connection": "workspace:*",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-core-node": "workspace:*",
-    "@opensumi/ide-logs": "workspace:*",
-    "@opensumi/ide-utils": "workspace:*",
+    "@Nuvio-MCP/ide-connection": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-node": "workspace:*",
+    "@Nuvio-MCP/ide-logs": "workspace:*",
+    "@Nuvio-MCP/ide-utils": "workspace:*",
     "@parcel/watcher": "2.1.0",
     "file-type": "16.5.4",
     "nsfw": "2.2.0",
@@ -31,7 +31,7 @@
     "write-file-atomic": "^5.0.1"
   },
   "devDependencies": {
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

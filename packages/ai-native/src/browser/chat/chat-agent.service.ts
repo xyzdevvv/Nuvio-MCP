@@ -1,6 +1,6 @@
 import flatMap from 'lodash/flatMap';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AIServiceType,
   ActionSourceEnum,
@@ -15,7 +15,7 @@ import {
   IDisposable,
   ILogger,
   toDisposable,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   CoreMessage,

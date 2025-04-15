@@ -1,4 +1,4 @@
-import { IRange } from '@opensumi/ide-core-common';
+import { IRange } from '@Nuvio-MCP/ide-core-common';
 import * as monaco from '../../src/common';
 
 import { partialMock } from './common/util';

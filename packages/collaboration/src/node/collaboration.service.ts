@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { INodeLogger } from '@opensumi/ide-core-node';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { INodeLogger } from '@Nuvio-MCP/ide-core-node';
 
 import { ICollaborationServiceForClient, IYWebsocketServer } from '../common';
 

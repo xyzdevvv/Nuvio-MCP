@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationToken,
   Emitter,
@@ -6,7 +6,7 @@ import {
   Disposable as IDEDisposable,
   IExtensionInfo,
   Schemes,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   IExtHostWebview,

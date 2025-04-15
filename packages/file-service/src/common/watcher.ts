@@ -1,10 +1,10 @@
-import { ProxyIdentifier } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { Event, FileChange, IRelativePattern, URI, UriComponents } from '@opensumi/ide-core-common';
+import { ProxyIdentifier } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { Event, FileChange, IRelativePattern, URI, UriComponents } from '@Nuvio-MCP/ide-core-common';
 import {
   DidFilesChangedParams,
   FileSystemWatcherClient,
   RecursiveWatcherBackend,
-} from '@opensumi/ide-core-common/lib/types/file-watch';
+} from '@Nuvio-MCP/ide-core-common/lib/types/file-watch';
 
 import { IFileServiceClient } from './file-service-client';
 

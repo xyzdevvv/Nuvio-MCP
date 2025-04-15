@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   AIServiceType,
   CodeEditsRT,
@@ -8,8 +8,8 @@ import {
   IAIReporter,
   IDisposable,
   uuid,
-} from '@opensumi/ide-core-common';
-import { CancellationTokenSource, ICodeEditor } from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-common';
+import { CancellationTokenSource, ICodeEditor } from '@Nuvio-MCP/ide-monaco';
 import {
   autorunDelta,
   debouncedObservable2,
@@ -17,7 +17,7 @@ import {
   disposableObservableValue,
   observableValue,
   transaction,
-} from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { ICodeEditsContextBean } from '../index';
 

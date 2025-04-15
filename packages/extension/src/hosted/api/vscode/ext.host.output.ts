@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter, Event, getErrorMessage, isString } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter, Event, getErrorMessage, isString } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ICreateOutputChannelOptions,

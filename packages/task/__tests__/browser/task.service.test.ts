@@ -1,27 +1,27 @@
-import { IJSONSchemaRegistry, ISchemaStore, PreferenceService, QuickOpenService } from '@opensumi/ide-core-browser';
-import { FileUri, Uri } from '@opensumi/ide-core-common';
+import { IJSONSchemaRegistry, ISchemaStore, PreferenceService, QuickOpenService } from '@Nuvio-MCP/ide-core-browser';
+import { FileUri, Uri } from '@Nuvio-MCP/ide-core-common';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor';
 import {
   EmptyDocCacheImpl,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/src/browser';
+} from '@Nuvio-MCP/ide-editor/src/browser';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
-} from '@opensumi/ide-editor/src/browser/doc-model/main';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { OutputPreferences } from '@opensumi/ide-output/lib/browser/output-preference';
-import { schema, taskSchemaUri } from '@opensumi/ide-task/lib/browser/task.schema';
-import { TaskService } from '@opensumi/ide-task/lib/browser/task.service';
-import { TerminalTaskSystem } from '@opensumi/ide-task/lib/browser/terminal-task-system';
-import { ITaskProvider, ITaskService, ITaskSystem } from '@opensumi/ide-task/lib/common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+} from '@Nuvio-MCP/ide-editor/src/browser/doc-model/main';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { OutputPreferences } from '@Nuvio-MCP/ide-output/lib/browser/output-preference';
+import { schema, taskSchemaUri } from '@Nuvio-MCP/ide-task/lib/browser/task.schema';
+import { TaskService } from '@Nuvio-MCP/ide-task/lib/browser/task.service';
+import { TerminalTaskSystem } from '@Nuvio-MCP/ide-task/lib/browser/terminal-task-system';
+import { ITaskProvider, ITaskService, ITaskSystem } from '@Nuvio-MCP/ide-task/lib/common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockWalkThroughSnippetSchemeDocumentProvider } from '../../../file-scheme/__mocks__/browser/file-doc';

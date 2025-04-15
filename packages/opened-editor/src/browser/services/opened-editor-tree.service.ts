@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ITreeNodeOrCompositeTreeNode, Tree, TreeNodeType } from '@opensumi/ide-components';
-import { Schemes, URI, formatLocalize, path } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { IEditorGroup, IResource, ResourceService, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ITreeNodeOrCompositeTreeNode, Tree, TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { Schemes, URI, formatLocalize, path } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IEditorGroup, IResource, ResourceService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { EditorFile, EditorFileGroup, EditorFileRoot, OpenedEditorData } from '../opened-editor-node.define';
 

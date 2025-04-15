@@ -1,306 +1,306 @@
 {
   "meta": {
-    "@opensumi/ide-addons": {
+    "@Nuvio-MCP/ide-addons": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-ai-native": {
+    "@Nuvio-MCP/ide-ai-native": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-collaboration": {
+    "@Nuvio-MCP/ide-collaboration": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-comments": {
+    "@Nuvio-MCP/ide-comments": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-components": {
+    "@Nuvio-MCP/ide-components": {
       "version": "3.8.2",
       "entry": []
     },
-    "@opensumi/ide-connection": {
+    "@Nuvio-MCP/ide-connection": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-core-browser": {
+    "@Nuvio-MCP/ide-core-browser": {
       "version": "3.8.2",
       "entry": ["common"]
     },
-    "@opensumi/ide-core-common": {
+    "@Nuvio-MCP/ide-core-common": {
       "version": "3.8.2",
       "entry": ["node"]
     },
-    "@opensumi/ide-core-electron-main": {
+    "@Nuvio-MCP/ide-core-electron-main": {
       "version": "3.8.2",
       "entry": []
     },
-    "@opensumi/ide-core-node": {
+    "@Nuvio-MCP/ide-core-node": {
       "version": "3.8.2",
       "entry": []
     },
-    "@opensumi/ide-debug": {
+    "@Nuvio-MCP/ide-debug": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-decoration": {
+    "@Nuvio-MCP/ide-decoration": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-design": {
+    "@Nuvio-MCP/ide-design": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-editor": {
+    "@Nuvio-MCP/ide-editor": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-electron-basic": {
+    "@Nuvio-MCP/ide-electron-basic": {
       "version": "3.8.2",
       "entry": ["browser"]
     },
-    "@opensumi/ide-explorer": {
+    "@Nuvio-MCP/ide-explorer": {
       "version": "3.8.2",
       "entry": ["browser"]
     },
-    "@opensumi/ide-express-file-server": {
+    "@Nuvio-MCP/ide-express-file-server": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-extension": {
+    "@Nuvio-MCP/ide-extension": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-extension-manager": {
+    "@Nuvio-MCP/ide-extension-manager": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-extension-storage": {
+    "@Nuvio-MCP/ide-extension-storage": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-file-scheme": {
+    "@Nuvio-MCP/ide-file-scheme": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-file-search": {
+    "@Nuvio-MCP/ide-file-search": {
       "version": "3.8.2",
       "entry": ["node", "common"]
     },
-    "@opensumi/ide-file-service": {
+    "@Nuvio-MCP/ide-file-service": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-file-tree-next": {
+    "@Nuvio-MCP/ide-file-tree-next": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-i18n": {
+    "@Nuvio-MCP/ide-i18n": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-keymaps": {
+    "@Nuvio-MCP/ide-keymaps": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-logs": {
+    "@Nuvio-MCP/ide-logs": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-main-layout": {
+    "@Nuvio-MCP/ide-main-layout": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-markdown": {
+    "@Nuvio-MCP/ide-markdown": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-markers": {
+    "@Nuvio-MCP/ide-markers": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-menu-bar": {
+    "@Nuvio-MCP/ide-menu-bar": {
       "version": "3.8.2",
       "entry": ["browser"]
     },
-    "@opensumi/ide-monaco": {
+    "@Nuvio-MCP/ide-monaco": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-monaco-enhance": {
+    "@Nuvio-MCP/ide-monaco-enhance": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-notebook": {
+    "@Nuvio-MCP/ide-notebook": {
       "version": "3.8.2",
       "entry": ["browser"]
     },
-    "@opensumi/ide-opened-editor": {
+    "@Nuvio-MCP/ide-opened-editor": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-outline": {
+    "@Nuvio-MCP/ide-outline": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-output": {
+    "@Nuvio-MCP/ide-output": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-overlay": {
+    "@Nuvio-MCP/ide-overlay": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-preferences": {
+    "@Nuvio-MCP/ide-preferences": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-process": {
+    "@Nuvio-MCP/ide-process": {
       "version": "3.8.2",
       "entry": ["node", "common"]
     },
-    "@opensumi/ide-quick-open": {
+    "@Nuvio-MCP/ide-quick-open": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/remote-cli": {
+    "@Nuvio-MCP/remote-cli": {
       "version": "3.8.2",
       "entry": []
     },
-    "@opensumi/ide-remote-opener": {
+    "@Nuvio-MCP/ide-remote-opener": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-scm": {
+    "@Nuvio-MCP/ide-scm": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-search": {
+    "@Nuvio-MCP/ide-search": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-startup": {
+    "@Nuvio-MCP/ide-startup": {
       "version": "3.8.2",
       "entry": ["browser"]
     },
-    "@opensumi/ide-static-resource": {
+    "@Nuvio-MCP/ide-static-resource": {
       "version": "3.8.2",
       "entry": ["browser"]
     },
-    "@opensumi/ide-status-bar": {
+    "@Nuvio-MCP/ide-status-bar": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-storage": {
+    "@Nuvio-MCP/ide-storage": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-task": {
+    "@Nuvio-MCP/ide-task": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-terminal-next": {
+    "@Nuvio-MCP/ide-terminal-next": {
       "version": "3.8.2",
       "entry": ["node", "browser", "common"]
     },
-    "@opensumi/ide-testing": {
+    "@Nuvio-MCP/ide-testing": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-theme": {
+    "@Nuvio-MCP/ide-theme": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-toolbar": {
+    "@Nuvio-MCP/ide-toolbar": {
       "version": "3.8.2",
       "entry": ["browser"]
     },
-    "@opensumi/sumi": {
+    "@Nuvio-MCP/sumi": {
       "version": "3.8.2",
       "entry": []
     },
-    "@opensumi/ide-utils": {
+    "@Nuvio-MCP/ide-utils": {
       "version": "3.8.2",
       "entry": []
     },
-    "@opensumi/ide-variable": {
+    "@Nuvio-MCP/ide-variable": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-webview": {
+    "@Nuvio-MCP/ide-webview": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-workspace": {
+    "@Nuvio-MCP/ide-workspace": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     },
-    "@opensumi/ide-workspace-edit": {
+    "@Nuvio-MCP/ide-workspace-edit": {
       "version": "3.8.2",
       "entry": ["browser", "common"]
     }
   },
   "packages": {
-    "@opensumi/ide-addons": "3.8.2",
-    "@opensumi/ide-ai-native": "3.8.2",
-    "@opensumi/ide-collaboration": "3.8.2",
-    "@opensumi/ide-comments": "3.8.2",
-    "@opensumi/ide-components": "3.8.2",
-    "@opensumi/ide-connection": "3.8.2",
-    "@opensumi/ide-core-browser": "3.8.2",
-    "@opensumi/ide-core-common": "3.8.2",
-    "@opensumi/ide-core-electron-main": "3.8.2",
-    "@opensumi/ide-core-node": "3.8.2",
-    "@opensumi/ide-debug": "3.8.2",
-    "@opensumi/ide-decoration": "3.8.2",
-    "@opensumi/ide-design": "3.8.2",
-    "@opensumi/ide-editor": "3.8.2",
-    "@opensumi/ide-electron-basic": "3.8.2",
-    "@opensumi/ide-explorer": "3.8.2",
-    "@opensumi/ide-express-file-server": "3.8.2",
-    "@opensumi/ide-extension": "3.8.2",
-    "@opensumi/ide-extension-manager": "3.8.2",
-    "@opensumi/ide-extension-storage": "3.8.2",
-    "@opensumi/ide-file-scheme": "3.8.2",
-    "@opensumi/ide-file-search": "3.8.2",
-    "@opensumi/ide-file-service": "3.8.2",
-    "@opensumi/ide-file-tree-next": "3.8.2",
-    "@opensumi/ide-i18n": "3.8.2",
-    "@opensumi/ide-keymaps": "3.8.2",
-    "@opensumi/ide-logs": "3.8.2",
-    "@opensumi/ide-main-layout": "3.8.2",
-    "@opensumi/ide-markdown": "3.8.2",
-    "@opensumi/ide-markers": "3.8.2",
-    "@opensumi/ide-menu-bar": "3.8.2",
-    "@opensumi/ide-monaco": "3.8.2",
-    "@opensumi/ide-monaco-enhance": "3.8.2",
-    "@opensumi/ide-notebook": "3.8.2",
-    "@opensumi/ide-opened-editor": "3.8.2",
-    "@opensumi/ide-outline": "3.8.2",
-    "@opensumi/ide-output": "3.8.2",
-    "@opensumi/ide-overlay": "3.8.2",
-    "@opensumi/ide-preferences": "3.8.2",
-    "@opensumi/ide-process": "3.8.2",
-    "@opensumi/ide-quick-open": "3.8.2",
-    "@opensumi/remote-cli": "3.8.2",
-    "@opensumi/ide-remote-opener": "3.8.2",
-    "@opensumi/ide-scm": "3.8.2",
-    "@opensumi/ide-search": "3.8.2",
-    "@opensumi/ide-startup": "3.8.2",
-    "@opensumi/ide-static-resource": "3.8.2",
-    "@opensumi/ide-status-bar": "3.8.2",
-    "@opensumi/ide-storage": "3.8.2",
-    "@opensumi/ide-task": "3.8.2",
-    "@opensumi/ide-terminal-next": "3.8.2",
-    "@opensumi/ide-testing": "3.8.2",
-    "@opensumi/ide-theme": "3.8.2",
-    "@opensumi/ide-toolbar": "3.8.2",
-    "@opensumi/sumi": "3.8.2",
-    "@opensumi/ide-utils": "3.8.2",
-    "@opensumi/ide-variable": "3.8.2",
-    "@opensumi/ide-webview": "3.8.2",
-    "@opensumi/ide-workspace": "3.8.2",
-    "@opensumi/ide-workspace-edit": "3.8.2"
+    "@Nuvio-MCP/ide-addons": "3.8.2",
+    "@Nuvio-MCP/ide-ai-native": "3.8.2",
+    "@Nuvio-MCP/ide-collaboration": "3.8.2",
+    "@Nuvio-MCP/ide-comments": "3.8.2",
+    "@Nuvio-MCP/ide-components": "3.8.2",
+    "@Nuvio-MCP/ide-connection": "3.8.2",
+    "@Nuvio-MCP/ide-core-browser": "3.8.2",
+    "@Nuvio-MCP/ide-core-common": "3.8.2",
+    "@Nuvio-MCP/ide-core-electron-main": "3.8.2",
+    "@Nuvio-MCP/ide-core-node": "3.8.2",
+    "@Nuvio-MCP/ide-debug": "3.8.2",
+    "@Nuvio-MCP/ide-decoration": "3.8.2",
+    "@Nuvio-MCP/ide-design": "3.8.2",
+    "@Nuvio-MCP/ide-editor": "3.8.2",
+    "@Nuvio-MCP/ide-electron-basic": "3.8.2",
+    "@Nuvio-MCP/ide-explorer": "3.8.2",
+    "@Nuvio-MCP/ide-express-file-server": "3.8.2",
+    "@Nuvio-MCP/ide-extension": "3.8.2",
+    "@Nuvio-MCP/ide-extension-manager": "3.8.2",
+    "@Nuvio-MCP/ide-extension-storage": "3.8.2",
+    "@Nuvio-MCP/ide-file-scheme": "3.8.2",
+    "@Nuvio-MCP/ide-file-search": "3.8.2",
+    "@Nuvio-MCP/ide-file-service": "3.8.2",
+    "@Nuvio-MCP/ide-file-tree-next": "3.8.2",
+    "@Nuvio-MCP/ide-i18n": "3.8.2",
+    "@Nuvio-MCP/ide-keymaps": "3.8.2",
+    "@Nuvio-MCP/ide-logs": "3.8.2",
+    "@Nuvio-MCP/ide-main-layout": "3.8.2",
+    "@Nuvio-MCP/ide-markdown": "3.8.2",
+    "@Nuvio-MCP/ide-markers": "3.8.2",
+    "@Nuvio-MCP/ide-menu-bar": "3.8.2",
+    "@Nuvio-MCP/ide-monaco": "3.8.2",
+    "@Nuvio-MCP/ide-monaco-enhance": "3.8.2",
+    "@Nuvio-MCP/ide-notebook": "3.8.2",
+    "@Nuvio-MCP/ide-opened-editor": "3.8.2",
+    "@Nuvio-MCP/ide-outline": "3.8.2",
+    "@Nuvio-MCP/ide-output": "3.8.2",
+    "@Nuvio-MCP/ide-overlay": "3.8.2",
+    "@Nuvio-MCP/ide-preferences": "3.8.2",
+    "@Nuvio-MCP/ide-process": "3.8.2",
+    "@Nuvio-MCP/ide-quick-open": "3.8.2",
+    "@Nuvio-MCP/remote-cli": "3.8.2",
+    "@Nuvio-MCP/ide-remote-opener": "3.8.2",
+    "@Nuvio-MCP/ide-scm": "3.8.2",
+    "@Nuvio-MCP/ide-search": "3.8.2",
+    "@Nuvio-MCP/ide-startup": "3.8.2",
+    "@Nuvio-MCP/ide-static-resource": "3.8.2",
+    "@Nuvio-MCP/ide-status-bar": "3.8.2",
+    "@Nuvio-MCP/ide-storage": "3.8.2",
+    "@Nuvio-MCP/ide-task": "3.8.2",
+    "@Nuvio-MCP/ide-terminal-next": "3.8.2",
+    "@Nuvio-MCP/ide-testing": "3.8.2",
+    "@Nuvio-MCP/ide-theme": "3.8.2",
+    "@Nuvio-MCP/ide-toolbar": "3.8.2",
+    "@Nuvio-MCP/sumi": "3.8.2",
+    "@Nuvio-MCP/ide-utils": "3.8.2",
+    "@Nuvio-MCP/ide-variable": "3.8.2",
+    "@Nuvio-MCP/ide-webview": "3.8.2",
+    "@Nuvio-MCP/ide-workspace": "3.8.2",
+    "@Nuvio-MCP/ide-workspace-edit": "3.8.2"
   }
 }

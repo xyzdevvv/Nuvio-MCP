@@ -3,7 +3,7 @@
  */
 import fuzzy from 'fuzzy';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   CommandService,
   EDITOR_COMMANDS,
@@ -21,8 +21,8 @@ import {
   getIcon,
   getSymbolIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -32,28 +32,28 @@ import {
   IRange,
   IReporterService,
   REPORT_NAME,
-} from '@opensumi/ide-core-common';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
-import { EditorGroupSplitAction, WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
+import { EditorGroupSplitAction, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   DocumentSymbolStore,
   IDummyRoot,
   INormalizedDocumentSymbol,
-} from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
-import { FileSearchServicePath, IFileSearchService } from '@opensumi/ide-file-search/lib/common';
-import * as monaco from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
+import { FileSearchServicePath, IFileSearchService } from '@Nuvio-MCP/ide-file-search/lib/common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 import {
   PrefixQuickOpenService,
   QuickOpenBaseAction,
   QuickOpenModel,
   QuickOpenOptions,
-} from '@opensumi/ide-quick-open';
+} from '@Nuvio-MCP/ide-quick-open';
 import {
   QuickOpenContribution,
   QuickOpenHandlerRegistry,
-} from '@opensumi/ide-quick-open/lib/browser/prefix-quick-open.service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { matchesFuzzy } from '@opensumi/monaco-editor-core/esm/vs/base/common/filters';
+} from '@Nuvio-MCP/ide-quick-open/lib/browser/prefix-quick-open.service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { matchesFuzzy } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/filters';
 
 const DEFAULT_FILE_SEARCH_LIMIT = 200;
 

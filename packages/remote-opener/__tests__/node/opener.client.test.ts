@@ -1,5 +1,5 @@
-import { INodeLogger } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { INodeLogger } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { IRemoteOpenerClient, IRemoteOpenerService, RemoteOpenerClientToken } from '../../src/common';
 import { RemoteOpenerClientImpl } from '../../src/node/opener.client';

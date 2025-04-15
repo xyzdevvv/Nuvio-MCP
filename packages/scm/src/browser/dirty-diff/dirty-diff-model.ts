@@ -1,4 +1,4 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
 import {
   Disposable,
   DisposableStore,
@@ -16,21 +16,21 @@ import {
   dispose,
   first,
   toDisposable,
-} from '@opensumi/ide-core-browser';
-import { RawContextKey } from '@opensumi/ide-core-browser/lib/raw-context-key';
-import { EditorCollectionService } from '@opensumi/ide-editor';
-import { IEditorDocumentModel, IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { DetailedLineRangeMapping } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
-import { IEditorWorkerService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-core-browser';
+import { RawContextKey } from '@Nuvio-MCP/ide-core-browser/lib/raw-context-key';
+import { EditorCollectionService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModel, IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { DetailedLineRangeMapping } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
+import { IEditorWorkerService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { IDirtyDiffModel, ISCMRepository, SCMService } from '../../common';
 
 import { compareChanges, getModifiedEndLineNumber } from './dirty-diff-util';
 import { DirtyDiffWidget } from './dirty-diff-widget';
 
-import type { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import type { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 const { sortedDiff } = arrays;
 

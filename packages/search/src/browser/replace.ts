@@ -1,9 +1,9 @@
-import { localize } from '@opensumi/ide-core-browser';
-import { MessageType, URI, formatLocalize } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { IDialogService, IMessageService } from '@opensumi/ide-overlay';
-import { IResourceFileEdit, IResourceTextEdit, IWorkspaceEditService } from '@opensumi/ide-workspace-edit';
+import { localize } from '@Nuvio-MCP/ide-core-browser';
+import { MessageType, URI, formatLocalize } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IDialogService, IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IResourceFileEdit, IResourceTextEdit, IWorkspaceEditService } from '@Nuvio-MCP/ide-workspace-edit';
 
 import { ContentSearchResult, ResultTotal } from '../common/';
 

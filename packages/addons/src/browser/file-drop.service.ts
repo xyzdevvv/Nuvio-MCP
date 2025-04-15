@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { formatLocalize } from '@opensumi/ide-core-browser';
-import { IStatusBarService, StatusBarAlignment, StatusBarEntryAccessor } from '@opensumi/ide-core-browser/lib/services';
-import { Uri, WithEventBus, path } from '@opensumi/ide-core-common';
-import { FileTreeDropEvent } from '@opensumi/ide-core-common/lib/types/dnd';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { formatLocalize } from '@Nuvio-MCP/ide-core-browser';
+import { IStatusBarService, StatusBarAlignment, StatusBarEntryAccessor } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { Uri, WithEventBus, path } from '@Nuvio-MCP/ide-core-common';
+import { FileTreeDropEvent } from '@Nuvio-MCP/ide-core-common/lib/types/dnd';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 const { Path } = path;
 

@@ -2,18 +2,18 @@ import { DocumentCommands, LibroView } from '@difizen/libro-jupyter/noeditor';
 import { CommandRegistry, Container, Disposable, ViewRender } from '@difizen/mana-app';
 import * as React from 'react';
 
-import { message } from '@opensumi/ide-components';
-import { localize, useInjectable } from '@opensumi/ide-core-browser';
-import { ReactEditorComponent } from '@opensumi/ide-editor/lib/browser/types';
+import { message } from '@Nuvio-MCP/ide-components';
+import { localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { ReactEditorComponent } from '@Nuvio-MCP/ide-editor/lib/browser/types';
 
 import styles from './libro.module.less';
-import { ILibroOpensumiService } from './libro.service';
+import { ILibroNuvio-MCPService } from './libro.service';
 import { ManaContainer } from './mana';
 
 const AUTO_SAVE_DELAY = 1000; // ms
 
-export const OpensumiLibroView: ReactEditorComponent = (...params) => {
-  const libroOpensumiService = useInjectable<ILibroOpensumiService>(ILibroOpensumiService);
+export const Nuvio-MCPLibroView: ReactEditorComponent = (...params) => {
+  const libroNuvio-MCPService = useInjectable<ILibroNuvio-MCPService>(ILibroNuvio-MCPService);
   const manaContainer = useInjectable<Container>(ManaContainer);
   const commandRegistry = manaContainer.get(CommandRegistry);
 
@@ -22,10 +22,10 @@ export const OpensumiLibroView: ReactEditorComponent = (...params) => {
   React.useEffect(() => {
     let autoSaveHandle: undefined | number;
     let modelChangeDisposer: undefined | Disposable;
-    libroOpensumiService.getOrCreateLibroView(params[0].resource.uri).then((libro) => {
+    libroNuvio-MCPService.getOrCreateLibroView(params[0].resource.uri).then((libro) => {
       setLibroView(libro);
       modelChangeDisposer = libro.model.onChanged(() => {
-        libroOpensumiService.updateDirtyStatus(params[0].resource.uri, true);
+        libroNuvio-MCPService.updateDirtyStatus(params[0].resource.uri, true);
         if (autoSaveHandle) {
           window.clearTimeout(autoSaveHandle);
         }
@@ -43,7 +43,7 @@ export const OpensumiLibroView: ReactEditorComponent = (...params) => {
         }, AUTO_SAVE_DELAY);
       });
       libro.onSave(() => {
-        libroOpensumiService.updateDirtyStatus(params[0].resource.uri, false);
+        libroNuvio-MCPService.updateDirtyStatus(params[0].resource.uri, false);
       });
     });
     return () => {

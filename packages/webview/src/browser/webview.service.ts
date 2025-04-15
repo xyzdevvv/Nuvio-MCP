@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   Disposable,
@@ -13,17 +13,17 @@ import {
   arrays,
   getDebugLogger,
   localize,
-} from '@opensumi/ide-core-browser';
-import { throwNonElectronError } from '@opensumi/ide-core-common/lib/error';
-import { IEditorGroup, IResource, ResourceNeedUpdateEvent, WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-browser';
+import { throwNonElectronError } from '@Nuvio-MCP/ide-core-common/lib/error';
+import { IEditorGroup, IResource, ResourceNeedUpdateEvent, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   EditorComponentRegistry,
   EditorComponentRenderMode,
   EditorGroupChangeEvent,
   EditorOpenType,
   EditorPreferences,
-} from '@opensumi/ide-editor/lib/browser';
-import { getColorRegistry } from '@opensumi/ide-theme/lib/common/color-registry';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { getColorRegistry } from '@Nuvio-MCP/ide-theme/lib/common/color-registry';
 
 import { EditorWebviewComponentView } from './editor-webview';
 import { ElectronWebviewWebviewPanel } from './electron-webview-webview';
@@ -45,7 +45,7 @@ import {
 } from './types';
 import { ElectronPlainWebviewWindow } from './webview-window';
 
-import type { ITheme } from '@opensumi/ide-theme';
+import type { ITheme } from '@Nuvio-MCP/ide-theme';
 
 const { addElement } = arrays;
 

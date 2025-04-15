@@ -1,13 +1,13 @@
 import React, { FC, useCallback, useEffect, useState } from 'react';
 
-import { IInputBaseProps } from '@opensumi/ide-components';
-import { DisposableStore, isMacintosh, strings, useDesignStyles, useInjectable } from '@opensumi/ide-core-browser';
-import { InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { IContextMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { useHotKey } from '@opensumi/ide-core-browser/lib/react-hooks/hot-key';
-import { CommandService, isFunction } from '@opensumi/ide-core-common';
-import { AutoFocusedInput } from '@opensumi/ide-main-layout/lib/browser/input';
-import { IIconService } from '@opensumi/ide-theme';
+import { IInputBaseProps } from '@Nuvio-MCP/ide-components';
+import { DisposableStore, isMacintosh, strings, useDesignStyles, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { IContextMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { useHotKey } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks/hot-key';
+import { CommandService, isFunction } from '@Nuvio-MCP/ide-core-common';
+import { AutoFocusedInput } from '@Nuvio-MCP/ide-main-layout/lib/browser/input';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
 
 import { ISCMProvider, ISCMRepository, InputValidationType, scmContainerId } from '../../common';
 

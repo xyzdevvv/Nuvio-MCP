@@ -1,5 +1,5 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { NodeModule } from '@opensumi/ide-core-node';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { NodeModule } from '@Nuvio-MCP/ide-core-node';
 
 import {
   ConnectionBackServicePath,

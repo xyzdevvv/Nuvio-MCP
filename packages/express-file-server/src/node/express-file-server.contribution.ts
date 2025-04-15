@@ -3,8 +3,8 @@ import path from 'path';
 
 import mount from 'koa-mount';
 
-import { Autowired } from '@opensumi/di';
-import { AppConfig, Domain, IServerApp, ServerAppContribution, URI } from '@opensumi/ide-core-node';
+import { Autowired } from '@Nuvio-MCP/di';
+import { AppConfig, Domain, IServerApp, ServerAppContribution, URI } from '@Nuvio-MCP/ide-core-node';
 
 import { ALLOW_MIME } from '../common';
 

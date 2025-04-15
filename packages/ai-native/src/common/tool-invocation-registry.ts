@@ -1,7 +1,7 @@
 import { ToolExecutionOptions } from 'ai';
 import { z } from 'zod';
 
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 export const ToolParameterSchema = z.object({
   type: z.enum(['string', 'number', 'boolean', 'object', 'array']),

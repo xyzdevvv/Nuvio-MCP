@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { DATA_SET_COMMAND, RenderWrapper } from '@opensumi/ide-components/lib/markdown/render';
-import { IMarkedOptions, createMarkedRenderer, toMarkdownHtml as toHtml } from '@opensumi/ide-components/lib/utils';
-import { isString } from '@opensumi/ide-core-common';
+import { DATA_SET_COMMAND, RenderWrapper } from '@Nuvio-MCP/ide-components/lib/markdown/render';
+import { IMarkedOptions, createMarkedRenderer, toMarkdownHtml as toHtml } from '@Nuvio-MCP/ide-components/lib/utils';
+import { isString } from '@Nuvio-MCP/ide-core-common';
 
 import { IOpenerService } from '../opener';
 

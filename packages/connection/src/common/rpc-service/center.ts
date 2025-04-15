@@ -6,8 +6,8 @@ import {
   IReporterTimer,
   REPORT_NAME,
   randomString,
-} from '@opensumi/ide-core-common';
-import { addElement } from '@opensumi/ide-utils/lib/arrays';
+} from '@Nuvio-MCP/ide-core-common';
+import { addElement } from '@Nuvio-MCP/ide-utils/lib/arrays';
 
 import { METHOD_NOT_REGISTERED } from '../constants';
 import { TSumiProtocol } from '../rpc';
@@ -18,7 +18,7 @@ import { ProxyJson, ProxySumi } from './proxy';
 import { ProxyBase } from './proxy/base';
 import { ProtocolRegistry, ServiceRegistry } from './registry';
 
-import type { MessageConnection } from '@opensumi/vscode-jsonrpc';
+import type { MessageConnection } from '@Nuvio-MCP/vscode-jsonrpc';
 
 const kDefaultMinimumReportThresholdTime = 200;
 

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Disposable, IEventBus, getExternalIcon, useInjectable } from '@opensumi/ide-core-browser';
-import { Button } from '@opensumi/ide-core-browser/lib/components';
-import { InlineActionBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { AbstractMenuService, IMenuRegistry, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IIconService, IconType } from '@opensumi/ide-theme';
+import { Disposable, IEventBus, getExternalIcon, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Button } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { InlineActionBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { AbstractMenuService, IMenuRegistry, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import {
   CommentReaction,

@@ -13,7 +13,7 @@ import {
   // @ts-ignore
 } from 'yjs';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   ICodeEditor,
   IDisposable,
@@ -23,8 +23,8 @@ import {
   Selection,
   SelectionDirection,
   editor,
-} from '@opensumi/ide-monaco';
-import { IModelDeltaDecoration } from '@opensumi/ide-monaco/lib/browser/monaco-api/editor';
+} from '@Nuvio-MCP/ide-monaco';
+import { IModelDeltaDecoration } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/editor';
 
 import { ICollaborationService, ITextModelBinding, Y_REMOTE_SELECTION, Y_REMOTE_SELECTION_HEAD } from '../common';
 

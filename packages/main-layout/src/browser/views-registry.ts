@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Emitter, Event, IContextKeyService, IDisposable, toDisposable } from '@opensumi/ide-core-browser';
-import { SetMap } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, IContextKeyService, IDisposable, toDisposable } from '@Nuvio-MCP/ide-core-browser';
+import { SetMap } from '@Nuvio-MCP/ide-core-common';
 
 import { IViewContentDescriptor } from '..';
 import { IViewsRegistry } from '../common';

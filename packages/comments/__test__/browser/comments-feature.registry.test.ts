@@ -1,9 +1,9 @@
-import { Injector } from '@opensumi/di';
-import { CommentContentNode, CommentRoot } from '@opensumi/ide-comments/lib/browser/tree/tree-node.defined';
-import { IContextKeyService, URI } from '@opensumi/ide-core-browser';
-import { positionToRange } from '@opensumi/ide-monaco';
-import { IIconService } from '@opensumi/ide-theme';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
+import { Injector } from '@Nuvio-MCP/di';
+import { CommentContentNode, CommentRoot } from '@Nuvio-MCP/ide-comments/lib/browser/tree/tree-node.defined';
+import { IContextKeyService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { positionToRange } from '@Nuvio-MCP/ide-monaco';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
@@ -89,7 +89,7 @@ describe('comment service test', () => {
         {
           mode: CommentMode.Editor,
           author: {
-            name: 'OpenSumi',
+            name: 'Nuvio-MCP',
           },
           body: 'This is a comment',
         },

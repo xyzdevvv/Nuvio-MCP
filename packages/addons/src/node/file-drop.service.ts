@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-import { Injectable } from '@opensumi/di';
-import { Uri } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { IFileDropBackendService } from '../common';
 @Injectable()

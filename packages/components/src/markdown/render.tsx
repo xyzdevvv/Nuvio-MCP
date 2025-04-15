@@ -1,6 +1,6 @@
 import React, { RefObject, useEffect, useRef } from 'react';
 
-import type { MaybePromise } from '@opensumi/ide-utils';
+import type { MaybePromise } from '@Nuvio-MCP/ide-utils';
 
 import './styles.less';
 

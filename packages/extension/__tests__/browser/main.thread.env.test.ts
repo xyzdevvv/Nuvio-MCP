@@ -1,20 +1,20 @@
-import { Injectable } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { LogLevel, LogServiceForClientPath, getLanguageId } from '@opensumi/ide-core-common';
-import { MainThreadEnv } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.env';
-import { MainThreadStorage } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.storage';
+import { Injectable } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { LogLevel, LogServiceForClientPath, getLanguageId } from '@Nuvio-MCP/ide-core-common';
+import { MainThreadEnv } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.env';
+import { MainThreadStorage } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.storage';
 import {
   ExtHostAPIIdentifier,
   IMainThreadEnv,
   IMainThreadStorage,
   MainThreadAPIIdentifier,
-} from '@opensumi/ide-extension/lib/common/vscode';
-import { createEnvApiFactory, envValue } from '@opensumi/ide-extension/lib/hosted/api/vscode/env/envApiFactory';
-import { ExtHostEnv } from '@opensumi/ide-extension/lib/hosted/api/vscode/env/ext.host.env';
-import { ExtHostStorage } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.storage';
-import { ExtHostTerminal } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.terminal';
-import ExtensionHostServiceImpl from '@opensumi/ide-extension/lib/hosted/ext.host';
-import { IExtensionStorageService } from '@opensumi/ide-extension-storage';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { createEnvApiFactory, envValue } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/env/envApiFactory';
+import { ExtHostEnv } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/env/ext.host.env';
+import { ExtHostStorage } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.storage';
+import { ExtHostTerminal } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.terminal';
+import ExtensionHostServiceImpl from '@Nuvio-MCP/ide-extension/lib/hosted/ext.host';
+import { IExtensionStorageService } from '@Nuvio-MCP/ide-extension-storage';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { createMockPairRPCProtocol } from '../../__mocks__/initRPCProtocol';
@@ -47,7 +47,7 @@ describe('MainThreadEnvAPI Test Suites', () => {
   const appConfig = {
     appName: 'sumi',
     uriScheme: 'sumi',
-    appHost: 'opensumi.dev',
+    appHost: 'Nuvio-MCP.dev',
     workspaceDir: '',
   };
   beforeAll((done) => {

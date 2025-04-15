@@ -1,10 +1,10 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, Emitter, Event, IApplicationService, PreferenceService, URI } from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, Emitter, Event, IApplicationService, PreferenceService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   IEditorDocumentModelContentProvider,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser/doc-model/types';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
 
 import { BaseApplyService } from '../mcp/base-apply.service';
 

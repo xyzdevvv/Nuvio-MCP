@@ -1,12 +1,12 @@
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Disposable } from '@opensumi/ide-core-common';
-import { IDebugSessionManager } from '@opensumi/ide-debug';
-import { DebugHoverSource } from '@opensumi/ide-debug/lib/browser/editor/debug-hover-source';
-import { DebugConsoleNode } from '@opensumi/ide-debug/lib/browser/tree';
-import { DebugViewModel } from '@opensumi/ide-debug/lib/browser/view/debug-view-model';
-import { DebugVariablesModelService } from '@opensumi/ide-debug/lib/browser/view/variables/debug-variables-tree.model.service';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { DebugHoverSource } from '@Nuvio-MCP/ide-debug/lib/browser/editor/debug-hover-source';
+import { DebugConsoleNode } from '@Nuvio-MCP/ide-debug/lib/browser/tree';
+import { DebugViewModel } from '@Nuvio-MCP/ide-debug/lib/browser/view/debug-view-model';
+import { DebugVariablesModelService } from '@Nuvio-MCP/ide-debug/lib/browser/view/variables/debug-variables-tree.model.service';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
 
 import styles from '../../../../src/browser/view/variables/debug-variables.module.less';
 

@@ -1,6 +1,6 @@
 export const browserViews = {
   // sumiContributes
-  'sumiContributes.contributes': 'Declare all contributions of the OpenSumi Extension.',
+  'sumiContributes.contributes': 'Declare all contributions of the Nuvio-MCP Extension.',
 
   // 公用 properties，如 command
   'sumiContributes.common.command':
@@ -17,7 +17,7 @@ export const browserViews = {
   'sumiContributes.browserViews.location.custom': 'Provide a view to the "{0}" container',
   'sumiContributes.browserViews.view.id':
     'View id, browser/index needs to export a component with the same name as this id',
-  'sumiContributes.browserViews.view.icon': 'Icon name, reference: [icon](https://opensumi.github.io/core/)',
+  'sumiContributes.browserViews.view.icon': 'Icon name, reference: [icon](https://Nuvio-MCP.github.io/core/)',
   'sumiContributes.browserViews.view.iconPath': 'local icon relative path',
   'sumiContributes.browserViews.view.title': 'View title (will be displayed when type is bottom)',
   'sumiContributes.browserViews.view.titleComponentId':

@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { ChatService } from '@opensumi/ide-ai-native/lib/browser/chat/chat.api.service';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { ChatService } from '@Nuvio-MCP/ide-ai-native/lib/browser/chat/chat.api.service';
 import {
   BaseTerminalDetectionLineMatcher,
   JavaMatcher,
@@ -7,8 +7,8 @@ import {
   NodeMatcher,
   ShellMatcher,
   TSCMatcher,
-} from '@opensumi/ide-ai-native/lib/browser/contrib/terminal/matcher';
-import { TextWithStyle } from '@opensumi/ide-ai-native/lib/browser/contrib/terminal/utils/ansi-parser';
+} from '@Nuvio-MCP/ide-ai-native/lib/browser/contrib/terminal/matcher';
+import { TextWithStyle } from '@Nuvio-MCP/ide-ai-native/lib/browser/contrib/terminal/utils/ansi-parser';
 import {
   AINativeCoreContribution,
   ERunStrategy,
@@ -21,16 +21,16 @@ import {
   IResolveConflictRegistry,
   ITerminalProviderRegistry,
   TerminalSuggestionReadableStream,
-} from '@opensumi/ide-ai-native/lib/browser/types';
-import { InlineChatController } from '@opensumi/ide-ai-native/lib/browser/widget/inline-chat/inline-chat-controller';
+} from '@Nuvio-MCP/ide-ai-native/lib/browser/types';
+import { InlineChatController } from '@Nuvio-MCP/ide-ai-native/lib/browser/widget/inline-chat/inline-chat-controller';
 import {
   ChatAgentPromptProvider,
   DefaultChatAgentPromptProvider,
-} from '@opensumi/ide-ai-native/lib/common/prompts/context-prompt-provider';
-import { MergeConflictPromptManager } from '@opensumi/ide-ai-native/lib/common/prompts/merge-conflict-prompt';
-import { RenamePromptManager } from '@opensumi/ide-ai-native/lib/common/prompts/rename-prompt';
-import { TerminalDetectionPromptManager } from '@opensumi/ide-ai-native/lib/common/prompts/terminal-detection-prompt';
-import { Domain, getIcon } from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-ai-native/lib/common/prompts/context-prompt-provider';
+import { MergeConflictPromptManager } from '@Nuvio-MCP/ide-ai-native/lib/common/prompts/merge-conflict-prompt';
+import { RenamePromptManager } from '@Nuvio-MCP/ide-ai-native/lib/common/prompts/rename-prompt';
+import { TerminalDetectionPromptManager } from '@Nuvio-MCP/ide-ai-native/lib/common/prompts/terminal-detection-prompt';
+import { Domain, getIcon } from '@Nuvio-MCP/ide-core-browser';
 import {
   AIBackSerivcePath,
   CancelResponse,
@@ -42,9 +42,9 @@ import {
   MergeConflictEditorMode,
   ReplyResponse,
   getDebugLogger,
-} from '@opensumi/ide-core-common';
-import { ICodeEditor, ISelection, NewSymbolName, NewSymbolNameTag, Range, Selection } from '@opensumi/ide-monaco';
-import { MarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
+} from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor, ISelection, NewSymbolName, NewSymbolNameTag, Range, Selection } from '@Nuvio-MCP/ide-monaco';
+import { MarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
 
 export enum EInlineOperation {
   Comments = 'Comments',
@@ -417,7 +417,7 @@ export class AINativeContribution implements AINativeCoreContribution {
 
   registerIntelligentCompletionFeature(registry: IIntelligentCompletionsRegistry): void {
     // registry.registerInlineCompletionsProvider(async (editor, position, bean, token) => ({
-    //   items: [{ insertText: 'Hello OpenSumi' }],
+    //   items: [{ insertText: 'Hello Nuvio-MCP' }],
     // }));
 
     registry.registerCodeEditsProvider(async (editor, position, bean, token) => {
@@ -443,7 +443,7 @@ export class AINativeContribution implements AINativeCoreContribution {
        * mock randown
        */
       const getRandomString = (length) => {
-        const characters = 'opensumi';
+        const characters = 'Nuvio-MCP';
         let result = '';
         for (let i = 0; i < length; i++) {
           result += characters.charAt(Math.floor(Math.random() * characters.length));

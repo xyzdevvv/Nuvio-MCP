@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Deferred, Emitter, Event, ILogger, STORAGE_SCHEMA, URI, path } from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Deferred, Emitter, Event, ILogger, STORAGE_SCHEMA, URI, path } from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { IStoragePathServer, IStorageServer, IUpdateRequest, StorageChange, StringKeyToAnyValue } from '../common';
 

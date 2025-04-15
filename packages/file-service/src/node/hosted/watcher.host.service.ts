@@ -1,4 +1,4 @@
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection';
 import {
   DidFilesChangedParams,
   Disposable,
@@ -6,9 +6,9 @@ import {
   FileUri,
   IDisposable,
   RecursiveWatcherBackend,
-} from '@opensumi/ide-core-common';
-import { defaultFilesWatcherExcludes, flattenExcludes } from '@opensumi/ide-core-common/lib/preferences/file-watch';
-import { URI, Uri, UriComponents } from '@opensumi/ide-utils/lib/uri';
+} from '@Nuvio-MCP/ide-core-common';
+import { defaultFilesWatcherExcludes, flattenExcludes } from '@Nuvio-MCP/ide-core-common/lib/preferences/file-watch';
+import { URI, Uri, UriComponents } from '@Nuvio-MCP/ide-utils/lib/uri';
 
 import { IWatcherHostService, WatcherProcessManagerProxy, WatcherServiceProxy } from '../../common/watcher';
 import { IWatcher } from '../disk-file-system.provider';

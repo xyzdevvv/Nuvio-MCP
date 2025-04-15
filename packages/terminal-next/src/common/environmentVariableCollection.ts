@@ -5,7 +5,7 @@
 
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/1.55.0/src/vs/workbench/contrib/terminal/common/environmentVariableCollection.ts
 
-import { IProcessEnvironment, OperatingSystem } from '@opensumi/ide-core-common';
+import { IProcessEnvironment, OperatingSystem } from '@Nuvio-MCP/ide-core-common';
 
 import {
   EnvironmentVariableMutatorType,

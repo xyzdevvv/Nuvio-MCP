@@ -1,8 +1,8 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Disposable, IDisposable, ILogger } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IIconService } from '@opensumi/ide-theme';
-import { IToolBarViewService, ToolBarPosition } from '@opensumi/ide-toolbar/lib/browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Disposable, IDisposable, ILogger } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IToolBarViewService, ToolBarPosition } from '@Nuvio-MCP/ide-toolbar/lib/browser';
 
 import { AbstractSumiBrowserContributionRunner, IRunTimeParams } from '../types';
 

@@ -1,4 +1,4 @@
-import { IRange, Position } from '@opensumi/ide-core-common';
+import { IRange, Position } from '@Nuvio-MCP/ide-core-common';
 
 import { IModelChangedEvent } from '../../../../common/vscode';
 import { Uri } from '../../../../common/vscode/ext-types';

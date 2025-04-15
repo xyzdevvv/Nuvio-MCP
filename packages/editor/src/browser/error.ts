@@ -1,4 +1,4 @@
-import { ConstructorOf } from '@opensumi/ide-core-common';
+import { ConstructorOf } from '@Nuvio-MCP/ide-core-common';
 
 export class EditorError extends Error {
   type: number;

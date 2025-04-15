@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { DisposableStore, Emitter, IDisposable, ILogger, OnEvent, URI, WithEventBus } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { DisposableStore, Emitter, IDisposable, ILogger, OnEvent, URI, WithEventBus } from '@Nuvio-MCP/ide-core-common';
 import {
   ValueWithChangeEventFromObservable,
   constObservable,
@@ -9,21 +9,21 @@ import {
   observableFromValueWithChangeEvent,
   observableValue,
   recomputeInitiallyAndOnChange,
-} from '@opensumi/ide-monaco/lib/common/observable';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { ISelection } from '@opensumi/monaco-editor-core';
-import { Dimension } from '@opensumi/monaco-editor-core/esm/vs/base/browser/dom';
-import { ValueWithChangeEvent } from '@opensumi/monaco-editor-core/esm/vs/base/common/event';
-import { ICodeEditor } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { RefCounted } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/utils';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { ISelection } from '@Nuvio-MCP/monaco-editor-core';
+import { Dimension } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/dom';
+import { ValueWithChangeEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/event';
+import { ICodeEditor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { RefCounted } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/utils';
 import {
   IDocumentDiffItem,
   IMultiDiffEditorModel,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/model';
-import { MultiDiffEditorWidget } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget';
-import { IMultiDiffResourceId } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidgetImpl';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import { IDiffEditor } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/model';
+import { MultiDiffEditorWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget';
+import { IMultiDiffResourceId } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidgetImpl';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import { IDiffEditor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 
 import { IEditorDocumentModelRef, IResourceOpenOptions } from '../../common/editor';
 import { IMultiDiffEditor, IMultiDiffSourceResolverService, IResolvedMultiDiffSource } from '../../common/multi-diff';

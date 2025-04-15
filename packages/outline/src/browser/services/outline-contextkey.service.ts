@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IContextKey, IContextKeyService } from '@opensumi/ide-core-browser';
-import { OutlineFollowCursorContext, OutlineSortTypeContext } from '@opensumi/ide-core-browser/lib/contextkey';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IContextKey, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { OutlineFollowCursorContext, OutlineSortTypeContext } from '@Nuvio-MCP/ide-core-browser/lib/contextkey';
 
 @Injectable()
 export class OutlineContextKeyService {

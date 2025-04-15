@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Injector } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import * as Components from '@opensumi/ide-core-browser/lib/components';
+import { Injector } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import * as Components from '@Nuvio-MCP/ide-core-browser/lib/components';
 
 import { IExtension } from '../../common';
 import { PortalRoot } from '../components/extension-portal-root';

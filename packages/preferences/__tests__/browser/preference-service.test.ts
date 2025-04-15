@@ -3,8 +3,8 @@ import path from 'path';
 
 import * as fs from 'fs-extra';
 
-import { Injectable, Provider } from '@opensumi/di';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
 import {
   BrowserModule,
   Domain,
@@ -26,17 +26,17 @@ import {
   isNumber,
   isObject,
   isString,
-} from '@opensumi/ide-core-browser';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IDiskFileProvider, IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClientModule } from '@opensumi/ide-file-service/lib/browser';
-import { FileServiceContribution } from '@opensumi/ide-file-service/lib/browser/file-service-contribution';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
-import { PreferencesModule } from '@opensumi/ide-preferences/lib/browser';
-import { UserStorageContribution } from '@opensumi/ide-preferences/lib/browser/userstorage';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IDiskFileProvider, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClientModule } from '@Nuvio-MCP/ide-file-service/lib/browser';
+import { FileServiceContribution } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-contribution';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
+import { PreferencesModule } from '@Nuvio-MCP/ide-preferences/lib/browser';
+import { UserStorageContribution } from '@Nuvio-MCP/ide-preferences/lib/browser/userstorage';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 @Injectable()
 export class AddonModule extends BrowserModule {

@@ -1,18 +1,18 @@
 import http from 'http';
 import net from 'net';
 
-import { ClassCreator, FactoryCreator, Injector, InstanceCreator } from '@opensumi/di';
-import { RPCServiceCenter, WSChannel, initRPCService } from '@opensumi/ide-connection';
-import { CommonChannelPathHandler, RPCServiceChannelPath } from '@opensumi/ide-connection/lib/common/server-handler';
-import { ElectronChannelHandler } from '@opensumi/ide-connection/lib/electron';
-import { CommonChannelHandler, WebSocketHandler, WebSocketServerRoute } from '@opensumi/ide-connection/lib/node';
+import { ClassCreator, FactoryCreator, Injector, InstanceCreator } from '@Nuvio-MCP/di';
+import { RPCServiceCenter, WSChannel, initRPCService } from '@Nuvio-MCP/ide-connection';
+import { CommonChannelPathHandler, RPCServiceChannelPath } from '@Nuvio-MCP/ide-connection/lib/common/server-handler';
+import { ElectronChannelHandler } from '@Nuvio-MCP/ide-connection/lib/electron';
+import { CommonChannelHandler, WebSocketHandler, WebSocketServerRoute } from '@Nuvio-MCP/ide-connection/lib/node';
 import {
   CLIENT_ID_TOKEN,
   RemoteService,
   getRemoteServiceData,
   injectSessionDataStores,
   runInRemoteServiceContext,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { INodeLogger } from './logger/node-logger';
 import { NodeModule } from './node-module';

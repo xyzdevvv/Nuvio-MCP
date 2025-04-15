@@ -1,4 +1,4 @@
-import { BasicEvent, IJSONSchemaSnippet } from '@opensumi/ide-core-common';
+import { BasicEvent, IJSONSchemaSnippet } from '@Nuvio-MCP/ide-core-common';
 
 export interface CallStackContext {
   sessionId: string;

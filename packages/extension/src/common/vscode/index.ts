@@ -1,5 +1,5 @@
-import { createExtHostContextProxyIdentifier, createMainContextProxyIdentifier } from '@opensumi/ide-connection';
-import { Emitter, IExtensionProps } from '@opensumi/ide-core-common';
+import { createExtHostContextProxyIdentifier, createMainContextProxyIdentifier } from '@Nuvio-MCP/ide-connection';
+import { Emitter, IExtensionProps } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtension, IExtensionHostService } from '..';
 // eslint-disable-next-line import/no-restricted-paths

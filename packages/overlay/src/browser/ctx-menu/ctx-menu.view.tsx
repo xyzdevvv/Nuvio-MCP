@@ -1,12 +1,12 @@
 import React from 'react';
 import CtxMenuTrigger from 'react-ctxmenu-trigger';
 
-import { ClickOutside } from '@opensumi/ide-components';
-import { useAutorun, useInjectable } from '@opensumi/ide-core-browser';
-import { MenuActionList } from '@opensumi/ide-core-browser/lib/components/actions';
-import placements from '@opensumi/ide-core-browser/lib/components/actions/placements';
-import { IBrowserCtxMenu } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
-import { IIconService } from '@opensumi/ide-theme/lib/common/theme.service';
+import { ClickOutside } from '@Nuvio-MCP/ide-components';
+import { useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { MenuActionList } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import placements from '@Nuvio-MCP/ide-core-browser/lib/components/actions/placements';
+import { IBrowserCtxMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
+import { IIconService } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
 
 import 'react-ctxmenu-trigger/assets/index.css';
 

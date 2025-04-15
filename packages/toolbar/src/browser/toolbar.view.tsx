@@ -2,7 +2,7 @@ import cls from 'classnames';
 import debounce from 'lodash/debounce';
 import React from 'react';
 
-import { Disposable, ToolbarLocation } from '@opensumi/ide-core-browser';
+import { Disposable, ToolbarLocation } from '@Nuvio-MCP/ide-core-browser';
 
 import styles from './toolbar.module.less';
 

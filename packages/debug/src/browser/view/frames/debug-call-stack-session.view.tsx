@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 
-import { DisposableCollection, ViewState, getIcon, localize, useInjectable } from '@opensumi/ide-core-browser';
+import { DisposableCollection, ViewState, getIcon, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { DebugState, IDebugSessionManager } from '../../../common';
 import { DebugSession } from '../../debug-session';

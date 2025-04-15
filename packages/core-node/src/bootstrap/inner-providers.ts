@@ -1,4 +1,4 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   DefaultReporter,
   IReporter,
@@ -6,11 +6,11 @@ import {
   REPORT_HOST,
   ReporterMetadata,
   ReporterService,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
 
 import { INodeLogger, NodeLogger } from '../logger/node-logger';
 

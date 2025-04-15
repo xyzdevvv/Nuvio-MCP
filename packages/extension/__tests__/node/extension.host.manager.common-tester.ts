@@ -1,8 +1,8 @@
 import path from 'path';
 
-import { Provider } from '@opensumi/di';
-import { Deferred, INodeLogger, MaybePromise, getDebugLogger, sleep } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { Provider } from '@Nuvio-MCP/di';
+import { Deferred, INodeLogger, MaybePromise, getDebugLogger, sleep } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
 import { IExtensionHostManager } from '../../src';

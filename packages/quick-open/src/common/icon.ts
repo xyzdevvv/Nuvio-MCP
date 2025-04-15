@@ -1,4 +1,4 @@
-import { URI } from '@opensumi/ide-core-common';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 export function iconPath2URI(iconPath: URI | { light: URI; dark: URI }, themeType?: string): URI | undefined {
   if (URI.isUri(iconPath)) {

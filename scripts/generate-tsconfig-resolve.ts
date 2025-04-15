@@ -9,8 +9,8 @@ const buildJsonPath = path.join(__dirname, '../configs/ts/tsconfig.build.json');
 
 async function generateResolve(sorted: Map<string, string>) {
   const paths = {};
-  // "@opensumi/ide-core-common": ["../packages/core-common/src/index.ts"],
-  // "@opensumi/ide-core-common/lib/*": ["../packages/core-common/src/*"],
+  // "@Nuvio-MCP/ide-core-common": ["../packages/core-common/src/index.ts"],
+  // "@Nuvio-MCP/ide-core-common/lib/*": ["../packages/core-common/src/*"],
   for (const [dir, pkgName] of sorted.entries()) {
     paths[pkgName] = ['../packages/' + dir + '/src/index.ts'];
     paths[pkgName + '/lib/*'] = ['../packages/' + dir + '/src/*'];

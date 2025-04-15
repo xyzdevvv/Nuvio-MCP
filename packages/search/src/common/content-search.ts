@@ -1,6 +1,6 @@
-import { Event, ParsedPattern, URI, parseGlob, strings } from '@opensumi/ide-core-common';
+import { Event, ParsedPattern, URI, parseGlob, strings } from '@Nuvio-MCP/ide-core-common';
 
-import type { ITree, ValidateMessage } from '@opensumi/ide-components';
+import type { ITree, ValidateMessage } from '@Nuvio-MCP/ide-components';
 
 export const ContentSearchServerPath = 'ContentSearchServerPath';
 

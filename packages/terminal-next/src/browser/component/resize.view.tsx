@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { getIcon, useAutorun, useInjectable } from '@opensumi/ide-core-browser';
+import { getIcon, useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { ITerminalGroupViewService } from '../../common/controller';
 import { IWidget, IWidgetGroup } from '../../common/resize';

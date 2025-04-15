@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   IPreferenceSettingsService,
@@ -7,16 +7,16 @@ import {
   getSlotLocation,
   getTabbarCtxKey,
   localize,
-} from '@opensumi/ide-core-browser';
-import { TERMINAL_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
+} from '@Nuvio-MCP/ide-core-browser';
+import { TERMINAL_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
 import {
   MenuId as CoreMenuId,
   IMenuRegistry,
   MenuContribution,
   MenuId,
   getTabbarCommonMenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { CommandService, Domain, isWindows } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { CommandService, Domain, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalController, ITerminalGroupViewService, ITerminalSearchService } from '../../common';
 
@@ -99,7 +99,7 @@ export class TerminalMenuContribution implements MenuContribution {
       group: '1_modify',
     });
 
-    const location = getSlotLocation('@opensumi/ide-terminal-next', this.config.layoutConfig);
+    const location = getSlotLocation('@Nuvio-MCP/ide-terminal-next', this.config.layoutConfig);
     const tabbarCtxKey = getTabbarCtxKey(location);
     const commonMenuId = getTabbarCommonMenuId(location);
     const when = `${tabbarCtxKey} == ${TERMINAL_CONTAINER_ID}`;

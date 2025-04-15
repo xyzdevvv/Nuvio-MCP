@@ -1,4 +1,4 @@
-import { CodeSchemaId, IJSONSchema, localize } from '@opensumi/ide-core-browser';
+import { CodeSchemaId, IJSONSchema, localize } from '@Nuvio-MCP/ide-core-browser';
 export const taskSchemaUri = CodeSchemaId.tasks;
 
 const osSpecificTaskRunnerConfiguration = {

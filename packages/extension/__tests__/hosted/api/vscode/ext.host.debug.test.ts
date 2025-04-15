@@ -1,7 +1,7 @@
 import path from 'path';
 
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { Deferred, URI } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { Deferred, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { MainThreadAPIIdentifier } from '../../../../src/common/vscode';

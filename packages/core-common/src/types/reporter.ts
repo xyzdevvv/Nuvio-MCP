@@ -1,4 +1,4 @@
-import { Emitter } from '@opensumi/ide-utils/lib/event';
+import { Emitter } from '@Nuvio-MCP/ide-utils/lib/event';
 
 export enum REPORT_NAME {
   ACTIVE_EXTENSION = 'activateExtension',

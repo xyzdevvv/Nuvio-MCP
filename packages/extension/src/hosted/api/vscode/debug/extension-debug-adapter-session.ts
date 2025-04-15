@@ -1,4 +1,4 @@
-import { DebugConfiguration, DebugStreamConnection } from '@opensumi/ide-debug';
+import { DebugConfiguration, DebugStreamConnection } from '@Nuvio-MCP/ide-debug';
 
 import { ExtensionConnection } from '../../../../common/vscode';
 

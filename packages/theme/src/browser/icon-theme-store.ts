@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import { IIconTheme, IThemeContribution, getThemeId } from '../common';
 

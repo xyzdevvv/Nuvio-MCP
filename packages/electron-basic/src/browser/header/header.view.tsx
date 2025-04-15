@@ -12,9 +12,9 @@ import {
   isMacintosh,
   useEventEffect,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { IElectronHeaderService } from '../../common/header';
 
@@ -83,7 +83,7 @@ export const HeaderBarLeftComponent = () => {
   return (
     <>
       <ComponentRenderer
-        Component={componentRegistry.getComponentRegistryInfo('@opensumi/ide-menu-bar')!.views[0].component!}
+        Component={componentRegistry.getComponentRegistryInfo('@Nuvio-MCP/ide-menu-bar')!.views[0].component!}
         initialProps={initialProps}
       />
     </>

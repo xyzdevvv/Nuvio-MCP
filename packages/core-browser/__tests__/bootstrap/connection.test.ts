@@ -1,9 +1,9 @@
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { ReconnectingWebSocketConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/reconnecting-websocket';
-import { BrowserConnectionErrorEvent, IEventBus } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { Server, WebSocket } from '@opensumi/mock-socket';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { ReconnectingWebSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/reconnecting-websocket';
+import { BrowserConnectionErrorEvent, IEventBus } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { Server, WebSocket } from '@Nuvio-MCP/mock-socket';
 
 import { ClientAppStateService } from '../../src/application';
 import { createConnectionService } from '../../src/bootstrap/connection';

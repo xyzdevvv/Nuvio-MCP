@@ -1,24 +1,24 @@
-import { Autowired } from '@opensumi/di';
-import { getIcon } from '@opensumi/ide-components';
-import { MenuContribution } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IMenuRegistry } from '@opensumi/ide-core-browser/lib/menu/next/base';
-import { MenuId } from '@opensumi/ide-core-browser/lib/menu/next/menu-id';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { Domain, URI, localize } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { getIcon } from '@Nuvio-MCP/ide-components';
+import { MenuContribution } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IMenuRegistry } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/base';
+import { MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/menu-id';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { Domain, URI, localize } from '@Nuvio-MCP/ide-core-common';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
   EditorComponentRenderMode,
   IResource,
   ResourceService,
-} from '@opensumi/ide-editor/lib/browser/types';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace/lib/common';
+} from '@Nuvio-MCP/ide-editor/lib/browser/types';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common';
 
 import { MCPConfigView } from './components/mcp-config.view';
 import { MCPConfigCommands } from './mcp-config.commands';
 
-const COMPONENTS_ID = 'opensumi-mcp-config-viewer';
+const COMPONENTS_ID = 'Nuvio-MCP-mcp-config-viewer';
 export const MCP_CONFIG_COMPONENTS_SCHEME_ID = 'mcp-config';
 
 export type IMCPConfigResource = IResource<{ configType: string }>;

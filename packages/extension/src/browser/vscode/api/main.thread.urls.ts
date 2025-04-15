@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   AppConfig,
   IDisposable,
@@ -8,7 +8,7 @@ import {
   IOpenerService,
   MaybePromise,
   URI,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { ExtHostAPIIdentifier, IExtHostUrls, IMainThreadUrls } from '../../../common/vscode';
 import { IActivationEventService } from '../../types';

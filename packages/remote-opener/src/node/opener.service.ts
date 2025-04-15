@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection';
-import { Uri } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IExternalFileArgs,

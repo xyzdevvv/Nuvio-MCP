@@ -8,7 +8,7 @@ import { LibroTOCModule } from '@difizen/libro-toc';
 import { Container, ManaAppPreset, ManaComponents, ThemeService } from '@difizen/mana-app';
 import React, { useState } from 'react';
 
-import { Autowired, Injector } from '@opensumi/di';
+import { Autowired, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ClientAppContextContribution,
@@ -25,8 +25,8 @@ import {
   Schemes,
   URI,
   localize,
-} from '@opensumi/ide-core-browser';
-import { message } from '@opensumi/ide-core-browser/lib/components';
+} from '@Nuvio-MCP/ide-core-browser';
+import { message } from '@Nuvio-MCP/ide-core-browser/lib/components';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
@@ -34,20 +34,20 @@ import {
   IResource,
   ResourceService,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/browser';
-import { IEditorDocumentModelContentRegistry } from '@opensumi/ide-editor/lib/browser/doc-model/types';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
-import { IThemeService, IconType } from '@opensumi/ide-theme/lib/common';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IEditorDocumentModelContentRegistry } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
+import { IThemeService, IconType } from '@Nuvio-MCP/ide-theme/lib/common';
 
 import { KERNEL_PANEL_ID, KernelPanel, initKernelPanelColorToken } from './kernel-panel';
-import { LibroOpensumiModule } from './libro';
+import { LibroNuvio-MCPModule } from './libro';
 import { LibroDiffModule } from './libro/diff-view';
 import { LibroOpener } from './libro-opener';
 import { LibroVersionPreview } from './libro-preview.view';
 import { initLibroColorToken } from './libro.color.tokens';
 import { LIBRO_COMPONENTS_SCHEME_ID, LIBRO_COMPONENT_ID, LIBRO_PREVIEW_COMPONENT_ID } from './libro.protocol';
-import { OpensumiLibroView } from './libro.view';
-import { ManaContainer, initLibroOpensumi, manaContainer } from './mana/index';
+import { Nuvio-MCPLibroView } from './libro.view';
+import { ManaContainer, initLibroNuvio-MCP, manaContainer } from './mana/index';
 import { NotebookDocumentContentProvider } from './notebook-document-content-provider';
 import { NotebookServiceOverride } from './notebook.service';
 import { initTocPanelColorToken } from './toc';
@@ -56,7 +56,7 @@ import { VariablePanel } from './variables/variable-panel';
 import { VARIABLE_ID } from './variables/variable-protocol';
 
 const LIBRO_COMPONENTS_VIEW_COMMAND = {
-  id: 'opensumi-libro',
+  id: 'Nuvio-MCP-libro',
 };
 
 const LayoutWrapper: React.FC<React.PropsWithChildren> = ({ children }) => {
@@ -69,7 +69,7 @@ const LayoutWrapper: React.FC<React.PropsWithChildren> = ({ children }) => {
         LibroJupyterNoEditorModule,
         LibroDiffModule,
         LibroTOCModule,
-        LibroOpensumiModule,
+        LibroNuvio-MCPModule,
         LibroVariableModule,
       ]}
       renderChildren
@@ -131,7 +131,7 @@ export class LibroContribution
   }
 
   initialize(app: IClientApp) {
-    initLibroOpensumi(app.injector, manaContainer);
+    initLibroNuvio-MCP(app.injector, manaContainer);
   }
 
   registerComponent(registry: ComponentRegistry) {
@@ -144,7 +144,7 @@ export class LibroContribution
       IconType.Background,
     );
     registry.register(
-      '@opensumi/ide-notebook',
+      '@Nuvio-MCP/ide-notebook',
       [
         {
           id: KERNEL_PANEL_ID,
@@ -193,7 +193,7 @@ export class LibroContribution
     registry.registerEditorComponent({
       uid: LIBRO_COMPONENT_ID,
       scheme: LIBRO_COMPONENTS_SCHEME_ID,
-      component: OpensumiLibroView,
+      component: Nuvio-MCPLibroView,
     });
 
     registry.registerEditorComponent({

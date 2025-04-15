@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { ToolbarLocation } from '@opensumi/ide-core-browser';
+import { ToolbarLocation } from '@Nuvio-MCP/ide-core-browser';
 
 import styles from './toolbar-action.module.less';
 

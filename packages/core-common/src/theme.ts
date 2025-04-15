@@ -1,4 +1,4 @@
-import { isObject, isString, isUndefined } from '@opensumi/ide-utils';
+import { isObject, isString, isUndefined } from '@Nuvio-MCP/ide-utils';
 
 import { Codicon } from './codicons';
 

@@ -3,17 +3,17 @@ import path from 'path';
 import * as fs from 'fs-extra';
 import temp from 'temp';
 
-import { Injectable, Injector } from '@opensumi/di';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { AppConfig, Disposable, FileUri, STORAGE_SCHEMA, URI } from '@opensumi/ide-core-browser';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IDiskFileProvider, IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
-import { Storage } from '@opensumi/ide-storage/lib/browser/storage';
-import { DatabaseStorageContribution } from '@opensumi/ide-storage/lib/browser/storage.contribution';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { AppConfig, Disposable, FileUri, STORAGE_SCHEMA, URI } from '@Nuvio-MCP/ide-core-browser';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IDiskFileProvider, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
+import { Storage } from '@Nuvio-MCP/ide-storage/lib/browser/storage';
+import { DatabaseStorageContribution } from '@Nuvio-MCP/ide-storage/lib/browser/storage.contribution';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { StorageModule } from '../../src/browser';
 import {

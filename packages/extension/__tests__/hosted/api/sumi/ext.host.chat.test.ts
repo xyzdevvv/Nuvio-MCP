@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CancellationToken, CancellationTokenSource } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CancellationToken, CancellationTokenSource } from '@Nuvio-MCP/ide-core-common';
 
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
 import { MainThreadSumiAPIIdentifier } from '../../../../lib/common/sumi';

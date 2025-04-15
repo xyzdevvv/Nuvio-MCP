@@ -1,7 +1,7 @@
 import path from 'path';
 
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { MockedStorageProvider } from '@opensumi/ide-core-browser/__mocks__/storage';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { MockedStorageProvider } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
 import {
   Deferred,
   Disposable,
@@ -9,20 +9,20 @@ import {
   IFileServiceClient,
   StorageProvider,
   Uri,
-} from '@opensumi/ide-core-common';
-import { ITaskDefinitionRegistry, TaskDefinitionRegistryImpl } from '@opensumi/ide-core-common/lib/task-definition';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IEditorDocumentModelService, WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
-import { ExtensionDocumentDataManagerImpl } from '@opensumi/ide-extension/lib/hosted/api/vscode/doc';
-import { ExtHostMessage } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.message';
-import { ExtHostWorkspace } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.workspace';
-import { MockFileServiceClient } from '@opensumi/ide-file-service/__mocks__/file-service-client';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common/main-layout.definition';
-import { OutputPreferences } from '@opensumi/ide-output/lib/browser/output-preference';
-import { TaskService } from '@opensumi/ide-task/lib/browser/task.service';
-import { TerminalTaskSystem } from '@opensumi/ide-task/lib/browser/terminal-task-system';
-import { ITaskService, ITaskSystem } from '@opensumi/ide-task/lib/common';
+} from '@Nuvio-MCP/ide-core-common';
+import { ITaskDefinitionRegistry, TaskDefinitionRegistryImpl } from '@Nuvio-MCP/ide-core-common/lib/task-definition';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IEditorDocumentModelService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { ExtensionDocumentDataManagerImpl } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/doc';
+import { ExtHostMessage } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.message';
+import { ExtHostWorkspace } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.workspace';
+import { MockFileServiceClient } from '@Nuvio-MCP/ide-file-service/__mocks__/file-service-client';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common/main-layout.definition';
+import { OutputPreferences } from '@Nuvio-MCP/ide-output/lib/browser/output-preference';
+import { TaskService } from '@Nuvio-MCP/ide-task/lib/browser/task.service';
+import { TerminalTaskSystem } from '@Nuvio-MCP/ide-task/lib/browser/terminal-task-system';
+import { ITaskService, ITaskSystem } from '@Nuvio-MCP/ide-task/lib/common';
 import {
   ITerminalApiService,
   ITerminalClientFactory2,
@@ -33,24 +33,24 @@ import {
   ITerminalProfileService,
   ITerminalService,
   ITerminalTheme,
-} from '@opensumi/ide-terminal-next';
+} from '@Nuvio-MCP/ide-terminal-next';
 import {
   MockMainLayoutService,
   MockTerminalProfileInternalService,
   MockTerminalService,
   MockTerminalThemeService,
-} from '@opensumi/ide-terminal-next/__tests__/browser/mock.service';
-import { createTerminalClientFactory2 } from '@opensumi/ide-terminal-next/lib/browser/terminal.client';
-import { TerminalController } from '@opensumi/ide-terminal-next/lib/browser/terminal.controller';
-import { TerminalEnvironmentService } from '@opensumi/ide-terminal-next/lib/browser/terminal.environment.service';
-import { TerminalInternalService } from '@opensumi/ide-terminal-next/lib/browser/terminal.internal.service';
-import { TerminalPreference } from '@opensumi/ide-terminal-next/lib/browser/terminal.preference';
-import { TerminalProfileService } from '@opensumi/ide-terminal-next/lib/browser/terminal.profile';
-import { TerminalGroupViewService } from '@opensumi/ide-terminal-next/lib/browser/terminal.view';
-import { EnvironmentVariableServiceToken } from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
-import { ITerminalPreference } from '@opensumi/ide-terminal-next/lib/common/preference';
-import { IVariableResolverService } from '@opensumi/ide-variable';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-terminal-next/__tests__/browser/mock.service';
+import { createTerminalClientFactory2 } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.client';
+import { TerminalController } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.controller';
+import { TerminalEnvironmentService } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.environment.service';
+import { TerminalInternalService } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.internal.service';
+import { TerminalPreference } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.preference';
+import { TerminalProfileService } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.profile';
+import { TerminalGroupViewService } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.view';
+import { EnvironmentVariableServiceToken } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
+import { ITerminalPreference } from '@Nuvio-MCP/ide-terminal-next/lib/common/preference';
+import { IVariableResolverService } from '@Nuvio-MCP/ide-variable';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { mockExtensionProps } from '../../../../__mocks__/extensions';
 import { createMockPairRPCProtocol } from '../../../../__mocks__/initRPCProtocol';

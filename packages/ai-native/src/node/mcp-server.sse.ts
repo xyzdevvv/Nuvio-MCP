@@ -2,7 +2,7 @@
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { EventSource } from 'eventsource';
 
-import { ILogger } from '@opensumi/ide-core-common';
+import { ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import pkg from '../../package.json';
 import { IMCPServer } from '../common/mcp-server-manager';

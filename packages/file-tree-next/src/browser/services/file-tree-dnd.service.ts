@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { Decoration, TargetMatchMode } from '@opensumi/ide-components';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { Decoration, TargetMatchMode } from '@Nuvio-MCP/ide-components';
 import {
   BinaryBuffer,
   Disposable,
@@ -10,11 +10,11 @@ import {
   URI,
   WithEventBus,
   encodeBase64,
-} from '@opensumi/ide-core-browser';
-import { FileTreeDropEvent } from '@opensumi/ide-core-common/lib/types/dnd';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { FileTreeDropEvent } from '@Nuvio-MCP/ide-core-common/lib/types/dnd';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IFileTreeAPI, IFileTreeService } from '../../common';
 import { Directory, File } from '../../common/file-tree-node.define';

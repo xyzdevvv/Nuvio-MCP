@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, formatLocalize, localize } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, formatLocalize, localize } from '@Nuvio-MCP/ide-core-browser';
 
 export interface IConflictsCount {
   total: number;

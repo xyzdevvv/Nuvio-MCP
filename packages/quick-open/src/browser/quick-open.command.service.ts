@@ -1,14 +1,14 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   EDITOR_COMMANDS,
   IContextKeyService,
   Keybinding,
   KeybindingRegistry,
   localize,
-} from '@opensumi/ide-core-browser';
-import { CorePreferences } from '@opensumi/ide-core-browser/lib/core-preferences';
-import { AbstractMenuService, MenuId, MenuItemNode } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Mode, QuickOpenItem, QuickOpenItemOptions, QuickOpenModel } from '@opensumi/ide-core-browser/lib/quick-open';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CorePreferences } from '@Nuvio-MCP/ide-core-browser/lib/core-preferences';
+import { AbstractMenuService, MenuId, MenuItemNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Mode, QuickOpenItem, QuickOpenItemOptions, QuickOpenModel } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 import {
   Command,
   CommandRegistry,
@@ -16,9 +16,9 @@ import {
   Deferred,
   IReporterService,
   REPORT_NAME,
-} from '@opensumi/ide-core-common';
-import { uppercaseFirstLetter } from '@opensumi/ide-utils/lib/strings';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-common';
+import { uppercaseFirstLetter } from '@Nuvio-MCP/ide-utils/lib/strings';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { QuickOpenHandler } from './prefix-quick-open.service';
 

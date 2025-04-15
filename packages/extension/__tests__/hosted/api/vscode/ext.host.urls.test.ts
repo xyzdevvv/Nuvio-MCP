@@ -1,6 +1,6 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Uri } from '@opensumi/ide-core-common';
-import { IMainThreadUrls, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
+import { IMainThreadUrls, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
 
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
 import { ExtHostUrls } from '../../../../src/hosted/api/vscode/ext.host.urls';

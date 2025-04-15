@@ -1,7 +1,7 @@
 import throttle from 'lodash/throttle';
 import React from 'react';
 
-import { IEventBus } from '@opensumi/ide-core-common';
+import { IEventBus } from '@Nuvio-MCP/ide-core-common';
 
 import { fastdom } from '../dom';
 import { useInjectable } from '../react-hooks';

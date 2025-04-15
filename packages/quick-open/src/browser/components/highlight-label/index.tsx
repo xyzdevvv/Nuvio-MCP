@@ -1,9 +1,9 @@
 import React, { ReactChild } from 'react';
 
-import { transformLabelWithCodicon } from '@opensumi/ide-core-browser';
-import { Highlight } from '@opensumi/ide-core-browser/lib/quick-open';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
-import { IIconService } from '@opensumi/ide-theme';
+import { transformLabelWithCodicon } from '@Nuvio-MCP/ide-core-browser';
+import { Highlight } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
 
 export interface HighlightLabelProp {
   text?: string;

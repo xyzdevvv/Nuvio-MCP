@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-electron",
+  "name": "@Nuvio-MCP/ide-electron",
   "version": "1.1.0",
   "description": "IDE Electron 实践层",
   "main": "./app/dist/main/index.js",
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/ide-electron.git"
+    "url": "git@github.com:Nuvio-MCP/ide-electron.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@opensumi/vscode-ripgrep": "^1.4.0",
+    "@Nuvio-MCP/vscode-ripgrep": "^1.4.0",
     "@parcel/watcher": "2.1.0",
     "node-gyp": "^9.3.0",
     "node-pty": "1.0.0",
@@ -44,7 +44,7 @@
     "vscode-oniguruma": "1.6.1"
   },
   "devDependencies": {
-    "@opensumi/ide-dev-tool": "portal:../dev-tool",
+    "@Nuvio-MCP/ide-dev-tool": "portal:../dev-tool",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^6.9.1",

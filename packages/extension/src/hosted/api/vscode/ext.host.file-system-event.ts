@@ -17,7 +17,7 @@
 // eslint-disable-next-line import/no-unresolved
 import vscode from 'vscode';
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   AsyncEmitter,
   CancellationToken,
@@ -29,8 +29,8 @@ import {
   WaitUntilEvent,
   getDebugLogger,
   parseGlob,
-} from '@opensumi/ide-core-common';
-import { FileOperation } from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-core-common';
+import { FileOperation } from '@Nuvio-MCP/ide-workspace-edit';
 
 import {
   ExtensionDocumentDataManager,

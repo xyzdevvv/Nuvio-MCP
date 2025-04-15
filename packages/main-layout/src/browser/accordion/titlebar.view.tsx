@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useDesignStyles, useInjectable } from '@opensumi/ide-core-browser';
+import { useDesignStyles, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { TabbarService, TabbarServiceFactory } from '../tabbar/tabbar.service';
 

@@ -1,11 +1,11 @@
-import { Disposable, ECodeEditsSourceTyping } from '@opensumi/ide-core-common';
+import { Disposable, ECodeEditsSourceTyping } from '@Nuvio-MCP/ide-core-common';
 import {
   IModelContentChangedEvent,
   IPosition,
   IRange,
   InlineCompletion,
   InlineCompletions,
-} from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-monaco';
 
 import { ITriggerData } from './source/trigger.source';
 

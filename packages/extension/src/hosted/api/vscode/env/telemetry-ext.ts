@@ -1,5 +1,5 @@
-import { Emitter, Event, TelemetryTrustedValue, mixin } from '@opensumi/ide-core-common';
-import { cloneAndChange } from '@opensumi/ide-utils/lib/objects';
+import { Emitter, Event, TelemetryTrustedValue, mixin } from '@Nuvio-MCP/ide-core-common';
+import { cloneAndChange } from '@Nuvio-MCP/ide-utils/lib/objects';
 
 import type { TelemetryLoggerOptions, TelemetrySender } from 'vscode';
 

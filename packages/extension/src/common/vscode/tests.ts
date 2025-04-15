@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/tree/main/src/vs/workbench/contrib/testing/common
 
-import { CancellationToken } from '@opensumi/ide-core-common';
+import { CancellationToken } from '@Nuvio-MCP/ide-core-common';
 import {
   CoverageDetails,
   ExtensionRunTestsRequest,
@@ -19,7 +19,7 @@ import {
   SerializedTestMessage,
   TestResultState,
   TestsDiff,
-} from '@opensumi/ide-testing/lib/common/testCollection';
+} from '@Nuvio-MCP/ide-testing/lib/common/testCollection';
 
 import type vscode from 'vscode';
 

@@ -1,11 +1,11 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiFileTreeView } from './filetree-view';
-import { OpenSumiOpenedEditorView } from './opened-editor-view';
-import { OpenSumiOutlineView } from './outline-view';
-import { OpenSumiPanel } from './panel';
-import { OpenSumiTreeNode } from './tree-node';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPFileTreeView } from './filetree-view';
+import { Nuvio-MCPOpenedEditorView } from './opened-editor-view';
+import { Nuvio-MCPOutlineView } from './outline-view';
+import { Nuvio-MCPPanel } from './panel';
+import { Nuvio-MCPTreeNode } from './tree-node';
 
-export class OpenSumiExplorerFileStatNode extends OpenSumiTreeNode {
+export class Nuvio-MCPExplorerFileStatNode extends Nuvio-MCPTreeNode {
   async getFsPath() {
     return await this.elementHandle.getAttribute('title');
   }
@@ -42,7 +42,7 @@ export class OpenSumiExplorerFileStatNode extends OpenSumiTreeNode {
   }
 }
 
-export class OpenSumiExplorerOpenedEditorNode extends OpenSumiTreeNode {
+export class Nuvio-MCPExplorerOpenedEditorNode extends Nuvio-MCPTreeNode {
   async getRelativePath() {
     return await (await this.elementHandle.$('[class*="opened_editor_node_description__"]'))?.textContent();
   }
@@ -68,19 +68,19 @@ export class OpenSumiExplorerOpenedEditorNode extends OpenSumiTreeNode {
   }
 }
 
-export class OpenSumiExplorerView extends OpenSumiPanel {
-  private _fileTreeView: OpenSumiFileTreeView;
-  private _openedEditorView: OpenSumiOpenedEditorView;
-  private _outlineView: OpenSumiOutlineView;
+export class Nuvio-MCPExplorerView extends Nuvio-MCPPanel {
+  private _fileTreeView: Nuvio-MCPFileTreeView;
+  private _openedEditorView: Nuvio-MCPOpenedEditorView;
+  private _outlineView: Nuvio-MCPOutlineView;
 
-  constructor(app: OpenSumiApp) {
+  constructor(app: Nuvio-MCPApp) {
     super(app, 'EXPLORER');
-    this._openedEditorView = new OpenSumiOpenedEditorView(this.app);
-    this._outlineView = new OpenSumiOutlineView(this.app);
+    this._openedEditorView = new Nuvio-MCPOpenedEditorView(this.app);
+    this._outlineView = new Nuvio-MCPOutlineView(this.app);
   }
 
   initFileTreeView(name: string) {
-    this._fileTreeView = new OpenSumiFileTreeView(this.app, name);
+    this._fileTreeView = new Nuvio-MCPFileTreeView(this.app, name);
   }
 
   get fileTreeView() {
@@ -117,7 +117,7 @@ export class OpenSumiExplorerView extends OpenSumiPanel {
       }
     }
     if (node) {
-      return new OpenSumiExplorerFileStatNode(node, this.app);
+      return new Nuvio-MCPExplorerFileStatNode(node, this.app);
     }
   }
 
@@ -143,7 +143,7 @@ export class OpenSumiExplorerView extends OpenSumiPanel {
       }
     }
     if (node) {
-      return new OpenSumiExplorerFileStatNode(node, this.app);
+      return new Nuvio-MCPExplorerFileStatNode(node, this.app);
     }
   }
 }

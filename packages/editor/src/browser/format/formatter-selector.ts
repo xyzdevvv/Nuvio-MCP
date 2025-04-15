@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   PreferenceScope,
   PreferenceService,
@@ -7,15 +7,15 @@ import {
   URI,
   formatLocalize,
   localize,
-} from '@opensumi/ide-core-browser';
-import { DocumentFormattingEditProvider, DocumentRangeFormattingEditProvider } from '@opensumi/ide-monaco';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { IMessageService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { DocumentFormattingEditProvider, DocumentRangeFormattingEditProvider } from '@Nuvio-MCP/ide-monaco';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 import {
   FormattingKind,
   FormattingMode,
   IFormattingEditProviderSelector,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
 
 import { IEditorDocumentModelService } from '../doc-model/types';
 

@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useMemo, useRef } from 'react';
 
-import { DropDownProps, DropdownButton } from '@opensumi/ide-components';
-import { Menu } from '@opensumi/ide-components/lib/menu';
-import { Emitter } from '@opensumi/ide-core-common';
+import { DropDownProps, DropdownButton } from '@Nuvio-MCP/ide-components';
+import { Menu } from '@Nuvio-MCP/ide-components/lib/menu';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import { IToolbarActionDropdownButtonProps, IToolbarActionElementProps, IToolbarActionReactElement } from '../types';
 

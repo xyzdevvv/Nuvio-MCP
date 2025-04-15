@@ -1,4 +1,4 @@
-export * from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/codeAction/common/types';
+export * from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/codeAction/common/types';
 
 export class CodeActionKind {
   private static readonly sep = '.';

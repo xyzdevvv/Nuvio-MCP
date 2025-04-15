@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   CommandContribution,
   CommandRegistry,
@@ -7,14 +7,14 @@ import {
   IContextKey,
   IContextKeyService,
   Uri,
-} from '@opensumi/ide-core-browser';
-import { RawContextKey } from '@opensumi/ide-core-browser/lib/raw-context-key';
+} from '@Nuvio-MCP/ide-core-browser';
+import { RawContextKey } from '@Nuvio-MCP/ide-core-browser/lib/raw-context-key';
 import {
   CallHierarchyItem,
   CallHierarchyProviderRegistry,
   ICallHierarchyService,
-} from '@opensumi/ide-monaco/lib/browser/contrib/callHierarchy';
-import { Position } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/position';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/callHierarchy';
+import { Position } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/position';
 
 import { BrowserEditorContribution, IEditor, IEditorFeatureRegistry } from '../../types';
 

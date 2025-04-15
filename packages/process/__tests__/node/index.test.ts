@@ -1,7 +1,7 @@
 import path from 'path';
 import stream from 'stream';
 
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { IProcessFactory, IProcessManage } from '../../src/';
 import { IProcessStartEvent, ProcessErrorEvent } from '../../src/common';

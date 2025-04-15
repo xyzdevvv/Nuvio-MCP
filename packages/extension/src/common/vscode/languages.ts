@@ -1,11 +1,11 @@
 import globToRegExp from 'glob-to-regexp';
 import { SymbolInformation } from 'vscode-languageserver-types';
 
-import { IMarkdownString, IMarkerData, IRange, UriComponents } from '@opensumi/ide-core-common';
-import { IEvaluatableExpression } from '@opensumi/ide-debug/lib/common/evaluatable-expression';
-import { InlineValue, InlineValueContext } from '@opensumi/ide-debug/lib/common/inline-values';
+import { IMarkdownString, IMarkerData, IRange, UriComponents } from '@Nuvio-MCP/ide-core-common';
+import { IEvaluatableExpression } from '@Nuvio-MCP/ide-debug/lib/common/evaluatable-expression';
+import { InlineValue, InlineValueContext } from '@Nuvio-MCP/ide-debug/lib/common/inline-values';
 // eslint-disable-next-line import/order
-import { ILanguageStatus, ISingleEditOperation } from '@opensumi/ide-editor';
+import { ILanguageStatus, ISingleEditOperation } from '@Nuvio-MCP/ide-editor';
 
 // eslint-disable-next-line import/no-restricted-paths
 
@@ -56,9 +56,9 @@ import {
 } from './model.api';
 
 // eslint-disable-next-line import/no-restricted-paths
-import type { ITextModel, NewSymbolName } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import type { URI as Uri } from '@opensumi/monaco-editor-core/esm/vs/base/common/uri';
-import type * as languages from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+import type { ITextModel, NewSymbolName } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import type { URI as Uri } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/uri';
+import type * as languages from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 // eslint-disable-next-line import/no-restricted-paths
 import type {
   CodeActionContext,
@@ -66,7 +66,7 @@ import type {
   CompletionItemLabel,
   NewSymbolNameTriggerKind,
   SignatureHelpContext,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 import type {
   CallHierarchyProvider,
   CancellationToken,
@@ -85,7 +85,7 @@ import type {
   TypeHierarchyProvider,
 } from 'vscode';
 
-export type { Command } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+export type { Command } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 export interface IMainThreadLanguages {
   $unregister(handle: number): void;

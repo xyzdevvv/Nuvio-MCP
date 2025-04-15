@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService, addDisposableListener } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService, addDisposableListener } from '@Nuvio-MCP/ide-core-browser';
 import {
   Disposable,
   DisposableCollection,
@@ -9,7 +9,7 @@ import {
   RunOnceScheduler,
   isOSX,
   localize,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { convertBufferRangeToViewport } from './helpers';
 

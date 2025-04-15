@@ -2,8 +2,8 @@ import { createHash } from 'crypto';
 
 import address from 'address';
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Event, uuid } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Event, uuid } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IExtHostEnv,

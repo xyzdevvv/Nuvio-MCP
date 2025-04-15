@@ -1,5 +1,5 @@
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { AddonsModule } from '../../src/node';
 

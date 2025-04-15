@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Command,
   CommandHandler,
@@ -14,8 +14,8 @@ import {
   ServiceNames,
   Uri,
   memoize,
-} from '@opensumi/ide-core-browser';
-import { DELEGATE_COMMANDS } from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-browser';
+import { DELEGATE_COMMANDS } from '@Nuvio-MCP/ide-monaco';
 import {
   EditorExtensionsRegistry,
   ICommandEvent,
@@ -25,10 +25,10 @@ import {
   IMonacoCommandsRegistry,
   CommandsRegistry as MonacoCommandsRegistry,
   MonacoEditorCommandHandler,
-} from '@opensumi/ide-monaco/lib/browser/contrib/command';
-import { URI } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { StandaloneServices } from '@opensumi/ide-monaco/lib/browser/monaco-api/services';
-import { Event, ICodeEditor, IEvent } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/command';
+import { URI } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { StandaloneServices } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/services';
+import { Event, ICodeEditor, IEvent } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { MonacoCodeService } from '../../editor.override';
 import { EditorCollectionService, WorkbenchEditorService } from '../../types';

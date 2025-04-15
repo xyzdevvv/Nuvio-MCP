@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Schemes } from '@opensumi/ide-core-common';
+import { Schemes } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtHostFileSystemInfoShape } from '../../../common/vscode/file-system';
 

@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 
-import { SlotRenderer, useInjectable } from '@opensumi/ide-core-browser';
-import { BoxPanel, SplitPanel, getStorageValue } from '@opensumi/ide-core-browser/lib/components';
-import { DesignLayoutConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
+import { SlotRenderer, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { BoxPanel, SplitPanel, getStorageValue } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { DesignLayoutConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
 
 import { AI_CHAT_VIEW_ID } from '../../common';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReactEditorComponent } from '@opensumi/ide-editor/lib/browser';
+import { ReactEditorComponent } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 export const ExampleEditorTopWidget: ReactEditorComponent<any> = ({ resource }) => (
   <div

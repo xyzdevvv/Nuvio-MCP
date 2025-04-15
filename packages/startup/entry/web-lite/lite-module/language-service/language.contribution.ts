@@ -1,8 +1,8 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution } from '@opensumi/ide-core-browser';
-import { Disposable, Domain, URI } from '@opensumi/ide-core-common';
-import { Position } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Domain, URI } from '@Nuvio-MCP/ide-core-common';
+import { Position } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { ILsifService } from './lsif-service/base';
 import { SimpleLanguageService } from './simple.service';

@@ -1,8 +1,8 @@
 import nodeFetch from 'node-fetch';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-node/lib/types';
-import pkg from '@opensumi/ide-core-node/package.json';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-node/lib/types';
+import pkg from '@Nuvio-MCP/ide-core-node/package.json';
 
 import { IMarketplaceService } from '../../common';
 import { QueryParam, QueryResult, VSXSearchParam, VSXSearchResult } from '../../common/vsx-registry-types';

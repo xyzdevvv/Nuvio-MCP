@@ -1,4 +1,4 @@
-import { Disposable, Event, GeneralSettingsId, PreferenceItem, getLanguageId } from '@opensumi/ide-core-common';
+import { Disposable, Event, GeneralSettingsId, PreferenceItem, getLanguageId } from '@Nuvio-MCP/ide-core-common';
 
 import { IPreferences } from '../bootstrap';
 

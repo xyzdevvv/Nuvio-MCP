@@ -7,19 +7,19 @@ import {
   useAutorun,
   useContextMenus,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { EDirection } from '@opensumi/ide-core-browser/lib/components';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EDirection } from '@Nuvio-MCP/ide-core-browser/lib/components';
 import {
   EnhanceIcon,
   EnhanceIconWithCtxMenu,
   EnhancePopover,
   HorizontalVertical,
-} from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { DesignLayoutConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { localize } from '@opensumi/ide-core-common';
-import { DesignLeftTabRenderer, DesignRightTabRenderer } from '@opensumi/ide-design/lib/browser/layout/tabbar.view';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+} from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { DesignLayoutConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { localize } from '@Nuvio-MCP/ide-core-common';
+import { DesignLeftTabRenderer, DesignRightTabRenderer } from '@Nuvio-MCP/ide-design/lib/browser/layout/tabbar.view';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 import {
   ChatTabbarRenderer2,
   IconElipses,
@@ -27,10 +27,10 @@ import {
   LeftTabbarRenderer,
   RightTabbarRenderer,
   TabbarViewBase,
-} from '@opensumi/ide-main-layout/lib/browser/tabbar/bar.view';
-import { BaseTabPanelView, ContainerView } from '@opensumi/ide-main-layout/lib/browser/tabbar/panel.view';
-import { TabRendererBase, TabbarConfig } from '@opensumi/ide-main-layout/lib/browser/tabbar/renderer.view';
-import { TabbarService, TabbarServiceFactory } from '@opensumi/ide-main-layout/lib/browser/tabbar/tabbar.service';
+} from '@Nuvio-MCP/ide-main-layout/lib/browser/tabbar/bar.view';
+import { BaseTabPanelView, ContainerView } from '@Nuvio-MCP/ide-main-layout/lib/browser/tabbar/panel.view';
+import { TabRendererBase, TabbarConfig } from '@Nuvio-MCP/ide-main-layout/lib/browser/tabbar/renderer.view';
+import { TabbarService, TabbarServiceFactory } from '@Nuvio-MCP/ide-main-layout/lib/browser/tabbar/tabbar.service';
 
 import { AI_CHAT_VIEW_ID } from '../../common';
 

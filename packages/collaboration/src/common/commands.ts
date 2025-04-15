@@ -1,4 +1,4 @@
-import { Command } from '@opensumi/ide-core-common';
+import { Command } from '@Nuvio-MCP/ide-core-common';
 
 const COMMAND_CATEGORY = 'Collaboration';
 

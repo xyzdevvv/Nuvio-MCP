@@ -1,8 +1,8 @@
 import path from 'path';
 
-import { Event, INodeLogger, getDebugLogger, sleep } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { EnvironmentVariableServiceToken } from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
+import { Event, INodeLogger, getDebugLogger, sleep } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { EnvironmentVariableServiceToken } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
 
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
 import { IExtHostProxy, IExtensionHostManager } from '../../src/common';
@@ -11,8 +11,8 @@ import { ExtensionHostProxyManager } from '../../src/node/extension.host.proxy.m
 
 import { MockEnvironmentVariableService } from './__mocks__/environmentVariableService';
 
-// re-install RAL in `@opensumi/vscode-jsonrpc`
-import '@opensumi/vscode-jsonrpc/lib/node/main';
+// re-install RAL in `@Nuvio-MCP/vscode-jsonrpc`
+import '@Nuvio-MCP/vscode-jsonrpc/lib/node/main';
 
 const PROXY_PORT = 10296;
 describe('ext host proxy test', () => {

@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   CompositeTreeNode,
   Decoration,
@@ -8,7 +8,7 @@ import {
   TreeNodeEvent,
   TreeNodeType,
   WatchEvent,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   Deferred,
   DisposableCollection,
@@ -18,8 +18,8 @@ import {
   IContextKeyService,
   pSeries,
   path,
-} from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 
 import { IDebugConsoleModelService, IDebugSession, IDebugSessionManager } from '../../../common';
 import { LinkDetector } from '../../debug-link-detector';

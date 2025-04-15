@@ -1,12 +1,12 @@
-import { IContextKeyService, StorageProvider } from '@opensumi/ide-core-browser';
-import { MockedStorageProvider } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { AbstractContextMenuService, ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Disposable } from '@opensumi/ide-core-common';
-import { IDebugSessionManager } from '@opensumi/ide-debug';
-import { DebugHoverSource } from '@opensumi/ide-debug/lib/browser/editor/debug-hover-source';
-import { DebugWatchNode } from '@opensumi/ide-debug/lib/browser/tree';
-import { DebugWatchModelService } from '@opensumi/ide-debug/lib/browser/view/watch/debug-watch-tree.model.service';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
+import { IContextKeyService, StorageProvider } from '@Nuvio-MCP/ide-core-browser';
+import { MockedStorageProvider } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { AbstractContextMenuService, ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { DebugHoverSource } from '@Nuvio-MCP/ide-debug/lib/browser/editor/debug-hover-source';
+import { DebugWatchNode } from '@Nuvio-MCP/ide-debug/lib/browser/tree';
+import { DebugWatchModelService } from '@Nuvio-MCP/ide-debug/lib/browser/view/watch/debug-watch-tree.model.service';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
 
 import styles from '../../../../src/browser/view/watch/debug-watch.module.less';
 

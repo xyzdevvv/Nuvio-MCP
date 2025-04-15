@@ -1,9 +1,9 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { AppConfig, IClipboardService, IExternalUriService, IOpenerService } from '@opensumi/ide-core-browser';
-import { HttpOpener } from '@opensumi/ide-core-browser/lib/opener/http-opener';
-import { IApplicationService, URI, firstSessionDateStorageKey, getCodeLanguage } from '@opensumi/ide-core-common';
-import { ILoggerManagerClient } from '@opensumi/ide-logs/lib/browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { AppConfig, IClipboardService, IExternalUriService, IOpenerService } from '@Nuvio-MCP/ide-core-browser';
+import { HttpOpener } from '@Nuvio-MCP/ide-core-browser/lib/opener/http-opener';
+import { IApplicationService, URI, firstSessionDateStorageKey, getCodeLanguage } from '@Nuvio-MCP/ide-core-common';
+import { ILoggerManagerClient } from '@Nuvio-MCP/ide-logs/lib/browser';
 
 import { ExtHostAPIIdentifier, IExtHostEnv, IMainThreadEnv } from '../../../common/vscode';
 import { UIKind, UriComponents } from '../../../common/vscode/ext-types';

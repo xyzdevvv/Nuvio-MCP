@@ -33,12 +33,12 @@ declare module 'kaitian-browser' {
 
 declare module 'sumi-browser' {
   // eslint-disable-next-line import/export
-  export * from '@opensumi/ide-components';
+  export * from '@Nuvio-MCP/ide-components';
 
   import React from 'react';
   import { URI as Uri } from 'vscode-uri';
 
-  import { ANIM_TYPE, ROTATE_TYPE } from '@opensumi/ide-components';
+  import { ANIM_TYPE, ROTATE_TYPE } from '@Nuvio-MCP/ide-components';
 
   import type vscode from 'vscode';
 

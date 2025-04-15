@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   CommandService,
@@ -20,10 +20,10 @@ import {
   isWindows,
   localize,
   path,
-} from '@opensumi/ide-core-browser';
-import { EOL } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { IDialogService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EOL } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { AskSaveResult, IResource, IResourceProvider, WorkbenchEditorService } from '../common';
 

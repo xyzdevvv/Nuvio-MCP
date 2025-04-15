@@ -1,5 +1,5 @@
-import { localize } from '@opensumi/ide-core-common';
-import { Color, RGBA, editorErrorForeground, registerColor, transparent } from '@opensumi/ide-theme';
+import { localize } from '@Nuvio-MCP/ide-core-common';
+import { Color, RGBA, editorErrorForeground, registerColor, transparent } from '@Nuvio-MCP/ide-theme';
 
 // 这里都是 scm 相关颜色变量注册
 /* istanbul ignore file */

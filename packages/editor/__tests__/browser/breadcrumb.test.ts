@@ -1,15 +1,15 @@
-import { IEventBus, URI } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { IEditorDocumentModelService, WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
-import { BreadCrumbServiceImpl } from '@opensumi/ide-editor/lib/browser/breadcrumb';
+import { IEventBus, URI } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IEditorDocumentModelService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { BreadCrumbServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb';
 import {
   DocumentSymbol,
   DocumentSymbolChangedEvent,
-} from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { IWorkspaceService } from '@opensumi/ide-workspace/lib/common';
-import * as modes from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common';
+import * as modes from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

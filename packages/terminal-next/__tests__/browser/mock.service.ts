@@ -1,13 +1,13 @@
 import { Terminal } from '@xterm/xterm';
 import WebSocket from 'ws';
 
-import { Injectable } from '@opensumi/di';
-import { WSChannel } from '@opensumi/ide-connection';
-import { createWSChannelForClient } from '@opensumi/ide-connection/__test__/common/ws-channel';
-import { WSWebSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { Disposable, PreferenceProvider, PreferenceResolveResult, PreferenceService } from '@opensumi/ide-core-browser';
-import { Deferred, Emitter, IDisposable, OperatingSystem, PreferenceScope, URI, uuid } from '@opensumi/ide-core-common';
-import { Color, RGBA } from '@opensumi/ide-theme/lib/common/color';
+import { Injectable } from '@Nuvio-MCP/di';
+import { WSChannel } from '@Nuvio-MCP/ide-connection';
+import { createWSChannelForClient } from '@Nuvio-MCP/ide-connection/__test__/common/ws-channel';
+import { WSWebSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { Disposable, PreferenceProvider, PreferenceResolveResult, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, Emitter, IDisposable, OperatingSystem, PreferenceScope, URI, uuid } from '@Nuvio-MCP/ide-core-common';
+import { Color, RGBA } from '@Nuvio-MCP/ide-theme/lib/common/color';
 
 import {
   ICreateContributedTerminalProfileOptions,

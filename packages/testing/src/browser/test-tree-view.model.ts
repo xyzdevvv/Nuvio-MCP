@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { CompositeTreeNode, IRecycleTreeHandle, TreeNodeEvent } from '@opensumi/ide-components';
-import { BasicCompositeTreeNode } from '@opensumi/ide-components/lib/recycle-tree/basic/tree-node.define';
-import { Disposable, Emitter, filter, isDefined, map } from '@opensumi/ide-core-browser';
-import { Iterable } from '@opensumi/monaco-editor-core/esm/vs/base/common/iterator';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CompositeTreeNode, IRecycleTreeHandle, TreeNodeEvent } from '@Nuvio-MCP/ide-components';
+import { BasicCompositeTreeNode } from '@Nuvio-MCP/ide-components/lib/recycle-tree/basic/tree-node.define';
+import { Disposable, Emitter, filter, isDefined, map } from '@Nuvio-MCP/ide-core-browser';
+import { Iterable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/iterator';
 
 import { ITestService, TestServiceToken } from '../common';
 import { IComputedStateAndDurationAccessor, refreshComputedState } from '../common/getComputedState';

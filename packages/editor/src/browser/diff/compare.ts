@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandContribution,
   CommandRegistry,
@@ -12,8 +12,8 @@ import {
   URI,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 
 import { CompareResult, DIFF_SCHEME, ICompareService } from '../types';
 

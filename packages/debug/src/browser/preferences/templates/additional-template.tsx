@@ -10,9 +10,9 @@ import {
 } from '@rjsf/utils';
 import React, { FocusEvent, useCallback, useMemo } from 'react';
 
-import { Input } from '@opensumi/ide-components';
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { IJSONSchema, formatLocalize, localize } from '@opensumi/ide-core-common';
+import { Input } from '@Nuvio-MCP/ide-components';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IJSONSchema, formatLocalize, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { MASSIVE_PROPERTY_FLAG } from '../../../common';
 import { LaunchService } from '../launch.service';

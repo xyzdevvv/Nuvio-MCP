@@ -1,6 +1,6 @@
-import { InteractiveInput } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { MaybePromise, uuid } from '@opensumi/ide-core-common';
-import { ICodeEditor, IPosition, Selection } from '@opensumi/ide-monaco';
+import { InteractiveInput } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { MaybePromise, uuid } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor, IPosition, Selection } from '@Nuvio-MCP/ide-monaco';
 
 import { ERunStrategy, IInteractiveInputHandler } from '../../types';
 

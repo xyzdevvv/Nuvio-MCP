@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ClientAppContribution,
@@ -26,14 +26,14 @@ import {
   StaticResourceService,
   getCDNHref,
   getWorkerBootstrapUrl,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   IMenuItem,
   IMenuRegistry,
   ISubmenuItem,
   MenuContribution,
   MenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 import {
   CommandService,
   DisposableCollection,
@@ -43,40 +43,40 @@ import {
   isOSX,
   isString,
   removeReadonly,
-} from '@opensumi/ide-core-common';
-import { IIconService } from '@opensumi/ide-theme';
-import { IconService } from '@opensumi/ide-theme/lib/browser/icon.service';
+} from '@Nuvio-MCP/ide-core-common';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser/icon.service';
 import {
   ISemanticTokenRegistry,
   TokenStyle,
   parseClassifierString,
-} from '@opensumi/ide-theme/lib/common/semantic-tokens-registry';
+} from '@Nuvio-MCP/ide-theme/lib/common/semantic-tokens-registry';
 import {
   EditorContributionInstantiation,
   registerEditorContribution,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
-import { AbstractCodeEditorService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/abstractCodeEditorService';
-import { OpenerService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/openerService';
-import { IEditorContribution } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
-import { EditorContextKeys } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
-import { registerPlatformLanguageAssociation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/languagesAssociations';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
+import { AbstractCodeEditorService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/abstractCodeEditorService';
+import { OpenerService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/openerService';
+import { IEditorContribution } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { EditorContextKeys } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
+import { registerPlatformLanguageAssociation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/languagesAssociations';
 import {
   FormattingConflicts,
   IFormattingEditProviderSelector,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
 import {
   StandaloneCommandService,
   StandaloneKeybindingService,
   StandaloneServices,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
-import { IStandaloneThemeService } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/common/standaloneTheme';
-import * as monacoActions from '@opensumi/monaco-editor-core/esm/vs/platform/actions/common/actions';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+import { IStandaloneThemeService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/common/standaloneTheme';
+import * as monacoActions from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/actions/common/actions';
 import {
   ContextKeyExpr,
   ContextKeyExprType,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
-import { IInstantiationService } from '@opensumi/monaco-editor-core/esm/vs/platform/instantiation/common/instantiation';
-import * as monacoKeybindings from '@opensumi/monaco-editor-core/esm/vs/platform/keybinding/common/keybindingsRegistry';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { IInstantiationService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/instantiation/common/instantiation';
+import * as monacoKeybindings from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/keybinding/common/keybindingsRegistry';
 
 import { editor } from '../common';
 import { DELEGATE_COMMANDS, SKIP_UNREGISTER_MONACO_KEYBINDINGS } from '../common/command';
@@ -214,7 +214,7 @@ export class MonacoClientContribution
         contrib.registerOverrideService(this.overrideServicesRegistry);
       }
 
-      // 注册 Monaco 内置的格式化选择器，触发 Select 操作时使用 OpenSumi 自己实现的选择器
+      // 注册 Monaco 内置的格式化选择器，触发 Select 操作时使用 Nuvio-MCP 自己实现的选择器
       if (contrib.registerMonacoDefaultFormattingSelector) {
         contrib.registerMonacoDefaultFormattingSelector(this.registryDefaultFormattingSelector);
       }
@@ -361,7 +361,7 @@ export class MonacoClientContribution
       const menuItem = transformMonacoMenuItem(item);
       /**
        * monaco 中 editor/context 是一个数字枚举值
-       * opensumi 中是一个 字符串
+       * Nuvio-MCP 中是一个 字符串
        * 这里做了一层代理转换 (下方也有代理注册)
        */
       menuRegistry.registerMenuItem(MenuId.EditorContext as unknown as string, menuItem);
@@ -379,7 +379,7 @@ export class MonacoClientContribution
       disposer.addDispose(originalAppendItem.apply(monacoMenuRegistry, [menuId, item]));
       /**
        * monaco 中 editor/context 是一个数字枚举值
-       * opensumi 中是一个 字符串
+       * Nuvio-MCP 中是一个 字符串
        * 这里做了一层代理注册
        */
       if (menuId === monacoActions.MenuId.EditorContext) {
@@ -614,7 +614,7 @@ export class MonacoClientContribution
             when,
           });
         }
-        // 将 Monaco 内默认快捷键注册进 OpenSumi 中
+        // 将 Monaco 内默认快捷键注册进 Nuvio-MCP 中
         keybindings.registerKeybinding(keybinding);
       }
     }

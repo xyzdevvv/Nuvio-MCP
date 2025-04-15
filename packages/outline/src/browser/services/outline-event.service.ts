@@ -1,9 +1,9 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, OnEvent, URI, WithEventBus } from '@opensumi/ide-core-browser';
-import { IEditorGroup, IResource } from '@opensumi/ide-editor';
-import { EditorActiveResourceStateChangedEvent, EditorSelectionChangeEvent } from '@opensumi/ide-editor/lib/browser';
-import { DocumentSymbolChangedEvent } from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
-import { ViewCollapseChangedEvent } from '@opensumi/ide-main-layout';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, OnEvent, URI, WithEventBus } from '@Nuvio-MCP/ide-core-browser';
+import { IEditorGroup, IResource } from '@Nuvio-MCP/ide-editor';
+import { EditorActiveResourceStateChangedEvent, EditorSelectionChangeEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { DocumentSymbolChangedEvent } from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
+import { ViewCollapseChangedEvent } from '@Nuvio-MCP/ide-main-layout';
 
 import { OUTLINE_VIEW_ID } from '../../common/index';
 

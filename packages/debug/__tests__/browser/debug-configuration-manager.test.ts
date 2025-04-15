@@ -6,15 +6,15 @@ import {
   QuickPickService,
   StorageProvider,
   URI,
-} from '@opensumi/ide-core-browser';
-import { IDebugServer } from '@opensumi/ide-debug';
-import { DebugConfigurationManager } from '@opensumi/ide-debug/lib/browser/debug-configuration-manager';
-import { DebugPreferences } from '@opensumi/ide-debug/lib/browser/debug-preferences';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IDebugServer } from '@Nuvio-MCP/ide-debug';
+import { DebugConfigurationManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-configuration-manager';
+import { DebugPreferences } from '@Nuvio-MCP/ide-debug/lib/browser/debug-preferences';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { MockContextKeyService } from '../../../monaco/__mocks__/monaco.context-key.service';
 

@@ -1,6 +1,6 @@
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuId, MenuRegistryImpl } from '@opensumi/ide-core-browser/lib/menu/next';
-import { DisposableStore } from '@opensumi/ide-core-common';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuId, MenuRegistryImpl } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { DisposableStore } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

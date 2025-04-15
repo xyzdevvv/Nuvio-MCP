@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { getIcon } from '@opensumi/ide-core-browser';
-import { browserViews } from '@opensumi/ide-core-browser/lib/extensions/schema/browserViews';
-import { DisposableCollection, LifeCyclePhase, getDebugLogger } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IIconService } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { getIcon } from '@Nuvio-MCP/ide-core-browser';
+import { browserViews } from '@Nuvio-MCP/ide-core-browser/lib/extensions/schema/browserViews';
+import { DisposableCollection, LifeCyclePhase, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { ExtensionLoadingView } from '../../components';

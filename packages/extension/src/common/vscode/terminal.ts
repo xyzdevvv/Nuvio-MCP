@@ -1,4 +1,4 @@
-import { Event, IDisposable, IExtensionProps } from '@opensumi/ide-core-common';
+import { Event, IDisposable, IExtensionProps } from '@Nuvio-MCP/ide-core-common';
 import {
   ICreateContributedTerminalProfileOptions,
   ITerminalDimensions,
@@ -8,8 +8,8 @@ import {
   ITerminalLaunchError,
   ITerminalLinkDto,
   ITerminalProfile,
-} from '@opensumi/ide-terminal-next';
-import { SerializableEnvironmentVariableCollection } from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
+} from '@Nuvio-MCP/ide-terminal-next';
+import { SerializableEnvironmentVariableCollection } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
 
 import { IExtensionDescription } from './extension';
 

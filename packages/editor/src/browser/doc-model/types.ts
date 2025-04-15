@@ -7,8 +7,8 @@ import {
   IEditorDocumentModelSaveResult,
   MaybePromise,
   URI,
-} from '@opensumi/ide-core-browser';
-import { EOL, EndOfLineSequence } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EOL, EndOfLineSequence } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { IEditorDocumentModelContentChange, SaveReason } from '../../common';
 import { IEditorDocumentDescription, IEditorDocumentModel, IEditorDocumentModelRef } from '../../common/editor';

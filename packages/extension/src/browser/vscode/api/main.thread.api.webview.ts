@@ -1,7 +1,7 @@
 import throttle from 'lodash/throttle';
 
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CommandRegistry,
   Disposable,
@@ -17,22 +17,22 @@ import {
   StorageProvider,
   URI,
   arrays,
-} from '@opensumi/ide-core-browser';
-import { CommandOpener } from '@opensumi/ide-core-browser/lib/opener/command-opener';
-import { HttpOpener } from '@opensumi/ide-core-browser/lib/opener/http-opener';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { CancellationToken, OnEvent, WithEventBus } from '@opensumi/ide-core-common';
-import { IResource, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EditorGroupChangeEvent, IEditorOpenType } from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService, ViewCollapseChangedEvent } from '@opensumi/ide-main-layout';
-import { IIconService, IconType } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CommandOpener } from '@Nuvio-MCP/ide-core-browser/lib/opener/command-opener';
+import { HttpOpener } from '@Nuvio-MCP/ide-core-browser/lib/opener/http-opener';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { CancellationToken, OnEvent, WithEventBus } from '@Nuvio-MCP/ide-core-common';
+import { IResource, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EditorGroupChangeEvent, IEditorOpenType } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService, ViewCollapseChangedEvent } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
 import {
   IEditorWebviewComponent,
   IPlainWebview,
   IPlainWebviewComponentHandle,
   IWebview,
   IWebviewService,
-} from '@opensumi/ide-webview';
+} from '@Nuvio-MCP/ide-webview';
 
 import { ISumiExtHostWebviews } from '../../../common/sumi/webview';
 import {

@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 import { createBrowserInjector } from '../src/injector-helper';
 import { createNodeInjector } from '../src/mock-injector';

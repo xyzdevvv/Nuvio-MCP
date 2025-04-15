@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   IApplicationService,
   LRUMap,
@@ -8,11 +8,11 @@ import {
   WithEventBus,
   formatLocalize,
   localize,
-} from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { FileChangeType, path } from '@opensumi/ide-core-common';
-import { FileStat, IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { IDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { FileChangeType, path } from '@Nuvio-MCP/ide-core-common';
+import { FileStat, IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
 
 import { AskSaveResult, DIFF_SCHEME, IResource, IResourceProvider, ResourceNeedUpdateEvent } from '../../common';
 import { IEditorDocumentModelService } from '../doc-model/types';

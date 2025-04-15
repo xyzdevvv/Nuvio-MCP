@@ -1,4 +1,4 @@
-# 适用于 OpenSumi core 仓库的正式版本发布流程
+# 适用于 Nuvio-MCP core 仓库的正式版本发布流程
 
 name: Release
 
@@ -27,13 +27,13 @@ jobs:
     steps:
       # 判断用户是否有管理员权限
       - name: 'Check if user has admin access'
-        uses: 'opensumi/actions/permission-check@main'
+        uses: 'Nuvio-MCP/actions/permission-check@main'
         with:
           permission: 'admin'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: opensumi/actions/bot-token@main
+      - uses: Nuvio-MCP/actions/bot-token@main
         with:
           token-server: ${{ secrets.BOT_TOKEN_SERVER }}
           flag: ${{ secrets.BOT_FLAG }}
@@ -54,7 +54,7 @@ jobs:
           tag: 'v${{github.event.inputs.version}}'
         env:
           GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
-      - uses: opensumi/actions/bot-token@main
+      - uses: Nuvio-MCP/actions/bot-token@main
         id: bot-token
         with:
           token-server: ${{ secrets.BOT_TOKEN_SERVER }}

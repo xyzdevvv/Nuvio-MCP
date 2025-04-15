@@ -1,7 +1,7 @@
 import * as pty from 'node-pty';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Deferred, INodeLogger } from '@opensumi/ide-core-node';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Deferred, INodeLogger } from '@Nuvio-MCP/ide-core-node';
 
 import { IPtyProcessProxy, IPtyProxyRPCService, IPtySpawnOptions, IShellLaunchConfig } from '../common';
 

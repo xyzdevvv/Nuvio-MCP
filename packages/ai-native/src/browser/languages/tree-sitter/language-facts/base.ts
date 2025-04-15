@@ -1,6 +1,6 @@
 import Parser from 'web-tree-sitter';
 
-import { IRange } from '@opensumi/ide-core-common';
+import { IRange } from '@Nuvio-MCP/ide-core-common';
 
 import { SupportedTreeSitterLanguages } from './types';
 

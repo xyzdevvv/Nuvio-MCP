@@ -1,7 +1,7 @@
-import { WindowService } from '@opensumi/ide-core-browser/lib/window/window.service';
-import { IElectronMainLifeCycleService, IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { WindowService } from '@Nuvio-MCP/ide-core-browser/lib/window/window.service';
+import { IElectronMainLifeCycleService, IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { IWindowService, URI } from '../../src';
 import { IExternalUriService } from '../../src/services';
@@ -58,7 +58,7 @@ describe('test windowService on Electron env', () => {
   });
 
   it('openNewWindow method should be work', () => {
-    windowService.openNewWindow('http://opensumi.com');
+    windowService.openNewWindow('http://Nuvio-MCP.com');
     expect(mockElectronMainUIService.openExternal).toHaveBeenCalled();
   });
 
@@ -120,7 +120,7 @@ describe('test windowService on web', () => {
   });
 
   it('openNewWindow method should be work', () => {
-    windowService.openNewWindow('http://opensumi.com', { external: true });
+    windowService.openNewWindow('http://Nuvio-MCP.com', { external: true });
     expect(mockExternalUriService.resolveExternalUri).toHaveBeenCalled();
   });
 

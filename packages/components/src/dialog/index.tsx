@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { MessageType, localize } from '@opensumi/ide-core-common';
+import { MessageType, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { Button } from '../button';
 import { IconContext, getIcon } from '../icon';

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Injectable } from '@opensumi/di';
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 
 import { IToolbarPopoverRegistry } from './types';
 

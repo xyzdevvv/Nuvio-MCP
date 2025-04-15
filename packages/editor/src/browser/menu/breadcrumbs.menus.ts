@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { URI } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import { EditorGroup } from '../workbench-editor.service';
 

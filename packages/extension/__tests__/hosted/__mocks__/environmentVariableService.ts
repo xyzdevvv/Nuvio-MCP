@@ -1,4 +1,4 @@
-import { Disposable } from '@opensumi/ide-core-common';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 export const MockEnvironmentVariableService = {
   set: () => {},

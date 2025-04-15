@@ -1,4 +1,4 @@
-import { URI } from '@opensumi/ide-utils';
+import { URI } from '@Nuvio-MCP/ide-utils';
 export interface IFileSystemWatcherServer {
   /**
    * 根据给定参数启动文件监听

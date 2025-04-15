@@ -6,8 +6,8 @@ import {
   KeybindingRegistry,
   Keystroke,
   isOSX,
-} from '@opensumi/ide-core-browser';
-import { AriaLabelProvider, UILabelProvider } from '@opensumi/monaco-editor-core/esm/vs/base/common/keybindingLabels';
+} from '@Nuvio-MCP/ide-core-browser';
+import { AriaLabelProvider, UILabelProvider } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/keybindingLabels';
 import {
   KeyCodeChord,
   Keybinding,
@@ -16,10 +16,10 @@ import {
   ResolvedKeybinding,
   ScanCodeChord,
   SingleModifierChord,
-} from '@opensumi/monaco-editor-core/esm/vs/base/common/keybindings';
-import { KeyCode as MonacoKeyCode } from '@opensumi/monaco-editor-core/esm/vs/base/common/keyCodes';
-import * as platform from '@opensumi/monaco-editor-core/esm/vs/base/common/platform';
-import { USLayoutResolvedKeybinding } from '@opensumi/monaco-editor-core/esm/vs/platform/keybinding/common/usLayoutResolvedKeybinding';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/keybindings';
+import { KeyCode as MonacoKeyCode } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/keyCodes';
+import * as platform from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/platform';
+import { USLayoutResolvedKeybinding } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/keybinding/common/usLayoutResolvedKeybinding';
 
 import { KEY_CODE_MAP } from './monaco.keycode-map';
 

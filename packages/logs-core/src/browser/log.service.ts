@@ -1,4 +1,4 @@
-import { Deferred } from '@opensumi/ide-core-common';
+import { Deferred } from '@Nuvio-MCP/ide-core-common';
 
 import { DebugLog, ILogServiceClient, ILogServiceForClient, LogLevel, SupportLogNamespace, format } from '../common/';
 

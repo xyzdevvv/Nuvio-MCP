@@ -16,7 +16,7 @@
 
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/task/src/node/task-problem-collector.ts
 
-import { ProblemMatch, ProblemMatcher } from '@opensumi/ide-core-common';
+import { ProblemMatch, ProblemMatcher } from '@Nuvio-MCP/ide-core-common';
 
 import { AbstractLineMatcher, StartStopLineMatcher, WatchModeLineMatcher } from './problem-line-matcher';
 

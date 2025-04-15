@@ -1,4 +1,4 @@
-import { FileUri } from '@opensumi/ide-core-node';
+import { FileUri } from '@Nuvio-MCP/ide-core-node';
 
 import { FileChangeType } from '../../src/common';
 import { FileChangeCollection } from '../../src/node/file-change-collection';

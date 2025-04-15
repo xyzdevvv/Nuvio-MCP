@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationToken,
   Emitter,
@@ -8,8 +8,8 @@ import {
   URI,
   path,
   toDisposable,
-} from '@opensumi/ide-core-common';
-import { FileStat } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 import {
   ExtensionDocumentDataManager,
@@ -146,7 +146,7 @@ export function createWorkspaceApiFactory(
     get notebookDocuments() {
       return extHostNotebook.notebookDocuments;
     },
-    // empty handler for compatibility with the experimental API , see https://github.com/opensumi/core/issues/2424
+    // empty handler for compatibility with the experimental API , see https://github.com/Nuvio-MCP/core/issues/2424
     registerTimelineProvider: () => toDisposable(() => {}),
     registerPortAttributesProvider: () => toDisposable(() => {}),
     registerEditSessionIdentityProvider: () => toDisposable(() => {}),

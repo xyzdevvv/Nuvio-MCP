@@ -1,4 +1,4 @@
-import { fastdom } from '@opensumi/ide-core-browser';
+import { fastdom } from '@Nuvio-MCP/ide-core-browser';
 
 /**
  * 用于 mock requestAnimationFrame 的表现，可以手动触发动画帧

@@ -8,11 +8,11 @@ import {
   KeybindingScope,
   KeybindingService,
   SpecialCases,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   KeyboardLayoutChangeNotifierService,
   KeyboardNativeLayoutService,
-} from '@opensumi/ide-core-common/lib/keyboard/keyboard-layout-provider';
+} from '@Nuvio-MCP/ide-core-common/lib/keyboard/keyboard-layout-provider';
 import {
   ContextKeyDefinedExpr,
   ContextKeyEqualsExpr,
@@ -20,7 +20,7 @@ import {
   ContextKeyNotEqualsExpr,
   ContextKeyNotExpr,
   ContextKeyRegexExpr,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

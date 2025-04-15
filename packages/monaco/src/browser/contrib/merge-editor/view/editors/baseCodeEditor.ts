@@ -1,10 +1,10 @@
-import { Injector } from '@opensumi/di';
-import { MonacoService } from '@opensumi/ide-core-browser';
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common';
-import { ICodeEditor } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { EditorLayoutInfo, EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import { IModelDecorationOptions, ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { IStandaloneEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
+import { Injector } from '@Nuvio-MCP/di';
+import { MonacoService } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { EditorLayoutInfo, EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { IModelDecorationOptions, ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { IStandaloneEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
 
 import { DetailedLineRangeMapping } from '../../../../../common/diff';
 import { MappingManagerService } from '../../mapping-manager.service';

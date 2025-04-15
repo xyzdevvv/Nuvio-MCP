@@ -11,8 +11,8 @@ import {
   RecycleTree,
   TreeModel,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { ViewState, getIcon, useDesignStyles, useInjectable } from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-components';
+import { ViewState, getIcon, useDesignStyles, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import {
   DebugScope,

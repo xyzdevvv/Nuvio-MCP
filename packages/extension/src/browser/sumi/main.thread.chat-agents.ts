@@ -1,14 +1,14 @@
-import { Injectable, Injector } from '@opensumi/di';
-import { ChatInternalService } from '@opensumi/ide-ai-native/lib/browser/chat/chat.internal.service';
-import { ERunStrategy, IInlineChatFeatureRegistry } from '@opensumi/ide-ai-native/lib/browser/types';
-import { InlineChatController } from '@opensumi/ide-ai-native/lib/browser/widget/inline-chat/inline-chat-controller';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { ChatInternalService } from '@Nuvio-MCP/ide-ai-native/lib/browser/chat/chat.internal.service';
+import { ERunStrategy, IInlineChatFeatureRegistry } from '@Nuvio-MCP/ide-ai-native/lib/browser/types';
+import { InlineChatController } from '@Nuvio-MCP/ide-ai-native/lib/browser/widget/inline-chat/inline-chat-controller';
 import {
   IChatAgentService,
   IChatAgentWelcomeMessage,
   IChatFollowup,
   IChatReplyFollowup,
-} from '@opensumi/ide-ai-native/lib/common';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+} from '@Nuvio-MCP/ide-ai-native/lib/common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CoreMessgaeRoleMap,
   Deferred,
@@ -16,8 +16,8 @@ import {
   IChatTreeData,
   IMarkdownString,
   InlineChatFeatureRegistryToken,
-} from '@opensumi/ide-core-common';
-import { SumiReadableStream } from '@opensumi/ide-utils/lib/stream';
+} from '@Nuvio-MCP/ide-core-common';
+import { SumiReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { ExtHostSumiAPIIdentifier } from '../../common/sumi';
 import {

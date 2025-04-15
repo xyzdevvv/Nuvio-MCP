@@ -25,7 +25,7 @@ export interface IConnectionShape<T> {
 我们内置了一些常见的通信方式，你可以在 `packages/connection/src/common/connection/drivers` 下查看它们。比如说基于 Stream 的你可以这么使用：
 
 ```ts
-import { StreamConnection } from '@opensumi/ide-connection/lib/common/connection/drivers';
+import { StreamConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers';
 const connection = new StreamConnection(process.stdout, process.stdin);
 ```
 

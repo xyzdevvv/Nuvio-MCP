@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IMenuRegistry } from '@opensumi/ide-core-browser/lib/menu/next';
-import { ISumiMenuExtendInfo, LifeCyclePhase } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IMenuRegistry } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { ISumiMenuExtendInfo, LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { IContributeMenubarItem } from '../../../common/sumi/extension';

@@ -1,4 +1,4 @@
-import { TreeNodeType } from '@opensumi/ide-components';
+import { TreeNodeType } from '@Nuvio-MCP/ide-components';
 import {
   CorePreferences,
   Disposable,
@@ -10,17 +10,17 @@ import {
   PreferenceService,
   QuickOpenService,
   URI,
-} from '@opensumi/ide-core-browser';
-import { MockContextKeyService } from '@opensumi/ide-core-browser/__mocks__/context-key';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { FileChangeType, IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMainLayoutService, IViewsRegistry } from '@opensumi/ide-main-layout';
-import { ViewsRegistry } from '@opensumi/ide-main-layout/lib/browser/views-registry';
-import { IDialogService, IMessageService, IWindowDialogService } from '@opensumi/ide-overlay';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
-import { DEFAULT_WORKSPACE_SUFFIX_NAME, IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-core-browser/__mocks__/context-key';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { FileChangeType, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMainLayoutService, IViewsRegistry } from '@Nuvio-MCP/ide-main-layout';
+import { ViewsRegistry } from '@Nuvio-MCP/ide-main-layout/lib/browser/views-registry';
+import { IDialogService, IMessageService, IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
+import { DEFAULT_WORKSPACE_SUFFIX_NAME, IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

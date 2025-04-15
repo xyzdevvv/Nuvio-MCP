@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef } from 'react';
 import ResizeObserver from 'resize-observer-polyfill';
 
-import { ICodeEditor, IDiffEditor } from '@opensumi/ide-monaco';
+import { ICodeEditor, IDiffEditor } from '@Nuvio-MCP/ide-monaco';
 
 export interface Size {
   width?: number;

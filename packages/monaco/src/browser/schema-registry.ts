@@ -1,9 +1,9 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Emitter, Event, IJSONSchema, IJSONSchemaRegistry, ISchemaContributions } from '@opensumi/ide-core-browser';
-import { Disposable, IDisposable, replaceLocalizePlaceholder } from '@opensumi/ide-core-common';
-import { cloneAndChangeByKV } from '@opensumi/ide-utils/lib/objects';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, IJSONSchema, IJSONSchemaRegistry, ISchemaContributions } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, IDisposable, replaceLocalizePlaceholder } from '@Nuvio-MCP/ide-core-common';
+import { cloneAndChangeByKV } from '@Nuvio-MCP/ide-utils/lib/objects';
 
 import { ISchemaStore, JsonSchemaConfiguration } from '../common';
 

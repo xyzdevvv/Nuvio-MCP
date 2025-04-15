@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IContextKey } from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IContextKey } from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 
 import { DebugStackFrame, DebugThread } from '../../model';
 

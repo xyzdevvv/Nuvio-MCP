@@ -4,7 +4,7 @@ import path from 'path';
 import * as fs from 'fs-extra';
 import semver from 'semver';
 
-import { Uri, getDebugLogger } from '@opensumi/ide-core-node';
+import { Uri, getDebugLogger } from '@Nuvio-MCP/ide-core-node';
 
 import { IExtensionMetaData, IExtraMetaData } from '../common';
 import { getNodeRequire } from '../common/utils';

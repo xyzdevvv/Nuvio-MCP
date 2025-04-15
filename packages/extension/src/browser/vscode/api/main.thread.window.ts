@@ -1,7 +1,7 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { URI } from '@opensumi/ide-core-browser';
-import { IDialogService, IOpenDialogOptions, ISaveDialogOptions, IWindowDialogService } from '@opensumi/ide-overlay';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { IDialogService, IOpenDialogOptions, ISaveDialogOptions, IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
 
 import {
   ExtHostAPIIdentifier,

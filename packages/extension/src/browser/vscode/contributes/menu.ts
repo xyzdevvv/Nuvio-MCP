@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandRegistry,
   CommandService,
@@ -8,15 +8,15 @@ import {
   formatLocalize,
   isUndefined,
   localize,
-} from '@opensumi/ide-core-browser';
-import { menus } from '@opensumi/ide-core-browser/lib/extensions/schema/menu';
-import { ToolbarRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenuItem, IMenuRegistry, ISubmenuItem, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
-import { EditorOpenType, IEditorGroup } from '@opensumi/ide-editor';
-import { IEditorActionRegistry } from '@opensumi/ide-editor/lib/browser';
-import { IconType, ThemeType } from '@opensumi/ide-theme';
-import { IIconService } from '@opensumi/ide-theme/lib/common/theme.service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { menus } from '@Nuvio-MCP/ide-core-browser/lib/extensions/schema/menu';
+import { ToolbarRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenuItem, IMenuRegistry, ISubmenuItem, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { EditorOpenType, IEditorGroup } from '@Nuvio-MCP/ide-editor';
+import { IEditorActionRegistry } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IconType, ThemeType } from '@Nuvio-MCP/ide-theme';
+import { IIconService } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

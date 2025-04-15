@@ -1,8 +1,8 @@
 import React, { useMemo, useState } from 'react';
 
-import { Button, Icon } from '@opensumi/ide-components';
-import { LabelService, URI, localize, useInjectable } from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Button, Icon } from '@Nuvio-MCP/ide-components';
+import { LabelService, URI, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { CodeBlockStatus } from '../../common/types';
 import { ChatMultiDiffResolver } from '../chat/chat-multi-diff-source';

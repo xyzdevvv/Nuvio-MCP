@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import * as monaco from '@opensumi/ide-monaco';
-import { NavigationDirection, findRangeForNavigation } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor';
-import { IMessageService } from '@opensumi/ide-overlay';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { NavigationDirection, findRangeForNavigation } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 
 import { IEditor, WorkbenchEditorService } from '../types';
 

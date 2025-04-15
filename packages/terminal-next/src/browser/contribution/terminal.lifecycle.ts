@@ -1,6 +1,6 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution, Domain } from '@opensumi/ide-core-browser';
-import { MainLayoutContribution } from '@opensumi/ide-main-layout';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution, Domain } from '@Nuvio-MCP/ide-core-browser';
+import { MainLayoutContribution } from '@Nuvio-MCP/ide-main-layout';
 
 import { ITerminalController, ITerminalRestore } from '../../common';
 import { EnvironmentVariableServiceToken, IEnvironmentVariableService } from '../../common/environmentVariable';

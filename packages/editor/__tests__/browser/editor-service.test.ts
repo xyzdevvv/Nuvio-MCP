@@ -1,5 +1,5 @@
-import { CorePreferences, IContextKeyService, PreferenceService } from '@opensumi/ide-core-browser';
-import { Deferred, Disposable, IEventBus, URI, createContributionProvider } from '@opensumi/ide-core-common';
+import { CorePreferences, IContextKeyService, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, Disposable, IEventBus, URI, createContributionProvider } from '@Nuvio-MCP/ide-core-common';
 import {
   BrowserEditorContribution,
   CodeEditorDidVisibleEvent,
@@ -11,33 +11,33 @@ import {
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
   IEditorFeatureRegistry,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorComponentRegistryImpl } from '@opensumi/ide-editor/lib/browser/component';
-import { isEOLStack, isEditStack } from '@opensumi/ide-editor/lib/browser/doc-model/editor-is-fn';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorComponentRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/component';
+import { isEOLStack, isEditStack } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/editor-is-fn';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
   SaveTask,
-} from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { EditorCollectionServiceImpl } from '@opensumi/ide-editor/lib/browser/editor-collection.service';
-import { EditorDecorationCollectionService } from '@opensumi/ide-editor/lib/browser/editor.decoration.service';
-import { EditorFeatureRegistryImpl } from '@opensumi/ide-editor/lib/browser/feature';
-import { LanguageService } from '@opensumi/ide-editor/lib/browser/language/language.service';
-import { ResourceServiceImpl } from '@opensumi/ide-editor/lib/browser/resource.service';
-import { EditorGroup, WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { EditorCollectionServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/editor-collection.service';
+import { EditorDecorationCollectionService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.decoration.service';
+import { EditorFeatureRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/feature';
+import { LanguageService } from '@Nuvio-MCP/ide-editor/lib/browser/language/language.service';
+import { ResourceServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/resource.service';
+import { EditorGroup, WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
 import {
   EditorCollectionService,
   EditorGroupSplitAction,
   ILanguageService,
   ResourceService,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/common';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor/lib/common';
-import { MonacoService } from '@opensumi/ide-monaco';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
-import { IConfigurationService } from '@opensumi/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
+} from '@Nuvio-MCP/ide-editor/lib/common';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor/lib/common';
+import { MonacoService } from '@Nuvio-MCP/ide-monaco';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
+import { IConfigurationService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { useMockStorage } from '../../../core-browser/__mocks__/storage';

@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ITreeNodeOrCompositeTreeNode, Tree } from '@opensumi/ide-components';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ITreeNodeOrCompositeTreeNode, Tree } from '@Nuvio-MCP/ide-components';
 import {
   Emitter,
   Event,
@@ -11,11 +11,11 @@ import {
   URI,
   compareRangesUsingStarts,
   getSymbolIcon,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   DocumentSymbolStore,
   INormalizedDocumentSymbol,
-} from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
+} from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
 
 import { OutlineSortOrder } from '../../common';
 import { OutlineCompositeTreeNode, OutlineRoot, OutlineTreeNode } from '../outline-node.define';

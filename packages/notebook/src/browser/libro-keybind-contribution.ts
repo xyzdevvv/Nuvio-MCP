@@ -1,7 +1,7 @@
 import { LibroSearchToggleCommand, LibroService, NotebookCommands } from '@difizen/libro-jupyter/noeditor';
 import { Container, CommandRegistry as LibroCommandRegistry } from '@difizen/mana-app';
 
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   CommandContribution,
@@ -12,8 +12,8 @@ import {
   KeybindingRegistry,
   KeybindingScope,
   MaybePromise,
-} from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { LIBRO_COMPONENTS_SCHEME_ID } from './libro.protocol';
 import { ManaContainer } from './mana';

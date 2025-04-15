@@ -2,25 +2,25 @@ import path from 'path';
 
 import { expect } from '@playwright/test';
 
-import { OpenSumiApp } from '../app';
-import { OpenSumiComponentEditor } from '../component-editor';
-import { OPENSUMI_VIEW_CONTAINERS } from '../constans';
-import { OpenSumiContextMenu } from '../context-menu';
-import { OpenSumiExplorerView } from '../explorer-view';
+import { Nuvio-MCPApp } from '../app';
+import { Nuvio-MCPComponentEditor } from '../component-editor';
+import { Nuvio-MCP_VIEW_CONTAINERS } from '../constans';
+import { Nuvio-MCPContextMenu } from '../context-menu';
+import { Nuvio-MCPExplorerView } from '../explorer-view';
 import { keypressWithCmdCtrl } from '../utils';
-import { OpenSumiWorkspace } from '../workspace';
+import { Nuvio-MCPWorkspace } from '../workspace';
 
 import test, { page } from './hooks';
 
-let app: OpenSumiApp;
-let explorer: OpenSumiExplorerView;
-let workspace: OpenSumiWorkspace;
+let app: Nuvio-MCPApp;
+let explorer: Nuvio-MCPExplorerView;
+let workspace: Nuvio-MCPWorkspace;
 
-test.describe('OpenSumi Shortcuts', () => {
+test.describe('Nuvio-MCP Shortcuts', () => {
   test.beforeAll(async () => {
-    workspace = new OpenSumiWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
-    app = await OpenSumiApp.load(page, workspace);
-    explorer = await app.open(OpenSumiExplorerView);
+    workspace = new Nuvio-MCPWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
+    app = await Nuvio-MCPApp.load(page, workspace);
+    explorer = await app.open(Nuvio-MCPExplorerView);
     explorer.initFileTreeView(workspace.workspace.displayName);
   });
 
@@ -29,10 +29,10 @@ test.describe('OpenSumi Shortcuts', () => {
   });
 
   const openSettingsView = async () => {
-    const leftTabbar = await app.page.waitForSelector(`#${OPENSUMI_VIEW_CONTAINERS.LEFT_TABBAR}`);
+    const leftTabbar = await app.page.waitForSelector(`#${Nuvio-MCP_VIEW_CONTAINERS.LEFT_TABBAR}`);
     const settingsButton = await leftTabbar.$('[class*="titleActions___"] span');
     await settingsButton?.click();
-    const menu = new OpenSumiContextMenu(app);
+    const menu = new Nuvio-MCPContextMenu(app);
     await menu.clickMenuItem('Settings');
   };
 
@@ -40,7 +40,7 @@ test.describe('OpenSumi Shortcuts', () => {
     await explorer.fileTreeView.focus();
     await app.page.keyboard.press(keypressWithCmdCtrl(','), { delay: 200 });
     const editor = await app.openComponentEditor(
-      OpenSumiComponentEditor,
+      Nuvio-MCPComponentEditor,
       'pref:/',
       'Settings',
       "[class*='preferences___']",
@@ -54,7 +54,7 @@ test.describe('OpenSumi Shortcuts', () => {
   test('open Settings by settings button', async () => {
     await openSettingsView();
     const editor = await app.openComponentEditor(
-      OpenSumiComponentEditor,
+      Nuvio-MCPComponentEditor,
       'pref:/',
       'Settings',
       "[class*='preferences___']",
@@ -66,7 +66,7 @@ test.describe('OpenSumi Shortcuts', () => {
   test('edit settings in settings.json', async () => {
     await openSettingsView();
     const editor = await app.openComponentEditor(
-      OpenSumiComponentEditor,
+      Nuvio-MCPComponentEditor,
       'pref:/',
       'Settings',
       "[class*='preferences___']",

@@ -3,11 +3,11 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IExtensionProps, strings } from '@opensumi/ide-core-common';
+import { IExtensionProps, strings } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtensionWalkthrough } from './walkthrough';
 
-import type { Uri } from '@opensumi/ide-core-common';
+import type { Uri } from '@Nuvio-MCP/ide-core-common';
 
 const { equalsIgnoreCase } = strings;
 

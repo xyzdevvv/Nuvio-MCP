@@ -1,5 +1,5 @@
-import { QuickOpenService, URI, Variable, VariableRegistry } from '@opensumi/ide-core-browser';
-import { MockQuickOpenService } from '@opensumi/ide-quick-open/lib/common/mocks/quick-open.service';
+import { QuickOpenService, URI, Variable, VariableRegistry } from '@Nuvio-MCP/ide-core-browser';
+import { MockQuickOpenService } from '@Nuvio-MCP/ide-quick-open/lib/common/mocks/quick-open.service';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

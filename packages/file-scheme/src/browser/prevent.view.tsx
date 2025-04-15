@@ -1,10 +1,10 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { IEventBus, getExternalIcon, localize, useInjectable } from '@opensumi/ide-core-browser';
-import { Button } from '@opensumi/ide-core-browser/lib/components';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { ResourceOpenTypeChangedEvent } from '@opensumi/ide-editor/lib/browser/types';
+import { IEventBus, getExternalIcon, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Button } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { ResourceOpenTypeChangedEvent } from '@Nuvio-MCP/ide-editor/lib/browser/types';
 
 import styles from './style.module.less';
 

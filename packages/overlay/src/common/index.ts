@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Event, MayCancelablePromise, MessageType, URI } from '@opensumi/ide-core-common';
+import { Event, MayCancelablePromise, MessageType, URI } from '@Nuvio-MCP/ide-core-common';
 
 import type vscode from 'vscode';
 

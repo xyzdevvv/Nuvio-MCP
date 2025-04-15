@@ -1,8 +1,8 @@
 import { Type } from '@furyjs/fury';
 
-import { METHOD_NOT_REGISTERED } from '@opensumi/ide-connection/lib/common/constants';
-import { CancellationToken, CancellationTokenSource, Deferred, sleep } from '@opensumi/ide-core-common';
-import { IReadableStream, listenReadable } from '@opensumi/ide-utils/lib/stream';
+import { METHOD_NOT_REGISTERED } from '@Nuvio-MCP/ide-connection/lib/common/constants';
+import { CancellationToken, CancellationTokenSource, Deferred, sleep } from '@Nuvio-MCP/ide-core-common';
+import { IReadableStream, listenReadable } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { test } from './common-tester';
 import { createConnectionPair, createSumiRPCClientPair, message } from './utils';

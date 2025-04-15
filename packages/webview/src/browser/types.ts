@@ -1,6 +1,6 @@
-import { Event, IDisposable, MaybeNull, MaybePromise, URI } from '@opensumi/ide-core-common';
-import { IEditorGroup } from '@opensumi/ide-editor';
-import { ITheme } from '@opensumi/ide-theme';
+import { Event, IDisposable, MaybeNull, MaybePromise, URI } from '@Nuvio-MCP/ide-core-common';
+import { IEditorGroup } from '@Nuvio-MCP/ide-editor';
+import { ITheme } from '@Nuvio-MCP/ide-theme';
 
 export const EDITOR_WEBVIEW_SCHEME = 'editor-webview';
 /**

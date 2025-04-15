@@ -1,14 +1,14 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, PreferenceService } from '@opensumi/ide-core-browser';
-import { Emitter, WithEventBus } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, WithEventBus } from '@Nuvio-MCP/ide-core-common';
 import {
   EditorCollectionService,
   ICodeEditor,
   IEditorDocumentModelService,
   getSimpleEditorOptions,
-} from '@opensumi/ide-editor/lib/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { derived, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { derived, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { OutputChannel } from './output.channel';
 

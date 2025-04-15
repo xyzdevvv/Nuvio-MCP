@@ -1,8 +1,8 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { AINativeSettingSectionsId, Disposable } from '@opensumi/ide-core-common';
-import { ICodeEditor } from '@opensumi/ide-monaco';
-import { IObservable, IReader, autorun, observableFromEvent } from '@opensumi/ide-monaco/lib/common/observable';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { AINativeSettingSectionsId, Disposable } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
+import { IObservable, IReader, autorun, observableFromEvent } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { AINativeContextKey } from '../../../ai-core.contextkeys';
 import { CodeEditsRenderType, CodeEditsResultValue } from '../index';

@@ -1,7 +1,7 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { VALIDATE_TYPE, ValidateMessage } from '@opensumi/ide-components';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { VALIDATE_TYPE, ValidateMessage } from '@Nuvio-MCP/ide-components';
 import {
   COMMON_COMMANDS,
   CommandService,
@@ -15,9 +15,9 @@ import {
   arrays,
   parseGlob,
   strings,
-} from '@opensumi/ide-core-browser';
-import { CorePreferences } from '@opensumi/ide-core-browser/lib/core-preferences';
-import { GlobalBrowserStorageService } from '@opensumi/ide-core-browser/lib/services/storage-service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CorePreferences } from '@Nuvio-MCP/ide-core-browser/lib/core-preferences';
+import { GlobalBrowserStorageService } from '@Nuvio-MCP/ide-core-browser/lib/services/storage-service';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -27,9 +27,9 @@ import {
   IReporterTimer,
   REPORT_NAME,
   localize,
-} from '@opensumi/ide-core-common';
-import { SearchSettingId } from '@opensumi/ide-core-common/lib/settings/search';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { SearchSettingId } from '@Nuvio-MCP/ide-core-common/lib/settings/search';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   EditorDocumentModelContentChangedEvent,
   ICodeEditor,
@@ -37,11 +37,11 @@ import {
   IEditorDocumentModelContentChangedEventPayload,
   IEditorDocumentModelService,
   ResourceService,
-} from '@opensumi/ide-editor/lib/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { IDialogService, IMessageService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { IWorkspaceEditService } from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IDialogService, IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { IWorkspaceEditService } from '@Nuvio-MCP/ide-workspace-edit';
 
 import {
   ContentSearchOptions,

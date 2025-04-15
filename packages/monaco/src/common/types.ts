@@ -1,12 +1,12 @@
-import { URI } from '@opensumi/ide-core-common';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import type { IAutoClosingPair, IAutoClosingPairConditional } from './types';
-export { Position, IPosition } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/position';
-export { ITextModel, EndOfLineSequence } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-export type { IRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-export type { Event } from '@opensumi/monaco-editor-core/esm/vs/base/common/event';
-export type { ICodeEditor, IDiffEditor } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-export { Emitter } from '@opensumi/monaco-editor-core/esm/vs/base/common/event';
+export { Position, IPosition } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/position';
+export { ITextModel, EndOfLineSequence } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+export type { IRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+export type { Event } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/event';
+export type { ICodeEditor, IDiffEditor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+export { Emitter } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/event';
 export {
   LanguageConfiguration,
   FoldingRules,
@@ -15,14 +15,14 @@ export {
   IAutoClosingPair,
   OnEnterRule,
   EnterAction,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/languageConfiguration';
-export { CodeActionTriggerType, ProviderResult } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/languageConfiguration';
+export { CodeActionTriggerType, ProviderResult } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 export {
   NewSymbolNameTag,
   NewSymbolNamesProvider,
   NewSymbolName,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 export interface IDisposable {
   dispose(): void;

@@ -1,4 +1,4 @@
-import { AnySerializer, ExtObjectTransfer } from '@opensumi/ide-connection/src/common/fury-extends/any';
+import { AnySerializer, ExtObjectTransfer } from '@Nuvio-MCP/ide-connection/src/common/fury-extends/any';
 
 import { furyFactory } from '../../../src/common/fury-extends/shared';
 

@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Emitter,
   EncodingRegistry,
@@ -15,9 +15,9 @@ import {
   UTF8_with_bom,
   detectEncodingFromBuffer,
   getLanguageIdFromMonaco,
-} from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { EOL } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { EOL } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { IEditorDocumentModelContentProvider } from '../doc-model/types';
 import { EditorPreferences } from '../preference/schema';

@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 
-import { Injector } from '@opensumi/di';
-import { isWindows } from '@opensumi/ide-core-common';
+import { Injector } from '@Nuvio-MCP/di';
+import { isWindows } from '@Nuvio-MCP/ide-core-common';
 
 import { mockService } from '../../../tools/dev-tool/src/mock-injector';
 

@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 import { createNetSocketConnection, electronEnv } from '../../../utils/electron';
 import { BaseConnectionHelper } from '../base-socket';

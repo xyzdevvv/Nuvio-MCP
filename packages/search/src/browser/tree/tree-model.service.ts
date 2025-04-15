@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeModel } from '@opensumi/ide-components';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeModel } from '@Nuvio-MCP/ide-components';
 import {
   Disposable,
   DisposableCollection,
@@ -10,10 +10,10 @@ import {
   URI,
   formatLocalize,
   runWhenIdle,
-} from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next/index';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import * as monaco from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/index';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { IContentSearchClientService, ISearchTreeService } from '../../common/content-search';
 import { SearchPreferences } from '../search-preferences';

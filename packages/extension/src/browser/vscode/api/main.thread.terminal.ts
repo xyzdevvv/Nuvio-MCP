@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable, IDisposable, ILogger, PreferenceService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable, IDisposable, ILogger, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   IStartExtensionTerminalRequest,
   ITerminalApiService,
@@ -14,14 +14,14 @@ import {
   ITerminalLink,
   ITerminalProcessExtHostProxy,
   ITerminalProfileInternalService,
-} from '@opensumi/ide-terminal-next';
+} from '@Nuvio-MCP/ide-terminal-next';
 import {
   EnvironmentVariableServiceToken,
   IEnvironmentVariableService,
   SerializableEnvironmentVariableCollection,
   deserializeEnvironmentVariableCollection,
-} from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
-import { ITerminalProfileService } from '@opensumi/ide-terminal-next/lib/common/profile';
+} from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
+import { ITerminalProfileService } from '@Nuvio-MCP/ide-terminal-next/lib/common/profile';
 
 import { ExtHostAPIIdentifier, IExtHostTerminal, IMainThreadTerminal } from '../../../common/vscode';
 import { IActivationEventService } from '../../types';

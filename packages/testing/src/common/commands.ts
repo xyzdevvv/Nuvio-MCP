@@ -1,4 +1,4 @@
-import { Command, getExternalIcon, getIcon } from '@opensumi/ide-core-browser';
+import { Command, getExternalIcon, getIcon } from '@Nuvio-MCP/ide-core-browser';
 
 export const RuntTestCommand: Command = {
   id: 'testing.run.test',

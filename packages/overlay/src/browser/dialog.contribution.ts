@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   CommandContribution,
   CommandRegistry,
@@ -7,8 +7,8 @@ import {
   KeybindingContribution,
   KeybindingRegistry,
   localize,
-} from '@opensumi/ide-core-browser';
-import { DialogViewVisibleContext } from '@opensumi/ide-core-browser/lib/contextkey/dialog';
+} from '@Nuvio-MCP/ide-core-browser';
+import { DialogViewVisibleContext } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/dialog';
 
 import { IDialogService } from '../common';
 

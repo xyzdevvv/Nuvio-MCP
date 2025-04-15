@@ -15,7 +15,7 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/plugin-ext/src/plugin/languages/diagnostics.ts
 
-import { Emitter, Event, IMarkerData, MarkerSeverity } from '@opensumi/ide-core-common';
+import { Emitter, Event, IMarkerData, MarkerSeverity } from '@Nuvio-MCP/ide-core-common';
 
 import { IMainThreadLanguages } from '../../../../common/vscode';
 import { Diagnostic } from '../../../../common/vscode/converter';

@@ -1,5 +1,5 @@
-import { URI, Uri, getResourceIconClass } from '@opensumi/ide-core-browser';
-import { IResourceLabelOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/workbenchUIElementFactory';
+import { URI, Uri, getResourceIconClass } from '@Nuvio-MCP/ide-core-browser';
+import { IResourceLabelOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/workbenchUIElementFactory';
 
 import styles from './resource-label.module.less';
 

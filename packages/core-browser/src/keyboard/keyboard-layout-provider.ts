@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Deferred, Emitter, ILogger, isOSX, isWindows } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Deferred, Emitter, ILogger, isOSX, isWindows } from '@Nuvio-MCP/ide-core-common';
 import {
   IKeymapInfo,
   ILinuxKeyboardLayoutInfo,
@@ -9,7 +9,7 @@ import {
   KeyboardNativeLayoutService,
   KeymapInfo,
   getKeyboardLayoutId,
-} from '@opensumi/ide-core-common/lib/keyboard';
+} from '@Nuvio-MCP/ide-core-common/lib/keyboard';
 
 import { GlobalBrowserStorageService } from '../services';
 

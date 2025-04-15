@@ -1,4 +1,4 @@
-import { AINativeSettingSectionsId, PreferenceSchema } from '@opensumi/ide-core-browser';
+import { AINativeSettingSectionsId, PreferenceSchema } from '@Nuvio-MCP/ide-core-browser';
 
 import { CodeEditsRenderType } from '../contrib/intelligent-completions';
 

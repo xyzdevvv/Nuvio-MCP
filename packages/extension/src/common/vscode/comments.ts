@@ -1,4 +1,4 @@
-import { CancellationToken, IRange } from '@opensumi/ide-core-common';
+import { CancellationToken, IRange } from '@Nuvio-MCP/ide-core-common';
 
 import * as modes from './models';
 import { CommentThreadChanges, UriComponents } from './models';

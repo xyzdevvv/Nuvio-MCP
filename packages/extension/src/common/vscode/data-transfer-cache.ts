@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { BinaryBuffer } from '@opensumi/ide-core-common';
+import { BinaryBuffer } from '@Nuvio-MCP/ide-core-common';
 
 import { IDataTransferItem, VSDataTransfer } from './data-transfer';
 

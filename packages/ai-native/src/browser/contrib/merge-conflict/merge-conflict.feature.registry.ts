@@ -1,10 +1,10 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   Disposable,
   IInternalResolveConflictRegistry,
   IResolveConflictHandler,
   MergeConflictEditorMode,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IResolveConflictRegistry } from '../../types';
 

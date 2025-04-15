@@ -1,11 +1,11 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter, Event, IJSONSchema, IJSONSchemaSnippet, path, uuid } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter, Event, IJSONSchema, IJSONSchemaSnippet, path, uuid } from '@Nuvio-MCP/ide-core-common';
 import {
   DebugConfiguration,
   DebugStreamConnection,
   IDebugSessionDTO,
   IDebuggerContribution,
-} from '@opensumi/ide-debug';
+} from '@Nuvio-MCP/ide-debug';
 
 import { CustomChildProcessModule } from '../../../../common/ext.process';
 import {

@@ -2,22 +2,22 @@ import cls from 'classnames';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import ReactDOMClient from 'react-dom/client';
 
-import { Injectable } from '@opensumi/di';
-import { Deferred, Event, MonacoService, isUndefined, runWhenIdle, useInjectable } from '@opensumi/ide-core-browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICodeEditor } from '@opensumi/ide-monaco';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Deferred, Event, MonacoService, isUndefined, runWhenIdle, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
 import {
   ReactInlineContentWidget,
   ShowAIContentOptions,
-} from '@opensumi/ide-monaco/lib/browser/ai-native/BaseInlineContentWidget';
-import { IEditorOptions } from '@opensumi/ide-monaco/lib/browser/monaco-api/editor';
-import { ContentWidgetPositionPreference } from '@opensumi/ide-monaco/lib/browser/monaco-exports/editor';
-import { space } from '@opensumi/ide-utils/lib/strings';
-import { EditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
-import { ILanguageSelection } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
-import { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { IModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/model';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/ai-native/BaseInlineContentWidget';
+import { IEditorOptions } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/editor';
+import { ContentWidgetPositionPreference } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-exports/editor';
+import { space } from '@Nuvio-MCP/ide-utils/lib/strings';
+import { EditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+import { ILanguageSelection } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
+import { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { IModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/model';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { IMultiLineDiffChangeResult } from '../../contrib/intelligent-completions/diff-computer';
 

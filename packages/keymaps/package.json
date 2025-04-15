@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-keymaps",
+  "name": "@Nuvio-MCP/ide-keymaps",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,19 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
     "ajv": "^6.10.0"
   },
   "devDependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*",
-    "@opensumi/ide-editor": "workspace:*",
-    "@opensumi/ide-file-service": "workspace:*",
-    "@opensumi/ide-preferences": "workspace:*",
-    "@opensumi/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*",
+    "@Nuvio-MCP/ide-editor": "workspace:*",
+    "@Nuvio-MCP/ide-file-service": "workspace:*",
+    "@Nuvio-MCP/ide-preferences": "workspace:*",
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
   }
 }

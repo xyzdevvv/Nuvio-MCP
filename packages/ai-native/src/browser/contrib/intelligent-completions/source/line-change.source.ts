@@ -1,13 +1,13 @@
-import { Injectable } from '@opensumi/di';
-import { AINativeSettingSectionsId, ECodeEditsSourceTyping, IDisposable } from '@opensumi/ide-core-common';
-import { ICursorPositionChangedEvent, IModelContentChangedEvent } from '@opensumi/ide-monaco';
+import { Injectable } from '@Nuvio-MCP/di';
+import { AINativeSettingSectionsId, ECodeEditsSourceTyping, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { ICursorPositionChangedEvent, IModelContentChangedEvent } from '@Nuvio-MCP/ide-monaco';
 import {
   autorunDelta,
   derived,
   derivedHandleChanges,
   observableFromEvent,
   onObservableChange,
-} from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { IntelligentCompletionsController } from '../intelligent-completions.controller';
 

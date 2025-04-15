@@ -1,4 +1,4 @@
-import { CancellationToken, IEditorDocumentChange, IEditorDocumentModelSaveResult } from '@opensumi/ide-core-common';
+import { CancellationToken, IEditorDocumentChange, IEditorDocumentModelSaveResult } from '@Nuvio-MCP/ide-core-common';
 
 export const FILE_ON_DISK_SCHEME = 'fileOnDisk';
 

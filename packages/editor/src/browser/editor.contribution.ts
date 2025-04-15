@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ClientAppContribution,
@@ -38,21 +38,21 @@ import {
   getIcon,
   getLanguageIdFromMonaco,
   localize,
-} from '@opensumi/ide-core-browser';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { AbstractContextMenuService } from '@opensumi/ide-core-browser/lib/menu/next/menu.interface';
-import { ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/base';
-import { IRelaxedOpenMergeEditorArgs } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { IDisposable, ILogger, PreferenceScope, UriComponents, isWindows } from '@opensumi/ide-core-common';
-import { MergeEditorService } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/merge-editor.service';
-import { ITextmateTokenizer, ITextmateTokenizerService } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
-import { EOL } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import * as monaco from '@opensumi/ide-monaco/lib/common/common';
-import { EditorContextKeys } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
-import { IFormattingEditProviderSelector } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
-import { ContextKeyExpr } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
-import { SyncDescriptor } from '@opensumi/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { AbstractContextMenuService } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/menu.interface';
+import { ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/base';
+import { IRelaxedOpenMergeEditorArgs } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { IDisposable, ILogger, PreferenceScope, UriComponents, isWindows } from '@Nuvio-MCP/ide-core-common';
+import { MergeEditorService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/merge-editor.service';
+import { ITextmateTokenizer, ITextmateTokenizerService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
+import { EOL } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import * as monaco from '@Nuvio-MCP/ide-monaco/lib/common/common';
+import { EditorContextKeys } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
+import { IFormattingEditProviderSelector } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
+import { ContextKeyExpr } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { SyncDescriptor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
 
 import {
   DIFF_SCHEME,
@@ -191,7 +191,7 @@ export class EditorContribution
   private readonly resourceService: ResourceService;
 
   registerComponent(registry: ComponentRegistry) {
-    registry.register('@opensumi/ide-editor', {
+    registry.register('@Nuvio-MCP/ide-editor', {
       id: 'ide-editor',
       component: EditorView,
     });
@@ -245,7 +245,7 @@ export class EditorContribution
     register(
       EditorContextMenuController.ID,
       /**
-       * 如果使用 opensumi/di 的 Injectable 装饰，在内部会无法被 monaco 实例化
+       * 如果使用 Nuvio-MCP/di 的 Injectable 装饰，在内部会无法被 monaco 实例化
        * 这里借用 monaco 内置的 DI 注入方式，将依赖的 Services 通过参数传递进去
        * 在内部重新实例化时会拼接两份参数，对于 EditorContextMenuController
        * monaco 将会自动补充另一个 editor 实例作为参数

@@ -1,6 +1,6 @@
-import { isOSX, isWindows } from '@opensumi/ide-core-common';
-import { IDebuggerContribution, IPlatformSpecificAdapterContribution } from '@opensumi/ide-debug';
-import { join } from '@opensumi/ide-utils/lib/path';
+import { isOSX, isWindows } from '@Nuvio-MCP/ide-core-common';
+import { IDebuggerContribution, IPlatformSpecificAdapterContribution } from '@Nuvio-MCP/ide-debug';
+import { join } from '@Nuvio-MCP/ide-utils/lib/path';
 
 import { DebugAdapterExecutable } from '../../../../common/vscode/ext-types';
 

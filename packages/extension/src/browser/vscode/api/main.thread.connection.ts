@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Deferred } from '@opensumi/ide-core-browser';
-import { Disposable, DisposableCollection, ILogger } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Deferred } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, DisposableCollection, ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ExtHostAPIIdentifier,

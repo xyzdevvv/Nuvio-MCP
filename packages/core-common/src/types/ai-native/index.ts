@@ -1,5 +1,5 @@
-import { CancellationToken, MaybePromise, Uri } from '@opensumi/ide-utils';
-import { SumiReadableStream } from '@opensumi/ide-utils/lib/stream';
+import { CancellationToken, MaybePromise, Uri } from '@Nuvio-MCP/ide-utils';
+import { SumiReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { FileType } from '../file';
 import { IMarkdownString } from '../markdown';

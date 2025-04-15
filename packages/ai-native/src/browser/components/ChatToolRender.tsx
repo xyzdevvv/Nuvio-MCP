@@ -1,11 +1,11 @@
 import cls from 'classnames';
 import React, { useState } from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { Icon } from '@opensumi/ide-core-browser/lib/components';
-import { Loading } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { IChatToolContent, uuid } from '@opensumi/ide-core-common';
-import { localize } from '@opensumi/ide-core-common/lib/localize';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Icon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { Loading } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { IChatToolContent, uuid } from '@Nuvio-MCP/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common/lib/localize';
 
 import { IMCPServerRegistry, TokenMCPServerRegistry } from '../types';
 

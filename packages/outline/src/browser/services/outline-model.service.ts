@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeNodeType, WatchEvent } from '@opensumi/ide-components';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeNodeType, WatchEvent } from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   Deferred,
@@ -17,15 +17,15 @@ import {
   URI,
   pSeries,
   path,
-} from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   DocumentSymbolStore,
   INormalizedDocumentSymbol,
-} from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
-import { EXPLORER_CONTAINER_ID } from '@opensumi/ide-explorer/lib/browser/explorer-contribution';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import * as monaco from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
+import { EXPLORER_CONTAINER_ID } from '@Nuvio-MCP/ide-explorer/lib/browser/explorer-contribution';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { IOutlineDecorationService, OUTLINE_VIEW_ID } from '../../common';
 import { OutlineCompositeTreeNode, OutlineRoot, OutlineTreeNode } from '../outline-node.define';

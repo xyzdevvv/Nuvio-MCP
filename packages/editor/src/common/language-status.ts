@@ -4,13 +4,13 @@ import {
   IDisposable,
   Severity,
   StatusBarHoverCommand,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 // eslint-disable-next-line import/no-restricted-paths
 import { LanguageSelector } from './language';
 
 // eslint-disable-next-line import/no-restricted-paths
-import type { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 export const ILanguageStatusService = Symbol('ILanguageStatusService');
 export interface ILanguageStatusService {

@@ -1,4 +1,4 @@
-import { IPosition, Uri } from '@opensumi/ide-core-common';
+import { IPosition, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtensionDocumentDataManager } from '../../../../common/vscode';
 import * as Converter from '../../../../common/vscode/converter';

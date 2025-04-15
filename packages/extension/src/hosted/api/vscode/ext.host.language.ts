@@ -52,8 +52,8 @@ import vscode, {
 } from 'vscode';
 import { SymbolInformation } from 'vscode-languageserver-types';
 
-import { ConstructorOf } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { ConstructorOf } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   DisposableStore,
   IDisposable,
@@ -63,8 +63,8 @@ import {
   UriComponents,
   disposableTimeout,
   toDisposable,
-} from '@opensumi/ide-core-common';
-import { InlineValue } from '@opensumi/ide-debug/lib/common/inline-values';
+} from '@Nuvio-MCP/ide-core-common';
+import { InlineValue } from '@Nuvio-MCP/ide-debug/lib/common/inline-values';
 
 import {
   ExtensionDocumentDataManager,
@@ -162,11 +162,11 @@ import { TypeHierarchyAdapter } from './language/type-hierarchy';
 import { getDurationTimer, score, targetsNotebooks } from './language/util';
 import { WorkspaceSymbolAdapter } from './language/workspace-symbol';
 
-import type { IPosition } from '@opensumi/ide-monaco/lib/common';
+import type { IPosition } from '@Nuvio-MCP/ide-monaco/lib/common';
 import type {
   CodeActionContext,
   NewSymbolNameTriggerKind,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 export function createLanguagesApiFactory(
   extHostLanguages: ExtHostLanguages,

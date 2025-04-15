@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { Keybinding, KeybindingRegistry, useInjectable } from '@opensumi/ide-core-browser';
+import { Keybinding, KeybindingRegistry, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import styles from './styles.module.less';
 

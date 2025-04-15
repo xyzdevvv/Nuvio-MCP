@@ -1,7 +1,7 @@
 import debounce from 'lodash/debounce';
 import React from 'react';
 
-import { FRAME_THREE, useAutorun, useEventEffect, useInjectable } from '@opensumi/ide-core-browser';
+import { FRAME_THREE, useAutorun, useEventEffect, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import {
   ITerminalController,

@@ -8,7 +8,7 @@ import {
   FileUri,
   ZERO_BYTE_DETECTION_BUFFER_MAX_LEN,
   detectEncodingFromBuffer,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { EditorFileType, getFileTypeByExt, isErrnoException } from '../../../common';
 

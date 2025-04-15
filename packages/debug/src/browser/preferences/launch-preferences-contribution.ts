@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   COMMON_COMMANDS,
   Domain,
@@ -9,9 +9,9 @@ import {
   URI,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution } from '@opensumi/ide-core-browser/lib/menu/next/base';
-import { MenuId } from '@opensumi/ide-core-browser/lib/menu/next/menu-id';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/base';
+import { MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/menu-id';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
@@ -19,7 +19,7 @@ import {
   IResource,
   IResourceProvider,
   ResourceService,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { LAUNCH_VIEW_COMPONENT_ID, LAUNCH_VIEW_SCHEME } from '../../common/constants';
 

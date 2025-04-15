@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -8,10 +8,10 @@ import {
   SlotLocation,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IContextKey, IContextKeyService } from '@opensumi/ide-core-browser/lib/context-key';
-import { TestingCanRefreshTests, TestingServiceProviderCount } from '@opensumi/ide-core-browser/lib/contextkey/testing';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IContextKey, IContextKeyService } from '@Nuvio-MCP/ide-core-browser/lib/context-key';
+import { TestingCanRefreshTests, TestingServiceProviderCount } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/testing';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import { AmbiguousRunTestsRequest, ITestController, ITestService, TestId } from '../common';
 import { Testing } from '../common/constants';

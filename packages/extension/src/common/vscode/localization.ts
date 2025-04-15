@@ -1,7 +1,7 @@
 import { UriComponents } from './ext-types';
 
 import type { IExtensionDescription } from '../../common/vscode';
-import type { Uri } from '@opensumi/ide-core-common';
+import type { Uri } from '@Nuvio-MCP/ide-core-common';
 
 export interface IStringDetails {
   message: string;

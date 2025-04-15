@@ -1,17 +1,17 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandService,
   QuickOpenHandler,
   formatLocalize,
   localize,
   withNullAsUndefined,
-} from '@opensumi/ide-core-browser';
-import { Mode, PrefixQuickOpenService, QuickOpenItem, QuickOpenModel } from '@opensumi/ide-core-browser/lib/quick-open';
-import * as monaco from '@opensumi/ide-monaco';
-import { Event as MonacoEvent } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { IRange as IMonacoRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import { IEditor as IMonacoCodeEditor } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
-import { AbstractGotoLineQuickAccessProvider } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/quickAccess/browser/gotoLineQuickAccess';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Mode, PrefixQuickOpenService, QuickOpenItem, QuickOpenModel } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { Event as MonacoEvent } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { IRange as IMonacoRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import { IEditor as IMonacoCodeEditor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { AbstractGotoLineQuickAccessProvider } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/quickAccess/browser/gotoLineQuickAccess';
 
 import { WorkbenchEditorService } from '../types';
 

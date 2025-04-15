@@ -1,4 +1,4 @@
-import * as textModel from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
+import * as textModel from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
 import * as monaco from '../../src/common';
 
 // copied from https://github.com/microsoft/vscode/blob/master/src/vs/editor/common/model/textModel.ts

@@ -1,7 +1,7 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { DisposableCollection, ILogger, IStorage, STORAGE_NAMESPACE, StorageProvider } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { DisposableCollection, ILogger, IStorage, STORAGE_NAMESPACE, StorageProvider } from '@Nuvio-MCP/ide-core-common';
 
 import { PreferenceService } from '../preferences';
 

@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { ILogger } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { ILogger } from '@Nuvio-MCP/ide-core-browser';
 import {
   CancellationToken,
   Disposable,
@@ -11,7 +11,7 @@ import {
   Sequence,
   Uri as URI,
   UriComponents,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   IInputValidation,
   ISCMActionButtonDescriptor,
@@ -26,7 +26,7 @@ import {
   ISCMResourceDecorations,
   ISCMResourceGroup,
   SCMService,
-} from '@opensumi/ide-scm/lib/common';
+} from '@Nuvio-MCP/ide-scm/lib/common';
 
 import { ExtHostAPIIdentifier } from '../../../common/vscode';
 import { VSCommand } from '../../../common/vscode/model.api';

@@ -1,5 +1,5 @@
-import { CompositeTreeNode, ITree, TreeNode } from '@opensumi/ide-components';
-import { URI } from '@opensumi/ide-core-common';
+import { CompositeTreeNode, ITree, TreeNode } from '@Nuvio-MCP/ide-components';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import { ContentSearchResult, ISearchTreeService } from '../../common/content-search';
 

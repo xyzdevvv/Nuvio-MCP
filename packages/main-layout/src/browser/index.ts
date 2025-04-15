@@ -1,5 +1,5 @@
-import { Injectable, Injector, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
+import { Injectable, Injector, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
 
 import { IMainLayoutService, IViewsRegistry, MainLayoutContribution } from '../common';
 

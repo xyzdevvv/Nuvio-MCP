@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { BackService, NodeModule } from '@opensumi/ide-core-node';
+import { Injectable } from '@Nuvio-MCP/di';
+import { BackService, NodeModule } from '@Nuvio-MCP/ide-core-node';
 
 import { RemoteOpenerClientToken, RemoteOpenerServicePath, RemoteOpenerServiceToken } from '../common';
 

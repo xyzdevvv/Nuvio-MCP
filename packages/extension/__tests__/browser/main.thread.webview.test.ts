@@ -1,5 +1,5 @@
-import { IOpenerService } from '@opensumi/ide-core-browser/lib/opener';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource/static.definition';
+import { IOpenerService } from '@Nuvio-MCP/ide-core-browser/lib/opener';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource/static.definition';
 import {
   CancellationTokenSource,
   CommandRegistry,
@@ -7,22 +7,22 @@ import {
   Emitter,
   IEventBus,
   makeRandomHexString,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/common';
-import { WebviewViewShouldShowEvent } from '@opensumi/ide-extension/lib/browser/components/extension-webview-view';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common';
+import { WebviewViewShouldShowEvent } from '@Nuvio-MCP/ide-extension/lib/browser/components/extension-webview-view';
 import {
   MainThreadWebview,
   MainThreadWebviewView,
-} from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.api.webview';
-import { ExtensionIdentifier, IExtensionDescription } from '@opensumi/ide-extension/lib/common/vscode';
-import { WebviewView, WebviewViewProvider } from '@opensumi/ide-extension/lib/common/vscode/webview';
+} from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.api.webview';
+import { ExtensionIdentifier, IExtensionDescription } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { WebviewView, WebviewViewProvider } from '@Nuvio-MCP/ide-extension/lib/common/vscode/webview';
 import {
   ExtHostWebviewService,
   ExtHostWebviewViews,
-} from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.api.webview';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IIconService } from '@opensumi/ide-theme';
-import { IWebview, IWebviewService } from '@opensumi/ide-webview';
+} from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.api.webview';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IWebview, IWebviewService } from '@Nuvio-MCP/ide-webview';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { mockService } from '../../../../tools/dev-tool/src/mock-injector';

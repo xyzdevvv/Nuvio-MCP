@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
-import { Badge } from '@opensumi/ide-components';
-import { DisposableCollection, ViewState, getIcon, localize, useInjectable } from '@opensumi/ide-core-browser';
+import { Badge } from '@Nuvio-MCP/ide-components';
+import { DisposableCollection, ViewState, getIcon, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { IDebugSessionManager } from '../../../common';
 import { DebugSession } from '../../debug-session';

@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Keybinding, KeybindingRegistry, KeybindingWeight, OS, OperatingSystem } from '@opensumi/ide-core-browser';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Keybinding, KeybindingRegistry, KeybindingWeight, OS, OperatingSystem } from '@Nuvio-MCP/ide-core-browser';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

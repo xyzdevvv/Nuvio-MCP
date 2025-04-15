@@ -2,7 +2,7 @@
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js';
 
-import { ILogger } from '@opensumi/ide-core-common';
+import { ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import pkg from '../../package.json';
 import { IMCPServer } from '../common/mcp-server-manager';

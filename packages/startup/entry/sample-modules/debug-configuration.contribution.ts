@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ClientAppContribution, Domain } from '@opensumi/ide-core-browser';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { ProgressLocation } from '@opensumi/ide-core-common';
-import { DebugConfigurationManager } from '@opensumi/ide-debug/lib/browser/debug-configuration-manager';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ClientAppContribution, Domain } from '@Nuvio-MCP/ide-core-browser';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { ProgressLocation } from '@Nuvio-MCP/ide-core-common';
+import { DebugConfigurationManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-configuration-manager';
 
 @Injectable()
 @Domain(ClientAppContribution)

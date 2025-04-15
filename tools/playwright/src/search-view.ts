@@ -1,8 +1,8 @@
-import { isDefined } from '@opensumi/ide-utils';
+import { isDefined } from '@Nuvio-MCP/ide-utils';
 
-import { OpenSumiApp } from './app';
-import { OpenSumiPanel } from './panel';
-import { OpenSumiTreeNode } from './tree-node';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPPanel } from './panel';
+import { Nuvio-MCPTreeNode } from './tree-node';
 
 export interface ISearchOptions {
   search: string;
@@ -20,7 +20,7 @@ const SEARCH_OPTIONS = {
   USE_REGEXP: 'Use Regular Expression',
 };
 
-export class OpenSumiSearchFileStatNode extends OpenSumiTreeNode {
+export class Nuvio-MCPSearchFileStatNode extends Nuvio-MCPTreeNode {
   async getFsPath() {
     return await this.elementHandle.getAttribute('title');
   }
@@ -50,8 +50,8 @@ export class OpenSumiSearchFileStatNode extends OpenSumiTreeNode {
   }
 }
 
-export class OpenSumiSearchView extends OpenSumiPanel {
-  constructor(app: OpenSumiApp) {
+export class Nuvio-MCPSearchView extends Nuvio-MCPPanel {
+  constructor(app: Nuvio-MCPApp) {
     super(app, 'SEARCH');
   }
 
@@ -254,7 +254,7 @@ export class OpenSumiSearchView extends OpenSumiPanel {
     }
     const node = treeItems[index];
     if (node) {
-      return new OpenSumiSearchFileStatNode(node, this.app);
+      return new Nuvio-MCPSearchFileStatNode(node, this.app);
     }
   }
 }

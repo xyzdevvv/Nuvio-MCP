@@ -1,6 +1,6 @@
-import { IOpenerService } from '@opensumi/ide-core-browser/lib/opener';
-import { Disposable, URI, Uri } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/common/editor';
+import { IOpenerService } from '@Nuvio-MCP/ide-core-browser/lib/opener';
+import { Disposable, URI, Uri } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common/editor';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { RemoteOpenerBrowserServiceImpl } from '../../src/browser';
@@ -51,7 +51,7 @@ describe('packages/remote-opener/src/browser/remote.opener.service.ts', () => {
   it('$openExternal open url should be work', async () => {
     const disposes = new Disposable();
     const converter: IRemoteHostConverter = {
-      convert: (port) => `opensumi-${port}-ide.com`,
+      convert: (port) => `Nuvio-MCP-${port}-ide.com`,
     };
     const spyOnConverter = jest.spyOn(converter, 'convert');
 
@@ -61,7 +61,7 @@ describe('packages/remote-opener/src/browser/remote.opener.service.ts', () => {
     const spyOnOpen = jest.spyOn(openerService, 'open');
     const spyOnOpenExternal = jest.spyOn(remoteOpenerService, '$openExternal');
 
-    const mockUrl = Uri.parse('https://opensumi-ide.com');
+    const mockUrl = Uri.parse('https://Nuvio-MCP-ide.com');
     await remoteOpenerService.$openExternal('url', mockUrl);
 
     expect(spyOnOpenExternal).toHaveBeenCalledWith('url', mockUrl);
@@ -73,7 +73,7 @@ describe('packages/remote-opener/src/browser/remote.opener.service.ts', () => {
     await remoteOpenerService.$openExternal('url', mockLocalUrl);
 
     expect(spyOnOpenExternal).toHaveBeenCalledWith('url', mockLocalUrl);
-    expect(spyOnOpen).toHaveBeenCalledWith('https://opensumi-3030-ide.com/');
+    expect(spyOnOpen).toHaveBeenCalledWith('https://Nuvio-MCP-3030-ide.com/');
 
     expect(spyOnConverter).toHaveBeenCalledWith('3030');
   });

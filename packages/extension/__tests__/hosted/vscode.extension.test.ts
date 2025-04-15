@@ -1,4 +1,4 @@
-import { KTExtension } from '@opensumi/ide-extension/lib/hosted/vscode.extension';
+import { KTExtension } from '@Nuvio-MCP/ide-extension/lib/hosted/vscode.extension';
 
 import { mockService } from '../../../../tools/dev-tool/src/mock-injector';
 

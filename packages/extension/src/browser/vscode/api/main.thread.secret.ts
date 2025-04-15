@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { AppConfig, Disposable, ICredentialsService } from '@opensumi/ide-core-browser';
-import { ICryptoService } from '@opensumi/ide-core-browser/lib/services';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { AppConfig, Disposable, ICredentialsService } from '@Nuvio-MCP/ide-core-browser';
+import { ICryptoService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 
 import { ExtHostAPIIdentifier, IExtHostSecret, IMainThreadSecret } from '../../../common/vscode';
 

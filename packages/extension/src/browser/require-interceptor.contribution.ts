@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactDOMClient from 'react-dom/client';
 
-import { Domain } from '@opensumi/ide-core-browser';
+import { Domain } from '@Nuvio-MCP/ide-core-browser';
 
 import {
   IBrowserRequireInterceptorArgs,

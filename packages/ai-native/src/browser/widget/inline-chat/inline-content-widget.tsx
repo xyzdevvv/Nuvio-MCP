@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IAIInlineChatService, StackingLevel, useInjectable } from '@opensumi/ide-core-browser';
-import { AIAction } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { MenuNode } from '@opensumi/ide-core-browser/lib/menu/next/base';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IAIInlineChatService, StackingLevel, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { AIAction } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { MenuNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/base';
 import {
   AIInlineChatContentWidgetId,
   Disposable,
@@ -11,13 +11,13 @@ import {
   Event,
   InlineChatFeatureRegistryToken,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { monacoBrowser } from '@opensumi/ide-monaco/lib/browser';
+} from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monacoBrowser } from '@Nuvio-MCP/ide-monaco/lib/browser';
 import {
   ReactInlineContentWidget,
   ShowAIContentOptions,
-} from '@opensumi/ide-monaco/lib/browser/ai-native/BaseInlineContentWidget';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/ai-native/BaseInlineContentWidget';
 
 import { AINativeContextKey } from '../../ai-core.contextkeys';
 import { InlineResultAction } from '../inline-actions/result-items/index';
@@ -28,7 +28,7 @@ import { InlineChatFeatureRegistry } from './inline-chat.feature.registry';
 import styles from './inline-chat.module.less';
 import { EInlineChatStatus, EResultKind, InlineChatService } from './inline-chat.service';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 interface IAIInlineChatControllerProps {
   onClickActions: (id: string) => void;

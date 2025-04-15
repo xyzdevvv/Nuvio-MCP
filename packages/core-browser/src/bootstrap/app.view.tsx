@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom/client';
 
-import { ComponentContextProvider, IIconResourceOptions } from '@opensumi/ide-components';
-import { ContributionProvider, IEventBus, URI, getDebugLogger, localize } from '@opensumi/ide-core-common';
+import { ComponentContextProvider, IIconResourceOptions } from '@Nuvio-MCP/ide-components';
+import { ContributionProvider, IEventBus, URI, getDebugLogger, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { IClientApp } from '../browser-module';
 import { DefaultLayout } from '../components/layout/default-layout';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { DisposableStore, URI, useInjectable } from '@opensumi/ide-core-browser';
+import { DisposableStore, URI, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { IEditorDocumentModelService } from '../doc-model/types';
 import { IEditorDocumentModel } from '../types';

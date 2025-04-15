@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, Disposable, DomListener, IDisposable, URI, getDebugLogger } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, Disposable, DomListener, IDisposable, URI, getDebugLogger } from '@Nuvio-MCP/ide-core-browser';
 
 import { AbstractWebviewPanel } from './abstract-webview';
 import { createHTML } from './iframe/prebuilt';

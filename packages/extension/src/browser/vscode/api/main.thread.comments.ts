@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   CommentMode,
   CommentReaction,
@@ -7,9 +7,9 @@ import {
   ICommentsService,
   ICommentsThread,
   IThreadComment,
-} from '@opensumi/ide-comments';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-comments';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 import {
   CancellationToken,
   Disposable,
@@ -21,16 +21,16 @@ import {
   URI,
   WithEventBus,
   isUndefined,
-} from '@opensumi/ide-core-common';
-import { positionToRange } from '@opensumi/ide-monaco';
-import { transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-common';
+import { positionToRange } from '@Nuvio-MCP/ide-monaco';
+import { transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 import {
   CommentInput,
   CommentThread,
   CommentThreadState,
   CommentMode as CoreCommentMode,
   CommentReaction as CoreCommentReaction,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import {
   CommentProviderFeatures,

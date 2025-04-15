@@ -1,4 +1,4 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
 import {
   Deferred,
   URI,
@@ -8,9 +8,9 @@ import {
   getDebugLogger,
   registerLocalizationBundle,
   replaceNlsField,
-} from '@opensumi/ide-core-browser';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { LOCALE_TYPES } from '@opensumi/ide-core-common/lib/const';
+} from '@Nuvio-MCP/ide-core-browser';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { LOCALE_TYPES } from '@Nuvio-MCP/ide-core-common/lib/const';
 
 import {
   ExtensionNodeServiceServerPath,

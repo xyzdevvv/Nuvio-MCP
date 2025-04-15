@@ -4,21 +4,21 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/main/src/vs/editor/contrib/inlineCompletions/browser/ghostTextWidget.ts#L271
 
-import { createTrustedTypesPolicy } from '@opensumi/monaco-editor-core/esm/vs/base/browser/trustedTypes';
-import * as strings from '@opensumi/monaco-editor-core/esm/vs/base/common/strings';
-import { applyFontInfo } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/config/domFontInfo';
+import { createTrustedTypesPolicy } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/trustedTypes';
+import * as strings from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/strings';
+import { applyFontInfo } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/config/domFontInfo';
 import {
   EditorFontLigatures,
   EditorOption,
   IComputedEditorOptions,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import { StringBuilder } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/stringBuilder';
-import { LineTokens } from '@opensumi/monaco-editor-core/esm/vs/editor/common/tokens/lineTokens';
-import { LineDecoration } from '@opensumi/monaco-editor-core/esm/vs/editor/common/viewLayout/lineDecorations';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { StringBuilder } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/stringBuilder';
+import { LineTokens } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/tokens/lineTokens';
+import { LineDecoration } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/viewLayout/lineDecorations';
 import {
   RenderLineInput,
   renderViewLine,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/viewLayout/viewLineRenderer';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/viewLayout/viewLineRenderer';
 
 export interface LineData {
   content: string;

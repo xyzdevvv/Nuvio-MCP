@@ -1,6 +1,6 @@
-import { CancellationToken, Event, IDisposable, Uri as URI, Uri, es5ClassCompat } from '@opensumi/ide-core-common';
-import { FileChange, FileSystemProviderCapabilities } from '@opensumi/ide-file-service';
-import { FileOperation } from '@opensumi/ide-workspace-edit';
+import { CancellationToken, Event, IDisposable, Uri as URI, Uri, es5ClassCompat } from '@Nuvio-MCP/ide-core-common';
+import { FileChange, FileSystemProviderCapabilities } from '@Nuvio-MCP/ide-file-service';
+import { FileOperation } from '@Nuvio-MCP/ide-workspace-edit';
 
 import { Disposable } from './ext-types';
 import { IWorkspaceEditDto } from './model.api';

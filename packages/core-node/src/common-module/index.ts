@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { CommonServerProtocol } from '@opensumi/ide-connection/lib/common/protocols/common-server';
+import { Injectable } from '@Nuvio-MCP/di';
+import { CommonServerProtocol } from '@Nuvio-MCP/ide-connection/lib/common/protocols/common-server';
 import {
   CommonServerPath,
   CryptoServicePath,
@@ -7,7 +7,7 @@ import {
   INativeCredentialService,
   INativeCryptoService,
   KeytarServicePath,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { HashCalculateContribution } from '../hash-calculate/hash-calculate.contribution';
 import { NodeModule } from '../node-module';

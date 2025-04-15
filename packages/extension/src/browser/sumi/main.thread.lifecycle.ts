@@ -1,8 +1,8 @@
-import { Autowired, Injectable, Injector } from '@opensumi/di';
-import { AppConfig, electronEnv } from '@opensumi/ide-core-browser';
-import { ExtensionCandidate } from '@opensumi/ide-core-common';
-import { IElectronMainLifeCycleService } from '@opensumi/ide-core-common/lib/electron';
-import { throwNonElectronError } from '@opensumi/ide-core-common/lib/error';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
+import { AppConfig, electronEnv } from '@Nuvio-MCP/ide-core-browser';
+import { ExtensionCandidate } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainLifeCycleService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { throwNonElectronError } from '@Nuvio-MCP/ide-core-common/lib/error';
 
 import { IMainThreadLifeCycle } from '../../common/sumi/lifecycle';
 

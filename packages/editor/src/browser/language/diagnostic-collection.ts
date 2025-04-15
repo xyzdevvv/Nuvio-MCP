@@ -1,6 +1,6 @@
-import { Disposable, DisposableCollection, IDisposable } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+import { Disposable, DisposableCollection, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
 import { Diagnostic, DiagnosticCollection, asMonacoDiagnostics } from '../../common';
 

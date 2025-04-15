@@ -29,4 +29,4 @@ Steps to reproduce the behavior:
 
 - OS: [e.g. macOS 11.2 Apple M1/Windows10/Windows11]
 - Browser: [e.g. chrome, safari, electron]
-- OpenSumi Version: [e.g. 2.13.0]
+- Nuvio-MCP Version: [e.g. 2.13.0]

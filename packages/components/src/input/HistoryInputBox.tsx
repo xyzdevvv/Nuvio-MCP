@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HistoryNavigator, IHistory } from '@opensumi/monaco-editor-core/esm/vs/base/common/history';
+import { HistoryNavigator, IHistory } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/history';
 
 import { IInputBaseProps, Input } from './Input';
 

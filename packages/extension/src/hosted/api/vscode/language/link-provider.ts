@@ -1,4 +1,4 @@
-import { Cache, Uri } from '@opensumi/ide-core-common';
+import { Cache, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtensionDocumentDataManager } from '../../../../common/vscode';
 import * as Converter from '../../../../common/vscode/converter';

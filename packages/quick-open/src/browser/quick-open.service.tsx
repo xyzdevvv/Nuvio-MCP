@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ConfigProvider,
@@ -12,10 +12,10 @@ import {
   QuickOpenActionProvider,
   QuickOpenTabOptions,
   compareAnything,
-} from '@opensumi/ide-core-browser';
-import { VALIDATE_TYPE } from '@opensumi/ide-core-browser/lib/components';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
+} from '@Nuvio-MCP/ide-core-browser';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
 import {
   HideReason,
   QuickOpenModel as IKaitianQuickOpenModel,
@@ -23,9 +23,9 @@ import {
   QuickOpenItem,
   QuickOpenOptions,
   QuickOpenService,
-} from '@opensumi/ide-core-browser/lib/quick-open';
-import { MonacoContextKeyService } from '@opensumi/ide-monaco/lib/browser/monaco.context-key.service';
-import { matchesFuzzyIconAware, parseLabelWithIcons } from '@opensumi/ide-utils/lib/iconLabels';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { MonacoContextKeyService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco.context-key.service';
+import { matchesFuzzyIconAware, parseLabelWithIcons } from '@Nuvio-MCP/ide-utils/lib/iconLabels';
 
 import { IAutoFocus, IQuickOpenModel, QuickOpenContext } from './quick-open.type';
 import { QuickOpenView } from './quick-open.view';

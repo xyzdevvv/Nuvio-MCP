@@ -3,17 +3,17 @@ import path from 'path';
 import * as fs from 'fs-extra';
 import temp from 'temp';
 
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { FileUri, IFileServiceClient, ILoggerManagerClient, StoragePaths, URI } from '@opensumi/ide-core-common';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IExtensionStoragePathServer, IExtensionStorageServer } from '@opensumi/ide-extension-storage';
-import { FileStat, IDiskFileProvider } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { FileUri, IFileServiceClient, ILoggerManagerClient, StoragePaths, URI } from '@Nuvio-MCP/ide-core-common';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IExtensionStoragePathServer, IExtensionStorageServer } from '@Nuvio-MCP/ide-extension-storage';
+import { FileStat, IDiskFileProvider } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
 
 import { ExtensionStorageModule } from '../../src/browser';
 

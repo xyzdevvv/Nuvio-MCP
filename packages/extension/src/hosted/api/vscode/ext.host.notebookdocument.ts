@@ -1,5 +1,5 @@
-import { Schemes } from '@opensumi/ide-core-common';
-import { NotebookCellsChangeType } from '@opensumi/ide-editor/lib/common/notebook';
+import { Schemes } from '@Nuvio-MCP/ide-core-common';
+import { NotebookCellsChangeType } from '@Nuvio-MCP/ide-editor/lib/common/notebook';
 
 import { ExtensionDocumentDataManager, IExtensionDocumentModelOpenedEvent } from '../../../common/vscode';
 import * as extHostTypeConverters from '../../../common/vscode/converter';
@@ -20,7 +20,7 @@ import type {
   NotebookDocumentMetadata,
   NotebookOutputDto,
   NotebookOutputItemDto,
-} from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-editor';
 import type vscode from 'vscode';
 
 class RawContentChangeEvent {

@@ -1,12 +1,12 @@
-import { IDisposable } from '@opensumi/ide-core-common';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
 import ReconnectingWebSocket, {
   Options as ReconnectingWebSocketOptions,
   UrlProvider,
-} from '@opensumi/reconnecting-websocket';
+} from '@Nuvio-MCP/reconnecting-websocket';
 
 import { BaseConnection } from './base';
 
-import type { ErrorEvent } from '@opensumi/reconnecting-websocket';
+import type { ErrorEvent } from '@Nuvio-MCP/reconnecting-websocket';
 
 export class ReconnectingWebSocketConnection extends BaseConnection<Uint8Array> {
   constructor(private socket: ReconnectingWebSocket) {

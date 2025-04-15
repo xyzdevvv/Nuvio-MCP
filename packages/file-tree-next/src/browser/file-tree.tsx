@@ -18,7 +18,7 @@ import {
   RecycleTreeFilterDecorator,
   TreeModel,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -27,10 +27,10 @@ import {
   ViewState,
   isOSX,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { WelcomeView } from '@opensumi/ide-main-layout/lib/browser/welcome.view';
-import { IIconService } from '@opensumi/ide-theme/lib/common/index';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { WelcomeView } from '@Nuvio-MCP/ide-main-layout/lib/browser/welcome.view';
+import { IIconService } from '@Nuvio-MCP/ide-theme/lib/common/index';
 
 import { FILE_EXPLORER_WELCOME_ID, IFileTreeService } from '../common';
 import { Directory, File } from '../common/file-tree-node.define';

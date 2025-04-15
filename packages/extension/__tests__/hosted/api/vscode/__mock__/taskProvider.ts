@@ -1,4 +1,4 @@
-import { Event, Emitter as EventEmitter } from '@opensumi/ide-core-common';
+import { Event, Emitter as EventEmitter } from '@Nuvio-MCP/ide-core-common';
 
 import * as extTypes from '../../../../../src/common/vscode/ext-types';
 

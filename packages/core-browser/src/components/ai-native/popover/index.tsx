@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo } from 'react';
 
-import { IPopoverProps, Popover } from '@opensumi/ide-components';
-import { uuid } from '@opensumi/ide-core-common';
+import { IPopoverProps, Popover } from '@Nuvio-MCP/ide-components';
+import { uuid } from '@Nuvio-MCP/ide-core-common';
 
 export const EnhancePopover = (props: IPopoverProps) => {
   const { children, id, title, onClick } = props;

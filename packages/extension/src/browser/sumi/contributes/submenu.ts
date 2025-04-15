@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { menus } from '@opensumi/ide-core-browser/lib/extensions/schema/menu';
-import { IMenuRegistry, ISubmenuItem } from '@opensumi/ide-core-browser/lib/menu/next';
-import { LifeCyclePhase, formatLocalize, isUndefined } from '@opensumi/ide-core-common';
-import { IIconService, IconType } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { menus } from '@Nuvio-MCP/ide-core-browser/lib/extensions/schema/menu';
+import { IMenuRegistry, ISubmenuItem } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { LifeCyclePhase, formatLocalize, isUndefined } from '@Nuvio-MCP/ide-core-common';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { IContributedSubmenu } from '../../../common/sumi/extension';

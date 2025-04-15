@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, ConfigProvider } from '@opensumi/ide-core-browser';
-import { IMergeEditorEditor, IOpenMergeEditorArgs } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { Disposable, IRange, ISelection, URI } from '@opensumi/ide-core-common';
-import { Selection } from '@opensumi/monaco-editor-core';
-import { IDisposable } from '@opensumi/monaco-editor-core/esm/vs/base/common/lifecycle';
-import { IDimension } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/dimension';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, ConfigProvider } from '@Nuvio-MCP/ide-core-browser';
+import { IMergeEditorEditor, IOpenMergeEditorArgs } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { Disposable, IRange, ISelection, URI } from '@Nuvio-MCP/ide-core-common';
+import { Selection } from '@Nuvio-MCP/monaco-editor-core';
+import { IDisposable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/lifecycle';
+import { IDimension } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/dimension';
 import {
   IEditorAction,
   IEditorDecorationsCollection,
   IEditorModel,
   IEditorViewState,
   ScrollType,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
-import { IModelDecorationsChangeAccessor, ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { IModelDecorationsChangeAccessor, ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import { ICodeEditor, IDiffEditorOptions, IEditorOptions, IModelDeltaDecoration } from '../../monaco-api/editor';
 import { IPosition, Position } from '../../monaco-api/types';

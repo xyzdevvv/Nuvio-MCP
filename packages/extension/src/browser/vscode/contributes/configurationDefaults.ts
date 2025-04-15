@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   OVERRIDE_PROPERTY_PATTERN,
   PreferenceProvider,
   PreferenceSchemaProperties,
   PreferenceScope,
-} from '@opensumi/ide-core-browser';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 

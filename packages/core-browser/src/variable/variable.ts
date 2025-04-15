@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Disposable, DisposableCollection, IDisposable, MaybePromise, URI } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable, DisposableCollection, IDisposable, MaybePromise, URI } from '@Nuvio-MCP/ide-core-common';
 
 export type TVariableResolve = string | undefined | { [x: string]: string | undefined };
 export interface Variable {

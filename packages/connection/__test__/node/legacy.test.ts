@@ -1,6 +1,6 @@
 import ws from 'ws';
 
-import { Emitter, Uri } from '@opensumi/ide-core-common';
+import { Emitter, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { RPCService } from '../../src';
 import { RPCServiceCenter, initRPCService } from '../../src/common';

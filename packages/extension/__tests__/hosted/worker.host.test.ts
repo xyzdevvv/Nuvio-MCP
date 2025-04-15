@@ -1,7 +1,7 @@
-import { Injector } from '@opensumi/di';
-import { ProxyIdentifier } from '@opensumi/ide-connection';
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { DefaultReporter, IReporter } from '@opensumi/ide-core-common';
+import { Injector } from '@Nuvio-MCP/di';
+import { ProxyIdentifier } from '@Nuvio-MCP/ide-connection';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { DefaultReporter, IReporter } from '@Nuvio-MCP/ide-core-common';
 
 import { MainThreadExtensionLog } from '../../__mocks__/api/mainthread.extension.log';
 import { MainThreadExtensionService } from '../../__mocks__/api/mainthread.extension.service';

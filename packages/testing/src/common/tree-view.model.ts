@@ -1,5 +1,5 @@
-import { IBasicTreeData, IRecycleTreeHandle } from '@opensumi/ide-components';
-import { Event } from '@opensumi/ide-core-browser';
+import { IBasicTreeData, IRecycleTreeHandle } from '@Nuvio-MCP/ide-components';
+import { Event } from '@Nuvio-MCP/ide-core-browser';
 
 import { IncrementalTestCollectionItem, InternalTestItem, TestResultState } from './testCollection';
 

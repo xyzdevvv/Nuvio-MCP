@@ -9,10 +9,10 @@ import {
   RecycleTree,
   Select,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { Key, KeyCode, URI, isMacintosh, localize, path, useInjectable } from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { IDialogService, IOpenDialogOptions, ISaveDialogOptions } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-components';
+import { Key, KeyCode, URI, isMacintosh, localize, path, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { IDialogService, IOpenDialogOptions, ISaveDialogOptions } from '@Nuvio-MCP/ide-overlay';
 
 import { Directory, File } from '../../common/file-tree-node.define';
 

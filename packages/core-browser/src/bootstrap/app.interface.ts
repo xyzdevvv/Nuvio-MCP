@@ -1,4 +1,4 @@
-import { ConstructorOf } from '@opensumi/di';
+import { ConstructorOf } from '@Nuvio-MCP/di';
 
 import { BrowserModule } from '../browser-module';
 import { ClientAppContribution } from '../common/common.define';
@@ -31,7 +31,7 @@ export interface IClientAppOpts extends Partial<AppConfig> {
   // 前端模块实例声明
   modulesInstances?: BrowserModule[];
 
-  // 定义用于 OpenSumi 视图插件内的图标集合
+  // 定义用于 Nuvio-MCP 视图插件内的图标集合
   iconStyleSheets?: IconInfo[];
   /**
    * 是否使用 CDN 版本的图标资源

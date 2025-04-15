@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/1.44.0/src/vs/editor/common/core/position.ts
 
-import type { ILineChange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
+import type { ILineChange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
 
 export interface IRange {
   // from 1

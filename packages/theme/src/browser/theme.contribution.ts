@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Command,
@@ -15,8 +15,8 @@ import {
   QuickOpenService,
   localize,
   replaceLocalizePlaceholder,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 
 import {
   BuiltinTheme,

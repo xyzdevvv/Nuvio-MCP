@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { getDebugLogger } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ExtensionConnection,

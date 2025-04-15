@@ -12,7 +12,7 @@ import {
 import type {
   IndentationRule,
   OnEnterRule,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/languageConfiguration';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/languageConfiguration';
 
 /**
  * Returns `true` if the parameter has type "object" and not null, an array, a regexp, a date.

@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -9,11 +9,11 @@ import {
   URI,
   getIcon,
   getSymbolIcon,
-} from '@opensumi/ide-core-browser';
-import { ILogger, IReporterService, REPORT_NAME, localize } from '@opensumi/ide-core-common';
-import { QuickOpenActionProvider, QuickOpenBaseAction } from '@opensumi/ide-quick-open';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { SymbolKind as SymbolKindEnum } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ILogger, IReporterService, REPORT_NAME, localize } from '@Nuvio-MCP/ide-core-common';
+import { QuickOpenActionProvider, QuickOpenBaseAction } from '@Nuvio-MCP/ide-quick-open';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { SymbolKind as SymbolKindEnum } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import {
   EditorGroupSplitAction,

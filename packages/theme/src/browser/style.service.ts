@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 import { ICSSStyleService, IStyleInsertResult, IStyleSheet, emptyResult } from '../common/style';
 

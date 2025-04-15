@@ -1,6 +1,6 @@
 # 重新思考 Back Service
 
-在 OpenSumi 中，`back service` 用于处理前端连接打开后的交互，并在前端连接释放后被释放。
+在 Nuvio-MCP 中，`back service` 用于处理前端连接打开后的交互，并在前端连接释放后被释放。
 
 在过去的实践中，我们遇到了以下问题：
 
@@ -67,7 +67,7 @@ const instance2 = new CustomPassword('wrong_password'); // Error: Invalid passwo
 
 ```ts
 import 'reflect-metadata';
-import { Injectable, Injector, Optional } from '@opensumi/di';
+import { Injectable, Injector, Optional } from '@Nuvio-MCP/di';
 
 const SECRET_TOKEN = Symbol('SECRET_TOKEN');
 
@@ -185,7 +185,7 @@ export function RemoteService(servicePath: string, protocol?: RPCProtocol<any>) 
 
 TypeScript 的装饰器是可以装饰 class 的 constructor 的，见：[Class Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators)
 
-用 RemoteService 装饰的类在前端连接建立后会实例化每一个 XRemoteService。逻辑见： [core-node/src/connection.ts#L144](https://github.com/opensumi/core/blob/37906914e7c3ff325d74e0be1945f1a66def6232/packages/core-node/src/connection.ts#L144)。
+用 RemoteService 装饰的类在前端连接建立后会实例化每一个 XRemoteService。逻辑见： [core-node/src/connection.ts#L144](https://github.com/Nuvio-MCP/core/blob/37906914e7c3ff325d74e0be1945f1a66def6232/packages/core-node/src/connection.ts#L144)。
 
 原有的 `backServices` 也非常容易迁移到新的 RemoteService 上，能让你写更少的代码。
 
@@ -225,11 +225,11 @@ export class OpenVsxExtensionManagerModule extends NodeModule {
 
 之前 back service 的状态存取都是各个类自己存储，现在我们仍然推荐这么做，但我们现在推出了一款非常通用的 InMemoryDataStore，如果没有特殊需求，可以使用它。它提供了 `find`/`update`/`create`/`remove` 等多种便捷的资源管理功能。
 
-它非常适合 OpenSumi 的后端架构，你可以根据 `clientId`/`sessionId` 去存储，查询数据，断开连接后删除数据。
+它非常适合 Nuvio-MCP 的后端架构，你可以根据 `clientId`/`sessionId` 去存储，查询数据，断开连接后删除数据。
 
 ### 灵感来自 flask 和 feathers
 
-在 flask 中处理每个请求时，可以用 session 或 g 来存储内容，存在 session 里的内容在会话结束后会被删除，存在 g 上的则会一直存储。因此，我们考虑如果 OpenSumi 提供一个 SessionDataStore 和 GDataStore，让用户在 RemoteService 中使用这个 DataStore，是不是可以缓解大部分问题？
+在 flask 中处理每个请求时，可以用 session 或 g 来存储内容，存在 session 里的内容在会话结束后会被删除，存在 g 上的则会一直存储。因此，我们考虑如果 Nuvio-MCP 提供一个 SessionDataStore 和 GDataStore，让用户在 RemoteService 中使用这个 DataStore，是不是可以缓解大部分问题？
 
 同时，GDataStore 也可以在普通的后端 Service 中使用，并提供数据变更的监听。
 
@@ -320,8 +320,8 @@ class TerminalService {
 
 以上便是使用 GDataStore 之后优化的代码，代码很优雅。而优化前的代码非常混乱：
 
-1. [TerminalService](https://github.com/opensumi/core/blob/v3.3/packages/terminal-next/src/node/terminal.service.ts#L47)
-2. [TerminalServiceClient](https://github.com/opensumi/core/blob/v3.3/packages/terminal-next/src/node/terminal.service.client.ts#L88)
+1. [TerminalService](https://github.com/Nuvio-MCP/core/blob/v3.3/packages/terminal-next/src/node/terminal.service.ts#L47)
+2. [TerminalServiceClient](https://github.com/Nuvio-MCP/core/blob/v3.3/packages/terminal-next/src/node/terminal.service.client.ts#L88)
 
 可以看到，原来的 TerminalService 不仅是逻辑层，还包含了数据的存储，clientId/sessionId 和具体 Terminal 的之间通过 4 个 map 来存储，其中还牵涉到隐式的长短 id 转换。
 

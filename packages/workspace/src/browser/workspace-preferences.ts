@@ -1,10 +1,10 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   PreferenceProxy,
   PreferenceSchema,
   PreferenceService,
   createPreferenceProxy,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 export const workspacePreferenceSchema: PreferenceSchema = {
   type: 'object',

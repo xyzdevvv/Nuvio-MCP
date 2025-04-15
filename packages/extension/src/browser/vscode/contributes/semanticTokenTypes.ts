@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ILogger } from '@opensumi/ide-core-browser/lib/logger';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
-import { ISemanticTokenRegistry } from '@opensumi/ide-theme/lib/common/semantic-tokens-registry';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ILogger } from '@Nuvio-MCP/ide-core-browser/lib/logger';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { ISemanticTokenRegistry } from '@Nuvio-MCP/ide-theme/lib/common/semantic-tokens-registry';
 
 import {
   Contributes,

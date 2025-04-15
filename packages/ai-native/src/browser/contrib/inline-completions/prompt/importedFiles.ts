@@ -1,8 +1,8 @@
-import { Injector } from '@opensumi/di';
-import { LANGUAGE_TO_SUFFIX, URI } from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { Path } from '@opensumi/ide-utils/lib/path';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Injector } from '@Nuvio-MCP/di';
+import { LANGUAGE_TO_SUFFIX, URI } from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { Path } from '@Nuvio-MCP/ide-utils/lib/path';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { LanguageParserService } from '../../../languages/service';
 import { ICompletionContext, ImportedFileOptions, ResourceDocument } from '../types';

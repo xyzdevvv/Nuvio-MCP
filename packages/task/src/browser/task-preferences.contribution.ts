@@ -1,4 +1,4 @@
-import { Domain, PreferenceConfiguration, PreferenceContribution, PreferenceSchema } from '@opensumi/ide-core-browser';
+import { Domain, PreferenceConfiguration, PreferenceContribution, PreferenceSchema } from '@Nuvio-MCP/ide-core-browser';
 
 import { taskPreferencesSchema } from './task-preferences';
 

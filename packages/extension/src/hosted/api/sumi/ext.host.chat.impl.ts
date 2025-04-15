@@ -5,10 +5,10 @@ import {
   IChatAgentWelcomeMessage,
   IChatFollowup,
   IChatReplyFollowup,
-} from '@opensumi/ide-ai-native/lib/common';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CancellationToken, Emitter, Progress, getDebugLogger, raceCancellation } from '@opensumi/ide-core-common';
-import { IChatMessage, IChatProgress } from '@opensumi/ide-core-common/lib/types/ai-native';
+} from '@Nuvio-MCP/ide-ai-native/lib/common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CancellationToken, Emitter, Progress, getDebugLogger, raceCancellation } from '@Nuvio-MCP/ide-core-common';
+import { IChatMessage, IChatProgress } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native';
 
 import { MainThreadSumiAPIIdentifier } from '../../../common/sumi';
 import {

@@ -1,7 +1,7 @@
-import { ProxyIdentifier } from '@opensumi/ide-connection';
-import { Deferred, ILoggerManagerClient, IReporter } from '@opensumi/ide-core-common';
-import { REPORT_NAME } from '@opensumi/ide-core-common';
-import { AppConfig, DefaultReporter } from '@opensumi/ide-core-node';
+import { ProxyIdentifier } from '@Nuvio-MCP/ide-connection';
+import { Deferred, ILoggerManagerClient, IReporter } from '@Nuvio-MCP/ide-core-common';
+import { REPORT_NAME } from '@Nuvio-MCP/ide-core-common';
+import { AppConfig, DefaultReporter } from '@Nuvio-MCP/ide-core-node';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../../tools/dev-tool/src/mock-injector';

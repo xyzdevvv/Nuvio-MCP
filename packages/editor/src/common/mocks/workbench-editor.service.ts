@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, MaybeNull, URI } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, MaybeNull, URI } from '@Nuvio-MCP/ide-core-common';
 
 // eslint-disable-next-line import/no-restricted-paths
 import { IOpenResourceResult, IResourceOpenOptions, IUntitledOptions, WorkbenchEditorService } from '../editor';

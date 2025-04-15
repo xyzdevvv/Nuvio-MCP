@@ -1,13 +1,13 @@
 import { useContext, useEffect, useMemo, useState } from 'react';
 
-import { Injector, Token } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-common';
+import { Injector, Token } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 import { ConfigContext } from '../react-providers/config-provider';
 
 import { useMemorizeFn } from './memorize-fn';
 
-import type { EventEmitter } from '@opensumi/events';
+import type { EventEmitter } from '@Nuvio-MCP/events';
 
 function isDisposable(target: any): target is Disposable {
   return target && (target as any).dispose && !target.disposed;

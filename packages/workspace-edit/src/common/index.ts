@@ -8,11 +8,11 @@ import {
   URI,
   Uri,
   WaitUntilEvent,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 // eslint-disable-next-line import/no-restricted-paths
-import type { EndOfLineSequence } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import type { IBulkEditService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+import type { EndOfLineSequence } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import type { IBulkEditService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
 
 // 对文件位置(添加，删除，移动, 复制)
 export interface IResourceFileEdit {

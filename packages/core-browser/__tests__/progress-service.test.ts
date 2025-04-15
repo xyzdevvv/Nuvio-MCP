@@ -1,4 +1,4 @@
-import { CommandRegistry, ProgressLocation } from '@opensumi/ide-core-common';
+import { CommandRegistry, ProgressLocation } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../tools/dev-tool/src/mock-injector';

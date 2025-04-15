@@ -1,6 +1,6 @@
-import { Emitter } from '@opensumi/ide-core-common';
-import { MainThreadIDEWindow } from '@opensumi/ide-extension/lib/browser/sumi/main.thread.window';
-import { IPlainWebviewWindow, IWebviewService } from '@opensumi/ide-webview';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { MainThreadIDEWindow } from '@Nuvio-MCP/ide-extension/lib/browser/sumi/main.thread.window';
+import { IPlainWebviewWindow, IWebviewService } from '@Nuvio-MCP/ide-webview';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
@@ -83,7 +83,7 @@ describe('MainThreadWindow API Test Suite', () => {
 
   it('should able to $loadURI', async () => {
     const webviewId = 'testView';
-    mainThreadIDEWindow.$loadURL(webviewId, 'http://opensumi.com');
+    mainThreadIDEWindow.$loadURL(webviewId, 'http://Nuvio-MCP.com');
     expect(mockWindow.loadURL).toHaveBeenCalledTimes(1);
   });
 

@@ -1,6 +1,6 @@
-import { Autowired } from '@opensumi/di';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
 
 import { ClientAppContribution } from '../common/common.define';
 

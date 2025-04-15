@@ -1,10 +1,10 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-browser';
-import { OverviewRulerLane } from '@opensumi/ide-editor';
-import { IEditorDocumentModel } from '@opensumi/ide-editor/lib/browser';
-import { themeColorFromId } from '@opensumi/ide-theme';
-import * as model from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import * as textModel from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-browser';
+import { OverviewRulerLane } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModel } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { themeColorFromId } from '@Nuvio-MCP/ide-theme';
+import * as model from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import * as textModel from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
 
 import {
   minimapGutterAddedBackground,

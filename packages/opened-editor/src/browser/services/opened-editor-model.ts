@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { CompositeTreeNode, TreeModel, TreeNodeEvent } from '@opensumi/ide-components';
-import { ThrottledDelayer } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { CompositeTreeNode, TreeModel, TreeNodeEvent } from '@Nuvio-MCP/ide-components';
+import { ThrottledDelayer } from '@Nuvio-MCP/ide-core-browser';
 
 import { EditorFileGroup } from '../opened-editor-node.define';
 

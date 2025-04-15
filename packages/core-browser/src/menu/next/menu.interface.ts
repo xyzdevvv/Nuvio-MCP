@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { Command, CommandRegistry, CommandService, Event, IDisposable, isMacintosh } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { Command, CommandRegistry, CommandService, Event, IDisposable, isMacintosh } from '@Nuvio-MCP/ide-core-common';
 
 import { IContextKeyService } from '../../context-key';
 import { KeybindingRegistry } from '../../keybinding';

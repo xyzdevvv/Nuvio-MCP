@@ -17,20 +17,20 @@ let serverAppOpts = {
 let clientAppOpts = {};
 
 /**
- * sumi-dev.config.js 用于在插件开发时自定义一些 opensumi client 及 server 端的默认配置
+ * sumi-dev.config.js 用于在插件开发时自定义一些 Nuvio-MCP client 及 server 端的默认配置
  * 当传入多个 extensionDir 时，优先取第一个插件目录下的 sumi-dev.config.js
  */
 const extensions = strToArray(extensionCandidate);
 
-const opensumiDevConfigPath = path.resolve(extensions[0], 'sumi-dev.config.js');
+const Nuvio-MCPDevConfigPath = path.resolve(extensions[0], 'sumi-dev.config.js');
 // read `sumi-dev.config.js`
-if (fs.existsSync(opensumiDevConfigPath)) {
-  const opensumiDevConfig = require(opensumiDevConfigPath);
+if (fs.existsSync(Nuvio-MCPDevConfigPath)) {
+  const Nuvio-MCPDevConfig = require(Nuvio-MCPDevConfigPath);
   serverAppOpts = {
     ...serverAppOpts,
-    ...opensumiDevConfig.serverAppOpts,
+    ...Nuvio-MCPDevConfig.serverAppOpts,
   };
-  clientAppOpts = { ...opensumiDevConfig.clientAppOpts };
+  clientAppOpts = { ...Nuvio-MCPDevConfig.clientAppOpts };
 }
 
 startServer(

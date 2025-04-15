@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { FileChangeType, IPosition, OnEvent } from '@opensumi/ide-core-common';
-import { WithEventBus } from '@opensumi/ide-core-common/lib/event-bus';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { FileChangeType, IPosition, OnEvent } from '@Nuvio-MCP/ide-core-common';
+import { WithEventBus } from '@Nuvio-MCP/ide-core-common/lib/event-bus';
 
 import { RecentStorage } from '../common/common.storage';
 import { FilesChangeEvent } from '../fs';

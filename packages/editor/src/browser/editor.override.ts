@@ -1,15 +1,15 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { IRange, URI } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { isEqual } from '@opensumi/monaco-editor-core/esm/vs/base/common/resources';
-import { AbstractCodeEditorService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/abstractCodeEditorService';
-import { ICodeEditorService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/codeEditorService';
-import { EditorScopedLayoutService } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneLayoutService';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
-import { IStandaloneThemeService } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/common/standaloneTheme';
-import { ContextViewService } from '@opensumi/monaco-editor-core/esm/vs/platform/contextview/browser/contextViewService';
-import { IResourceEditorInput } from '@opensumi/monaco-editor-core/esm/vs/platform/editor/common/editor';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { IRange, URI } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { isEqual } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/resources';
+import { AbstractCodeEditorService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/abstractCodeEditorService';
+import { ICodeEditorService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/codeEditorService';
+import { EditorScopedLayoutService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneLayoutService';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+import { IStandaloneThemeService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/common/standaloneTheme';
+import { ContextViewService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextview/browser/contextViewService';
+import { IResourceEditorInput } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/editor/common/editor';
 
 /* istanbul ignore file */
 import { EditorOpenType, WorkbenchEditorService } from '../common';
@@ -17,7 +17,7 @@ import { EditorOpenType, WorkbenchEditorService } from '../common';
 import { BrowserCodeEditor } from './editor-collection.service';
 import { WorkbenchEditorServiceImpl } from './workbench-editor.service';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
 
 @Injectable()
 export class MonacoCodeService extends AbstractCodeEditorService {

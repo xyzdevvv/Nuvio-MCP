@@ -1,11 +1,11 @@
-import { Event, IDisposable, UriComponents } from '@opensumi/ide-core-common';
+import { Event, IDisposable, UriComponents } from '@Nuvio-MCP/ide-core-common';
 import {
   ICellRange,
   NotebookCellDto,
   NotebookCellsChangedEventDto,
   NotebookDataDto,
   NotebookDocumentMetadata,
-} from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-editor';
 
 import type vscode from 'vscode';
 

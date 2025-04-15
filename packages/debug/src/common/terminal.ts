@@ -1,5 +1,5 @@
 /* eslint-disable guard-for-in */
-import { CharCode, isWindows } from '@opensumi/ide-core-common';
+import { CharCode, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 const enum ShellType {
   cmd,

@@ -4,8 +4,8 @@ import {
   KeybindingRegistry,
   KeybindingScope,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
-import { CodeEditsIsVisible } from '@opensumi/ide-core-browser/lib/contextkey/ai-native';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CodeEditsIsVisible } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/ai-native';
 import {
   AINativeSettingSectionsId,
   CodeEditsRT,
@@ -15,8 +15,8 @@ import {
   ILogger,
   IntelligentCompletionsRegistryToken,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import { Emitter, ICodeEditor, ICursorPositionChangedEvent, ITextModel } from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-common';
+import { Emitter, ICodeEditor, ICursorPositionChangedEvent, ITextModel } from '@Nuvio-MCP/ide-monaco';
 import {
   IObservable,
   ISettableObservable,
@@ -29,16 +29,16 @@ import {
   observableFromEvent,
   observableValue,
   transaction,
-} from '@opensumi/ide-monaco/lib/common/observable';
-import { EditorContextKeys } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
-import { inlineSuggestCommitId } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/commandIds';
-import { InlineCompletionContextKeys } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys';
-import { InlineCompletionsController } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { EditorContextKeys } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
+import { inlineSuggestCommitId } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/commandIds';
+import { InlineCompletionContextKeys } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys';
+import { InlineCompletionsController } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController';
 import {
   ObservableSuggestWidgetAdapter,
   SuggestWidgetAdaptor,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/suggestWidgetAdapter';
-import { ContextKeyExpr } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/suggestWidgetAdapter';
+import { ContextKeyExpr } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import { AINativeContextKey } from '../../ai-core.contextkeys';
 import { BaseAIMonacoEditorController } from '../base';

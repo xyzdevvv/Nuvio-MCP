@@ -1,4 +1,4 @@
-import { Emitter, formatLocalize } from '@opensumi/ide-core-common';
+import { Emitter, formatLocalize } from '@Nuvio-MCP/ide-core-common';
 
 import { IComputedStateAccessor, refreshComputedState } from './getComputedState';
 import {

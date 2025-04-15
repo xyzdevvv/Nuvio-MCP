@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-import { ICodeEditor } from '@opensumi/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
 
 // @ts-ignore
 import type { Text } from 'yjs';
@@ -40,7 +40,7 @@ export interface ICollaborationServiceForClient {
   requestInitContent(uri: string): Promise<void>;
 }
 
-export const ROOM_NAME = 'y-room-opensumi';
+export const ROOM_NAME = 'y-room-Nuvio-MCP';
 
 // user model for collaboration module
 export const CollaborationModuleContribution = Symbol('CollaborationModuleContribution');

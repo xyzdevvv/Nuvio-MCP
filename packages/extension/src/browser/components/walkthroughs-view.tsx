@@ -1,17 +1,17 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useState } from 'react';
 
-import { Button, CheckBox } from '@opensumi/ide-components';
+import { Button, CheckBox } from '@Nuvio-MCP/ide-components';
 import {
   IContextKeyService,
   ILink,
   IOpenerService,
   transformLabelWithCodicon,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { IResource } from '@opensumi/ide-editor';
-import { Markdown } from '@opensumi/ide-markdown';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IResource } from '@Nuvio-MCP/ide-editor';
+import { Markdown } from '@Nuvio-MCP/ide-markdown';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { CompletionEventsType, IWalkthrough, IWalkthroughStep } from '../../common';
 import { WalkthroughsService } from '../walkthroughs.service';

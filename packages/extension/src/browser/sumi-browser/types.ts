@@ -1,8 +1,8 @@
-import { ProxyIdentifier } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { IDisposable, Uri, path } from '@opensumi/ide-core-common';
-import { EditorComponentRenderMode } from '@opensumi/ide-editor/lib/browser';
-import { ToolBarPosition } from '@opensumi/ide-toolbar/lib/browser';
-import { ContextKeyExpr } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { ProxyIdentifier } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { IDisposable, Uri, path } from '@Nuvio-MCP/ide-core-common';
+import { EditorComponentRenderMode } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { ToolBarPosition } from '@Nuvio-MCP/ide-toolbar/lib/browser';
+import { ContextKeyExpr } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import { IExtension } from '../..';
 

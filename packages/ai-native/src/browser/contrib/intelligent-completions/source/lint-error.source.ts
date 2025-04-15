@@ -1,15 +1,15 @@
-import { Injectable } from '@opensumi/di';
-import { AINativeSettingSectionsId, ECodeEditsSourceTyping, IDisposable } from '@opensumi/ide-core-common';
-import { ICursorPositionChangedEvent, IPosition, Position } from '@opensumi/ide-monaco';
-import { URI } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { autorunDelta, observableFromEvent } from '@opensumi/ide-monaco/lib/common/observable';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+import { Injectable } from '@Nuvio-MCP/di';
+import { AINativeSettingSectionsId, ECodeEditsSourceTyping, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { ICursorPositionChangedEvent, IPosition, Position } from '@Nuvio-MCP/ide-monaco';
+import { URI } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { autorunDelta, observableFromEvent } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 import {
   IMarker,
   IMarkerService,
   IRelatedInformation,
   MarkerSeverity,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/markers/common/markers';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/markers/common/markers';
 
 import { BaseCodeEditsSource } from './base';
 

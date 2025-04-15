@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Deferred, Emitter, Event, IThemeColor, URI } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Deferred, Emitter, Event, IThemeColor, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtColorContribution, ITheme, IThemeContribution, IThemeService } from '../theme.service';
 

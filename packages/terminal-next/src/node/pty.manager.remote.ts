@@ -1,9 +1,9 @@
 import net, { SocketConnectOpts } from 'net';
 
-import { Injectable, Optional } from '@opensumi/di';
-import { RPCServiceCenter, initRPCService } from '@opensumi/ide-connection';
-import { SumiConnection } from '@opensumi/ide-connection/lib/common/rpc/connection';
-import { DebugLog, Disposable, IDisposable } from '@opensumi/ide-core-common';
+import { Injectable, Optional } from '@Nuvio-MCP/di';
+import { RPCServiceCenter, initRPCService } from '@Nuvio-MCP/ide-connection';
+import { SumiConnection } from '@Nuvio-MCP/ide-connection/lib/common/rpc/connection';
+import { DebugLog, Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IPtyProxyRPCService,

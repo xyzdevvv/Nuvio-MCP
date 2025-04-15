@@ -1,8 +1,8 @@
 import debounce from 'lodash/debounce';
 import React from 'react';
 
-import { HistoryInputBox, IHistoryInputBoxHandler } from '@opensumi/ide-components/lib/input/HistoryInputBox';
-import { Key, localize, useDesignStyles, useInjectable } from '@opensumi/ide-core-browser';
+import { HistoryInputBox, IHistoryInputBoxHandler } from '@Nuvio-MCP/ide-components/lib/input/HistoryInputBox';
+import { Key, localize, useDesignStyles, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { DebugConsoleFilterService } from './debug-console-filter.service';
 import styles from './debug-console.module.less';

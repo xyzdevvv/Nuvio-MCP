@@ -1,5 +1,5 @@
-import { Autowired } from '@opensumi/di';
-import { getIcon } from '@opensumi/ide-components';
+import { Autowired } from '@Nuvio-MCP/di';
+import { getIcon } from '@Nuvio-MCP/ide-components';
 import {
   CommandContribution,
   CommandRegistry,
@@ -9,7 +9,7 @@ import {
   PreferenceSchema,
   localize,
   replaceLocalizePlaceholder,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IContextKey, IContextKeyService } from '../context-key';
 import { corePreferenceSchema } from '../core-preferences';

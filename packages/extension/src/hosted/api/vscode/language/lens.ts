@@ -16,7 +16,7 @@
 
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/plugin-ext/src/plugin/languages/lens.ts
 
-import { Cache, CancellationToken, DisposableStore, Uri as URI } from '@opensumi/ide-core-common';
+import { Cache, CancellationToken, DisposableStore, Uri as URI } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtensionDocumentDataManager } from '../../../../common/vscode';
 import * as Converter from '../../../../common/vscode/converter';

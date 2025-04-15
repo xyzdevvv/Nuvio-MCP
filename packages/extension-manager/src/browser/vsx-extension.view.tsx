@@ -2,11 +2,11 @@ import debounce from 'lodash/debounce';
 import * as React from 'react';
 import { useCallback, useState } from 'react';
 
-import { Tabs } from '@opensumi/ide-components';
-import { useAutorun, useInjectable } from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { localize } from '@opensumi/ide-core-common';
-import { AutoFocusedInput } from '@opensumi/ide-main-layout/lib/browser/input';
+import { Tabs } from '@Nuvio-MCP/ide-components';
+import { useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { localize } from '@Nuvio-MCP/ide-core-common';
+import { AutoFocusedInput } from '@Nuvio-MCP/ide-main-layout/lib/browser/input';
 
 import { IVSXExtensionService, InstallState, TabActiveKey, VSXExtension, VSXExtensionServiceToken } from '../common';
 

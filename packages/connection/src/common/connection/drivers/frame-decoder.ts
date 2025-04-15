@@ -1,6 +1,6 @@
 import { BinaryWriter } from '@furyjs/fury/dist/lib/writer';
 
-import { Emitter, readUInt32LE } from '@opensumi/ide-core-common';
+import { Emitter, readUInt32LE } from '@Nuvio-MCP/ide-core-common';
 
 import { Buffers } from '../../buffers/buffers';
 

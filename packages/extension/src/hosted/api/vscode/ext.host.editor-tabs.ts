@@ -1,8 +1,8 @@
 /* eslint-disable comma-dangle */
 /* eslint-disable arrow-parens */
 /* eslint-disable @typescript-eslint/no-inferrable-types */
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter, Event, Uri, assertIsDefined, diffSets } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter, Event, Uri, assertIsDefined, diffSets } from '@Nuvio-MCP/ide-core-common';
 
 import { MainThreadAPIIdentifier } from '../../../common/vscode';
 import {

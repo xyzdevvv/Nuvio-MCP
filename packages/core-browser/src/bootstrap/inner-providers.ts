@@ -1,4 +1,4 @@
-import { Injector, Provider } from '@opensumi/di';
+import { Injector, Provider } from '@Nuvio-MCP/di';
 import {
   AppLifeCycleServiceToken,
   CommandContribution,
@@ -25,15 +25,15 @@ import {
   ReporterService,
   TaskDefinitionRegistryImpl,
   createContributionProvider,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
 import {
   KeyboardLayoutChangeNotifierService,
   KeyboardNativeLayoutService,
-} from '@opensumi/ide-core-common/lib/keyboard/keyboard-layout-provider';
+} from '@Nuvio-MCP/ide-core-common/lib/keyboard/keyboard-layout-provider';
 
 import { AIReporter } from '../ai-native/ai-reporter';
 import { ClientAppStateService } from '../application/application-state-service';

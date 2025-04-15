@@ -1,4 +1,4 @@
-import { IDisposable } from '@opensumi/ide-utils';
+import { IDisposable } from '@Nuvio-MCP/ide-utils';
 
 import { IElectronMainApi } from './electron';
 

@@ -9,7 +9,7 @@ import {
   parseGlob,
   path,
   strings,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 export class ResourceGlobMatcher {
   private readonly globalExpression: ParsedExpression;

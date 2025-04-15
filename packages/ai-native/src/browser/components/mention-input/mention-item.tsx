@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import * as React from 'react';
 
-import { Icon, getIcon } from '@opensumi/ide-core-browser/lib/components';
+import { Icon, getIcon } from '@Nuvio-MCP/ide-core-browser/lib/components';
 
 import styles from './mention-input.module.less';
 import { MentionItem as MentionItemType } from './types';

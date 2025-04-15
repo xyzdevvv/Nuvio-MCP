@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { Icon, getIcon } from '@opensumi/ide-components';
+import { Icon, getIcon } from '@Nuvio-MCP/ide-components';
 
 import styles from './index.module.less';
 

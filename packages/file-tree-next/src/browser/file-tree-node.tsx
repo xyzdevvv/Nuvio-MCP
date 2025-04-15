@@ -11,10 +11,10 @@ import {
   RenamePromptHandle,
   TreeNode,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { URI, getIcon, path, transformLabelWithCodicon, useDesignStyles } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { IIconService } from '@opensumi/ide-theme/lib/common/index';
+} from '@Nuvio-MCP/ide-components';
+import { URI, getIcon, path, transformLabelWithCodicon, useDesignStyles } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IIconService } from '@Nuvio-MCP/ide-theme/lib/common/index';
 
 import { Directory, File } from '../common/file-tree-node.define';
 

@@ -1,6 +1,6 @@
 import * as jsoncparser from 'jsonc-parser';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Disposable,
   DisposableCollection,
@@ -11,10 +11,10 @@ import {
   isPatternInWord,
   localize,
   path,
-} from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { SnippetParser } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/snippet/browser/snippetParser';
+} from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { SnippetParser } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/snippet/browser/snippetParser';
 
 import * as monaco from '../common';
 

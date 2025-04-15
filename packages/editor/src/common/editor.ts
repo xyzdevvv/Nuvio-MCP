@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { IScopedContextKeyService } from '@opensumi/ide-core-browser';
-import { IMergeEditorEditor } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IScopedContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { IMergeEditorEditor } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
 import {
   BasicEvent,
   Event,
@@ -14,7 +14,7 @@ import {
   IThemeColor,
   MaybeNull,
   URI,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IMultiDiffEditor } from './multi-diff';
 import { IResource } from './resource';
@@ -29,9 +29,9 @@ import type {
   ICodeEditor as IMonacoCodeEditor,
   ITextModel,
   ITextModelUpdateOptions,
-} from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-monaco';
 
-export { ShowLightbulbIconMode } from '@opensumi/ide-monaco';
+export { ShowLightbulbIconMode } from '@Nuvio-MCP/ide-monaco';
 
 export interface IEditorDocumentDescription {
   /**

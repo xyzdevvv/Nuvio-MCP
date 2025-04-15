@@ -1,10 +1,10 @@
 import merge from 'lodash/merge';
 import throttle from 'lodash/throttle';
 
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { ILineChange, IRange, ISelection, MaybeNull, URI, WithEventBus } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { ILineChange, IRange, ISelection, MaybeNull, URI, WithEventBus } from '@Nuvio-MCP/ide-core-common';
 import {
   EditorCollectionService,
   IDecorationApplyOptions,
@@ -17,7 +17,7 @@ import {
   IThemeDecorationRenderOptions,
   IUndoStopOptions,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-editor';
 import {
   EditorConfigurationChangedEvent,
   EditorGroupChangeEvent,
@@ -27,16 +27,16 @@ import {
   EditorVisibleChangeEvent,
   IDiffResource,
   IEditorDecorationCollectionService,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   BrowserDiffEditor,
   EditorCollectionServiceImpl,
   ISumiEditor,
-} from '@opensumi/ide-editor/lib/browser/editor-collection.service';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import * as monaco from '@opensumi/ide-monaco';
-import { IModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/model';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-editor/lib/browser/editor-collection.service';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/model';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import {
   ExtHostAPIIdentifier,
@@ -54,7 +54,7 @@ import { EndOfLineSequence, RenderLineNumbersType } from '../../../common/vscode
 
 import { MainThreadExtensionDocumentData } from './main.thread.doc';
 
-import type { ICodeEditor as IMonacoCodeEditor, ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor, ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 @Injectable({ multiple: true })
 export class MainThreadEditorService extends WithEventBus implements IMainThreadEditorsService {

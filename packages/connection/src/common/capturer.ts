@@ -4,12 +4,12 @@ import {
   isUint8Array,
   randomString,
   transformErrorForSerialization,
-} from '@opensumi/ide-core-common';
-import { DevtoolsLantencyCommand, EDevtoolsEvent } from '@opensumi/ide-core-common/lib/devtools';
+} from '@Nuvio-MCP/ide-core-common';
+import { DevtoolsLantencyCommand, EDevtoolsEvent } from '@Nuvio-MCP/ide-core-common/lib/devtools';
 
 declare global {
   interface Window {
-    __OPENSUMI_DEVTOOLS_GLOBAL_HOOK__: any;
+    __Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__: any;
   }
 }
 
@@ -43,13 +43,13 @@ const _global: any =
   typeof global === 'undefined'
     ? typeof window === 'undefined'
       ? {
-          __OPENSUMI_DEVTOOLS_GLOBAL_HOOK__: undefined,
+          __Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__: undefined,
         }
       : window
     : global;
 
 export function getCapturer() {
-  const hook = _global.__OPENSUMI_DEVTOOLS_GLOBAL_HOOK__;
+  const hook = _global.__Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__;
   if (hook) {
     return hook.captureRPC;
   }

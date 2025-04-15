@@ -6,10 +6,10 @@ import {
   RecycleTree,
   TreeModel,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { CancellationToken, CancellationTokenSource, ViewState, localize } from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
+} from '@Nuvio-MCP/ide-components';
+import { CancellationToken, CancellationTokenSource, ViewState, localize } from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
 
 import styles from './index.module.less';
 import { EditorTreeNode } from './opened-editor-node';

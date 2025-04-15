@@ -1,13 +1,13 @@
-import { Injector } from '@opensumi/di';
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { positionToRange } from '@opensumi/ide-monaco';
-import { createMockedMonaco } from '@opensumi/ide-monaco/__mocks__/monaco';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import { IIconService } from '@opensumi/ide-theme';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
+import { Injector } from '@Nuvio-MCP/di';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { positionToRange } from '@Nuvio-MCP/ide-monaco';
+import { createMockedMonaco } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
 
 import { CommentsModule } from '../../src/browser';
 import { CommentMode, ICommentsService } from '../../src/common';

@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { CancellationToken, RenameCandidatesProviderRegistryToken } from '@opensumi/ide-core-common';
-import { IRange, ITextModel, NewSymbolName, NewSymbolNameTriggerKind } from '@opensumi/ide-monaco';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CancellationToken, RenameCandidatesProviderRegistryToken } from '@Nuvio-MCP/ide-core-common';
+import { IRange, ITextModel, NewSymbolName, NewSymbolNameTriggerKind } from '@Nuvio-MCP/ide-monaco';
 
 import { IRenameCandidatesProviderRegistry } from '../../types';
 

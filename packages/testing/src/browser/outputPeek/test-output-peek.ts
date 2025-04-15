@@ -1,9 +1,9 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { EDITOR_COMMANDS, IContextKeyService, Schemes } from '@opensumi/ide-core-browser';
-import { CommandService, Disposable, IDisposable, MutableDisposable, URI } from '@opensumi/ide-core-common';
-import { IEditor, IEditorFeatureContribution } from '@opensumi/ide-editor/lib/browser';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import * as editorCommon from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { EDITOR_COMMANDS, IContextKeyService, Schemes } from '@Nuvio-MCP/ide-core-browser';
+import { CommandService, Disposable, IDisposable, MutableDisposable, URI } from '@Nuvio-MCP/ide-core-common';
+import { IEditor, IEditorFeatureContribution } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import * as editorCommon from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 
 import { ITestResult, TestResultServiceToken } from '../../common/test-result';
 import { IRichLocation, ITestItem, ITestMessage, TestMessageType, TestResultItem } from '../../common/testCollection';

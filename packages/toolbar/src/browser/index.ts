@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Provider } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Provider } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   BrowserModule,
@@ -7,9 +7,9 @@ import {
   Domain,
   IToolbarRegistry,
   ToolBarActionContribution,
-} from '@opensumi/ide-core-browser';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { FrameworkKind, IExtensionsSchemaService } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { FrameworkKind, IExtensionsSchemaService } from '@Nuvio-MCP/ide-core-common';
 
 import { ToolBar } from './toolbar.view';
 import { ToolBarViewService } from './toolbar.view.service';
@@ -71,7 +71,7 @@ export class ToolBarModuleContribution
     ];
     const appendData = {
       extensionPoint: '',
-      frameworkKind: ['opensumi'] as FrameworkKind[],
+      frameworkKind: ['Nuvio-MCP'] as FrameworkKind[],
       jsonSchema: {
         enum: this.config.isElectronRenderer
           ? ['toolbar-left', 'toolbar-right', 'toolbar-center']

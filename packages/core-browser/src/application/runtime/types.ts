@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 
 import { AppConfig, getTreeSitterWasmCDNUri } from '../../react-providers/config-provider';
 
 import { type ESupportRuntime, onigWasmCDNUri } from './constants';
 
 import type { BrowserModule } from '../../browser-module';
-import type { Injector } from '@opensumi/di';
+import type { Injector } from '@Nuvio-MCP/di';
 
 export enum EKnownResources {
   OnigWasm = 'wasm:onig',

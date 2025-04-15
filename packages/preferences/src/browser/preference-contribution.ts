@@ -1,6 +1,6 @@
 import * as jsoncParser from 'jsonc-parser';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   COMMON_COMMANDS,
   ClientAppContribution,
@@ -30,9 +30,9 @@ import {
   getIcon,
   isString,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IResource, IResourceProvider, ResourceService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IResource, IResourceProvider, ResourceService } from '@Nuvio-MCP/ide-editor';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
@@ -41,8 +41,8 @@ import {
   IEditorFeatureRegistry,
   IResourceOpenResult,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import { PREF_SCHEME, SettingContribution } from '../common';
 

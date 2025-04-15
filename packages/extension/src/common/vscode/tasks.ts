@@ -1,5 +1,5 @@
-import { IDisposable } from '@opensumi/ide-core-node';
-import { UriComponents } from '@opensumi/ide-editor/lib/common';
+import { IDisposable } from '@Nuvio-MCP/ide-core-node';
+import { UriComponents } from '@Nuvio-MCP/ide-editor/lib/common';
 
 import { IExtensionProps } from '../index';
 

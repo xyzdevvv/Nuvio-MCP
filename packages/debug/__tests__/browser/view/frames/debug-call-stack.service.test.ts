@@ -1,13 +1,13 @@
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next';
-import { AbstractContextMenuService } from '@opensumi/ide-core-browser/lib/menu/next';
-import { URI } from '@opensumi/ide-core-common';
-import { Disposable } from '@opensumi/ide-core-common';
-import { DebugStackFrame } from '@opensumi/ide-debug/lib/browser/model';
-import { DebugCallStackService } from '@opensumi/ide-debug/lib/browser/view/frames/debug-call-stack.service';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { ContextKeyService } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
-import { IContextKeyServiceTarget } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { AbstractContextMenuService } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { DebugStackFrame } from '@Nuvio-MCP/ide-debug/lib/browser/model';
+import { DebugCallStackService } from '@Nuvio-MCP/ide-debug/lib/browser/view/frames/debug-call-stack.service';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { ContextKeyService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
+import { IContextKeyServiceTarget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 describe('Debug Call Frames Service', () => {
   const mockInjector = createBrowserInjector([]);

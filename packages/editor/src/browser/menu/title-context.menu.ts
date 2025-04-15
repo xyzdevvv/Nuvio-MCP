@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { ResourceContextKey } from '@opensumi/ide-core-browser/lib/contextkey/resource';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { URI } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { ResourceContextKey } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/resource';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import { IEditorGroup } from '../../common';
 import { EditorGroup } from '../workbench-editor.service';

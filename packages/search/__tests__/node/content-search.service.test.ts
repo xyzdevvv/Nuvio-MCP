@@ -3,11 +3,11 @@ import path from 'path';
 
 import temp from 'temp';
 
-import { isWindows } from '@opensumi/ide-core-common';
-import { AppConfig, FileUri, INodeLogger, NodeLogger } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { LogServiceModule } from '@opensumi/ide-logs/lib/node';
-import { ProcessModule } from '@opensumi/ide-process/lib/node';
+import { isWindows } from '@Nuvio-MCP/ide-core-common';
+import { AppConfig, FileUri, INodeLogger, NodeLogger } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { LogServiceModule } from '@Nuvio-MCP/ide-logs/lib/node';
+import { ProcessModule } from '@Nuvio-MCP/ide-process/lib/node';
 
 import { ContentSearchResult, IContentSearchServer, SEARCH_STATE } from '../../src';
 import { SearchModule } from '../../src/node';

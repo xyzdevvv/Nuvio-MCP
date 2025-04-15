@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { Deferred, Emitter, URI } from '@opensumi/ide-core-common';
-import { FileStat } from '@opensumi/ide-file-service';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Deferred, Emitter, URI } from '@Nuvio-MCP/ide-core-common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 import { IWorkspaceService, WorkspaceInput } from '../../common';
 

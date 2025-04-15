@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { DisposableCollection, Emitter, Event } from '@opensumi/ide-core-common';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+import { Injectable } from '@Nuvio-MCP/di';
+import { DisposableCollection, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { DebugConfiguration, DebugSessionOptions, DebugState, IDebugSession } from '../src/common';
 

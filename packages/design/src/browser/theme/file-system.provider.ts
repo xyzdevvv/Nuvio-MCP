@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   BinaryBuffer,
   Event,
@@ -8,7 +8,7 @@ import {
   FileSystemProviderCapabilities,
   FileType,
   Uri,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import defaultTheme from './default-theme';
 import lightTheme from './light-theme';

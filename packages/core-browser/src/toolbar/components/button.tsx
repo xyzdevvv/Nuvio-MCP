@@ -3,9 +3,9 @@ import React, { PropsWithChildren } from 'react';
 import ReactDOM from 'react-dom';
 import ReactDOMClient from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Button } from '@opensumi/ide-components';
-import { BasicEvent, Disposable, Emitter, IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Button } from '@Nuvio-MCP/ide-components';
+import { BasicEvent, Disposable, Emitter, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { DomListener } from '../../dom';
 import { PreferenceService } from '../../preferences';

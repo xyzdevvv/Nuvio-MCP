@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Icon } from '@opensumi/ide-components';
+import { Icon } from '@Nuvio-MCP/ide-components';
 
 export const MENU_BAR_FEATURE_TIP = 'MENU_BAR_FEATURE_TIP';
 

@@ -1,6 +1,6 @@
-import { Injectable, Optional } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-common';
-import { ModelDecorationOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
+import { Injectable, Optional } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { ModelDecorationOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
 
 import { ICodeEditor, IModelDeltaDecoration } from '../../../monaco-api/editor';
 import { IActionsDescription } from '../types';

@@ -2,8 +2,8 @@ import isEqual from 'lodash/isEqual';
 import uniqWith from 'lodash/uniqWith';
 import ReactDOM from 'react-dom';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { ExtensionActivateEvent, IDisposable, IEventBus } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ExtensionActivateEvent, IDisposable, IEventBus } from '@Nuvio-MCP/ide-core-common';
 
 import { IEditorOpenType, IResource } from '../common';
 

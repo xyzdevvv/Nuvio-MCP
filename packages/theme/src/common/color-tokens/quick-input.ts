@@ -1,4 +1,4 @@
-import { localize } from '@opensumi/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
 import { Color, RGBA } from '../color';
 import { registerColor } from '../utils';

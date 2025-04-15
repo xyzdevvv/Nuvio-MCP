@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { StoragePaths, URI } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { StoragePaths, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { MainThreadAPIIdentifier } from '../../../../src/common/vscode';
@@ -40,7 +40,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.storage.test.ts', () =>
 
   const injector = createBrowserInjector([]);
   const storagePath = URI.file('/userhome');
-  const extensionId = 'opensumi.test-extension';
+  const extensionId = 'Nuvio-MCP.test-extension';
 
   beforeAll(() => {
     rpcProtocol.set(MainThreadAPIIdentifier.MainThreadStorage, mockMainThreadStorage as any);

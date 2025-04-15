@@ -1,8 +1,8 @@
-import { RPCServiceCenter, initRPCService } from '@opensumi/ide-connection';
-import { SimpleConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/simple';
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { SumiConnection } from '@opensumi/ide-connection/lib/common/rpc/connection';
-import { Emitter } from '@opensumi/ide-core-common';
+import { RPCServiceCenter, initRPCService } from '@Nuvio-MCP/ide-connection';
+import { SimpleConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/simple';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { SumiConnection } from '@Nuvio-MCP/ide-connection/lib/common/rpc/connection';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
 
 export async function initMockRPCProtocol(client): Promise<SumiConnectionMultiplexer> {
   const extProtocol = new SumiConnectionMultiplexer(

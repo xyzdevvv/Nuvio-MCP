@@ -1,4 +1,4 @@
-import { IAsyncResult, IDisposable } from '@opensumi/ide-utils';
+import { IAsyncResult, IDisposable } from '@Nuvio-MCP/ide-utils';
 
 import { ConstructorOf } from '../declare';
 

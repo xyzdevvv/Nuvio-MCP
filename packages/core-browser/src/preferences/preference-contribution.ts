@@ -1,6 +1,6 @@
 import Ajv from 'ajv';
 
-import { Autowired, Injectable, Injector } from '@opensumi/di';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   ContributionProvider,
   Disposable,
@@ -9,13 +9,13 @@ import {
   IDisposable,
   ILogger,
   Mutable,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   PreferenceDataProperty,
   PreferenceDataSchema,
   PreferenceItem,
   PreferenceSchema,
-} from '@opensumi/ide-core-common/lib/preferences/preference-schema';
+} from '@Nuvio-MCP/ide-core-common/lib/preferences/preference-schema';
 
 import { AppConfig } from '../react-providers/config-provider';
 

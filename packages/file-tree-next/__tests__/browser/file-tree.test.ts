@@ -3,7 +3,7 @@ import path from 'path';
 import * as fs from 'fs-extra';
 import temp from 'temp';
 
-import { TreeNodeEvent, TreeNodeType } from '@opensumi/ide-components';
+import { TreeNodeEvent, TreeNodeType } from '@Nuvio-MCP/ide-components';
 import {
   AppConfig,
   CorePreferences,
@@ -12,9 +12,9 @@ import {
   IContextKeyService,
   ILogger,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
-import { MockContextKeyService } from '@opensumi/ide-core-browser/__mocks__/context-key';
-import { MockedStorageProvider } from '@opensumi/ide-core-browser/__mocks__/storage';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-core-browser/__mocks__/context-key';
+import { MockedStorageProvider } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
 import {
   Deferred,
   Disposable,
@@ -24,24 +24,24 @@ import {
   OS,
   StorageProvider,
   URI,
-} from '@opensumi/ide-core-common';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { FileDecorationsService } from '@opensumi/ide-decoration/lib/browser/decorationsService';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { FileServicePath, FileStat, IDiskFileProvider, IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { FileService, FileSystemNodeOptions } from '@opensumi/ide-file-service/lib/node';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
-import { FileContextKey } from '@opensumi/ide-file-tree-next/lib/browser/file-contextkey';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { RETRACT_BOTTOM_PANEL } from '@opensumi/ide-main-layout/lib/browser/main-layout.contribution';
-import { IDialogService, IMessageService } from '@opensumi/ide-overlay';
-import { IThemeService } from '@opensumi/ide-theme';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+} from '@Nuvio-MCP/ide-core-common';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { FileDecorationsService } from '@Nuvio-MCP/ide-decoration/lib/browser/decorationsService';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { FileServicePath, FileStat, IDiskFileProvider, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { FileService, FileSystemNodeOptions } from '@Nuvio-MCP/ide-file-service/lib/node';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
+import { FileContextKey } from '@Nuvio-MCP/ide-file-tree-next/lib/browser/file-contextkey';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { RETRACT_BOTTOM_PANEL } from '@Nuvio-MCP/ide-main-layout/lib/browser/main-layout.contribution';
+import { IDialogService, IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 
 import { FileTreeNextModule, PasteTypes } from '../../src';
 import { FileTreeContribution } from '../../src/browser/file-tree-contribution';

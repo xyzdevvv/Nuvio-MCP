@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { IExtensionMetaData, IExtensionNodeClientService, IExtraMetaData } from '@opensumi/ide-extension/lib/common';
-import { IExtensionLanguagePack } from '@opensumi/ide-extension/lib/common/vscode';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IExtensionMetaData, IExtensionNodeClientService, IExtraMetaData } from '@Nuvio-MCP/ide-extension/lib/common';
+import { IExtensionLanguagePack } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
 
 import { getExtension } from './utils';
 

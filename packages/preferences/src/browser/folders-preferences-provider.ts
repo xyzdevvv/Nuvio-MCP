@@ -1,13 +1,13 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   ILogger,
   PreferenceConfigurations,
   PreferenceProvider,
   PreferenceResolveResult,
   URI,
-} from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common/file-service-client';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common/file-service-client';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import {
   FolderFilePreferenceProvider,

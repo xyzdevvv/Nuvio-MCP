@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IOpener, IRange, URI } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IOpener, IRange, URI } from '@Nuvio-MCP/ide-core-browser';
 
 import { ResourceService, WorkbenchEditorService } from '../common';
 

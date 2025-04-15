@@ -1,8 +1,8 @@
 import { Container } from '@difizen/mana-app';
 import React, { memo, useEffect, useRef, useState } from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { ICodeEditor } from '@opensumi/ide-monaco';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
 
 import { ManaContainer } from '../../../mana';
 import { getLibroCellType } from '../libro-diff-protocol';
@@ -36,7 +36,7 @@ export const LibroDiffSideCellComponent: React.FC<DiffEditorProps> = memo(({ dif
   const [editor, setEditor] = useState<ICodeEditor | undefined>();
 
   const createEditor = () => {
-    // 这里其实已经拿到content了，但是 opensumi editor 需要uri，理论上有优化空间
+    // 这里其实已经拿到content了，但是 Nuvio-MCP editor 需要uri，理论上有优化空间
     const content =
       diffCellResultItem.diffType === 'removed' ? diffCellResultItem.origin.source : diffCellResultItem.target.source;
     const previewedEditor = libroVersionManager.createPreviewEditor(

@@ -1,13 +1,13 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution, Domain, RecentFilesManager, URI, localize } from '@opensumi/ide-core-browser';
-import { IResource, ResourceService, WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution, Domain, RecentFilesManager, URI, localize } from '@Nuvio-MCP/ide-core-browser';
+import { IResource, ResourceService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
   EditorComponentRenderMode,
   EditorOpenType,
-} from '@opensumi/ide-editor/lib/browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IWelcomeMetaData } from './common';
 import { EditorWelcomeComponent } from './welcome';

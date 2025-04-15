@@ -1,7 +1,7 @@
-import { IInputBaseProps } from '@opensumi/ide-components';
-import { IMenubarItem, ISubmenuItem } from '@opensumi/ide-core-browser/lib/menu/next';
-import { ISumiMenuExtendInfo } from '@opensumi/ide-core-common';
-import { ThemeType } from '@opensumi/ide-theme';
+import { IInputBaseProps } from '@Nuvio-MCP/ide-components';
+import { IMenubarItem, ISubmenuItem } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { ISumiMenuExtendInfo } from '@Nuvio-MCP/ide-core-common';
+import { ThemeType } from '@Nuvio-MCP/ide-theme';
 
 // eslint-disable-next-line import/no-restricted-paths
 import { IExtensionContributions } from '../vscode/extension';

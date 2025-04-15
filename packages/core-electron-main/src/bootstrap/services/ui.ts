@@ -5,13 +5,13 @@ import qs from 'querystring';
 import { BrowserWindow, clipboard, dialog, shell, webContents } from 'electron';
 import { stat } from 'fs-extra';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Domain, IEventBus, URI, isWindows } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Domain, IEventBus, URI, isWindows } from '@Nuvio-MCP/ide-core-common';
 import {
   IElectronMainUIService,
   IElectronMainUIServiceShape,
   IElectronPlainWebviewWindowOptions,
-} from '@opensumi/ide-core-common/lib/electron';
+} from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { ElectronMainApiProvider, ElectronMainApiRegistry, ElectronMainContribution } from '../types';
 

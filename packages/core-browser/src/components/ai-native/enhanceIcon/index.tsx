@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useCallback } from 'react';
 
-import { CommandService } from '@opensumi/ide-core-common';
+import { CommandService } from '@Nuvio-MCP/ide-core-common';
 
 import { Icon } from '../../../components';
 import { MenuNode } from '../../../menu/next/base';

@@ -1,9 +1,9 @@
-import { DocumentSymbol, SymbolKind } from '@opensumi/ide-monaco';
+import { DocumentSymbol, SymbolKind } from '@Nuvio-MCP/ide-monaco';
 
 import { LLMContextService } from '../../../common/llm-context';
 
-import type { LabelService } from '@opensumi/ide-core-browser';
-import type { IWorkspaceService } from '@opensumi/ide-workspace';
+import type { LabelService } from '@Nuvio-MCP/ide-core-browser';
+import type { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 export interface MentionItem {
   id: string;

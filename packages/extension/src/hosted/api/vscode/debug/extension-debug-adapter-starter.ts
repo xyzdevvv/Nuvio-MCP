@@ -4,7 +4,7 @@ import { EventEmitter } from 'events';
 import net from 'net';
 import stream from 'stream';
 
-import { DebugAdapterForkExecutable, DebugStreamConnection } from '@opensumi/ide-debug';
+import { DebugAdapterForkExecutable, DebugStreamConnection } from '@Nuvio-MCP/ide-debug';
 
 import { CustomChildProcess, CustomChildProcessModule } from '../../../../common/ext.process';
 

@@ -1,9 +1,9 @@
 import uniqueId from 'lodash/uniqueId';
 
-import { URI } from '@opensumi/ide-core-browser';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { LocalStorageDocCacheImpl } from '@opensumi/ide-editor/lib/browser/doc-cache';
-import { IWorkspaceStorageService } from '@opensumi/ide-workspace';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { LocalStorageDocCacheImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-cache';
+import { IWorkspaceStorageService } from '@Nuvio-MCP/ide-workspace';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

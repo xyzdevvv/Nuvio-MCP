@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IExtensionInfo, OnEvent, URI, WithEventBus } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelService, ResourceDecorationNeedChangeEvent } from '@opensumi/ide-editor/lib/browser';
-import { IWebviewService } from '@opensumi/ide-webview';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IExtensionInfo, OnEvent, URI, WithEventBus } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelService, ResourceDecorationNeedChangeEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IWebviewService } from '@Nuvio-MCP/ide-webview';
 
 import {
   CustomEditorType,

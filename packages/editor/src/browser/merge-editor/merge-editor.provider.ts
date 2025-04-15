@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { LabelService, MaybePromise, URI, WithEventBus } from '@opensumi/ide-core-browser';
-import { MergeEditorService } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/merge-editor.service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { LabelService, MaybePromise, URI, WithEventBus } from '@Nuvio-MCP/ide-core-browser';
+import { MergeEditorService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/merge-editor.service';
 
 import { IResource, IResourceProvider } from '../../common';
 @Injectable()

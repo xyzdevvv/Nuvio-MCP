@@ -1,4 +1,4 @@
-import { localize } from '@opensumi/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
 import { Color, RGBA } from '../../color';
 import { darken, lighten, registerColor } from '../../utils';
@@ -70,7 +70,7 @@ export const ktPrimaryButtonClickBackground = registerColor(
 export const ktPrimaryGhostButtonForeground = registerColor(
   'kt.primaryGhostButton.foreground',
   // Light 模式下使用 `ktPrimaryButtonBackground` 能兼容更多主题下展示效果
-  // 已达到 https://github.com/opensumi/core/wiki/Button-%E6%8C%89%E9%92%AE#%E5%9B%BE%E4%BE%8B 规范
+  // 已达到 https://github.com/Nuvio-MCP/core/wiki/Button-%E6%8C%89%E9%92%AE#%E5%9B%BE%E4%BE%8B 规范
   { dark: ktPrimaryButtonForeground, light: ktPrimaryButtonBackground, hcDark: Color.white, hcLight: Color.white },
   localize('ktPrimaryGhostButtonForeground', 'Primary Ghost Button Foreground color.'),
 );

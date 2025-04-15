@@ -1,14 +1,14 @@
-import { Disposable, IContextKeyService, QuickPickService } from '@opensumi/ide-core-browser';
-import { DebugModelFactory, IDebugServer } from '@opensumi/ide-debug';
-import { BreakpointManager } from '@opensumi/ide-debug/lib/browser/breakpoint';
-import { DebugConfigurationManager } from '@opensumi/ide-debug/lib/browser/debug-configuration-manager';
-import { DebugPreferences } from '@opensumi/ide-debug/lib/browser/debug-preferences';
-import { DebugModelManager } from '@opensumi/ide-debug/lib/browser/editor';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { EditorCollectionService, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IWorkspaceService, IWorkspaceStorageService } from '@opensumi/ide-workspace';
+import { Disposable, IContextKeyService, QuickPickService } from '@Nuvio-MCP/ide-core-browser';
+import { DebugModelFactory, IDebugServer } from '@Nuvio-MCP/ide-debug';
+import { BreakpointManager } from '@Nuvio-MCP/ide-debug/lib/browser/breakpoint';
+import { DebugConfigurationManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-configuration-manager';
+import { DebugPreferences } from '@Nuvio-MCP/ide-debug/lib/browser/debug-preferences';
+import { DebugModelManager } from '@Nuvio-MCP/ide-debug/lib/browser/editor';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { EditorCollectionService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IWorkspaceService, IWorkspaceStorageService } from '@Nuvio-MCP/ide-workspace';
 
 describe('Debug Model Manager', () => {
   const mockInjector = createBrowserInjector([]);

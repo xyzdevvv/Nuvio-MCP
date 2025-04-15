@@ -2,16 +2,16 @@ import { CodeEditorContribution, CodeEditorFactory, LanguageSpecRegistry } from 
 import { EditorStateFactory } from '@difizen/libro-jupyter/noeditor';
 import { inject, singleton } from '@difizen/mana-app';
 
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 
-import { OpensumiInjector } from '../../mana';
+import { Nuvio-MCPInjector } from '../../mana';
 
 import {
-  LibroOpensumiEditorFactory,
-  OpensumiEditorState,
-  libroOpensumiEditorDefaultConfig,
+  LibroNuvio-MCPEditorFactory,
+  Nuvio-MCPEditorState,
+  libroNuvio-MCPEditorDefaultConfig,
   stateFactory,
-} from './opensumi-editor';
+} from './Nuvio-MCP-editor';
 
 @singleton({ contrib: [CodeEditorContribution] })
 export class LibroE2EditorContribution implements CodeEditorContribution {
@@ -20,23 +20,23 @@ export class LibroE2EditorContribution implements CodeEditorContribution {
 
   factory: CodeEditorFactory;
 
-  stateFactory: EditorStateFactory<OpensumiEditorState>;
+  stateFactory: EditorStateFactory<Nuvio-MCPEditorState>;
 
-  defaultConfig = libroOpensumiEditorDefaultConfig;
+  defaultConfig = libroNuvio-MCPEditorDefaultConfig;
 
   constructor(
-    @inject(LibroOpensumiEditorFactory)
-    libroOpensumiEditorFactory: LibroOpensumiEditorFactory,
-    @inject(OpensumiInjector) injector: Injector,
+    @inject(LibroNuvio-MCPEditorFactory)
+    libroNuvio-MCPEditorFactory: LibroNuvio-MCPEditorFactory,
+    @inject(Nuvio-MCPInjector) injector: Injector,
   ) {
-    this.factory = libroOpensumiEditorFactory;
+    this.factory = libroNuvio-MCPEditorFactory;
     this.stateFactory = stateFactory(injector);
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   canHandle(mime: string): number {
     const LIBRO_MONACO_WEIGHT = 51;
-    // 代码编辑都使用opensumi编辑器
+    // 代码编辑都使用Nuvio-MCP编辑器
     return LIBRO_MONACO_WEIGHT + 1;
   }
 }

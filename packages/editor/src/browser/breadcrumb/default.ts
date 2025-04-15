@@ -1,6 +1,6 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandService,
   EDITOR_COMMANDS,
@@ -15,11 +15,11 @@ import {
   WithEventBus,
   getSymbolIcon,
   path,
-} from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { FileStat } from '@opensumi/ide-file-service/lib/common';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common/file-service-client';
-import { IWorkspaceService } from '@opensumi/ide-workspace/lib/common/workspace.interface';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { FileStat } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common/file-service-client';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/workspace.interface';
 
 import { IEditor } from '../../common';
 import { EditorSelectionChangeEvent, IBreadCrumbPart, IBreadCrumbProvider } from '../types';

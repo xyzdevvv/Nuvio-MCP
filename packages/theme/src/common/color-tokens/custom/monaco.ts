@@ -1,7 +1,7 @@
 /**
  * monaco 编辑器内使用了 --vscode 前缀的 CSS Token，这里对其进行定义
  */
-import { localize } from '@opensumi/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
 import { registerColor } from '../../utils';
 

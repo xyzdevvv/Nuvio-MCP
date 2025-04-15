@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   DisposableCollection,
   EventType,
@@ -8,7 +8,7 @@ import {
   URI,
   WithEventBus,
   addDisposableListener,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { WorkbenchEditorService } from '../../common';
 import { EditorGroupChangeEvent, EditorGroupCloseEvent, EditorOpenType, EditorSelectionChangeEvent } from '../types';

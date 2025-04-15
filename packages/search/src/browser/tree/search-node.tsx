@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useCallback } from 'react';
 
-import { Badge, Button, ClasslistComposite, INodeRendererProps } from '@opensumi/ide-components';
+import { Badge, Button, ClasslistComposite, INodeRendererProps } from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   SEARCH_COMMANDS,
@@ -10,7 +10,7 @@ import {
   isDefined,
   localize,
   useDesignStyles,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { SearchContentNode, SearchFileNode } from './tree-node.defined';
 import styles from './tree-node.module.less';

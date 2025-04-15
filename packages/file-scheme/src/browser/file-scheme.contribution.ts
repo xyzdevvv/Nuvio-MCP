@@ -1,18 +1,18 @@
-import { Autowired } from '@opensumi/di';
-import { Domain, LRUMap, PreferenceService, Schemes, URI, localize } from '@opensumi/ide-core-browser';
-import { getLanguageIdFromMonaco } from '@opensumi/ide-core-browser/lib/services';
-import { IEditorOpenType, IResource, ResourceService } from '@opensumi/ide-editor';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain, LRUMap, PreferenceService, Schemes, URI, localize } from '@Nuvio-MCP/ide-core-browser';
+import { getLanguageIdFromMonaco } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IEditorOpenType, IResource, ResourceService } from '@Nuvio-MCP/ide-editor';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
   EditorOpenType,
   IEditorDocumentModelContentRegistry,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   UntitledSchemeDocumentProvider,
   UntitledSchemeResourceProvider,
-} from '@opensumi/ide-editor/lib/browser/untitled-resource';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-editor/lib/browser/untitled-resource';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import { BinaryEditorComponent } from './external.view';
 import {

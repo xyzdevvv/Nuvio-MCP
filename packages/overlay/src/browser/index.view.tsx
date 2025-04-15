@@ -7,7 +7,7 @@ import {
   IClientApp,
   SlotLocation,
   useInjectable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { CtxMenu } from './ctx-menu/ctx-menu.view';
 import { Dialog } from './dialog.view';

@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, Event, URI, path } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, Event, URI, path } from '@Nuvio-MCP/ide-core-browser';
 import {
   IMultiDiffSourceResolver,
   IResolvedMultiDiffSource,
   MultiDiffEditorItem,
-} from '@opensumi/ide-editor/lib/common/multi-diff';
-import { IValueWithChangeEvent } from '@opensumi/monaco-editor-core/esm/vs/base/common/event';
+} from '@Nuvio-MCP/ide-editor/lib/common/multi-diff';
+import { IValueWithChangeEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/event';
 
 import { BaseApplyService } from '../mcp/base-apply.service';
 

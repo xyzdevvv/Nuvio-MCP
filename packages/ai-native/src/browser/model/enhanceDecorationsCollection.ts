@@ -1,4 +1,4 @@
-import { Disposable, Emitter, Event, isDefined, isUndefined, uuid } from '@opensumi/ide-core-common';
+import { Disposable, Emitter, Event, isDefined, isUndefined, uuid } from '@Nuvio-MCP/ide-core-common';
 import {
   ICodeEditor,
   IContentSizeChangedEvent,
@@ -7,8 +7,8 @@ import {
   IPosition,
   IRange,
   ITextModel,
-} from '@opensumi/ide-monaco';
-import { UndoRedoGroup } from '@opensumi/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
+} from '@Nuvio-MCP/ide-monaco';
+import { UndoRedoGroup } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
 
 export interface IDecorationSerializableState {
   startPosition: IPosition;

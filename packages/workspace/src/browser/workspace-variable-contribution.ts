@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   COMMON_COMMANDS,
   CommandService,
@@ -7,7 +7,7 @@ import {
   URI,
   VariableContribution,
   VariableRegistry,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { IWorkspaceService } from '../common';
 

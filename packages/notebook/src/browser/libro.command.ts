@@ -1,9 +1,9 @@
 import { LibroSearchManager, LibroService } from '@difizen/libro-jupyter/noeditor';
 import { Container } from '@difizen/mana-app';
 
-import { Autowired } from '@opensumi/di';
-import { CommandContribution, CommandRegistry, Domain, EDITOR_COMMANDS } from '@opensumi/ide-core-browser';
-import { MARKER_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
+import { Autowired } from '@Nuvio-MCP/di';
+import { CommandContribution, CommandRegistry, Domain, EDITOR_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { MARKER_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
 
 import { ManaContainer } from './mana';
 

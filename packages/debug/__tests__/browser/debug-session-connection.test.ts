@@ -1,8 +1,8 @@
-import { Emitter, sleep } from '@opensumi/ide-core-browser';
-import { CancellationToken, CancellationTokenSource, Deferred, Disposable } from '@opensumi/ide-core-common';
-import { IDebugSessionManager } from '@opensumi/ide-debug';
-import { DebugSessionConnection } from '@opensumi/ide-debug/lib/browser/debug-session-connection';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+import { Emitter, sleep } from '@Nuvio-MCP/ide-core-browser';
+import { CancellationToken, CancellationTokenSource, Deferred, Disposable } from '@Nuvio-MCP/ide-core-common';
+import { IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { DebugSessionConnection } from '@Nuvio-MCP/ide-debug/lib/browser/debug-session-connection';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

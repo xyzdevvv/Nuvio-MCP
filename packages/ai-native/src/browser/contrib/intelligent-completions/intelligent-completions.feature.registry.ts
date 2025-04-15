@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-common';
-import { InlineEditProvider } from '@opensumi/ide-monaco';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { InlineEditProvider } from '@Nuvio-MCP/ide-monaco';
 
 import { ICodeEditsProvider, IIntelligentCompletionProvider, IIntelligentCompletionsRegistry } from '../../types';
 

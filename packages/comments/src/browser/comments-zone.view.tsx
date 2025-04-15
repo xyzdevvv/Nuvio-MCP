@@ -2,7 +2,7 @@ import cls from 'classnames';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Autowired, INJECTOR_TOKEN, Injectable } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ConfigProvider,
@@ -11,11 +11,11 @@ import {
   localize,
   useAutorun,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { InlineActionBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IEditor } from '@opensumi/ide-editor';
-import { IOptions, ResizeZoneWidget } from '@opensumi/ide-monaco-enhance';
+} from '@Nuvio-MCP/ide-core-browser';
+import { InlineActionBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IEditor } from '@Nuvio-MCP/ide-editor';
+import { IOptions, ResizeZoneWidget } from '@Nuvio-MCP/ide-monaco-enhance';
 
 import {
   ICommentReply,

@@ -1,8 +1,8 @@
 import fs, { watch } from 'fs-extra';
 import debounce from 'lodash/debounce';
 
-import { ILogService } from '@opensumi/ide-core-common/lib/log';
-import { Disposable, DisposableCollection, FileUri, isMacintosh, path } from '@opensumi/ide-utils/lib';
+import { ILogService } from '@Nuvio-MCP/ide-core-common/lib/log';
+import { Disposable, DisposableCollection, FileUri, isMacintosh, path } from '@Nuvio-MCP/ide-utils/lib';
 
 import { FileChangeType, FileSystemWatcherClient, IWatcher } from '../../../common/index';
 import { FileChangeCollection } from '../../file-change-collection';

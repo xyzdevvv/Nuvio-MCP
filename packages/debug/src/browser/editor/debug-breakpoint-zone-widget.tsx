@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Option, Select } from '@opensumi/ide-components';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { Emitter, Event, localize } from '@opensumi/ide-core-common';
-import { ICodeEditor } from '@opensumi/ide-editor';
-import * as monaco from '@opensumi/ide-monaco';
-import { ZoneWidget } from '@opensumi/ide-monaco-enhance';
-import { ICSSStyleService } from '@opensumi/ide-theme';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Option, Select } from '@Nuvio-MCP/ide-components';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, Event, localize } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor } from '@Nuvio-MCP/ide-editor';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ZoneWidget } from '@Nuvio-MCP/ide-monaco-enhance';
+import { ICSSStyleService } from '@Nuvio-MCP/ide-theme';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
 
 import {
   BreakpointChangeData,

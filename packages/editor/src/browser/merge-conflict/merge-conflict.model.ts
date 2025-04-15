@@ -1,8 +1,8 @@
 import debounce from 'lodash/debounce';
 import { useEffect, useMemo, useState } from 'react';
 
-import { formatLocalize, useInjectable } from '@opensumi/ide-core-browser';
-import { DisposableStore, URI } from '@opensumi/ide-utils';
+import { formatLocalize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { DisposableStore, URI } from '@Nuvio-MCP/ide-utils';
 
 import { useEditorDocumentModel } from '../hooks/useEditor';
 

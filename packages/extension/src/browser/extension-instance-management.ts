@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { AppConfig, Disposable, STORAGE_NAMESPACE, StorageProvider } from '@opensumi/ide-core-browser';
-import { Emitter, ExtensionCandidate as ExtensionCandidate, IStorage, getLanguageId } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { AppConfig, Disposable, STORAGE_NAMESPACE, StorageProvider } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, ExtensionCandidate as ExtensionCandidate, IStorage, getLanguageId } from '@Nuvio-MCP/ide-core-common';
 
 import {
   EXTENSION_ENABLE,

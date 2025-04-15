@@ -1,7 +1,7 @@
-import { Autowired } from '@opensumi/di';
-import { AppConfig, ClientAppContribution, Disposable } from '@opensumi/ide-core-browser';
-import { DevtoolsLantencyCommand, EDevtoolsEvent } from '@opensumi/ide-core-common/lib/devtools';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
+import { Autowired } from '@Nuvio-MCP/di';
+import { AppConfig, ClientAppContribution, Disposable } from '@Nuvio-MCP/ide-core-browser';
+import { DevtoolsLantencyCommand, EDevtoolsEvent } from '@Nuvio-MCP/ide-core-common/lib/devtools';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
 
 import { ConnectionRTTBrowserService, ConnectionRTTBrowserServiceToken } from './connection-rtt-service';
 
@@ -34,7 +34,7 @@ export class ChromeDevtoolsContribution extends Disposable implements ClientAppC
   initialize() {
     // only runs when devtools supoprt is enabled
     if (this.appConfig.devtools) {
-      // receive notification from opensumi devtools by custom event
+      // receive notification from Nuvio-MCP devtools by custom event
       window.addEventListener(EDevtoolsEvent.Latency, this.lantencyHandler);
 
       this.addDispose(
@@ -47,8 +47,8 @@ export class ChromeDevtoolsContribution extends Disposable implements ClientAppC
         }),
       );
 
-      // if opensumi devtools has started capturing before this contribution point is registered
-      if (window.__OPENSUMI_DEVTOOLS_GLOBAL_HOOK__?.captureRPC) {
+      // if Nuvio-MCP devtools has started capturing before this contribution point is registered
+      if (window.__Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__?.captureRPC) {
         if (!this.interval) {
           this.startRTTInterval();
         }
@@ -62,8 +62,8 @@ export class ChromeDevtoolsContribution extends Disposable implements ClientAppC
       await this.rttService.measure();
       const rtt = Date.now() - start;
       // "if" below is to prevent setting latency after stopping capturing
-      if (window.__OPENSUMI_DEVTOOLS_GLOBAL_HOOK__.captureRPC) {
-        window.__OPENSUMI_DEVTOOLS_GLOBAL_HOOK__.latency = rtt;
+      if (window.__Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__.captureRPC) {
+        window.__Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__.latency = rtt;
       }
     }, ChromeDevtoolsContribution.INTERVAL);
   }

@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { INativeCredentialService } from '@opensumi/ide-core-common/lib/credential';
+import { Injectable } from '@Nuvio-MCP/di';
+import { INativeCredentialService } from '@Nuvio-MCP/ide-core-common/lib/credential';
 
 @Injectable()
 export class MockCredentialService implements INativeCredentialService {

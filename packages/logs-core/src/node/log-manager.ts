@@ -1,8 +1,8 @@
 import path from 'path';
 
-import { ConstructorOf, Injectable, Optional } from '@opensumi/di';
-import { Emitter } from '@opensumi/ide-core-common';
-import { AppConfig } from '@opensumi/ide-core-node/lib/types';
+import { ConstructorOf, Injectable, Optional } from '@Nuvio-MCP/di';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { AppConfig } from '@Nuvio-MCP/ide-core-node/lib/types';
 
 import {
   Archive,

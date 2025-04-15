@@ -1,8 +1,8 @@
 <p align="center">
-	<a href="https://github.com/opensumi/core"><img src="https://img.alicdn.com/imgextra/i2/O1CN01dqjQei1tpbj9z9VPH_!!6000000005951-55-tps-87-78.svg" width="150" /></a>
+	<a href="https://github.com/Nuvio-MCP/core"><img src="https://img.alicdn.com/imgextra/i2/O1CN01dqjQei1tpbj9z9VPH_!!6000000005951-55-tps-87-78.svg" width="150" /></a>
 </p>
 
-<h1 align="center">OpenSumi</h1>
+<h1 align="center">Nuvio-MCP</h1>
 
 <p align="center">一款帮助你快速搭建 AI 原生 IDE 产品的底层框架。</p>
 
@@ -18,27 +18,27 @@
 
 [![Open in CodeBlitz][codeblitz-image]][codeblitz-url]
 
-[ci-image]: https://github.com/opensumi/core/actions/workflows/ci.yml/badge.svg
-[ci-url]: https://github.com/opensumi/core/actions/workflows/ci.yml
-[e2e-image]: https://github.com/opensumi/core/actions/workflows/e2e.yml/badge.svg
-[e2e-url]: https://github.com/opensumi/core/actions/workflows/e2e.yml
+[ci-image]: https://github.com/Nuvio-MCP/core/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/Nuvio-MCP/core/actions/workflows/ci.yml
+[e2e-image]: https://github.com/Nuvio-MCP/core/actions/workflows/e2e.yml/badge.svg
+[e2e-url]: https://github.com/Nuvio-MCP/core/actions/workflows/e2e.yml
 [discussions-image]: https://img.shields.io/badge/discussions-on%20github-blue
-[discussions-url]: https://github.com/opensumi/core/discussions
-[npm-image]: https://img.shields.io/npm/v/@opensumi/ide-core-common.svg
-[npm-url]: https://www.npmjs.com/package/@opensumi/ide-core-common
-[download-image]: https://img.shields.io/npm/dm/@opensumi/ide-core-common.svg
-[download-url]: https://npmjs.org/package/@opensumi/ide-core-common
-[license-image]: https://img.shields.io/npm/l/@opensumi/ide-core-common.svg
-[license-url]: https://github.com/opensumi/core/blob/main/LICENSE
-[cla-image]: https://cla-assistant.io/readme/badge/opensumi/core
-[cla-url]: https://cla-assistant.io/opensumi/core
-[test-image]: https://codecov.io/gh/opensumi/core/branch/main/graph/badge.svg?token=07JAPLU957
-[test-url]: https://codecov.io/gh/opensumi/core
+[discussions-url]: https://github.com/Nuvio-MCP/core/discussions
+[npm-image]: https://img.shields.io/npm/v/@Nuvio-MCP/ide-core-common.svg
+[npm-url]: https://www.npmjs.com/package/@Nuvio-MCP/ide-core-common
+[download-image]: https://img.shields.io/npm/dm/@Nuvio-MCP/ide-core-common.svg
+[download-url]: https://npmjs.org/package/@Nuvio-MCP/ide-core-common
+[license-image]: https://img.shields.io/npm/l/@Nuvio-MCP/ide-core-common.svg
+[license-url]: https://github.com/Nuvio-MCP/core/blob/main/LICENSE
+[cla-image]: https://cla-assistant.io/readme/badge/Nuvio-MCP/core
+[cla-url]: https://cla-assistant.io/Nuvio-MCP/core
+[test-image]: https://codecov.io/gh/Nuvio-MCP/core/branch/main/graph/badge.svg?token=07JAPLU957
+[test-url]: https://codecov.io/gh/Nuvio-MCP/core
 [codeblitz-image]: https://img.shields.io/badge/Ant_Codespaces-Open_in_CodeBlitz-1677ff
-[codeblitz-url]: https://codeblitz.cloud.alipay.com/github/opensumi/core
-[github-issues-url]: https://github.com/opensumi/core/issues
-[help-wanted-image]: https://flat.badgen.net/github/label-issues/opensumi/core/🤔%20help%20wanted/open
-[help-wanted-url]: https://github.com/opensumi/core/issues?q=is%3Aopen+is%3Aissue+label%3A%22🤔+help+wanted%22
+[codeblitz-url]: https://codeblitz.cloud.alipay.com/github/Nuvio-MCP/core
+[github-issues-url]: https://github.com/Nuvio-MCP/core/issues
+[help-wanted-image]: https://flat.badgen.net/github/label-issues/Nuvio-MCP/core/🤔%20help%20wanted/open
+[help-wanted-url]: https://github.com/Nuvio-MCP/core/issues?q=is%3Aopen+is%3Aissue+label%3A%22🤔+help+wanted%22
 [mcp-client-image]: https://badge.mcpx.dev/?type=client
 [mcp-client-url]: https://modelcontextprotocol.io
 [mcp-client-feature-image]: https://badge.mcpx.dev/?type=client&features=tools
@@ -54,12 +54,12 @@
 
 我们提供了一些示例项目帮助你快速搭建你的 IDE 项目产品
 
-- [Cloud IDE](https://github.com/opensumi/ide-startup)
-- [Desktop IDE - 桌面端 IDE](https://github.com/opensumi/ide-electron)
-- [CodeFuse IDE - 基于 OpenSumi 的 AI IDE](https://github.com/codefuse-ai/codefuse-ide)
-- [CodeBlitz - 无容器 IDE 框架](https://github.com/opensumi/codeblitz)
-- [Lite Web IDE - 无容器 IDE ](https://github.com/opensumi/ide-startup-lite)
-- [小程序 IDE ](https://github.com/opensumi/app-desktop)
+- [Cloud IDE](https://github.com/Nuvio-MCP/ide-startup)
+- [Desktop IDE - 桌面端 IDE](https://github.com/Nuvio-MCP/ide-electron)
+- [CodeFuse IDE - 基于 Nuvio-MCP 的 AI IDE](https://github.com/codefuse-ai/codefuse-ide)
+- [CodeBlitz - 无容器 IDE 框架](https://github.com/Nuvio-MCP/codeblitz)
+- [Lite Web IDE - 无容器 IDE ](https://github.com/Nuvio-MCP/ide-startup-lite)
+- [小程序 IDE ](https://github.com/Nuvio-MCP/app-desktop)
 
 ## ⚡️ 如何开发
 
@@ -86,7 +86,7 @@ $ MY_WORKSPACE={local_path} yarn run start
 
 ## 📕 文档
 
-请访问 [opensumi.com](https://opensumi.com/zh)
+请访问 [Nuvio-MCP.com](https://Nuvio-MCP.com/zh)
 
 ## 📍 更新日志及不兼容的变更
 
@@ -98,21 +98,21 @@ $ MY_WORKSPACE={local_path} yarn run start
 
 ## 🙋‍♀️ 帮助我们
 
-如果你希望反馈一个 Bug, 你可以直接在 [Issues](https://github.com/opensumi/core/issues) 中直接按照格式进行创建，在提供必要的复现路径和版本信息后，我们将会有相关人员进行处理。
+如果你希望反馈一个 Bug, 你可以直接在 [Issues](https://github.com/Nuvio-MCP/core/issues) 中直接按照格式进行创建，在提供必要的复现路径和版本信息后，我们将会有相关人员进行处理。
 
 如果你希望提交一些代码或者帮助我们优化文档，我们十分欢迎 ~ 你可以阅读详细的 [如何贡献代码](./CONTRIBUTING-zh_CN.md) 文档路径如何贡献。
 
-同时，对于 [Issues](https://github.com/opensumi/core/issues) 中标记了 `help wanted` 或者 `good first issue` 的问题，将会比较适合作为你的第一个 PR 来提交。
+同时，对于 [Issues](https://github.com/Nuvio-MCP/core/issues) 中标记了 `help wanted` 或者 `good first issue` 的问题，将会比较适合作为你的第一个 PR 来提交。
 
 ## 🧑‍💻 开发者交流群
 
-我们建议你通过 [issues](https://github.com/opensumi/core/issues) 或 [discussions](https://github.com/opensumi/core/discussions) 与我们进行交流。
+我们建议你通过 [issues](https://github.com/Nuvio-MCP/core/issues) 或 [discussions](https://github.com/Nuvio-MCP/core/discussions) 与我们进行交流。
 
-如果你希望通过即时通讯工具（如微信、钉钉）交流，欢迎前往我们的 [中文社区](https://opensumi.com/zh/community) 页面获取最新二维码信息。
+如果你希望通过即时通讯工具（如微信、钉钉）交流，欢迎前往我们的 [中文社区](https://Nuvio-MCP.com/zh/community) 页面获取最新二维码信息。
 
 ## ✨ 贡献者
 
-加入我们，一起构建更好用的 OpenSumi！
+加入我们，一起构建更好用的 Nuvio-MCP！
 
 <table>
 <tr>
@@ -138,14 +138,14 @@ $ MY_WORKSPACE={local_path} yarn run start
     <a href="https://next.ossinsight.io/widgets/official/compose-org-active-contributors?period=past_28_days&activity=active&owner_id=90233428&repo_ids=429104828" target="_blank" style="display: block" align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-org-active-contributors/thumbnail.png?period=past_28_days&activity=active&owner_id=90233428&repo_ids=429104828&image_size=2x3&color_scheme=dark" width="273" height="auto">
-        <img alt="Active participants of opensumi - past 28 days" src="https://next.ossinsight.io/widgets/official/compose-org-active-contributors/thumbnail.png?period=past_28_days&activity=active&owner_id=90233428&repo_ids=429104828&image_size=2x3&color_scheme=light" width="273" height="auto">
+        <img alt="Active participants of Nuvio-MCP - past 28 days" src="https://next.ossinsight.io/widgets/official/compose-org-active-contributors/thumbnail.png?period=past_28_days&activity=active&owner_id=90233428&repo_ids=429104828&image_size=2x3&color_scheme=light" width="273" height="auto">
       </picture>
     </a>
   </td>
 </tr>
 </table>
 
-在开始之前，请花点时间查看我们的[贡献指南](./CONTRIBUTING-zh_CN.md)。欢迎通过 [Pull Requests](https://github.com/opensumi/core/pulls) 或 [GitHub Issues](https://github.com/opensumi/core/issues) 分享您的想法。
+在开始之前，请花点时间查看我们的[贡献指南](./CONTRIBUTING-zh_CN.md)。欢迎通过 [Pull Requests](https://github.com/Nuvio-MCP/core/pulls) 或 [GitHub Issues](https://github.com/Nuvio-MCP/core/issues) 分享您的想法。
 
 ## 📃 协议
 

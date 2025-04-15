@@ -1,4 +1,4 @@
-import { CancellationToken } from '@opensumi/ide-core-common';
+import { CancellationToken } from '@Nuvio-MCP/ide-core-common';
 
 export const FileSearchServicePath = 'FileSearchServicePath';
 

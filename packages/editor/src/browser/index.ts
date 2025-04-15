@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Provider } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Provider } from '@Nuvio-MCP/di';
 import {
   BrowserModule,
   ClientAppContribution,
@@ -6,15 +6,15 @@ import {
   Domain,
   PreferenceService,
   createPreferenceProxy,
-} from '@opensumi/ide-core-browser';
-import { ICallHierarchyService } from '@opensumi/ide-monaco/lib/browser/contrib/callHierarchy';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ICallHierarchyService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/callHierarchy';
 import {
   ICommandServiceToken,
   IMonacoActionRegistry,
   IMonacoCommandsRegistry,
-} from '@opensumi/ide-monaco/lib/browser/contrib/command';
-import { ITextmateTokenizer } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
-import { ITypeHierarchyService } from '@opensumi/ide-monaco/lib/browser/contrib/typeHierarchy';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/command';
+import { ITextmateTokenizer } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
+import { ITypeHierarchyService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/typeHierarchy';
 
 import { EditorCollectionService, ILanguageService, ResourceService, WorkbenchEditorService } from '../common';
 import { IDocPersistentCacheProvider } from '../common/doc-cache';

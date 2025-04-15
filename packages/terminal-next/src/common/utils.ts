@@ -1,4 +1,4 @@
-import { uuid } from '@opensumi/ide-core-common';
+import { uuid } from '@Nuvio-MCP/ide-core-common';
 
 let i = 0;
 function count() {

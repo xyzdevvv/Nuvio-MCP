@@ -1,8 +1,8 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { RPCServiceChannelPath } from '@opensumi/ide-connection/lib/common/server-handler';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { RPCServiceChannelPath } from '@Nuvio-MCP/ide-connection/lib/common/server-handler';
 import {
   AppConfig,
   CommandRegistry,
@@ -13,8 +13,8 @@ import {
   IClientApp,
   ILogger,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
 import {
   CancelablePromise,
   CancellationToken,
@@ -30,13 +30,13 @@ import {
   getLanguageId,
   localize,
   sleep,
-} from '@opensumi/ide-core-common';
-import { DebugConfigurationsReadyEvent } from '@opensumi/ide-debug';
-import { IExtensionStoragePathServer, IExtensionStorageService } from '@opensumi/ide-extension-storage';
-import { FileSearchServicePath, IFileSearchService } from '@opensumi/ide-file-search/lib/common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IDialogService, IMessageService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-common';
+import { DebugConfigurationsReadyEvent } from '@Nuvio-MCP/ide-debug';
+import { IExtensionStoragePathServer, IExtensionStorageService } from '@Nuvio-MCP/ide-extension-storage';
+import { FileSearchServicePath, IFileSearchService } from '@Nuvio-MCP/ide-file-search/lib/common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IDialogService, IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import {
   ERestartPolicy,

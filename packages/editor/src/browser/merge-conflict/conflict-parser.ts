@@ -4,9 +4,9 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/main/extensions/merge-conflict/src/mergeConflictParser.ts
 
-import { Injectable } from '@opensumi/di';
-import { Disposable, LRUCache, uuid } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable, LRUCache, uuid } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { ICacheDocumentMergeConflict, IDocumentMergeConflictDescriptor, IMergeRegion } from './types';
 

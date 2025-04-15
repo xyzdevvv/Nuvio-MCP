@@ -7,7 +7,7 @@ const tsConfigPath = path.join(__dirname, '../tsconfig.json');
 const distDir = path.join(__dirname, '../app/dist/webview');
 
 module.exports = {
-  entry: require.resolve('@opensumi/ide-webview/lib/electron-webview/host-preload.js'),
+  entry: require.resolve('@Nuvio-MCP/ide-webview/lib/electron-webview/host-preload.js'),
   target: 'node',
   output: {
     filename: 'host-preload.js',
@@ -55,7 +55,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: require.resolve('@opensumi/ide-webview/lib/electron-webview/plain-preload.js'),
+          from: require.resolve('@Nuvio-MCP/ide-webview/lib/electron-webview/plain-preload.js'),
           to: path.join(distDir, 'plain-preload.js'),
         },
       ],

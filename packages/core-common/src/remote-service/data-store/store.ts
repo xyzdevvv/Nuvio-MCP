@@ -1,7 +1,7 @@
 import extend from 'lodash/extend';
 
-import { EventEmitter } from '@opensumi/events';
-import { isUndefined } from '@opensumi/ide-utils';
+import { EventEmitter } from '@Nuvio-MCP/events';
+import { isUndefined } from '@Nuvio-MCP/ide-utils';
 
 import { select } from './select';
 

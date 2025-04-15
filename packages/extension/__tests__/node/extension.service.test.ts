@@ -3,11 +3,11 @@ import path from 'path';
 
 import * as fs from 'fs-extra';
 
-import { Injector } from '@opensumi/di';
-import { AppConfig, INodeLogger, IReporterService, getDebugLogger } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { ActivationEventServiceImpl } from '@opensumi/ide-extension/lib/browser/activation.service';
-import { IActivationEventService } from '@opensumi/ide-extension/lib/browser/types';
+import { Injector } from '@Nuvio-MCP/di';
+import { AppConfig, INodeLogger, IReporterService, getDebugLogger } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { ActivationEventServiceImpl } from '@Nuvio-MCP/ide-extension/lib/browser/activation.service';
+import { IActivationEventService } from '@Nuvio-MCP/ide-extension/lib/browser/types';
 
 import { IExtensionHostManager, IExtensionNodeClientService, IExtensionNodeService } from '../../src/common';
 import { ExtensionHostManager } from '../../src/node/extension.host.manager';
@@ -18,8 +18,8 @@ describe('Extension Service', () => {
   let injector: Injector;
   let extensionService: IExtensionNodeService;
   const extensionDir = path.join(__dirname, '../../__mocks__/extensions');
-  const testExtId = 'opensumi.ide-dark-theme';
-  const testExtPath = 'opensumi.ide-dark-theme-1.13.1';
+  const testExtId = 'Nuvio-MCP.ide-dark-theme';
+  const testExtPath = 'Nuvio-MCP.ide-dark-theme-1.13.1';
   const testExtReadme = '# IDE Dark Theme';
 
   beforeAll(async () => {

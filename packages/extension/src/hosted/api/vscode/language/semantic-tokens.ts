@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
 import vscode from 'vscode';
 
-import { CancellationToken, IRange } from '@opensumi/ide-core-common';
+import { CancellationToken, IRange } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtensionDocumentDataManager } from '../../../../common/vscode';
 import * as TypeConverts from '../../../../common/vscode/converter';

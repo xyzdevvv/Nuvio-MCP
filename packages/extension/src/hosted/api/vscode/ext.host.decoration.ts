@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CancellationToken, Uri, arrays, getDebugLogger, path, strings, toDisposable } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CancellationToken, Uri, arrays, getDebugLogger, path, strings, toDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { MainThreadAPIIdentifier } from '../../../common/vscode';
 import {

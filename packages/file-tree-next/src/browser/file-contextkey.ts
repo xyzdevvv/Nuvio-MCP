@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IContextKey, IContextKeyService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IContextKey, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
 import {
   ExplorerCompressedFirstFocusContext,
   ExplorerCompressedFocusContext,
@@ -11,7 +11,7 @@ import {
   FilesExplorerFilteredContext,
   FilesExplorerFocusedContext,
   FilesExplorerInputFocusedContext,
-} from '@opensumi/ide-core-browser/lib/contextkey/explorer';
+} from '@Nuvio-MCP/ide-core-browser/lib/contextkey/explorer';
 
 @Injectable()
 export class FileContextKey {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Mention, MentionsInput } from 'react-mentions';
 
-import { Tabs } from '@opensumi/ide-components';
-import { localize, useInjectable } from '@opensumi/ide-core-browser';
+import { Tabs } from '@Nuvio-MCP/ide-components';
+import { localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { ICommentsFeatureRegistry } from '../common';
 

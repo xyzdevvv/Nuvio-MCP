@@ -5,7 +5,7 @@
 
 // some code copied and modified from https://github.com/microsoft/vscode/blob/main/src/vs/workbench/api/common/extHostComments.ts#L32
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationToken,
   DisposableStore,
@@ -15,7 +15,7 @@ import {
   Uri as URI,
   asPromise,
   debounce,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { getExtensionId } from '../../../common';
 import {
@@ -29,7 +29,7 @@ import * as extHostTypeConverter from '../../../common/vscode/converter';
 import * as types from '../../../common/vscode/ext-types';
 import * as models from '../../../common/vscode/models';
 
-import type { UriComponents } from '@opensumi/ide-core-common';
+import type { UriComponents } from '@Nuvio-MCP/ide-core-common';
 import type vscode from 'vscode';
 
 type ProviderHandle = number;

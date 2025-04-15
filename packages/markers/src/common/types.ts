@@ -1,10 +1,10 @@
-import { Event, IBaseMarkerManager, IMarker, IMatch } from '@opensumi/ide-core-common';
-import { ThemeType } from '@opensumi/ide-theme';
+import { Event, IBaseMarkerManager, IMarker, IMatch } from '@Nuvio-MCP/ide-core-common';
+import { ThemeType } from '@Nuvio-MCP/ide-theme';
 
-import type { ITree } from '@opensumi/ide-components';
+import type { ITree } from '@Nuvio-MCP/ide-components';
 import type { ViewBadge } from 'vscode';
 
-export { MARKER_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
+export { MARKER_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
 
 export const IMarkerService = Symbol('IMarkerService');
 export interface IMarkerService extends ITree {

@@ -1,12 +1,12 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { QuickOpenHandler, View, formatLocalize, localize } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { QuickOpenHandler, View, formatLocalize, localize } from '@Nuvio-MCP/ide-core-browser';
 import {
   Mode,
   PrefixQuickOpenService,
   QuickOpenItem,
   QuickOpenItemOptions,
   QuickOpenModel,
-} from '@opensumi/ide-core-browser/lib/quick-open';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 
 import { IMainLayoutService } from '../common';
 

@@ -1,14 +1,14 @@
-import { LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
-import { CommandService, CommandServiceImpl } from '@opensumi/ide-core-common/lib/command';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IDialogService } from '@opensumi/ide-overlay/lib/common';
-import { IStatusBarService } from '@opensumi/ide-status-bar';
-import { StatusBarService } from '@opensumi/ide-status-bar/lib/browser/status-bar.service';
-import { ITerminalProcessPath } from '@opensumi/ide-terminal-next';
-import { EnvironmentVariableServiceToken } from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
-import { MergedEnvironmentVariableCollection } from '@opensumi/ide-terminal-next/lib/common/environmentVariableCollection';
-import { IWorkspaceStorageService } from '@opensumi/ide-workspace/lib/common';
+import { LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
+import { CommandService, CommandServiceImpl } from '@Nuvio-MCP/ide-core-common/lib/command';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay/lib/common';
+import { IStatusBarService } from '@Nuvio-MCP/ide-status-bar';
+import { StatusBarService } from '@Nuvio-MCP/ide-status-bar/lib/browser/status-bar.service';
+import { ITerminalProcessPath } from '@Nuvio-MCP/ide-terminal-next';
+import { EnvironmentVariableServiceToken } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
+import { MergedEnvironmentVariableCollection } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariableCollection';
+import { IWorkspaceStorageService } from '@Nuvio-MCP/ide-workspace/lib/common';
 
 import { TerminalEnvironmentService } from '../../src/browser/terminal.environment.service';
 

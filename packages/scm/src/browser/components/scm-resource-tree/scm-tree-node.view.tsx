@@ -9,7 +9,7 @@ import {
   Loading,
   TreeNode,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   MouseEventButton,
@@ -17,11 +17,11 @@ import {
   getIcon,
   useDesignStyles,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { IContextMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { IIconTheme, IThemeService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser';
+import { InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { IContextMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IIconTheme, IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { ISCMResource, ISCMResourceGroup } from '../../../common';
 import { ViewModelContext } from '../../scm-model';

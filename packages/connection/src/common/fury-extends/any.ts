@@ -1,6 +1,6 @@
 import { BinaryReader, BinaryWriter } from '@furyjs/fury/dist/lib/type';
 
-import { Uri, isUint8Array } from '@opensumi/ide-core-common';
+import { Uri, isUint8Array } from '@Nuvio-MCP/ide-core-common';
 
 export enum ProtocolType {
   String,

@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI, formatLocalize, getDebugLogger, parseWithComments } from '@opensumi/ide-core-browser';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI, formatLocalize, getDebugLogger, parseWithComments } from '@Nuvio-MCP/ide-core-browser';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { IIconTheme } from '../common';
 

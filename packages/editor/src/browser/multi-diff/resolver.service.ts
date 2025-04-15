@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { IDisposable, URI, toDisposable } from '@opensumi/ide-utils';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IDisposable, URI, toDisposable } from '@Nuvio-MCP/ide-utils';
 
 import {
   IMultiDiffSourceResolver,

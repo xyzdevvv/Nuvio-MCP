@@ -1,11 +1,11 @@
-import { Emitter, URI } from '@opensumi/ide-core-common';
-import { IResource, IResourceProvider } from '@opensumi/ide-editor';
+import { Emitter, URI } from '@Nuvio-MCP/ide-core-common';
+import { IResource, IResourceProvider } from '@Nuvio-MCP/ide-editor';
 import {
   EditorOpenType,
   IEditorComponent,
   IEditorComponentResolver,
   IEditorDocumentModelContentProvider,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 
 export const doNotClose: string[] = [];
 

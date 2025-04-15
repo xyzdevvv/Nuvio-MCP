@@ -1,7 +1,7 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeModel } from '@opensumi/ide-components';
-import { Deferred, DisposableCollection, Emitter, Event, URI, runWhenIdle } from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { Decoration, DecorationsManager, IRecycleTreeHandle, TreeModel } from '@Nuvio-MCP/ide-components';
+import { Deferred, DisposableCollection, Emitter, Event, URI, runWhenIdle } from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { IMarkerService } from '../../common/types';
 

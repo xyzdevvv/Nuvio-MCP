@@ -1,7 +1,7 @@
-import { KeybindingContribution, KeybindingRegistry, TERMINAL_COMMANDS } from '@opensumi/ide-core-browser';
-import { IsTerminalFocused } from '@opensumi/ide-core-browser/lib/contextkey';
-import { RawContextKey } from '@opensumi/ide-core-browser/lib/raw-context-key';
-import { Domain, isWindows } from '@opensumi/ide-core-common';
+import { KeybindingContribution, KeybindingRegistry, TERMINAL_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { IsTerminalFocused } from '@Nuvio-MCP/ide-core-browser/lib/contextkey';
+import { RawContextKey } from '@Nuvio-MCP/ide-core-browser/lib/raw-context-key';
+import { Domain, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 @Domain(KeybindingContribution)
 export class TerminalKeybindingContribution implements KeybindingContribution {

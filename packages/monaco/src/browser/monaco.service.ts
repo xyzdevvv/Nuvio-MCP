@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   Disposable,
   ILogger,
@@ -7,23 +7,23 @@ import {
   MonacoOverrideServiceRegistry,
   ServiceNames,
   Uri,
-} from '@opensumi/ide-core-browser';
-import { IMergeEditorEditor } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { KeyCodeChord } from '@opensumi/monaco-editor-core/esm/vs/base/common/keybindings';
-import { IEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/config/editorConfiguration';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMergeEditorEditor } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { KeyCodeChord } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/keybindings';
+import { IEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/config/editorConfiguration';
 import {
   IDiffEditorConstructionOptions,
   MouseTargetType,
   isDiffEditor,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { MultiDiffEditorWidget } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget';
-import { ShowLightbulbIconMode } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/editor.main';
-import { IStandaloneEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { MultiDiffEditorWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget';
+import { ShowLightbulbIconMode } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/editor.main';
+import { IStandaloneEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
 import {
   StandaloneKeybindingService,
   StandaloneServices,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { MonacoService } from '../common';
 

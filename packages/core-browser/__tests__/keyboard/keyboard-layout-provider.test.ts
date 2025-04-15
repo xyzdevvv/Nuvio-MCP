@@ -3,7 +3,7 @@ import {
   GlobalBrowserStorageService,
   Key,
   KeyboardNativeLayoutService,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

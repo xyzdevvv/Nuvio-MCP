@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { getExternalIcon, getIcon, getIconClass } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { getExternalIcon, getIcon, getIconClass } from '@Nuvio-MCP/ide-core-browser';
 import {
   HideReason,
   Mode,
@@ -9,8 +9,8 @@ import {
   QuickPickItem,
   QuickPickOptions,
   QuickPickService,
-} from '@opensumi/ide-core-browser/lib/quick-open';
-import { Emitter, Event } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 
 import { QuickTitleBar } from './quick-title-bar';
 

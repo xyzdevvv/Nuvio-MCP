@@ -1,8 +1,8 @@
 import Parser from 'web-tree-sitter';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { EKnownResources, RendererRuntime } from '@opensumi/ide-core-browser/lib/application/runtime/types';
-import { Deferred } from '@opensumi/ide-utils';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { EKnownResources, RendererRuntime } from '@Nuvio-MCP/ide-core-browser/lib/application/runtime/types';
+import { Deferred } from '@Nuvio-MCP/ide-utils';
 
 /**
  * Managing and caching the wasm module

@@ -1,13 +1,13 @@
-import { Disposable, IContextKeyService, StorageProvider, URI } from '@opensumi/ide-core-browser';
-import { ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { createMockedMonaco } from '@opensumi/ide-monaco/__mocks__/monaco';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import { IThemeService } from '@opensumi/ide-theme';
+import { Disposable, IContextKeyService, StorageProvider, URI } from '@Nuvio-MCP/ide-core-browser';
+import { ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { createMockedMonaco } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import styles from '../../src/browser/file-tree-node.modules.less';
 import { EditorFile, EditorFileGroup } from '../../src/browser/opened-editor-node.define';

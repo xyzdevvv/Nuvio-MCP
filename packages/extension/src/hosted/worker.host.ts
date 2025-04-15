@@ -1,6 +1,6 @@
-import { Injector } from '@opensumi/di';
-import { ProxyIdentifier, SumiConnectionMultiplexer, createExtMessageIO } from '@opensumi/ide-connection';
-import { MessagePortConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/message-port';
+import { Injector } from '@Nuvio-MCP/di';
+import { ProxyIdentifier, SumiConnectionMultiplexer, createExtMessageIO } from '@Nuvio-MCP/ide-connection';
+import { MessagePortConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/message-port';
 import {
   Deferred,
   Emitter,
@@ -11,7 +11,7 @@ import {
   REPORT_NAME,
   ReporterService,
   Uri,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { EXTENSION_EXTEND_SERVICE_PREFIX, IExtensionWorkerHost } from '../common';
 import { ActivatedExtension, ActivatedExtensionJSON } from '../common/activator';

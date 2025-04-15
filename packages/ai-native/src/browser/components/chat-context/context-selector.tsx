@@ -2,13 +2,13 @@ import cls from 'classnames';
 import { debounce } from 'lodash';
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
 
-import { ClickOutside } from '@opensumi/ide-components/lib/click-outside';
-import { AppConfig, LabelService } from '@opensumi/ide-core-browser';
-import { Icon, Input, Scrollbars } from '@opensumi/ide-core-browser/lib/components';
-import { RecentFilesManager } from '@opensumi/ide-core-browser/lib/quick-open/recent-files';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks/injectable-hooks';
-import { FileSearchServicePath, IFileSearchService } from '@opensumi/ide-file-search/lib/common/file-search';
-import { URI } from '@opensumi/ide-utils';
+import { ClickOutside } from '@Nuvio-MCP/ide-components/lib/click-outside';
+import { AppConfig, LabelService } from '@Nuvio-MCP/ide-core-browser';
+import { Icon, Input, Scrollbars } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { RecentFilesManager } from '@Nuvio-MCP/ide-core-browser/lib/quick-open/recent-files';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks/injectable-hooks';
+import { FileSearchServicePath, IFileSearchService } from '@Nuvio-MCP/ide-file-search/lib/common/file-search';
+import { URI } from '@Nuvio-MCP/ide-utils';
 
 import { FileContext } from '../../../common/llm-context';
 

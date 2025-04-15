@@ -1,13 +1,13 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { CancellationToken, ILogger } from '@opensumi/ide-core-common';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { CancellationToken, ILogger } from '@Nuvio-MCP/ide-core-common';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 import {
   DocumentFormattingEditProvider,
   DocumentRangeFormattingEditProvider,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import { getRealAndSyntheticDocumentFormattersOrdered } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
-import { FormattingEdit } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/formattingEdit';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import { getRealAndSyntheticDocumentFormattersOrdered } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
+import { FormattingEdit } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/formattingEdit';
 
 import { WorkbenchEditorService } from '../types';
 import { WorkbenchEditorServiceImpl } from '../workbench-editor.service';

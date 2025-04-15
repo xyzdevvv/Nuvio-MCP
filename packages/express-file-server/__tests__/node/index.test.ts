@@ -4,8 +4,8 @@ import path from 'path';
 import Koa from 'koa';
 import fetch from 'node-fetch';
 
-import { AppConfig, IServerApp } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { AppConfig, IServerApp } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { ExpressFileServerModule } from '../../src/node';
 import { ExpressFileServerContribution } from '../../src/node/express-file-server.contribution';

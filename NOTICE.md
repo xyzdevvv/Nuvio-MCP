@@ -1,10 +1,10 @@
-# Notices for OpenSumi
+# Notices for Nuvio-MCP
 
-This content is produced and maintained by the OpenSumi project.
+This content is produced and maintained by the Nuvio-MCP project.
 
 ## Trademarks
 
-OpenSumi is a trademark of the Alibaba Group.
+Nuvio-MCP is a trademark of the Alibaba Group.
 
 ## Copyright
 
@@ -26,14 +26,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 The project maintains the following source code repositories:
 
-- https://github.com/opensumi/core
-- https://github.com/opensumi/di
-- https://github.com/opensumi/doc
-- https://github.com/opensumi/ide-startup-lite
-- https://github.com/opensumi/ide-startup
-- https://github.com/opensumi/ide-electron
-- https://github.com/opensumi/antd-theme
-- https://github.com/opensumi/monaco-editor-core
+- https://github.com/Nuvio-MCP/core
+- https://github.com/Nuvio-MCP/di
+- https://github.com/Nuvio-MCP/doc
+- https://github.com/Nuvio-MCP/ide-startup-lite
+- https://github.com/Nuvio-MCP/ide-startup
+- https://github.com/Nuvio-MCP/ide-electron
+- https://github.com/Nuvio-MCP/antd-theme
+- https://github.com/Nuvio-MCP/monaco-editor-core
 
 ## Third-party Content
 
@@ -50,40 +50,40 @@ Code copied from project eclipse-theia/theia
 - License: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
 - Project: https://github.com/eclipse-theia/theia
 - Source:
-  - https://github.com/opensumi/core/blob/main/packages/core-browser/src/keyboard/keyboard-layout-service.ts
-  - https://github.com/opensumi/core/blob/main/packages/core-browser/src/keyboard/keys.ts
-  - https://github.com/opensumi/core/blob/main/packages/core-common/src/problem-matcher.ts
-  - https://github.com/opensumi/core/blob/main/packages/core-common/src/problem-pattern.ts
-  - https://github.com/opensumi/core/blob/main/packages/core-common/src/keyboard/keyboard-layout-provider.ts
-  - https://github.com/opensumi/core/blob/main/packages/core-common/src/preferences/preference-schema.ts
-  - https://github.com/opensumi/core/blob/main/packages/debug/src/browser/debug-session-manager.ts
-  - https://github.com/opensumi/core/blob/main/packages/debug/src/browser/markers/marker-manager.ts
-  - https://github.com/opensumi/core/blob/main/packages/debug/src/browser/model/debug-source.ts
-  - https://github.com/opensumi/core/blob/main/packages/debug/src/browser/view/debug-view-model.ts
-  - https://github.com/opensumi/core/blob/main/packages/editor/src/browser/monaco-contrib/tokenizer/textmate-registry.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/common/vscode/strings.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.file-system-event.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.file-system.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.preference.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.scm.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/doc/prefixSumComputer.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/color.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/diagnostics.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/lens.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/on-type-formatting.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/outline.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/range-formatting.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/type-definition.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension/src/hosted/api/vscode/language/workspace-symbol.ts
-  - https://github.com/opensumi/core/blob/main/packages/extension-manager/src/common/vsx-registry-types.ts
-  - https://github.com/opensumi/core/blob/main/packages/file-service/src/common/files.ts
-  - https://github.com/opensumi/core/blob/main/packages/file-service/src/node/file-change-collection.ts
-  - https://github.com/opensumi/core/blob/main/packages/quick-open/src/browser/prefix-quick-open.service.ts
-  - https://github.com/opensumi/core/blob/main/packages/quick-open/src/browser/quick-open-action-provider.ts
-  - https://github.com/opensumi/core/blob/main/packages/task/src/browser/problem-collector.ts
-  - https://github.com/opensumi/core/blob/main/packages/task/src/browser/problem-line-matcher.ts
-  - https://github.com/opensumi/core/blob/main/packages/utils/src/disposable.ts
-  - https://github.com/opensumi/core/blob/main/packages/utils/src/os.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/core-browser/src/keyboard/keyboard-layout-service.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/core-browser/src/keyboard/keys.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/core-common/src/problem-matcher.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/core-common/src/problem-pattern.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/core-common/src/keyboard/keyboard-layout-provider.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/core-common/src/preferences/preference-schema.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/debug/src/browser/debug-session-manager.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/debug/src/browser/markers/marker-manager.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/debug/src/browser/model/debug-source.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/debug/src/browser/view/debug-view-model.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/editor/src/browser/monaco-contrib/tokenizer/textmate-registry.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/common/vscode/strings.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.file-system-event.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.file-system.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.preference.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/ext.host.scm.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/doc/prefixSumComputer.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/color.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/diagnostics.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/lens.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/on-type-formatting.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/outline.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/range-formatting.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/type-definition.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension/src/hosted/api/vscode/language/workspace-symbol.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/extension-manager/src/common/vsx-registry-types.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/file-service/src/common/files.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/file-service/src/node/file-change-collection.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/quick-open/src/browser/prefix-quick-open.service.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/quick-open/src/browser/quick-open-action-provider.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/task/src/browser/problem-collector.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/task/src/browser/problem-line-matcher.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/utils/src/disposable.ts
+  - https://github.com/Nuvio-MCP/core/blob/main/packages/utils/src/os.ts
 
 vscode-languageserver-protocol
 

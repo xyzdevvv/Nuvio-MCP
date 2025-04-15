@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IContextKey, IContextKeyService, IScopedContextKeyService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IContextKey, IContextKeyService, IScopedContextKeyService } from '@Nuvio-MCP/ide-core-browser';
 
 import { DebugState } from '../../common';
 

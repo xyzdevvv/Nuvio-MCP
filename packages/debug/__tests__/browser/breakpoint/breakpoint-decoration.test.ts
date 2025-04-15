@@ -1,6 +1,6 @@
-import { URI } from '@opensumi/ide-core-browser';
-import { IDebugBreakpoint } from '@opensumi/ide-debug';
-import { DebugBreakpoint, DebugDecorator } from '@opensumi/ide-debug/lib/browser/breakpoint';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { IDebugBreakpoint } from '@Nuvio-MCP/ide-debug';
+import { DebugBreakpoint, DebugDecorator } from '@Nuvio-MCP/ide-debug/lib/browser/breakpoint';
 
 describe('Breakpoints Decoration', () => {
   const prefix = 'sumi-debug-breakpoint';

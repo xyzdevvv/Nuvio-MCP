@@ -1,11 +1,11 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiContextMenu } from './context-menu';
-import { OpenSumiPanel } from './panel';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPContextMenu } from './context-menu';
+import { Nuvio-MCPPanel } from './panel';
 
 type TerminalType = 'bash' | 'zsh' | 'Javascript Debug Terminal';
 
-export class OpenSumiTerminalView extends OpenSumiPanel {
-  constructor(app: OpenSumiApp) {
+export class Nuvio-MCPTerminalView extends Nuvio-MCPPanel {
+  constructor(app: Nuvio-MCPApp) {
     super(app, 'TERMINAL');
   }
 
@@ -41,7 +41,7 @@ export class OpenSumiTerminalView extends OpenSumiPanel {
       return;
     }
     await button.click();
-    const menu = new OpenSumiContextMenu(this.app);
+    const menu = new Nuvio-MCPContextMenu(this.app);
     await menu.waitForVisible();
     await menu.clickMenuItem(type);
 

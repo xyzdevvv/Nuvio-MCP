@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import { IContextKeyService } from '../../context-key';
 

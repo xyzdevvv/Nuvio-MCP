@@ -1,7 +1,7 @@
-import { asClassNameArrayWrapper } from '@opensumi/ide-core-browser';
-import { ThemeIcon } from '@opensumi/ide-core-common';
-import { Sumicon } from '@opensumi/ide-core-common/lib/codicons';
-import { LightBulbWidget } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/lightBulbWidget';
+import { asClassNameArrayWrapper } from '@Nuvio-MCP/ide-core-browser';
+import { ThemeIcon } from '@Nuvio-MCP/ide-core-common';
+import { Sumicon } from '@Nuvio-MCP/ide-core-common/lib/codicons';
+import { LightBulbWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/lightBulbWidget';
 
 // @ts-ignore
 export class SumiLightBulbWidget extends LightBulbWidget {

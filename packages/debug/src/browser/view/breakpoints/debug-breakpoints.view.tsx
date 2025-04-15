@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-import { Badge, BasicRecycleTree, CheckBox, IBasicTreeData } from '@opensumi/ide-components';
+import { Badge, BasicRecycleTree, CheckBox, IBasicTreeData } from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   Disposable,
@@ -15,10 +15,10 @@ import {
   localize,
   useAutorun,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { IResourceOpenOptions } from '@opensumi/ide-editor';
-import * as monaco from '@opensumi/ide-monaco';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IResourceOpenOptions } from '@Nuvio-MCP/ide-editor';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { DEBUG_COMMANDS, IDebugBreakpoint, IDebugSessionManager, ISourceBreakpoint } from '../../../common';
 import {

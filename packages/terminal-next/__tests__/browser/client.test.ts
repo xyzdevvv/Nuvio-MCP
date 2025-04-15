@@ -5,8 +5,8 @@ import * as fs from 'fs-extra';
 import httpProxy from 'http-proxy';
 import WebSocket from 'ws';
 
-import { Disposable, Event, FileUri, URI } from '@opensumi/ide-core-common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Disposable, Event, FileUri, URI } from '@Nuvio-MCP/ide-core-common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import {
   IShellLaunchConfig,

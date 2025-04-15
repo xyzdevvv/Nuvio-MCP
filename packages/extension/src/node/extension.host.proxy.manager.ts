@@ -1,10 +1,10 @@
 import net from 'net';
 
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection';
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { Disposable, IDisposable, MaybePromise, toDisposable } from '@opensumi/ide-core-common';
-import { AppConfig, INodeLogger } from '@opensumi/ide-core-node';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { Disposable, IDisposable, MaybePromise, toDisposable } from '@Nuvio-MCP/ide-core-common';
+import { AppConfig, INodeLogger } from '@Nuvio-MCP/ide-core-node';
 
 import {
   EXT_HOST_PROXY_IDENTIFIER,

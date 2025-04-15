@@ -15,8 +15,8 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/task/src/browser/task-problem-matcher-registry.ts
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, DisposableCollection, Emitter, IDisposable, URI } from '@opensumi/ide-utils';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, DisposableCollection, Emitter, IDisposable, URI } from '@Nuvio-MCP/ide-utils';
 
 import {
   ApplyToKind,

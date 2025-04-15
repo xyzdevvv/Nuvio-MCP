@@ -1,9 +1,9 @@
 import { CloseOutlined } from '@ant-design/icons';
 import React, { useEffect, useState } from 'react';
 
-import { URI, useInjectable } from '@opensumi/ide-core-browser';
-import { IResource, ResourceService, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
+import { URI, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IResource, ResourceService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
 
 export const OpenedTab: React.FC<{ item: URI; refresh: () => void }> = ({ item, refresh }) => {
   const [resource, setResource] = useState<IResource>();

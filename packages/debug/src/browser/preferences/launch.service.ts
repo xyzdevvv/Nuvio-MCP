@@ -3,10 +3,10 @@ import { GenericObjectType, StrictRJSFSchema } from '@rjsf/utils';
 import * as jsoncparser from 'jsonc-parser';
 import lodashSet from 'lodash/set';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { COMMON_COMMANDS } from '@opensumi/ide-core-browser';
-import { CommandService, Emitter, Event, FileType, IJSONSchema, URI } from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { COMMON_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { CommandService, Emitter, Event, FileType, IJSONSchema, URI } from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { JSON_SCHEMA_TYPE } from '../../common';
 import { ILaunchService } from '../../common/debug-service';

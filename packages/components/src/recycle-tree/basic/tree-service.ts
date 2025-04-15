@@ -1,4 +1,4 @@
-import { DisposableCollection, Emitter } from '@opensumi/ide-utils';
+import { DisposableCollection, Emitter } from '@Nuvio-MCP/ide-utils';
 
 import { Decoration, DecorationsManager, Tree, TreeModel } from '../tree';
 import { TreeNodeEvent } from '../types';

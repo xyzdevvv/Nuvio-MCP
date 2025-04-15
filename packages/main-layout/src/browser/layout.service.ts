@@ -1,6 +1,6 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   CommandRegistry,
@@ -17,19 +17,19 @@ import {
   ViewContainerOptions,
   WithEventBus,
   slotRendererRegistry,
-} from '@opensumi/ide-core-browser';
-import { fixLayout } from '@opensumi/ide-core-browser/lib/components';
-import { LAYOUT_STATE, LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
-import { ComponentRegistryInfo } from '@opensumi/ide-core-browser/lib/layout/layout.interface';
+} from '@Nuvio-MCP/ide-core-browser';
+import { fixLayout } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { LAYOUT_STATE, LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
+import { ComponentRegistryInfo } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout.interface';
 import {
   AbstractContextMenuService,
   AbstractMenuService,
   IContextMenu,
   IMenuRegistry,
   MenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { Deferred, getDebugLogger, isUndefined } from '@opensumi/ide-core-common';
-import { ThemeChangedEvent } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Deferred, getDebugLogger, isUndefined } from '@Nuvio-MCP/ide-core-common';
+import { ThemeChangedEvent } from '@Nuvio-MCP/ide-theme';
 
 import {
   DROP_BOTTOM_CONTAINER,

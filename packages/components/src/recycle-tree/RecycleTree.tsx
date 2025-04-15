@@ -10,7 +10,7 @@ import {
   Emitter,
   Event,
   Throttler,
-} from '@opensumi/ide-utils';
+} from '@Nuvio-MCP/ide-utils';
 
 import { ScrollbarsVirtualList } from '../scrollbars';
 

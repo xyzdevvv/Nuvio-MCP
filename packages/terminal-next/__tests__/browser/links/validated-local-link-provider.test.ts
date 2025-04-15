@@ -1,7 +1,7 @@
 import { ILink, Terminal } from '@xterm/xterm';
 
-import { OperatingSystem, URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
+import { OperatingSystem, URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
 
 import { TerminalValidatedLocalLinkProvider } from '../../../src/browser/links/validated-local-link-provider';
 

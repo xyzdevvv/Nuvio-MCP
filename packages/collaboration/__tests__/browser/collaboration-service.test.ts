@@ -3,24 +3,24 @@
 // @ts-ignore
 import { Text as YText } from 'yjs';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { EventBusImpl, IEventBus, ILogger, URI } from '@opensumi/ide-core-common';
-import { INodeLogger, AppConfig as NodeAppConfig } from '@opensumi/ide-core-node';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { EventBusImpl, IEventBus, ILogger, URI } from '@Nuvio-MCP/ide-core-common';
+import { INodeLogger, AppConfig as NodeAppConfig } from '@Nuvio-MCP/ide-core-node';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   EditorDocumentModelCreationEvent,
   EditorDocumentModelRemovalEvent,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser';
-import { FileChangeType, IFileService } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { ITextModel } from '@opensumi/ide-monaco';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { ICSSStyleService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { FileChangeType, IFileService } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { ICSSStyleService } from '@Nuvio-MCP/ide-theme';
 
 import { CollaborationService } from '../../src/browser/collaboration.service';
 import { TextModelBinding } from '../../src/browser/textmodel-binding';

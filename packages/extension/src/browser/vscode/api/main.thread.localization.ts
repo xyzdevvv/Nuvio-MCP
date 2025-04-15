@@ -1,7 +1,7 @@
-import { Autowired, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { ExtensionNodeServiceServerPath, IExtensionNodeClientService } from '../../../common';
 import { ExtHostAPIIdentifier } from '../../../common/vscode';

@@ -1,11 +1,11 @@
 import { z } from 'zod';
 
-import { Autowired } from '@opensumi/di';
-import { getValidateInput } from '@opensumi/ide-addons/lib/browser/file-search.contribution';
-import { Domain, URI } from '@opensumi/ide-core-common';
-import { defaultFilesWatcherExcludes } from '@opensumi/ide-core-common/lib/preferences/file-watch';
-import { FileSearchServicePath, IFileSearchService } from '@opensumi/ide-file-search/lib/common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired } from '@Nuvio-MCP/di';
+import { getValidateInput } from '@Nuvio-MCP/ide-addons/lib/browser/file-search.contribution';
+import { Domain, URI } from '@Nuvio-MCP/ide-core-common';
+import { defaultFilesWatcherExcludes } from '@Nuvio-MCP/ide-core-common/lib/preferences/file-watch';
+import { FileSearchServicePath, IFileSearchService } from '@Nuvio-MCP/ide-file-search/lib/common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IChatInternalService } from '../../../common';
 import { ChatInternalService } from '../../chat/chat.internal.service';
@@ -60,7 +60,7 @@ export class FileSearchTool implements MCPServerContribution {
       throw new Error('Cannot determine project directory');
     }
 
-    // 使用 OpenSumi 的文件搜索 API
+    // 使用 Nuvio-MCP 的文件搜索 API
     const searchPattern = this.normalizeQuery(args.query);
     const searchResults = await this.fileSearchService.find(searchPattern, {
       rootUris: [new URI(workspaceRoots[0].uri).codeUri.fsPath],

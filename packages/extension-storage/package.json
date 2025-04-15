@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-extension-storage",
+  "name": "@Nuvio-MCP/ide-extension-storage",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-core-node": "workspace:*",
-    "@opensumi/ide-file-service": "workspace:*",
-    "@opensumi/ide-logs": "workspace:*",
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-node": "workspace:*",
+    "@Nuvio-MCP/ide-file-service": "workspace:*",
+    "@Nuvio-MCP/ide-logs": "workspace:*",
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   },
   "devDependencies": {
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

@@ -1,9 +1,9 @@
 import throttle from 'lodash/throttle';
 
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { DisposableCollection, Emitter, Event, ILogger, MessageType, localize } from '@opensumi/ide-core-common';
-import { IThemeService } from '@opensumi/ide-theme';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { DisposableCollection, Emitter, Event, ILogger, MessageType, localize } from '@Nuvio-MCP/ide-core-common';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { IDebugConsoleSession, IDebugSession } from '../../../common';
 import { handleANSIOutput } from '../../debug-ansi-handle';

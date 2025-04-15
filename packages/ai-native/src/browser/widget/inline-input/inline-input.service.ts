@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { KeybindingRegistry } from '@opensumi/ide-core-browser';
-import { AI_INLINE_CHAT_INTERACTIVE_INPUT_VISIBLE } from '@opensumi/ide-core-browser/lib/ai-native/command';
-import { Disposable, Emitter, Event, IDisposable } from '@opensumi/ide-core-common';
-import { ICodeEditor, Position, Selection } from '@opensumi/ide-monaco';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { KeybindingRegistry } from '@Nuvio-MCP/ide-core-browser';
+import { AI_INLINE_CHAT_INTERACTIVE_INPUT_VISIBLE } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
+import { Disposable, Emitter, Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor, Position, Selection } from '@Nuvio-MCP/ide-monaco';
 
 import { LanguageParserService } from '../../languages/service';
 import { ERunStrategy, IInteractiveInputHandler, IInteractiveInputRunStrategy } from '../../types';

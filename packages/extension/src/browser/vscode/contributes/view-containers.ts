@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AI_CHAT_VIEW_ID } from '@opensumi/ide-ai-native';
-import { DisposableCollection, LifeCyclePhase } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IIconService, IconType } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AI_CHAT_VIEW_ID } from '@Nuvio-MCP/ide-ai-native';
+import { DisposableCollection, LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

@@ -1,6 +1,6 @@
-import { Injector } from '@opensumi/di';
-import { ILogService, IWatcherProcessLogger, LogLevel, SupportLogNamespace } from '@opensumi/ide-core-common/lib/log';
-import { LogServiceManager } from '@opensumi/ide-logs/lib/node/log-manager';
+import { Injector } from '@Nuvio-MCP/di';
+import { ILogService, IWatcherProcessLogger, LogLevel, SupportLogNamespace } from '@Nuvio-MCP/ide-core-common/lib/log';
+import { LogServiceManager } from '@Nuvio-MCP/ide-logs/lib/node/log-manager';
 
 export class WatcherProcessLogger implements IWatcherProcessLogger {
   private loggerManager: LogServiceManager;

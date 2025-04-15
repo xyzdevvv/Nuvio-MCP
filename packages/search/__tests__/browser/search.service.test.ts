@@ -1,11 +1,11 @@
-import { Injectable, Injector } from '@opensumi/di';
-import { CorePreferences } from '@opensumi/ide-core-browser';
-import { URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IEditorDocumentModelService, WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
-import { EditorDocumentModelServiceImpl } from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { CorePreferences } from '@Nuvio-MCP/ide-core-browser';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IEditorDocumentModelService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorDocumentModelServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { MockContentSearchServer } from '../../__mocks__/content-search.service';
 import { SearchModule } from '../../src/browser/';

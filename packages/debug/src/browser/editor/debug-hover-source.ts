@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Emitter, Event } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-browser';
 
 import { IDebugSessionManager } from '../../common';
 import { DebugSessionManager } from '../debug-session-manager';

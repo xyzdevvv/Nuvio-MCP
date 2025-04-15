@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
-import { Icon } from '@opensumi/ide-components/lib/icon/icon';
-import { CommandService, LabelService, URI, path, useInjectable } from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Icon } from '@Nuvio-MCP/ide-components/lib/icon/icon';
+import { CommandService, LabelService, URI, path, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IChatInternalService } from '../../../../common';
 import { ChatInternalService } from '../../../chat/chat.internal.service';

@@ -1,4 +1,4 @@
-import { Emitter, Event, path } from '@opensumi/ide-utils';
+import { Emitter, Event, path } from '@Nuvio-MCP/ide-utils';
 
 import { ITreeNodeOrCompositeTreeNode, TreeNodeEvent } from '../../../types';
 import { CompositeTreeNode, TreeNode } from '../../TreeNode';

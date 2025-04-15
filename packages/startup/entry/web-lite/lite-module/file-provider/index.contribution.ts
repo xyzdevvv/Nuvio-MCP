@@ -1,12 +1,12 @@
-import { Autowired } from '@opensumi/di';
-import { AppConfig, Domain, FsProviderContribution, Schemes, URI, Uri, path } from '@opensumi/ide-core-browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { AppConfig, Domain, FsProviderContribution, Schemes, URI, Uri, path } from '@Nuvio-MCP/ide-core-browser';
 import {
   StaticResourceContribution,
   StaticResourceService,
-} from '@opensumi/ide-core-browser/lib/static-resource/static.definition';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser/lib/static-resource/static.definition';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { AbstractHttpFileService } from './browser-fs-provider';
 import { ExtFsProvider } from './ext-fs-provider';

@@ -9,9 +9,9 @@ import {
   IIconResourceOptions,
   Input,
   Tabs,
-} from '@opensumi/ide-components';
-import { VirtualList } from '@opensumi/ide-components/lib/virtual-list';
-import { IVirtualListRange } from '@opensumi/ide-components/lib/virtual-list/types';
+} from '@Nuvio-MCP/ide-components';
+import { VirtualList } from '@Nuvio-MCP/ide-components/lib/virtual-list';
+import { IVirtualListRange } from '@Nuvio-MCP/ide-components/lib/virtual-list/types';
 import {
   Disposable,
   FRAME_THREE,
@@ -26,11 +26,11 @@ import {
   localize,
   useEventDrivenState,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { EDirection } from '@opensumi/ide-core-browser/lib/components/index';
-import { SplitPanel } from '@opensumi/ide-core-browser/lib/components/layout/split-panel';
-import useThrottleFn from '@opensumi/ide-core-browser/lib/react-hooks/useThrottleFn';
-import { ReactEditorComponent } from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EDirection } from '@Nuvio-MCP/ide-core-browser/lib/components/index';
+import { SplitPanel } from '@Nuvio-MCP/ide-core-browser/lib/components/layout/split-panel';
+import useThrottleFn from '@Nuvio-MCP/ide-core-browser/lib/react-hooks/useThrottleFn';
+import { ReactEditorComponent } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { ESectionItemKind, ISectionItemData, toNormalCase } from '../common';
 

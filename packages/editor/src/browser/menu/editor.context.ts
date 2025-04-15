@@ -1,14 +1,14 @@
-import { Disposable, IContextKeyService } from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICodeEditor } from '@opensumi/ide-monaco/lib/common/types';
-import * as dom from '@opensumi/monaco-editor-core/esm/vs/base/browser/dom';
-import { IAnchor } from '@opensumi/monaco-editor-core/esm/vs/base/browser/ui/contextview/contextview';
-import { KeyCode } from '@opensumi/monaco-editor-core/esm/vs/base/common/keyCodes';
-import { IEditorMouseEvent, MouseTargetType } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import { IEditorContribution } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
-import { ContextMenuController } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/contextmenu/browser/contextmenu';
+import { Disposable, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco/lib/common/types';
+import * as dom from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/dom';
+import { IAnchor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/ui/contextview/contextview';
+import { KeyCode } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/keyCodes';
+import { IEditorMouseEvent, MouseTargetType } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { IEditorContribution } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { ContextMenuController } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/contextmenu/browser/contextmenu';
 
 export class EditorContextMenuController extends Disposable implements IEditorContribution {
   public static readonly ID = 'editor.contrib.contextmenu';

@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-ai-native",
+  "name": "@Nuvio-MCP/ide-ai-native",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.1.9",
@@ -24,27 +24,27 @@
     "@ai-sdk/openai": "^1.1.9",
     "@ai-sdk/openai-compatible": "^0.1.11",
     "@modelcontextprotocol/sdk": "^1.3.1",
-    "@opensumi/ide-addons": "workspace:*",
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-connection": "workspace:*",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-core-node": "workspace:*",
-    "@opensumi/ide-debug": "workspace:*",
-    "@opensumi/ide-design": "workspace:*",
-    "@opensumi/ide-editor": "workspace:*",
-    "@opensumi/ide-file-search": "workspace:*",
-    "@opensumi/ide-file-service": "workspace:*",
-    "@opensumi/ide-main-layout": "workspace:*",
-    "@opensumi/ide-markers": "workspace:*",
-    "@opensumi/ide-monaco": "workspace:*",
-    "@opensumi/ide-outline": "workspace:*",
-    "@opensumi/ide-overlay": "workspace:*",
-    "@opensumi/ide-preferences": "workspace:*",
-    "@opensumi/ide-search": "workspace:*",
-    "@opensumi/ide-terminal-next": "workspace:*",
-    "@opensumi/ide-theme": "workspace:*",
-    "@opensumi/ide-utils": "workspace:*",
-    "@opensumi/ide-workspace": "workspace:*",
+    "@Nuvio-MCP/ide-addons": "workspace:*",
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-connection": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-node": "workspace:*",
+    "@Nuvio-MCP/ide-debug": "workspace:*",
+    "@Nuvio-MCP/ide-design": "workspace:*",
+    "@Nuvio-MCP/ide-editor": "workspace:*",
+    "@Nuvio-MCP/ide-file-search": "workspace:*",
+    "@Nuvio-MCP/ide-file-service": "workspace:*",
+    "@Nuvio-MCP/ide-main-layout": "workspace:*",
+    "@Nuvio-MCP/ide-markers": "workspace:*",
+    "@Nuvio-MCP/ide-monaco": "workspace:*",
+    "@Nuvio-MCP/ide-outline": "workspace:*",
+    "@Nuvio-MCP/ide-overlay": "workspace:*",
+    "@Nuvio-MCP/ide-preferences": "workspace:*",
+    "@Nuvio-MCP/ide-search": "workspace:*",
+    "@Nuvio-MCP/ide-terminal-next": "workspace:*",
+    "@Nuvio-MCP/ide-theme": "workspace:*",
+    "@Nuvio-MCP/ide-utils": "workspace:*",
+    "@Nuvio-MCP/ide-workspace": "workspace:*",
     "@xterm/xterm": "5.5.0",
     "ai": "^4.1.45",
     "ansi-regex": "^2.0.0",
@@ -61,6 +61,6 @@
     "zod-to-json-schema": "^3.24.1"
   },
   "devDependencies": {
-    "@opensumi/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
   }
 }

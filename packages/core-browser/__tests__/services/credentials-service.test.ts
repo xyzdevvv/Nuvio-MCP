@@ -1,4 +1,4 @@
-import { Deferred, KeytarServicePath } from '@opensumi/ide-core-common';
+import { Deferred, KeytarServicePath } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

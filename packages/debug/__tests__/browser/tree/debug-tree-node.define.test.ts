@@ -11,7 +11,7 @@ import {
   DebugWatchRoot,
   ExpressionContainer,
   ExpressionNode,
-} from '@opensumi/ide-debug/lib/browser/tree';
+} from '@Nuvio-MCP/ide-debug/lib/browser/tree';
 
 describe('ExpressionContainer', () => {
   let rootNode: ExpressionContainer;

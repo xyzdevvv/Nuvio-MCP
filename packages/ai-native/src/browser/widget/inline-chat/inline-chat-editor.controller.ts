@@ -3,7 +3,7 @@ import {
   IAIInlineChatService,
   IContextKeyService,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   AIInlineChatContentWidgetId,
   AINativeSettingSectionsId,
@@ -23,13 +23,13 @@ import {
   InlineChatFeatureRegistryToken,
   MaybePromise,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import { CONTEXT_IN_DEBUG_MODE_KEY } from '@opensumi/ide-debug';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICodeEditor } from '@opensumi/ide-monaco';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+} from '@Nuvio-MCP/ide-core-common';
+import { CONTEXT_IN_DEBUG_MODE_KEY } from '@Nuvio-MCP/ide-debug';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
 import { AINativeContextKey } from '../../ai-core.contextkeys';
 import { BaseAIMonacoEditorController } from '../../contrib/base';

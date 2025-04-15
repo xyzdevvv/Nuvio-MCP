@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { FormEvent, forwardRef, memo } from 'react';
 
-import { CheckBox, ValidateInput, ValidateMessage } from '@opensumi/ide-components';
-import { getIcon } from '@opensumi/ide-core-browser/lib/style/icon/icon';
-import { localize } from '@opensumi/ide-core-common/lib/localize';
+import { CheckBox, ValidateInput, ValidateMessage } from '@Nuvio-MCP/ide-components';
+import { getIcon } from '@Nuvio-MCP/ide-core-browser/lib/style/icon/icon';
+import { localize } from '@Nuvio-MCP/ide-core-common/lib/localize';
 
 import styles from './search.module.less';
 

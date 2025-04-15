@@ -1,10 +1,10 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   IAINativeCapabilities,
   IAINativeCodeEditsConfig,
   IAINativeConfig,
   IAINativeInlineChatConfig,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { AILogoAvatar } from '../components/ai-native';
 import { LayoutViewSizeConfig } from '../layout/constants';

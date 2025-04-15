@@ -1,8 +1,8 @@
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { Disposable } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EditorComponentRegistry, EditorPreferences } from '@opensumi/ide-editor/lib/browser';
-import { ITheme, IThemeService } from '@opensumi/ide-theme';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EditorComponentRegistry, EditorPreferences } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { ITheme, IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

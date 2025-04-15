@@ -1,4 +1,4 @@
-import { BuiltinTheme } from '@opensumi/ide-theme';
+import { BuiltinTheme } from '@Nuvio-MCP/ide-theme';
 
 export default {
   tokenColors: [
@@ -801,6 +801,6 @@ export default {
   designThemeType: 'design-dark',
   inherit: true,
   hasDefaultTokens: false,
-  id: 'opensumi-design-dark-theme',
-  name: 'OpenSumi Design Dark+ (default dark)',
+  id: 'Nuvio-MCP-design-dark-theme',
+  name: 'Nuvio-MCP Design Dark+ (default dark)',
 };

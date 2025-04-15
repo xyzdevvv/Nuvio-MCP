@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-common';
-import { distinct } from '@opensumi/monaco-editor-core/esm/vs/base/common/arrays';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { distinct } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/arrays';
 
 import { DetailedLineRangeMapping } from '../../../common/diff';
 

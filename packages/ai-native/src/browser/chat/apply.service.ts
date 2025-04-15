@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AIBackSerivcePath, IAIBackService, IChatProgress, URI, path } from '@opensumi/ide-core-browser';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { SumiReadableStream } from '@opensumi/ide-utils/lib/stream';
-import { Range } from '@opensumi/monaco-editor-core';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AIBackSerivcePath, IAIBackService, IChatProgress, URI, path } from '@Nuvio-MCP/ide-core-browser';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { SumiReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
+import { Range } from '@Nuvio-MCP/monaco-editor-core';
 
 import { ChatProxyServiceToken } from '../../common';
 import { CodeBlockData } from '../../common/types';

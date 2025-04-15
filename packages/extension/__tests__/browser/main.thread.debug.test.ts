@@ -1,25 +1,25 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { LabelService } from '@opensumi/ide-core-browser/src';
-import { Disposable, IFileServiceClient, URI, Uri } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/src';
+import { Disposable, IFileServiceClient, URI, Uri } from '@Nuvio-MCP/ide-core-common';
 import {
   IDebugConsoleModelService,
   IDebugModelManager,
   IDebugServer,
   IDebugService,
   IDebugSessionManager,
-} from '@opensumi/ide-debug';
-import { BreakpointManager } from '@opensumi/ide-debug/lib/browser/breakpoint';
-import { DebugConfigurationManager } from '@opensumi/ide-debug/lib/browser/debug-configuration-manager';
-import { DebugPreferences } from '@opensumi/ide-debug/lib/browser/debug-preferences';
-import { DebugSessionContributionRegistry } from '@opensumi/ide-debug/lib/browser/debug-session-contribution';
-import { addEditorProviders } from '@opensumi/ide-dev-tool/src/injector-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/src';
-import { MainThreadConnection } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.connection';
-import { MainThreadDebug } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.debug';
-import { ExtHostAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { ITerminalApiService } from '@opensumi/ide-terminal-next';
+} from '@Nuvio-MCP/ide-debug';
+import { BreakpointManager } from '@Nuvio-MCP/ide-debug/lib/browser/breakpoint';
+import { DebugConfigurationManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-configuration-manager';
+import { DebugPreferences } from '@Nuvio-MCP/ide-debug/lib/browser/debug-preferences';
+import { DebugSessionContributionRegistry } from '@Nuvio-MCP/ide-debug/lib/browser/debug-session-contribution';
+import { addEditorProviders } from '@Nuvio-MCP/ide-dev-tool/src/injector-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/src';
+import { MainThreadConnection } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.connection';
+import { MainThreadDebug } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.debug';
+import { ExtHostAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { ITerminalApiService } from '@Nuvio-MCP/ide-terminal-next';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

@@ -1,6 +1,6 @@
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { BinaryBuffer, CancellationTokenSource, Disposable, Emitter, uuid } from '@opensumi/ide-core-common';
-import { ExtHostTreeViews } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.treeview';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { BinaryBuffer, CancellationTokenSource, Disposable, Emitter, uuid } from '@Nuvio-MCP/ide-core-common';
+import { ExtHostTreeViews } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.treeview';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { MainThreadAPIIdentifier, TreeView } from '../../../../src/common/vscode';

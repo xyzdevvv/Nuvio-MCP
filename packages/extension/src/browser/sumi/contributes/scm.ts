@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IJSONSchema, LifeCyclePhase, localize } from '@opensumi/ide-core-common';
-import { SCMService } from '@opensumi/ide-scm';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IJSONSchema, LifeCyclePhase, localize } from '@Nuvio-MCP/ide-core-common';
+import { SCMService } from '@Nuvio-MCP/ide-scm';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 

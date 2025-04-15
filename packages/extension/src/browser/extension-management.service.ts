@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ILogger, URI, WithEventBus, getLanguageId } from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ILogger, URI, WithEventBus, getLanguageId } from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import {
   AbstractExtensionManagementService,

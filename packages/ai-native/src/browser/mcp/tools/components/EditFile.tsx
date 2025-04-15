@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useEffect, useMemo, useState } from 'react';
 
-import { Icon, Popover } from '@opensumi/ide-components';
+import { Icon, Popover } from '@Nuvio-MCP/ide-components';
 import {
   AppConfig,
   LabelService,
@@ -11,11 +11,11 @@ import {
   detectModeId,
   path,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { ILanguageService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
-import { IModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/model';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { ILanguageService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
+import { IModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/model';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { CodeBlockData } from '../../../../common/types';
 import { ApplyStatus } from '../../../components/ApplyStatus';

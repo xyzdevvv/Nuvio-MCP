@@ -7,7 +7,7 @@ import {
   IDisposable,
   IFileServiceClient as IFileServiceClientToken,
   URI,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   FileCopyOptions,

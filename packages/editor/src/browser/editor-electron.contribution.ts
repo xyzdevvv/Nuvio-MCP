@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Domain,
@@ -6,9 +6,9 @@ import {
   KeybindingContribution,
   KeybindingRegistry,
   electronEnv,
-} from '@opensumi/ide-core-browser';
-import { OnEvent, WithEventBus, isOSX } from '@opensumi/ide-core-common';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
+} from '@Nuvio-MCP/ide-core-browser';
+import { OnEvent, WithEventBus, isOSX } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { IDocPersistentCacheProvider, WorkbenchEditorService } from '../common';
 

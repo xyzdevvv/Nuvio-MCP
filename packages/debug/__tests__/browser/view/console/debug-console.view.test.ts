@@ -1,32 +1,32 @@
-import { WSChannel } from '@opensumi/ide-connection';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
-import { SimpleConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/simple';
-import { IContextKeyService, IFileServiceClient } from '@opensumi/ide-core-browser';
-import { Disposable } from '@opensumi/ide-core-common';
+import { WSChannel } from '@Nuvio-MCP/ide-connection';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
+import { SimpleConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/simple';
+import { IContextKeyService, IFileServiceClient } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 import {
   DebugModelFactory,
   DebugSessionOptions,
   IDebugServer,
   IDebugSession,
   IDebugSessionManager,
-} from '@opensumi/ide-debug';
-import { DebugPreferences } from '@opensumi/ide-debug/lib/browser/debug-preferences';
-import { DebugSession } from '@opensumi/ide-debug/lib/browser/debug-session';
-import { DebugSessionContributionRegistry } from '@opensumi/ide-debug/lib/browser/debug-session-contribution';
-import { DebugConsoleFilterService } from '@opensumi/ide-debug/lib/browser/view/console/debug-console-filter.service';
-import { DebugConsoleModelService } from '@opensumi/ide-debug/lib/browser/view/console/debug-console-tree.model.service';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { LayoutService } from '@opensumi/ide-main-layout/lib/browser/layout.service';
-import { OutputService } from '@opensumi/ide-output/lib/browser/output.service';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { QuickPickService } from '@opensumi/ide-quick-open';
-import { ITaskService } from '@opensumi/ide-task';
-import { ITerminalApiService } from '@opensumi/ide-terminal-next';
-import { IVariableResolverService } from '@opensumi/ide-variable';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-debug';
+import { DebugPreferences } from '@Nuvio-MCP/ide-debug/lib/browser/debug-preferences';
+import { DebugSession } from '@Nuvio-MCP/ide-debug/lib/browser/debug-session';
+import { DebugSessionContributionRegistry } from '@Nuvio-MCP/ide-debug/lib/browser/debug-session-contribution';
+import { DebugConsoleFilterService } from '@Nuvio-MCP/ide-debug/lib/browser/view/console/debug-console-filter.service';
+import { DebugConsoleModelService } from '@Nuvio-MCP/ide-debug/lib/browser/view/console/debug-console-tree.model.service';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { LayoutService } from '@Nuvio-MCP/ide-main-layout/lib/browser/layout.service';
+import { OutputService } from '@Nuvio-MCP/ide-output/lib/browser/output.service';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { QuickPickService } from '@Nuvio-MCP/ide-quick-open';
+import { ITaskService } from '@Nuvio-MCP/ide-task';
+import { ITerminalApiService } from '@Nuvio-MCP/ide-terminal-next';
+import { IVariableResolverService } from '@Nuvio-MCP/ide-variable';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { MockDebugSession } from '../../../../__mocks__/debug-session';
 

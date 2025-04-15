@@ -1,8 +1,8 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiPanel } from './panel';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPPanel } from './panel';
 
-export class OpenSumiOutputView extends OpenSumiPanel {
-  constructor(app: OpenSumiApp) {
+export class Nuvio-MCPOutputView extends Nuvio-MCPPanel {
+  constructor(app: Nuvio-MCPApp) {
     super(app, 'OUTPUT');
   }
 

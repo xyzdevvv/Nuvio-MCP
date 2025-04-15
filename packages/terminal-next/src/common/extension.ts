@@ -1,4 +1,4 @@
-import { Event, IDisposable, URI } from '@opensumi/ide-core-common';
+import { Event, IDisposable, URI } from '@Nuvio-MCP/ide-core-common';
 
 import type vscode from 'vscode';
 

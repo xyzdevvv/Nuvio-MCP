@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IReporter, REPORT_HOST, ReporterService, isFunction } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IReporter, REPORT_HOST, ReporterService, isFunction } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtensionHostService, IExtensionWorkerHost, WorkerHostAPIIdentifier } from '../../../common';
 import { ExtHostSumiAPIIdentifier, SumiApiExtenders } from '../../../common/sumi';

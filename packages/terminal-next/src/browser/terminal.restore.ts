@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, ScopedBrowserStorageService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, ScopedBrowserStorageService } from '@Nuvio-MCP/ide-core-browser';
 
 import { ITerminalBrowserHistory, ITerminalController, ITerminalInternalService, ITerminalRestore } from '../common';
 
-const DEFAULT_TERMINAL_STORE_KEY = 'OPENSUMI_TERMINAL_RESTORE';
+const DEFAULT_TERMINAL_STORE_KEY = 'Nuvio-MCP_TERMINAL_RESTORE';
 @Injectable()
 export class TerminalRestore extends Disposable implements ITerminalRestore {
   @Autowired(ITerminalController)

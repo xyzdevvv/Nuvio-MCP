@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, CommandRegistry } from '@opensumi/ide-core-browser';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
-import { IIconService, IconType, ThemeType } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, CommandRegistry } from '@Nuvio-MCP/ide-core-browser';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { IIconService, IconType, ThemeType } from '@Nuvio-MCP/ide-theme';
 
 import {
   Contributes,

@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { getIcon } from '@opensumi/ide-components';
-import { EDITOR_COMMANDS } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { getIcon } from '@Nuvio-MCP/ide-components';
+import { EDITOR_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
 import {
   CUSTOM_EDITOR_SCHEME,
   CommandService,
@@ -8,9 +8,9 @@ import {
   Schemes,
   URI,
   localize,
-} from '@opensumi/ide-core-common';
-import { IResource, ResourceService } from '@opensumi/ide-editor';
-import { EditorComponentRegistry, EditorOpenType } from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-core-common';
+import { IResource, ResourceService } from '@Nuvio-MCP/ide-editor';
+import { EditorComponentRegistry, EditorOpenType } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { Contributes, IWalkthrough, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { IExtensionWalkthrough } from '../../../common/vscode';

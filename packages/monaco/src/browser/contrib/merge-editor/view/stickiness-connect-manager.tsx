@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
 
 import { ICodeEditor } from '../../../monaco-api/types';
 import { MergeEditorService } from '../merge-editor.service';

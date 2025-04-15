@@ -1,4 +1,4 @@
-import { Event } from '@opensumi/ide-utils';
+import { Event } from '@Nuvio-MCP/ide-utils';
 
 export const enum LifeCyclePhase {
   Prepare = 1,

@@ -18,9 +18,9 @@
 
 import React from 'react';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { EDITOR_COMMANDS, QuickOpenActionProvider, localize } from '@opensumi/ide-core-browser';
-import { CorePreferences } from '@opensumi/ide-core-browser/lib/core-preferences';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { EDITOR_COMMANDS, QuickOpenActionProvider, localize } from '@Nuvio-MCP/ide-core-browser';
+import { CorePreferences } from '@Nuvio-MCP/ide-core-browser/lib/core-preferences';
 import {
   IQuickOpenHandlerRegistry,
   PrefixQuickOpenService,
@@ -30,20 +30,20 @@ import {
   QuickOpenService,
   QuickOpenTab,
   QuickOpenTabConfig,
-} from '@opensumi/ide-core-browser/lib/quick-open';
-import { CommandService, Disposable, DisposableCollection, IDisposable, ILogger } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { CommandService, Disposable, DisposableCollection, IDisposable, ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import { QuickOpenTabs } from './components/quick-open-tabs';
 import { QuickTitleBar } from './quick-title-bar';
 /**
- * @deprecated import from `@opensumi/ide-core-browser/lib/quick-open` instead
+ * @deprecated import from `@Nuvio-MCP/ide-core-browser/lib/quick-open` instead
  */
 export {
   QuickOpenContribution,
   QuickOpenHandler,
   IQuickOpenHandlerRegistry,
   QuickOpenTab,
-} from '@opensumi/ide-core-browser/lib/quick-open';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 
 @Injectable()
 export class QuickOpenHandlerRegistry extends Disposable implements IQuickOpenHandlerRegistry {

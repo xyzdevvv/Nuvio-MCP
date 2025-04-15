@@ -1,10 +1,10 @@
 import cls from 'classnames';
 import React, { useEffect, useRef, useState } from 'react';
 
-import { MarkdownReactParser, MarkdownReactRenderer } from '@opensumi/ide-components/lib/markdown-react';
-import { IMarkedOptions, marked } from '@opensumi/ide-components/lib/utils';
-import { AppConfig, ConfigProvider, useInjectable } from '@opensumi/ide-core-browser';
-import { IMarkdownString, MarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
+import { MarkdownReactParser, MarkdownReactRenderer } from '@Nuvio-MCP/ide-components/lib/markdown-react';
+import { IMarkedOptions, marked } from '@Nuvio-MCP/ide-components/lib/utils';
+import { AppConfig, ConfigProvider, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IMarkdownString, MarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
 
 import { CodeEditorWithHighlight } from './ChatEditor';
 import styles from './components.module.less';

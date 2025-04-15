@@ -1,11 +1,11 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   PreferenceProxy,
   PreferenceSchema,
   PreferenceService,
   createPreferenceProxy,
   localize,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { SCMViewModelMode } from '../common';
 

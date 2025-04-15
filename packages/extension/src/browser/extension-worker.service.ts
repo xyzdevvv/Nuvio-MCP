@@ -1,10 +1,10 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { warning } from '@opensumi/ide-components/lib/utils';
-import { IRPCProtocol, SumiConnectionMultiplexer, createExtMessageIO } from '@opensumi/ide-connection';
-import { BaseConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { MessagePortConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/message-port';
-import { AppConfig, Deferred, IExtensionProps, ILogger, URI } from '@opensumi/ide-core-browser';
-import { Disposable, DisposableStore, path, toDisposable } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { warning } from '@Nuvio-MCP/ide-components/lib/utils';
+import { IRPCProtocol, SumiConnectionMultiplexer, createExtMessageIO } from '@Nuvio-MCP/ide-connection';
+import { BaseConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { MessagePortConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/message-port';
+import { AppConfig, Deferred, IExtensionProps, ILogger, URI } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, DisposableStore, path, toDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtension, IExtensionWorkerHost, WorkerHostAPIIdentifier } from '../common';
 import { ActivatedExtensionJSON } from '../common/activator';

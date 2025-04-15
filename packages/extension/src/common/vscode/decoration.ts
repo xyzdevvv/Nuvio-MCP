@@ -1,4 +1,4 @@
-import { CancellationToken, IDisposable, IThemeColor, UriComponents } from '@opensumi/ide-core-common';
+import { CancellationToken, IDisposable, IThemeColor, UriComponents } from '@Nuvio-MCP/ide-core-common';
 
 import type vscode from 'vscode';
 

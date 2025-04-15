@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Emitter, Event, debounce } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, debounce } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ITerminalClient,

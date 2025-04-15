@@ -1,7 +1,7 @@
-import { IReporterService } from '@opensumi/ide-core-common';
-import { IDebugSessionManager } from '@opensumi/ide-debug';
-import { DebugThread, DebugWatch } from '@opensumi/ide-debug/lib/browser/model';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { IReporterService } from '@Nuvio-MCP/ide-core-common';
+import { IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { DebugThread, DebugWatch } from '@Nuvio-MCP/ide-debug/lib/browser/model';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

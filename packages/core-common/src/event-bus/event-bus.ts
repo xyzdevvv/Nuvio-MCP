@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, IAsyncResult, IDisposable } from '@opensumi/ide-utils';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, IAsyncResult, IDisposable } from '@Nuvio-MCP/ide-utils';
 
 import { ConstructorOf } from '../declare';
 

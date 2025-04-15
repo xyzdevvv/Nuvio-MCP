@@ -2,11 +2,11 @@ import readline from 'readline';
 
 import fuzzy from 'fuzzy';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { CancellationToken, CancellationTokenSource, path } from '@opensumi/ide-core-common';
-import { INodeLogger } from '@opensumi/ide-core-node';
-import { IProcessFactory } from '@opensumi/ide-process';
-import { rgPath } from '@opensumi/vscode-ripgrep';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CancellationToken, CancellationTokenSource, path } from '@Nuvio-MCP/ide-core-common';
+import { INodeLogger } from '@Nuvio-MCP/ide-core-node';
+import { IProcessFactory } from '@Nuvio-MCP/ide-process';
+import { rgPath } from '@Nuvio-MCP/vscode-ripgrep';
 
 import { IFileSearchService } from '../common';
 

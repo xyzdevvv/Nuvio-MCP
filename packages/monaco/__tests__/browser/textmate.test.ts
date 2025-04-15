@@ -1,10 +1,10 @@
-import { Injectable } from '@opensumi/di';
-import { EventBusImpl, IEventBus, URI } from '@opensumi/ide-core-browser';
-import { EditorDocumentModelServiceImpl } from '@opensumi/ide-editor/lib/browser/doc-model/editor-document-model-service';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser/doc-model/types';
-import { TextmateService } from '@opensumi/ide-editor/lib/browser/monaco-contrib/tokenizer/textmate.service';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { ITextmateTokenizer } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
+import { Injectable } from '@Nuvio-MCP/di';
+import { EventBusImpl, IEventBus, URI } from '@Nuvio-MCP/ide-core-browser';
+import { EditorDocumentModelServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/editor-document-model-service';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
+import { TextmateService } from '@Nuvio-MCP/ide-editor/lib/browser/monaco-contrib/tokenizer/textmate.service';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { ITextmateTokenizer } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

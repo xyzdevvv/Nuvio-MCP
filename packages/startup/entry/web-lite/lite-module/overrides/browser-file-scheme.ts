@@ -1,10 +1,10 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
-import { IFileSchemeDocClient } from '@opensumi/ide-file-scheme';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
+import { IFileSchemeDocClient } from '@Nuvio-MCP/ide-file-scheme';
 import {
   FileSystemEditorComponentContribution,
   FileSystemEditorResourceContribution,
-} from '@opensumi/ide-file-scheme/lib/browser/file-scheme.contribution';
+} from '@Nuvio-MCP/ide-file-scheme/lib/browser/file-scheme.contribution';
 
 import { FileSchemeDocClientService } from './doc-client';
 

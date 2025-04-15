@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { IAction, MessageType } from '@opensumi/ide-core-common';
-import { CancelablePromise, createCancelablePromise, isUndefined } from '@opensumi/ide-utils';
+import { IAction, MessageType } from '@Nuvio-MCP/ide-core-common';
+import { CancelablePromise, createCancelablePromise, isUndefined } from '@Nuvio-MCP/ide-utils';
 
 import { Button } from '../button';
 

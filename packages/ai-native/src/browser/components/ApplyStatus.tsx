@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Icon, Loading, Popover } from '@opensumi/ide-components';
+import { Icon, Loading, Popover } from '@Nuvio-MCP/ide-components';
 
 import { CodeBlockStatus } from '../../common/types';
 

@@ -1,4 +1,4 @@
-import { Barrier, Disposable, Emitter, RunOnceScheduler, getDebugLogger, isThenable } from '@opensumi/ide-core-common';
+import { Barrier, Disposable, Emitter, RunOnceScheduler, getDebugLogger, isThenable } from '@Nuvio-MCP/ide-core-common';
 import {
   ITestTag,
   TestDiffOpType,
@@ -6,8 +6,8 @@ import {
   TestsDiff,
   TestsDiffOp,
   applyTestItemUpdate,
-} from '@opensumi/ide-testing/lib/common/testCollection';
-import { TestId } from '@opensumi/ide-testing/lib/common/testId';
+} from '@Nuvio-MCP/ide-testing/lib/common/testCollection';
+import { TestId } from '@Nuvio-MCP/ide-testing/lib/common/testId';
 
 import * as Convert from '../converter';
 

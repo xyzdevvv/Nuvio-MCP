@@ -1,6 +1,6 @@
-// OpenSumi as MCP Server 前端的代理服务
-import { Autowired, Injectable } from '@opensumi/di';
-import { AIServiceType, IAIReporter, ILogger } from '@opensumi/ide-core-common';
+// Nuvio-MCP as MCP Server 前端的代理服务
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AIServiceType, IAIReporter, ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import { BUILTIN_MCP_SERVER_NAME } from '../../common';
 import { getToolName } from '../../common/utils';

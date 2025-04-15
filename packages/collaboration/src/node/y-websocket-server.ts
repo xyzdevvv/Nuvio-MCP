@@ -6,10 +6,10 @@ import utils from 'y-websocket/bin/utils';
 // @ts-ignore
 import { Doc as YDoc, Map as YMap, Text as YText } from 'yjs';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, INodeLogger } from '@opensumi/ide-core-node';
-import { FileChangeType, IFileService } from '@opensumi/ide-file-service';
-import { FileService } from '@opensumi/ide-file-service/lib/node';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, INodeLogger } from '@Nuvio-MCP/ide-core-node';
+import { FileChangeType, IFileService } from '@Nuvio-MCP/ide-file-service';
+import { FileService } from '@Nuvio-MCP/ide-file-service/lib/node';
 
 import { DEFAULT_COLLABORATION_PORT, IYWebsocketServer, ROOM_NAME } from '../common';
 

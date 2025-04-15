@@ -5,10 +5,10 @@ import fse from 'fs-extra';
 import httpProxy from 'http-proxy';
 import WebSocket from 'ws';
 
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { FileUri, OperatingSystem, URI } from '@opensumi/ide-core-common';
-import { EnvironmentVariableServiceToken } from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { FileUri, OperatingSystem, URI } from '@Nuvio-MCP/ide-core-common';
+import { EnvironmentVariableServiceToken } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { MockEnvironmentVariableService } from '../../../extension/__tests__/hosted/__mocks__/environmentVariableService';
 import { NodePtyTerminalService } from '../../src/browser/terminal.service';

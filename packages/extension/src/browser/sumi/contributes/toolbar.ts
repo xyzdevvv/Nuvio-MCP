@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IJSONSchema, IToolbarRegistry } from '@opensumi/ide-core-browser';
-import { toolbar } from '@opensumi/ide-core-browser/lib/extensions/schema/toolbar';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IJSONSchema, IToolbarRegistry } from '@Nuvio-MCP/ide-core-browser';
+import { toolbar } from '@Nuvio-MCP/ide-core-browser/lib/extensions/schema/toolbar';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

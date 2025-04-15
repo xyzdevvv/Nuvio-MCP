@@ -1,4 +1,4 @@
-import { Event, IDisposable, OperatingSystem, URI } from '@opensumi/ide-core-common';
+import { Event, IDisposable, OperatingSystem, URI } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ICreateContributedTerminalProfileOptions,

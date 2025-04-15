@@ -1,8 +1,8 @@
 import { DeepSeekProvider, createDeepSeek } from '@ai-sdk/deepseek';
 
-import { Injectable } from '@opensumi/di';
-import { IAIBackServiceOption } from '@opensumi/ide-core-common';
-import { AINativeSettingSectionsId } from '@opensumi/ide-core-common/lib/settings/ai-native';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IAIBackServiceOption } from '@Nuvio-MCP/ide-core-common';
+import { AINativeSettingSectionsId } from '@Nuvio-MCP/ide-core-common/lib/settings/ai-native';
 
 import { ModelInfo, deepSeekModels } from '../../common';
 import { BaseLanguageModel } from '../base-language-model';

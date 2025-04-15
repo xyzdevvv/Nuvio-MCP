@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationTokenSource,
   Disposable,
@@ -13,7 +13,7 @@ import {
   isUndefined,
   randomString,
   toDisposable,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   DataTransferDTO,
@@ -35,7 +35,7 @@ import * as types from '../../../common/vscode/ext-types';
 
 import { ExtHostCommands } from './ext.host.command';
 
-import type { CancellationToken } from '@opensumi/ide-core-common';
+import type { CancellationToken } from '@Nuvio-MCP/ide-core-common';
 import type vscode from 'vscode';
 
 type Root = null | undefined | void;

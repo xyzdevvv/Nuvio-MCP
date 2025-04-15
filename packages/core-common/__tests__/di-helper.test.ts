@@ -1,4 +1,4 @@
-import { Injectable, Injector } from '@opensumi/di';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
 
 import { Domain } from '../src/di-helper';
 

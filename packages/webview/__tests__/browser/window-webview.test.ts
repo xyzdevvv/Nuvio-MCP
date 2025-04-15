@@ -1,7 +1,7 @@
-import { Emitter } from '@opensumi/ide-core-common';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { mockElectronRenderer } from '@opensumi/ide-core-common/lib/mocks/electron/browserMock';
-import { ElectronPlainWebviewWindow } from '@opensumi/ide-webview/lib/browser/webview-window';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { mockElectronRenderer } from '@Nuvio-MCP/ide-core-common/lib/mocks/electron/browserMock';
+import { ElectronPlainWebviewWindow } from '@Nuvio-MCP/ide-webview/lib/browser/webview-window';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 

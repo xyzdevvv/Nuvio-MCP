@@ -3,7 +3,7 @@ import throttle from 'lodash/throttle';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Disposable, Emitter, IEventBus } from '@opensumi/ide-core-common';
+import { Disposable, Emitter, IEventBus } from '@Nuvio-MCP/ide-core-common';
 
 import { DomListener, addClassName, createClassNameTokens } from '../dom';
 import { AbstractMenuService, ICtxMenuRenderer, MenuId, generateCtxMenu } from '../menu/next';

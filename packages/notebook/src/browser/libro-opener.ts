@@ -1,11 +1,11 @@
 import { IPosition as LibroPosition, IRange as LibroRange } from '@difizen/libro-code-editor';
 import { CellUri, EditorCellView, ExecutableNotebookModel } from '@difizen/libro-jupyter/noeditor';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IOpener, IPosition, IRange, URI } from '@opensumi/ide-core-browser';
-import { ILogger, Schemes } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IOpener, IPosition, IRange, URI } from '@Nuvio-MCP/ide-core-browser';
+import { ILogger, Schemes } from '@Nuvio-MCP/ide-core-common';
 
-import { LibroOpensumiService } from './libro.service';
+import { LibroNuvio-MCPService } from './libro.service';
 
 export const toEditorRange = (range: IRange): LibroRange => ({
   start: {
@@ -36,8 +36,8 @@ export class LibroOpener implements IOpener {
   @Autowired(ILogger)
   private readonly logger: ILogger;
 
-  @Autowired(LibroOpensumiService)
-  libroOpensumiService: LibroOpensumiService;
+  @Autowired(LibroNuvio-MCPService)
+  libroNuvio-MCPService: LibroNuvio-MCPService;
 
   async open(uri: URI) {
     let range: IRange | undefined;
@@ -60,7 +60,7 @@ export class LibroOpener implements IOpener {
 
   protected async openCell(uri: URI, range?: IRange) {
     const notebookUri = URI.file(uri.path.toString());
-    const libroView = await this.libroOpensumiService.getOrCreateLibroView(notebookUri);
+    const libroView = await this.libroNuvio-MCPService.getOrCreateLibroView(notebookUri);
 
     if (!libroView) {
       return false;

@@ -1,6 +1,6 @@
-import { Autowired } from '@opensumi/di';
-import { CommandContribution, CommandRegistry, Domain } from '@opensumi/ide-core-browser';
-import { localize } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { CommandContribution, CommandRegistry, Domain } from '@Nuvio-MCP/ide-core-browser';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
 import { IWebviewService } from './types';
 import { WebviewServiceImpl } from './webview.service';

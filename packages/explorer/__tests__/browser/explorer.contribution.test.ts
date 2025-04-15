@@ -1,5 +1,5 @@
-import { ExplorerModule } from '@opensumi/ide-explorer';
-import { ExplorerContribution } from '@opensumi/ide-explorer/lib/browser/explorer-contribution';
+import { ExplorerModule } from '@Nuvio-MCP/ide-explorer';
+import { ExplorerContribution } from '@Nuvio-MCP/ide-explorer/lib/browser/explorer-contribution';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

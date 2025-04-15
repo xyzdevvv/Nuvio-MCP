@@ -1,6 +1,6 @@
 import { TextDocument } from 'vscode-languageserver-types';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   BinaryBuffer,
@@ -16,12 +16,12 @@ import {
   URI,
   Uri,
   parseGlob,
-} from '@opensumi/ide-core-browser';
-import { CorePreferences } from '@opensumi/ide-core-browser/lib/core-preferences';
-import { FileSystemProviderCapabilities, IEventBus, ILogger, Schemes, isUndefined } from '@opensumi/ide-core-common';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { IApplicationService } from '@opensumi/ide-core-common/lib/types/application';
-import { Iterable } from '@opensumi/monaco-editor-core/esm/vs/base/common/iterator';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CorePreferences } from '@Nuvio-MCP/ide-core-browser/lib/core-preferences';
+import { FileSystemProviderCapabilities, IEventBus, ILogger, Schemes, isUndefined } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { IApplicationService } from '@Nuvio-MCP/ide-core-common/lib/types/application';
+import { Iterable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/iterator';
 
 import {
   DidFilesChangedParams,

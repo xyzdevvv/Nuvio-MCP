@@ -1,7 +1,7 @@
 import btoa from 'btoa';
 
-import { Schemes, URI } from '@opensumi/ide-core-common';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { Schemes, URI } from '@Nuvio-MCP/ide-core-common';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { IDebugBreakpoint, IRuntimeBreakpoint } from '../../common';
 import { Marker } from '../markers';

@@ -1,6 +1,6 @@
-import { ComputerDiffModel } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/model/computer-diff';
-import { monaco } from '@opensumi/ide-monaco/lib/browser/monaco-api/index';
-import { IDocumentDiff } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/documentDiffProvider';
+import { ComputerDiffModel } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/model/computer-diff';
+import { monaco } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/index';
+import { IDocumentDiff } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/documentDiffProvider';
 
 describe('compute diff test', () => {
   const computerDiffModel = new ComputerDiffModel();

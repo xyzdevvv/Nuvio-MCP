@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Event, IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IMenuItem, IMenuRegistry } from '../../menu/next/base';
 import { MenuId } from '../../menu/next/menu-id';

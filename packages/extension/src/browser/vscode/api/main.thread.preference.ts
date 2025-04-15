@@ -1,14 +1,14 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   DisposableCollection,
   PreferenceProviderProvider,
   PreferenceSchemaProvider,
   PreferenceScope,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
-import { FileStat } from '@opensumi/ide-file-service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import {
   ConfigurationTarget,

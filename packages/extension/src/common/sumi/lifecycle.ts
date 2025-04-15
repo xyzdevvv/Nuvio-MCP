@@ -1,4 +1,4 @@
-import { ExtensionCandidate } from '@opensumi/ide-core-common';
+import { ExtensionCandidate } from '@Nuvio-MCP/ide-core-common';
 
 export interface IMainThreadLifeCycle {
   $setExtensionDir(path: string): void;

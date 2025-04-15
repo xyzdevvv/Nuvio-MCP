@@ -1,24 +1,24 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable, Injector } from '@opensumi/di';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   DomListener,
   IContextKeyService,
   IReporterService,
   PreferenceService,
   addClassName,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   AbstractMenuService,
   ICtxMenuRenderer,
   IMenu,
   MenuId,
   generateMergedCtxMenu,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { Disposable, DisposableCollection, URI, isOSX, memoize, uuid } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { monacoBrowser } from '@opensumi/ide-monaco/lib/browser';
-import { IThemeService, debugIconBreakpointForeground } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Disposable, DisposableCollection, URI, isOSX, memoize, uuid } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monacoBrowser } from '@Nuvio-MCP/ide-monaco/lib/browser';
+import { IThemeService, debugIconBreakpointForeground } from '@Nuvio-MCP/ide-theme';
 
 import {
   DEBUG_REPORT_NAME,

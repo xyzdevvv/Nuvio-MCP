@@ -136,7 +136,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: require.resolve('@opensumi/ide-core-electron-main/browser-preload/index.js'),
+          from: require.resolve('@Nuvio-MCP/ide-core-electron-main/browser-preload/index.js'),
           to: path.join(distDir, 'preload.js'),
         },
       ],

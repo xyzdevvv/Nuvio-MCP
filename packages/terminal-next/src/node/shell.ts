@@ -10,8 +10,8 @@
 import fs from 'fs';
 import { release, userInfo } from 'os';
 
-import { IProcessEnvironment, OperatingSystem, isLinux, isMacintosh, path } from '@opensumi/ide-core-common';
-import { isWindows } from '@opensumi/ide-core-node';
+import { IProcessEnvironment, OperatingSystem, isLinux, isMacintosh, path } from '@Nuvio-MCP/ide-core-common';
+import { isWindows } from '@Nuvio-MCP/ide-core-node';
 
 export const WINDOWS_GIT_BASH_PATHS = [
   `${process.env['ProgramW6432']}\\Git\\bin\\bash.exe`,

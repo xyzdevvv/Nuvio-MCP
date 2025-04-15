@@ -1,6 +1,6 @@
-import { URI } from '@opensumi/ide-core-browser';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkerExtProcessService } from '@opensumi/ide-extension/lib/browser/extension-worker.service';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkerExtProcessService } from '@Nuvio-MCP/ide-extension/lib/browser/extension-worker.service';
 
 import { IExtensionWorkerHost, WorkerHostAPIIdentifier } from '../../../src/common';
 

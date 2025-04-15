@@ -1,4 +1,4 @@
-import { DisposableCollection, Emitter, Event, URI } from '@opensumi/ide-core-common';
+import { DisposableCollection, Emitter, Event, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { FileChange, FileServiceWatcherOptions, IFileServiceClient, IFileServiceWatcher } from '../common';
 

@@ -1,6 +1,6 @@
-import { Injector } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { InlineChatIsVisible } from '@opensumi/ide-core-browser/lib/contextkey/ai-native';
+import { Injector } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { InlineChatIsVisible } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/ai-native';
 import {
   AIServiceType,
   ActionSourceEnum,
@@ -9,17 +9,17 @@ import {
   IAIReporter,
   IDisposable,
   ProblemFixRegistryToken,
-} from '@opensumi/ide-core-common';
-import { ICodeEditor, Range } from '@opensumi/ide-monaco';
-import { ContentHoverController } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/hover/browser/contentHoverController';
+} from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor, Range } from '@Nuvio-MCP/ide-monaco';
+import { ContentHoverController } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/hover/browser/contentHoverController';
 import {
   HoverParticipantRegistry,
   IEditorHoverRenderContext,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverTypes';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverTypes';
 import {
   MarkerHover,
   MarkerHoverParticipant,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/hover/browser/markerHoverParticipant';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/hover/browser/markerHoverParticipant';
 
 import { AINativeContextKey } from '../../ai-core.contextkeys';
 import { IHoverFixHandler } from '../../types';

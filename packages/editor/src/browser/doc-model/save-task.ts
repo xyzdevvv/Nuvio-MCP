@@ -8,8 +8,8 @@ import {
   SaveTaskErrorCause,
   SaveTaskResponseState,
   URI,
-} from '@opensumi/ide-core-browser';
-import { EOL } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EOL } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { IEditorDocumentModelService } from './types';
 

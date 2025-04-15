@@ -1,8 +1,8 @@
-import { EventBusImpl, IEventBus } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { EditorActiveResourceStateChangedEvent, EditorSelectionChangeEvent } from '@opensumi/ide-editor/lib/browser';
-import { DocumentSymbolChangedEvent } from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
+import { EventBusImpl, IEventBus } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { EditorActiveResourceStateChangedEvent, EditorSelectionChangeEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { DocumentSymbolChangedEvent } from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
 
 import { OutlineEventService } from '../../../src/browser/services/outline-event.service';
 

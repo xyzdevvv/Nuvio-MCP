@@ -5,7 +5,7 @@
 // eslint-disable-next-line import/no-unresolved
 import { ProgressOptions } from 'vscode';
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -13,7 +13,7 @@ import {
   Progress,
   formatLocalize,
   throttle,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   IExtHostProgress,

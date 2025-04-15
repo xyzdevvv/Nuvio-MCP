@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AIServiceType,
   ActionSourceEnum,
@@ -7,10 +7,10 @@ import {
   Disposable,
   IAIReporter,
   getErrorMessage,
-} from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { monaco as monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { MonacoTelemetryService } from '@opensumi/ide-monaco/lib/browser/telemetry.service';
+} from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monaco as monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { MonacoTelemetryService } from '@Nuvio-MCP/ide-monaco/lib/browser/telemetry.service';
 
 import { BaseAIMonacoContribHandler } from '../base';
 

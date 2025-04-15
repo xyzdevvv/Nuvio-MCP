@@ -1,6 +1,6 @@
-import { Autowired } from '@opensumi/di';
-import { PreferenceContribution, PreferenceSchemaProvider } from '@opensumi/ide-core-browser';
-import { Domain, OperatingSystem, PreferenceSchema, TerminalSettingsId } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { PreferenceContribution, PreferenceSchemaProvider } from '@Nuvio-MCP/ide-core-browser';
+import { Domain, OperatingSystem, PreferenceSchema, TerminalSettingsId } from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalService } from '../../common';
 import { terminalPreferenceSchema } from '../../common/preference';

@@ -1,5 +1,5 @@
-import { Provider } from '@opensumi/di';
-import { BrowserModule, Domain } from '@opensumi/ide-core-browser';
+import { Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, Domain } from '@Nuvio-MCP/ide-core-browser';
 
 import { IWorkspaceService, IWorkspaceStorageService } from '../common';
 

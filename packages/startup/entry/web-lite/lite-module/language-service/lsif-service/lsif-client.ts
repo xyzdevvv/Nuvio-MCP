@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI, Uri } from '@opensumi/ide-core-common';
-import { Location, Position, Range } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI, Uri } from '@Nuvio-MCP/ide-core-common';
+import { Location, Position, Range } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { ILsifPayload } from './base';
 

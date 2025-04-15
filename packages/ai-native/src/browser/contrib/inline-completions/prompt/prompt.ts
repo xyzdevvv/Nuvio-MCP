@@ -1,6 +1,6 @@
 import { Tiktoken } from 'tiktoken/lite';
 
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 
 import { LanguageParser } from '../../../languages/parser';
 import { LanguageParserService } from '../../../languages/service';
@@ -10,7 +10,7 @@ import { LANGUAGE_COMMENT_MARKERS } from './const';
 import { getTokenizer } from './tokenizer';
 
 import type { ICompletionContext, ICompletionModel, MarkerItem } from '../types';
-import type * as monaco from '@opensumi/ide-monaco';
+import type * as monaco from '@Nuvio-MCP/ide-monaco';
 
 export const addComment = (commentText?: string) => {
   if (commentText) {

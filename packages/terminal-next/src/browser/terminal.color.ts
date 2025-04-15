@@ -1,4 +1,4 @@
-import { localize } from '@opensumi/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 import {
   ColorDefaults,
   ColorIdentifier,
@@ -9,7 +9,7 @@ import {
   overviewRulerFindMatchForeground,
   registerColor,
   transparent,
-} from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-theme';
 
 // copied from vscode terminal color registry
 

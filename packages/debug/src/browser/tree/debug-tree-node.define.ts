@@ -1,9 +1,9 @@
-import { CompositeTreeNode, ITree, ITreeNodeOrCompositeTreeNode, TreeNode } from '@opensumi/ide-components';
-import { MessageType, localize } from '@opensumi/ide-core-browser';
-import { IRange } from '@opensumi/ide-core-common';
-import { Path } from '@opensumi/ide-utils/lib/path';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { CompositeTreeNode, ITree, ITreeNodeOrCompositeTreeNode, TreeNode } from '@Nuvio-MCP/ide-components';
+import { MessageType, localize } from '@Nuvio-MCP/ide-core-browser';
+import { IRange } from '@Nuvio-MCP/ide-core-common';
+import { Path } from '@Nuvio-MCP/ide-utils/lib/path';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { DebugSession } from '../debug-session';
 

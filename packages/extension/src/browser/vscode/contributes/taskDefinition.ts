@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IJSONSchema, IJSONSchemaMap, ILogger, localize } from '@opensumi/ide-core-browser';
-import { ITaskDefinitionRegistry, LifeCyclePhase } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IJSONSchema, IJSONSchemaMap, ILogger, localize } from '@Nuvio-MCP/ide-core-browser';
+import { ITaskDefinitionRegistry, LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 

@@ -1,7 +1,7 @@
-import { Emitter, Event, Disposable, IDisposable } from '@opensumi/ide-core-common';
-import { IModelDecorationsChangedEvent } from '@opensumi/monaco-editor-core/esm/vs/editor/common/textModelEvents';
+import { Emitter, Event, Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { IModelDecorationsChangedEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/textModelEvents';
 import * as monaco from '../../../src/common';
-import { ContextKeyValue } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { ContextKeyValue } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 export class MockedCodeEditor extends Disposable implements monaco.editor.ICodeEditor {
   static ID = 0;

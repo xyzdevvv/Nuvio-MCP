@@ -1,12 +1,12 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   PreferenceProxy,
   PreferenceSchema,
   PreferenceService,
   createPreferenceProxy,
   localize,
-} from '@opensumi/ide-core-browser';
-import { SearchSettingId } from '@opensumi/ide-core-common/lib/settings/search';
+} from '@Nuvio-MCP/ide-core-browser';
+import { SearchSettingId } from '@Nuvio-MCP/ide-core-common/lib/settings/search';
 
 // 编写好 preference schema 配置
 // 包括分组和选型

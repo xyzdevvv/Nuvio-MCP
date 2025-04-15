@@ -1,5 +1,5 @@
-import { Event as BaseEvent, Disposable, Emitter, IDisposable, isWebKit } from '@opensumi/ide-core-common';
-import { space } from '@opensumi/ide-utils/lib/strings';
+import { Event as BaseEvent, Disposable, Emitter, IDisposable, isWebKit } from '@Nuvio-MCP/ide-core-common';
+import { space } from '@Nuvio-MCP/ide-utils/lib/strings';
 
 import fastdom from './fastdom';
 

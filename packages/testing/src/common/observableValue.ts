@@ -1,4 +1,4 @@
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 
 export interface IObservableValue<T> {
   onDidChange: Event<T>;

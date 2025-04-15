@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Disposable,
   IDisposable,
@@ -7,9 +7,9 @@ import {
   MarkerManager,
   MarkerSeverity,
   URI,
-} from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { ITextmateTokenizer, ITextmateTokenizerService } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
+} from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ITextmateTokenizer, ITextmateTokenizerService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
 
 import {
   Diagnostic,

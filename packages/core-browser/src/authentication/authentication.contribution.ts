@@ -1,11 +1,11 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   CommandContribution,
   CommandRegistry,
   Domain,
   IAuthenticationService,
   noAccountsId,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { ClientAppContribution } from '../common/common.define';
 

@@ -12,9 +12,9 @@ import omit from 'lodash/omit';
 import * as pty from 'node-pty';
 import * as osLocale from 'os-locale';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Emitter, INodeLogger, URI, isWindows, path } from '@opensumi/ide-core-node';
-import { getShellPath } from '@opensumi/ide-core-node/lib/bootstrap/shell-path';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, INodeLogger, URI, isWindows, path } from '@Nuvio-MCP/ide-core-node';
+import { getShellPath } from '@Nuvio-MCP/ide-core-node/lib/bootstrap/shell-path';
 
 import { IShellLaunchConfig, ITerminalLaunchError } from '../common';
 import { IProcessExitEvent, IProcessReadyEvent } from '../common/process';

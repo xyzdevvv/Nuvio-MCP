@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
 import {
   CancellationTokenSource,
   Constants,
@@ -15,17 +15,17 @@ import {
   createMemoizer,
   onUnexpectedExternalError,
   strings,
-} from '@opensumi/ide-core-browser';
-import { IDecorationApplyOptions, IEditor, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorFeatureContribution } from '@opensumi/ide-editor/lib/browser';
-import { MonacoCodeService } from '@opensumi/ide-editor/lib/browser/editor.override';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import * as monaco from '@opensumi/ide-monaco';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import { StandardTokenType } from '@opensumi/monaco-editor-core/esm/vs/editor/common/encodedTokenAttributes';
-import { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IDecorationApplyOptions, IEditor, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorFeatureContribution } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { MonacoCodeService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.override';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import { StandardTokenType } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/encodedTokenAttributes';
+import { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { DebugContextKey } from '../contextkeys/debug-contextkey.service';
 import { DebugExceptionWidget } from '../debug-exception-widget';

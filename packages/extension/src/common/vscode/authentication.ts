@@ -4,7 +4,7 @@ import {
   AuthenticationSession,
   AuthenticationSessionAccountInformation,
   AuthenticationSessionsChangeEvent,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 export interface IMainThreadAuthentication {
   $registerAuthenticationProvider(id: string, label: string, supportsMultipleAccounts: boolean): void;

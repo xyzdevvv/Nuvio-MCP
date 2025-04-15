@@ -1,6 +1,6 @@
 import throttle from 'lodash/throttle';
 
-import { DisposableCollection, Emitter, Event, IReporterService } from '@opensumi/ide-core-browser';
+import { DisposableCollection, Emitter, Event, IReporterService } from '@Nuvio-MCP/ide-core-browser';
 
 import { DEBUG_COMMANDS, DEBUG_REPORT_NAME } from '../../common';
 import { DebugSessionManager } from '../debug-session-manager';

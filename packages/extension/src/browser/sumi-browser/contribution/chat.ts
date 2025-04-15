@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IChatAgentViewService } from '@opensumi/ide-ai-native/lib/browser/types';
-import { ChatAgentViewServiceToken, Disposable, IDisposable, ILogger } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IChatAgentViewService } from '@Nuvio-MCP/ide-ai-native/lib/browser/types';
+import { ChatAgentViewServiceToken, Disposable, IDisposable, ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import { AbstractSumiBrowserContributionRunner, IRunTimeParams } from '../types';
 

@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { formatLocalize, isString, uuid } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { formatLocalize, isString, uuid } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ArgumentProcessor,

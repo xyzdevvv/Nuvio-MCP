@@ -1,7 +1,7 @@
 import { IExtensionDescription } from './extension';
 import { VSCommand } from './model.api';
 
-import type { CancellationToken, IDisposable, Uri, UriComponents } from '@opensumi/ide-core-common';
+import type { CancellationToken, IDisposable, Uri, UriComponents } from '@Nuvio-MCP/ide-core-common';
 import type vscode from 'vscode';
 
 export interface ObjectIdentifier {

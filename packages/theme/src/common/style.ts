@@ -1,4 +1,4 @@
-import { IDisposable } from '@opensumi/ide-core-common';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 export interface IStyleInsertResult extends IDisposable {
   index: number;

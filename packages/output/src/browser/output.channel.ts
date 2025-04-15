@@ -1,12 +1,12 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { OUTPUT_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
-import { Deferred, Disposable, IEventBus, Schemes, URI, localize, strings, uuid } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelRef, IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import * as monaco from '@opensumi/ide-monaco';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { EditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { OUTPUT_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
+import { Deferred, Disposable, IEventBus, Schemes, URI, localize, strings, uuid } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelRef, IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { EditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
 
 import { ContentChangeEvent, ContentChangeEventPayload, ContentChangeType } from '../common';
 

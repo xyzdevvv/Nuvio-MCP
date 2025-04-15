@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Emitter, Event, IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IMenuRegistry, IMenubarItem, MenuNode } from './base';
 import { generateMergedCtxMenu } from './menu-util';

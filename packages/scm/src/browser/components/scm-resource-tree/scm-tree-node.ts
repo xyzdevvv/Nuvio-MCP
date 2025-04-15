@@ -1,5 +1,5 @@
-import { CompositeTreeNode, ITree, TreeNode } from '@opensumi/ide-components';
-import { URI, memoize, path } from '@opensumi/ide-core-browser';
+import { CompositeTreeNode, ITree, TreeNode } from '@Nuvio-MCP/ide-components';
+import { URI, memoize, path } from '@Nuvio-MCP/ide-core-browser';
 
 import { ISCMResource, ISCMResourceGroup } from '../../../common';
 import { isSCMResourceGroup } from '../../scm-util';

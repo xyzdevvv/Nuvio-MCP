@@ -2,11 +2,11 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import { Autowired, Injectable } from '@opensumi/di';
-import { Event, IDisposable } from '@opensumi/ide-core-browser';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { DisposableCollection, IProgress, IProgressStep, ProgressLocation } from '@opensumi/ide-core-common';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Event, IDisposable } from '@Nuvio-MCP/ide-core-browser';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { DisposableCollection, IProgress, IProgressStep, ProgressLocation } from '@Nuvio-MCP/ide-core-common';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { IDebugProgress } from '../common/debug-progress';
 import { DebugState, IDebugSession, IDebugSessionManager } from '../common/debug-session';

@@ -1,9 +1,9 @@
 import { ITerminalOptions } from '@xterm/xterm';
 import pickBy from 'lodash/pickBy';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { Emitter, Event } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 
 import {
   CodeTerminalSettingId,

@@ -3,8 +3,8 @@
  * 但我们要在这个 Service 上做一些封装，比如解析 terminal.type 等来制造一个假的 Profile
  */
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { OperatingSystem, PreferenceService, TerminalSettingsId, path } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { OperatingSystem, PreferenceService, TerminalSettingsId, path } from '@Nuvio-MCP/ide-core-browser';
 
 import {
   IResolveDefaultProfileOptions,

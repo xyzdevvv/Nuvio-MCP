@@ -1,4 +1,4 @@
-import { INativeCryptoService } from '@opensumi/ide-core-common';
+import { INativeCryptoService } from '@Nuvio-MCP/ide-core-common';
 
 import { MockInjector, createNodeInjector } from '../../../../tools/dev-tool/src/mock-injector';
 import { CryptoService } from '../../src/common-module/crypto.server';

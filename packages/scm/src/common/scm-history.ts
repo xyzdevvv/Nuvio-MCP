@@ -1,4 +1,4 @@
-import { Event, Uri } from '@opensumi/ide-core-common';
+import { Event, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { ISCMActionButtonDescriptor } from './scm';
 

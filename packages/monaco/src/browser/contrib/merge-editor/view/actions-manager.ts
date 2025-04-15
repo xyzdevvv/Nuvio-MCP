@@ -1,8 +1,8 @@
-import { Injectable } from '@opensumi/di';
-import { MergeConflictReportService } from '@opensumi/ide-core-browser/lib/ai-native/conflict-report.service';
-import { CancelResponse, Disposable, ErrorResponse, Event, ReplyResponse } from '@opensumi/ide-core-common';
-import { IEditorMouseEvent, MouseTargetType } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { Position } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/position';
+import { Injectable } from '@Nuvio-MCP/di';
+import { MergeConflictReportService } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/conflict-report.service';
+import { CancelResponse, Disposable, ErrorResponse, Event, ReplyResponse } from '@Nuvio-MCP/ide-core-common';
+import { IEditorMouseEvent, MouseTargetType } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { Position } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/position';
 
 import { MappingManagerService } from '../mapping-manager.service';
 import { DocumentMapping } from '../model/document-mapping';

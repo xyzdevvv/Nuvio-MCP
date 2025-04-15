@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-browser';
-import { derived, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-browser';
+import { derived, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import {
   IShellLaunchConfig,

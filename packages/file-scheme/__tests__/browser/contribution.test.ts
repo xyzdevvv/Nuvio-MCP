@@ -1,18 +1,18 @@
-import { PreferenceService, URI } from '@opensumi/ide-core-browser';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { PreferenceService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
   EditorOpenType,
   IEditorOpenType,
   IResource,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorComponentRegistryImpl } from '@opensumi/ide-editor/lib/browser/component';
-import { FileSystemEditorComponentContribution } from '@opensumi/ide-file-scheme/lib/browser/file-scheme.contribution';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { ILanguageService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorComponentRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/component';
+import { FileSystemEditorComponentContribution } from '@Nuvio-MCP/ide-file-scheme/lib/browser/file-scheme.contribution';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { ILanguageService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 const createMockResource = (uriString: string) => ({ uri: new URI(uriString) } as any as IResource);
 

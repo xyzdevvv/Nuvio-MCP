@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Emitter,
   Event,
   ICredentialsChangeEvent,
   INativeCredentialService,
   KeytarServicePath,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 export const ICredentialsService = Symbol('ICredentialsService');
 

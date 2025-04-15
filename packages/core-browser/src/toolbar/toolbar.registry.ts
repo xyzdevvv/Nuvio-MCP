@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ContributionProvider, Domain, Emitter, Event, IDisposable, WithEventBus } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ContributionProvider, Domain, Emitter, Event, IDisposable, WithEventBus } from '@Nuvio-MCP/ide-core-common';
 
 import { ClientAppContribution } from '../common';
 import { ContextKeyChangeEvent, IContextKeyService } from '../context-key';

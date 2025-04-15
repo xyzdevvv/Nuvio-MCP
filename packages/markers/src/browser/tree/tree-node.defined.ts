@@ -1,4 +1,4 @@
-import { CompositeTreeNode, ITree, TreeNode } from '@opensumi/ide-components';
+import { CompositeTreeNode, ITree, TreeNode } from '@Nuvio-MCP/ide-components';
 
 import { IMarkerService, IRenderableMarker, IRenderableMarkerModel } from '../../common/types';
 import { SeverityIconStyle } from '../markers-seriverty-icon';

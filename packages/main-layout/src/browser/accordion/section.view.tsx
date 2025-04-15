@@ -8,14 +8,14 @@ import {
   useDesignStyles,
   useInjectable,
   useViewState,
-} from '@opensumi/ide-core-browser';
-import { Layout } from '@opensumi/ide-core-browser/lib/components';
-import { InlineActionBar, InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { IContextMenu, IMenu, isIMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { ProgressBar } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { transformLabelWithCodicon } from '@opensumi/ide-core-browser/lib/utils/label';
-import { IIconService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Layout } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { InlineActionBar, InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { IContextMenu, IMenu, isIMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { ProgressBar } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { transformLabelWithCodicon } from '@Nuvio-MCP/ide-core-browser/lib/utils/label';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
 
 import { AccordionService } from './accordion.service';
 import styles from './styles.module.less';

@@ -1,4 +1,4 @@
-import { createMarkedRenderer, toMarkdownHtml } from '@opensumi/ide-components/lib/utils';
+import { createMarkedRenderer, toMarkdownHtml } from '@Nuvio-MCP/ide-components/lib/utils';
 
 import { PROMPT_VALIDATE_TYPE, PromptValidateMessage, TreeNodeType } from '../../../src';
 import { NewPromptHandle, RenamePromptHandle } from '../../../src/recycle-tree/prompt';

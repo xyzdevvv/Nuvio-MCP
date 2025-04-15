@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { useCallback } from 'react';
 
-import { Badge, Button, Icon, Popover, PopoverTriggerType } from '@opensumi/ide-components';
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { MCPConfigServiceToken, localize } from '@opensumi/ide-core-common';
+import { Badge, Button, Icon, Popover, PopoverTriggerType } from '@Nuvio-MCP/ide-components';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { MCPConfigServiceToken, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { BUILTIN_MCP_SERVER_NAME } from '../../../../common';
 import { MCPServerDescription } from '../../../../common/mcp-server-manager';

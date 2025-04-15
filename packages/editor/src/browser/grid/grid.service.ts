@@ -1,5 +1,5 @@
-import { Emitter, IDisposable, IEventBus, MaybeNull } from '@opensumi/ide-core-browser';
-import { DisposableStore, makeRandomHexString } from '@opensumi/ide-core-common';
+import { Emitter, IDisposable, IEventBus, MaybeNull } from '@Nuvio-MCP/ide-core-browser';
+import { DisposableStore, makeRandomHexString } from '@Nuvio-MCP/ide-core-common';
 
 import { Direction, IEditorGroup, IEditorGroupState } from '../../common';
 import { GridResizeEvent } from '../types';

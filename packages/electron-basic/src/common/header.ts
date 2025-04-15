@@ -1,4 +1,4 @@
-import { Event } from '@opensumi/ide-core-browser';
+import { Event } from '@Nuvio-MCP/ide-core-browser';
 export const IElectronHeaderService = Symbol('IElectronHeaderService');
 
 export interface IElectronHeaderService {
@@ -31,7 +31,7 @@ export interface IElectronHeaderService {
    * - `${folderPath}`: file path of the workspace folder the file is contained in (e.g. /Users/Development/myFolder).
    * - `${rootName}`: name of the opened workspace or folder (e.g. myFolder or myWorkspace).
    * - `${rootPath}`: file path of the opened workspace or folder (e.g. /Users/Development/myWorkspace).
-   * - `${appName}`: e.g. OpenSumi.
+   * - `${appName}`: e.g. Nuvio-MCP.
    * - `${remoteName}`: e.g. SSH
    * - `${dirty}`: an indicator for when the active editor has unsaved changes.
    * - `${separator}`: a conditional separator (" - ") that only shows when surrounded by variables with values or static text.

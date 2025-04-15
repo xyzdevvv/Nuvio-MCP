@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { GlobalBrowserStorageService } from '@opensumi/ide-core-browser/lib/services';
-import { FileStat } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { GlobalBrowserStorageService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 import { IWorkspaceService, IWorkspaceStorageService } from '../common';
 

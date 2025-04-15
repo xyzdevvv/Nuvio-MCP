@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { BinaryBuffer, Emitter, Event, FileSystemProviderCapabilities, Uri } from '@opensumi/ide-core-browser';
-import { FileChangeEvent, FileStat, FileSystemProvider, FileType } from '@opensumi/ide-file-service';
+import { Injectable } from '@Nuvio-MCP/di';
+import { BinaryBuffer, Emitter, Event, FileSystemProviderCapabilities, Uri } from '@Nuvio-MCP/ide-core-browser';
+import { FileChangeEvent, FileStat, FileSystemProvider, FileType } from '@Nuvio-MCP/ide-file-service';
 
 /**
  * 解析 ext:// 文件，解决前端插件加载问题

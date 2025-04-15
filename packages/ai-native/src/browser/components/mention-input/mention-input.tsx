@@ -1,10 +1,10 @@
 import cls from 'classnames';
 import * as React from 'react';
 
-import { formatLocalize, getSymbolIcon, localize } from '@opensumi/ide-core-browser';
-import { Icon, Popover, PopoverPosition, Select, getIcon } from '@opensumi/ide-core-browser/lib/components';
-import { EnhanceIcon } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { URI } from '@opensumi/ide-utils';
+import { formatLocalize, getSymbolIcon, localize } from '@Nuvio-MCP/ide-core-browser';
+import { Icon, Popover, PopoverPosition, Select, getIcon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EnhanceIcon } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { URI } from '@Nuvio-MCP/ide-utils';
 
 import { FileContext } from '../../../common/llm-context';
 

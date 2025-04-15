@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Emitter, Event, IDisposable, ILogger, URI, arrays } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, IDisposable, ILogger, URI, arrays } from '@Nuvio-MCP/ide-core-browser';
 
 import { IEditor } from '../common';
 

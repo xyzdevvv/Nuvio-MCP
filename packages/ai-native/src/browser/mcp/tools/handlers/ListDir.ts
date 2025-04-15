@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, Throttler, URI } from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, Throttler, URI } from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 /**
  * 并发限制器

@@ -8,7 +8,7 @@ import {
   // URI: 在 vscode 中的 uri 基础上包装了一些基础方法
   Uri,
   transformErrorForSerialization,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IRPCProtocol, ProxyIdentifier } from './rpc/multiplexer';
 

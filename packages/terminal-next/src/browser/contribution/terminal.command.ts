@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   COMMON_COMMANDS,
@@ -15,8 +15,8 @@ import {
   TerminalSettingsId,
   URI,
   getIcon,
-} from '@opensumi/ide-core-browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import {
   ITerminalApiService,

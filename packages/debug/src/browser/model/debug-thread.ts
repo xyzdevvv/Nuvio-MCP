@@ -1,5 +1,5 @@
-import { Emitter, Event } from '@opensumi/ide-core-browser';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-browser';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { DEBUG_REPORT_NAME, IDebugExceptionInfo } from '../../common';
 import { DebugSession } from '../debug-session';

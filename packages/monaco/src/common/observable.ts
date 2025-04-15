@@ -1,22 +1,22 @@
 // @ts-nocheck
-import { autorun, autorunOpts } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/autorun';
+import { autorun, autorunOpts } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/autorun';
 import {
   IObservable,
   IObserver,
   IReader,
   observableValue,
   transaction,
-} from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
-import { IDisposable } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/commonFacade/deps';
-import { derived } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/derived';
-import { observableFromEvent } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/utils';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+import { IDisposable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/commonFacade/deps';
+import { derived } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/derived';
+import { observableFromEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/utils';
 
-export * from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/autorun';
-export * from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
-export * from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/debugName';
-export * from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/derived';
-export * from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/logging';
-export * from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/utils';
+export * from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/autorun';
+export * from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+export * from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/debugName';
+export * from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/derived';
+export * from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/logging';
+export * from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/utils';
 
 export function autorunDelta<T>(
   observable: IObservable<T>,

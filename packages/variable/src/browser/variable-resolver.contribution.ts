@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Command,
@@ -8,7 +8,7 @@ import {
   Domain,
   VariableContribution,
   VariableRegistry,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { VariableQuickOpenService } from './variable-quick-open.service';
 

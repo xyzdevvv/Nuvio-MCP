@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Emitter, IContextKey, IContextKeyService, URI, arrays, uuid } from '@opensumi/ide-core-browser';
-import { TestingHasAnyResults, TestingIsRunning } from '@opensumi/ide-core-browser/lib/contextkey/testing';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Emitter, IContextKey, IContextKeyService, URI, arrays, uuid } from '@Nuvio-MCP/ide-core-browser';
+import { TestingHasAnyResults, TestingIsRunning } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/testing';
 
 import { ITestProfileService, TestProfileServiceToken } from '../common/test-profile';
 import {

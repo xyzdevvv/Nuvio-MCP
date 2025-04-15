@@ -1,5 +1,5 @@
-import { Event, IDisposable, UriComponents } from '@opensumi/ide-core-common';
-import { EditorGroupColumn } from '@opensumi/ide-editor/lib/common';
+import { Event, IDisposable, UriComponents } from '@Nuvio-MCP/ide-core-common';
+import { EditorGroupColumn } from '@Nuvio-MCP/ide-editor/lib/common';
 
 import type * as vscode from 'vscode';
 

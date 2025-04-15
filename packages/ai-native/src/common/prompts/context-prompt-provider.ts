@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/common/editor';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common/editor';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { SerializedContext } from '../llm-context';
 

@@ -1,7 +1,7 @@
 import { act } from 'react-dom/test-utils';
 
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { MockClientApp, createBrowserApp } from '@opensumi/ide-dev-tool/src/injector-helper';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { MockClientApp, createBrowserApp } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
 
 import { OverlayModule } from '../../src/browser';
 import { IDialogService } from '../../src/common';

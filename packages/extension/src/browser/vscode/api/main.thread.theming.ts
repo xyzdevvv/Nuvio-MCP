@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IDisposable } from '@opensumi/ide-core-common';
-import { IThemeService } from '@opensumi/ide-theme';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { ExtHostAPIIdentifier, IExtHostTheming, IMainThreadTheming } from '../../../common/vscode';
 

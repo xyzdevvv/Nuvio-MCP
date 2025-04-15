@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Button, CheckBox, Select } from '@opensumi/ide-components';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Button, CheckBox, Select } from '@Nuvio-MCP/ide-components';
 import {
   IToolbarRegistry,
   PreferenceScope,
   PreferenceService,
   localize,
   useInjectable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import styles from './style.module.less';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { formatLocalize } from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
+import { formatLocalize } from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
 
 import styles from './extension-tree-view.module.less';
 

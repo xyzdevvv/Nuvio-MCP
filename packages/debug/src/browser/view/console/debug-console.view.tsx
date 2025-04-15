@@ -11,7 +11,7 @@ import {
   RecycleTree,
   TreeNode,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   CoreConfiguration,
   PreferenceChange,
@@ -20,9 +20,9 @@ import {
   getIcon,
   useDesignStyles,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { Disposable } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common/main-layout.definition';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common/main-layout.definition';
 
 import { DEBUG_CONSOLE_CONTAINER_ID } from '../../../common';
 import { LinkDetector } from '../../debug-link-detector';

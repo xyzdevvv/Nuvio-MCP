@@ -1,10 +1,10 @@
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
-import { Uri, uuid } from '@opensumi/ide-core-common';
-import { MainThreadEnv } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.env';
-import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import { UIKind } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import { createEnvApiFactory } from '@opensumi/ide-extension/lib/hosted/api/vscode/env/envApiFactory';
-import { ExtHostEnv } from '@opensumi/ide-extension/lib/hosted/api/vscode/env/ext.host.env';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
+import { Uri, uuid } from '@Nuvio-MCP/ide-core-common';
+import { MainThreadEnv } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.env';
+import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { UIKind } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import { createEnvApiFactory } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/env/envApiFactory';
+import { ExtHostEnv } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/env/ext.host.env';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
@@ -104,12 +104,12 @@ describe('vscode extHostEnv Test', () => {
     });
 
     it('asExternalUri remote uri', async () => {
-      const uri = Uri.parse('https://opensumi.com/workspaces/5fb21cc29b67dcd76a27272f');
+      const uri = Uri.parse('https://Nuvio-MCP.com/workspaces/5fb21cc29b67dcd76a27272f');
       const externalUri = await env.asExternalUri(uri);
       expect(externalUri.scheme).toBe('https');
-      expect(externalUri.authority).toBe('opensumi.com');
+      expect(externalUri.authority).toBe('Nuvio-MCP.com');
       expect(externalUri.path.toString()).toBe('/workspaces/5fb21cc29b67dcd76a27272f');
-      expect(externalUri.toString(true)).toBe('https://opensumi.com/workspaces/5fb21cc29b67dcd76a27272f');
+      expect(externalUri.toString(true)).toBe('https://Nuvio-MCP.com/workspaces/5fb21cc29b67dcd76a27272f');
     });
 
     it('asExternalUri appUriScheme', async () => {

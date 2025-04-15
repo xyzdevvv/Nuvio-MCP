@@ -1,10 +1,10 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { CommandService, getIcon } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CommandService, getIcon } from '@Nuvio-MCP/ide-core-browser';
 import {
   IToolbarActionGroup,
   IToolbarActionService,
-} from '@opensumi/ide-core-browser/lib/menu/next/toolbar-action.service';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next/toolbar-action.service';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 

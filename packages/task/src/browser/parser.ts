@@ -26,7 +26,7 @@ import {
   mixin,
   objects,
   uuid,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IProblemReporter, getProblemMatcherFn, getProblemPatternFn } from './task-config';
 

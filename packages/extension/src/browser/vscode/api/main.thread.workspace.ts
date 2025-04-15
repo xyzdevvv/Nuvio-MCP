@@ -1,13 +1,13 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CancellationToken, IDisposable, ILogger, OnEvent, URI, WithEventBus } from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IExtensionStorageService } from '@opensumi/ide-extension-storage';
-import { FileSearchServicePath, IFileSearchService } from '@opensumi/ide-file-search/lib/common';
-import { FileStat } from '@opensumi/ide-file-service';
-import { IBulkEditResult, ResourceEdit } from '@opensumi/ide-monaco/lib/browser/monaco-api/index';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { IBulkEditServiceShape, WorkspaceEditDidRenameFileEvent } from '@opensumi/ide-workspace-edit';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CancellationToken, IDisposable, ILogger, OnEvent, URI, WithEventBus } from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IExtensionStorageService } from '@Nuvio-MCP/ide-extension-storage';
+import { FileSearchServicePath, IFileSearchService } from '@Nuvio-MCP/ide-file-search/lib/common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
+import { IBulkEditResult, ResourceEdit } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/index';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { IBulkEditServiceShape, WorkspaceEditDidRenameFileEvent } from '@Nuvio-MCP/ide-workspace-edit';
 
 import { ExtHostAPIIdentifier, IExtHostStorage, IExtHostWorkspace, IMainThreadWorkspace } from '../../../common/vscode';
 

@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IReporterService, uuid } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IReporterService, uuid } from '@Nuvio-MCP/ide-core-common';
 import {
   AIServiceType,
   AI_REPORTER_NAME,
   IAIReporter,
   ReportInfo,
-} from '@opensumi/ide-core-common/lib/types/ai-native/reporter';
+} from '@Nuvio-MCP/ide-core-common/lib/types/ai-native/reporter';
 
 @Injectable()
 export class AIReporter implements IAIReporter {

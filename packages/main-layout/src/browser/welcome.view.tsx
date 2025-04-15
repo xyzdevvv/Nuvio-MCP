@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { Button } from '@opensumi/ide-components/lib/button';
-import { IContextKeyService, IOpenerService, getExternalIcon, useInjectable } from '@opensumi/ide-core-browser';
-import { parseLinkedText } from '@opensumi/ide-core-common';
+import { Button } from '@Nuvio-MCP/ide-components/lib/button';
+import { IContextKeyService, IOpenerService, getExternalIcon, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { parseLinkedText } from '@Nuvio-MCP/ide-core-common';
 
 import { IViewContentDescriptor } from '../common';
 

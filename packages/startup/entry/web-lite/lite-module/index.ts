@@ -1,11 +1,11 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule, LogServiceForClientPath } from '@opensumi/ide-core-browser';
-import { CommonServerPath, KeytarServicePath } from '@opensumi/ide-core-common';
-import { IDebugService } from '@opensumi/ide-debug';
-import { DebugPreferences } from '@opensumi/ide-debug/lib/browser/debug-preferences';
-import { ExtensionNodeServiceServerPath } from '@opensumi/ide-extension/lib/common';
-import { FileSearchServicePath } from '@opensumi/ide-file-search/lib/common';
-import { ITerminalProfileService } from '@opensumi/ide-terminal-next';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, LogServiceForClientPath } from '@Nuvio-MCP/ide-core-browser';
+import { CommonServerPath, KeytarServicePath } from '@Nuvio-MCP/ide-core-common';
+import { IDebugService } from '@Nuvio-MCP/ide-debug';
+import { DebugPreferences } from '@Nuvio-MCP/ide-debug/lib/browser/debug-preferences';
+import { ExtensionNodeServiceServerPath } from '@Nuvio-MCP/ide-extension/lib/common';
+import { FileSearchServicePath } from '@Nuvio-MCP/ide-file-search/lib/common';
+import { ITerminalProfileService } from '@Nuvio-MCP/ide-terminal-next';
 
 import { ExtensionClientService } from './extension';
 import { FileProviderContribution } from './file-provider/index.contribution';

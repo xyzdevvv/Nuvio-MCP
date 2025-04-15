@@ -1,5 +1,5 @@
-import { Injector } from '@opensumi/di';
-import { ConstructorOf, Position } from '@opensumi/ide-core-browser';
+import { Injector } from '@Nuvio-MCP/di';
+import { ConstructorOf, Position } from '@Nuvio-MCP/ide-core-browser';
 
 import { LineRange } from '../model/line-range';
 

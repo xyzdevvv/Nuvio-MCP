@@ -18,8 +18,8 @@
 
 import { IGrammarConfiguration } from 'vscode-textmate';
 
-import { Injectable } from '@opensumi/di';
-import { URI, getDebugLogger } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { URI, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 import { TokenizerOption } from './textmate-tokenizer';
 

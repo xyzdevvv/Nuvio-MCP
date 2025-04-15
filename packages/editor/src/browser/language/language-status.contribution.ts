@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Domain,
@@ -7,7 +7,7 @@ import {
   StatusBarAlignment,
   WithEventBus,
   localize,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { IEditor, ILanguageStatus, ILanguageStatusService, WorkbenchEditorService } from '../../common';
 import { EditorDocumentModelOptionChangedEvent } from '../doc-model/types';

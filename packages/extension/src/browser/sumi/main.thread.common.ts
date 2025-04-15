@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IEventBus, OnEvent, WithEventBus } from '@opensumi/ide-core-browser';
-import { Disposable } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IEventBus, OnEvent, WithEventBus } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtHostSumiAPIIdentifier } from '../../common/sumi';
 import { IExtHostCommon, IMainThreadCommon } from '../../common/sumi/common';

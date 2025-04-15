@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { EnhanceIcon, Thumbs } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { ChatRenderRegistryToken, isUndefined, localize } from '@opensumi/ide-core-common';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { EnhanceIcon, Thumbs } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { ChatRenderRegistryToken, isUndefined, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { IChatInternalService } from '../../common/index';
 import { ChatInternalService } from '../chat/chat.internal.service';

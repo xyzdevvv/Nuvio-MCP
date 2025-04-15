@@ -10,7 +10,7 @@ const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 module.exports = {
   mode: process.env.NODE_ENV || 'development',
   entry: {
-    'editor.worker': '@opensumi/monaco-editor-core/esm/vs/editor/editor.worker.js',
+    'editor.worker': '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/editor.worker.js',
   },
   devtool: process.env.NODE_ENV === 'production' ? false : 'source-map',
   output: {

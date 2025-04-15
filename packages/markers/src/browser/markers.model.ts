@@ -1,5 +1,5 @@
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { Disposable, IMarker, MarkerSeverity, URI, arrays, compareRangesUsingStarts } from '@opensumi/ide-core-common';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { Disposable, IMarker, MarkerSeverity, URI, arrays, compareRangesUsingStarts } from '@Nuvio-MCP/ide-core-common';
 
 import { IMarkerService, IRenderableMarkerModel, MarkerModelBuilder } from '../common';
 

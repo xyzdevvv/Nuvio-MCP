@@ -1,5 +1,5 @@
-import { Autowired } from '@opensumi/di';
-import { Domain } from '@opensumi/ide-core-browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain } from '@Nuvio-MCP/ide-core-browser';
 
 
 import { ResourceService } from '../../common';

@@ -1,15 +1,15 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Disposable, Emitter, Event, FRAME_THREE, Schemes, Uri, randomString, sleep } from '@opensumi/ide-core-browser';
-import { ISingleEditOperation } from '@opensumi/ide-editor';
-import { ICodeEditor, ITextModel, Range, Selection } from '@opensumi/ide-monaco';
-import { StandaloneServices } from '@opensumi/ide-monaco/lib/browser/monaco-api/services';
-import { ISettableObservable, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { LineRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/lineRange';
-import { linesDiffComputers } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/linesDiffComputers';
-import { DetailedLineRangeMapping } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
-import { IModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/model';
-import { LineTokens } from '@opensumi/monaco-editor-core/esm/vs/editor/common/tokens/lineTokens';
-import { UndoRedoGroup } from '@opensumi/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event, FRAME_THREE, Schemes, Uri, randomString, sleep } from '@Nuvio-MCP/ide-core-browser';
+import { ISingleEditOperation } from '@Nuvio-MCP/ide-editor';
+import { ICodeEditor, ITextModel, Range, Selection } from '@Nuvio-MCP/ide-monaco';
+import { StandaloneServices } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/services';
+import { ISettableObservable, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { LineRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/lineRange';
+import { linesDiffComputers } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/linesDiffComputers';
+import { DetailedLineRangeMapping } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
+import { IModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/model';
+import { LineTokens } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/tokens/lineTokens';
+import { UndoRedoGroup } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
 
 import { InlineStreamDiffComputer } from './inline-stream-diff-computer';
 import { LivePreviewDiffDecorationModel } from './live-preview.decoration';

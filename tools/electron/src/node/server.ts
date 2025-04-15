@@ -2,10 +2,10 @@
 import inspector from 'inspector';
 import net from 'net';
 
-import { Deferred, LogLevel } from '@opensumi/ide-core-common';
-import { DEFAULT_OPENVSX_REGISTRY } from '@opensumi/ide-core-common/lib/const';
-import { IServerAppOpts, NodeModule, ServerApp } from '@opensumi/ide-core-node';
-import { parseArgv } from '@opensumi/ide-utils/lib/argv';
+import { Deferred, LogLevel } from '@Nuvio-MCP/ide-core-common';
+import { DEFAULT_OPENVSX_REGISTRY } from '@Nuvio-MCP/ide-core-common/lib/const';
+import { IServerAppOpts, NodeModule, ServerApp } from '@Nuvio-MCP/ide-core-node';
+import { parseArgv } from '@Nuvio-MCP/ide-utils/lib/argv';
 const argv = parseArgv(process.argv.slice(2));
 
 export async function startServer(arg1: NodeModule[] | Partial<IServerAppOpts>) {

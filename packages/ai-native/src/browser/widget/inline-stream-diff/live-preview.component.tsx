@@ -2,24 +2,24 @@ import cls from 'classnames';
 import React, { useCallback, useEffect } from 'react';
 import ReactDOMClient from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { KeybindingRegistry, useDisposable } from '@opensumi/ide-core-browser';
-import { AI_INLINE_DIFF_PARTIAL_EDIT } from '@opensumi/ide-core-browser/lib/ai-native/command';
-import { Emitter, Event, IPosition, isDefined, isUndefined, localize, uuid } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { KeybindingRegistry, useDisposable } from '@Nuvio-MCP/ide-core-browser';
+import { AI_INLINE_DIFF_PARTIAL_EDIT } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
+import { Emitter, Event, IPosition, isDefined, isUndefined, localize, uuid } from '@Nuvio-MCP/ide-core-common';
 import {
   ICodeEditor,
   IEditorDecorationsCollection,
   IModelDecorationsChangedEvent,
   Position,
-} from '@opensumi/ide-monaco';
-import { ReactInlineContentWidget } from '@opensumi/ide-monaco/lib/browser/ai-native/BaseInlineContentWidget';
-import { URI } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { ContentWidgetPositionPreference } from '@opensumi/ide-monaco/lib/browser/monaco-exports/editor';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import { IScrollEvent } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
-import { LineTokens } from '@opensumi/monaco-editor-core/esm/vs/editor/common/tokens/lineTokens';
-import { IOptions, ZoneWidget } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget';
-import { UndoRedoGroup } from '@opensumi/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
+} from '@Nuvio-MCP/ide-monaco';
+import { ReactInlineContentWidget } from '@Nuvio-MCP/ide-monaco/lib/browser/ai-native/BaseInlineContentWidget';
+import { URI } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { ContentWidgetPositionPreference } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-exports/editor';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { IScrollEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { LineTokens } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/tokens/lineTokens';
+import { IOptions, ZoneWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget';
+import { UndoRedoGroup } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
 
 import {
   DeltaDecorations,

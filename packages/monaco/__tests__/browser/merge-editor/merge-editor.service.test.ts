@@ -1,16 +1,16 @@
 import { act } from 'react-dom/test-utils';
 
-import { MonacoOverrideServiceRegistry, MonacoService, URI } from '@opensumi/ide-core-browser';
-import { IOpenMergeEditorArgs, MergeEditorInputData } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { MappingManagerService } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/mapping-manager.service';
-import { MergeEditorService } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/merge-editor.service';
-import { monaco } from '@opensumi/ide-monaco/lib/browser/monaco-api/index';
-import MonacoServiceImpl from '@opensumi/ide-monaco/lib/browser/monaco.service';
-import { MonacoOverrideServiceRegistryImpl } from '@opensumi/ide-monaco/lib/browser/override.service.registry';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { WorkspaceService } from '@opensumi/ide-workspace/lib/browser/workspace-service';
+import { MonacoOverrideServiceRegistry, MonacoService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { IOpenMergeEditorArgs, MergeEditorInputData } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { MappingManagerService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/mapping-manager.service';
+import { MergeEditorService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/merge-editor.service';
+import { monaco } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/index';
+import MonacoServiceImpl from '@Nuvio-MCP/ide-monaco/lib/browser/monaco.service';
+import { MonacoOverrideServiceRegistryImpl } from '@Nuvio-MCP/ide-monaco/lib/browser/override.service.registry';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/browser/workspace-service';
 
 let injector: MockInjector;
 

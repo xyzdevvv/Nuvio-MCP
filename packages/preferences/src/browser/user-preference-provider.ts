@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { Schemes, URI } from '@opensumi/ide-core-browser';
-import { PreferenceScope } from '@opensumi/ide-core-browser/lib/preferences';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Schemes, URI } from '@Nuvio-MCP/ide-core-browser';
+import { PreferenceScope } from '@Nuvio-MCP/ide-core-browser/lib/preferences';
 
 import { AbstractResourcePreferenceProvider } from './abstract-resource-preference-provider';
 

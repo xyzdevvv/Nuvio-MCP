@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   ContributionProvider,
@@ -8,7 +8,7 @@ import {
   IDisposable,
   ILogger,
   Schemes,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { IDiskFileProvider, IFileServiceClient } from '../common';
 

@@ -1,7 +1,7 @@
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
-import { uuid } from '@opensumi/ide-core-common';
-import { MockInjector, mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
+import { uuid } from '@Nuvio-MCP/ide-core-common';
+import { MockInjector, mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import { getClientId } from '../../../src/browser/extension.contribution';
 

@@ -1,42 +1,42 @@
 /* istanbul ignore file */
-import { LayoutConfig, SlotLocation } from '@opensumi/ide-core-browser';
+import { LayoutConfig, SlotLocation } from '@Nuvio-MCP/ide-core-browser';
 
 import { DROP_BOTTOM_CONTAINER, DROP_RIGHT_CONTAINER } from '../common';
 
 export const defaultConfig: LayoutConfig = {
   [SlotLocation.top]: {
-    modules: ['@opensumi/ide-menu-bar'],
+    modules: ['@Nuvio-MCP/ide-menu-bar'],
   },
   [SlotLocation.action]: {
-    modules: ['@opensumi/ide-toolbar-action'],
+    modules: ['@Nuvio-MCP/ide-toolbar-action'],
   },
   [SlotLocation.left]: {
     modules: [
-      '@opensumi/ide-explorer',
-      '@opensumi/ide-search',
-      '@opensumi/ide-scm',
-      '@opensumi/ide-extension-manager',
-      '@opensumi/ide-debug',
-      '@opensumi/ide-notebook',
+      '@Nuvio-MCP/ide-explorer',
+      '@Nuvio-MCP/ide-search',
+      '@Nuvio-MCP/ide-scm',
+      '@Nuvio-MCP/ide-extension-manager',
+      '@Nuvio-MCP/ide-debug',
+      '@Nuvio-MCP/ide-notebook',
     ],
   },
   [SlotLocation.right]: {
     modules: [DROP_RIGHT_CONTAINER],
   },
   [SlotLocation.main]: {
-    modules: ['@opensumi/ide-editor'],
+    modules: ['@Nuvio-MCP/ide-editor'],
   },
   [SlotLocation.bottom]: {
     modules: [
       DROP_BOTTOM_CONTAINER,
-      '@opensumi/ide-terminal-next',
-      '@opensumi/ide-output',
+      '@Nuvio-MCP/ide-terminal-next',
+      '@Nuvio-MCP/ide-output',
       'debug-console',
-      '@opensumi/ide-markers',
+      '@Nuvio-MCP/ide-markers',
     ],
   },
   [SlotLocation.statusBar]: {
-    modules: ['@opensumi/ide-status-bar'],
+    modules: ['@Nuvio-MCP/ide-status-bar'],
   },
   [SlotLocation.extra]: {
     modules: ['breadcrumb-menu'],

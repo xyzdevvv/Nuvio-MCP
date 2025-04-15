@@ -1,6 +1,6 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiContextMenu } from './context-menu';
-import { OpenSumiEditor } from './editor';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPContextMenu } from './context-menu';
+import { Nuvio-MCPEditor } from './editor';
 import { isElementVisible } from './utils';
 
 export interface IComponentEditorInfo {
@@ -9,8 +9,8 @@ export interface IComponentEditorInfo {
   containerSelector: string;
 }
 
-export class OpenSumiComponentEditor extends OpenSumiEditor {
-  constructor(app: OpenSumiApp, private readonly info: IComponentEditorInfo) {
+export class Nuvio-MCPComponentEditor extends Nuvio-MCPEditor {
+  constructor(app: Nuvio-MCPApp, private readonly info: IComponentEditorInfo) {
     super(app);
   }
 
@@ -19,7 +19,7 @@ export class OpenSumiComponentEditor extends OpenSumiEditor {
     if (!view) {
       return;
     }
-    return OpenSumiContextMenu.open(this.app, async () => view);
+    return Nuvio-MCPContextMenu.open(this.app, async () => view);
   }
 
   async close() {

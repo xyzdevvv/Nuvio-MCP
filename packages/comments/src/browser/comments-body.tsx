@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { createMarkedRenderer, toMarkdownHtml } from '@opensumi/ide-components/lib/utils';
-import { IMarkdownString } from '@opensumi/ide-core-browser';
+import { createMarkedRenderer, toMarkdownHtml } from '@Nuvio-MCP/ide-components/lib/utils';
+import { IMarkdownString } from '@Nuvio-MCP/ide-core-browser';
 
 import styles from './comments.module.less';
 import { markdownCss } from './markdown.style';

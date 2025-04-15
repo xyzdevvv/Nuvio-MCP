@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { LabelService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser';
 import {
   Deferred,
   Disposable,
@@ -10,25 +10,25 @@ import {
   Schemes,
   URI,
   memoize,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   IEditorDocumentModelContentProvider,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelRef,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import * as monaco from '@opensumi/ide-monaco';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { IWorkspaceEditService } from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { IWorkspaceEditService } from '@Nuvio-MCP/ide-workspace-edit';
 
 import { IContentSearchClientService, ISearchTreeService } from '../../common/content-search';
 import { replace } from '../replace';
 import { SearchContextKey } from '../search-contextkey';
 import { SearchContentNode, SearchFileNode, SearchRoot } from '../tree/tree-node.defined';
 
-import type { IModelDeltaDecoration } from '@opensumi/ide-monaco/lib/browser/monaco-api/editor';
-import type { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { IModelDeltaDecoration } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/editor';
+import type { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 @Injectable()
 export class RangeHighlightDecorations implements IDisposable {

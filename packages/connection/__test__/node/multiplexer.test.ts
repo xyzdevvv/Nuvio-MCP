@@ -1,5 +1,5 @@
-import { Emitter, Uri } from '@opensumi/ide-core-common';
-import { createMockPairRPCProtocol } from '@opensumi/ide-extension/__mocks__/initRPCProtocol';
+import { Emitter, Uri } from '@Nuvio-MCP/ide-core-common';
+import { createMockPairRPCProtocol } from '@Nuvio-MCP/ide-extension/__mocks__/initRPCProtocol';
 
 import { ProxyIdentifier } from '../../src';
 import { SimpleConnection } from '../../src/common/connection/drivers/simple';
@@ -59,7 +59,7 @@ describe('connection', () => {
       timeout: 1000,
     });
 
-    const testTimeoutIdentifier = ProxyIdentifier.for('@opensumi/runner');
+    const testTimeoutIdentifier = ProxyIdentifier.for('@Nuvio-MCP/runner');
     timeoutAProtocol.set(testTimeoutIdentifier, {
       $test: jest.fn(),
     });
@@ -67,13 +67,13 @@ describe('connection', () => {
     await expect(timeoutBProtocol.getProxy(testTimeoutIdentifier).$test()).resolves.toBe(undefined);
 
     await expect(timeoutCProtocol.getProxy(testTimeoutIdentifier).$test()).rejects.toThrowErrorMatchingInlineSnapshot(
-      '"method @opensumi_runner/$test timeout"',
+      '"method @Nuvio-MCP_runner/$test timeout"',
     );
   });
   it('multiplexer rpc id can have slash', async () => {
     const { rpcProtocolExt, rpcProtocolMain } = createMockPairRPCProtocol();
 
-    const rpcId = '@opensumi/runner';
+    const rpcId = '@Nuvio-MCP/runner';
     const method = '$fetchConfigurations';
 
     rpcProtocolMain.set(ProxyIdentifier.for(rpcId), {

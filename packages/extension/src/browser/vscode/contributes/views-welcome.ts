@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { DisposableCollection, localize } from '@opensumi/ide-core-browser';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
-import { DEBUG_WELCOME_ID } from '@opensumi/ide-debug';
-import { FILE_EXPLORER_WELCOME_ID } from '@opensumi/ide-file-tree-next';
-import { IMainLayoutService, IViewContentDescriptor, IViewsRegistry } from '@opensumi/ide-main-layout';
-import { SCM_WELCOME_ID } from '@opensumi/ide-scm';
-import { ContextKeyExpr } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { DisposableCollection, localize } from '@Nuvio-MCP/ide-core-browser';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { DEBUG_WELCOME_ID } from '@Nuvio-MCP/ide-debug';
+import { FILE_EXPLORER_WELCOME_ID } from '@Nuvio-MCP/ide-file-tree-next';
+import { IMainLayoutService, IViewContentDescriptor, IViewsRegistry } from '@Nuvio-MCP/ide-main-layout';
+import { SCM_WELCOME_ID } from '@Nuvio-MCP/ide-scm';
+import { ContextKeyExpr } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 

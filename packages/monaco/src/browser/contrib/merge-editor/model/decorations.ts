@@ -1,11 +1,11 @@
-import { Injectable, Optional } from '@opensumi/di';
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common';
+import { Injectable, Optional } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 import {
   IModelDecorationsChangeAccessor,
   TrackedRangeStickiness,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { ModelDecorationOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
-import { IModelDecorationsChangedEvent } from '@opensumi/monaco-editor-core/esm/vs/editor/common/textModelEvents';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { ModelDecorationOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
+import { IModelDecorationsChangedEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/textModelEvents';
 
 import { ICodeEditor, IModelDeltaDecoration } from '../../../monaco-api/editor';
 import { DECORATIONS_CLASSNAME, EditorViewType } from '../types';

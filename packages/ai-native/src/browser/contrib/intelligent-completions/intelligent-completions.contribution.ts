@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   AINativeConfigService,
   ClientAppContribution,
@@ -6,13 +6,13 @@ import {
   KeybindingContribution,
   KeybindingRegistry,
   KeybindingScope,
-} from '@opensumi/ide-core-browser';
-import { AI_CODE_EDITS_COMMANDS } from '@opensumi/ide-core-browser/lib/ai-native/command';
-import { CodeEditsIsVisible } from '@opensumi/ide-core-browser/lib/contextkey/ai-native';
-import { CommandContribution, CommandRegistry, Domain } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import { transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { AI_CODE_EDITS_COMMANDS } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
+import { CodeEditsIsVisible } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/ai-native';
+import { CommandContribution, CommandRegistry, Domain } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import { transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { IntelligentCompletionsController } from './intelligent-completions.controller';
 

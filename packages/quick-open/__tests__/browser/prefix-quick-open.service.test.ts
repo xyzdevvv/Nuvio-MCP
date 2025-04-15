@@ -1,15 +1,15 @@
-import { EDITOR_COMMANDS, QUICK_OPEN_COMMANDS } from '@opensumi/ide-core-browser';
-import { CorePreferences } from '@opensumi/ide-core-browser/lib/core-preferences';
+import { EDITOR_COMMANDS, QUICK_OPEN_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { CorePreferences } from '@Nuvio-MCP/ide-core-browser/lib/core-preferences';
 import {
   QuickOpenItem,
   QuickOpenModel,
   QuickOpenOptions,
   QuickOpenService,
-} from '@opensumi/ide-core-browser/lib/quick-open';
-import { Deferred, ILogger, localize } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector, mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { Deferred, ILogger, localize } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector, mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { PrefixQuickOpenServiceImpl, QuickOpenHandlerRegistry } from '../../src/browser/prefix-quick-open.service';
 import { QuickTitleBar } from '../../src/browser/quick-title-bar';

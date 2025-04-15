@@ -1,18 +1,18 @@
 import React from 'react';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Deferred, MessageType, localize } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IObservable, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { IDialogService } from '@opensumi/ide-overlay';
-import { ResourceEdit } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Deferred, MessageType, localize } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IObservable, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
+import { ResourceEdit } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
 
 import { RefactorPreview } from './refactor-preview';
 
 import type {
   IWorkspaceFileEdit,
   IWorkspaceTextEdit,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 export const PreviewViewId = 'RefactorPreview';
 

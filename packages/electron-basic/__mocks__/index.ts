@@ -1,7 +1,7 @@
-import { AppConfig, SlotLocation, IElectronMainMenuService } from '@opensumi/ide-core-browser';
-import { IElectronMenuBarService } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/electron';
-import { IElectronMainLifeCycleService, IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { IMessageService } from '@opensumi/ide-overlay/lib/common';
+import { AppConfig, SlotLocation, IElectronMainMenuService } from '@Nuvio-MCP/ide-core-browser';
+import { IElectronMenuBarService } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/electron';
+import { IElectronMainLifeCycleService, IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay/lib/common';
 
 import { createBrowserInjector } from '../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../tools/dev-tool/src/mock-injector';
@@ -16,7 +16,7 @@ export const createElectronBasicInjector = (): MockInjector => {
       useValue: {
         layoutConfig: {
           [SlotLocation.top]: {
-            modules: ['@opensumi/ide-menu-bar'],
+            modules: ['@Nuvio-MCP/ide-menu-bar'],
           },
         },
       },

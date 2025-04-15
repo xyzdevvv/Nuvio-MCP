@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Provider } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Provider } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   BrowserModule,
@@ -20,18 +20,18 @@ import {
   formatLocalize,
   isOSX,
   isWindows,
-} from '@opensumi/ide-core-browser';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IElectronMenuBarService } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/electron';
-import { IElectronMainLifeCycleService, IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { IResourceOpenOptions } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IElectronMenuBarService } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/electron';
+import { IElectronMainLifeCycleService, IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { IResourceOpenOptions } from '@Nuvio-MCP/ide-editor';
 import {
   DragOverPosition,
   EditorGroupFileDropEvent,
   getSplitActionFromDragDrop,
-} from '@opensumi/ide-editor/lib/browser';
-import { IMessageService } from '@opensumi/ide-overlay/lib/common';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay/lib/common';
 
 import { IElectronHeaderService } from '../common/header';
 
@@ -138,7 +138,7 @@ export class ElectronBasicContribution
   registerComponent(registry: ComponentRegistry) {
     const top = this.config.layoutConfig[SlotLocation.top];
     if (top && top.modules) {
-      const index = top.modules.indexOf('@opensumi/ide-menu-bar');
+      const index = top.modules.indexOf('@Nuvio-MCP/ide-menu-bar');
       if (index !== -1) {
         top.modules.splice(index, 1, 'electron-header');
       }

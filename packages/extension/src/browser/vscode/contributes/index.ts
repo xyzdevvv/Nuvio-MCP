@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { PreferenceSchema, PreferenceSchemaProperties } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { PreferenceSchema, PreferenceSchemaProperties } from '@Nuvio-MCP/ide-core-browser';
 
 import { ExtensionContributesService, VSCodeContributePoint } from '../../../common';
 import { CustomEditorScheme } from '../../../common/vscode/custom-editor';

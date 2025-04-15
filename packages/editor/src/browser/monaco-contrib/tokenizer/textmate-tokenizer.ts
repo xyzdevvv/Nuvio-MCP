@@ -1,11 +1,11 @@
 import { IGrammar, INITIAL, StackElement } from 'vscode-textmate';
 
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common/lib/utils';
-import * as monaco from '@opensumi/ide-monaco';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common/lib/utils';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 import {
   MetadataConsts,
   TokenMetadata,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/encodedTokenAttributes';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/encodedTokenAttributes';
 
 export class TokenizerState implements monaco.languages.IState {
   constructor(public readonly ruleStack: StackElement) {}

@@ -13,7 +13,7 @@ import {
   normalizeMimeType,
   strings,
   uuid,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { FileOperationOptions } from './model.api';
 import { escapeCodicons } from './models/html-content';

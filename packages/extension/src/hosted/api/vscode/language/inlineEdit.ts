@@ -1,6 +1,6 @@
 import vscode, { CancellationToken } from 'vscode';
 
-import { DisposableStore, Uri as URI } from '@opensumi/ide-core-common';
+import { DisposableStore, Uri as URI } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtensionDocumentDataManager, IExtensionDescription, IdentifiableInlineEdit } from '../../../../common/vscode';
 import * as typeConvert from '../../../../common/vscode/converter';

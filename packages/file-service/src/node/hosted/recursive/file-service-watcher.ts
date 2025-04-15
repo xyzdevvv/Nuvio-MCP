@@ -12,8 +12,8 @@ import {
   IWatcher,
   RecursiveWatcherBackend,
   WatchOptions,
-} from '@opensumi/ide-core-common';
-import { ILogService } from '@opensumi/ide-core-common/lib/log';
+} from '@Nuvio-MCP/ide-core-common';
+import { ILogService } from '@Nuvio-MCP/ide-core-common/lib/log';
 import {
   Disposable,
   DisposableCollection,
@@ -24,7 +24,7 @@ import {
   isLinux,
   isWindows,
   parseGlob,
-} from '@opensumi/ide-core-common/lib/utils';
+} from '@Nuvio-MCP/ide-core-common/lib/utils';
 
 import { INsfw } from '../../../common/watcher';
 import { FileChangeCollection } from '../../file-change-collection';

@@ -3,13 +3,13 @@ import { dirname, join } from 'path';
 
 import { ensureDir, readFile, writeFile } from 'fs-extra';
 
-import { URI, iconvDecode, iconvEncode } from '@opensumi/ide-core-common';
+import { URI, iconvDecode, iconvEncode } from '@Nuvio-MCP/ide-core-common';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { FileStat, IFileService } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { FileStat, IFileService } from '@Nuvio-MCP/ide-file-service';
 
 import { IFileSchemeDocNodeService } from '../../src/common';
 import { FileSchemeNodeModule } from '../../src/node';

@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { Position } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/position';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { Position } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/position';
 
 import { IDebugBreakpoint } from '../../common';
 

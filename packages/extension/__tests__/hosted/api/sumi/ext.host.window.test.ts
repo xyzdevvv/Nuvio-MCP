@@ -1,7 +1,7 @@
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { IWindowInfo } from '@opensumi/ide-extension/lib/common/sumi/window';
-import { ExtHostIDEWindow, ExtIDEWebviewWindow } from '@opensumi/ide-extension/lib/hosted/api/sumi/ext.host.window';
-import { createWindowApiFactory } from '@opensumi/ide-extension/lib/hosted/api/sumi/ext.host.window';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { IWindowInfo } from '@Nuvio-MCP/ide-extension/lib/common/sumi/window';
+import { ExtHostIDEWindow, ExtIDEWebviewWindow } from '@Nuvio-MCP/ide-extension/lib/hosted/api/sumi/ext.host.window';
+import { createWindowApiFactory } from '@Nuvio-MCP/ide-extension/lib/hosted/api/sumi/ext.host.window';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { MainThreadSumiAPIIdentifier } from '../../../../src/common/sumi';
@@ -102,7 +102,7 @@ describe('packages/extension/__tests__/hosted/api/sumi/ext.host.window.test.ts',
     });
 
     it('loadUrl method should be work', () => {
-      window.loadUrl('http://opensumi.com');
+      window.loadUrl('http://Nuvio-MCP.com');
       expect(mockMainThreadIDEWindowProxy.$loadURL).toHaveBeenCalledTimes(1);
     });
 

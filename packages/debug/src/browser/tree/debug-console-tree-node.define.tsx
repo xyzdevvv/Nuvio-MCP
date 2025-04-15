@@ -2,9 +2,9 @@ import cls from 'classnames';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { CompositeTreeNode, ITree, TreeNode } from '@opensumi/ide-components';
-import { MessageType } from '@opensumi/ide-core-browser';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { CompositeTreeNode, ITree, TreeNode } from '@Nuvio-MCP/ide-components';
+import { MessageType } from '@Nuvio-MCP/ide-core-browser';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { LinkDetector } from '../debug-link-detector';
 import debugConsoleStyles from '../view/console/debug-console.module.less';

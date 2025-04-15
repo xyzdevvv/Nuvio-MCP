@@ -12,10 +12,10 @@ import {
   // @ts-ignore
 } from 'yjs';
 
-import { Injector } from '@opensumi/di';
-import { uuid } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+import { Injector } from '@Nuvio-MCP/di';
+import { uuid } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
 import { TextModelBinding } from '../../src/browser/textmodel-binding';
 import { DEFAULT_COLLABORATION_PORT, ICollaborationService } from '../../src/common';
@@ -52,7 +52,7 @@ describe('TextModelBinding test for yText and TextModel', () => {
     wsProvider = new WebsocketProvider(`ws://127.0.0.1:${DEFAULT_COLLABORATION_PORT}`, 'test', doc, { connect: false }); // we don't use wsProvider here
     user1 = createBindingWithTextModel(doc, wsProvider.awareness);
     user2 = createBindingWithTextModel(doc, wsProvider.awareness);
-    jest.mock('@opensumi/di');
+    jest.mock('@Nuvio-MCP/di');
   });
 
   afterEach(() => {

@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, ConfigProvider, useInjectable } from '@opensumi/ide-core-browser';
-import { formatLocalize, localize } from '@opensumi/ide-core-common';
-import { ICodeEditor } from '@opensumi/ide-monaco';
-import * as monaco from '@opensumi/ide-monaco';
-import { ZoneWidget } from '@opensumi/ide-monaco-enhance';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, ConfigProvider, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { formatLocalize, localize } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ZoneWidget } from '@Nuvio-MCP/ide-monaco-enhance';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
 
 import { IDebugExceptionInfo } from '../common';
 

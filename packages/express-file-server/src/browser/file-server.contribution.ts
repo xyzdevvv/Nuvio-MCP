@@ -1,9 +1,9 @@
-import { Autowired } from '@opensumi/di';
-import { AppConfig, Domain, Schemes, URI } from '@opensumi/ide-core-browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { AppConfig, Domain, Schemes, URI } from '@Nuvio-MCP/ide-core-browser';
 import {
   StaticResourceContribution,
   StaticResourceService,
-} from '@opensumi/ide-core-browser/lib/static-resource/static.definition';
+} from '@Nuvio-MCP/ide-core-browser/lib/static-resource/static.definition';
 
 import { EXPRESS_SERVER_PATH } from '../common';
 

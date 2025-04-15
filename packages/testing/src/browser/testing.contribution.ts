@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   CommandContribution,
@@ -16,11 +16,11 @@ import {
   URI,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { TEST_RESULT_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
-import { TestingCanRefreshTests, TestingIsPeekVisible } from '@opensumi/ide-core-browser/lib/contextkey/testing';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Emitter, IMarkdownString } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { TEST_RESULT_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
+import { TestingCanRefreshTests, TestingIsPeekVisible } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/testing';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Emitter, IMarkdownString } from '@Nuvio-MCP/ide-core-common';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
@@ -31,12 +31,12 @@ import {
   IResource,
   ResourceService,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/browser';
-import { IEditor } from '@opensumi/ide-editor/lib/common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { MARKDOWN_EDITOR_COMPONENT_ID } from '@opensumi/ide-markdown/lib/browser/contribution';
-import { MarkdownEditorComponent } from '@opensumi/ide-markdown/lib/browser/editor.markdown';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IEditor } from '@Nuvio-MCP/ide-editor/lib/common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { MARKDOWN_EDITOR_COMPONENT_ID } from '@Nuvio-MCP/ide-markdown/lib/browser/contribution';
+import { MarkdownEditorComponent } from '@Nuvio-MCP/ide-markdown/lib/browser/editor.markdown';
 
 import { TestServiceToken } from '../common';
 import {

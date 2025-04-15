@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { Autowired, Injectable } from '@opensumi/di';
-import { IChunkedPassword, INativeCredentialService, isWindows } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IChunkedPassword, INativeCredentialService, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 import { AppConfig } from '../types';
 

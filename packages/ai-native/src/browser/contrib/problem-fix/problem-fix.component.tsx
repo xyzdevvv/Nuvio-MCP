@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Button } from '@opensumi/ide-components';
-import { AppConfig, ConfigProvider, useInjectable } from '@opensumi/ide-core-browser';
-import { localize } from '@opensumi/ide-core-common';
-import { MarkerHover } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/hover/browser/markerHoverParticipant';
+import { Button } from '@Nuvio-MCP/ide-components';
+import { AppConfig, ConfigProvider, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { localize } from '@Nuvio-MCP/ide-core-common';
+import { MarkerHover } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/hover/browser/markerHoverParticipant';
 
 import styles from './problem-fix.module.less';
 import { ProblemFixService } from './problem-fix.service';

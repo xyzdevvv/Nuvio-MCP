@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Deferred,
   Disposable,
@@ -10,14 +10,14 @@ import {
   formatLocalize,
   rangeAreEqual,
   strings,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   IShellLaunchConfig,
   ITerminalClient,
   ITerminalController,
   ITerminalGroupViewService,
   ITerminalService,
-} from '@opensumi/ide-terminal-next/lib/common';
+} from '@Nuvio-MCP/ide-terminal-next/lib/common';
 
 import { ITaskExecutor } from '../common';
 import { ContributedTask, CustomTask, PresentationOptions, Task } from '../common/task';

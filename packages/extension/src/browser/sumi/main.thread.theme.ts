@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable } from '@opensumi/ide-core-browser';
-import { IThemeService, getColorRegistry } from '@opensumi/ide-theme';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable } from '@Nuvio-MCP/ide-core-browser';
+import { IThemeService, getColorRegistry } from '@Nuvio-MCP/ide-theme';
 
 import { ExtHostSumiAPIIdentifier } from '../../common/sumi';
 import { IExtHostTheme, IMainThreadTheme } from '../../common/sumi/theme';

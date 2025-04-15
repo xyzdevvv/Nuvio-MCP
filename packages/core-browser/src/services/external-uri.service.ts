@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import { AppConfig } from '../react-providers/config-provider';
 

@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   CancelResponse,
   Disposable,
@@ -11,20 +11,20 @@ import {
   ReplyResponse,
   RunOnceScheduler,
   localize,
-} from '@opensumi/ide-core-common';
-import { EditorGroupCloseEvent } from '@opensumi/ide-editor/lib/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICodeEditor } from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-common';
+import { EditorGroupCloseEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
 import {
   IObservable,
   ISettableObservable,
   observableFromEvent,
   observableValue,
-} from '@opensumi/ide-monaco/lib/common/observable';
-import { MessageService } from '@opensumi/ide-overlay/lib/browser/message.service';
-import { EditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
-import { LineRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/lineRange';
-import { ModelDecorationOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { MessageService } from '@Nuvio-MCP/ide-overlay/lib/browser/message.service';
+import { EditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+import { LineRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/lineRange';
+import { ModelDecorationOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
 
 import { AINativeContextKey } from '../../ai-core.contextkeys';
 import { BaseAIMonacoEditorController } from '../../contrib/base';

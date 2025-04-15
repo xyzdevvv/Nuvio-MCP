@@ -1,7 +1,7 @@
 {
-  "name": "@opensumi/ide-core-common",
+  "name": "@Nuvio-MCP/ide-core-common",
   "version": "3.8.2",
-  "description": "@opensumi/ide-core-common",
+  "description": "@Nuvio-MCP/ide-core-common",
   "files": [
     "lib",
     "src"
@@ -11,19 +11,19 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "scripts": {
     "prepublishOnly": "yarn run build",
     "build": "tsc --build ../../configs/ts/references/tsconfig.core-common.json"
   },
   "dependencies": {
-    "@opensumi/di": "^1.8.0",
-    "@opensumi/events": "^1.0.0",
-    "@opensumi/ide-utils": "workspace:*",
+    "@Nuvio-MCP/di": "^1.8.0",
+    "@Nuvio-MCP/events": "^1.0.0",
+    "@Nuvio-MCP/ide-utils": "workspace:*",
     "ai": "^4.1.45"
   },
   "devDependencies": {
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

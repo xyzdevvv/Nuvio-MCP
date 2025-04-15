@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   CancellationTokenSource,
   Disposable,
@@ -16,7 +16,7 @@ import {
   localize,
   strings,
   toDisposable,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   IDecoration,

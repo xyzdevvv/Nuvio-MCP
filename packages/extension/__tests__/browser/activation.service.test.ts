@@ -1,4 +1,4 @@
-import { ILogger } from '@opensumi/ide-core-common';
+import { ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { ExtensionModule } from '../../src/browser';

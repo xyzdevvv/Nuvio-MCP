@@ -1,6 +1,6 @@
-import { localize } from '@opensumi/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
-export const OpenSumiExtensionPackageSchema = {
+export const Nuvio-MCPExtensionPackageSchema = {
   properties: {
     sumiContributes: {
       description: localize('sumiContributes.contributes'),

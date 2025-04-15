@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-import { Injector } from '@opensumi/di';
-import { IClientAppOpts } from '@opensumi/ide-core-browser';
-import { ClientApp } from '@opensumi/ide-core-browser/lib/bootstrap/app';
+import { Injector } from '@Nuvio-MCP/di';
+import { IClientAppOpts } from '@Nuvio-MCP/ide-core-browser';
+import { ClientApp } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/app';
 
 export async function renderApp(opts: IClientAppOpts) {
   const { hostname } = window.location;

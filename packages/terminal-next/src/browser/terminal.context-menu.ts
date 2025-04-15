@@ -1,13 +1,13 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IContextKeyService, memoize } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IContextKeyService, memoize } from '@Nuvio-MCP/ide-core-browser';
 import {
   AbstractMenuService,
   ICtxMenuRenderer,
   IMenu,
   MenuId,
   generateMergedCtxMenu,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { Disposable } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalController } from '../common';
 

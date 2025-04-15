@@ -1,5 +1,5 @@
-import { Autowired } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-utils';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-utils';
 
 import { ConstructorOf } from '../declare';
 

@@ -18,14 +18,14 @@ import {
   Loading,
   PromptHandle,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { getIcon, useDesignStyles } from '@opensumi/ide-core-browser';
-import { TitleActionList } from '@opensumi/ide-core-browser/lib/components/actions';
-import { MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks/injectable-hooks';
-import { transformLabelWithCodicon } from '@opensumi/ide-core-browser/lib/utils/label';
-import { IDecorationsService } from '@opensumi/ide-decoration/lib/common/decorations';
-import { IIconService, IThemeService } from '@opensumi/ide-theme/lib/common/theme.service';
+} from '@Nuvio-MCP/ide-components';
+import { getIcon, useDesignStyles } from '@Nuvio-MCP/ide-core-browser';
+import { TitleActionList } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks/injectable-hooks';
+import { transformLabelWithCodicon } from '@Nuvio-MCP/ide-core-browser/lib/utils/label';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration/lib/common/decorations';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
 
 import styles from '../vscode/api/tree-view/tree-view-node.module.less';
 import { ExtensionCompositeTreeNode, ExtensionTreeNode } from '../vscode/api/tree-view/tree-view.node.defined';

@@ -3,16 +3,16 @@ import lodashGet from 'lodash/get';
 import lodashHas from 'lodash/has';
 import lodashSet from 'lodash/set';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { FrameworkKind, IExtensionPointDescriptor, IExtensionsSchemaService } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { FrameworkKind, IExtensionPointDescriptor, IExtensionsSchemaService } from '@Nuvio-MCP/ide-core-common';
 
 import { IJSONSchemaRegistry } from '../monaco';
 
-import { OpenSumiExtensionPackageSchema } from './schema/opensumiExtensionPackageSchema';
+import { Nuvio-MCPExtensionPackageSchema } from './schema/Nuvio-MCPExtensionPackageSchema';
 import { VSCodeExtensionPackageSchema } from './schema/vscodeExtensionPackageSchema';
 
 export const EXTENSION_JSON_URI = 'vscode://schemas/vscode-extensions';
-export const OPENSUMI_EXTENSION_JSON_URI = 'vscode://schemas/opensumi-extensions';
+export const Nuvio-MCP_EXTENSION_JSON_URI = 'vscode://schemas/Nuvio-MCP-extensions';
 
 @Injectable()
 export class ExtensionsPointServiceImpl implements IExtensionsSchemaService {
@@ -20,14 +20,14 @@ export class ExtensionsPointServiceImpl implements IExtensionsSchemaService {
   private schemaRegistry: IJSONSchemaRegistry;
 
   private registerSchema(): void {
-    this.schemaRegistry.registerSchema(OPENSUMI_EXTENSION_JSON_URI, OpenSumiExtensionPackageSchema, ['package.json']);
+    this.schemaRegistry.registerSchema(Nuvio-MCP_EXTENSION_JSON_URI, Nuvio-MCPExtensionPackageSchema, ['package.json']);
     this.schemaRegistry.registerSchema(EXTENSION_JSON_URI, VSCodeExtensionPackageSchema, ['package.json']);
   }
 
   private appendPropertiesFactory(kind: FrameworkKind): (points: string[], desc: IExtensionPointDescriptor) => void {
     const properties =
-      kind === 'opensumi'
-        ? OpenSumiExtensionPackageSchema.properties!.sumiContributes.properties
+      kind === 'Nuvio-MCP'
+        ? Nuvio-MCPExtensionPackageSchema.properties!.sumiContributes.properties
         : VSCodeExtensionPackageSchema.properties!.contributes.properties;
 
     return (points: string[], desc: IExtensionPointDescriptor) => {
@@ -42,8 +42,8 @@ export class ExtensionsPointServiceImpl implements IExtensionsSchemaService {
     };
   }
 
-  private appendOpenSumiProperties(points: string[], desc: IExtensionPointDescriptor): void {
-    this.appendPropertiesFactory('opensumi')(points, desc);
+  private appendNuvio-MCPProperties(points: string[], desc: IExtensionPointDescriptor): void {
+    this.appendPropertiesFactory('Nuvio-MCP')(points, desc);
   }
 
   private appendVScodeProperties(points: string[], desc: IExtensionPointDescriptor): void {
@@ -57,8 +57,8 @@ export class ExtensionsPointServiceImpl implements IExtensionsSchemaService {
 
     const { frameworkKind = ['vscode'] } = desc;
 
-    if (frameworkKind.includes('opensumi')) {
-      this.appendOpenSumiProperties(points, desc);
+    if (frameworkKind.includes('Nuvio-MCP')) {
+      this.appendNuvio-MCPProperties(points, desc);
     }
 
     if (frameworkKind.includes('vscode')) {

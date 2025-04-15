@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   CommandContribution,
   CommandRegistry,
@@ -11,9 +11,9 @@ import {
   ToolbarRegistry,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
 
 import { DEBUG_COMMANDS, DEBUG_CONSOLE_CONTAINER_ID, IDebugConsoleModelService } from '../../../common';
 import { DebugContextKey } from '../../contextkeys/debug-contextkey.service';

@@ -6,12 +6,12 @@ import {
   SlotLocation,
   arrays,
   electronEnv,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { ResourceService, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EditorComponentRegistry } from '@opensumi/ide-editor/lib/browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { ResourceService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EditorComponentRegistry } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { createBrowserInjector } from '../../../tools/dev-tool/src/injector-helper';
 import { createElectronBasicInjector } from '../__mocks__';

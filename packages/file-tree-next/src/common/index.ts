@@ -1,6 +1,6 @@
-import { ITree, ITreeNode } from '@opensumi/ide-components';
-import { BasicEvent, Event, IDisposable, URI } from '@opensumi/ide-core-common';
-import { FileStat } from '@opensumi/ide-file-service';
+import { ITree, ITreeNode } from '@Nuvio-MCP/ide-components';
+import { BasicEvent, Event, IDisposable, URI } from '@Nuvio-MCP/ide-core-common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 import { Directory, File } from './file-tree-node.define';
 

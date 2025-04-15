@@ -2,10 +2,10 @@ import net from 'net';
 import path from 'path';
 import util from 'util';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { WSServerChannel } from '@opensumi/ide-connection';
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { CommonChannelPathHandler } from '@opensumi/ide-connection/lib/common/server-handler';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { WSServerChannel } from '@Nuvio-MCP/ide-connection';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { CommonChannelPathHandler } from '@Nuvio-MCP/ide-connection/lib/common/server-handler';
 import {
   Emitter,
   Event,
@@ -17,9 +17,9 @@ import {
   isUndefined,
   pMemoize,
   timeout,
-} from '@opensumi/ide-core-common';
-import { findFreePort } from '@opensumi/ide-core-common/lib/node/port';
-import { normalizedIpcHandlerPathAsync } from '@opensumi/ide-core-common/lib/utils/ipc';
+} from '@Nuvio-MCP/ide-core-common';
+import { findFreePort } from '@Nuvio-MCP/ide-core-common/lib/node/port';
+import { normalizedIpcHandlerPathAsync } from '@Nuvio-MCP/ide-core-common/lib/utils/ipc';
 import {
   AppConfig,
   Deferred,
@@ -34,8 +34,8 @@ import {
   isDevelopment,
   isElectronNode,
   isWindows,
-} from '@opensumi/ide-core-node';
-import { process as processUtil } from '@opensumi/ide-utils';
+} from '@Nuvio-MCP/ide-core-node';
+import { process as processUtil } from '@Nuvio-MCP/ide-utils';
 
 import {
   CONNECTION_HANDLE_BETWEEN_EXTENSION_AND_MAIN_THREAD,
@@ -519,7 +519,7 @@ export class ExtensionNodeServiceImpl implements IExtensionNodeService {
         this.disposeClientExtProcess(connectionClientId);
       } else {
         // 为了保证体验，最后一个创建的插件进程断连后不杀死
-        // https://github.com/opensumi/core/issues/3653
+        // https://github.com/Nuvio-MCP/core/issues/3653
         if (this.clientExtProcessMap.get(connectionClientId) === this.latestExtProcessId) {
           return;
         }

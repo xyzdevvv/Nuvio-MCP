@@ -1,6 +1,6 @@
-import * as monaco from '@opensumi/ide-monaco';
-import * as languages from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import * as model from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import * as languages from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import * as model from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import { IExtHostLanguages } from '../../../../common/vscode/languages';
 import { decodeSemanticTokensDto } from '../../../../common/vscode/semantic-tokens';

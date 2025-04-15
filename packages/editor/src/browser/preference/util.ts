@@ -1,4 +1,4 @@
-import { PreferenceService, createPreferenceProxy } from '@opensumi/ide-core-browser';
+import { PreferenceService, createPreferenceProxy } from '@Nuvio-MCP/ide-core-browser';
 
 import { EditorPreferences, editorPreferenceSchema } from './schema';
 

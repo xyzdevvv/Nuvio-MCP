@@ -1,16 +1,16 @@
 import * as React from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { MenuBar } from '@opensumi/ide-menu-bar/lib/browser/menu-bar.view';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { MenuBar } from '@Nuvio-MCP/ide-menu-bar/lib/browser/menu-bar.view';
 
 import styles from './menu-bar.module.less';
 
 /**
  * Custom menu bar component.
  * Add a logo in here, and keep
- * opensumi's original menubar.
+ * Nuvio-MCP's original menubar.
  */
 export const MenuBarView = () => {
   const layoutViewSize = useInjectable<LayoutViewSizeConfig>(LayoutViewSizeConfig);

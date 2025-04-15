@@ -1,8 +1,8 @@
 import os from 'os';
 
-import { Injector } from '@opensumi/di';
-import { ISchemaStore, PreferenceService } from '@opensumi/ide-core-browser';
-import { AppLifeCycleService } from '@opensumi/ide-core-browser/lib/bootstrap/lifecycle.service';
+import { Injector } from '@Nuvio-MCP/di';
+import { ISchemaStore, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { AppLifeCycleService } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/lifecycle.service';
 import {
   AppLifeCycleServiceToken,
   CommandRegistry,
@@ -12,20 +12,20 @@ import {
   IEventBus,
   LifeCyclePhase,
   Uri,
-} from '@opensumi/ide-core-common';
-import { TextmateService } from '@opensumi/ide-editor/lib/browser/monaco-contrib/tokenizer/textmate.service';
+} from '@Nuvio-MCP/ide-core-common';
+import { TextmateService } from '@Nuvio-MCP/ide-editor/lib/browser/monaco-contrib/tokenizer/textmate.service';
 import {
   AbstractExtInstanceManagementService,
   ExtensionWillContributeEvent,
-} from '@opensumi/ide-extension/lib/browser/types';
-import { IExtensionStoragePathServer } from '@opensumi/ide-extension-storage';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { IJSONSchemaRegistry } from '@opensumi/ide-monaco';
-import { ITextmateTokenizer, ITextmateTokenizerService } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
-import { SchemaRegistry, SchemaStore } from '@opensumi/ide-monaco/lib/browser/schema-registry';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
-import { WorkbenchThemeService } from '@opensumi/ide-theme/lib/browser/workbench.theme.service';
+} from '@Nuvio-MCP/ide-extension/lib/browser/types';
+import { IExtensionStoragePathServer } from '@Nuvio-MCP/ide-extension-storage';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { IJSONSchemaRegistry } from '@Nuvio-MCP/ide-monaco';
+import { ITextmateTokenizer, ITextmateTokenizerService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
+import { SchemaRegistry, SchemaStore } from '@Nuvio-MCP/ide-monaco/lib/browser/schema-registry';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
+import { WorkbenchThemeService } from '@Nuvio-MCP/ide-theme/lib/browser/workbench.theme.service';
 
 import { MockPreferenceService } from '../../../terminal-next/__tests__/browser/mock.service';
 import { mockExtensionProps } from '../../__mocks__/extensions';

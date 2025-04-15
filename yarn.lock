@@ -3219,20 +3219,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opensumi/cli-engine@workspace:tools/cli-engine":
+"@Nuvio-MCP/cli-engine@workspace:tools/cli-engine":
   version: 0.0.0-use.local
-  resolution: "@opensumi/cli-engine@workspace:tools/cli-engine"
+  resolution: "@Nuvio-MCP/cli-engine@workspace:tools/cli-engine"
   dependencies:
     "@koa/cors": "npm:^5.0.0"
-    "@opensumi/di": "npm:^1.8.0"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-express-file-server": "workspace:*"
-    "@opensumi/ide-extension": "workspace:*"
-    "@opensumi/ide-i18n": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-startup": "workspace:*"
+    "@Nuvio-MCP/di": "npm:^1.8.0"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-express-file-server": "workspace:*"
+    "@Nuvio-MCP/ide-extension": "workspace:*"
+    "@Nuvio-MCP/ide-i18n": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-startup": "workspace:*"
     "@types/ejs": "npm:^3.0.2"
     "@types/koa-mount": "npm:^4.0.0"
     "@types/node": "npm:^22.7.6"
@@ -3271,15 +3271,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/core@workspace:.":
+"@Nuvio-MCP/core@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@opensumi/core@workspace:."
+  resolution: "@Nuvio-MCP/core@workspace:."
   dependencies:
     "@ast-grep/napi": "npm:^0.17.1"
     "@commitlint/cli": "npm:^19.2.1"
     "@commitlint/config-conventional": "npm:^19.1.0 "
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/tree-sitter-wasm": "npm:0.0.2"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/tree-sitter-wasm": "npm:0.0.2"
     "@types/debug": "npm:^4.1.5"
     "@types/fs-extra": "npm:^11.0.4"
     "@types/glob": "npm:^7.1.1"
@@ -3350,73 +3350,73 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/di@npm:^1.8.0":
+"@Nuvio-MCP/di@npm:^1.8.0":
   version: 1.10.1
-  resolution: "@opensumi/di@npm:1.10.1"
+  resolution: "@Nuvio-MCP/di@npm:1.10.1"
   dependencies:
     reflect-metadata: "npm:^0.1.13"
   checksum: 10/1c4b4ad4df43c314624abbfbee90589cd81973b8f27ea9770ac779734e36d6f38f79f89830710c22dc81c6443c2ee45b26035b3f4b2845e42da36a8a1d90d378
   languageName: node
   linkType: hard
 
-"@opensumi/events@npm:^1.0.0":
+"@Nuvio-MCP/events@npm:^1.0.0":
   version: 1.0.0
-  resolution: "@opensumi/events@npm:1.0.0"
+  resolution: "@Nuvio-MCP/events@npm:1.0.0"
   checksum: 10/f1a282351801bd9ba2324bd9f84d28c8a280d72e23df3f66b63c40b7e625a06dbedd84fd72dd4aea2b3267b174280f09e303e0530bd9e903bbe465d38aab21fe
   languageName: node
   linkType: hard
 
-"@opensumi/ide-addons@workspace:*, @opensumi/ide-addons@workspace:packages/addons":
+"@Nuvio-MCP/ide-addons@workspace:*, @Nuvio-MCP/ide-addons@workspace:packages/addons":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-addons@workspace:packages/addons"
+  resolution: "@Nuvio-MCP/ide-addons@workspace:packages/addons"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-search": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-quick-open": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
-    "@opensumi/ide-workspace-edit": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-search": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-workspace-edit": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-ai-native@workspace:*, @opensumi/ide-ai-native@workspace:packages/ai-native":
+"@Nuvio-MCP/ide-ai-native@workspace:*, @Nuvio-MCP/ide-ai-native@workspace:packages/ai-native":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-ai-native@workspace:packages/ai-native"
+  resolution: "@Nuvio-MCP/ide-ai-native@workspace:packages/ai-native"
   dependencies:
     "@ai-sdk/anthropic": "npm:^1.1.9"
     "@ai-sdk/deepseek": "npm:^0.1.11"
     "@ai-sdk/openai": "npm:^1.1.9"
     "@ai-sdk/openai-compatible": "npm:^0.1.11"
     "@modelcontextprotocol/sdk": "npm:^1.3.1"
-    "@opensumi/ide-addons": "workspace:*"
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-debug": "workspace:*"
-    "@opensumi/ide-design": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-search": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-markers": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-outline": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-preferences": "workspace:*"
-    "@opensumi/ide-search": "workspace:*"
-    "@opensumi/ide-terminal-next": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-addons": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-debug": "workspace:*"
+    "@Nuvio-MCP/ide-design": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-search": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-markers": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-outline": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-preferences": "workspace:*"
+    "@Nuvio-MCP/ide-search": "workspace:*"
+    "@Nuvio-MCP/ide-terminal-next": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
     "@xterm/xterm": "npm:5.5.0"
     ai: "npm:^4.1.45"
     ansi-regex: "npm:^2.0.0"
@@ -3434,18 +3434,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-collaboration@workspace:*, @opensumi/ide-collaboration@workspace:packages/collaboration":
+"@Nuvio-MCP/ide-collaboration@workspace:*, @Nuvio-MCP/ide-collaboration@workspace:packages/collaboration":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-collaboration@workspace:packages/collaboration"
+  resolution: "@Nuvio-MCP/ide-collaboration@workspace:packages/collaboration"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
     lib0: "npm:0.2.58"
     ws: "npm:^8.16.0"
     y-protocols: "npm:^1.0.2"
@@ -3454,33 +3454,33 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-comments@workspace:*, @opensumi/ide-comments@workspace:packages/comments":
+"@Nuvio-MCP/ide-comments@workspace:*, @Nuvio-MCP/ide-comments@workspace:packages/comments":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-comments@workspace:packages/comments"
+  resolution: "@Nuvio-MCP/ide-comments@workspace:packages/comments"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-monaco-enhance": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-monaco-enhance": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
     "@types/react-mentions": "npm:^4.1.13"
     react-mentions: "npm:^4.4.10"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-components@workspace:*, @opensumi/ide-components@workspace:packages/components":
+"@Nuvio-MCP/ide-components@workspace:*, @Nuvio-MCP/ide-components@workspace:packages/components":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-components@workspace:packages/components"
+  resolution: "@Nuvio-MCP/ide-components@workspace:packages/components"
   dependencies:
     "@ant-design/icons": "npm:^4.6.4"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/react-custom-scrollbars-2": "npm:^4.3.4"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/react-custom-scrollbars-2": "npm:^4.3.4"
     "@rc-component/mini-decimal": "npm:^1.0.1"
     "@types/marked": "npm:^4.0.7"
     "@types/react-window": "npm:^1.8.5"
@@ -3505,32 +3505,32 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-connection@workspace:*, @opensumi/ide-connection@workspace:packages/connection":
+"@Nuvio-MCP/ide-connection@workspace:*, @Nuvio-MCP/ide-connection@workspace:packages/connection":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-connection@workspace:packages/connection"
+  resolution: "@Nuvio-MCP/ide-connection@workspace:packages/connection"
   dependencies:
     "@furyjs/fury": "npm:0.5.9-beta"
-    "@opensumi/events": "npm:^1.0.0"
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/mock-socket": "npm:^9.3.1"
-    "@opensumi/reconnecting-websocket": "npm:^4.4.0"
-    "@opensumi/vscode-jsonrpc": "npm:^8.0.0-next.2"
+    "@Nuvio-MCP/events": "npm:^1.0.0"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/mock-socket": "npm:^9.3.1"
+    "@Nuvio-MCP/reconnecting-websocket": "npm:^4.4.0"
+    "@Nuvio-MCP/vscode-jsonrpc": "npm:^8.0.0-next.2"
     path-to-regexp: "npm:^6.2.1"
     ws: "npm:^8.16.0"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-core-browser@workspace:*, @opensumi/ide-core-browser@workspace:packages/core-browser":
+"@Nuvio-MCP/ide-core-browser@workspace:*, @Nuvio-MCP/ide-core-browser@workspace:packages/core-browser":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-core-browser@workspace:packages/core-browser"
+  resolution: "@Nuvio-MCP/ide-core-browser@workspace:packages/core-browser"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/vscode-debugprotocol": "npm:1.49.0-beta.1"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/vscode-debugprotocol": "npm:1.49.0-beta.1"
     "@vscode/codicons": "npm:0.0.35"
     ajv: "npm:^6.10.0"
     classnames: "npm:2.5.1"
@@ -3551,69 +3551,69 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-core-common@workspace:*, @opensumi/ide-core-common@workspace:packages/core-common":
+"@Nuvio-MCP/ide-core-common@workspace:*, @Nuvio-MCP/ide-core-common@workspace:packages/core-common":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-core-common@workspace:packages/core-common"
+  resolution: "@Nuvio-MCP/ide-core-common@workspace:packages/core-common"
   dependencies:
-    "@opensumi/di": "npm:^1.8.0"
-    "@opensumi/events": "npm:^1.0.0"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
+    "@Nuvio-MCP/di": "npm:^1.8.0"
+    "@Nuvio-MCP/events": "npm:^1.0.0"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
     ai: "npm:^4.1.45"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-core-electron-main@workspace:*, @opensumi/ide-core-electron-main@workspace:packages/core-electron-main":
+"@Nuvio-MCP/ide-core-electron-main@workspace:*, @Nuvio-MCP/ide-core-electron-main@workspace:packages/core-electron-main":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-core-electron-main@workspace:packages/core-electron-main"
+  resolution: "@Nuvio-MCP/ide-core-electron-main@workspace:packages/core-electron-main"
   dependencies:
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
     tree-kill: "npm:^1.2.2"
   peerDependencies:
     electron: "*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-core-node@workspace:*, @opensumi/ide-core-node@workspace:packages/core-node":
+"@Nuvio-MCP/ide-core-node@workspace:*, @Nuvio-MCP/ide-core-node@workspace:packages/core-node":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-core-node@workspace:packages/core-node"
+  resolution: "@Nuvio-MCP/ide-core-node@workspace:packages/core-node"
   dependencies:
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
     keytar: "npm:^7.7.0"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-debug@workspace:*, @opensumi/ide-debug@workspace:packages/debug":
+"@Nuvio-MCP/ide-debug@workspace:*, @Nuvio-MCP/ide-debug@workspace:packages/debug":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-debug@workspace:packages/debug"
+  resolution: "@Nuvio-MCP/ide-debug@workspace:packages/debug"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-monaco-enhance": "workspace:*"
-    "@opensumi/ide-output": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-preferences": "workspace:*"
-    "@opensumi/ide-quick-open": "workspace:*"
-    "@opensumi/ide-storage": "workspace:*"
-    "@opensumi/ide-task": "workspace:*"
-    "@opensumi/ide-terminal-next": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-variable": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
-    "@opensumi/ide-workspace-edit": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-monaco-enhance": "workspace:*"
+    "@Nuvio-MCP/ide-output": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-preferences": "workspace:*"
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-storage": "workspace:*"
+    "@Nuvio-MCP/ide-task": "workspace:*"
+    "@Nuvio-MCP/ide-terminal-next": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-variable": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-workspace-edit": "workspace:*"
     "@rjsf/core": "npm:5.20.0"
     "@rjsf/utils": "npm:5.20.0"
     "@rjsf/validator-ajv6": "npm:5.20.0"
@@ -3624,38 +3624,38 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-decoration@workspace:*, @opensumi/ide-decoration@workspace:packages/decoration":
+"@Nuvio-MCP/ide-decoration@workspace:*, @Nuvio-MCP/ide-decoration@workspace:packages/decoration":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-decoration@workspace:packages/decoration"
+  resolution: "@Nuvio-MCP/ide-decoration@workspace:packages/decoration"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-design@workspace:*, @opensumi/ide-design@workspace:packages/design":
+"@Nuvio-MCP/ide-design@workspace:*, @Nuvio-MCP/ide-design@workspace:packages/design":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-design@workspace:packages/design"
+  resolution: "@Nuvio-MCP/ide-design@workspace:packages/design"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-menu-bar": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-toolbar": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-menu-bar": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-toolbar": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-dev-tool@workspace:*, @opensumi/ide-dev-tool@workspace:tools/dev-tool":
+"@Nuvio-MCP/ide-dev-tool@workspace:*, @Nuvio-MCP/ide-dev-tool@workspace:tools/dev-tool":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-dev-tool@workspace:tools/dev-tool"
+  resolution: "@Nuvio-MCP/ide-dev-tool@workspace:tools/dev-tool"
   dependencies:
     "@types/koa": "npm:^2.14.0"
     "@types/koa-bodyparser": "npm:^4.3.7"
@@ -3687,80 +3687,80 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-editor@workspace:*, @opensumi/ide-editor@workspace:packages/editor":
+"@Nuvio-MCP/ide-editor@workspace:*, @Nuvio-MCP/ide-editor@workspace:packages/editor":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-editor@workspace:packages/editor"
+  resolution: "@Nuvio-MCP/ide-editor@workspace:packages/editor"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-quick-open": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
     vscode-oniguruma: "npm:1.5.1"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-electron-basic@workspace:packages/electron-basic":
+"@Nuvio-MCP/ide-electron-basic@workspace:packages/electron-basic":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-electron-basic@workspace:packages/electron-basic"
+  resolution: "@Nuvio-MCP/ide-electron-basic@workspace:packages/electron-basic"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-explorer@workspace:*, @opensumi/ide-explorer@workspace:packages/explorer":
+"@Nuvio-MCP/ide-explorer@workspace:*, @Nuvio-MCP/ide-explorer@workspace:packages/explorer":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-explorer@workspace:packages/explorer"
+  resolution: "@Nuvio-MCP/ide-explorer@workspace:packages/explorer"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-express-file-server@workspace:*, @opensumi/ide-express-file-server@workspace:packages/express-file-server":
+"@Nuvio-MCP/ide-express-file-server@workspace:*, @Nuvio-MCP/ide-express-file-server@workspace:packages/express-file-server":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-express-file-server@workspace:packages/express-file-server"
+  resolution: "@Nuvio-MCP/ide-express-file-server@workspace:packages/express-file-server"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
     "@types/koa-mount": "npm:^4.0.0"
     koa-mount: "npm:^4.0.0"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-extension-manager@workspace:*, @opensumi/ide-extension-manager@workspace:packages/extension-manager":
+"@Nuvio-MCP/ide-extension-manager@workspace:*, @Nuvio-MCP/ide-extension-manager@workspace:packages/extension-manager":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-extension-manager@workspace:packages/extension-manager"
+  resolution: "@Nuvio-MCP/ide-extension-manager@workspace:packages/extension-manager"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-extension": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-markdown": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-extension": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-markdown": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
     "@types/node-fetch": "npm:^2.6.1"
     compressing: "npm:^1.10.0"
     fs-extra: "npm:^11.2.0"
@@ -3768,58 +3768,58 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-extension-storage@workspace:*, @opensumi/ide-extension-storage@workspace:packages/extension-storage":
+"@Nuvio-MCP/ide-extension-storage@workspace:*, @Nuvio-MCP/ide-extension-storage@workspace:packages/extension-storage":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-extension-storage@workspace:packages/extension-storage"
+  resolution: "@Nuvio-MCP/ide-extension-storage@workspace:packages/extension-storage"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-logs": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-logs": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-extension@workspace:*, @opensumi/ide-extension@workspace:packages/extension":
+"@Nuvio-MCP/ide-extension@workspace:*, @Nuvio-MCP/ide-extension@workspace:packages/extension":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-extension@workspace:packages/extension"
+  resolution: "@Nuvio-MCP/ide-extension@workspace:packages/extension"
   dependencies:
-    "@opensumi/events": "npm:^1.0.0"
-    "@opensumi/ide-ai-native": "workspace:*"
-    "@opensumi/ide-comments": "workspace:*"
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-debug": "workspace:*"
-    "@opensumi/ide-decoration": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-extension-storage": "workspace:*"
-    "@opensumi/ide-file-search": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-file-tree-next": "workspace:*"
-    "@opensumi/ide-i18n": "workspace:*"
-    "@opensumi/ide-logs": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-markdown": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-output": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-quick-open": "workspace:*"
-    "@opensumi/ide-scm": "workspace:*"
-    "@opensumi/ide-task": "workspace:*"
-    "@opensumi/ide-terminal-next": "workspace:*"
-    "@opensumi/ide-testing": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-toolbar": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-webview": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
-    "@opensumi/ide-workspace-edit": "workspace:*"
+    "@Nuvio-MCP/events": "npm:^1.0.0"
+    "@Nuvio-MCP/ide-ai-native": "workspace:*"
+    "@Nuvio-MCP/ide-comments": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-debug": "workspace:*"
+    "@Nuvio-MCP/ide-decoration": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-extension-storage": "workspace:*"
+    "@Nuvio-MCP/ide-file-search": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-file-tree-next": "workspace:*"
+    "@Nuvio-MCP/ide-i18n": "workspace:*"
+    "@Nuvio-MCP/ide-logs": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-markdown": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-output": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-scm": "workspace:*"
+    "@Nuvio-MCP/ide-task": "workspace:*"
+    "@Nuvio-MCP/ide-terminal-next": "workspace:*"
+    "@Nuvio-MCP/ide-testing": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-toolbar": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-webview": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-workspace-edit": "workspace:*"
     address: "npm:^1.1.2"
     glob-to-regexp: "npm:0.4.1"
     is-running: "npm:^2.1.0"
@@ -3831,46 +3831,46 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-file-scheme@workspace:*, @opensumi/ide-file-scheme@workspace:packages/file-scheme":
+"@Nuvio-MCP/ide-file-scheme@workspace:*, @Nuvio-MCP/ide-file-scheme@workspace:packages/file-scheme":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-file-scheme@workspace:packages/file-scheme"
+  resolution: "@Nuvio-MCP/ide-file-scheme@workspace:packages/file-scheme"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-file-search@workspace:*, @opensumi/ide-file-search@workspace:packages/file-search":
+"@Nuvio-MCP/ide-file-search@workspace:*, @Nuvio-MCP/ide-file-search@workspace:packages/file-search":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-file-search@workspace:packages/file-search"
+  resolution: "@Nuvio-MCP/ide-file-search@workspace:packages/file-search"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-process": "workspace:*"
-    "@opensumi/vscode-ripgrep": "npm:^1.4.0"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-process": "workspace:*"
+    "@Nuvio-MCP/vscode-ripgrep": "npm:^1.4.0"
     fuzzy: "npm:^0.1.3"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-file-service@workspace:*, @opensumi/ide-file-service@workspace:packages/file-service":
+"@Nuvio-MCP/ide-file-service@workspace:*, @Nuvio-MCP/ide-file-service@workspace:packages/file-service":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-file-service@workspace:packages/file-service"
+  resolution: "@Nuvio-MCP/ide-file-service@workspace:packages/file-service"
   dependencies:
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-logs": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-logs": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
     "@parcel/watcher": "npm:2.1.0"
     file-type: "npm:16.5.4"
     nsfw: "npm:2.2.0"
@@ -3880,154 +3880,154 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-file-tree-next@workspace:*, @opensumi/ide-file-tree-next@workspace:packages/file-tree-next":
+"@Nuvio-MCP/ide-file-tree-next@workspace:*, @Nuvio-MCP/ide-file-tree-next@workspace:packages/file-tree-next":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-file-tree-next@workspace:packages/file-tree-next"
+  resolution: "@Nuvio-MCP/ide-file-tree-next@workspace:packages/file-tree-next"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-decoration": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-explorer": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-terminal-next": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
-    "@opensumi/ide-workspace-edit": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-decoration": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-explorer": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-terminal-next": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-workspace-edit": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-i18n@workspace:*, @opensumi/ide-i18n@workspace:packages/i18n":
+"@Nuvio-MCP/ide-i18n@workspace:*, @Nuvio-MCP/ide-i18n@workspace:packages/i18n":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-i18n@workspace:packages/i18n"
+  resolution: "@Nuvio-MCP/ide-i18n@workspace:packages/i18n"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-keymaps@workspace:*, @opensumi/ide-keymaps@workspace:packages/keymaps":
+"@Nuvio-MCP/ide-keymaps@workspace:*, @Nuvio-MCP/ide-keymaps@workspace:packages/keymaps":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-keymaps@workspace:packages/keymaps"
+  resolution: "@Nuvio-MCP/ide-keymaps@workspace:packages/keymaps"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-preferences": "workspace:*"
-    "@opensumi/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-preferences": "workspace:*"
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
     ajv: "npm:^6.10.0"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-logs@workspace:*, @opensumi/ide-logs@workspace:packages/logs-core":
+"@Nuvio-MCP/ide-logs@workspace:*, @Nuvio-MCP/ide-logs@workspace:packages/logs-core":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-logs@workspace:packages/logs-core"
+  resolution: "@Nuvio-MCP/ide-logs@workspace:packages/logs-core"
   dependencies:
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
     compressing: "npm:^1.10.0"
     spdlog: "npm:^0.9.0"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-main-layout@workspace:*, @opensumi/ide-main-layout@workspace:packages/main-layout":
+"@Nuvio-MCP/ide-main-layout@workspace:*, @Nuvio-MCP/ide-main-layout@workspace:packages/main-layout":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-main-layout@workspace:packages/main-layout"
+  resolution: "@Nuvio-MCP/ide-main-layout@workspace:packages/main-layout"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-markdown@workspace:*, @opensumi/ide-markdown@workspace:packages/markdown":
+"@Nuvio-MCP/ide-markdown@workspace:*, @Nuvio-MCP/ide-markdown@workspace:packages/markdown":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-markdown@workspace:packages/markdown"
+  resolution: "@Nuvio-MCP/ide-markdown@workspace:packages/markdown"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-webview": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-webview": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-markers@workspace:*, @opensumi/ide-markers@workspace:packages/markers":
+"@Nuvio-MCP/ide-markers@workspace:*, @Nuvio-MCP/ide-markers@workspace:packages/markers":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-markers@workspace:packages/markers"
+  resolution: "@Nuvio-MCP/ide-markers@workspace:packages/markers"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-menu-bar@workspace:*, @opensumi/ide-menu-bar@workspace:packages/menu-bar":
+"@Nuvio-MCP/ide-menu-bar@workspace:*, @Nuvio-MCP/ide-menu-bar@workspace:packages/menu-bar":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-menu-bar@workspace:packages/menu-bar"
+  resolution: "@Nuvio-MCP/ide-menu-bar@workspace:packages/menu-bar"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-monaco-enhance@workspace:*, @opensumi/ide-monaco-enhance@workspace:packages/monaco-enhance":
+"@Nuvio-MCP/ide-monaco-enhance@workspace:*, @Nuvio-MCP/ide-monaco-enhance@workspace:packages/monaco-enhance":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-monaco-enhance@workspace:packages/monaco-enhance"
+  resolution: "@Nuvio-MCP/ide-monaco-enhance@workspace:packages/monaco-enhance"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-monaco@workspace:*, @opensumi/ide-monaco@workspace:packages/monaco":
+"@Nuvio-MCP/ide-monaco@workspace:*, @Nuvio-MCP/ide-monaco@workspace:packages/monaco":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-monaco@workspace:packages/monaco"
+  resolution: "@Nuvio-MCP/ide-monaco@workspace:packages/monaco"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
-    "@opensumi/monaco-editor-core": "npm:0.54.0-patch.2"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/monaco-editor-core": "npm:0.54.0-patch.2"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-notebook@workspace:*, @opensumi/ide-notebook@workspace:packages/notebook":
+"@Nuvio-MCP/ide-notebook@workspace:*, @Nuvio-MCP/ide-notebook@workspace:packages/notebook":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-notebook@workspace:packages/notebook"
+  resolution: "@Nuvio-MCP/ide-notebook@workspace:packages/notebook"
   dependencies:
     "@ant-design/icons": "npm:^4.6.4"
     "@difizen/libro-code-editor": "npm:0.2.45"
@@ -4038,18 +4038,18 @@ __metadata:
     "@difizen/libro-lsp": "npm:0.2.45"
     "@difizen/libro-toc": "npm:0.2.45"
     "@difizen/mana-app": "npm:^0.1.27"
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-explorer": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-outline": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-explorer": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-outline": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
     "@types/diff": "npm:^7.0.0"
     antd: "npm:^5.21.4"
     diff: "npm:^7.0.0"
@@ -4057,223 +4057,223 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-opened-editor@workspace:*, @opensumi/ide-opened-editor@workspace:packages/opened-editor":
+"@Nuvio-MCP/ide-opened-editor@workspace:*, @Nuvio-MCP/ide-opened-editor@workspace:packages/opened-editor":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-opened-editor@workspace:packages/opened-editor"
+  resolution: "@Nuvio-MCP/ide-opened-editor@workspace:packages/opened-editor"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-decoration": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-explorer": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-webview": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-decoration": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-explorer": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-webview": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-outline@workspace:*, @opensumi/ide-outline@workspace:packages/outline":
+"@Nuvio-MCP/ide-outline@workspace:*, @Nuvio-MCP/ide-outline@workspace:packages/outline":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-outline@workspace:packages/outline"
+  resolution: "@Nuvio-MCP/ide-outline@workspace:packages/outline"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-explorer": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-explorer": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-output@workspace:*, @opensumi/ide-output@workspace:packages/output":
+"@Nuvio-MCP/ide-output@workspace:*, @Nuvio-MCP/ide-output@workspace:packages/output":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-output@workspace:packages/output"
+  resolution: "@Nuvio-MCP/ide-output@workspace:packages/output"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-overlay@workspace:*, @opensumi/ide-overlay@workspace:packages/overlay":
+"@Nuvio-MCP/ide-overlay@workspace:*, @Nuvio-MCP/ide-overlay@workspace:packages/overlay":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-overlay@workspace:packages/overlay"
+  resolution: "@Nuvio-MCP/ide-overlay@workspace:packages/overlay"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
     react-ctxmenu-trigger: "npm:^1.0.0"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-preferences@workspace:*, @opensumi/ide-preferences@workspace:packages/preferences":
+"@Nuvio-MCP/ide-preferences@workspace:*, @Nuvio-MCP/ide-preferences@workspace:packages/preferences":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-preferences@workspace:packages/preferences"
+  resolution: "@Nuvio-MCP/ide-preferences@workspace:packages/preferences"
   dependencies:
-    "@opensumi/events": "npm:^1.0.0"
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/events": "npm:^1.0.0"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
     react-virtualized-auto-sizer: "npm:^1.0.2"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-process@workspace:*, @opensumi/ide-process@workspace:packages/process":
+"@Nuvio-MCP/ide-process@workspace:*, @Nuvio-MCP/ide-process@workspace:packages/process":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-process@workspace:packages/process"
+  resolution: "@Nuvio-MCP/ide-process@workspace:packages/process"
   dependencies:
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-quick-open@workspace:*, @opensumi/ide-quick-open@workspace:packages/quick-open":
+"@Nuvio-MCP/ide-quick-open@workspace:*, @Nuvio-MCP/ide-quick-open@workspace:packages/quick-open":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-quick-open@workspace:packages/quick-open"
+  resolution: "@Nuvio-MCP/ide-quick-open@workspace:packages/quick-open"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-remote-opener@workspace:*, @opensumi/ide-remote-opener@workspace:packages/remote-opener":
+"@Nuvio-MCP/ide-remote-opener@workspace:*, @Nuvio-MCP/ide-remote-opener@workspace:packages/remote-opener":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-remote-opener@workspace:packages/remote-opener"
+  resolution: "@Nuvio-MCP/ide-remote-opener@workspace:packages/remote-opener"
   dependencies:
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-scm@workspace:*, @opensumi/ide-scm@workspace:packages/scm":
+"@Nuvio-MCP/ide-scm@workspace:*, @Nuvio-MCP/ide-scm@workspace:packages/scm":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-scm@workspace:packages/scm"
+  resolution: "@Nuvio-MCP/ide-scm@workspace:packages/scm"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-decoration": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-monaco-enhance": "workspace:*"
-    "@opensumi/ide-status-bar": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-decoration": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-monaco-enhance": "workspace:*"
+    "@Nuvio-MCP/ide-status-bar": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-search@workspace:*, @opensumi/ide-search@workspace:packages/search":
+"@Nuvio-MCP/ide-search@workspace:*, @Nuvio-MCP/ide-search@workspace:packages/search":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-search@workspace:packages/search"
+  resolution: "@Nuvio-MCP/ide-search@workspace:packages/search"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-logs": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-process": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
-    "@opensumi/ide-workspace-edit": "workspace:*"
-    "@opensumi/vscode-ripgrep": "npm:^1.4.0"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-logs": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-process": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-workspace-edit": "workspace:*"
+    "@Nuvio-MCP/vscode-ripgrep": "npm:^1.4.0"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-startup@workspace:*, @opensumi/ide-startup@workspace:packages/startup":
+"@Nuvio-MCP/ide-startup@workspace:*, @Nuvio-MCP/ide-startup@workspace:packages/startup":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-startup@workspace:packages/startup"
+  resolution: "@Nuvio-MCP/ide-startup@workspace:packages/startup"
   dependencies:
-    "@opensumi/ide-addons": "workspace:*"
-    "@opensumi/ide-ai-native": "workspace:*"
-    "@opensumi/ide-collaboration": "workspace:*"
-    "@opensumi/ide-comments": "workspace:*"
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-debug": "workspace:*"
-    "@opensumi/ide-decoration": "workspace:*"
-    "@opensumi/ide-design": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-explorer": "workspace:*"
-    "@opensumi/ide-express-file-server": "workspace:*"
-    "@opensumi/ide-extension": "workspace:*"
-    "@opensumi/ide-extension-manager": "workspace:*"
-    "@opensumi/ide-extension-storage": "workspace:*"
-    "@opensumi/ide-file-scheme": "workspace:*"
-    "@opensumi/ide-file-search": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-file-tree-next": "workspace:*"
-    "@opensumi/ide-i18n": "workspace:*"
-    "@opensumi/ide-keymaps": "workspace:*"
-    "@opensumi/ide-logs": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-markdown": "workspace:*"
-    "@opensumi/ide-markers": "workspace:*"
-    "@opensumi/ide-menu-bar": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-monaco-enhance": "workspace:*"
-    "@opensumi/ide-notebook": "workspace:*"
-    "@opensumi/ide-opened-editor": "workspace:*"
-    "@opensumi/ide-outline": "workspace:*"
-    "@opensumi/ide-output": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-preferences": "workspace:*"
-    "@opensumi/ide-process": "workspace:*"
-    "@opensumi/ide-quick-open": "workspace:*"
-    "@opensumi/ide-remote-opener": "workspace:*"
-    "@opensumi/ide-scm": "workspace:*"
-    "@opensumi/ide-search": "workspace:*"
-    "@opensumi/ide-status-bar": "workspace:*"
-    "@opensumi/ide-storage": "workspace:*"
-    "@opensumi/ide-task": "workspace:*"
-    "@opensumi/ide-terminal-next": "workspace:*"
-    "@opensumi/ide-testing": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-toolbar": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-variable": "workspace:*"
-    "@opensumi/ide-webview": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
-    "@opensumi/ide-workspace-edit": "workspace:*"
-    "@opensumi/textmate-languages": "npm:^2.6.1"
+    "@Nuvio-MCP/ide-addons": "workspace:*"
+    "@Nuvio-MCP/ide-ai-native": "workspace:*"
+    "@Nuvio-MCP/ide-collaboration": "workspace:*"
+    "@Nuvio-MCP/ide-comments": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-debug": "workspace:*"
+    "@Nuvio-MCP/ide-decoration": "workspace:*"
+    "@Nuvio-MCP/ide-design": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-explorer": "workspace:*"
+    "@Nuvio-MCP/ide-express-file-server": "workspace:*"
+    "@Nuvio-MCP/ide-extension": "workspace:*"
+    "@Nuvio-MCP/ide-extension-manager": "workspace:*"
+    "@Nuvio-MCP/ide-extension-storage": "workspace:*"
+    "@Nuvio-MCP/ide-file-scheme": "workspace:*"
+    "@Nuvio-MCP/ide-file-search": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-file-tree-next": "workspace:*"
+    "@Nuvio-MCP/ide-i18n": "workspace:*"
+    "@Nuvio-MCP/ide-keymaps": "workspace:*"
+    "@Nuvio-MCP/ide-logs": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-markdown": "workspace:*"
+    "@Nuvio-MCP/ide-markers": "workspace:*"
+    "@Nuvio-MCP/ide-menu-bar": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-monaco-enhance": "workspace:*"
+    "@Nuvio-MCP/ide-notebook": "workspace:*"
+    "@Nuvio-MCP/ide-opened-editor": "workspace:*"
+    "@Nuvio-MCP/ide-outline": "workspace:*"
+    "@Nuvio-MCP/ide-output": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-preferences": "workspace:*"
+    "@Nuvio-MCP/ide-process": "workspace:*"
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-remote-opener": "workspace:*"
+    "@Nuvio-MCP/ide-scm": "workspace:*"
+    "@Nuvio-MCP/ide-search": "workspace:*"
+    "@Nuvio-MCP/ide-status-bar": "workspace:*"
+    "@Nuvio-MCP/ide-storage": "workspace:*"
+    "@Nuvio-MCP/ide-task": "workspace:*"
+    "@Nuvio-MCP/ide-terminal-next": "workspace:*"
+    "@Nuvio-MCP/ide-testing": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-toolbar": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-variable": "workspace:*"
+    "@Nuvio-MCP/ide-webview": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-workspace-edit": "workspace:*"
+    "@Nuvio-MCP/textmate-languages": "npm:^2.6.1"
     browserfs: "npm:^1.4.3"
     css-loader: "npm:^6.9.1"
     electron: "npm:^22.3.21"
@@ -4293,78 +4293,78 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-static-resource@workspace:packages/static-resource":
+"@Nuvio-MCP/ide-static-resource@workspace:packages/static-resource":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-static-resource@workspace:packages/static-resource"
+  resolution: "@Nuvio-MCP/ide-static-resource@workspace:packages/static-resource"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-status-bar@workspace:*, @opensumi/ide-status-bar@workspace:packages/status-bar":
+"@Nuvio-MCP/ide-status-bar@workspace:*, @Nuvio-MCP/ide-status-bar@workspace:packages/status-bar":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-status-bar@workspace:packages/status-bar"
+  resolution: "@Nuvio-MCP/ide-status-bar@workspace:packages/status-bar"
   dependencies:
-    "@opensumi/events": "npm:^1.0.0"
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/events": "npm:^1.0.0"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-storage@workspace:*, @opensumi/ide-storage@workspace:packages/storage":
+"@Nuvio-MCP/ide-storage@workspace:*, @Nuvio-MCP/ide-storage@workspace:packages/storage":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-storage@workspace:packages/storage"
+  resolution: "@Nuvio-MCP/ide-storage@workspace:packages/storage"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-task@workspace:*, @opensumi/ide-task@workspace:packages/task":
+"@Nuvio-MCP/ide-task@workspace:*, @Nuvio-MCP/ide-task@workspace:packages/task":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-task@workspace:packages/task"
+  resolution: "@Nuvio-MCP/ide-task@workspace:packages/task"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-output": "workspace:*"
-    "@opensumi/ide-preferences": "workspace:*"
-    "@opensumi/ide-terminal-next": "workspace:*"
-    "@opensumi/ide-variable": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-output": "workspace:*"
+    "@Nuvio-MCP/ide-preferences": "workspace:*"
+    "@Nuvio-MCP/ide-terminal-next": "workspace:*"
+    "@Nuvio-MCP/ide-variable": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-terminal-next@workspace:*, @opensumi/ide-terminal-next@workspace:packages/terminal-next":
+"@Nuvio-MCP/ide-terminal-next@workspace:*, @Nuvio-MCP/ide-terminal-next@workspace:packages/terminal-next":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-terminal-next@workspace:packages/terminal-next"
+  resolution: "@Nuvio-MCP/ide-terminal-next@workspace:packages/terminal-next"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-connection": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-node": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
-    "@opensumi/ide-status-bar": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
-    "@opensumi/ide-variable": "workspace:*"
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-connection": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-node": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-status-bar": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-variable": "workspace:*"
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
     "@types/http-proxy": "npm:^1.17.2"
     "@xterm/addon-canvas": "npm:0.7.0"
     "@xterm/addon-fit": "npm:0.10.0"
@@ -4377,52 +4377,52 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-testing@workspace:*, @opensumi/ide-testing@workspace:packages/testing":
+"@Nuvio-MCP/ide-testing@workspace:*, @Nuvio-MCP/ide-testing@workspace:packages/testing":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-testing@workspace:packages/testing"
+  resolution: "@Nuvio-MCP/ide-testing@workspace:packages/testing"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-markdown": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-monaco-enhance": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-markdown": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-monaco-enhance": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
     react-virtualized-auto-sizer: "npm:^1.0.2"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-theme@workspace:*, @opensumi/ide-theme@workspace:packages/theme":
+"@Nuvio-MCP/ide-theme@workspace:*, @Nuvio-MCP/ide-theme@workspace:packages/theme":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-theme@workspace:packages/theme"
+  resolution: "@Nuvio-MCP/ide-theme@workspace:packages/theme"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-logs": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-logs": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-toolbar@workspace:*, @opensumi/ide-toolbar@workspace:packages/toolbar":
+"@Nuvio-MCP/ide-toolbar@workspace:*, @Nuvio-MCP/ide-toolbar@workspace:packages/toolbar":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-toolbar@workspace:packages/toolbar"
+  resolution: "@Nuvio-MCP/ide-toolbar@workspace:packages/toolbar"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-utils@workspace:*, @opensumi/ide-utils@workspace:packages/utils":
+"@Nuvio-MCP/ide-utils@workspace:*, @Nuvio-MCP/ide-utils@workspace:packages/utils":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-utils@workspace:packages/utils"
+  resolution: "@Nuvio-MCP/ide-utils@workspace:packages/utils"
   dependencies:
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
     iconv-lite: "npm:^0.6.3"
     jschardet: "npm:3.0.0"
     mri: "npm:^1.2.0"
@@ -4431,79 +4431,79 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-variable@workspace:*, @opensumi/ide-variable@workspace:packages/variable":
+"@Nuvio-MCP/ide-variable@workspace:*, @Nuvio-MCP/ide-variable@workspace:packages/variable":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-variable@workspace:packages/variable"
+  resolution: "@Nuvio-MCP/ide-variable@workspace:packages/variable"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-quick-open": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-quick-open": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-webview@workspace:*, @opensumi/ide-webview@workspace:packages/webview":
+"@Nuvio-MCP/ide-webview@workspace:*, @Nuvio-MCP/ide-webview@workspace:packages/webview":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-webview@workspace:packages/webview"
+  resolution: "@Nuvio-MCP/ide-webview@workspace:packages/webview"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-core-electron-main": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-theme": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-electron-main": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-theme": "workspace:*"
   peerDependencies:
     electron: "*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-workspace-edit@workspace:*, @opensumi/ide-workspace-edit@workspace:packages/workspace-edit":
+"@Nuvio-MCP/ide-workspace-edit@workspace:*, @Nuvio-MCP/ide-workspace-edit@workspace:packages/workspace-edit":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-workspace-edit@workspace:packages/workspace-edit"
+  resolution: "@Nuvio-MCP/ide-workspace-edit@workspace:packages/workspace-edit"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-editor": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-main-layout": "workspace:*"
-    "@opensumi/ide-monaco": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-editor": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-main-layout": "workspace:*"
+    "@Nuvio-MCP/ide-monaco": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/ide-workspace@workspace:*, @opensumi/ide-workspace@workspace:packages/workspace":
+"@Nuvio-MCP/ide-workspace@workspace:*, @Nuvio-MCP/ide-workspace@workspace:packages/workspace":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-workspace@workspace:packages/workspace"
+  resolution: "@Nuvio-MCP/ide-workspace@workspace:packages/workspace"
   dependencies:
-    "@opensumi/ide-core-browser": "workspace:*"
-    "@opensumi/ide-core-common": "workspace:*"
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-file-service": "workspace:*"
-    "@opensumi/ide-overlay": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-file-service": "workspace:*"
+    "@Nuvio-MCP/ide-overlay": "workspace:*"
   languageName: unknown
   linkType: soft
 
-"@opensumi/mock-socket@npm:^9.3.1":
+"@Nuvio-MCP/mock-socket@npm:^9.3.1":
   version: 9.3.1
-  resolution: "@opensumi/mock-socket@npm:9.3.1"
+  resolution: "@Nuvio-MCP/mock-socket@npm:9.3.1"
   checksum: 10/666effdb2e659dbdbb509e1371426d0ab20243828c4412e0d3888339d7bccd9b4aa95644f462c333870bc58755a45bd8341547e018bb5e735d79e9c8c882b7b8
   languageName: node
   linkType: hard
 
-"@opensumi/monaco-editor-core@npm:0.54.0-patch.2":
+"@Nuvio-MCP/monaco-editor-core@npm:0.54.0-patch.2":
   version: 0.54.0-patch.2
-  resolution: "@opensumi/monaco-editor-core@npm:0.54.0-patch.2"
+  resolution: "@Nuvio-MCP/monaco-editor-core@npm:0.54.0-patch.2"
   checksum: 10/32d0a0bafd6203685d66846ae2215b1a3197ce389a198cc5bd732eccf53deabfe2b36b83e9219ea99ce39245a9e44ac8630236956a9477443b80130661184c5a
   languageName: node
   linkType: hard
 
-"@opensumi/playwright@workspace:tools/playwright":
+"@Nuvio-MCP/playwright@workspace:tools/playwright":
   version: 0.0.0-use.local
-  resolution: "@opensumi/playwright@workspace:tools/playwright"
+  resolution: "@Nuvio-MCP/playwright@workspace:tools/playwright"
   dependencies:
-    "@opensumi/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
     "@playwright/test": "npm:1.43.0"
     allure-commandline: "npm:^2.25.0"
     allure-playwright: "npm:^2.10.0"
@@ -4511,9 +4511,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/react-custom-scrollbars-2@npm:^4.3.4":
+"@Nuvio-MCP/react-custom-scrollbars-2@npm:^4.3.4":
   version: 4.3.4
-  resolution: "@opensumi/react-custom-scrollbars-2@npm:4.3.4"
+  resolution: "@Nuvio-MCP/react-custom-scrollbars-2@npm:4.3.4"
   dependencies:
     dom-css: "npm:^2.0.0"
     prop-types: "npm:^15.5.10"
@@ -4525,19 +4525,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opensumi/reconnecting-websocket@npm:^4.4.0":
+"@Nuvio-MCP/reconnecting-websocket@npm:^4.4.0":
   version: 4.4.0
-  resolution: "@opensumi/reconnecting-websocket@npm:4.4.0"
+  resolution: "@Nuvio-MCP/reconnecting-websocket@npm:4.4.0"
   checksum: 10/0ec91f1779e359a0ce0689c79059dbe171732dfa15392b7b2f21ac58ea2bed4ab3f40aa84366cb1ed1371086ab0ab934e66f731fd9c15f62ec87e0217f9ae0c2
   languageName: node
   linkType: hard
 
-"@opensumi/remote-cli@workspace:packages/remote-cli":
+"@Nuvio-MCP/remote-cli@workspace:packages/remote-cli":
   version: 0.0.0-use.local
-  resolution: "@opensumi/remote-cli@workspace:packages/remote-cli"
+  resolution: "@Nuvio-MCP/remote-cli@workspace:packages/remote-cli"
   dependencies:
-    "@opensumi/ide-dev-tool": "workspace:*"
-    "@opensumi/ide-utils": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-utils": "workspace:*"
     "@types/node-fetch": "npm:^2.6.1"
     chalk: "npm:^4.1.2"
     mri: "npm:^1.2.0"
@@ -4545,51 +4545,51 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/sumi@workspace:packages/types":
+"@Nuvio-MCP/sumi@workspace:packages/types":
   version: 0.0.0-use.local
-  resolution: "@opensumi/sumi@workspace:packages/types"
+  resolution: "@Nuvio-MCP/sumi@workspace:packages/types"
   dependencies:
-    "@opensumi/ide-components": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*"
     "@types/react": "npm:^18.2.0"
     vscode-uri: "npm:3.0.2"
   languageName: unknown
   linkType: soft
 
-"@opensumi/textmate-languages@npm:^2.6.1":
+"@Nuvio-MCP/textmate-languages@npm:^2.6.1":
   version: 2.7.2
-  resolution: "@opensumi/textmate-languages@npm:2.7.2"
+  resolution: "@Nuvio-MCP/textmate-languages@npm:2.7.2"
   dependencies:
     plist: "npm:^3.0.1"
   checksum: 10/5a23ffe73e819cfab55f3f1ad3a9b49e0f69aaedce554138eed83a4b78f212169e226f1c20c6e1e317c60583745f912867f3a468e1fcff5440871ed11283fceb
   languageName: node
   linkType: hard
 
-"@opensumi/tree-sitter-wasm@npm:0.0.2":
+"@Nuvio-MCP/tree-sitter-wasm@npm:0.0.2":
   version: 0.0.2
-  resolution: "@opensumi/tree-sitter-wasm@npm:0.0.2"
+  resolution: "@Nuvio-MCP/tree-sitter-wasm@npm:0.0.2"
   dependencies:
     web-tree-sitter: "npm:0.22.6"
   checksum: 10/38e61a05b0696ed69144ece0d48f1ef9a0c9e19c20aaf6270e687a8ad78fda8342836cdf3bb29b722be73b9749f7f003f5bf6933008a70cbed99861797ab530d
   languageName: node
   linkType: hard
 
-"@opensumi/vscode-debugprotocol@npm:1.49.0-beta.1":
+"@Nuvio-MCP/vscode-debugprotocol@npm:1.49.0-beta.1":
   version: 1.49.0-beta.1
-  resolution: "@opensumi/vscode-debugprotocol@npm:1.49.0-beta.1"
+  resolution: "@Nuvio-MCP/vscode-debugprotocol@npm:1.49.0-beta.1"
   checksum: 10/1225221df82079e99a754ba58a9c9ce665baa53653cd2db7fa2d41e0578051b25fa2214e3b55082d0a7018cb6bd5ae3b479e71f966b2c1628cadf443d33a4901
   languageName: node
   linkType: hard
 
-"@opensumi/vscode-jsonrpc@npm:^8.0.0-next.2":
+"@Nuvio-MCP/vscode-jsonrpc@npm:^8.0.0-next.2":
   version: 8.0.0-next.9
-  resolution: "@opensumi/vscode-jsonrpc@npm:8.0.0-next.9"
+  resolution: "@Nuvio-MCP/vscode-jsonrpc@npm:8.0.0-next.9"
   checksum: 10/b6b768177ef756224b9e14271f5b6f32b2774f779a316e6500ada289e32ebdb74e111d84a60a48a45b4c7e3eac965c2f7c18da1e368737f8f96410f10389b852
   languageName: node
   linkType: hard
 
-"@opensumi/vscode-ripgrep@npm:^1.4.0":
+"@Nuvio-MCP/vscode-ripgrep@npm:^1.4.0":
   version: 1.4.0
-  resolution: "@opensumi/vscode-ripgrep@npm:1.4.0"
+  resolution: "@Nuvio-MCP/vscode-ripgrep@npm:1.4.0"
   dependencies:
     "@types/node": "npm:^10.12.0"
   checksum: 10/ce16b6e71eb3e654cffeed4601ac9fdd71aabd9bb61490498dea051345761522a8a3e2288fb03f0929163666f4faf54133db8256e7764fce1a1d23856f332a50

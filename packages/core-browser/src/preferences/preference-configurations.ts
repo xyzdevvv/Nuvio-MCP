@@ -1,10 +1,10 @@
-import { Autowired, Injectable, Injector } from '@opensumi/di';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   ContributionProvider,
   DEFAULT_WORKSPACE_CONFIGURATION_DIR_NAME,
   URI,
   createContributionProvider,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { AppConfig } from '../react-providers/config-provider';
 

@@ -1,9 +1,9 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution, Domain, formatLocalize, getIcon, localize } from '@opensumi/ide-core-browser';
-import { EXPLORER_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
-import { browserViews } from '@opensumi/ide-core-browser/lib/extensions/schema/browserViews';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IExtensionsSchemaService } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution, Domain, formatLocalize, getIcon, localize } from '@Nuvio-MCP/ide-core-browser';
+import { EXPLORER_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
+import { browserViews } from '@Nuvio-MCP/ide-core-browser/lib/extensions/schema/browserViews';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IExtensionsSchemaService } from '@Nuvio-MCP/ide-core-common';
 
 export { EXPLORER_CONTAINER_ID };
 
@@ -16,7 +16,7 @@ export class ExplorerContribution implements ClientAppContribution, ComponentCon
    * register `explorer` component container
    */
   registerComponent(registry: ComponentRegistry) {
-    registry.register('@opensumi/ide-explorer', [], {
+    registry.register('@Nuvio-MCP/ide-explorer', [], {
       iconClass: getIcon('explorer'),
       title: localize('explorer.title'),
       priority: 10,
@@ -28,7 +28,7 @@ export class ExplorerContribution implements ClientAppContribution, ComponentCon
   onStart() {
     this.extensionsSchemaService.appendExtensionPoint(['browserViews', 'properties'], {
       extensionPoint: EXPLORER_CONTAINER_ID,
-      frameworkKind: ['opensumi'],
+      frameworkKind: ['Nuvio-MCP'],
       jsonSchema: {
         ...browserViews.properties,
         description: formatLocalize('sumiContributes.browserViews.location.custom', localize('explorer.title')),

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { IMarkedOptions } from '@opensumi/ide-components/lib/utils';
-import { CancellationTokenSource, Disposable, URI, useInjectable } from '@opensumi/ide-core-browser';
+import { IMarkedOptions } from '@Nuvio-MCP/ide-components/lib/utils';
+import { CancellationTokenSource, Disposable, URI, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { IMarkdownService } from '../common';
 

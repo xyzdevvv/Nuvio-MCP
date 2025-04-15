@@ -1,4 +1,4 @@
-import { IExtensionLogger } from '@opensumi/ide-core-common';
+import { IExtensionLogger } from '@Nuvio-MCP/ide-core-common';
 
 export class ExtensionLogger implements IExtensionLogger {
   verbose(...args: any[]): void {

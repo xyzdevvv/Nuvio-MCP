@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { RefObject, useCallback, useEffect, useRef, useState } from 'react';
 
-import { Button, IRecycleTreeHandle, RecycleTree, TreeNodeEvent } from '@opensumi/ide-components';
-import { CommandService, ViewState, formatLocalize, localize, useInjectable } from '@opensumi/ide-core-browser';
+import { Button, IRecycleTreeHandle, RecycleTree, TreeNodeEvent } from '@Nuvio-MCP/ide-components';
+import { CommandService, ViewState, formatLocalize, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { ResultTotal, SEARCH_STATE } from '../../common/content-search';
 import styles from '../search.module.less';

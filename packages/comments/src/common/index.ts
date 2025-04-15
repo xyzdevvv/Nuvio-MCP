@@ -9,12 +9,12 @@ import {
   IRange,
   MaybePromise,
   URI,
-} from '@opensumi/ide-core-browser';
-import { IEditor } from '@opensumi/ide-editor';
-import { IObservable, ISettableObservable } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IEditor } from '@Nuvio-MCP/ide-editor';
+import { IObservable, ISettableObservable } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
-import type { ITree, ITreeNode } from '@opensumi/ide-components';
-import type { IEditorDocumentModel } from '@opensumi/ide-editor/lib/common/editor';
+import type { ITree, ITreeNode } from '@Nuvio-MCP/ide-components';
+import type { IEditorDocumentModel } from '@Nuvio-MCP/ide-editor/lib/common/editor';
 
 export type Writable<T> = { -readonly [P in keyof T]: T[P] };
 

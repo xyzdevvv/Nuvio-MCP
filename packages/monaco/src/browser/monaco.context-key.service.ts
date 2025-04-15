@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
 import {
   ContextKeyChangeEvent,
   Emitter,
@@ -12,11 +12,11 @@ import {
   PreferenceService,
   createPreferenceProxy,
   getDebugLogger,
-} from '@opensumi/ide-core-browser';
-import { Disposable, ILogger } from '@opensumi/ide-core-common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { Emitter as EventEmitter } from '@opensumi/monaco-editor-core/esm/vs/base/common/event';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, ILogger } from '@Nuvio-MCP/ide-core-common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { Emitter as EventEmitter } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/event';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 import {
   ConfigurationTarget,
   IConfigurationChangeEvent,
@@ -24,16 +24,16 @@ import {
   IConfigurationOverrides,
   IConfigurationService,
   IConfigurationValue,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
-import { ContextKeyService } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
+import { ContextKeyService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
 import {
   ContextKeyExpr,
   ContextKeyExpression,
   ContextKeyValue,
   IContextKeyServiceTarget,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
-import { KeybindingResolver } from '@opensumi/monaco-editor-core/esm/vs/platform/keybinding/common/keybindingResolver';
-import { IWorkspaceFolder } from '@opensumi/monaco-editor-core/esm/vs/platform/workspace/common/workspace';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { KeybindingResolver } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/keybinding/common/keybindingResolver';
+import { IWorkspaceFolder } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/workspace/common/workspace';
 
 // 新版本这个 magic string 没有导出了
 const KEYBINDING_CONTEXT_ATTR = 'data-keybinding-context';

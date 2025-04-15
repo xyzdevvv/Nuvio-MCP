@@ -252,9 +252,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opensumi/ide-dev-tool@portal:../dev-tool::locator=%40opensumi%2Fide-electron%40workspace%3A.":
+"@Nuvio-MCP/ide-dev-tool@portal:../dev-tool::locator=%40Nuvio-MCP%2Fide-electron%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-dev-tool@portal:../dev-tool::locator=%40opensumi%2Fide-electron%40workspace%3A."
+  resolution: "@Nuvio-MCP/ide-dev-tool@portal:../dev-tool::locator=%40Nuvio-MCP%2Fide-electron%40workspace%3A."
   dependencies:
     "@types/koa": "npm:^2.14.0"
     "@types/koa-bodyparser": "npm:^4.3.7"
@@ -286,12 +286,12 @@ __metadata:
   languageName: node
   linkType: soft
 
-"@opensumi/ide-electron@workspace:.":
+"@Nuvio-MCP/ide-electron@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@opensumi/ide-electron@workspace:."
+  resolution: "@Nuvio-MCP/ide-electron@workspace:."
   dependencies:
-    "@opensumi/ide-dev-tool": "portal:../dev-tool"
-    "@opensumi/vscode-ripgrep": "npm:^1.4.0"
+    "@Nuvio-MCP/ide-dev-tool": "portal:../dev-tool"
+    "@Nuvio-MCP/vscode-ripgrep": "npm:^1.4.0"
     "@parcel/watcher": "npm:2.1.0"
     clean-webpack-plugin: "npm:^4.0.0"
     copy-webpack-plugin: "npm:^12.0.2"
@@ -324,9 +324,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@opensumi/vscode-ripgrep@npm:^1.4.0":
+"@Nuvio-MCP/vscode-ripgrep@npm:^1.4.0":
   version: 1.4.0
-  resolution: "@opensumi/vscode-ripgrep@npm:1.4.0"
+  resolution: "@Nuvio-MCP/vscode-ripgrep@npm:1.4.0"
   dependencies:
     "@types/node": "npm:^10.12.0"
   checksum: 10/ce16b6e71eb3e654cffeed4601ac9fdd71aabd9bb61490498dea051345761522a8a3e2288fb03f0929163666f4faf54133db8256e7764fce1a1d23856f332a50

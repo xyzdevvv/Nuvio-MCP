@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   CommandContribution,
@@ -10,8 +10,8 @@ import {
   URI,
   WORKSPACE_COMMANDS,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IWindowDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
 
 import { DEFAULT_WORKSPACE_SUFFIX_NAME, IWorkspaceService } from '../common';
 

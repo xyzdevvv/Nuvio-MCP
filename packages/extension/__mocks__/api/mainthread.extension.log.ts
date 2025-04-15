@@ -1,5 +1,5 @@
-import { LogLevel } from '@opensumi/ide-core-common';
-import { IMainThreadExtensionLog } from '@opensumi/ide-extension/lib/common/extension-log';
+import { LogLevel } from '@Nuvio-MCP/ide-core-common';
+import { IMainThreadExtensionLog } from '@Nuvio-MCP/ide-extension/lib/common/extension-log';
 
 export class MainThreadExtensionLog implements IMainThreadExtensionLog {
   private level: LogLevel = LogLevel.Verbose;

@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/1.44.0/src/vs/base/common/comparers.ts
 
-import { IdleValue, path } from '@opensumi/ide-utils';
+import { IdleValue, path } from '@Nuvio-MCP/ide-utils';
 
 import { IRange } from './types';
 const { sep } = path;

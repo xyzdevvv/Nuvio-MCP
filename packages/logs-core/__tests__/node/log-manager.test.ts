@@ -3,10 +3,10 @@ import path from 'path';
 import * as fs from 'fs-extra';
 import temp from 'temp';
 
-import { toLocalISOString } from '@opensumi/ide-core-common';
-import { AppConfig } from '@opensumi/ide-core-node/lib/types';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { toLocalISOString } from '@Nuvio-MCP/ide-core-common';
+import { AppConfig } from '@Nuvio-MCP/ide-core-node/lib/types';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { ILogServiceManager, LogLevel, SupportLogNamespace } from '../../src/common';
 import { LogServiceModule } from '../../src/node';

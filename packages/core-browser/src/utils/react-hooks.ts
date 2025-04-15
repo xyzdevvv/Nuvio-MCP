@@ -1,9 +1,9 @@
 import _debounce from 'lodash/debounce';
 import { DependencyList, useEffect, useMemo, useRef, useState } from 'react';
 
-import { Disposable, DisposableStore, IDisposable } from '@opensumi/ide-core-common';
-import { autorun } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/autorun';
-import { IObservable } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+import { Disposable, DisposableStore, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { autorun } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/autorun';
+import { IObservable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
 
 import { IDesignStyleService } from '../design';
 import { MenuNode } from '../menu/next/base';

@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-connection",
+  "name": "@Nuvio-MCP/ide-connection",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,21 +14,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
     "@furyjs/fury": "0.5.9-beta",
-    "@opensumi/events": "^1.0.0",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-utils": "workspace:*",
-    "@opensumi/reconnecting-websocket": "^4.4.0",
-    "@opensumi/vscode-jsonrpc": "^8.0.0-next.2",
+    "@Nuvio-MCP/events": "^1.0.0",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-utils": "workspace:*",
+    "@Nuvio-MCP/reconnecting-websocket": "^4.4.0",
+    "@Nuvio-MCP/vscode-jsonrpc": "^8.0.0-next.2",
     "path-to-regexp": "^6.2.1",
     "ws": "^8.16.0"
   },
   "devDependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*",
-    "@opensumi/mock-socket": "^9.3.1"
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*",
+    "@Nuvio-MCP/mock-socket": "^9.3.1"
   }
 }

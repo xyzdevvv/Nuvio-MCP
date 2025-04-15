@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IToolbarRegistry, createToolbarActionBtn } from '../../toolbar';
 import { createToolbarActionSelect } from '../../toolbar/components/select';

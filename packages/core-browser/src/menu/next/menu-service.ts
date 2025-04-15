@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { CommandRegistry, Disposable, Emitter, Event } from '@opensumi/ide-core-common';
-import { ContextKeyExpr } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { CommandRegistry, Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { ContextKeyExpr } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import { ContextKeyChangeEvent, IContextKeyService } from '../../context-key';
 

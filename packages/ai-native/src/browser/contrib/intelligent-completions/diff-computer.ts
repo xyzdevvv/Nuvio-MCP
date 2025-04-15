@@ -1,5 +1,5 @@
-import { ICodeEditor, IRange, ITextModel } from '@opensumi/ide-monaco';
-import { empty } from '@opensumi/ide-utils/lib/strings';
+import { ICodeEditor, IRange, ITextModel } from '@Nuvio-MCP/ide-monaco';
+import { empty } from '@Nuvio-MCP/ide-utils/lib/strings';
 
 /**
  * @internal

@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   CommandService,
   Disposable,
@@ -13,8 +13,8 @@ import {
   combinedDisposable,
   dispose,
   toDisposable,
-} from '@opensumi/ide-core-common';
-import { observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-common';
+import { observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { ISCMMenus, ISCMRepository, ISCMResource, ISCMResourceGroup, SCMService } from '../common';
 

@@ -1,9 +1,9 @@
-import { CancellationTokenSource, IEventBus, URI } from '@opensumi/ide-core-common';
-import { ResourceDecorationNeedChangeEvent } from '@opensumi/ide-editor/lib/browser/types';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/src/browser';
-import { MainThreadWebview } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.api.webview';
-import { MainThreadCustomEditor } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.custom-editor';
-import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
+import { CancellationTokenSource, IEventBus, URI } from '@Nuvio-MCP/ide-core-common';
+import { ResourceDecorationNeedChangeEvent } from '@Nuvio-MCP/ide-editor/lib/browser/types';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/src/browser';
+import { MainThreadWebview } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.api.webview';
+import { MainThreadCustomEditor } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.custom-editor';
+import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
 import {
   CustomEditorOptionChangeEvent,
   CustomEditorShouldDisplayEvent,
@@ -12,8 +12,8 @@ import {
   CustomEditorShouldSaveEvent,
   CustomEditorType,
   IExtHostCustomEditor,
-} from '@opensumi/ide-extension/lib/common/vscode/custom-editor';
-import { IWebviewService } from '@opensumi/ide-webview/lib/browser/types';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode/custom-editor';
+import { IWebviewService } from '@Nuvio-MCP/ide-webview/lib/browser/types';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector, mockService } from '../../../../tools/dev-tool/src/mock-injector';

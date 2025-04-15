@@ -1,13 +1,13 @@
-import { Disposable, Emitter, IEventBus, URI } from '@opensumi/ide-core-browser';
+import { Disposable, Emitter, IEventBus, URI } from '@Nuvio-MCP/ide-core-browser';
 import {
   EditorDecorationChangeEvent,
   EditorDecorationTypeRemovedEvent,
   IEditorDecorationCollectionService,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorDecorationCollectionService } from '@opensumi/ide-editor/lib/browser/editor.decoration.service';
-import { createMockedMonaco } from '@opensumi/ide-monaco/__mocks__/monaco';
-import { IThemeService } from '@opensumi/ide-theme';
-import { ICSSStyleService } from '@opensumi/ide-theme/lib/common/style';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorDecorationCollectionService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.decoration.service';
+import { createMockedMonaco } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
+import { ICSSStyleService } from '@Nuvio-MCP/ide-theme/lib/common/style';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MonacoEditorDecorationApplier } from '../../src/browser/decoration-applier';

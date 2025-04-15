@@ -1,11 +1,11 @@
-import { Injectable, Injector, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
+import { Injectable, Injector, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
 import {
   IPreferenceSettingsService,
   PreferenceConfigurations,
   PreferenceProvider,
   PreferenceScope,
-} from '@opensumi/ide-core-browser/lib/preferences';
+} from '@Nuvio-MCP/ide-core-browser/lib/preferences';
 
 import { IUserStorageService, SettingContribution } from '../common';
 

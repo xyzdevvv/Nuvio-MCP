@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Disposable, IDisposable, objects } from '@opensumi/ide-utils';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable, IDisposable, objects } from '@Nuvio-MCP/ide-utils';
 
 import { IJSONSchema, IJSONSchemaMap } from './json-schema';
 import { formatLocalize } from './localize';

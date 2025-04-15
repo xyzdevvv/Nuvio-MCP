@@ -1,5 +1,5 @@
-import { Event, TerminalSettingsId, localize } from '@opensumi/ide-core-common';
-import { PreferenceSchema } from '@opensumi/ide-core-common/lib/preferences';
+import { Event, TerminalSettingsId, localize } from '@Nuvio-MCP/ide-core-common';
+import { PreferenceSchema } from '@Nuvio-MCP/ide-core-common/lib/preferences';
 
 import { RenderType } from './xterm';
 

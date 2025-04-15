@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { ICommonServer, OperatingSystem, isLinux, isWindows } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { ICommonServer, OperatingSystem, isLinux, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 @Injectable()
 export class BrowserCommonServer implements ICommonServer {

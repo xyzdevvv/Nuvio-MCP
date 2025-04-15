@@ -1,7 +1,7 @@
 import { Position as P, Range as R, SymbolKind as S, SymbolInformation } from 'vscode-languageserver-types';
 
-import { IChatFollowup, IChatReplyFollowup, IChatResponseCommandFollowup } from '@opensumi/ide-ai-native/lib/common';
-import { createMarkedRenderer, toMarkdownHtml } from '@opensumi/ide-components/lib/utils';
+import { IChatFollowup, IChatReplyFollowup, IChatResponseCommandFollowup } from '@Nuvio-MCP/ide-ai-native/lib/common';
+import { createMarkedRenderer, toMarkdownHtml } from '@Nuvio-MCP/ide-components/lib/utils';
 import {
   IMarkdownString,
   IMarkerData,
@@ -22,14 +22,14 @@ import {
   once,
   path,
   randomString,
-} from '@opensumi/ide-core-common';
-import { ChatMessageRole as ChatMessageRoleEnum, IChatMessage } from '@opensumi/ide-core-common/lib/types/ai-native';
-import * as debugModel from '@opensumi/ide-debug';
-import { IEvaluatableExpression } from '@opensumi/ide-debug/lib/common/evaluatable-expression';
-import { TrackedRangeStickiness } from '@opensumi/ide-editor/lib/common/editor';
-import { CellKind } from '@opensumi/ide-editor/lib/common/notebook';
-import { FileStat, FileType } from '@opensumi/ide-file-service';
-import { TestId } from '@opensumi/ide-testing/lib/common';
+} from '@Nuvio-MCP/ide-core-common';
+import { ChatMessageRole as ChatMessageRoleEnum, IChatMessage } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native';
+import * as debugModel from '@Nuvio-MCP/ide-debug';
+import { IEvaluatableExpression } from '@Nuvio-MCP/ide-debug/lib/common/evaluatable-expression';
+import { TrackedRangeStickiness } from '@Nuvio-MCP/ide-editor/lib/common/editor';
+import { CellKind } from '@Nuvio-MCP/ide-editor/lib/common/notebook';
+import { FileStat, FileType } from '@Nuvio-MCP/ide-file-service';
+import { TestId } from '@Nuvio-MCP/ide-testing/lib/common';
 import {
   ISerializedTestResults,
   ITestErrorMessage,
@@ -39,7 +39,7 @@ import {
   SerializedTestErrorMessage,
   SerializedTestResultItem,
   TestMessageType,
-} from '@opensumi/ide-testing/lib/common/testCollection';
+} from '@Nuvio-MCP/ide-testing/lib/common/testCollection';
 
 
 import { CommandsConverter } from '../../hosted/api/vscode/ext.host.command';
@@ -70,8 +70,8 @@ import type {
   LanguageFilter,
   LanguageSelector,
   NotebookCellInternalMetadata,
-} from '@opensumi/ide-editor/lib/common';
-import type * as languages from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/ide-editor/lib/common';
+import type * as languages from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 import type vscode from 'vscode';
 
 const { parse } = path;

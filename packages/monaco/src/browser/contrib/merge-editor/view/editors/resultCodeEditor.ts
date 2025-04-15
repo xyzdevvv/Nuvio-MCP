@@ -1,6 +1,6 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable, Injector } from '@opensumi/di';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AINativeConfigService,
   CancellationToken,
@@ -9,8 +9,8 @@ import {
   Event,
   MonacoService,
   runWhenIdle,
-} from '@opensumi/ide-core-browser';
-import { MergeConflictReportService } from '@opensumi/ide-core-browser/lib/ai-native/conflict-report.service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MergeConflictReportService } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/conflict-report.service';
 import {
   AIBackSerivcePath,
   ChatResponse,
@@ -19,21 +19,21 @@ import {
   IInternalResolveConflictRegistry,
   MergeConflictEditorMode,
   ResolveConflictRegistryToken,
-} from '@opensumi/ide-core-common';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { Position } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/position';
+} from '@Nuvio-MCP/ide-core-common';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { Position } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/position';
 import {
   IModelDecorationOptions,
   IModelDeltaDecoration,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 import {
   FormattingMode,
   formatDocumentRangesWithSelectedProvider,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
-import { IStandaloneEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
-import { IInstantiationService } from '@opensumi/monaco-editor-core/esm/vs/platform/instantiation/common/instantiation';
-import { Progress } from '@opensumi/monaco-editor-core/esm/vs/platform/progress/common/progress';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
+import { IStandaloneEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+import { IInstantiationService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/instantiation/common/instantiation';
+import { Progress } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/progress/common/progress';
 
 import { editor } from '../../../../../browser/monaco-exports';
 import * as monaco from '../../../../../common';

@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   DisposableCollection,
@@ -8,10 +8,10 @@ import {
   isMacintosh,
   localize,
   replaceLocalizePlaceholder,
-} from '@opensumi/ide-core-browser';
-import { ResourceDidUpdateEvent, WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
-import { basename, dirname, posix, toSlashes } from '@opensumi/ide-utils/lib/path';
-import { template } from '@opensumi/ide-utils/lib/strings';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ResourceDidUpdateEvent, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { basename, dirname, posix, toSlashes } from '@Nuvio-MCP/ide-utils/lib/path';
+import { template } from '@Nuvio-MCP/ide-utils/lib/strings';
 
 import { IElectronHeaderService } from '../../common/header';
 
@@ -116,7 +116,7 @@ export class ElectronHeaderService extends WithEventBus implements IElectronHead
     const rootName = workspaceBasename;
     const rootPath = workspaceDir;
     const appName = replaceLocalizePlaceholder(appConfig.appName) ?? '';
-    // TODO: 当前 OpenSumi 还不支持 Remote 名字
+    // TODO: 当前 Nuvio-MCP 还不支持 Remote 名字
     const remoteName = '';
     const dirty = currentEditor?.currentDocumentModel?.dirty ? TITLE_DIRTY : '';
 

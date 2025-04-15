@@ -1,5 +1,5 @@
 'use strict';
-import { isWindows } from '@opensumi/ide-core-common';
+import { isWindows } from '@Nuvio-MCP/ide-core-common';
 import * as monaco from '../../../src/common';
 
 // 这里copy了 vscode-uri 源码作为 mock 的 monaco uri 使用

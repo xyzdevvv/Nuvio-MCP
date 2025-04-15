@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { CheckBox } from '@opensumi/ide-components/lib/checkbox';
-import { RecycleList } from '@opensumi/ide-components/lib/recycle-list';
-import { useAutorun } from '@opensumi/ide-core-browser';
-import { ViewState } from '@opensumi/ide-core-browser/lib/layout';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services/label-service';
-import { URI, Uri, path } from '@opensumi/ide-core-common';
-import { localize } from '@opensumi/ide-core-common/lib/localize';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser/doc-model/types';
-import * as monaco from '@opensumi/ide-monaco';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import { CheckBox } from '@Nuvio-MCP/ide-components/lib/checkbox';
+import { RecycleList } from '@Nuvio-MCP/ide-components/lib/recycle-list';
+import { useAutorun } from '@Nuvio-MCP/ide-core-browser';
+import { ViewState } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services/label-service';
+import { URI, Uri, path } from '@Nuvio-MCP/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common/lib/localize';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { IRefactorPreviewService, WorkspaceEditModel } from './refactor-preview.service';
 import styles from './refactor_preview.module.less';
@@ -19,8 +19,8 @@ import { isResourceFileEdit } from './utils';
 import type {
   ResourceFileEdit,
   ResourceTextEdit,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
-import type { IRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+import type { IRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 
 interface IRefactorNodeProps {
   data: WorkspaceEditModel;

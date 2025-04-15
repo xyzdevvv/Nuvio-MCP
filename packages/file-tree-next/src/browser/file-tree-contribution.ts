@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ClientAppContribution,
@@ -30,28 +30,28 @@ import {
   formatLocalize,
   localize,
   match,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   FilesExplorerFilteredContext,
   FilesExplorerFocusedContext,
   FilesExplorerInputFocusedContext,
-} from '@opensumi/ide-core-browser/lib/contextkey/explorer';
+} from '@Nuvio-MCP/ide-core-browser/lib/contextkey/explorer';
 import {
   ExplorerContextCallback,
   IMenuRegistry,
   MenuContribution,
   MenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { DIFF_SCHEME, EditorOpenType, IEditorOpenType, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EXPLORER_CONTAINER_ID } from '@opensumi/ide-explorer/lib/browser/explorer-contribution';
-import { IMainLayoutService, IViewsRegistry, MainLayoutContribution } from '@opensumi/ide-main-layout';
-import { ViewContentGroups } from '@opensumi/ide-main-layout/lib/browser/views-registry';
-import { IOpenDialogOptions, ISaveDialogOptions, IWindowDialogService } from '@opensumi/ide-overlay';
-import { Path } from '@opensumi/ide-utils/lib/path';
-import { IWorkspaceService, UNTITLED_WORKSPACE } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { DIFF_SCHEME, EditorOpenType, IEditorOpenType, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EXPLORER_CONTAINER_ID } from '@Nuvio-MCP/ide-explorer/lib/browser/explorer-contribution';
+import { IMainLayoutService, IViewsRegistry, MainLayoutContribution } from '@Nuvio-MCP/ide-main-layout';
+import { ViewContentGroups } from '@Nuvio-MCP/ide-main-layout/lib/browser/views-registry';
+import { IOpenDialogOptions, ISaveDialogOptions, IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
+import { Path } from '@Nuvio-MCP/ide-utils/lib/path';
+import { IWorkspaceService, UNTITLED_WORKSPACE } from '@Nuvio-MCP/ide-workspace';
 
 import { IFileTreeService, PasteTypes, RESOURCE_VIEW_ID } from '../common';
 import { Directory } from '../common/file-tree-node.define';

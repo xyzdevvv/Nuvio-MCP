@@ -1,4 +1,4 @@
-import { LOCALE_TYPES, LocaleType } from '@opensumi/ide-core-common/lib/const';
+import { LOCALE_TYPES, LocaleType } from '@Nuvio-MCP/ide-core-common/lib/const';
 
 const languages = [LOCALE_TYPES.EN_US, LOCALE_TYPES.ZH_CN];
 

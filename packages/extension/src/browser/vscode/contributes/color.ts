@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { localize, replaceLocalizePlaceholder } from '@opensumi/ide-core-browser';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
-import { ExtColorContribution, IThemeService } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { localize, replaceLocalizePlaceholder } from '@Nuvio-MCP/ide-core-browser';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { ExtColorContribution, IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 

@@ -1,13 +1,13 @@
 import { IconButtonProps, SubmitButtonProps } from '@rjsf/utils';
 import React, { useCallback, useEffect } from 'react';
 
-import { Button, getIcon } from '@opensumi/ide-components';
-import { defaultIconfont } from '@opensumi/ide-components/lib/icon/iconfont/iconMap';
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { MenuActionList } from '@opensumi/ide-core-browser/lib/components/actions/index';
-import { MenuNode } from '@opensumi/ide-core-browser/lib/menu/next/base';
-import { LabelMenuItemNode } from '@opensumi/ide-core-browser/lib/menu/next/menu.interface';
-import { Disposable, localize } from '@opensumi/ide-core-common';
+import { Button, getIcon } from '@Nuvio-MCP/ide-components';
+import { defaultIconfont } from '@Nuvio-MCP/ide-components/lib/icon/iconfont/iconMap';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { MenuActionList } from '@Nuvio-MCP/ide-core-browser/lib/components/actions/index';
+import { MenuNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/base';
+import { LabelMenuItemNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/menu.interface';
+import { Disposable, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { ILaunchService } from '../../../common';
 import { LaunchService } from '../launch.service';

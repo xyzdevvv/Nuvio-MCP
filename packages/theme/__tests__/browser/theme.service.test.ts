@@ -1,21 +1,21 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   BinaryBuffer,
   IPreferenceSettingsService,
   PreferenceSchemaProvider,
   URI,
   createContributionProvider,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   MockPreferenceSchemaProvider,
   MockPreferenceSettingsService,
-} from '@opensumi/ide-core-browser/__mocks__/preference';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { SemanticTokenRegistryImpl } from '@opensumi/ide-theme/lib/browser/semantic-tokens-registry';
-import { ThemeData } from '@opensumi/ide-theme/lib/browser/theme-data';
-import { ThemeStore } from '@opensumi/ide-theme/lib/browser/theme-store';
-import { Color, IThemeData, IThemeStore } from '@opensumi/ide-theme/lib/common';
-import { ISemanticTokenRegistry } from '@opensumi/ide-theme/lib/common/semantic-tokens-registry';
+} from '@Nuvio-MCP/ide-core-browser/__mocks__/preference';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { SemanticTokenRegistryImpl } from '@Nuvio-MCP/ide-theme/lib/browser/semantic-tokens-registry';
+import { ThemeData } from '@Nuvio-MCP/ide-theme/lib/browser/theme-data';
+import { ThemeStore } from '@Nuvio-MCP/ide-theme/lib/browser/theme-store';
+import { Color, IThemeData, IThemeStore } from '@Nuvio-MCP/ide-theme/lib/common';
+import { ISemanticTokenRegistry } from '@Nuvio-MCP/ide-theme/lib/common/semantic-tokens-registry';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

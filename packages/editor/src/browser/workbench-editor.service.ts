@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   FILE_COMMANDS,
@@ -14,9 +14,9 @@ import {
   fastdom,
   getSlotLocation,
   toMarkdown,
-} from '@opensumi/ide-core-browser';
-import { ResourceContextKey } from '@opensumi/ide-core-browser/lib/contextkey/resource';
-import { IMergeEditorEditor, MergeEditorInputData } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ResourceContextKey } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/resource';
+import { IMergeEditorEditor, MergeEditorInputData } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
 import {
   CUSTOM_EDITOR_SCHEME,
   CommandService,
@@ -49,11 +49,11 @@ import {
   makeRandomHexString,
   match,
   path,
-} from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import * as monaco from '@opensumi/ide-monaco';
-import { IDialogService, IMessageService, IWindowDialogService } from '@opensumi/ide-overlay';
-import { Dimension } from '@opensumi/monaco-editor-core/esm/vs/base/browser/dom';
+} from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IDialogService, IMessageService, IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
+import { Dimension } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/dom';
 
 import {
   CursorStatus,
@@ -857,7 +857,7 @@ export class EditorGroup extends WithEventBus implements IGridEditorGroup {
   constructor(public readonly name: string, public readonly groupId: number) {
     super();
     this.eventBus.onDirective(
-      ResizeEvent.createDirective(getSlotLocation('@opensumi/ide-editor', this.config.layoutConfig)),
+      ResizeEvent.createDirective(getSlotLocation('@Nuvio-MCP/ide-editor', this.config.layoutConfig)),
       () => {
         this.doLayoutEditors();
       },

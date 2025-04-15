@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   Deferred,
   DisposableCollection,
@@ -8,8 +8,8 @@ import {
   IDisposable,
   URI,
   isEmptyObject,
-} from '@opensumi/ide-core-common';
-import { PreferenceScope } from '@opensumi/ide-core-common/lib/preferences/preference-scope';
+} from '@Nuvio-MCP/ide-core-common';
+import { PreferenceScope } from '@Nuvio-MCP/ide-core-common/lib/preferences/preference-scope';
 
 import { JSONUtils, JSONValue } from '../utils';
 

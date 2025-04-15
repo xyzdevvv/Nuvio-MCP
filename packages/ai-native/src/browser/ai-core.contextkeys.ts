@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IContextKey, IContextKeyService, IScopedContextKeyService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IContextKey, IContextKeyService, IScopedContextKeyService } from '@Nuvio-MCP/ide-core-browser';
 import {
   CodeEditsIsVisible,
   InlineChatIsVisible,
@@ -8,9 +8,9 @@ import {
   InlineHintWidgetIsVisible,
   InlineInputWidgetIsStreaming,
   InlineInputWidgetIsVisible,
-} from '@opensumi/ide-core-browser/lib/contextkey/ai-native';
-import { ContextKeyService } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
-import { IContextKeyServiceTarget } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+} from '@Nuvio-MCP/ide-core-browser/lib/contextkey/ai-native';
+import { ContextKeyService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
+import { IContextKeyServiceTarget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 @Injectable()
 export class AINativeContextKey {

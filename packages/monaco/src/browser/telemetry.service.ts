@@ -1,9 +1,9 @@
-import { Injectable } from '@opensumi/di';
-import { Dispatcher } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Dispatcher } from '@Nuvio-MCP/ide-core-common';
 import {
   ITelemetryService,
   TelemetryLevel,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/telemetry/common/telemetry';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/telemetry/common/telemetry';
 
 @Injectable()
 export class MonacoTelemetryService implements ITelemetryService {

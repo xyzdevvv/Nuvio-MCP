@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { DisposableCollection, URI } from '@opensumi/ide-core-browser';
-import { PreferenceProvider, PreferenceScope } from '@opensumi/ide-core-browser/lib/preferences';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { DisposableCollection, URI } from '@Nuvio-MCP/ide-core-browser';
+import { PreferenceProvider, PreferenceScope } from '@Nuvio-MCP/ide-core-browser/lib/preferences';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { WorkspaceFilePreferenceProviderFactory } from './workspace-file-preference-provider';
 

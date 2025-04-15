@@ -1,9 +1,9 @@
 import path from 'path';
 
-import { CancellationTokenSource } from '@opensumi/ide-core-common';
-import { AppConfig, FileUri, INodeLogger, NodeLogger } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { ProcessModule } from '@opensumi/ide-process/lib/node';
+import { CancellationTokenSource } from '@Nuvio-MCP/ide-core-common';
+import { AppConfig, FileUri, INodeLogger, NodeLogger } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { ProcessModule } from '@Nuvio-MCP/ide-process/lib/node';
 
 import { IFileSearchService } from '../../src';
 import { FileSearchModule } from '../../src/node';

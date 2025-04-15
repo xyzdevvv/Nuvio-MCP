@@ -1,6 +1,6 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandService,
   Disposable,
@@ -20,22 +20,22 @@ import {
   isThenable,
   isUndefinedOrNull,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { URI as MonacoURI, monaco } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { EOL, EndOfLineSequence, ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { IMessageService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { URI as MonacoURI, monaco } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { EOL, EndOfLineSequence, ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 import {
   EditOperation,
   ISingleEditOperation,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 import {
   DefaultEndOfLine,
   EndOfLinePreference,
   ITextBuffer,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { createTextBuffer } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { createTextBuffer } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
 
 import {
   IDocCache,

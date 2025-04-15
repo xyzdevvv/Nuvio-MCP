@@ -5,7 +5,7 @@ import { ISerializer } from './serializer/types';
 import { ILogger } from './types';
 import { WSChannel, WSServerChannel } from './ws-channel';
 
-import type { Injector } from '@opensumi/di';
+import type { Injector } from '@Nuvio-MCP/di';
 
 export interface IPathHandler {
   dispose: (channel: WSChannel, connectionId: string) => void;

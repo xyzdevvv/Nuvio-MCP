@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-common';
-import { IWorkspaceStorageService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { IWorkspaceStorageService } from '@Nuvio-MCP/ide-workspace';
 
 import { IDocCache, IDocPersistentCacheProvider, IDocStatus, parseCacheValueFrom } from '../../common/doc-cache';
 

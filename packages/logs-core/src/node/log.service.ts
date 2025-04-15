@@ -4,8 +4,8 @@ import process from 'process';
 
 import spdlog from 'spdlog';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection';
 
 import {
   BaseLogServiceOptions,

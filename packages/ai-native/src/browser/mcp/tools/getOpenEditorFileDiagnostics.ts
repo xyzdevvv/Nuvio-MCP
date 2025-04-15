@@ -2,12 +2,12 @@ import * as path from 'path';
 
 import { z } from 'zod';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Domain, URI } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { URI as MonacoURI } from '@opensumi/monaco-editor-core/esm/vs/base/common/uri';
-import { IMarkerService, MarkerSeverity } from '@opensumi/monaco-editor-core/esm/vs/platform/markers/common/markers';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Domain, URI } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { URI as MonacoURI } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/uri';
+import { IMarkerService, MarkerSeverity } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/markers/common/markers';
 
 import { IMCPServerRegistry, MCPLogger, MCPServerContribution, MCPToolDefinition } from '../../types';
 

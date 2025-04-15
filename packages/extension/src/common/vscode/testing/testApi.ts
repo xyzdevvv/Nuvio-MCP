@@ -5,7 +5,7 @@
 // eslint-disable-next-line import/no-unresolved
 import * as vscode from 'vscode';
 
-import { TestIdPathParts } from '@opensumi/ide-testing/lib/common';
+import { TestIdPathParts } from '@Nuvio-MCP/ide-testing/lib/common';
 
 export const enum ExtHostTestItemEventOp {
   Upsert,

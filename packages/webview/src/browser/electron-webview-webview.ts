@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   Disposable,
@@ -6,7 +6,7 @@ import {
   IDisposable,
   electronEnv,
   getDebugLogger,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { WebviewScheme } from '../common';
 

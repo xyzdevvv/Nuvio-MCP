@@ -1,10 +1,10 @@
 import * as fse from 'fs-extra';
 import temp from 'temp';
 
-import { isMacintosh, sleep } from '@opensumi/ide-core-common';
-import { ILogServiceManager } from '@opensumi/ide-core-common/lib/log';
-import { FileUri } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { isMacintosh, sleep } from '@Nuvio-MCP/ide-core-common';
+import { ILogServiceManager } from '@Nuvio-MCP/ide-core-common/lib/log';
+import { FileUri } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { DidFilesChangedParams, FileChangeType } from '../../src/common';
 import { RecursiveFileSystemWatcher } from '../../src/node/hosted/recursive/file-service-watcher';

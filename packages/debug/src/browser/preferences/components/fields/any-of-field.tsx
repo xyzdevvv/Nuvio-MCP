@@ -10,8 +10,8 @@ import {
 } from '@rjsf/utils';
 import React from 'react';
 
-import { Input } from '@opensumi/ide-components';
-import { IJSONSchema } from '@opensumi/ide-core-common';
+import { Input } from '@Nuvio-MCP/ide-components';
+import { IJSONSchema } from '@Nuvio-MCP/ide-core-common';
 
 import styles from '../json-widget.module.less';
 

@@ -1,22 +1,22 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { Event, IContextKeyService, MonacoOverrideServiceRegistry, ServiceNames } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { Event, IContextKeyService, MonacoOverrideServiceRegistry, ServiceNames } from '@Nuvio-MCP/ide-core-browser';
 import {
   AbstractMenuService,
   ICtxMenuRenderer,
   IMenu,
   MenuId,
   generateMergedCtxMenu,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { Disposable, IDisposable, IRange, URI, strings, uuid } from '@opensumi/ide-core-common';
-import { IEditor, IEditorFeatureContribution } from '@opensumi/ide-editor/lib/browser';
-import { MonacoCodeService } from '@opensumi/ide-editor/lib/browser/editor.override';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { MarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
-import { MouseTargetType } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import * as editorCommon from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
-import { IModelDeltaDecoration } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Disposable, IDisposable, IRange, URI, strings, uuid } from '@Nuvio-MCP/ide-core-common';
+import { IEditor, IEditorFeatureContribution } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { MonacoCodeService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.override';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { MarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
+import { MouseTargetType } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import * as editorCommon from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { IModelDeltaDecoration } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import { TestServiceToken } from '../common';
 import {

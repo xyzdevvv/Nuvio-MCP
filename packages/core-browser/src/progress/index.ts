@@ -6,8 +6,8 @@ import {
   IProgressOptions,
   IProgressStep,
   IProgressWindowOptions,
-} from '@opensumi/ide-core-common';
-import { IObservable } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+} from '@Nuvio-MCP/ide-core-common';
+import { IObservable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
 
 export interface IProgressModel {
   show: IObservable<boolean>;

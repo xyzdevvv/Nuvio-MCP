@@ -1,7 +1,7 @@
 import { LibroCellURIScheme } from '@difizen/libro-common';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService, getLanguageIdFromMonaco } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService, getLanguageIdFromMonaco } from '@Nuvio-MCP/ide-core-browser';
 import {
   Emitter,
   Event,
@@ -10,10 +10,10 @@ import {
   MaybePromise,
   SaveTaskResponseState,
   URI,
-} from '@opensumi/ide-core-common';
-import { IEditorDocumentModelContentProvider } from '@opensumi/ide-editor/lib/browser/doc-model/types';
+} from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelContentProvider } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
 
-import { ILibroOpensumiService } from './libro.service';
+import { ILibroNuvio-MCPService } from './libro.service';
 
 @Injectable()
 export class NotebookDocumentContentProvider implements IEditorDocumentModelContentProvider {
@@ -23,8 +23,8 @@ export class NotebookDocumentContentProvider implements IEditorDocumentModelCont
   @Autowired(PreferenceService)
   protected readonly preferenceService: PreferenceService;
 
-  @Autowired(ILibroOpensumiService)
-  protected readonly libroOpensumiService: ILibroOpensumiService;
+  @Autowired(ILibroNuvio-MCPService)
+  protected readonly libroNuvio-MCPService: ILibroNuvio-MCPService;
 
   private _onDidChangeContent: Emitter<URI> = new Emitter();
 
@@ -35,7 +35,7 @@ export class NotebookDocumentContentProvider implements IEditorDocumentModelCont
   }
 
   async provideEditorDocumentModelContent(uri: URI, encoding?: string | undefined): Promise<string> {
-    const cell = await this.libroOpensumiService.getCellViewByUri(uri);
+    const cell = await this.libroNuvio-MCPService.getCellViewByUri(uri);
     return cell?.model.value ?? '';
   }
   isReadonly(): MaybePromise<boolean> {
@@ -47,11 +47,11 @@ export class NotebookDocumentContentProvider implements IEditorDocumentModelCont
     };
   }
   async preferLanguageForUri?(uri: URI): Promise<string | undefined> {
-    const cell = await this.libroOpensumiService.getCellViewByUri(uri);
+    const cell = await this.libroNuvio-MCPService.getCellViewByUri(uri);
     if (!cell) {
       return;
     }
-    return this.libroOpensumiService.getCellLanguage(cell);
+    return this.libroNuvio-MCPService.getCellLanguage(cell);
   }
   provideEncoding?(uri: URI): MaybePromise<string> {
     const encoding = this.preferenceService.get<string>(

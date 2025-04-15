@@ -3,7 +3,7 @@ import paths from 'path';
 
 import { TextDocument } from 'vscode-languageserver-types';
 
-import { Autowired, INJECTOR_TOKEN, Inject, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Inject, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   DisposableCollection,
@@ -24,7 +24,7 @@ import {
   isEmptyObject,
   match,
   parseGlob,
-} from '@opensumi/ide-core-node';
+} from '@Nuvio-MCP/ide-core-node';
 
 import {
   DidFilesChangedParams,

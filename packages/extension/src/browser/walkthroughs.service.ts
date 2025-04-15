@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Disposable,
   Emitter,
@@ -8,7 +8,7 @@ import {
   PreferenceService,
   URI,
   parseLinkedText,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   BinaryBuffer,
   CommandService,
@@ -16,14 +16,14 @@ import {
   FileType,
   IEventBus,
   ILogger,
-} from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { dirname } from '@opensumi/ide-utils/lib/path';
+} from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { dirname } from '@Nuvio-MCP/ide-utils/lib/path';
 import {
   ContextKeyExpr,
   ContextKeyExpression,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import {
   CompletionEventsType,

@@ -1,22 +1,22 @@
-import { Disposable, DomListener, Emitter, Event, IDisposable, IRange, uuid } from '@opensumi/ide-core-browser';
-import { IdGenerator } from '@opensumi/ide-core-common/lib/id-generator';
-import * as monaco from '@opensumi/ide-monaco';
-import { Color, RGBA } from '@opensumi/ide-theme';
+import { Disposable, DomListener, Emitter, Event, IDisposable, IRange, uuid } from '@Nuvio-MCP/ide-core-browser';
+import { IdGenerator } from '@Nuvio-MCP/ide-core-common/lib/id-generator';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { Color, RGBA } from '@Nuvio-MCP/ide-theme';
 import {
   createCSSRule,
   removeCSSRulesContainingSelector,
-} from '@opensumi/monaco-editor-core/esm/vs/base/browser/domStylesheets';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/domStylesheets';
 import {
   IHorizontalSashLayoutProvider,
   ISashEvent,
   Orientation,
   Sash,
   SashState,
-} from '@opensumi/monaco-editor-core/esm/vs/base/browser/ui/sash/sash';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import { TrackedRangeStickiness } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/ui/sash/sash';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { TrackedRangeStickiness } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
-import type { ICodeEditor, ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor, ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 export class ViewZoneDelegate implements monaco.editor.IViewZone {
   public domNode: HTMLElement;

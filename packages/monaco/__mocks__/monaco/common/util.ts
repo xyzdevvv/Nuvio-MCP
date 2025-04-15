@@ -1,4 +1,4 @@
-import { Emitter } from '@opensumi/ide-core-common';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
 
 const emitters: Map<string, Emitter<any>> = new Map();
 

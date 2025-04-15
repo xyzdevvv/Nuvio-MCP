@@ -14,16 +14,16 @@ import {
   watch,
 } from '@difizen/mana-app';
 
-import { Injector } from '@opensumi/di';
-import { IEventBus, URI, uuid } from '@opensumi/ide-core-common';
-import { EditorCollectionService, IEditorDocumentModelRef, ICodeEditor as IOpensumiEditor } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser/doc-model/types';
-import * as monacoTypes from '@opensumi/ide-monaco';
-import { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { Selection } from '@opensumi/monaco-editor-core';
-import { Range as MonacoRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+import { Injector } from '@Nuvio-MCP/di';
+import { IEventBus, URI, uuid } from '@Nuvio-MCP/ide-core-common';
+import { EditorCollectionService, IEditorDocumentModelRef, ICodeEditor as INuvio-MCPEditor } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
+import * as monacoTypes from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { Selection } from '@Nuvio-MCP/monaco-editor-core';
+import { Range as MonacoRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 
-import { OpensumiInjector } from '../../mana';
+import { Nuvio-MCPInjector } from '../../mana';
 
 import type {
   CodeEditorFactory,
@@ -40,10 +40,10 @@ import type {
   TooltipProvider,
 } from '@difizen/libro-code-editor';
 import type { LSPProvider } from '@difizen/libro-lsp';
-import type { IStandaloneEditorConstructionOptions as MonacoEditorOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
+import type { IStandaloneEditorConstructionOptions as MonacoEditorOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
 import './index.less';
 
-export interface LibroOpensumiEditorConfig extends IEditorConfig {
+export interface LibroNuvio-MCPEditorConfig extends IEditorConfig {
   /**
    * The mode to use.
    */
@@ -168,18 +168,18 @@ export interface LibroOpensumiEditorConfig extends IEditorConfig {
   selectionPointer?: boolean | string;
 }
 
-export const LibroOpensumiEditorOptions = Symbol('LibroOpensumiEditorOptions');
+export const LibroNuvio-MCPEditorOptions = Symbol('LibroNuvio-MCPEditorOptions');
 
-export interface LibroOpensumiEditorOptions extends IEditorOptions {
+export interface LibroNuvio-MCPEditorOptions extends IEditorOptions {
   lspProvider?: LSPProvider;
 
   /**
    * The configuration options for the editor.
    */
-  config?: Partial<LibroOpensumiEditorConfig>;
+  config?: Partial<LibroNuvio-MCPEditorConfig>;
 }
 
-export const libroOpensumiEditorDefaultConfig: Required<LibroOpensumiEditorConfig> = {
+export const libroNuvio-MCPEditorDefaultConfig: Required<LibroNuvio-MCPEditorConfig> = {
   ...defaultConfig,
   scrollBarHeight: 12,
   mode: 'null',
@@ -203,16 +203,16 @@ export const libroOpensumiEditorDefaultConfig: Required<LibroOpensumiEditorConfi
   lineWrap: 'off',
 };
 
-export const LibroOpensumiEditorFactory = Symbol('LibroOpensumiEditorFactory');
-export type LibroOpensumiEditorFactory = CodeEditorFactory;
+export const LibroNuvio-MCPEditorFactory = Symbol('LibroNuvio-MCPEditorFactory');
+export type LibroNuvio-MCPEditorFactory = CodeEditorFactory;
 
-export const OpensumiEditorClassname = 'libro-opensumi-editor';
+export const Nuvio-MCPEditorClassname = 'libro-Nuvio-MCP-editor';
 
-export type OpensumiEditorState = IEditorDocumentModelRef | null;
-export const LibroOpensumiEditorState = Symbol('LibroOpensumiEditorState');
-export type LibroOpensumiEditorState = EditorState<OpensumiEditorState>;
+export type Nuvio-MCPEditorState = IEditorDocumentModelRef | null;
+export const LibroNuvio-MCPEditorState = Symbol('LibroNuvio-MCPEditorState');
+export type LibroNuvio-MCPEditorState = EditorState<Nuvio-MCPEditorState>;
 
-export const stateFactory: (injector: Injector) => EditorStateFactory<OpensumiEditorState> =
+export const stateFactory: (injector: Injector) => EditorStateFactory<Nuvio-MCPEditorState> =
   (injector) => (options: IEditorStateOptions) => {
     const docModelService: IEditorDocumentModelService = injector.get(IEditorDocumentModelService);
     const uri = URI.parse(options.uuid);
@@ -227,7 +227,7 @@ export const stateFactory: (injector: Injector) => EditorStateFactory<OpensumiEd
   };
 
 @transient()
-export class LibroOpensumiEditor implements IEditor {
+export class LibroNuvio-MCPEditor implements IEditor {
   protected editorReadyDeferred = new Deferred<void>();
   editorReady = this.editorReadyDeferred.promise;
 
@@ -251,7 +251,7 @@ export class LibroOpensumiEditor implements IEditor {
 
   protected oldDeltaDecorations: string[] = [];
 
-  protected _config: LibroOpensumiEditorConfig;
+  protected _config: LibroNuvio-MCPEditorConfig;
 
   private intersectionObserver: IntersectionObserver;
 
@@ -276,10 +276,10 @@ export class LibroOpensumiEditor implements IEditor {
     return this._model;
   }
 
-  editorState: EditorState<OpensumiEditorState>;
+  editorState: EditorState<Nuvio-MCPEditorState>;
 
-  protected _editor?: IOpensumiEditor;
-  get editor(): IOpensumiEditor | undefined {
+  protected _editor?: INuvio-MCPEditor;
+  get editor(): INuvio-MCPEditor | undefined {
     return this?._editor;
   }
 
@@ -309,22 +309,22 @@ export class LibroOpensumiEditor implements IEditor {
   }
 
   constructor(
-    @inject(LibroOpensumiEditorOptions) options: LibroOpensumiEditorOptions,
-    @inject(LibroOpensumiEditorState) state: LibroOpensumiEditorState,
+    @inject(LibroNuvio-MCPEditorOptions) options: LibroNuvio-MCPEditorOptions,
+    @inject(LibroNuvio-MCPEditorState) state: LibroNuvio-MCPEditorState,
     @inject(ThemeService) themeService: ThemeService,
-    @inject(OpensumiInjector) injector: Injector,
+    @inject(Nuvio-MCPInjector) injector: Injector,
   ) {
     this.themeService = themeService;
     this.injector = injector;
     this.host = options.host;
-    this.host.classList.add('libro-opensumi-editor-container');
+    this.host.classList.add('libro-Nuvio-MCP-editor-container');
     this._uuid = options.uuid || uuid();
 
     this._model = options.model;
 
     const config = options.config || {};
     const fullConfig = {
-      ...libroOpensumiEditorDefaultConfig,
+      ...libroNuvio-MCPEditorDefaultConfig,
       ...config,
       mimetype: options.model.mimeType,
     };
@@ -352,7 +352,7 @@ export class LibroOpensumiEditor implements IEditor {
     return this._config.theme[themetype];
   }
 
-  protected toMonacoOptions(editorConfig: Partial<LibroOpensumiEditorConfig>): MonacoEditorOptions {
+  protected toMonacoOptions(editorConfig: Partial<LibroNuvio-MCPEditorConfig>): MonacoEditorOptions {
     return {
       minimap: {
         enabled: false,
@@ -368,14 +368,14 @@ export class LibroOpensumiEditor implements IEditor {
         verticalScrollbarSize: 0,
       },
       glyphMargin: false,
-      extraEditorClassName: OpensumiEditorClassname,
+      extraEditorClassName: Nuvio-MCPEditorClassname,
       readOnly: editorConfig.readOnly,
       maxTokenizationLineLength: 10000,
       wrappingStrategy: 'advanced',
     };
   }
 
-  getState(): EditorState<OpensumiEditorState> {
+  getState(): EditorState<Nuvio-MCPEditorState> {
     const cursorPosition = this.getCursorPosition();
     const selections = this.getSelections();
     return {
@@ -385,8 +385,8 @@ export class LibroOpensumiEditor implements IEditor {
     };
   }
 
-  protected async createEditor(host: HTMLElement, config: LibroOpensumiEditorConfig) {
-    const editorConfig: LibroOpensumiEditorConfig = {
+  protected async createEditor(host: HTMLElement, config: LibroNuvio-MCPEditorConfig) {
+    const editorConfig: LibroNuvio-MCPEditorConfig = {
       ...config,
     };
     this._config = editorConfig;
@@ -402,7 +402,7 @@ export class LibroOpensumiEditor implements IEditor {
     if (!modelRef) {
       const docModelService: IEditorDocumentModelService = this.injector.get(IEditorDocumentModelService);
       const uri = URI.parse(this._uuid);
-      modelRef = await getOrigin(docModelService).createModelReference(uri, 'libro-opensumi-editor');
+      modelRef = await getOrigin(docModelService).createModelReference(uri, 'libro-Nuvio-MCP-editor');
     }
     this._editor = getOrigin(editorCollectionService).createCodeEditor(host, options);
 
@@ -448,7 +448,7 @@ export class LibroOpensumiEditor implements IEditor {
   }
 
   protected getEditorNode() {
-    return Array.from(this.host.getElementsByClassName(OpensumiEditorClassname))[0] as HTMLDivElement;
+    return Array.from(this.host.getElementsByClassName(Nuvio-MCPEditorClassname))[0] as HTMLDivElement;
   }
 
   protected updateEditorSize() {
@@ -503,7 +503,7 @@ export class LibroOpensumiEditor implements IEditor {
    */
   protected onCursorActivity(): void {}
 
-  getOption<K extends keyof LibroOpensumiEditorConfig>(option: K) {
+  getOption<K extends keyof LibroNuvio-MCPEditorConfig>(option: K) {
     return this._config[option];
   }
 
@@ -512,7 +512,7 @@ export class LibroOpensumiEditor implements IEditor {
    * @param option
    * @param value
    */
-  setOption = <K extends keyof LibroOpensumiEditorConfig>(option: K, value: LibroOpensumiEditorConfig[K]) => {
+  setOption = <K extends keyof LibroNuvio-MCPEditorConfig>(option: K, value: LibroNuvio-MCPEditorConfig[K]) => {
     if (value === null || value === undefined) {
       return;
     }

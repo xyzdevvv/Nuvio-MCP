@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Disposable,
@@ -8,10 +8,10 @@ import {
   URI,
   getExternalIcon,
   getIcon,
-} from '@opensumi/ide-core-browser';
-import { browserViews } from '@opensumi/ide-core-browser/lib/extensions/schema/browserViews';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { browserViews } from '@Nuvio-MCP/ide-core-browser/lib/extensions/schema/browserViews';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 import {
   Command,
   CommandContribution,
@@ -21,10 +21,10 @@ import {
   PreferenceScope,
   formatLocalize,
   localize,
-} from '@opensumi/ide-core-common';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
-import { EditorCollectionService, IEditor, WorkbenchEditorService } from '@opensumi/ide-editor/lib/common';
-import { IMainLayoutService, IViewsRegistry, MainLayoutContribution } from '@opensumi/ide-main-layout';
+} from '@Nuvio-MCP/ide-core-common';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
+import { EditorCollectionService, IEditor, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common';
+import { IMainLayoutService, IViewsRegistry, MainLayoutContribution } from '@Nuvio-MCP/ide-main-layout';
 
 import {
   CLOSE_DIRTY_DIFF_WIDGET,
@@ -114,7 +114,7 @@ export class SCMContribution
     });
     this.extensionsPointService.appendExtensionPoint(['browserViews', 'properties'], {
       extensionPoint: scmContainerId,
-      frameworkKind: ['opensumi'],
+      frameworkKind: ['Nuvio-MCP'],
       jsonSchema: {
         ...browserViews.properties,
         description: formatLocalize('sumiContributes.browserViews.location.custom', localize('status-bar.scm')),
@@ -210,7 +210,7 @@ export class SCMContribution
   }
 
   registerComponent(registry: ComponentRegistry) {
-    registry.register('@opensumi/ide-scm', [], {
+    registry.register('@Nuvio-MCP/ide-scm', [], {
       iconClass: getIcon('scm'),
       title: localize('scm.title'),
       priority: 8,

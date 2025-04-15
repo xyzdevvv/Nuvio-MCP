@@ -6,7 +6,7 @@
 import { ITestResult } from './test-result';
 import { TestResultItem } from './testCollection';
 
-import type { ITextEditorOptions } from '@opensumi/monaco-editor-core/esm/vs/platform/editor/common/editor';
+import type { ITextEditorOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/editor/common/editor';
 
 export const TestingPeekOpenerServiceToken = Symbol('TestingPeekOpenerService');
 

@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ILogServiceClient, ILoggerManagerClient, LogLevel, SupportLogNamespace } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ILogServiceClient, ILoggerManagerClient, LogLevel, SupportLogNamespace } from '@Nuvio-MCP/ide-core-common';
 
-export { ILogger } from '@opensumi/ide-core-common';
+export { ILogger } from '@Nuvio-MCP/ide-core-common';
 
 class LoggerWrapper implements ILogServiceClient {
   protected logger: ILogServiceClient;

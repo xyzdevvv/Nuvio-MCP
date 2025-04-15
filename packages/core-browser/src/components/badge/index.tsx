@@ -1,1 +1,1 @@
-export { Badge as default } from '@opensumi/ide-components';
+export { Badge as default } from '@Nuvio-MCP/ide-components';

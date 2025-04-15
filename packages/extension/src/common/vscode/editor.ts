@@ -1,11 +1,11 @@
-import { ILineChange, IRange, ISelection, MaybePromise } from '@opensumi/ide-core-common';
+import { ILineChange, IRange, ISelection, MaybePromise } from '@Nuvio-MCP/ide-core-common';
 import {
   IDecorationApplyOptions,
   IDecorationRenderOptions,
   IResourceOpenOptions,
   ISingleEditOperation,
   IUndoStopOptions,
-} from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-editor';
 
 // eslint-disable-next-line import/no-restricted-paths
 import { ViewColumn } from './enums';

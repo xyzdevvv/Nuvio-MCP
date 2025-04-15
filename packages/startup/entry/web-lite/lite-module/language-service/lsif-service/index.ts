@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 
 import { ILsifPayload, ILsifService } from './base';
 import { LsifClient } from './lsif-client';

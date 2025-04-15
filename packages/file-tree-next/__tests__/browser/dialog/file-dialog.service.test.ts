@@ -1,9 +1,9 @@
-import { TreeNodeType } from '@opensumi/ide-components';
-import { URI } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { FileStat } from '@opensumi/ide-file-service';
-import { FileTreeDialogService } from '@opensumi/ide-file-tree-next/lib/browser/dialog/file-dialog.service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
+import { FileTreeDialogService } from '@Nuvio-MCP/ide-file-tree-next/lib/browser/dialog/file-dialog.service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

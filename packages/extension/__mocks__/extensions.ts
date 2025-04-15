@@ -1,6 +1,6 @@
 import path from 'path';
 
-import { Uri } from '@opensumi/ide-core-common';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtension, IExtensionProps } from '../src/common';
 import { IExtensionDescription, ExtensionIdentifier } from '../src/common/vscode';

@@ -1,7 +1,7 @@
 import { FunctionComponentElement, ReactNode } from 'react';
 
-import { SplitPanelProps } from '@opensumi/ide-core-browser/lib/components';
-import { SplitPanelService } from '@opensumi/ide-core-browser/lib/components/layout/split-panel.service';
+import { SplitPanelProps } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { SplitPanelService } from '@Nuvio-MCP/ide-core-browser/lib/components/layout/split-panel.service';
 
 export class DesignSplitPanelService extends SplitPanelService {
   override renderSplitPanel(

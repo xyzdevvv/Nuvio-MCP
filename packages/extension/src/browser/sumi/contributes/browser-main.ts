@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { LifeCyclePhase, localize } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { LifeCyclePhase, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 

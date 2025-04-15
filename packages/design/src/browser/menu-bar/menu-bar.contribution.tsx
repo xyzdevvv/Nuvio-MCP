@@ -1,7 +1,7 @@
-import { Autowired } from '@opensumi/di';
-import { ComponentContribution, ComponentRegistry, Disposable, Domain, IDisposable } from '@opensumi/ide-core-browser';
-import { IMenuRegistry, IMenubarItem, ISubmenuItem, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { MenubarStore } from '@opensumi/ide-menu-bar/lib/browser/menu-bar.store';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ComponentContribution, ComponentRegistry, Disposable, Domain, IDisposable } from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, IMenubarItem, ISubmenuItem, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { MenubarStore } from '@Nuvio-MCP/ide-menu-bar/lib/browser/menu-bar.store';
 
 import { DESIGN_MENUBAR_CONTAINER_VIEW_ID } from '../../common';
 

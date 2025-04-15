@@ -1,9 +1,9 @@
-import { IDisposable, IMarkdownString, IThemeColor, StatusBarHoverCommand } from '@opensumi/ide-core-common';
-import { IObservable } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+import { IDisposable, IMarkdownString, IThemeColor, StatusBarHoverCommand } from '@Nuvio-MCP/ide-core-common';
+import { IObservable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
 
 import { IMenu } from '../menu/next';
 
-import type { EventEmitter } from '@opensumi/events';
+import type { EventEmitter } from '@Nuvio-MCP/events';
 
 export const IStatusBarService = Symbol('IStatusBarService');
 

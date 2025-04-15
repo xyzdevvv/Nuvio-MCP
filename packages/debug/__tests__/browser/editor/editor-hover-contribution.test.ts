@@ -4,13 +4,13 @@ import {
   IFileServiceClient,
   MonacoOverrideServiceRegistry,
   QuickPickService,
-} from '@opensumi/ide-core-browser';
-import { DebugModelFactory, IDebugModelManager, IDebugServer } from '@opensumi/ide-debug';
-import { DebugPreferences } from '@opensumi/ide-debug/lib/browser/debug-preferences';
-import { DebugEditorContribution } from '@opensumi/ide-debug/lib/browser/editor/debug-editor-contribution';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { DebugModelFactory, IDebugModelManager, IDebugServer } from '@Nuvio-MCP/ide-debug';
+import { DebugPreferences } from '@Nuvio-MCP/ide-debug/lib/browser/debug-preferences';
+import { DebugEditorContribution } from '@Nuvio-MCP/ide-debug/lib/browser/editor/debug-editor-contribution';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IDebugSessionManager } from './../../../src/common/debug-session';
 

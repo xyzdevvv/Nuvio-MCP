@@ -1,5 +1,5 @@
-import { Uri } from '@opensumi/ide-core-common';
-import { FileStat } from '@opensumi/ide-file-service';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 import { KeysToAnyValues, KeysToKeysToAnyValue } from './types';
 

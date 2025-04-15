@@ -1,13 +1,13 @@
-import { AppConfig, EDITOR_COMMANDS } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { Deferred, IEventBus, Schemes, URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { ICompareService, IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { DefaultDiffEditorContribution, DiffResourceProvider } from '@opensumi/ide-editor/lib/browser/diff';
-import { CompareService } from '@opensumi/ide-editor/lib/browser/diff/compare';
-import { UntitledSchemeDocumentProvider } from '@opensumi/ide-editor/lib/browser/untitled-resource';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { AppConfig, EDITOR_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { Deferred, IEventBus, Schemes, URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { ICompareService, IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { DefaultDiffEditorContribution, DiffResourceProvider } from '@Nuvio-MCP/ide-editor/lib/browser/diff';
+import { CompareService } from '@Nuvio-MCP/ide-editor/lib/browser/diff/compare';
+import { UntitledSchemeDocumentProvider } from '@Nuvio-MCP/ide-editor/lib/browser/untitled-resource';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import {
   IResourceProvider,

@@ -1,4 +1,4 @@
-import { isOSX, isWindows } from '@opensumi/ide-core-common';
+import { isOSX, isWindows } from '@Nuvio-MCP/ide-core-common';
 
 import { requireRegister as requireDarwinRegister } from './layout.contribution.darwin';
 import { requireRegister as requireLinuxRegister } from './layout.contribution.linux';

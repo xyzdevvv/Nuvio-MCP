@@ -1,5 +1,5 @@
-import { Autowired } from '@opensumi/di';
-import { Domain, INodeLogger, ServerAppContribution } from '@opensumi/ide-core-node';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain, INodeLogger, ServerAppContribution } from '@Nuvio-MCP/ide-core-node';
 
 import { IYWebsocketServer } from '../common';
 

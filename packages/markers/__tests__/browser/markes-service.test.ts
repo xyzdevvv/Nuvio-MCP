@@ -1,10 +1,10 @@
-import { Injectable, Injector } from '@opensumi/di';
-import { Emitter, MarkerManager, URI, Uri } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IEditorGroup, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EditorGroupCloseEvent, IResource } from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common';
-import { IThemeService } from '@opensumi/ide-theme';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { Emitter, MarkerManager, URI, Uri } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IEditorGroup, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EditorGroupCloseEvent, IResource } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { MarkerSeverity } from '../../../core-common/src/types/markers/markers';
 import { MarkerService } from '../../src/browser/markers-service';

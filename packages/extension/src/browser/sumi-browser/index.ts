@@ -1,11 +1,11 @@
-import { Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IReporterService, URI, getIcon, localize, strings } from '@opensumi/ide-core-browser';
-import { ResizeHandleHorizontal, ResizeHandleVertical } from '@opensumi/ide-core-browser/lib/components';
-import { EditorComponentRenderMode } from '@opensumi/ide-editor/lib/browser';
-import { IThemeService, getColorRegistry } from '@opensumi/ide-theme';
-import { ToolBarPosition } from '@opensumi/ide-toolbar';
-import { PlainWebview } from '@opensumi/ide-webview';
+import { Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IReporterService, URI, getIcon, localize, strings } from '@Nuvio-MCP/ide-core-browser';
+import { ResizeHandleHorizontal, ResizeHandleVertical } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EditorComponentRenderMode } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IThemeService, getColorRegistry } from '@Nuvio-MCP/ide-theme';
+import { ToolBarPosition } from '@Nuvio-MCP/ide-toolbar';
+import { PlainWebview } from '@Nuvio-MCP/ide-webview';
 
 import { IExtension } from '../../common';
 

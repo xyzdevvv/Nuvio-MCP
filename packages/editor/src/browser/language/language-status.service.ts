@@ -1,7 +1,7 @@
-import { Injectable } from '@opensumi/di';
-import { Event, IDisposable, strings } from '@opensumi/ide-core-common';
-import { LanguageFeatureRegistry } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languageFeatureRegistry';
-import { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Event, IDisposable, strings } from '@Nuvio-MCP/ide-core-common';
+import { LanguageFeatureRegistry } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languageFeatureRegistry';
+import { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import { ILanguageStatus, ILanguageStatusService } from '../../common';
 

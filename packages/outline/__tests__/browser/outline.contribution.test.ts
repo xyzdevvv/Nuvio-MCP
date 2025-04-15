@@ -1,4 +1,4 @@
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

@@ -2,12 +2,12 @@ import { Container, ViewManager, ViewRender } from '@difizen/mana-app';
 import { Empty } from 'antd';
 import React, { PropsWithChildren, memo, useEffect, useState } from 'react';
 
-import { URI, ViewState, localize, useInjectable } from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
+import { URI, ViewState, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
 
 import { LIBRO_COMPONENTS_SCHEME_ID } from '../libro.protocol';
-import { ILibroOpensumiService } from '../libro.service';
+import { ILibroNuvio-MCPService } from '../libro.service';
 import { ManaContainer } from '../mana';
 
 import { LibroVariablePanelView } from './variable-view';
@@ -18,7 +18,7 @@ export const VariablePanel = memo(({ viewState }: PropsWithChildren<{ viewState:
     height: viewState.height,
   };
   const editorService = useInjectable<WorkbenchEditorServiceImpl>(WorkbenchEditorService);
-  const libroOpensumiService = useInjectable<ILibroOpensumiService>(ILibroOpensumiService);
+  const libroNuvio-MCPService = useInjectable<ILibroNuvio-MCPService>(ILibroNuvio-MCPService);
   const manaContainer = useInjectable<Container>(ManaContainer);
 
   const [libroVariablePanelView, setLibroVariablePanelView] = useState<LibroVariablePanelView | undefined>(undefined);
@@ -36,14 +36,14 @@ export const VariablePanel = memo(({ viewState }: PropsWithChildren<{ viewState:
 
   useEffect(() => {
     if (editorService.currentResource?.uri.path.ext === `.${LIBRO_COMPONENTS_SCHEME_ID}`) {
-      libroOpensumiService
+      libroNuvio-MCPService
         .getOrCreateLibroView(editorService.currentResource.uri)
         .then((libro) => createVariablePanelView(editorService.currentResource!.uri, libro));
     }
 
     const toDispose = editorService.onActiveResourceChange((e) => {
       if (e?.uri.path.ext === `.${LIBRO_COMPONENTS_SCHEME_ID}`) {
-        libroOpensumiService.getOrCreateLibroView(e.uri).then((libro) => createVariablePanelView(e.uri, libro));
+        libroNuvio-MCPService.getOrCreateLibroView(e.uri).then((libro) => createVariablePanelView(e.uri, libro));
       } else {
         setLibroVariablePanelView(undefined);
       }

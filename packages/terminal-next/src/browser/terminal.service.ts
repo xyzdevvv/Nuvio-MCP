@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { OperatingSystem, PreferenceService } from '@opensumi/ide-core-browser';
-import { Dispatcher, Disposable, Emitter, Event, IApplicationService, ILogger } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { OperatingSystem, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Dispatcher, Disposable, Emitter, Event, IApplicationService, ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IDetectProfileOptionsPreference,

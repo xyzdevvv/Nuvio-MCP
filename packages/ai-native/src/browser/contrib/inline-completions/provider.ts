@@ -1,4 +1,4 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 
 import { lineBasedCompletionModelConfigs } from './constants';
 import { getImportedFile } from './prompt/importedFiles';
@@ -6,7 +6,7 @@ import { getAfterPrompt, getBeforePrompt, getLanguageMarker, getPathMarker } fro
 import { getSimilarSnippets } from './prompt/similarSnippets';
 import { ICompletionContext, ICompletionModel, MarkerItem, MatchSimilarSnippet } from './types';
 
-import type * as monaco from '@opensumi/ide-monaco';
+import type * as monaco from '@Nuvio-MCP/ide-monaco';
 
 export async function getPrefixPrompt(
   context: ICompletionContext,

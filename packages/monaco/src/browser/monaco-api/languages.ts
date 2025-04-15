@@ -1,5 +1,5 @@
-import { FoldingRangeKind } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import { ILanguageFeaturesService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/languageFeatures';
+import { FoldingRangeKind } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import { ILanguageFeaturesService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/languageFeatures';
 import {
   getEncodedLanguageId,
   getLanguages,
@@ -38,8 +38,8 @@ import {
   setLanguageConfiguration,
   setMonarchTokensProvider,
   setTokensProvider,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneLanguages';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneLanguages';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 export function createMonacoLanguageApi() {
   return Object.freeze({

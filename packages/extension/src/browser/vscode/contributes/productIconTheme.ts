@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { LifeCyclePhase, URI } from '@opensumi/ide-core-common';
-import { IProductIconService, IThemeContribution } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { LifeCyclePhase, URI } from '@Nuvio-MCP/ide-core-common';
+import { IProductIconService, IThemeContribution } from '@Nuvio-MCP/ide-theme';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

@@ -2,7 +2,7 @@ import { DataContent } from 'ai';
 import React from 'react';
 import { ZodSchema } from 'zod';
 
-import { AIActionItem } from '@opensumi/ide-core-browser/lib/components/ai-native/index';
+import { AIActionItem } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/index';
 import {
   CancellationToken,
   ChatResponse,
@@ -14,7 +14,7 @@ import {
   IResolveConflictHandler,
   MaybePromise,
   MergeConflictEditorMode,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   ICodeEditor,
   IRange,
@@ -23,9 +23,9 @@ import {
   InlineEditProvider,
   NewSymbolNamesProvider,
   Position,
-} from '@opensumi/ide-monaco';
-import { SumiReadableStream } from '@opensumi/ide-utils/lib/stream';
-import { IMarker } from '@opensumi/monaco-editor-core/esm/vs/platform/markers/common/markers';
+} from '@Nuvio-MCP/ide-monaco';
+import { SumiReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
+import { IMarker } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/markers/common/markers';
 
 import { IChatWelcomeMessageContent, ISampleQuestions, ITerminalCommandSuggestionDesc } from '../common';
 import { LLMContextService } from '../common/llm-context';

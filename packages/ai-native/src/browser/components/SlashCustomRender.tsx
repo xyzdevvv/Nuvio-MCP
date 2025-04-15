@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { IAIReporter } from '@opensumi/ide-core-common';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IAIReporter } from '@Nuvio-MCP/ide-core-common';
 
 import { IChatInternalService } from '../../common/index';
 import { ChatInternalService } from '../chat/chat.internal.service';

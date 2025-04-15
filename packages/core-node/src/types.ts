@@ -1,8 +1,8 @@
 import { NodeModule } from './node-module';
 
-import type { Injector } from '@opensumi/di';
-import type { WebSocketHandler } from '@opensumi/ide-connection/lib/node';
-import type { ConstructorOf, ILogService, LogLevel, MaybePromise } from '@opensumi/ide-core-common';
+import type { Injector } from '@Nuvio-MCP/di';
+import type { WebSocketHandler } from '@Nuvio-MCP/ide-connection/lib/node';
+import type { ConstructorOf, ILogService, LogLevel, MaybePromise } from '@Nuvio-MCP/ide-core-common';
 import type cp from 'child_process';
 import type http from 'http';
 import type https from 'https';

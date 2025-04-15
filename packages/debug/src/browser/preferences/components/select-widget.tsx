@@ -9,7 +9,7 @@ import {
 } from '@rjsf/utils';
 import React, { useMemo } from 'react';
 
-import { Option, Select } from '@opensumi/ide-components';
+import { Option, Select } from '@Nuvio-MCP/ide-components';
 
 import styles from './json-widget.module.less';
 

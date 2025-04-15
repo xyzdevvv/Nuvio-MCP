@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IEventBus, PreferenceConfigurations, PreferenceService, URI, isUndefined } from '@opensumi/ide-core-browser';
-import { observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { WorkspaceVariableContribution } from '@opensumi/ide-workspace/lib/browser/workspace-variable-contribution';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IEventBus, PreferenceConfigurations, PreferenceService, URI, isUndefined } from '@Nuvio-MCP/ide-core-browser';
+import { observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspaceVariableContribution } from '@Nuvio-MCP/ide-workspace/lib/browser/workspace-variable-contribution';
 
 import {
   DEFAULT_ADD_CONFIGURATION_KEY,

@@ -1,11 +1,11 @@
-import { IContextKeyService, PreferenceService } from '@opensumi/ide-core-browser/src';
-import { IMenuRegistry } from '@opensumi/ide-core-browser/src/menu/next';
-import { Disposable, Emitter } from '@opensumi/ide-core-common';
-import { MainThreadTreeView } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.treeview';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { MockFileServiceClient } from '@opensumi/ide-file-service/__mocks__/file-service-client';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
+import { IContextKeyService, PreferenceService } from '@Nuvio-MCP/ide-core-browser/src';
+import { IMenuRegistry } from '@Nuvio-MCP/ide-core-browser/src/menu/next';
+import { Disposable, Emitter } from '@Nuvio-MCP/ide-core-common';
+import { MainThreadTreeView } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.treeview';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { MockFileServiceClient } from '@Nuvio-MCP/ide-file-service/__mocks__/file-service-client';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

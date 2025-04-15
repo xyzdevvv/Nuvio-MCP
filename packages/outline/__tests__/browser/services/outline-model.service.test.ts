@@ -1,13 +1,13 @@
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { Disposable, Emitter, MarkerManager, URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Emitter, MarkerManager, URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   DocumentSymbolStore,
   INormalizedDocumentSymbol,
-} from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+} from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import styles from '../../../../src/browser/outline-node.module.less';
 import { OutlineCompositeTreeNode, OutlineRoot, OutlineTreeNode } from '../../../src/browser/outline-node.define';

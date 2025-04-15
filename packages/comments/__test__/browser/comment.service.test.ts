@@ -1,23 +1,23 @@
 import { act } from 'react-dom/test-utils';
 
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   CommentContentNode,
   CommentFileNode,
   CommentRoot,
-} from '@opensumi/ide-comments/lib/browser/tree/tree-node.defined';
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { Disposable, Emitter, URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector, mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { EditorCollectionService, IEditor, ResourceService } from '@opensumi/ide-editor';
-import { IEditorDecorationCollectionService, IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { ResourceServiceImpl } from '@opensumi/ide-editor/lib/browser/resource.service';
-import { positionToRange } from '@opensumi/ide-monaco';
-import * as monaco from '@opensumi/ide-monaco';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import { IIconService } from '@opensumi/ide-theme';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
+} from '@Nuvio-MCP/ide-comments/lib/browser/tree/tree-node.defined';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Emitter, URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector, mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { EditorCollectionService, IEditor, ResourceService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDecorationCollectionService, IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { ResourceServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/resource.service';
+import { positionToRange } from '@Nuvio-MCP/ide-monaco';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
 
 import { CommentsModule } from '../../src/browser';
 import { CommentMode, ICommentsService } from '../../src/common';
@@ -154,7 +154,7 @@ describe('comment service test', () => {
     thread.addComment({
       mode: CommentMode.Preview,
       author: {
-        name: 'OpenSumi',
+        name: 'Nuvio-MCP',
       },
       body: 'This is a reply',
     });

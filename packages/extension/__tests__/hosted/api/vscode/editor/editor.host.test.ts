@@ -1,5 +1,5 @@
-import { Position, Range, SnippetString } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import { TextEditorData } from '@opensumi/ide-extension/lib/hosted/api/vscode/editor/editor.host';
+import { Position, Range, SnippetString } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import { TextEditorData } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/editor/editor.host';
 
 import { mockService } from '../../../../../../../tools/dev-tool/src/mock-injector';
 

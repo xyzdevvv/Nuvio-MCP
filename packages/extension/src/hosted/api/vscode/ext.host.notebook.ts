@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter, ResourceMap, Uri, UriComponents } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter, ResourceMap, Uri, UriComponents } from '@Nuvio-MCP/ide-core-common';
 
 
 import {
@@ -15,7 +15,7 @@ import {
 
 import { ExtHostCell, ExtHostNotebookDocument } from './ext.host.notebookdocument';
 
-import type { NotebookCellsChangedEventDto } from '@opensumi/ide-editor';
+import type { NotebookCellsChangedEventDto } from '@Nuvio-MCP/ide-editor';
 import type vscode from 'vscode';
 
 export class ExtensionNotebookDocumentManagerImpl implements ExtensionNotebookDocumentManager {

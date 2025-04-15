@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter, LogLevel as KTLogLevel, Schemes, URI } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter, LogLevel as KTLogLevel, Schemes, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtHostEnvValues, IExtHostEnv, IMainThreadEnv, MainThreadAPIIdentifier } from '../../../../common/vscode';
 import { LogLevel } from '../../../../common/vscode/ext-types';

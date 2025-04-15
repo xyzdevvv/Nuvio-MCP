@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   CommandContribution,
   CommandRegistry,
@@ -7,8 +7,8 @@ import {
   MULTI_DIFF_EDITOR_COMMANDS,
   URI,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 
 import { ResourceService, WorkbenchEditorService } from '../../common';
 import { IMultiDiffSourceResolverService } from '../../common/multi-diff';

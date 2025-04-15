@@ -1,4 +1,4 @@
-import { IPreferenceViewDesc, localize } from '@opensumi/ide-core-browser';
+import { IPreferenceViewDesc, localize } from '@Nuvio-MCP/ide-core-browser';
 
 export const PREF_SCHEME = 'pref';
 

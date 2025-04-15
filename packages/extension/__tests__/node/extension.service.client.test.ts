@@ -3,10 +3,10 @@ import path from 'path';
 
 import * as fs from 'fs-extra';
 
-import { Injector } from '@opensumi/di';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { IExtensionStoragePathServer } from '@opensumi/ide-extension-storage/lib/common';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
+import { Injector } from '@Nuvio-MCP/di';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { IExtensionStoragePathServer } from '@Nuvio-MCP/ide-extension-storage/lib/common';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
 
 import { IExtensionNodeClientService } from '../../src/common';
 
@@ -15,8 +15,8 @@ import { extensionDir, getBaseInjector } from './baseInjector';
 describe('Extension Client Serivce', () => {
   let injector: Injector;
   let extensionNodeClient: IExtensionNodeClientService;
-  const testExtId = 'opensumi.ide-dark-theme';
-  const testExtPath = 'opensumi.ide-dark-theme-1.13.1';
+  const testExtId = 'Nuvio-MCP.ide-dark-theme';
+  const testExtPath = 'Nuvio-MCP.ide-dark-theme-1.13.1';
   const testExtReadme = '# IDE Dark Theme';
 
   beforeAll(async () => {

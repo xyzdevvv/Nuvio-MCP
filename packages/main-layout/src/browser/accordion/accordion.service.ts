@@ -1,7 +1,7 @@
 import debounce from 'lodash/debounce';
 import isEqual from 'lodash/isEqual';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandRegistry,
   ContextKeyChangeEvent,
@@ -20,13 +20,13 @@ import {
   fastdom,
   isDefined,
   localize,
-} from '@opensumi/ide-core-browser';
-import { RESIZE_LOCK } from '@opensumi/ide-core-browser/lib/components';
+} from '@Nuvio-MCP/ide-core-browser';
+import { RESIZE_LOCK } from '@Nuvio-MCP/ide-core-browser/lib/components';
 import {
   ISplitPanelService,
   SplitPanelManager,
-} from '@opensumi/ide-core-browser/lib/components/layout/split-panel.service';
-import { LAYOUT_STATE, LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
+} from '@Nuvio-MCP/ide-core-browser/lib/components/layout/split-panel.service';
+import { LAYOUT_STATE, LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
 import {
   AbstractContextMenuService,
   AbstractMenuService,
@@ -34,14 +34,14 @@ import {
   IMenu,
   IMenuRegistry,
   MenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
 import {
   derived,
   observableValue,
   recomputeInitiallyAndOnChange,
   transaction,
-} from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { IMainLayoutService, ViewCollapseChangedEvent } from '../../common';
 

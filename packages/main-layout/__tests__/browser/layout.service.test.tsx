@@ -11,18 +11,18 @@ import {
   PreferenceService,
   SlotLocation,
   ViewContainerOptions,
-} from '@opensumi/ide-core-browser';
-import { MockLoggerManageClient } from '@opensumi/ide-core-browser/__mocks__/logger';
-import { useMockStorage } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { ClientApp } from '@opensumi/ide-core-browser/lib/bootstrap/app';
-import { LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
-import { CommonServerPath, Deferred, ILoggerManagerClient, OS } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { MainLayoutModule } from '@opensumi/ide-main-layout/lib/browser';
-import { LayoutService } from '@opensumi/ide-main-layout/lib/browser/layout.service';
-import { MainLayoutModuleContribution } from '@opensumi/ide-main-layout/lib/browser/main-layout.contribution';
-import { IconService } from '@opensumi/ide-theme/lib/browser/icon.service';
-import { IIconService } from '@opensumi/ide-theme/lib/common/theme.service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MockLoggerManageClient } from '@Nuvio-MCP/ide-core-browser/__mocks__/logger';
+import { useMockStorage } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { ClientApp } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/app';
+import { LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
+import { CommonServerPath, Deferred, ILoggerManagerClient, OS } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { MainLayoutModule } from '@Nuvio-MCP/ide-main-layout/lib/browser';
+import { LayoutService } from '@Nuvio-MCP/ide-main-layout/lib/browser/layout.service';
+import { MainLayoutModuleContribution } from '@Nuvio-MCP/ide-main-layout/lib/browser/main-layout.contribution';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser/icon.service';
+import { IIconService } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
 
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
 import { MockContextKeyService } from '../../../monaco/__mocks__/monaco.context-key.service';

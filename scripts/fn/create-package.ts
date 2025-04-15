@@ -36,7 +36,7 @@ export async function createPackage(name: string) {
     throw new Error(`${name} is exists, can't create once more.`);
   }
 
-  const pkgName = `@opensumi/ide-${name}`;
+  const pkgName = `@Nuvio-MCP/ide-${name}`;
 
   const filePaths = glob.sync(templatePattern);
   const replaceList = [

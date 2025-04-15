@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-core-electron-main",
+  "name": "@Nuvio-MCP/ide-core-electron-main",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,16 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
     "tree-kill": "^1.2.2"
   },
   "peerDependencies": {
     "electron": "*"
   },
   "devDependencies": {
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

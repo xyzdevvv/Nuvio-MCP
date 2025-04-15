@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution } from '@opensumi/ide-core-browser';
-import { Disposable, Domain } from '@opensumi/ide-core-common';
-import { ITextmateTokenizer, ITextmateTokenizerService } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
-import { getLanguageById } from '@opensumi/textmate-languages/es/utils';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Domain } from '@Nuvio-MCP/ide-core-common';
+import { ITextmateTokenizer, ITextmateTokenizerService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
+import { getLanguageById } from '@Nuvio-MCP/textmate-languages/es/utils';
 
 // NOTE: 默认启用的语法，可以按需修改
 const languages = ['html', 'css', 'javascript', 'less', 'json', 'markdown', 'typescript'];
@@ -22,7 +22,7 @@ export class TextmateLanguageGrammarContribution extends Disposable implements C
       .forEach((lang) => {
         try {
           import(
-            /* webpackChunkName: "opensumi-textmate-languages" */ `@opensumi/textmate-languages/es/${
+            /* webpackChunkName: "Nuvio-MCP-textmate-languages" */ `@Nuvio-MCP/textmate-languages/es/${
               lang!.extensionPackageName
             }`
           )

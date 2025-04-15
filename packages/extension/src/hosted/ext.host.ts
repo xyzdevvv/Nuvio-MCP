@@ -1,5 +1,5 @@
-import { Injector } from '@opensumi/di';
-import { ProxyIdentifier, SumiConnectionMultiplexer } from '@opensumi/ide-connection';
+import { Injector } from '@Nuvio-MCP/di';
+import { ProxyIdentifier, SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection';
 import {
   Emitter,
   IExtensionLogger,
@@ -12,8 +12,8 @@ import {
   Uri,
   arrays,
   timeout,
-} from '@opensumi/ide-core-common';
-import { join } from '@opensumi/ide-utils/lib/path';
+} from '@Nuvio-MCP/ide-core-common';
+import { join } from '@Nuvio-MCP/ide-utils/lib/path';
 
 import { EXTENSION_EXTEND_SERVICE_PREFIX, IExtendProxy, IExtensionHostService, getExtensionId } from '../common';
 import { ActivatedExtension, ActivatedExtensionJSON, ExtensionsActivator } from '../common/activator';
@@ -100,7 +100,7 @@ class VSCodeAPIImpl extends ApiImplFactory {
   }
 }
 
-class OpenSumiAPIImpl extends ApiImplFactory {
+class Nuvio-MCPAPIImpl extends ApiImplFactory {
   override createAPIFactory(
     rpcProtocol: SumiConnectionMultiplexer,
     extHost: IExtensionHostService,
@@ -129,7 +129,7 @@ export default class ExtensionHostServiceImpl implements IExtensionHostService {
   readonly extensionsChangeEmitter: Emitter<void> = new Emitter<void>();
 
   private vscodeAPIImpl: VSCodeAPIImpl;
-  private openSumiAPIImpl: OpenSumiAPIImpl;
+  private Nuvio-MCPAPIImpl: Nuvio-MCPAPIImpl;
   private telemetryAPIImpl: TelemetryAPIImpl;
 
   private reporterService: IReporterService;
@@ -143,7 +143,7 @@ export default class ExtensionHostServiceImpl implements IExtensionHostService {
     const reporter = injector.get(IReporter);
 
     this.vscodeAPIImpl = new VSCodeAPIImpl(rpcProtocol, this, injector);
-    this.openSumiAPIImpl = new OpenSumiAPIImpl(rpcProtocol, this, injector);
+    this.Nuvio-MCPAPIImpl = new Nuvio-MCPAPIImpl(rpcProtocol, this, injector);
     this.telemetryAPIImpl = new TelemetryAPIImpl(rpcProtocol, this, injector);
 
     this.localization = rpcProtocol.get<IExtHostLocalization>(ExtHostAPIIdentifier.ExtHostLocalization);
@@ -323,7 +323,7 @@ export default class ExtensionHostServiceImpl implements IExtensionHostService {
 
         case EInternalModule.SUMI:
         case EInternalModule.KAITIAN:
-          return that.openSumiAPIImpl.load(extension, that.vscodeAPIImpl.load(extension));
+          return that.Nuvio-MCPAPIImpl.load(extension, that.vscodeAPIImpl.load(extension));
 
         case EInternalModule.TELEMETRY:
           return that.telemetryAPIImpl.load(extension);

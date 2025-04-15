@@ -14,8 +14,8 @@ import {
 import cls from 'classnames';
 import React, { useCallback, useMemo } from 'react';
 
-import { getIcon } from '@opensumi/ide-components';
-import { IJSONSchema, Key, useInjectable } from '@opensumi/ide-core-browser';
+import { getIcon } from '@Nuvio-MCP/ide-components';
+import { IJSONSchema, Key, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { ILaunchService } from '../../../common/debug-service';
 import { LaunchService } from '../launch.service';

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { AILogoAvatar } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { AILogoAvatar } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import { AI_CHAT_VIEW_ID } from '../../../../common';
 

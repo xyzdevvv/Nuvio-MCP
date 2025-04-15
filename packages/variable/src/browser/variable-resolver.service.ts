@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Variable, VariableRegistry, isWindows } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Variable, VariableRegistry, isWindows } from '@Nuvio-MCP/ide-core-browser';
 
 import { IVariableResolverService, VariableResolveOptions } from '../common';
 

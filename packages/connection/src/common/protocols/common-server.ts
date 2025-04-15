@@ -1,6 +1,6 @@
 import { Type } from '@furyjs/fury';
 
-import { CommonServerPath } from '@opensumi/ide-core-common';
+import { CommonServerPath } from '@Nuvio-MCP/ide-core-common';
 
 import type { TSumiProtocol } from '../rpc';
 

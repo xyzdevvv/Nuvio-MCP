@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/main/src/vs/workbench/api/common/extHostTesting.ts
 
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -20,7 +20,7 @@ import {
   once,
   toDisposable,
   uuid,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   AbstractIncrementalTestCollection,
   CoverageDetails,
@@ -36,8 +36,8 @@ import {
   TestResultState,
   TestRunProfileBitset,
   TestsDiff,
-} from '@opensumi/ide-testing/lib/common/testCollection';
-import { TestId, TestIdPathParts, TestPosition } from '@opensumi/ide-testing/lib/common/testId';
+} from '@Nuvio-MCP/ide-testing/lib/common/testCollection';
+import { TestId, TestIdPathParts, TestPosition } from '@Nuvio-MCP/ide-testing/lib/common/testId';
 
 import { MainThreadAPIIdentifier } from '../../../common/vscode';
 import * as Convert from '../../../common/vscode/converter';

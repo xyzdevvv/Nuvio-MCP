@@ -1,6 +1,6 @@
-import { Autowired } from '@opensumi/di';
-import { CommandContribution, CommandRegistry, Domain, IClipboardService, localize } from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+import { Autowired } from '@Nuvio-MCP/di';
+import { CommandContribution, CommandRegistry, Domain, IClipboardService, localize } from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 
 import { DEBUG_COMMANDS } from '../../../common';
 

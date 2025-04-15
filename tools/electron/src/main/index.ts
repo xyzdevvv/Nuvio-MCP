@@ -2,9 +2,9 @@ import { join } from 'path';
 
 import { app } from 'electron';
 
-import { URI } from '@opensumi/ide-core-common';
-import { ElectronMainApp } from '@opensumi/ide-core-electron-main';
-import { WebviewElectronMainModule } from '@opensumi/ide-webview/lib/electron-main';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { ElectronMainApp } from '@Nuvio-MCP/ide-core-electron-main';
+import { WebviewElectronMainModule } from '@Nuvio-MCP/ide-webview/lib/electron-main';
 
 const getExtensionDir = () => {
   const appPath = app.getAppPath();

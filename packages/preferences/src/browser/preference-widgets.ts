@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { getIcon } from '@opensumi/ide-components';
-import { IPreferenceSettingsService, PreferenceSchemaProvider } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { getIcon } from '@Nuvio-MCP/ide-components';
+import { IPreferenceSettingsService, PreferenceSchemaProvider } from '@Nuvio-MCP/ide-core-browser';
 import {
   AbstractContextMenuService,
   ICtxMenuRenderer,
@@ -9,14 +9,14 @@ import {
   ISubmenuItem,
   MenuCommandDesc,
   MenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { CommandRegistry, Disposable, IDisposable, PreferenceScope, URI, localize } from '@opensumi/ide-core-common';
-import { IEditor, IEditorDocumentModelService, IEditorFeatureContribution } from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import * as monaco from '@opensumi/ide-monaco';
-import { MarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
-import { MouseTargetType } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { IModelDeltaDecoration } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { CommandRegistry, Disposable, IDisposable, PreferenceScope, URI, localize } from '@Nuvio-MCP/ide-core-common';
+import { IEditor, IEditorDocumentModelService, IEditorFeatureContribution } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { MarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
+import { MouseTargetType } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { IModelDeltaDecoration } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import { SettingJSONGlyphMarginEdit } from '../common/commands';
 

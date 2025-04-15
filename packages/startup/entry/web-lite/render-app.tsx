@@ -2,11 +2,11 @@ import * as BrowserFS from 'browserfs';
 import * as React from 'react';
 import { createRoot } from 'react-dom/client';
 
-import { Injector } from '@opensumi/di';
-import { DEFAULT_WORKSPACE_CONFIGURATION_DIR_NAME, IClientAppOpts } from '@opensumi/ide-core-browser';
-import { ClientApp } from '@opensumi/ide-core-browser/lib/bootstrap/app';
-import { ensureDir } from '@opensumi/ide-core-common/lib/browser-fs/ensure-dir';
-import { IDiskFileProvider } from '@opensumi/ide-file-service/lib/common';
+import { Injector } from '@Nuvio-MCP/di';
+import { DEFAULT_WORKSPACE_CONFIGURATION_DIR_NAME, IClientAppOpts } from '@Nuvio-MCP/ide-core-browser';
+import { ClientApp } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/app';
+import { ensureDir } from '@Nuvio-MCP/ide-core-common/lib/browser-fs/ensure-dir';
+import { IDiskFileProvider } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import {
   AbstractHttpFileService,

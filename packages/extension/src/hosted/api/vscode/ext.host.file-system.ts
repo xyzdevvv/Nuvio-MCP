@@ -15,9 +15,9 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/plugin-ext/src/plugin/file-system-ext-impl.ts
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IDisposable, Schemes, URI, toDisposable } from '@opensumi/ide-core-common';
-import { FileChange, FileChangeType, FileStat, FileSystemProviderCapabilities } from '@opensumi/ide-file-service';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IDisposable, Schemes, URI, toDisposable } from '@Nuvio-MCP/ide-core-common';
+import { FileChange, FileChangeType, FileStat, FileSystemProviderCapabilities } from '@Nuvio-MCP/ide-file-service';
 
 import { MainThreadAPIIdentifier } from '../../../common/vscode';
 import { UriComponents } from '../../../common/vscode/ext-types';

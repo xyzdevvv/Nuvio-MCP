@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, IDisposable, Schemes, URI } from '@opensumi/ide-core-common';
-import { ResourceService } from '@opensumi/ide-editor';
-import { EditorComponentRegistry, EditorOpenType } from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IIconService, IconType } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, IDisposable, Schemes, URI } from '@Nuvio-MCP/ide-core-common';
+import { ResourceService } from '@Nuvio-MCP/ide-editor';
+import { EditorComponentRegistry, EditorOpenType } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { AbstractSumiBrowserContributionRunner, IEditorViewContribution, IRunTimeParams } from '../types';
 

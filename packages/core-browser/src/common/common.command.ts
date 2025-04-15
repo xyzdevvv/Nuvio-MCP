@@ -3,7 +3,7 @@
  * because the `localize` func maybe cannot get the correct languageId at the beginning of whole lifecycle.
  */
 
-import { Command } from '@opensumi/ide-core-common';
+import { Command } from '@Nuvio-MCP/ide-core-common';
 
 import { getIcon } from '../style/icon/icon';
 

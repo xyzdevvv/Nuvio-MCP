@@ -1,4 +1,4 @@
-import { LOCALE_TYPES } from '@opensumi/ide-core-common/lib/const';
+import { LOCALE_TYPES } from '@Nuvio-MCP/ide-core-common/lib/const';
 
 import { browserViews } from './contributes/en-US.lang';
 import { editorLocalizations } from './editor/en-US';

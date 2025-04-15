@@ -1,4 +1,4 @@
-import { CancellationToken } from '@opensumi/ide-core-common';
+import { CancellationToken } from '@Nuvio-MCP/ide-core-common';
 
 import type {
   IChatAgentCommand,
@@ -8,9 +8,9 @@ import type {
   IChatAgentWelcomeMessage,
   IChatFollowup,
   IChatReplyFollowup,
-} from '@opensumi/ide-ai-native/lib/common';
-import type { IChatAsyncContent, IChatProgress } from '@opensumi/ide-core-common';
-import type { IChatMessage } from '@opensumi/ide-core-common/lib/types/ai-native';
+} from '@Nuvio-MCP/ide-ai-native/lib/common';
+import type { IChatAsyncContent, IChatProgress } from '@Nuvio-MCP/ide-core-common';
+import type { IChatMessage } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native';
 
 export interface IExtensionChatAgentMetadata extends IChatAgentMetadata {
   hasSlashCommands?: boolean;

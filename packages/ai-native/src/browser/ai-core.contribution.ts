@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   AINativeConfigService,
   AINativeSettingSectionsId,
@@ -26,7 +26,7 @@ import {
   SlotRendererRegistry,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   AI_CHAT_VISIBLE,
   AI_INLINE_CHAT_INTERACTIVE_INPUT_CANCEL,
@@ -35,16 +35,16 @@ import {
   AI_INLINE_COMPLETION_REPORTER,
   AI_INLINE_COMPLETION_VISIBLE,
   AI_INLINE_DIFF_PARTIAL_EDIT,
-} from '@opensumi/ide-core-browser/lib/ai-native/command';
+} from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
 import {
   InlineChatIsVisible,
   InlineDiffPartialEditsIsVisible,
   InlineHintWidgetIsVisible,
   InlineInputWidgetIsStreaming,
   InlineInputWidgetIsVisible,
-} from '@opensumi/ide-core-browser/lib/contextkey/ai-native';
-import { DesignLayoutConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IBrowserCtxMenu } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
+} from '@Nuvio-MCP/ide-core-browser/lib/contextkey/ai-native';
+import { DesignLayoutConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IBrowserCtxMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
 import {
   AI_NATIVE_SETTING_GROUP_TITLE,
   ChatFeatureRegistryToken,
@@ -63,23 +63,23 @@ import {
   TerminalRegistryToken,
   isUndefined,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import { DESIGN_MENU_BAR_RIGHT } from '@opensumi/ide-design';
-import { IEditor, WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { DESIGN_MENU_BAR_RIGHT } from '@Nuvio-MCP/ide-design';
+import { IEditor, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
   IEditorDocumentModelContentRegistry,
   IEditorFeatureRegistry,
   MultiDiffSourceContribution,
-} from '@opensumi/ide-editor/lib/browser';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import { IMultiDiffSourceResolverService } from '@opensumi/ide-editor/lib/common/multi-diff';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { ISettingRegistry, SettingContribution } from '@opensumi/ide-preferences';
-import { EditorContributionInstantiation } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
-import { HideInlineCompletion } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/commands';
-import { SyncDescriptor } from '@opensumi/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import { IMultiDiffSourceResolverService } from '@Nuvio-MCP/ide-editor/lib/common/multi-diff';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { ISettingRegistry, SettingContribution } from '@Nuvio-MCP/ide-preferences';
+import { EditorContributionInstantiation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
+import { HideInlineCompletion } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/commands';
+import { SyncDescriptor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
 
 import {
   AI_CHAT_CONTAINER_ID,
@@ -530,7 +530,7 @@ export class AINativeBrowserContribution
       contribution.registerChatAgentPromptProvider?.();
     });
 
-    // 注册 Opensumi 框架提供的 MCP Server Tools 能力 (此时的 Opensumi 作为 MCP Server)
+    // 注册 Nuvio-MCP 框架提供的 MCP Server Tools 能力 (此时的 Nuvio-MCP 作为 MCP Server)
     this.mcpServerContributions.getContributions().forEach((contribution) => {
       contribution.registerMCPServer(this.mcpServerRegistry);
     });

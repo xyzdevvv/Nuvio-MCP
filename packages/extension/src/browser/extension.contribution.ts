@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   CUSTOM_EDITOR_SCHEME,
   ClientAppContribution,
@@ -26,16 +26,16 @@ import {
   localize,
   replaceLocalizePlaceholder,
   runWhenIdle,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   IStatusBarService,
   StatusBarAlignment,
   StatusBarEntryAccessor,
-} from '@opensumi/ide-core-browser/lib/services/status-bar-service';
-import { IResourceOpenOptions, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EditorOpenType, IEditorOpenType } from '@opensumi/ide-editor/lib/common/editor';
-import { IWindowDialogService } from '@opensumi/ide-overlay';
-import { IWebviewService } from '@opensumi/ide-webview';
+} from '@Nuvio-MCP/ide-core-browser/lib/services/status-bar-service';
+import { IResourceOpenOptions, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EditorOpenType, IEditorOpenType } from '@Nuvio-MCP/ide-editor/lib/common/editor';
+import { IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
+import { IWebviewService } from '@Nuvio-MCP/ide-webview';
 
 import {
   EMIT_EXT_HOST_EVENT,

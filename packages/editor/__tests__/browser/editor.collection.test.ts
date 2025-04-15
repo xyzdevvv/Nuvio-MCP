@@ -1,18 +1,18 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, MonacoService, URI } from '@opensumi/ide-core-browser';
-import { EditorCollectionService, EditorType } from '@opensumi/ide-editor';
-import { IEditorDecorationCollectionService, IEditorFeatureRegistry } from '@opensumi/ide-editor/lib/browser';
-import { BaseMonacoEditorWrapper, BrowserCodeEditor } from '@opensumi/ide-editor/lib/browser/editor-collection.service';
-import { EditorDecorationCollectionService } from '@opensumi/ide-editor/lib/browser/editor.decoration.service';
-import * as monaco from '@opensumi/ide-monaco';
-import { MockedMonacoService } from '@opensumi/ide-monaco/__mocks__/monaco.service.mock';
-import { monaco as monacoAPI } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, MonacoService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { EditorCollectionService, EditorType } from '@Nuvio-MCP/ide-editor';
+import { IEditorDecorationCollectionService, IEditorFeatureRegistry } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { BaseMonacoEditorWrapper, BrowserCodeEditor } from '@Nuvio-MCP/ide-editor/lib/browser/editor-collection.service';
+import { EditorDecorationCollectionService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.decoration.service';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { MockedMonacoService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.service.mock';
+import { monaco as monacoAPI } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 import {
   ConfigurationTarget,
   IConfigurationChangeEvent,
   IConfigurationOverrides,
   IConfigurationService,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector, mockService } from '../../../../tools/dev-tool/src/mock-injector';

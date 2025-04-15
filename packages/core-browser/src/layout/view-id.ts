@@ -1,4 +1,4 @@
-const VIEW_CONTAINERS_PREFIX = 'opensumi';
+const VIEW_CONTAINERS_PREFIX = 'Nuvio-MCP';
 
 export namespace VIEW_CONTAINERS {
   export const LEFT_TABBAR_PANEL = `${VIEW_CONTAINERS_PREFIX}-left-tabbar-panel`;

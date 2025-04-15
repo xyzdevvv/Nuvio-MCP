@@ -1,11 +1,11 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
-import { INotebookService } from '@opensumi/ide-editor';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
+import { INotebookService } from '@Nuvio-MCP/ide-editor';
 
 import { LibroKeybindContribution } from './libro-keybind-contribution';
 import { LibroCommandContribution } from './libro.command';
 import { LibroContribution } from './libro.contribution';
-import { ILibroOpensumiService, LibroOpensumiService } from './libro.service';
+import { ILibroNuvio-MCPService, LibroNuvio-MCPService } from './libro.service';
 import { NotebookServiceOverride } from './notebook.service';
 import { TocContribution } from './toc/toc.contribution';
 
@@ -23,8 +23,8 @@ export class NotebookModule extends BrowserModule {
     LibroCommandContribution,
     TocContribution,
     {
-      token: ILibroOpensumiService,
-      useClass: LibroOpensumiService,
+      token: ILibroNuvio-MCPService,
+      useClass: LibroNuvio-MCPService,
     },
     LibroKeybindContribution,
     {

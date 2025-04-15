@@ -1,4 +1,4 @@
-import { CancellationToken, Disposable, Event, IDisposable, Uri } from '@opensumi/ide-core-common';
+import { CancellationToken, Disposable, Event, IDisposable, Uri } from '@Nuvio-MCP/ide-core-common';
 
 type ColorIdentifier = string;
 

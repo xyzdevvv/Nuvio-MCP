@@ -11,13 +11,13 @@ import React, {
   useState,
 } from 'react';
 
-import { Button } from '@opensumi/ide-components/lib/button';
-import { BasicRecycleTree, IBasicRecycleTreeHandle, IBasicTreeData } from '@opensumi/ide-components/lib/recycle-tree';
+import { Button } from '@Nuvio-MCP/ide-components/lib/button';
+import { BasicRecycleTree, IBasicRecycleTreeHandle, IBasicTreeData } from '@Nuvio-MCP/ide-components/lib/recycle-tree';
 import {
   BasicCompositeTreeNode,
   BasicTreeNode,
-} from '@opensumi/ide-components/lib/recycle-tree/basic/tree-node.define';
-import { Tooltip } from '@opensumi/ide-components/lib/tooltip';
+} from '@Nuvio-MCP/ide-components/lib/recycle-tree/basic/tree-node.define';
+import { Tooltip } from '@Nuvio-MCP/ide-components/lib/tooltip';
 import {
   CommandService,
   DisposableCollection,
@@ -25,9 +25,9 @@ import {
   IContextKeyService,
   LabelService,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { Icon, getIcon } from '@opensumi/ide-core-browser/lib/components';
-import { Loading } from '@opensumi/ide-core-browser/lib/components/ai-native';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Icon, getIcon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { Loading } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
 import {
   ActionSourceEnum,
   ActionTypeEnum,
@@ -42,9 +42,9 @@ import {
   IChatToolContent,
   URI,
   localize,
-} from '@opensumi/ide-core-common';
-import { IIconService } from '@opensumi/ide-theme';
-import { IMarkdownString, MarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
+} from '@Nuvio-MCP/ide-core-common';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IMarkdownString, MarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
 
 import { IChatAgentService, IChatInternalService } from '../../common';
 import { ChatRequestModel } from '../chat/chat-model';

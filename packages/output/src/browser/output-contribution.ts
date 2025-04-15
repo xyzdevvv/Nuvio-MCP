@@ -1,12 +1,12 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution, PreferenceContribution, getIcon } from '@opensumi/ide-core-browser';
-import { OUTPUT_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution, PreferenceContribution, getIcon } from '@Nuvio-MCP/ide-core-browser';
+import { OUTPUT_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
 import {
   ComponentContribution,
   ComponentRegistry,
   TabBarToolbarContribution,
   ToolbarRegistry,
-} from '@opensumi/ide-core-browser/lib/layout';
+} from '@Nuvio-MCP/ide-core-browser/lib/layout';
 import {
   Command,
   CommandContribution,
@@ -15,9 +15,9 @@ import {
   Disposable,
   PreferenceSchema,
   localize,
-} from '@opensumi/ide-core-common';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
-import { monaco as monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+} from '@Nuvio-MCP/ide-core-common';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
+import { monaco as monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
 import { OutputLinkProvider } from './output-link.provider';
 import { outputPreferenceSchema } from './output-preference';
@@ -74,7 +74,7 @@ export class OutputContribution
 
   registerComponent(registry: ComponentRegistry) {
     registry.register(
-      '@opensumi/ide-output',
+      '@Nuvio-MCP/ide-output',
       {
         id: OUTPUT_CONTAINER_ID,
         component: Output,

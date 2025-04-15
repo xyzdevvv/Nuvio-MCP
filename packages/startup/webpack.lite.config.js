@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const baseDir = path.join(__dirname, 'entry/web-lite');
 
-const { createWebpackConfig } = require('@opensumi/ide-dev-tool/src/webpack');
+const { createWebpackConfig } = require('@Nuvio-MCP/ide-dev-tool/src/webpack');
 module.exports = createWebpackConfig(baseDir, path.join(baseDir, 'app.tsx'), {
   resolve: {
     alias: {

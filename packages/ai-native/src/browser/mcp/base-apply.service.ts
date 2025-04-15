@@ -1,6 +1,6 @@
 import { createPatch } from 'diff';
 
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   AIServiceType,
   ActionSourceEnum,
@@ -12,19 +12,19 @@ import {
   MarkerSeverity,
   OnEvent,
   WithEventBus,
-} from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   EditorGroupCloseEvent,
   EditorGroupOpenEvent,
   IEditorDocumentModelService,
   RegisterEditorSideComponentEvent,
-} from '@opensumi/ide-editor/lib/browser';
-import { IMarkerService } from '@opensumi/ide-markers';
-import { ICodeEditor, ITextModel, Position, Range, Selection, SelectionDirection } from '@opensumi/ide-monaco';
-import { Deferred, DisposableMap, Emitter, IDisposable, URI, path } from '@opensumi/ide-utils';
-import { SumiReadableStream } from '@opensumi/ide-utils/lib/stream';
-import { EditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMarkerService } from '@Nuvio-MCP/ide-markers';
+import { ICodeEditor, ITextModel, Position, Range, Selection, SelectionDirection } from '@Nuvio-MCP/ide-monaco';
+import { Deferred, DisposableMap, Emitter, IDisposable, URI, path } from '@Nuvio-MCP/ide-utils';
+import { SumiReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
+import { EditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
 
 import { IChatInternalService, IInlineDiffService, InlineDiffServiceToken } from '../../common';
 import { CodeBlockData, CodeBlockStatus } from '../../common/types';

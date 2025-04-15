@@ -1,12 +1,12 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IContextKeyService } from '@opensumi/ide-core-browser/lib/context-key';
-import { CommandService, ILineChange, URI, registerLocalizationBundle } from '@opensumi/ide-core-common';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor';
-import { EmptyDocCacheImpl, IEditorDocumentModelService } from '@opensumi/ide-editor/src/browser';
-import { IEditorDocumentModel } from '@opensumi/ide-editor/src/browser/';
-import { EditorDocumentModel } from '@opensumi/ide-editor/src/browser/doc-model/main';
-import { positionToRange } from '@opensumi/ide-monaco';
-import { toChange } from '@opensumi/ide-scm/lib/browser/dirty-diff/dirty-diff-util';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser/lib/context-key';
+import { CommandService, ILineChange, URI, registerLocalizationBundle } from '@Nuvio-MCP/ide-core-common';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor';
+import { EmptyDocCacheImpl, IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/src/browser';
+import { IEditorDocumentModel } from '@Nuvio-MCP/ide-editor/src/browser/';
+import { EditorDocumentModel } from '@Nuvio-MCP/ide-editor/src/browser/doc-model/main';
+import { positionToRange } from '@Nuvio-MCP/ide-monaco';
+import { toChange } from '@Nuvio-MCP/ide-scm/lib/browser/dirty-diff/dirty-diff-util';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';
@@ -44,8 +44,8 @@ const mockedMonaco = createMockedMonaco();
 jest.useFakeTimers();
 
 // mock ThrottledDelayer to take it easy in unit test
-jest.mock('@opensumi/ide-core-common', () => ({
-  ...jest.requireActual('@opensumi/ide-core-common'),
+jest.mock('@Nuvio-MCP/ide-core-common', () => ({
+  ...jest.requireActual('@Nuvio-MCP/ide-core-common'),
   ThrottledDelayer: class {
     constructor() {}
     trigger(value) {

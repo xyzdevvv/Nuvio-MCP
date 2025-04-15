@@ -1,4 +1,4 @@
-import { ThemeType } from '@opensumi/ide-theme/lib/common';
+import { ThemeType } from '@Nuvio-MCP/ide-theme/lib/common';
 
 import { IWidgetGroup } from '../index';
 

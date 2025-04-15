@@ -1,4 +1,4 @@
-import { IDisposable } from '@opensumi/ide-core-common';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { UriComponents } from './ext-types';
 

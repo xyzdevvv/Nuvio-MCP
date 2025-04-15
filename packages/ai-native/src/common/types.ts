@@ -1,5 +1,5 @@
-import { IMarker } from '@opensumi/ide-core-browser';
-import { Uri } from '@opensumi/monaco-editor-core';
+import { IMarker } from '@Nuvio-MCP/ide-core-browser';
+import { Uri } from '@Nuvio-MCP/monaco-editor-core';
 
 export enum NearestCodeBlockType {
   Block = 'block',

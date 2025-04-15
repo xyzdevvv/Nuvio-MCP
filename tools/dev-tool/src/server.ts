@@ -6,17 +6,17 @@ import Koa from 'koa';
 import KoaRouter from 'koa-router';
 import Static from 'koa-static';
 
-import { Injector } from '@opensumi/di';
-import { Deferred } from '@opensumi/ide-core-common';
-import { IServerAppOpts, NodeModule, ServerApp } from '@opensumi/ide-core-node';
+import { Injector } from '@Nuvio-MCP/di';
+import { Deferred } from '@Nuvio-MCP/ide-core-common';
+import { IServerAppOpts, NodeModule, ServerApp } from '@Nuvio-MCP/ide-core-node';
 import {
   IExternalFileArgs,
   IExternalUrlArgs,
   IRemoteOpenerClient,
   RemoteOpenerClientToken,
   RemoteOpenerServiceToken,
-} from '@opensumi/ide-remote-opener/lib/common';
-import { RemoteOpenerServiceImpl } from '@opensumi/ide-remote-opener/lib/node';
+} from '@Nuvio-MCP/ide-remote-opener/lib/common';
+import { RemoteOpenerServiceImpl } from '@Nuvio-MCP/ide-remote-opener/lib/node';
 
 export async function startServer(
   arg1: NodeModule[] | Partial<IServerAppOpts>,
@@ -49,7 +49,7 @@ export async function startServer(
   });
 
   router.get('/', (ctx) => {
-    ctx.body = 'OpenSumi';
+    ctx.body = 'Nuvio-MCP';
   });
 
   app.use(router.routes());

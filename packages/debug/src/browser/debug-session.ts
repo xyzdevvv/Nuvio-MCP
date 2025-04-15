@@ -11,8 +11,8 @@ import {
   URI,
   canceled,
   localize,
-} from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -20,12 +20,12 @@ import {
   Schemes,
   getLanguageId,
   isDefined,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { ITerminalApiService, TerminalOptions } from '@opensumi/ide-terminal-next';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { ITerminalApiService, TerminalOptions } from '@Nuvio-MCP/ide-terminal-next';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import {
   BreakpointsChangeEvent,
@@ -348,8 +348,8 @@ export class DebugSession implements IDebugSession {
     const response = await this.connection.sendRequest(
       'initialize',
       {
-        clientID: 'OpenSumi',
-        clientName: 'OpenSumi IDE',
+        clientID: 'Nuvio-MCP',
+        clientName: 'Nuvio-MCP IDE',
         adapterID: this.configuration.type,
         locale: getLanguageId(),
         linesStartAt1: true,

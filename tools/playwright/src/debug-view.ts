@@ -1,14 +1,14 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiPanel } from './panel';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPPanel } from './panel';
 
 type DebugToolbarActionType = 'Continue' | 'Step Over' | 'Step Into' | 'Step Out' | 'Restart' | 'Stop';
-export class OpenSumiDebugView extends OpenSumiPanel {
+export class Nuvio-MCPDebugView extends Nuvio-MCPPanel {
   private selector = {
     toolbarClass: "[class*='debug_configuration_toolbar___']",
     actionStartID: "[id='debug.action.start']",
   };
 
-  constructor(app: OpenSumiApp) {
+  constructor(app: Nuvio-MCPApp) {
     super(app, 'DEBUG');
   }
 

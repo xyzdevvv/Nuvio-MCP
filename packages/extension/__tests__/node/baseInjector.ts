@@ -3,13 +3,13 @@ import os from 'os';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { AppConfig, INodeLogger, getDebugLogger, path } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IExtensionStoragePathServer } from '@opensumi/ide-extension-storage/lib/common';
-import { IDiskFileProvider, IFileService } from '@opensumi/ide-file-service/lib/common';
-import { FileService, FileSystemNodeOptions } from '@opensumi/ide-file-service/lib/node';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { AppConfig, INodeLogger, getDebugLogger, path } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IExtensionStoragePathServer } from '@Nuvio-MCP/ide-extension-storage/lib/common';
+import { IDiskFileProvider, IFileService } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { FileService, FileSystemNodeOptions } from '@Nuvio-MCP/ide-file-service/lib/node';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
 
 import { IExtensionNodeClientService, IExtensionNodeService } from '../../src/common';
 import { ExtensionNodeServiceImpl } from '../../src/node/extension.service';

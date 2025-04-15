@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   DisposableCollection,
   DisposableStore,
@@ -7,9 +7,9 @@ import {
   IFileDecoration,
   URI,
   Uri,
-} from '@opensumi/ide-core-browser';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { IThemeService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
 
 @Injectable()
 export class SCMTreeDecorationService implements FileDecorationsProvider {

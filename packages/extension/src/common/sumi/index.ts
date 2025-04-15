@@ -3,7 +3,7 @@ import {
   ProxyIdentifier,
   createExtHostContextProxyIdentifier,
   createMainContextProxyIdentifier,
-} from '@opensumi/ide-connection';
+} from '@Nuvio-MCP/ide-connection';
 
 import { IExtHostChatAgents, IMainThreadChatAgents } from './chat-agents';
 import { IExtHostCommon, IMainThreadCommon } from './common';

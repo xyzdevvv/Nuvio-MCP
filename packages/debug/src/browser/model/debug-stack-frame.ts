@@ -1,7 +1,7 @@
-import { IRange, formatLocalize } from '@opensumi/ide-core-browser';
-import { IResourceOpenOptions } from '@opensumi/ide-editor';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { IRange, formatLocalize } from '@Nuvio-MCP/ide-core-browser';
+import { IResourceOpenOptions } from '@Nuvio-MCP/ide-editor';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { DebugSession } from '../debug-session';
 import { DebugScope, ExpressionContainer } from '../tree/debug-tree-node.define';

@@ -1,4 +1,4 @@
-import { IEditorDocumentModel } from '@opensumi/ide-editor';
+import { IEditorDocumentModel } from '@Nuvio-MCP/ide-editor';
 
 import { BUILTIN_MCP_SERVER_NAME } from './index';
 

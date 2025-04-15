@@ -1,4 +1,4 @@
-import { localize } from '@opensumi/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
 import { darken, lighten, registerColor } from '../../utils';
 import { selectBackground, selectBorder, selectForeground } from '../dropdown';

@@ -1,5 +1,5 @@
-import { Autowired, Injector } from '@opensumi/di';
-import { BasicModule, CommandRegistry, Deferred } from '@opensumi/ide-core-common';
+import { Autowired, Injector } from '@Nuvio-MCP/di';
+import { BasicModule, CommandRegistry, Deferred } from '@Nuvio-MCP/ide-core-common';
 
 import { AppConfig } from './react-providers/config-provider';
 

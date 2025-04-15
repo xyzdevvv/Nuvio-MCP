@@ -1,5 +1,5 @@
-import { IBasicTreeData } from '@opensumi/ide-components';
-import { Emitter, URI } from '@opensumi/ide-core-common';
+import { IBasicTreeData } from '@Nuvio-MCP/ide-components';
+import { Emitter, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { isDebugBreakpoint } from '../../breakpoint';
 

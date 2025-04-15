@@ -2,7 +2,7 @@ import cls from 'classnames';
 import debounce from 'lodash/debounce';
 import React, { KeyboardEvent, createElement, useCallback, useEffect, useRef } from 'react';
 
-import { Icon } from '@opensumi/ide-components/lib/icon/icon';
+import { Icon } from '@Nuvio-MCP/ide-components/lib/icon/icon';
 import {
   TERMINAL_COMMANDS,
   URI,
@@ -11,11 +11,11 @@ import {
   useAutorun,
   useDesignStyles,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { Loading } from '@opensumi/ide-core-browser/lib/components/loading';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IIconService } from '@opensumi/ide-theme';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Loading } from '@Nuvio-MCP/ide-core-browser/lib/components/loading';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
 
 import { ItemProps, ItemType } from '../../common';
 

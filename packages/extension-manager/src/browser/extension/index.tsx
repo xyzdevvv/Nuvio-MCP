@@ -1,8 +1,8 @@
 import React, { useCallback, useState } from 'react';
 
-import { Button, Icon, getIcon } from '@opensumi/ide-components';
-import { useDesignStyles } from '@opensumi/ide-core-browser';
-import { localize, replaceLocalizePlaceholder } from '@opensumi/ide-core-common';
+import { Button, Icon, getIcon } from '@Nuvio-MCP/ide-components';
+import { useDesignStyles } from '@Nuvio-MCP/ide-core-browser';
+import { localize, replaceLocalizePlaceholder } from '@Nuvio-MCP/ide-core-common';
 
 import { InstallState, VSXExtension } from '../../common';
 

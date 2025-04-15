@@ -1,9 +1,9 @@
-import { Emitter } from '@opensumi/ide-core-common';
-import { MainThreadTheming } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.theming';
-import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import { ColorThemeKind } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import { ExtHostTheming } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.theming';
-import { IThemeService, ThemeType } from '@opensumi/ide-theme';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { MainThreadTheming } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.theming';
+import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { ColorThemeKind } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import { ExtHostTheming } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.theming';
+import { IThemeService, ThemeType } from '@Nuvio-MCP/ide-theme';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { createMockPairRPCProtocol } from '../../../../__mocks__/initRPCProtocol';

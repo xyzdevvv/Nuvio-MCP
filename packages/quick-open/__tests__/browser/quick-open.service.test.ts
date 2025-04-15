@@ -1,13 +1,13 @@
-import { VALIDATE_TYPE } from '@opensumi/ide-components';
-import { HideReason, IContextKeyService, URI } from '@opensumi/ide-core-browser';
-import { MockContextKeyService } from '@opensumi/ide-core-browser/__mocks__/context-key';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { StaticResourceServiceImpl } from '@opensumi/ide-core-browser/lib/static-resource/static.service';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector, mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { MonacoContextKeyService } from '@opensumi/ide-monaco/lib/browser/monaco.context-key.service';
-import { IconService } from '@opensumi/ide-theme/lib/browser/icon.service';
-import { IIconService, IThemeService } from '@opensumi/ide-theme/lib/common';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-components';
+import { HideReason, IContextKeyService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-core-browser/__mocks__/context-key';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { StaticResourceServiceImpl } from '@Nuvio-MCP/ide-core-browser/lib/static-resource/static.service';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector, mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { MonacoContextKeyService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco.context-key.service';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser/icon.service';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme/lib/common';
 
 import { QuickOpenModule } from '../../src/browser';
 import { QuickOpenItemService } from '../../src/browser/quick-open-item.service';

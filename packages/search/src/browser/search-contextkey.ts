@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IContextKey, IContextKeyService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IContextKey, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
 import {
   HasSearchResults,
   SearchInputBoxFocusedKey,
   SearchViewFocusedKey,
   SearchViewVisibleKey,
-} from '@opensumi/ide-core-browser/lib/contextkey/search';
+} from '@Nuvio-MCP/ide-core-browser/lib/contextkey/search';
 
 @Injectable()
 export class SearchContextKey {

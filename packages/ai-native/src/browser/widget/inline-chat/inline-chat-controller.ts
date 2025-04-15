@@ -6,8 +6,8 @@ import {
   IChatContent,
   IChatProgress,
   ReplyResponse,
-} from '@opensumi/ide-core-common';
-import { SumiReadableStream, listenReadable } from '@opensumi/ide-utils/lib/stream';
+} from '@Nuvio-MCP/ide-core-common';
+import { SumiReadableStream, listenReadable } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { extractCodeBlocks } from '../../../common/utils';
 

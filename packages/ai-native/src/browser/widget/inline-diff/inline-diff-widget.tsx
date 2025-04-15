@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import ReactDOMClient from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ConfigProvider,
@@ -12,15 +12,15 @@ import {
   Schemes,
   randomString,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICodeEditor } from '@opensumi/ide-monaco';
-import { IDiffEditorOptions } from '@opensumi/ide-monaco/lib/browser/monaco-api/editor';
-import { ILanguageSelection } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
-import { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { IModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/model';
-import { ZoneWidget } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-core-browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
+import { IDiffEditorOptions } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/editor';
+import { ILanguageSelection } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
+import { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { IModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/model';
+import { ZoneWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { IDiffPreviewerOptions, IInlineDiffPreviewerNode } from './inline-diff-previewer';
 import styles from './inline-diff-widget.module.less';

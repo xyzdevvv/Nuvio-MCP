@@ -4,13 +4,13 @@ import {
   QuickOpenModel,
   QuickOpenOptions,
   QuickOpenService,
-} from '@opensumi/ide-core-browser/src';
-import { CommandRegistry, Deferred, ILogger, localize } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector, mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
-import { Event } from '@opensumi/ide-utils';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser/src';
+import { CommandRegistry, Deferred, ILogger, localize } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector, mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
+import { Event } from '@Nuvio-MCP/ide-utils';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { PrefixQuickOpenServiceImpl, QuickOpenHandlerRegistry } from '../../src/browser/prefix-quick-open.service';
 import { QuickCommandHandler } from '../../src/browser/quick-open.command.service';

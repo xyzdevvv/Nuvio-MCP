@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   COMMON_COMMANDS,
   ClientAppContribution,
@@ -21,22 +21,22 @@ import {
   formatLocalize,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { browserViews } from '@opensumi/ide-core-browser/lib/extensions/schema/browserViews';
-import { TabBarToolbarContribution, ToolbarRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IExtensionsSchemaService, URI, runWhenIdle } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { browserViews } from '@Nuvio-MCP/ide-core-browser/lib/extensions/schema/browserViews';
+import { TabBarToolbarContribution, ToolbarRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IExtensionsSchemaService, URI, runWhenIdle } from '@Nuvio-MCP/ide-core-common';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
   IEditor,
   IEditorFeatureRegistry,
-} from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient, IShadowFileProvider } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { IMainLayoutService, IViewsRegistry } from '@opensumi/ide-main-layout';
-import { WelcomeView } from '@opensumi/ide-main-layout/lib/browser/welcome.view';
-import * as monaco from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient, IShadowFileProvider } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { IMainLayoutService, IViewsRegistry } from '@Nuvio-MCP/ide-main-layout';
+import { WelcomeView } from '@Nuvio-MCP/ide-main-layout/lib/browser/welcome.view';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import {
   DEBUG_BREAKPOINTS_ID,
@@ -217,7 +217,7 @@ export class DebugContribution
 
   registerComponent(registry: ComponentRegistry) {
     registry.register(
-      '@opensumi/ide-debug',
+      '@Nuvio-MCP/ide-debug',
       [
         {
           component: DebugWatchView,
@@ -333,7 +333,7 @@ export class DebugContribution
     });
     this.extensionsPointService.appendExtensionPoint(['browserViews', 'properties'], {
       extensionPoint: DEBUG_CONTAINER_ID,
-      frameworkKind: ['opensumi'],
+      frameworkKind: ['Nuvio-MCP'],
       jsonSchema: {
         ...browserViews.properties,
         description: formatLocalize('sumiContributes.browserViews.location.custom', localize('menu-bar.title.debug')),

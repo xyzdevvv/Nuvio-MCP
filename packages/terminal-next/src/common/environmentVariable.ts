@@ -1,4 +1,4 @@
-import { Event, IProcessEnvironment, OperatingSystem } from '@opensumi/ide-core-common';
+import { Event, IProcessEnvironment, OperatingSystem } from '@Nuvio-MCP/ide-core-common';
 
 export const EnvironmentVariableServiceToken = Symbol('EnvironmentVariableServiceToken');
 

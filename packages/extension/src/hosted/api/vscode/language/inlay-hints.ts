@@ -1,5 +1,5 @@
-import { Cache, CancellationToken, DisposableStore, IRange, Uri } from '@opensumi/ide-core-common';
-import * as languages from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+import { Cache, CancellationToken, DisposableStore, IRange, Uri } from '@Nuvio-MCP/ide-core-common';
+import * as languages from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import { ExtensionDocumentDataManager } from '../../../../common/vscode';
 import * as typeConvert from '../../../../common/vscode/converter';

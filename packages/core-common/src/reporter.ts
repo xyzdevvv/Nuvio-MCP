@@ -1,5 +1,5 @@
-import { Inject, Injectable } from '@opensumi/di';
-import { IDisposable } from '@opensumi/ide-utils';
+import { Inject, Injectable } from '@Nuvio-MCP/di';
+import { IDisposable } from '@Nuvio-MCP/ide-utils';
 
 import { getDebugLogger } from './log';
 import {

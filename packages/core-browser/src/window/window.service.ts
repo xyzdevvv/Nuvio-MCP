@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-common';
-import { IElectronMainLifeCycleService, IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainLifeCycleService, IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { Logger } from '../logger';
 import { AppConfig } from '../react-providers/config-provider';

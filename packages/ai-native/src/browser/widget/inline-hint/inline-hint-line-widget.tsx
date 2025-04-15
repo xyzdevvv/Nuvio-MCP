@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { KeybindingRegistry } from '@opensumi/ide-core-browser';
-import { AI_INLINE_CHAT_INTERACTIVE_INPUT_VISIBLE } from '@opensumi/ide-core-browser/lib/ai-native/command';
-import { Disposable, formatLocalize } from '@opensumi/ide-core-common';
-import { ICodeEditor, IPosition, Range } from '@opensumi/ide-monaco';
-import { StandaloneServices } from '@opensumi/ide-monaco/lib/browser/monaco-api/services';
-import { IThemeService, getColorRegistry, inputPlaceholderForeground } from '@opensumi/ide-theme';
-import { ICodeEditorService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/codeEditorService';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { KeybindingRegistry } from '@Nuvio-MCP/ide-core-browser';
+import { AI_INLINE_CHAT_INTERACTIVE_INPUT_VISIBLE } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
+import { Disposable, formatLocalize } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor, IPosition, Range } from '@Nuvio-MCP/ide-monaco';
+import { StandaloneServices } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/services';
+import { IThemeService, getColorRegistry, inputPlaceholderForeground } from '@Nuvio-MCP/ide-theme';
+import { ICodeEditorService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/codeEditorService';
 
 const INLINE_HINT_DESCRIPTION = 'inline_hint_description';
 const INLINE_HINT_DESCRIPTION_KEY = 'inline_hint_description_key';

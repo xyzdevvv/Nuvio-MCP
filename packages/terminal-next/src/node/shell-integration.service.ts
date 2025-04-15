@@ -3,7 +3,7 @@ import path from 'path';
 
 import fs from 'fs-extra';
 
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 export interface IShellIntegrationService {
   // 初始化 Bash 注入文件，幂等设计，返回注入文件路径
@@ -16,7 +16,7 @@ export interface IShellIntegrationService {
   initZshDotFiles(): Promise<string>;
 }
 
-// 未来适配 OpenSumi 的时候需要调整
+// 未来适配 Nuvio-MCP 的时候需要调整
 export const shellIntegrationDirPath = path.join(os.tmpdir(), '.sumi-shell', 'shell-integration');
 
 export const bashIntegrationPath = path.join(shellIntegrationDirPath, 'bash-integration.bash');

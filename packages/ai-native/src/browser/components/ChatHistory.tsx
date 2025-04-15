@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { FC, memo, useCallback, useEffect, useRef, useState } from 'react';
 
-import { Icon, Input, Loading, Popover, PopoverPosition, PopoverTriggerType, getIcon } from '@opensumi/ide-components';
-import { localize } from '@opensumi/ide-core-browser';
-import { EnhanceIcon } from '@opensumi/ide-core-browser/lib/components/ai-native';
+import { Icon, Input, Loading, Popover, PopoverPosition, PopoverTriggerType, getIcon } from '@Nuvio-MCP/ide-components';
+import { localize } from '@Nuvio-MCP/ide-core-browser';
+import { EnhanceIcon } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
 
 import styles from './chat-history.module.less';
 

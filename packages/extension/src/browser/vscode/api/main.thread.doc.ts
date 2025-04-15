@@ -1,7 +1,7 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 import {
   Disposable,
   Emitter,
@@ -13,8 +13,8 @@ import {
   URI,
   WithEventBus,
   isUndefinedOrNull,
-} from '@opensumi/ide-core-common';
-import { ResourceService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { ResourceService } from '@Nuvio-MCP/ide-editor';
 import {
   EditorComponentRegistry,
   EditorDocumentModelContentChangedEvent,
@@ -28,9 +28,9 @@ import {
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelRef,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser';
-import { UntitledDocumentIdCounter } from '@opensumi/ide-editor/lib/browser/untitled-resource';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { UntitledDocumentIdCounter } from '@Nuvio-MCP/ide-editor/lib/browser/untitled-resource';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { ExtHostAPIIdentifier, IExtensionHostDocService, IMainThreadDocumentsShape } from '../../../common/vscode';
 

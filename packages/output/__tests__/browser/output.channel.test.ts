@@ -1,22 +1,22 @@
-import { Injectable } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser/src/preferences';
-import { EventBusImpl, IEventBus } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser/src/preferences';
+import { EventBusImpl, IEventBus } from '@Nuvio-MCP/ide-core-common';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
-} from '@opensumi/ide-editor/lib/browser/doc-model/main';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
 import {
   EmptyDocCacheImpl,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/src/browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common';
+} from '@Nuvio-MCP/ide-editor/src/browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common';
 
 import { MockWalkThroughSnippetSchemeDocumentProvider } from '../../../file-scheme/__mocks__/browser/file-doc';
 import { OutputPreferences } from '../../src/browser/output-preference';

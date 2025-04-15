@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { StackingLevel } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { StackingLevel } from '@Nuvio-MCP/ide-core-browser';
 import {
   ActionSourceEnum,
   ActionTypeEnum,
@@ -9,15 +9,15 @@ import {
   IAIReporter,
   localize,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import { ISingleEditOperation } from '@opensumi/ide-editor';
-import { ICodeEditor, IEditorDecorationsCollection, ITextModel, Position, Range } from '@opensumi/ide-monaco';
-import { StandaloneServices } from '@opensumi/ide-monaco/lib/browser/monaco-api/services';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { EditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
-import { LineRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/lineRange';
-import { ModelDecorationOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
-import { IUndoRedoService, UndoRedoGroup } from '@opensumi/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
+} from '@Nuvio-MCP/ide-core-common';
+import { ISingleEditOperation } from '@Nuvio-MCP/ide-editor';
+import { ICodeEditor, IEditorDecorationsCollection, ITextModel, Position, Range } from '@Nuvio-MCP/ide-monaco';
+import { StandaloneServices } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/services';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { EditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+import { LineRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/lineRange';
+import { ModelDecorationOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
+import { IUndoRedoService, UndoRedoGroup } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/undoRedo/common/undoRedo';
 
 import { IInlineDiffService, InlineDiffServiceToken } from '../../../common';
 import { EPartialEdit, IPartialEditEvent } from '../../../common/types';

@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { IMergeEditorEditor } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { IDiffEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IMergeEditorEditor } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { IDiffEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
 
 import { MonacoService, ServiceNames } from '../src/common';
 

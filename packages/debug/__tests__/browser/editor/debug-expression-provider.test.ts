@@ -1,12 +1,12 @@
-import { DebugExpressionProvider } from '@opensumi/ide-debug/lib/browser/editor';
+import { DebugExpressionProvider } from '@Nuvio-MCP/ide-debug/lib/browser/editor';
 import {
   EvaluatableExpressionServiceImpl,
   IEvaluatableExpressionService,
-} from '@opensumi/ide-debug/lib/browser/editor/evaluatable-expression';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+} from '@Nuvio-MCP/ide-debug/lib/browser/editor/evaluatable-expression';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
-import type { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import type { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 describe('Debug Expression Provider', () => {
   const mockInjector = createBrowserInjector([]);

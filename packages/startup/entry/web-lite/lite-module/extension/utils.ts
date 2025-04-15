@@ -1,9 +1,9 @@
 import mergeWith from 'lodash/mergeWith';
 
-import { Uri, arrays } from '@opensumi/ide-core-common';
-import { IExtensionMetaData } from '@opensumi/ide-extension/lib/common';
-import { ISumiExtensionContributions } from '@opensumi/ide-extension/lib/common/sumi/extension';
-import { IExtensionContributions } from '@opensumi/ide-extension/lib/common/vscode/extension';
+import { Uri, arrays } from '@Nuvio-MCP/ide-core-common';
+import { IExtensionMetaData } from '@Nuvio-MCP/ide-extension/lib/common';
+import { ISumiExtensionContributions } from '@Nuvio-MCP/ide-extension/lib/common/sumi/extension';
+import { IExtensionContributions } from '@Nuvio-MCP/ide-extension/lib/common/vscode/extension';
 
 const { asArray } = arrays;
 

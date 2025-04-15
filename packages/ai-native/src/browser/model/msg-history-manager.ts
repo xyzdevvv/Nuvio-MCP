@@ -1,5 +1,5 @@
-import { Disposable, Emitter, Event, uuid } from '@opensumi/ide-core-common';
-import { ChatMessageRole, IHistoryChatMessage } from '@opensumi/ide-core-common/lib/types/ai-native';
+import { Disposable, Emitter, Event, uuid } from '@Nuvio-MCP/ide-core-common';
+import { ChatMessageRole, IHistoryChatMessage } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native';
 
 type IExcludeMessage = Omit<IHistoryChatMessage, 'id' | 'order'>;
 

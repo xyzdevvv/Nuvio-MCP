@@ -10,7 +10,7 @@ import {
   matchesPrefix,
   splitGlobAware,
   strings,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import {
   IFilterOptions,

@@ -7,7 +7,7 @@ import {
   Disposable,
   IEventBus,
   useInjectable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { ExtensionService } from '../../common';
 

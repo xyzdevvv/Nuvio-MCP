@@ -6,7 +6,7 @@
 // eslint-disable-next-line import/no-unresolved
 import { Task, TaskExecution, TaskFilter, TaskProvider } from 'vscode';
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -17,7 +17,7 @@ import {
   Uri,
   asPromise,
   getDebugLogger,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 
 import { IExtensionProps } from '../../../../common';
@@ -52,7 +52,7 @@ import { Terminal } from '../ext.host.terminal';
 
 import { TaskDto, toTask } from './taskTypes';
 
-import type { UriComponents } from '@opensumi/ide-editor/lib/common';
+import type { UriComponents } from '@Nuvio-MCP/ide-editor/lib/common';
 import type vscode from 'vscode';
 
 namespace TaskDefinitionDTO {

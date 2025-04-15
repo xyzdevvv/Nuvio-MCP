@@ -1,4 +1,4 @@
-import { Schemes } from '@opensumi/ide-core-common';
+import { Schemes } from '@Nuvio-MCP/ide-core-common';
 
 import { IMainThreadDocumentsShape } from '../../../../common/vscode';
 import { EndOfLine, Position, Range, Uri } from '../../../../common/vscode/ext-types';

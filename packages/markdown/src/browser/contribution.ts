@@ -1,7 +1,7 @@
-import { Autowired } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { Domain, Schemes, localize } from '@opensumi/ide-core-common';
-import { BrowserEditorContribution, EditorComponentRegistry, EditorOpenType } from '@opensumi/ide-editor/lib/browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Domain, Schemes, localize } from '@Nuvio-MCP/ide-core-common';
+import { BrowserEditorContribution, EditorComponentRegistry, EditorOpenType } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { IMarkdownService } from '../common';
 

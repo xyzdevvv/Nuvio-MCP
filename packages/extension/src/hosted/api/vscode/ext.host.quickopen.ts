@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationToken,
   Disposable,
@@ -8,14 +8,14 @@ import {
   MaybePromise,
   hookCancellationToken,
   isUndefined,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   QuickInputButton,
   QuickInputOptions,
   QuickPickItem,
   QuickPickOptions,
   QuickTitleButton,
-} from '@opensumi/ide-quick-open';
+} from '@Nuvio-MCP/ide-quick-open';
 
 import {
   IExtHostQuickOpen,

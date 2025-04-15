@@ -1,19 +1,19 @@
 import cls from 'classnames';
 import * as React from 'react';
 
-import { AINativeConfigService, SlotLocation, SlotRenderer, getIcon, useInjectable } from '@opensumi/ide-core-browser';
-import { Icon } from '@opensumi/ide-core-browser/lib/components';
-import { EnhanceIcon } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { DesignLayoutConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { CommandService } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { ToolBar } from '@opensumi/ide-toolbar/lib/browser/toolbar.view';
+import { AINativeConfigService, SlotLocation, SlotRenderer, getIcon, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Icon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EnhanceIcon } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { DesignLayoutConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { CommandService } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { ToolBar } from '@Nuvio-MCP/ide-toolbar/lib/browser/toolbar.view';
 
 import { DESIGN_MENU_BAR_LEFT, DESIGN_MENU_BAR_RIGHT } from '../../common';
 
-import OpenSumiLogo from './logo.svg';
+import Nuvio-MCPLogo from './logo.svg';
 import styles from './menu-bar.module.less';
 
 const DesignMenuBarRender = () => {
@@ -74,7 +74,7 @@ const DesignMenuBarRender = () => {
     });
   }, [anchor, extraTopMenus]);
 
-  const logo = React.useMemo(() => designLayoutConfig.menubarLogo || OpenSumiLogo, [designLayoutConfig.menubarLogo]);
+  const logo = React.useMemo(() => designLayoutConfig.menubarLogo || Nuvio-MCPLogo, [designLayoutConfig.menubarLogo]);
 
   return (
     <>

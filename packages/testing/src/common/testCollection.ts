@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/tree/main/src/vs/workbench/contrib/testing/common
 
-import { Emitter, IMarkdownString, IPosition, IRange, Position, Uri as URI, map } from '@opensumi/ide-core-common';
+import { Emitter, IMarkdownString, IPosition, IRange, Position, Uri as URI, map } from '@Nuvio-MCP/ide-core-common';
 
 import type vscode from 'vscode';
 

@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Domain,
@@ -6,7 +6,7 @@ import {
   StatusBarAlignment,
   StatusBarEntryAccessor,
   getIcon,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   BrowserConnectionCloseEvent,
   BrowserConnectionOpenEvent,
@@ -16,8 +16,8 @@ import {
   OnEvent,
   Uri,
   WithEventBus,
-} from '@opensumi/ide-core-common';
-import { MULTI_DIFF_SCHEME } from '@opensumi/ide-editor/lib/common/multi-diff';
+} from '@Nuvio-MCP/ide-core-common';
+import { MULTI_DIFF_SCHEME } from '@Nuvio-MCP/ide-editor/lib/common/multi-diff';
 
 let executeCount = 0;
 
@@ -91,15 +91,15 @@ export class StatusBarContribution extends WithEventBus implements ClientAppCont
 
   onDidStart() {
     if (!this.statusBarElement) {
-      this.statusBarElement = this.statusBarService.addElement('OpenSumi', {
+      this.statusBarElement = this.statusBarService.addElement('Nuvio-MCP', {
         backgroundColor: 'var(--button-background)',
         color: 'var(--button-foreground)',
-        tooltip: 'OpenSumi',
+        tooltip: 'Nuvio-MCP',
         alignment: StatusBarAlignment.LEFT,
         iconClass: getIcon('code'),
         priority: Infinity,
       });
-      this.statusBarService.addElement('OpenSumi', {
+      this.statusBarService.addElement('Nuvio-MCP', {
         tooltip: 'Test MultiDiff Logic, Press twice will open multi-diff editor with two files',
         alignment: StatusBarAlignment.LEFT,
         text: 'MultiDiff Test',

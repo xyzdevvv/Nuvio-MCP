@@ -1,6 +1,6 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CancellationTokenSource, Emitter, Event } from '@opensumi/ide-core-common';
-import { DEFAULT_VSCODE_ENGINE_VERSION } from '@opensumi/ide-core-common/lib/const';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CancellationTokenSource, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { DEFAULT_VSCODE_ENGINE_VERSION } from '@Nuvio-MCP/ide-core-common/lib/const';
 
 import { IExtensionHostService } from '../../../common';
 import { ExtHostAppConfig } from '../../../common/ext.process';

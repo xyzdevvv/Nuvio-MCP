@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { BasicEvent, Event, IDisposable, IExtensionProps } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { BasicEvent, Event, IDisposable, IExtensionProps } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtension, IExtensionMetaData } from '../common';
 

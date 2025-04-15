@@ -1,4 +1,4 @@
-import { Event, IDisposable } from '@opensumi/ide-utils';
+import { Event, IDisposable } from '@Nuvio-MCP/ide-utils';
 
 export const noAccountsId = 'authentication.noAccounts';
 

@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Provider } from '@opensumi/di';
-import { Domain, INodeLogger, NodeModule, ServerAppContribution } from '@opensumi/ide-core-node';
+import { Autowired, Injectable, Provider } from '@Nuvio-MCP/di';
+import { Domain, INodeLogger, NodeModule, ServerAppContribution } from '@Nuvio-MCP/ide-core-node';
 
 import {
   ExtensionHostProfilerServicePath,

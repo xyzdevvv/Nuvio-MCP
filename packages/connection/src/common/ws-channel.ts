@@ -1,5 +1,5 @@
-import { EventEmitter } from '@opensumi/events';
-import { DisposableStore, EventQueue, randomString } from '@opensumi/ide-core-common';
+import { EventEmitter } from '@Nuvio-MCP/events';
+import { DisposableStore, EventQueue, randomString } from '@Nuvio-MCP/ide-core-common';
 
 import { ChannelMessage, ErrorMessageCode } from './channel/types';
 import { IConnectionShape } from './connection/types';

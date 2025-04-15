@@ -1,7 +1,7 @@
 /* eslint-disable no-case-declarations */
-import { Injector } from '@opensumi/di';
-import { IEditorDocumentModel, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Injector } from '@Nuvio-MCP/di';
+import { IEditorDocumentModel, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { isDocumentValid } from '../../../../common/utils';
 import {

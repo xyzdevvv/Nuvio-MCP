@@ -3,8 +3,8 @@ import { Container } from '@difizen/mana-app';
 import { useEffect, useState } from 'react';
 import React from 'react';
 
-import { localize, useInjectable } from '@opensumi/ide-core-browser';
-import { IThemeService } from '@opensumi/ide-theme/lib/common';
+import { localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IThemeService } from '@Nuvio-MCP/ide-theme/lib/common';
 
 import { ManaContainer } from '../mana';
 

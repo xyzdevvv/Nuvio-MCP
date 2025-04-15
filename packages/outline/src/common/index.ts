@@ -1,5 +1,5 @@
-import { ITreeNode } from '@opensumi/ide-components';
-import { MarkerSeverity, URI } from '@opensumi/ide-core-common';
+import { ITreeNode } from '@Nuvio-MCP/ide-components';
+import { MarkerSeverity, URI } from '@Nuvio-MCP/ide-core-common';
 
 export const enum OutlineSortOrder {
   ByPosition,

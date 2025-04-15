@@ -24,13 +24,13 @@ jobs:
     steps:
       # 判断用户是否有写权限
       - name: 'Check if user has write access'
-        uses: 'opensumi/actions/permission-check@main'
+        uses: 'Nuvio-MCP/actions/permission-check@main'
         with:
           permission: 'write'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: opensumi/actions/bot-token@main
+      - uses: Nuvio-MCP/actions/bot-token@main
         if: success()
         with:
           token-server: ${{ secrets.BOT_TOKEN_SERVER }}
@@ -97,7 +97,7 @@ jobs:
           echo 'EOF' >> $GITHUB_ENV
         env:
           INPUT_REF: ${{ github.event.inputs.ref }}
-      - uses: opensumi/actions/.github/actions/run-script@main
+      - uses: Nuvio-MCP/actions/.github/actions/run-script@main
         if: success()
         with:
           script: 'notifyRCResult'

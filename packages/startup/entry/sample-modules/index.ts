@@ -1,6 +1,6 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
-import { AbstractNodeExtProcessService } from '@opensumi/ide-extension/lib/common/extension.service';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
+import { AbstractNodeExtProcessService } from '@Nuvio-MCP/ide-extension/lib/common/extension.service';
 
 import { AINativeContribution } from './ai-native/ai-native.contribution';
 import { DebugConfigurationContribution } from './debug-configuration.contribution';

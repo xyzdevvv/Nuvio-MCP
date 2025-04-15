@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   Disposable,
@@ -8,10 +8,10 @@ import {
   IEventBus,
   MaybeNull,
   URI,
-} from '@opensumi/ide-core-browser';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { ITheme, IThemeService } from '@opensumi/ide-theme';
-import { ThemeChangedEvent } from '@opensumi/ide-theme/lib/common/event';
+} from '@Nuvio-MCP/ide-core-browser';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { ITheme, IThemeService } from '@Nuvio-MCP/ide-theme';
+import { ThemeChangedEvent } from '@Nuvio-MCP/ide-theme/lib/common/event';
 
 import { IWebview, IWebviewContentOptions, IWebviewContentScrollPosition, IWebviewService } from './types';
 

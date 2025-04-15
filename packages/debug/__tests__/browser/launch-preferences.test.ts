@@ -3,7 +3,7 @@ import path from 'path';
 
 import * as fs from 'fs-extra';
 
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
 import {
   AppConfig,
   Disposable,
@@ -13,25 +13,25 @@ import {
   PreferenceScope,
   PreferenceService,
   URI,
-} from '@opensumi/ide-core-browser';
-import { DebugModule } from '@opensumi/ide-debug/lib/browser';
-import { DebugContribution } from '@opensumi/ide-debug/lib/browser/debug-contribution';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { EditorCollectionService } from '@opensumi/ide-editor/lib/browser';
-import { IDiskFileProvider, IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClientModule } from '@opensumi/ide-file-service/lib/browser';
-import { FileServiceContribution } from '@opensumi/ide-file-service/lib/browser/file-service-contribution';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { IUserStorageService } from '@opensumi/ide-preferences';
-import { PreferencesModule } from '@opensumi/ide-preferences/lib/browser';
-import { UserStorageContribution, UserStorageServiceImpl } from '@opensumi/ide-preferences/lib/browser/userstorage';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { WorkspacePreferences } from '@opensumi/ide-workspace/lib/browser/workspace-preferences';
-import { WorkspaceService } from '@opensumi/ide-workspace/lib/browser/workspace-service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { DebugModule } from '@Nuvio-MCP/ide-debug/lib/browser';
+import { DebugContribution } from '@Nuvio-MCP/ide-debug/lib/browser/debug-contribution';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { EditorCollectionService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IDiskFileProvider, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClientModule } from '@Nuvio-MCP/ide-file-service/lib/browser';
+import { FileServiceContribution } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-contribution';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IUserStorageService } from '@Nuvio-MCP/ide-preferences';
+import { PreferencesModule } from '@Nuvio-MCP/ide-preferences/lib/browser';
+import { UserStorageContribution, UserStorageServiceImpl } from '@Nuvio-MCP/ide-preferences/lib/browser/userstorage';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspacePreferences } from '@Nuvio-MCP/ide-workspace/lib/browser/workspace-preferences';
+import { WorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/browser/workspace-service';
 
 /**
  * launch配置项需要与VSCode中的配置项对齐

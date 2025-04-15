@@ -2,7 +2,7 @@ import { getDefaultRegistry } from '@rjsf/core';
 import { FieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
 import React, { useCallback } from 'react';
 
-import { isUndefined } from '@opensumi/ide-core-common';
+import { isUndefined } from '@Nuvio-MCP/ide-core-common';
 
 const DefaultArrayField: any = getDefaultRegistry().fields.ArrayField;
 

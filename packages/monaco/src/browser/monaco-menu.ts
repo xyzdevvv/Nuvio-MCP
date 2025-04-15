@@ -1,4 +1,4 @@
-import { EDITOR_COMMANDS } from '@opensumi/ide-core-browser';
+import { EDITOR_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
 
 export interface MonacoActionGroup {
   id: string;

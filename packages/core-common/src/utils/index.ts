@@ -1,1 +1,1 @@
-export * from '@opensumi/ide-utils';
+export * from '@Nuvio-MCP/ide-utils';

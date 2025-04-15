@@ -2,31 +2,31 @@ import path from 'path';
 
 import { expect } from '@playwright/test';
 
-import { isLinux, isWindows } from '@opensumi/ide-utils';
+import { isLinux, isWindows } from '@Nuvio-MCP/ide-utils';
 
-import { OpenSumiApp } from '../app';
-import { OpenSumiExplorerView } from '../explorer-view';
-import { OpenSumiFileTreeView } from '../filetree-view';
-import { OpenSumiOpenedEditorView } from '../opened-editor-view';
-import { OpenSumiOutlineView } from '../outline-view';
-import { OpenSumiTerminalView } from '../terminal-view';
-import { OpenSumiTextEditor } from '../text-editor';
-import { OpenSumiWorkspace } from '../workspace';
+import { Nuvio-MCPApp } from '../app';
+import { Nuvio-MCPExplorerView } from '../explorer-view';
+import { Nuvio-MCPFileTreeView } from '../filetree-view';
+import { Nuvio-MCPOpenedEditorView } from '../opened-editor-view';
+import { Nuvio-MCPOutlineView } from '../outline-view';
+import { Nuvio-MCPTerminalView } from '../terminal-view';
+import { Nuvio-MCPTextEditor } from '../text-editor';
+import { Nuvio-MCPWorkspace } from '../workspace';
 
 import test, { page } from './hooks';
 
-let app: OpenSumiApp;
-let explorer: OpenSumiExplorerView;
-let fileTreeView: OpenSumiFileTreeView;
-let openedEditorView: OpenSumiOpenedEditorView;
-let outlineView: OpenSumiOutlineView;
-let workspace: OpenSumiWorkspace;
+let app: Nuvio-MCPApp;
+let explorer: Nuvio-MCPExplorerView;
+let fileTreeView: Nuvio-MCPFileTreeView;
+let openedEditorView: Nuvio-MCPOpenedEditorView;
+let outlineView: Nuvio-MCPOutlineView;
+let workspace: Nuvio-MCPWorkspace;
 
-test.describe('OpenSumi Explorer Panel', () => {
+test.describe('Nuvio-MCP Explorer Panel', () => {
   test.beforeAll(async () => {
-    workspace = new OpenSumiWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
-    app = await OpenSumiApp.load(page, workspace);
-    explorer = await app.open(OpenSumiExplorerView);
+    workspace = new Nuvio-MCPWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
+    app = await Nuvio-MCPApp.load(page, workspace);
+    explorer = await app.open(Nuvio-MCPExplorerView);
     explorer.initFileTreeView(workspace.workspace.displayName);
     fileTreeView = explorer.fileTreeView;
     outlineView = explorer.outlineView;
@@ -127,7 +127,7 @@ test.describe('OpenSumi Explorer Panel', () => {
 
   (isWindows ? test.skip : test)('fileTree should be updated while create directory from terminal', async () => {
     const dirname = 'dir_from_terminal';
-    const terminal = await app.open(OpenSumiTerminalView);
+    const terminal = await app.open(Nuvio-MCPTerminalView);
     await terminal.sendText(`cd ${workspace.workspace.codeUri.fsPath}`);
     await terminal.sendText(`mkdir ${dirname}`);
     await app.page.waitForTimeout(2000);
@@ -165,7 +165,7 @@ test.describe('OpenSumi Explorer Panel', () => {
     await openedEditorView.open();
     expect(await openedEditorView.isVisible()).toBeTruthy();
     const testFilePath = 'editor.js';
-    await app.openEditor(OpenSumiTextEditor, explorer, testFilePath);
+    await app.openEditor(Nuvio-MCPTextEditor, explorer, testFilePath);
     await app.page.waitForTimeout(500);
     const node = await explorer.getOpenedEditorTreeNodeByPath(testFilePath);
     expect(node).toBeDefined();
@@ -175,7 +175,7 @@ test.describe('OpenSumi Explorer Panel', () => {
     await openedEditorView.open();
     expect(await openedEditorView.isVisible()).toBeTruthy();
     const testFilePath = 'editor3.js';
-    const editor = await app.openEditor(OpenSumiTextEditor, explorer, testFilePath);
+    const editor = await app.openEditor(Nuvio-MCPTextEditor, explorer, testFilePath);
     await editor.addTextToNewLineAfterLineByLineNumber(
       1,
       `const a = 'a';
@@ -195,7 +195,7 @@ console.log(a);`,
     const testFilePath_1 = 'editor2.js';
     const testFilePath_2 = 'editor3.js';
     // Close All Edtior Tabs
-    const editor = await app.openEditor(OpenSumiTextEditor, explorer, testFilePath_1);
+    const editor = await app.openEditor(Nuvio-MCPTextEditor, explorer, testFilePath_1);
     await app.page.waitForTimeout(1000);
     let node = await explorer.getOpenedEditorTreeNodeByPath(testFilePath_1);
     expect(node).toBeDefined();
@@ -207,8 +207,8 @@ console.log(a);`,
     node = await explorer.getOpenedEditorTreeNodeByPath(testFilePath_1);
     expect(node).toBeUndefined();
     // Open File
-    await app.openEditor(OpenSumiTextEditor, explorer, testFilePath_1, false);
-    await app.openEditor(OpenSumiTextEditor, explorer, testFilePath_2, false);
+    await app.openEditor(Nuvio-MCPTextEditor, explorer, testFilePath_1, false);
+    await app.openEditor(Nuvio-MCPTextEditor, explorer, testFilePath_2, false);
     await app.page.waitForTimeout(1000);
     node = await explorer.getOpenedEditorTreeNodeByPath(testFilePath_1);
     expect(node).toBeDefined();
@@ -226,7 +226,7 @@ console.log(a);`,
     await openedEditorView.open();
     expect(await openedEditorView.isVisible()).toBeTruthy();
     const testFilePath = 'editor3.js';
-    const editor = await app.openEditor(OpenSumiTextEditor, explorer, testFilePath);
+    const editor = await app.openEditor(Nuvio-MCPTextEditor, explorer, testFilePath);
     await editor.triggerTitleMenuById('editor.splitToRight');
     await app.page.waitForTimeout(2000);
     const group1 = await explorer.getOpenedEditorTreeNodeByPath('GROUP 1');

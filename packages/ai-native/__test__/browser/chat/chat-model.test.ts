@@ -1,5 +1,5 @@
-import { IChatContent } from '@opensumi/ide-core-common';
-import { MarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
+import { IChatContent } from '@Nuvio-MCP/ide-core-common';
+import { MarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
 
 import {
   ChatRequestModel,

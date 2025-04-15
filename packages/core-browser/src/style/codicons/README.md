@@ -2,7 +2,7 @@ from https://github.com/microsoft/vscode-codicons current version 0.0.35
 
 为了 package.json 版本和 cdn 版本一致，package.json 需锁版本，手动更新版本图标预览 https://microsoft.github.io/vscode-codicons/dist/codicon.html
 
-目前 vscode 已经移除 octicons，opensumi 中还暂时保留，并且优先取 codicons，没有再去 octicon 长期看 codicons 是趋势，以支持 [product-icon-theme](https://code.visualstudio.com/api/extension-guides/product-icon-theme)
+目前 vscode 已经移除 octicons，Nuvio-MCP 中还暂时保留，并且优先取 codicons，没有再去 octicon 长期看 codicons 是趋势，以支持 [product-icon-theme](https://code.visualstudio.com/api/extension-guides/product-icon-theme)
 
 所有的 icon id 的列表如下，运行同级目录下的 generator.js 可以更新以下列表
 

@@ -1,3 +1,3 @@
-import { OpenSumiTextEditor } from './text-editor';
+import { Nuvio-MCPTextEditor } from './text-editor';
 
-export class OpenSumiDiffEditor extends OpenSumiTextEditor {}
+export class Nuvio-MCPDiffEditor extends Nuvio-MCPTextEditor {}

@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ILogService, ILogServiceManager, LogLevel, SupportLogNamespace } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ILogService, ILogServiceManager, LogLevel, SupportLogNamespace } from '@Nuvio-MCP/ide-core-common';
 
 export type INodeLogger = ILogService;
 export const INodeLogger = Symbol('INodeLogger');

@@ -80,7 +80,7 @@ function getBuildCacheDir(modulePath, type, version, arch) {
   return join(
     require('os').homedir(),
     '.sumi-dev',
-    'opensumi_build_cache',
+    'Nuvio-MCP_build_cache',
     `${type}-${version}-${arch}`,
     info.name + '-' + info.version,
   );

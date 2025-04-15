@@ -1,4 +1,4 @@
-import { useUpdateOnEvent } from '@opensumi/ide-core-browser';
+import { useUpdateOnEvent } from '@Nuvio-MCP/ide-core-browser';
 
 import { EditorGroup } from '../workbench-editor.service';
 

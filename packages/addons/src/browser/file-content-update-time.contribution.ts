@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Domain,
   PreferenceSchema,
   PreferenceSchemaProvider,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   IReporterService,
   OnEvent,
@@ -14,15 +14,15 @@ import {
   URI,
   WithEventBus,
   debounce,
-} from '@opensumi/ide-core-common';
-import { EditorDocumentModelSavedEvent, EditorDocumentModelWillSaveEvent } from '@opensumi/ide-editor/lib/browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-common';
+import { EditorDocumentModelSavedEvent, EditorDocumentModelWillSaveEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 import {
   FileOperation,
   IWorkspaceFileOperationParticipant,
   IWorkspaceFileService,
   WorkspaceFileEvent,
-} from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-workspace-edit';
 
 enum ContentUpdateOperation {
   /**

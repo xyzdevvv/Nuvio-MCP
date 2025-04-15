@@ -5,9 +5,9 @@ import { join } from 'path';
 import { green, red } from 'chalk';
 import fetch from 'node-fetch';
 
-import { ArgvFactory } from '@opensumi/ide-utils/lib/argv';
+import { ArgvFactory } from '@Nuvio-MCP/ide-utils/lib/argv';
 
-const PRODUCTION_NAME = process.env.PRODUCTION_NAME || 'OpenSumi';
+const PRODUCTION_NAME = process.env.PRODUCTION_NAME || 'Nuvio-MCP';
 const CLIENT_ID = process.env.CLIENT_ID;
 const SUMI_SERVER_HOST = process.env.SUMI_SERVER_HOST || 'http://0.0.0.0:8000';
 const OPENER_ROUTE = process.env.OPENER_ROUTE || 'open';

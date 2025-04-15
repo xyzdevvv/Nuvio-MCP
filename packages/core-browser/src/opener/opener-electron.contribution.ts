@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { Domain } from '@opensumi/ide-core-common';
-import { IElectronRendererURLService, IElectronURLService } from '@opensumi/ide-core-common/lib/electron';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { Domain } from '@Nuvio-MCP/ide-core-common';
+import { IElectronRendererURLService, IElectronURLService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { ClientAppContribution } from '../common/common.define';
 import { electronEnv } from '../utils/electron';

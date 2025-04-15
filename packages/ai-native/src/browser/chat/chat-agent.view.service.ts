@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Deferred, IDisposable } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Deferred, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IChatAgentService } from '../../common';
 import { IChatAgentViewService, IChatComponentConfig } from '../types';

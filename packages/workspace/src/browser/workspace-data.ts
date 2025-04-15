@@ -1,5 +1,5 @@
-import { Schemes, URI } from '@opensumi/ide-core-common';
-import { FileStat } from '@opensumi/ide-file-service';
+import { Schemes, URI } from '@Nuvio-MCP/ide-core-common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 export interface WorkspaceData {
   folders: Array<{ path: string; name?: string }>;

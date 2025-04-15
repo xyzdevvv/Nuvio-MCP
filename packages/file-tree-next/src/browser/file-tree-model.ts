@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IOptionalMetaData, TreeModel, TreeNodeEvent } from '@opensumi/ide-components';
-import { ThrottledDelayer, URI } from '@opensumi/ide-core-browser';
-import { FileStat } from '@opensumi/ide-file-service';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IOptionalMetaData, TreeModel, TreeNodeEvent } from '@Nuvio-MCP/ide-components';
+import { ThrottledDelayer, URI } from '@Nuvio-MCP/ide-core-browser';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 import { Directory } from '../common/file-tree-node.define';
 

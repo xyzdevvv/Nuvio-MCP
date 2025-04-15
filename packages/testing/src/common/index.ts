@@ -1,4 +1,4 @@
-import { CancellationToken, Event, IDisposable } from '@opensumi/ide-core-browser';
+import { CancellationToken, Event, IDisposable } from '@Nuvio-MCP/ide-core-browser';
 
 import { ObservableValue } from './observableValue';
 import { ITestResult } from './test-result';

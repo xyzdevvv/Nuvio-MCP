@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IEventBus, useInjectable } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IEventBus, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 import {
   CUSTOM_EDITOR_SCHEME,
   CancellationTokenSource,
@@ -9,15 +9,15 @@ import {
   ILogger,
   LifeCyclePhase,
   match,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   EditorComponentRegistry,
   EditorOpenType,
   IEditorPriority,
   ReactEditorComponent,
-} from '@opensumi/ide-editor/lib/browser';
-import { IWebviewService } from '@opensumi/ide-webview';
-import { WebviewMounter } from '@opensumi/ide-webview/lib/browser/editor-webview';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IWebviewService } from '@Nuvio-MCP/ide-webview';
+import { WebviewMounter } from '@Nuvio-MCP/ide-webview/lib/browser/editor-webview';
 
 import { Contributes, ExtensionService, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { ICustomEditorOptions } from '../../../common/vscode';

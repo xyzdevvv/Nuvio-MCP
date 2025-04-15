@@ -8,8 +8,8 @@ import {
   Select,
   SelectOptionsList,
   isDataOptionGroups,
-} from '@opensumi/ide-components';
-import { Emitter } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-components';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import { getIcon } from '../../style/icon/icon';
 import { IToolbarActionElementProps, IToolbarActionReactElement, IToolbarActionSelectProps } from '../types';

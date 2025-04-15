@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { URI, Emitter, Event, FileUri, IDisposable, BinaryBuffer } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { URI, Emitter, Event, FileUri, IDisposable, BinaryBuffer } from '@Nuvio-MCP/ide-core-common';
 
 import { IFileServiceClient } from '../src/common/file-service-client';
 import {

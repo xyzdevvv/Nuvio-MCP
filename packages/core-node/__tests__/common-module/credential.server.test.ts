@@ -1,4 +1,4 @@
-import { AppConfig, ILogServiceManager, INativeCredentialService, isLinux } from '@opensumi/ide-core-node';
+import { AppConfig, ILogServiceManager, INativeCredentialService, isLinux } from '@Nuvio-MCP/ide-core-node';
 
 import { MockInjector, createNodeInjector } from '../../../../tools/dev-tool/src/mock-injector';
 import { CredentialService } from '../../src/common-module/credential.server';

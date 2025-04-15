@@ -1,4 +1,4 @@
-import { LogLevel, SupportLogNamespace } from '@opensumi/ide-core-common';
+import { LogLevel, SupportLogNamespace } from '@Nuvio-MCP/ide-core-common';
 
 export const ILogServiceForClient = Symbol('LogServiceForClient');
 

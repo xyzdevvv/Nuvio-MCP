@@ -11,8 +11,8 @@ import { argv } from '../packages/core-common/src/node/cli';
 const packagesDir = join(__dirname, '../packages');
 
 const ghostDepsWhiteLists = [
-  // common deps from `@opensumi/ide-core-browser` or `@opensumi/ide-core-node`.
-  '@opensumi/di',
+  // common deps from `@Nuvio-MCP/ide-core-browser` or `@Nuvio-MCP/ide-core-node`.
+  '@Nuvio-MCP/di',
   'ajv',
   'fuzzy',
   'jsonc-parser',
@@ -21,8 +21,8 @@ const ghostDepsWhiteLists = [
   'react-dom',
   'fs-extra',
   'lodash',
-  '@opensumi/monaco-editor-core',
-  '@opensumi/vscode-debugprotocol',
+  '@Nuvio-MCP/monaco-editor-core',
+  '@Nuvio-MCP/vscode-debugprotocol',
   'vscode',
   'sumi',
   'vscode-textmate',
@@ -44,7 +44,7 @@ const options = {
   ignoreDirs: ['bower_components', 'node_modules', 'lib', '__tests__', '__test__'],
   ignoreMatches: [
     // devtool related
-    '@opensumi/ide-dev-tool',
+    '@Nuvio-MCP/ide-dev-tool',
     'npm-run-all',
     'ts-node',
     'webpack-dev-server',
@@ -174,7 +174,7 @@ const targetModule = argv.module as string;
 
 if (targetModule) {
   console.log(`Single module mode dependency check: ${targetModule}`);
-  const moduleName = targetModule.replace(/@opensumi\//, '');
+  const moduleName = targetModule.replace(/@Nuvio-MCP\//, '');
   runTaskWithPackages([moduleName]).catch((err) => {
     console.log(chalk.red(`${moduleName} has missing dependencies`));
     process.exit(1);

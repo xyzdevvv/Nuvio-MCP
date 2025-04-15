@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   IPreferenceSettingsService,
   ISettingSection,
@@ -6,8 +6,8 @@ import {
   PreferenceSchemaProperties,
   PreferenceSchemaProvider,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
-import { ILogger, LifeCyclePhase } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ILogger, LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

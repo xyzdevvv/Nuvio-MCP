@@ -1,11 +1,11 @@
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { ILogger, URI } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelService, WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
-import { DocumentFormatService } from '@opensumi/ide-editor/lib/browser/format/format.service';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { QuickPickService } from '@opensumi/ide-quick-open/lib/common';
-import { FormattingEdit } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/formattingEdit';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { ILogger, URI } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { DocumentFormatService } from '@Nuvio-MCP/ide-editor/lib/browser/format/format.service';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { QuickPickService } from '@Nuvio-MCP/ide-quick-open/lib/common';
+import { FormattingEdit } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/formattingEdit';
 
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
 import { FormattingSelector } from '../../src/browser/format/formatter-selector';

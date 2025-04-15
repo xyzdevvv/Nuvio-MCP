@@ -1,6 +1,6 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
-import { FolderFilePreferenceProvider } from '@opensumi/ide-preferences/lib/browser/folder-file-preference-provider';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
+import { FolderFilePreferenceProvider } from '@Nuvio-MCP/ide-preferences/lib/browser/folder-file-preference-provider';
 
 import { ITaskService, ITaskSystem } from '../common';
 

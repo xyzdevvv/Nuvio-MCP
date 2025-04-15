@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { ComponentContribution, ComponentRegistry, Domain } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { ComponentContribution, ComponentRegistry, Domain } from '@Nuvio-MCP/ide-core-browser';
 
 import { MenuBarView } from './menu-bar.view';
 

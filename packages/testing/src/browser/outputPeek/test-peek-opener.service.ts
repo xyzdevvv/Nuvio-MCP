@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, URI } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { ITextEditorOptions } from '@opensumi/monaco-editor-core/esm/vs/platform/editor/common/editor';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, URI } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { ITextEditorOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/editor/common/editor';
 
 import { ITestResult, TestResultServiceToken } from '../../common/test-result';
 import { ITestMessage, ITestTaskState, TestResultItem } from '../../common/testCollection';

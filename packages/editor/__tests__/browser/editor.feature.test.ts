@@ -1,7 +1,7 @@
-import { IContextKeyService, PreferenceService, QuickPickService } from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Disposable, Emitter, IEventBus, ILogger, ISelection, URI } from '@opensumi/ide-core-common';
-import { IEditor } from '@opensumi/ide-editor';
+import { IContextKeyService, PreferenceService, QuickPickService } from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Disposable, Emitter, IEventBus, ILogger, ISelection, URI } from '@Nuvio-MCP/ide-core-common';
+import { IEditor } from '@Nuvio-MCP/ide-editor';
 import {
   DragOverPosition,
   EditorGroupChangeEvent,
@@ -14,17 +14,17 @@ import {
   IEditorGroup,
   WorkbenchEditorService,
   getSplitActionFromDragDrop,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorFeatureRegistryImpl } from '@opensumi/ide-editor/lib/browser/feature';
-import { FormattingSelector } from '@opensumi/ide-editor/lib/browser/format/formatter-selector';
-import { EditorHistoryService } from '@opensumi/ide-editor/lib/browser/history';
-import { EditorContextMenuController } from '@opensumi/ide-editor/lib/browser/menu/editor.context';
-import { TabTitleMenuService } from '@opensumi/ide-editor/lib/browser/menu/title-context.menu';
-import { EditorTopPaddingContribution } from '@opensumi/ide-editor/lib/browser/view/topPadding';
-import { EditorExtensionsRegistry } from '@opensumi/ide-monaco/lib/browser/contrib/command';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { SyncDescriptor } from '@opensumi/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorFeatureRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/feature';
+import { FormattingSelector } from '@Nuvio-MCP/ide-editor/lib/browser/format/formatter-selector';
+import { EditorHistoryService } from '@Nuvio-MCP/ide-editor/lib/browser/history';
+import { EditorContextMenuController } from '@Nuvio-MCP/ide-editor/lib/browser/menu/editor.context';
+import { TabTitleMenuService } from '@Nuvio-MCP/ide-editor/lib/browser/menu/title-context.menu';
+import { EditorTopPaddingContribution } from '@Nuvio-MCP/ide-editor/lib/browser/view/topPadding';
+import { EditorExtensionsRegistry } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/command';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { SyncDescriptor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

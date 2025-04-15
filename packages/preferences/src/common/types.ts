@@ -4,7 +4,7 @@ import {
   ISettingGroup,
   ISettingSection,
   PreferenceScope,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 export const SettingContribution = Symbol('SettingContribution');
 

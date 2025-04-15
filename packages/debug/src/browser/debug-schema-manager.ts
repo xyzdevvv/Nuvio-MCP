@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IJSONSchema, IJSONSchemaRegistry, objects } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IJSONSchema, IJSONSchemaRegistry, objects } from '@Nuvio-MCP/ide-core-browser';
 
 import { launchExtensionSchemaUri, launchSchemaUri } from '../common';
 import { DebugServer, IDebugServer } from '../common/debug-service';

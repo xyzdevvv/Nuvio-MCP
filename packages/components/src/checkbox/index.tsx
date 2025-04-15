@@ -47,4 +47,4 @@ export const CheckBox: React.FC<
   );
 };
 
-CheckBox.displayName = 'OpenSumiCheckBox';
+CheckBox.displayName = 'Nuvio-MCPCheckBox';

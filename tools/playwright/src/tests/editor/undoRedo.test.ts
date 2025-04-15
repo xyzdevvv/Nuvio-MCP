@@ -2,22 +2,22 @@ import path from 'path';
 
 import { expect } from '@playwright/test';
 
-import { OpenSumiApp } from '../../app';
-import { OpenSumiExplorerView } from '../../explorer-view';
-import { OpenSumiTextEditor } from '../../text-editor';
-import { OpenSumiWorkspace } from '../../workspace';
+import { Nuvio-MCPApp } from '../../app';
+import { Nuvio-MCPExplorerView } from '../../explorer-view';
+import { Nuvio-MCPTextEditor } from '../../text-editor';
+import { Nuvio-MCPWorkspace } from '../../workspace';
 import test, { page } from '../hooks';
 
-let app: OpenSumiApp;
-let explorer: OpenSumiExplorerView;
-let editor: OpenSumiTextEditor;
-let workspace: OpenSumiWorkspace;
+let app: Nuvio-MCPApp;
+let explorer: Nuvio-MCPExplorerView;
+let editor: Nuvio-MCPTextEditor;
+let workspace: Nuvio-MCPWorkspace;
 
-test.describe('OpenSumi Editor Undo Redo', () => {
+test.describe('Nuvio-MCP Editor Undo Redo', () => {
   test.beforeAll(async () => {
-    workspace = new OpenSumiWorkspace([path.resolve(__dirname, '../../../src/tests/workspaces/default')]);
-    app = await OpenSumiApp.load(page, workspace);
-    explorer = await app.open(OpenSumiExplorerView);
+    workspace = new Nuvio-MCPWorkspace([path.resolve(__dirname, '../../../src/tests/workspaces/default')]);
+    app = await Nuvio-MCPApp.load(page, workspace);
+    explorer = await app.open(Nuvio-MCPExplorerView);
     explorer.initFileTreeView(workspace.workspace.displayName);
     await explorer.fileTreeView.open();
   });
@@ -27,7 +27,7 @@ test.describe('OpenSumi Editor Undo Redo', () => {
   });
 
   test('simple editor undo/redo should work', async () => {
-    editor = await app.openEditor(OpenSumiTextEditor, explorer, 'editor-undo-redo.text');
+    editor = await app.openEditor(Nuvio-MCPTextEditor, explorer, 'editor-undo-redo.text');
     const existingLine = await editor.lineByLineNumber(1);
     await editor.placeCursorInLine(existingLine);
     await editor.typeText('a');

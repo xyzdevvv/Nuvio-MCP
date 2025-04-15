@@ -1,22 +1,22 @@
-import { IApplicationService, IJSONSchemaRegistry, ISchemaStore, localize } from '@opensumi/ide-core-browser';
-import { DefaultUriLabelProvider } from '@opensumi/ide-core-browser/lib/services';
-import { CommonServerPath } from '@opensumi/ide-core-common';
-import { BinaryBuffer, Disposable, OperatingSystem, URI } from '@opensumi/ide-core-common';
+import { IApplicationService, IJSONSchemaRegistry, ISchemaStore, localize } from '@Nuvio-MCP/ide-core-browser';
+import { DefaultUriLabelProvider } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { CommonServerPath } from '@Nuvio-MCP/ide-core-common';
+import { BinaryBuffer, Disposable, OperatingSystem, URI } from '@Nuvio-MCP/ide-core-common';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { EditorPreferences } from '@opensumi/ide-editor/lib/browser';
-import { FileSystemResourceProvider } from '@opensumi/ide-editor/lib/browser/fs-resource/fs-resource';
-import { FileSchemeDocNodeServicePath } from '@opensumi/ide-file-scheme';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorPreferences } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { FileSystemResourceProvider } from '@Nuvio-MCP/ide-editor/lib/browser/fs-resource/fs-resource';
+import { FileSchemeDocNodeServicePath } from '@Nuvio-MCP/ide-file-scheme';
 import {
   FileSchemeDocumentProvider,
   VscodeSchemeDocumentProvider,
-} from '@opensumi/ide-file-scheme/lib/browser/file-doc';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { MockFileServiceClient } from '@opensumi/ide-file-service/__mocks__/file-service-client';
-import { IDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-file-scheme/lib/browser/file-doc';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { MockFileServiceClient } from '@Nuvio-MCP/ide-file-service/__mocks__/file-service-client';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { FileSchemeModule } from '../../src/browser';

@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   AINativeSettingSectionsId,
   CancellationToken,
@@ -14,8 +14,8 @@ import {
   STORAGE_NAMESPACE,
   StorageProvider,
   debounce,
-} from '@opensumi/ide-core-common';
-import { IHistoryChatMessage } from '@opensumi/ide-core-common/lib/types/ai-native';
+} from '@Nuvio-MCP/ide-core-common';
+import { IHistoryChatMessage } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native';
 
 import { IChatAgentService, IChatFollowup, IChatRequestMessage, IChatResponseErrorDetails } from '../../common';
 import { MsgHistoryManager } from '../model/msg-history-manager';

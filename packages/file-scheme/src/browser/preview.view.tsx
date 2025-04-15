@@ -1,8 +1,8 @@
 import React, { memo } from 'react';
 
-import { Disposable, useInjectable } from '@opensumi/ide-core-browser';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { IResource, ReactEditorComponent } from '@opensumi/ide-editor/lib/browser';
+import { Disposable, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { IResource, ReactEditorComponent } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import styles from './style.module.less';
 

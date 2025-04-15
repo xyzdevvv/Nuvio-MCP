@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { EDITOR_COMMANDS, WithEventBus, localize } from '@opensumi/ide-core-browser';
-import { IStatusBarService, StatusBarAlignment } from '@opensumi/ide-core-browser/lib/services';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { EDITOR_COMMANDS, WithEventBus, localize } from '@Nuvio-MCP/ide-core-browser';
+import { IStatusBarService, StatusBarAlignment } from '@Nuvio-MCP/ide-core-browser/lib/services';
 
 import { CursorStatus, IEditor, ILanguageService, WorkbenchEditorService } from '../common';
 

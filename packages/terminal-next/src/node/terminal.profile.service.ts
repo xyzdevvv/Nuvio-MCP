@@ -7,9 +7,9 @@
 
 import { readFile } from 'fs-extra';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-common';
-import { INodeLogger, isWindows, path } from '@opensumi/ide-core-node';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { INodeLogger, isWindows, path } from '@Nuvio-MCP/ide-core-node';
 
 import { IDetectProfileOptions, ITerminalEnvironment } from '..';
 import {

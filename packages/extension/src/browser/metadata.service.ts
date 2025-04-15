@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Disposable, ExtensionEnabledEvent, IEventBus, ILogger } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Disposable, ExtensionEnabledEvent, IEventBus, ILogger } from '@Nuvio-MCP/ide-core-browser';
 
 import { IExtension } from '../common';
 

@@ -1,15 +1,15 @@
-import { URI } from '@opensumi/ide-core-common';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import { LanguagesContribution } from '../../common';
 
-import type { ILanguageExtensionPoint } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
+import type { ILanguageExtensionPoint } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
 
 export const ITextmateTokenizer = Symbol('ITextmateTokenizer');
 
 export interface ITextmateTokenizerService {
   initialized: boolean;
   init(): void;
-  setTheme(theme: any /** 应为 @opensumi/ide-theme#IThemeData */): void;
+  setTheme(theme: any /** 应为 @Nuvio-MCP/ide-theme#IThemeData */): void;
   unregisterGrammar(grammar: GrammarsContribution): void;
   registerGrammar(grammar: GrammarsContribution, extPath: URI): Promise<void>;
   registerLanguage(language: LanguagesContribution, extPath: URI): Promise<void>;

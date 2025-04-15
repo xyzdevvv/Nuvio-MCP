@@ -1,8 +1,8 @@
-import { Injectable } from '@opensumi/di';
-import { IEditorMouseEvent, MouseTargetType } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { Margin } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/viewParts/margin/margin';
-import { IModelDecorationOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { IStandaloneEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IEditorMouseEvent, MouseTargetType } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { Margin } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/viewParts/margin/margin';
+import { IModelDecorationOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { IStandaloneEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
 
 import { DetailedLineRangeMapping } from '../../../../../common/diff';
 import { DocumentMapping } from '../../model/document-mapping';

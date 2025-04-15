@@ -1,4 +1,4 @@
-import { Emitter, Event } from '@opensumi/ide-core-common';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 
 import { Color } from './color';
 import { ColorContribution, ColorDefaults, ColorFunction, ColorIdentifier, ColorValue, ITheme } from './theme.service';

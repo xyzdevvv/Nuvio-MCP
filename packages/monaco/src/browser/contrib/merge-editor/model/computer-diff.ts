@@ -1,7 +1,7 @@
-import { IDocumentDiff } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/documentDiffProvider';
-import { RangeMapping } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
-import { IEditorWorkerService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+import { IDocumentDiff } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/documentDiffProvider';
+import { RangeMapping } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
+import { IEditorWorkerService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { DetailedLineRangeMapping } from '../../../../common/diff';
 import { ITextModel } from '../../../monaco-api/types';

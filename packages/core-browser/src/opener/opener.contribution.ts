@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { ContributionProvider, Domain } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { ContributionProvider, Domain } from '@Nuvio-MCP/ide-core-common';
 
 import { ClientAppContribution } from '../common/common.define';
 import { AppConfig } from '../react-providers/config-provider';

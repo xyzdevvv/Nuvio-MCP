@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, DisposableCollection, Emitter, Event, URI } from '@opensumi/ide-core-common';
-import { EditorCollectionService, ICodeEditor, WorkbenchEditorService } from '@opensumi/ide-editor';
-import * as monaco from '@opensumi/ide-monaco';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, DisposableCollection, Emitter, Event, URI } from '@Nuvio-MCP/ide-core-common';
+import { EditorCollectionService, ICodeEditor, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import {
   BreakpointsChangeEvent,
@@ -13,7 +13,7 @@ import {
 import { BreakpointManager } from '../breakpoint';
 import { DebugConfigurationManager } from '../debug-configuration-manager';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 @Injectable()
 export class DebugModelManager extends Disposable implements IDebugModelManager {

@@ -1,4 +1,4 @@
-import { Autowired, Injectable, Provider } from '@opensumi/di';
+import { Autowired, Injectable, Provider } from '@Nuvio-MCP/di';
 import {
   AIBackSerivcePath,
   AIBackSerivceToken,
@@ -12,14 +12,14 @@ import {
   InlineChatFeatureRegistryToken,
   RenameCandidatesProviderRegistryToken,
   ResolveConflictRegistryToken,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   IntelligentCompletionsRegistryToken,
   MCPConfigServiceToken,
   ProblemFixRegistryToken,
   TerminalRegistryToken,
-} from '@opensumi/ide-core-common';
-import { FolderFilePreferenceProvider } from '@opensumi/ide-preferences/lib/browser/folder-file-preference-provider';
+} from '@Nuvio-MCP/ide-core-common';
+import { FolderFilePreferenceProvider } from '@Nuvio-MCP/ide-preferences/lib/browser/folder-file-preference-provider';
 
 import {
   ChatProxyServiceToken,

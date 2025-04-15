@@ -1,12 +1,12 @@
-import { getDebugLogger } from '@opensumi/ide-core-common';
+import { getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 import {
   CancellationToken,
   CancellationTokenSource,
   DisposableStore,
   IDisposable,
   canceled,
-} from '@opensumi/ide-utils';
-import { SumiReadableStream, isReadableStream, listenReadable } from '@opensumi/ide-utils/lib/stream';
+} from '@Nuvio-MCP/ide-utils';
+import { SumiReadableStream, isReadableStream, listenReadable } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { Capturer } from '../capturer';
 import { BaseConnection, NetSocketConnection, WSWebSocketConnection } from '../connection';
@@ -33,7 +33,7 @@ export interface ISumiConnectionOptions {
   timeout?: number;
   logger?: ILogger;
   /**
-   * The name of the connection, used for debugging(and can see in opensumi-devtools).
+   * The name of the connection, used for debugging(and can see in Nuvio-MCP-devtools).
    */
   name?: string;
 

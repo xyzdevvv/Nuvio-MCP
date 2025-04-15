@@ -1,9 +1,9 @@
-import { BasicEvent, IDisposable, SlotLocation } from '@opensumi/ide-core-browser';
-import { SideStateManager, View, ViewContainerOptions } from '@opensumi/ide-core-browser/lib/layout';
-import { ComponentRegistryInfo } from '@opensumi/ide-core-browser/lib/layout/layout.interface';
-import { IContextMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Deferred, Event } from '@opensumi/ide-core-common';
-import { IContextKeyExpression } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { BasicEvent, IDisposable, SlotLocation } from '@Nuvio-MCP/ide-core-browser';
+import { SideStateManager, View, ViewContainerOptions } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { ComponentRegistryInfo } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout.interface';
+import { IContextMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Deferred, Event } from '@Nuvio-MCP/ide-core-common';
+import { IContextKeyExpression } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 // eslint-disable-next-line import/no-restricted-paths
 import type { AccordionService } from '../browser/accordion/accordion.service';

@@ -7,9 +7,9 @@ import {
   MARKER_COMMANDS,
   SEARCH_COMMANDS,
   TERMINAL_COMMANDS,
-} from '@opensumi/ide-core-browser';
-import { DEBUG_COMMANDS } from '@opensumi/ide-debug';
-import { THEME_TOGGLE_COMMAND } from '@opensumi/ide-theme/lib/browser/theme.contribution';
+} from '@Nuvio-MCP/ide-core-browser';
+import { DEBUG_COMMANDS } from '@Nuvio-MCP/ide-debug';
+import { THEME_TOGGLE_COMMAND } from '@Nuvio-MCP/ide-theme/lib/browser/theme.contribution';
 
 /**
  * 插件进程内置 command 的命名空间

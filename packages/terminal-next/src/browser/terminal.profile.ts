@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceChange, PreferenceService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceChange, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   AutoOpenBarrier,
   Disposable,
@@ -13,7 +13,7 @@ import {
   WithEventBus,
   arrays,
   throttle,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   ICreateContributedTerminalProfileOptions,

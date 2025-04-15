@@ -5,20 +5,20 @@ import {
   OS,
   PreferenceService,
   QuickOpenService,
-} from '@opensumi/ide-core-browser';
-import { Emitter, URI } from '@opensumi/ide-core-browser';
-import { MockContextKeyService } from '@opensumi/ide-core-browser/__mocks__/context-key';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { MockWorkbenchEditorService } from '@opensumi/ide-editor/lib/common/mocks/workbench-editor.service';
-import { EXPLORER_CONTAINER_ID } from '@opensumi/ide-explorer/lib/browser/explorer-contribution';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IFileTreeAPI, IFileTreeService } from '@opensumi/ide-file-tree-next';
-import { FileTreeContribution } from '@opensumi/ide-file-tree-next/lib/browser/file-tree-contribution';
-import { IMainLayoutService, IViewsRegistry } from '@opensumi/ide-main-layout';
-import { ViewsRegistry } from '@opensumi/ide-main-layout/lib/browser/views-registry';
-import { IDialogService, IMessageService, IWindowDialogService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, URI } from '@Nuvio-MCP/ide-core-browser';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-core-browser/__mocks__/context-key';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { MockWorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common/mocks/workbench-editor.service';
+import { EXPLORER_CONTAINER_ID } from '@Nuvio-MCP/ide-explorer/lib/browser/explorer-contribution';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IFileTreeAPI, IFileTreeService } from '@Nuvio-MCP/ide-file-tree-next';
+import { FileTreeContribution } from '@Nuvio-MCP/ide-file-tree-next/lib/browser/file-tree-contribution';
+import { IMainLayoutService, IViewsRegistry } from '@Nuvio-MCP/ide-main-layout';
+import { ViewsRegistry } from '@Nuvio-MCP/ide-main-layout/lib/browser/views-registry';
+import { IDialogService, IMessageService, IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

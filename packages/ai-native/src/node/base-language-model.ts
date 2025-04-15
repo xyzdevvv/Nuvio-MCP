@@ -9,10 +9,10 @@ import {
   tool,
 } from 'ai';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IAIBackServiceOption } from '@opensumi/ide-core-common';
-import { ChatReadableStream } from '@opensumi/ide-core-node';
-import { CancellationToken } from '@opensumi/ide-utils';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IAIBackServiceOption } from '@Nuvio-MCP/ide-core-common';
+import { ChatReadableStream } from '@Nuvio-MCP/ide-core-node';
+import { CancellationToken } from '@Nuvio-MCP/ide-utils';
 
 import { ModelInfo } from '../common';
 import {

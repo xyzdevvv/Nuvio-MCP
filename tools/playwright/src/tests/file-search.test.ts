@@ -2,26 +2,26 @@ import path from 'path';
 
 import { expect } from '@playwright/test';
 
-import { URI } from '@opensumi/ide-utils';
+import { URI } from '@Nuvio-MCP/ide-utils';
 
-import { OpenSumiApp } from '../app';
-import { OpenSumiExplorerView } from '../explorer-view';
-import { OpenSumiFileTreeView } from '../filetree-view';
-import { OpenSumiTextEditor } from '../text-editor';
-import { OpenSumiWorkspace } from '../workspace';
+import { Nuvio-MCPApp } from '../app';
+import { Nuvio-MCPExplorerView } from '../explorer-view';
+import { Nuvio-MCPFileTreeView } from '../filetree-view';
+import { Nuvio-MCPTextEditor } from '../text-editor';
+import { Nuvio-MCPWorkspace } from '../workspace';
 
 import test, { page } from './hooks';
 
-let app: OpenSumiApp;
-let explorer: OpenSumiExplorerView;
-let fileTreeView: OpenSumiFileTreeView;
-let workspace: OpenSumiWorkspace;
+let app: Nuvio-MCPApp;
+let explorer: Nuvio-MCPExplorerView;
+let fileTreeView: Nuvio-MCPFileTreeView;
+let workspace: Nuvio-MCPWorkspace;
 
-test.describe('OpenSumi File Search', () => {
+test.describe('Nuvio-MCP File Search', () => {
   test.beforeAll(async () => {
-    workspace = new OpenSumiWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
-    app = await OpenSumiApp.load(page, workspace);
-    explorer = await app.open(OpenSumiExplorerView);
+    workspace = new Nuvio-MCPWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
+    app = await Nuvio-MCPApp.load(page, workspace);
+    explorer = await app.open(Nuvio-MCPExplorerView);
     explorer.initFileTreeView(workspace.workspace.displayName);
     fileTreeView = explorer.fileTreeView;
   });
@@ -37,7 +37,7 @@ test.describe('OpenSumi File Search', () => {
     expect(await fileTreeView.isVisible()).toBeTruthy();
     // Open editor3.js first
     const testFilePath = 'editor3.js';
-    const editor = await app.openEditor(OpenSumiTextEditor, explorer, testFilePath);
+    const editor = await app.openEditor(Nuvio-MCPTextEditor, explorer, testFilePath);
     let currentTab = await editor.getCurrentTab();
     let dataUri = await currentTab?.getAttribute('data-uri');
     expect(dataUri).toBeDefined();

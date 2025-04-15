@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Emitter,
   Event,
@@ -8,10 +8,10 @@ import {
   StorageProvider,
   URI,
   isUndefined,
-} from '@opensumi/ide-core-browser';
-import { Deferred } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Deferred } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { BreakpointsChangeEvent, DEBUG_REPORT_NAME, IDebugBreakpoint, IDebugModel } from '../../common';
 import { DebugContextKey } from '../contextkeys/debug-contextkey.service';

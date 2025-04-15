@@ -1,7 +1,7 @@
 import debounce from 'lodash/debounce';
 import Parser from 'web-tree-sitter';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
 import {
   CommandService,
   Disposable,
@@ -10,18 +10,18 @@ import {
   PreferenceService,
   URI,
   localize,
-} from '@opensumi/ide-core-browser';
-import { AINativeSettingSectionsId } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { AINativeSettingSectionsId } from '@Nuvio-MCP/ide-core-common';
 import {
   BrowserEditorContribution,
   IEditor,
   IEditorFeatureContribution,
   IEditorFeatureRegistry,
-} from '@opensumi/ide-editor/lib/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { MouseTargetType } from '@opensumi/ide-monaco/lib/browser/monaco-exports/editor';
-import { IIconService, IThemeService, IconType } from '@opensumi/ide-theme';
-import { IModelDeltaDecoration } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { MouseTargetType } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-exports/editor';
+import { IIconService, IThemeService, IconType } from '@Nuvio-MCP/ide-theme';
+import { IModelDeltaDecoration } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import { LanguageParserService } from '../../languages/service';
 import { toMonacoRange } from '../../languages/tree-sitter/common';

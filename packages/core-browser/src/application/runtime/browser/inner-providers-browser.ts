@@ -1,4 +1,4 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 
 import { ICtxMenuRenderer } from '../../../menu/next';
 import { BrowserCtxMenuRenderer } from '../../../menu/next/renderer/ctxmenu/browser';

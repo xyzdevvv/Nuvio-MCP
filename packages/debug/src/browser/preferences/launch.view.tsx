@@ -7,7 +7,7 @@ import throttle from 'lodash/throttle';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import AutoSizer from 'react-virtualized-auto-sizer';
 
-import { Button, ComponentContextProvider, RecycleList } from '@opensumi/ide-components';
+import { Button, ComponentContextProvider, RecycleList } from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   Disposable,
@@ -23,12 +23,12 @@ import {
   isUndefined,
   localize,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { EDirection, SplitPanel } from '@opensumi/ide-core-browser/lib/components';
-import { MenuActionList } from '@opensumi/ide-core-browser/lib/components/actions/index';
-import { LabelMenuItemNode } from '@opensumi/ide-core-browser/lib/menu/next/menu.interface';
-import { acquireAjv } from '@opensumi/ide-core-browser/lib/utils/schema';
-import { ReactEditorComponent } from '@opensumi/ide-editor/lib/browser/index';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EDirection, SplitPanel } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { MenuActionList } from '@Nuvio-MCP/ide-core-browser/lib/components/actions/index';
+import { LabelMenuItemNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/menu.interface';
+import { acquireAjv } from '@Nuvio-MCP/ide-core-browser/lib/utils/schema';
+import { ReactEditorComponent } from '@Nuvio-MCP/ide-editor/lib/browser/index';
 
 import { DebugConfiguration, MASSIVE_PROPERTY_FLAG } from '../../common/debug-configuration';
 import { JSON_SCHEMA_TYPE, launchExtensionSchemaUri } from '../../common/debug-schema';

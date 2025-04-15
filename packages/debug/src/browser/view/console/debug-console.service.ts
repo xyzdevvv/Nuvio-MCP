@@ -1,22 +1,22 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   IContextKeyService,
   MonacoOverrideServiceRegistry,
   ServiceNames,
   StorageProvider,
   localize,
-} from '@opensumi/ide-core-browser';
-import { CommandRegistry, Emitter, Event, STORAGE_NAMESPACE, Schemes, URI } from '@opensumi/ide-core-common';
-import { EditorCollectionService, IDecorationApplyOptions } from '@opensumi/ide-editor';
-import { ICodeEditor, IEditorDocumentModelService, getSimpleEditorOptions } from '@opensumi/ide-editor/lib/browser';
-import { MonacoCodeService } from '@opensumi/ide-editor/lib/browser/editor.override';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import * as monaco from '@opensumi/ide-monaco';
-import { monaco as monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { IThemeService, editorForeground, transparent } from '@opensumi/ide-theme';
-import { IHistoryNavigationWidget } from '@opensumi/monaco-editor-core/esm/vs/base/browser/history';
-import { HistoryNavigator } from '@opensumi/monaco-editor-core/esm/vs/base/common/history';
-import { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CommandRegistry, Emitter, Event, STORAGE_NAMESPACE, Schemes, URI } from '@Nuvio-MCP/ide-core-common';
+import { EditorCollectionService, IDecorationApplyOptions } from '@Nuvio-MCP/ide-editor';
+import { ICodeEditor, IEditorDocumentModelService, getSimpleEditorOptions } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { MonacoCodeService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.override';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monaco as monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { IThemeService, editorForeground, transparent } from '@Nuvio-MCP/ide-theme';
+import { IHistoryNavigationWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/history';
+import { HistoryNavigator } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/history';
+import { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import {
   CONTEXT_IN_DEBUG_MODE_KEY,

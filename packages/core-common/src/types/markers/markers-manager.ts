@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, IDisposable, arrays } from '@opensumi/ide-utils';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, IDisposable, arrays } from '@Nuvio-MCP/ide-utils';
 
 import { WithEventBus } from '../../event-bus';
 

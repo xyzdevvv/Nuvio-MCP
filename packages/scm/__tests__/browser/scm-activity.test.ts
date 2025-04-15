@@ -1,8 +1,8 @@
-import { Injectable, Injector } from '@opensumi/di';
-import { IStatusBarService, StatusBarAlignment } from '@opensumi/ide-core-browser/lib/services';
-import { Emitter, Event, MaybeNull, URI, Uri } from '@opensumi/ide-core-common';
-import { IResource, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { IStatusBarService, StatusBarAlignment } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { Emitter, Event, MaybeNull, URI, Uri } from '@Nuvio-MCP/ide-core-common';
+import { IResource, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
@@ -14,8 +14,8 @@ import { MockSCMProvider, MockSCMResource, MockSCMResourceGroup } from '../scm-t
 jest.useFakeTimers();
 
 // mock localize
-jest.mock('@opensumi/ide-core-common', () => ({
-  ...jest.requireActual('@opensumi/ide-core-common'),
+jest.mock('@Nuvio-MCP/ide-core-common', () => ({
+  ...jest.requireActual('@Nuvio-MCP/ide-core-common'),
   localize: (symbol: string, defaultValue?: string) => defaultValue || symbol,
 }));
 

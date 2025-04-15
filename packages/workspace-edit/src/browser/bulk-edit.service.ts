@@ -1,12 +1,12 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IDisposable, ILogger, URI, revive } from '@opensumi/ide-core-common';
-import { UriComponents } from '@opensumi/ide-editor';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IDisposable, ILogger, URI, revive } from '@Nuvio-MCP/ide-core-common';
+import { UriComponents } from '@Nuvio-MCP/ide-editor';
 import {
   ResourceEdit,
   ResourceFileEdit,
   ResourceTextEdit,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
-import { WorkspaceEdit } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+import { WorkspaceEdit } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import { IResourceFileEdit, IResourceTextEdit, IWorkspaceEdit, IWorkspaceEditService } from '../common';
 
@@ -17,7 +17,7 @@ import type {
   IBulkEditPreviewHandler,
   IBulkEditResult,
   IBulkEditService,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
 
 function reviveWorkspaceEditDto2(data: ResourceEdit[] | WorkspaceEdit | undefined): ResourceEdit[] {
   if (!data) {

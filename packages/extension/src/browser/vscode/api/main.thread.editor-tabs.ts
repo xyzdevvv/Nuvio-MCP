@@ -1,15 +1,15 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { MergeEditorInputData } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { Disposable, URI, Uri, diffSets, isUndefined } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { MergeEditorInputData } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { Disposable, URI, Uri, diffSets, isUndefined } from '@Nuvio-MCP/ide-core-common';
 import {
   DragOverPosition,
   IDiffResource,
   IMergeEditorResource,
   IResource,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor';
-import { EditorGroup, WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
+} from '@Nuvio-MCP/ide-editor';
+import { EditorGroup, WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
 
 import {
   AnyInputDto,

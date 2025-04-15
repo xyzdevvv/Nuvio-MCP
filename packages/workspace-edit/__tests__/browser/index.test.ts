@@ -1,9 +1,9 @@
-import { URI } from '@opensumi/ide-core-browser';
-import { IEditorGroup, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { FileSystemError, IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { Uri } from '@opensumi/ide-monaco';
-import { createMockedMonaco } from '@opensumi/ide-monaco/__mocks__/monaco';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { IEditorGroup, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { FileSystemError, IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { Uri } from '@Nuvio-MCP/ide-monaco';
+import { createMockedMonaco } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { WorkspaceEditModule } from '../../src/browser';
@@ -13,7 +13,7 @@ import { IResourceFileEdit, IWorkspaceEditService, IWorkspaceFileService } from 
 import type {
   IBulkEditOptions,
   ResourceEdit,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
 
 function mockService(target) {
   return new Proxy(target, {

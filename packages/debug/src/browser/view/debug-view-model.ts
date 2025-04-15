@@ -15,8 +15,8 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/debug/src/browser/view/debug-view-model.ts
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { DisposableCollection, Emitter, Event, IDisposable, URI } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { DisposableCollection, Emitter, Event, IDisposable, URI } from '@Nuvio-MCP/ide-core-browser';
 
 import { DebugState, IDebugSessionManager } from '../../common/debug-session';
 import { DebugSession } from '../debug-session';

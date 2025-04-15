@@ -1,6 +1,6 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IToolbarPopoverStyle } from '@opensumi/ide-core-browser/lib/toolbar';
-import { Disposable, Emitter, IExtensionLogger } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IToolbarPopoverStyle } from '@Nuvio-MCP/ide-core-browser/lib/toolbar';
+import { Disposable, Emitter, IExtensionLogger } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IToolbarButtonContribution,

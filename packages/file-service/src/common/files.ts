@@ -28,8 +28,8 @@ import {
   hasProperty,
   isFunction,
   isUndefinedOrNull,
-} from '@opensumi/ide-core-common';
-import { FileStat, FileSystemProvider, RecursiveWatcherBackend } from '@opensumi/ide-core-common/lib/types/file';
+} from '@Nuvio-MCP/ide-core-common';
+import { FileStat, FileSystemProvider, RecursiveWatcherBackend } from '@Nuvio-MCP/ide-core-common/lib/types/file';
 
 import type { Range } from 'vscode-languageserver-types';
 export {
@@ -37,9 +37,9 @@ export {
   FileSystemProvider,
   FileType,
   FileStat,
-} from '@opensumi/ide-core-common/lib/types/file';
+} from '@Nuvio-MCP/ide-core-common/lib/types/file';
 
-export * from '@opensumi/ide-core-common/lib/types/file-watch';
+export * from '@Nuvio-MCP/ide-core-common/lib/types/file-watch';
 
 export const IDiskFileProvider = Symbol('IDiskFileProvider');
 

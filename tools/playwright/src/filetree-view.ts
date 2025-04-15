@@ -1,8 +1,8 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiView } from './view';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPView } from './view';
 
-export class OpenSumiFileTreeView extends OpenSumiView {
-  constructor(app: OpenSumiApp, workspaceName: string) {
+export class Nuvio-MCPFileTreeView extends Nuvio-MCPView {
+  constructor(app: Nuvio-MCPApp, workspaceName: string) {
     super(app, {
       viewSelector: '[data-view-id="file-explorer"]',
       tabSelector: '[data-view-id="file-explorer"] [tabindex="0"]',

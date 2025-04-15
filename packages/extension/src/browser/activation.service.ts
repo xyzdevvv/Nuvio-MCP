@@ -1,7 +1,7 @@
 import pm from 'picomatch';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IDisposable, ILogger, MaybePromise, MultiMap } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IDisposable, ILogger, MaybePromise, MultiMap } from '@Nuvio-MCP/ide-core-common';
 
 import { IActivationEventService } from './types';
 

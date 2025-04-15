@@ -1,14 +1,14 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { ClickOutside } from '@opensumi/ide-components';
-import { Dropdown } from '@opensumi/ide-components/lib/dropdown';
-import { Deprecated } from '@opensumi/ide-components/lib/utils/deprecated';
-import { ComponentRegistry, SlotRenderer, useAutorun, useInjectable } from '@opensumi/ide-core-browser';
-import { InlineActionBar, MenuActionList } from '@opensumi/ide-core-browser/lib/components/actions';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { AbstractMenuService, IMenubarItem, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IIconService } from '@opensumi/ide-theme/lib/common/theme.service';
+import { ClickOutside } from '@Nuvio-MCP/ide-components';
+import { Dropdown } from '@Nuvio-MCP/ide-components/lib/dropdown';
+import { Deprecated } from '@Nuvio-MCP/ide-components/lib/utils/deprecated';
+import { ComponentRegistry, SlotRenderer, useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { InlineActionBar, MenuActionList } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { AbstractMenuService, IMenubarItem, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IIconService } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
 
 import styles from './menu-bar.module.less';
 import { MenubarStore } from './menu-bar.store';
@@ -112,7 +112,7 @@ export const MenuBar = () => {
     setFocusMode(false);
   }, [focusMode]);
 
-  const LogoIcon = componentRegistry.getComponentRegistryInfo('@opensumi/ide-menu-bar-logo')?.views[0].component;
+  const LogoIcon = componentRegistry.getComponentRegistryInfo('@Nuvio-MCP/ide-menu-bar-logo')?.views[0].component;
 
   return (
     <ClickOutside

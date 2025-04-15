@@ -1,4 +1,4 @@
-import { IDisposable, IExtensionProps, IProgressOptions, IProgressStep } from '@opensumi/ide-core-common';
+import { IDisposable, IExtensionProps, IProgressOptions, IProgressStep } from '@Nuvio-MCP/ide-core-common';
 
 export interface IMainThreadProgress extends IDisposable {
   $startProgress(handle: number, options: IProgressOptions, extension?: IExtensionProps): void;

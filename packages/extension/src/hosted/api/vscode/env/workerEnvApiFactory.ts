@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { Schemes } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { Schemes } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtHostEnv, IMainThreadEnv, MainThreadAPIIdentifier } from '../../../../common/vscode';
 

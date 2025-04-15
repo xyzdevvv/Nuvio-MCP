@@ -1,11 +1,11 @@
-import { Injectable } from '@opensumi/di';
-import { IContextKeyService } from '@opensumi/ide-core-browser/lib/context-key';
-import { ILineChange, URI } from '@opensumi/ide-core-common';
-import { IDocPersistentCacheProvider, OverviewRulerLane } from '@opensumi/ide-editor';
-import { EmptyDocCacheImpl } from '@opensumi/ide-editor/src/browser';
-import { IEditorDocumentModel } from '@opensumi/ide-editor/src/browser/';
-import { EditorDocumentModel } from '@opensumi/ide-editor/src/browser/doc-model/main';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser/lib/context-key';
+import { ILineChange, URI } from '@Nuvio-MCP/ide-core-common';
+import { IDocPersistentCacheProvider, OverviewRulerLane } from '@Nuvio-MCP/ide-editor';
+import { EmptyDocCacheImpl } from '@Nuvio-MCP/ide-editor/src/browser';
+import { IEditorDocumentModel } from '@Nuvio-MCP/ide-editor/src/browser/';
+import { EditorDocumentModel } from '@Nuvio-MCP/ide-editor/src/browser/doc-model/main';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

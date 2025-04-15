@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   CancellationToken,
   IAIBackService,
@@ -7,8 +7,8 @@ import {
   IAICompletionOption,
   IAIReportCompletionOption,
   IChatProgress,
-} from '@opensumi/ide-core-common';
-import { SumiReadableStream } from '@opensumi/ide-utils/lib/stream';
+} from '@Nuvio-MCP/ide-core-common';
+import { SumiReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 export class ChatReadableStream extends SumiReadableStream<IChatProgress> {}
 

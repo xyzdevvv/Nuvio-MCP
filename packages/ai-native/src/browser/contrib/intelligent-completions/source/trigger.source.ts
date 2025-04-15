@@ -1,12 +1,12 @@
-import { Injectable } from '@opensumi/di';
-import { ECodeEditsSourceTyping, IDisposable } from '@opensumi/ide-core-common';
-import { Position } from '@opensumi/ide-monaco';
+import { Injectable } from '@Nuvio-MCP/di';
+import { ECodeEditsSourceTyping, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { Position } from '@Nuvio-MCP/ide-monaco';
 import {
   IObservableSignal,
   derived,
   observableSignal,
   runOnChangeWithStore,
-} from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { BaseCodeEditsSource } from './base';
 

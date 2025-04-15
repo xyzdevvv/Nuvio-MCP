@@ -1,17 +1,17 @@
 // eslint-disable-next-line import/no-unresolved
 import { CancellationToken, DefinitionProvider, DocumentSelector, HoverProvider, ReferenceProvider } from 'vscode';
 
-import { Autowired, ConstructorOf, Injectable } from '@opensumi/di';
-import { DisposableCollection, LRUMap, URI, Uri } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelService, LanguageSelector } from '@opensumi/ide-editor/lib/browser';
+import { Autowired, ConstructorOf, Injectable } from '@Nuvio-MCP/di';
+import { DisposableCollection, LRUMap, URI, Uri } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelService, LanguageSelector } from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   ExtensionDocumentDataManager,
   IExtHostLanguages,
   MonacoModelIdentifier,
   testGlob,
-} from '@opensumi/ide-extension/lib/common/vscode';
-import { fromLanguageSelector } from '@opensumi/ide-extension/lib/common/vscode/converter';
-import { Disposable } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { fromLanguageSelector } from '@Nuvio-MCP/ide-extension/lib/common/vscode/converter';
+import { Disposable } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
 import {
   Definition,
   DefinitionLink,
@@ -21,15 +21,15 @@ import {
   ReferenceContext,
   SerializedDocumentFilter,
   isDocumentFilter,
-} from '@opensumi/ide-extension/lib/common/vscode/model.api';
-import { ExtHostDocumentData } from '@opensumi/ide-extension/lib/hosted/api/vscode/doc/ext-data.host';
-import { Adapter } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.language';
-import { DefinitionAdapter } from '@opensumi/ide-extension/lib/hosted/api/vscode/language/definition';
-import { HoverAdapter } from '@opensumi/ide-extension/lib/hosted/api/vscode/language/hover';
-import { ReferenceAdapter } from '@opensumi/ide-extension/lib/hosted/api/vscode/language/reference';
-import * as monaco from '@opensumi/ide-monaco';
-import { monaco as monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode/model.api';
+import { ExtHostDocumentData } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/doc/ext-data.host';
+import { Adapter } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.language';
+import { DefinitionAdapter } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/language/definition';
+import { HoverAdapter } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/language/hover';
+import { ReferenceAdapter } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/language/reference';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monaco as monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import type * as vscode from 'vscode';
 

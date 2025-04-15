@@ -1,4 +1,4 @@
-import { BinaryBuffer, Event, IDisposable, IJSONSchema, IJSONSchemaSnippet } from '@opensumi/ide-core-common';
+import { BinaryBuffer, Event, IDisposable, IJSONSchema, IJSONSchemaSnippet } from '@Nuvio-MCP/ide-core-common';
 
 import { DebugConfiguration } from './debug-configuration';
 import { IDebugSessionDTO } from './debug-session-options';

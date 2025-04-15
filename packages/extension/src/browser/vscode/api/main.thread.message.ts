@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { MessageType } from '@opensumi/ide-core-common';
-import { IDialogService, IMessageService } from '@opensumi/ide-overlay';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { MessageType } from '@Nuvio-MCP/ide-core-common';
+import { IDialogService, IMessageService } from '@Nuvio-MCP/ide-overlay';
 
 import { ExtHostAPIIdentifier, IExtHostMessage, IMainThreadMessage } from '../../../common/vscode';
 

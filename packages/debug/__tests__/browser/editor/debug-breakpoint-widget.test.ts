@@ -1,16 +1,16 @@
 import { act } from 'react-dom/test-utils';
 
-import { Disposable, IContextKeyService, IFileServiceClient } from '@opensumi/ide-core-browser';
-import { Emitter } from '@opensumi/ide-core-common';
-import { DebugEditor, IDebugSessionManager } from '@opensumi/ide-debug';
-import { DebugBreakpointWidget } from '@opensumi/ide-debug/lib/browser/editor';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { EditorCollectionService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Disposable, IContextKeyService, IFileServiceClient } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { DebugEditor, IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { DebugBreakpointWidget } from '@Nuvio-MCP/ide-debug/lib/browser/editor';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { EditorCollectionService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
-import type { Position } from '@opensumi/ide-monaco';
+import type { Position } from '@Nuvio-MCP/ide-monaco';
 
 describe('Debug Breakpoint Widget', () => {
   const mockInjector = createBrowserInjector([]);

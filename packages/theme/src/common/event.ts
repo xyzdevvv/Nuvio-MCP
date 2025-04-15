@@ -1,4 +1,4 @@
-import { BasicEvent } from '@opensumi/ide-core-common';
+import { BasicEvent } from '@Nuvio-MCP/ide-core-common';
 
 import { ITheme } from './theme.service';
 

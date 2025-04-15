@@ -1,4 +1,4 @@
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
 import {
   AppConfig,
   ApplicationService,
@@ -6,10 +6,10 @@ import {
   EventBusImpl,
   IContextKeyService,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
-import { MockContextKeyService } from '@opensumi/ide-core-browser/__mocks__/context-key';
-import { MockLogger, MockLoggerManageClient, MockLoggerService } from '@opensumi/ide-core-browser/__mocks__/logger';
-import { IMenuRegistry, MenuRegistryImpl } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-core-browser/__mocks__/context-key';
+import { MockLogger, MockLoggerManageClient, MockLoggerService } from '@Nuvio-MCP/ide-core-browser/__mocks__/logger';
+import { IMenuRegistry, MenuRegistryImpl } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 import {
   CommandRegistry,
   CommandService,
@@ -21,16 +21,16 @@ import {
   ILogger,
   ILoggerManagerClient,
   OperatingSystem,
-} from '@opensumi/ide-core-common';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { EnvironmentVariableServiceToken } from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
-import { IThemeService } from '@opensumi/ide-theme';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+} from '@Nuvio-MCP/ide-core-common';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { EnvironmentVariableServiceToken } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 
 import { createTerminalClientFactory2 } from '../../src/browser/terminal.client';
 import { TerminalController } from '../../src/browser/terminal.controller';

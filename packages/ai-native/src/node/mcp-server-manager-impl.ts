@@ -1,7 +1,7 @@
 import { ToolExecutionOptions } from 'ai';
 
-import { ILogger } from '@opensumi/ide-core-common';
-import { getShellPath } from '@opensumi/ide-core-node';
+import { ILogger } from '@Nuvio-MCP/ide-core-common';
+import { getShellPath } from '@Nuvio-MCP/ide-core-node';
 
 import { IMCPServer, MCPServerDescription, MCPServerManager, MCPTool } from '../common/mcp-server-manager';
 import { IToolInvocationRegistryManager, ToolRequest } from '../common/tool-invocation-registry';

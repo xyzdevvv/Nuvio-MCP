@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 
 import { IExtensionHostService, IExtensionWorkerHost } from '../../../common';
 import { ExtHostAPIIdentifier, IExtensionDescription } from '../../../common/vscode';

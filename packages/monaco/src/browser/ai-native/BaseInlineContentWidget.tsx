@@ -2,9 +2,9 @@ import throttle from 'lodash/throttle';
 import React from 'react';
 import ReactDOMClient from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, ConfigProvider, StackingLevelStr } from '@opensumi/ide-core-browser';
-import { Disposable, FRAME_THREE, runWhenIdle } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, ConfigProvider, StackingLevelStr } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, FRAME_THREE, runWhenIdle } from '@Nuvio-MCP/ide-core-common';
 
 import * as monaco from '../../common';
 import { ContentWidgetPositionPreference } from '../monaco-exports/editor';

@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Emitter } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IPtyExitEvent,

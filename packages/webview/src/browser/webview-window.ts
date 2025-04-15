@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Emitter, Event, URI } from '@opensumi/ide-core-browser';
-import { electronEnv } from '@opensumi/ide-core-browser/lib/utils/electron';
-import { IElectronMainUIService, IElectronPlainWebviewWindowOptions } from '@opensumi/ide-core-common/lib/electron';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event, URI } from '@Nuvio-MCP/ide-core-browser';
+import { electronEnv } from '@Nuvio-MCP/ide-core-browser/lib/utils/electron';
+import { IElectronMainUIService, IElectronPlainWebviewWindowOptions } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { IPlainWebviewWindow } from './types';
 

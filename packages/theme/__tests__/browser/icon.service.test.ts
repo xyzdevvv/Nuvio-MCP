@@ -1,15 +1,15 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   IFileServiceClient,
   IPreferenceSettingsService,
   PreferenceSchemaProvider,
   URI,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   MockPreferenceSchemaProvider,
   MockPreferenceSettingsService,
-} from '@opensumi/ide-core-browser/__mocks__/preference';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
+} from '@Nuvio-MCP/ide-core-browser/__mocks__/preference';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

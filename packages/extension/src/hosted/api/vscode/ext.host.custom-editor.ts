@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
 import { CustomDocumentOpenContext } from 'vscode';
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationToken,
   Emitter,
@@ -9,7 +9,7 @@ import {
   IExtensionInfo,
   Schemes,
   iconvEncode,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 
 import {
@@ -33,7 +33,7 @@ import { Uri } from '../../../common/vscode/ext-types';
 
 import { ExtHostWebviewService } from './ext.host.api.webview';
 
-import type { UriComponents } from '@opensumi/ide-editor';
+import type { UriComponents } from '@Nuvio-MCP/ide-editor';
 
 export class ExtHostCustomEditorImpl implements IExtHostCustomEditor {
   private proxy: IMainThreadCustomEditor;

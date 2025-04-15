@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
 import {
   AsyncEmitter,
   CancellationToken,
@@ -11,8 +11,8 @@ import {
   URI,
   Uri,
   getDebugLogger,
-} from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import {
   FILE_OPERATION_TIMEOUT,

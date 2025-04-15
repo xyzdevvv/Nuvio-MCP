@@ -9,7 +9,7 @@ import {
   parseRawGrammar,
 } from 'vscode-textmate';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   ExtensionActivateEvent,
   ILogger,
@@ -17,16 +17,16 @@ import {
   WithEventBus,
   getDebugLogger,
   parseWithComments,
-} from '@opensumi/ide-core-browser';
-import { EKnownResources, RendererRuntime } from '@opensumi/ide-core-browser/lib/application/runtime/types';
-import { Disposable, URI, isObject } from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EKnownResources, RendererRuntime } from '@Nuvio-MCP/ide-core-browser/lib/application/runtime/types';
+import { Disposable, URI, isObject } from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 import {
   GrammarsContribution,
   ITextmateTokenizerService,
   ScopeMap,
-} from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
-import { monaco } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
+import { monaco } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 import {
   EnterAction,
   FoldingRules,
@@ -35,7 +35,7 @@ import {
   IndentationRule,
   LanguageConfiguration,
   OnEnterRule,
-} from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 import {
   CommentRule,
   IIndentationRule,
@@ -44,15 +44,15 @@ import {
   IndentationRuleDto,
   LanguageConfigurationDto,
   LanguagesContribution,
-} from '@opensumi/ide-monaco/lib/common';
-import { IThemeData } from '@opensumi/ide-theme';
-import { ThemeChangedEvent } from '@opensumi/ide-theme/lib/common/event';
-import { asStringArray } from '@opensumi/ide-utils/lib/arrays';
+} from '@Nuvio-MCP/ide-monaco/lib/common';
+import { IThemeData } from '@Nuvio-MCP/ide-theme';
+import { ThemeChangedEvent } from '@Nuvio-MCP/ide-theme/lib/common/event';
+import { asStringArray } from '@Nuvio-MCP/ide-utils/lib/arrays';
 import {
   ILanguageExtensionPoint,
   ILanguageService,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { IEditorDocumentModelService } from '../../doc-model/types';
 

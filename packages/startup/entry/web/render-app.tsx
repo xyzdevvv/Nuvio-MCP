@@ -3,11 +3,11 @@
 // eslint-disable-next-line no-console
 console.time('Render');
 
-import '@opensumi/ide-core-browser/lib/style/index.less';
+import '@Nuvio-MCP/ide-core-browser/lib/style/index.less';
 import '../styles.less';
 
-import { LOCALE_TYPES } from '@opensumi/ide-core-common/lib/const';
-import { setLocale } from '@opensumi/ide-monaco/lib/browser/monaco-localize';
+import { LOCALE_TYPES } from '@Nuvio-MCP/ide-core-common/lib/const';
+import { setLocale } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-localize';
 
 const defaultLanguage = LOCALE_TYPES.EN_US;
 
@@ -15,19 +15,19 @@ const defaultLanguage = LOCALE_TYPES.EN_US;
 // 如果不传则默认会根据 PreferenceScope 的优先级从 LocalStorage 取值
 setLocale(defaultLanguage);
 
-import '@opensumi/ide-i18n';
+import '@Nuvio-MCP/ide-i18n';
 
-import { Injector } from '@opensumi/di';
-import { BrowserModule, IClientAppOpts, SlotLocation, registerLocalStorageProvider } from '@opensumi/ide-core-browser';
-import { ClientApp } from '@opensumi/ide-core-browser/lib/bootstrap/app';
-import { ConstructorOf, GeneralSettingsId, findFirstTruthy, uuid } from '@opensumi/ide-core-common';
-import { ExpressFileServerModule } from '@opensumi/ide-express-file-server/lib/browser';
-import { defaultConfig } from '@opensumi/ide-main-layout/lib/browser/default-config';
-import { RemoteOpenerModule } from '@opensumi/ide-remote-opener/lib/browser';
+import { Injector } from '@Nuvio-MCP/di';
+import { BrowserModule, IClientAppOpts, SlotLocation, registerLocalStorageProvider } from '@Nuvio-MCP/ide-core-browser';
+import { ClientApp } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/app';
+import { ConstructorOf, GeneralSettingsId, findFirstTruthy, uuid } from '@Nuvio-MCP/ide-core-common';
+import { ExpressFileServerModule } from '@Nuvio-MCP/ide-express-file-server/lib/browser';
+import { defaultConfig } from '@Nuvio-MCP/ide-main-layout/lib/browser/default-config';
+import { RemoteOpenerModule } from '@Nuvio-MCP/ide-remote-opener/lib/browser';
 
-import { AI_CHAT_LOGO_AVATAR_ID } from '@opensumi/ide-ai-native';
-import { AILayout } from '@opensumi/ide-ai-native/lib/browser/layout/ai-layout';
-import { DESIGN_MENU_BAR_RIGHT } from '@opensumi/ide-design';
+import { AI_CHAT_LOGO_AVATAR_ID } from '@Nuvio-MCP/ide-ai-native';
+import { AILayout } from '@Nuvio-MCP/ide-ai-native/lib/browser/layout/ai-layout';
+import { DESIGN_MENU_BAR_RIGHT } from '@Nuvio-MCP/ide-design';
 import { CommonBrowserModules } from '../../src/browser/common-modules';
 import { SampleModule } from '../sample-modules';
 
@@ -95,7 +95,7 @@ export const getDefaultClientAppOpts = ({
         modules: ['menubar', 'toolbar'],
       },
       [SlotLocation.action]: {
-        modules: ['@opensumi/ide-toolbar-action'],
+        modules: ['@Nuvio-MCP/ide-toolbar-action'],
       },
       [DESIGN_MENU_BAR_RIGHT]: {
         modules: [AI_CHAT_LOGO_AVATAR_ID],
@@ -107,19 +107,19 @@ export const getDefaultClientAppOpts = ({
     useBuiltinWebview: true,
     defaultPreferences: {
       'general.language': defaultLanguage,
-      'general.theme': 'opensumi-design-dark-theme',
+      'general.theme': 'Nuvio-MCP-design-dark-theme',
       'general.icon': 'vscode-icons',
-      'general.productIconTheme': 'opensumi-icons',
+      'general.productIconTheme': 'Nuvio-MCP-icons',
       'application.confirmExit': 'never',
       'editor.quickSuggestionsDelay': 100,
     },
     defaultPanels: {
-      bottom: '@opensumi/ide-terminal-next',
+      bottom: '@Nuvio-MCP/ide-terminal-next',
       right: '',
     },
     // 当 `.sumi` 下不存在配置文件时，默认采用 `.vscode` 下的配置
     useVSCodeWorkspaceConfiguration: true,
-    // 开启 core-browser 对 OpenSumi DevTools 的支持，默认为关闭
+    // 开启 core-browser 对 Nuvio-MCP DevTools 的支持，默认为关闭
     devtools: true,
     designLayout: {
       useMenubarView: true,

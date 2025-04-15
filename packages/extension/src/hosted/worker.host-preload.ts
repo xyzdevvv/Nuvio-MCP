@@ -1,6 +1,6 @@
-import { Injector } from '@opensumi/di';
-import { DefaultReporter, IReporter } from '@opensumi/ide-core-common';
-import { basename } from '@opensumi/ide-utils/lib/path';
+import { Injector } from '@Nuvio-MCP/di';
+import { DefaultReporter, IReporter } from '@Nuvio-MCP/ide-core-common';
+import { basename } from '@Nuvio-MCP/ide-utils/lib/path';
 
 import { setPerformance } from './api/vscode/language/util';
 import { ExtensionWorkerHost, initRPCProtocol } from './worker.host';

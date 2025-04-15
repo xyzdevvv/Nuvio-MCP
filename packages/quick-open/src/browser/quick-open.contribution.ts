@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   CommandContribution,
@@ -10,9 +10,9 @@ import {
   LAYOUT_COMMANDS,
   QUICK_OPEN_COMMANDS,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { PrefixQuickOpenService } from '@opensumi/ide-core-browser/lib/quick-open';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { PrefixQuickOpenService } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 
 import { QuickOpenContribution, QuickOpenHandlerRegistry } from './prefix-quick-open.service';
 import { QuickCommandHandler } from './quick-open.command.service';

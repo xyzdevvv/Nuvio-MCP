@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IExtensionStorageService } from '@opensumi/ide-extension-storage';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IExtensionStorageService } from '@Nuvio-MCP/ide-extension-storage';
 
 import { ExtHostAPIIdentifier, IExtHostStorage, IMainThreadStorage, KeysToAnyValues } from '../../../common/vscode';
 

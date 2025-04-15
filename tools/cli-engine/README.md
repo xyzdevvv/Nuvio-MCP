@@ -1,4 +1,4 @@
-# @opensumi/cli-engine
+# @Nuvio-MCP/cli-engine
 
 ## Development
 

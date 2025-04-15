@@ -1,7 +1,7 @@
 {
-  "name": "@opensumi/ide-core-node",
+  "name": "@Nuvio-MCP/ide-core-node",
   "version": "3.8.2",
-  "description": "@opensumi/ide-core-node",
+  "description": "@Nuvio-MCP/ide-core-node",
   "files": [
     "lib",
     "src"
@@ -15,15 +15,15 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-connection": "workspace:*",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-utils": "workspace:*",
+    "@Nuvio-MCP/ide-connection": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-utils": "workspace:*",
     "keytar": "^7.7.0"
   },
   "devDependencies": {
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, IDisposable } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EditorComponentRegistry } from '@opensumi/ide-editor/lib/browser';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EditorComponentRegistry } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
 
 import { AbstractSumiBrowserContributionRunner, IEditorSideViewContribution, IRunTimeParams } from '../types';
 

@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { CancellationToken, Disposable } from '@opensumi/ide-core-common';
-import { IReadableStream, isReadableStream, listenGroupReadable, listenReadable } from '@opensumi/ide-utils/lib/stream';
+import { Injectable } from '@Nuvio-MCP/di';
+import { CancellationToken, Disposable } from '@Nuvio-MCP/ide-core-common';
+import { IReadableStream, isReadableStream, listenGroupReadable, listenReadable } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { ITerminalCommandSuggestionDesc } from '../../../common/index';
 import {

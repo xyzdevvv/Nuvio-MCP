@@ -2,11 +2,11 @@
 // @ts-ignore
 import * as Y from 'yjs';
 
-import { INodeLogger } from '@opensumi/ide-core-node';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IFileService } from '@opensumi/ide-file-service';
-import { FileService } from '@opensumi/ide-file-service/src/node';
+import { INodeLogger } from '@Nuvio-MCP/ide-core-node';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IFileService } from '@Nuvio-MCP/ide-file-service';
+import { FileService } from '@Nuvio-MCP/ide-file-service/src/node';
 
 import { ICollaborationServiceForClient, IYWebsocketServer, ROOM_NAME } from '../../src';
 import { CollaborationServiceForClient } from '../../src/node/collaboration.service';

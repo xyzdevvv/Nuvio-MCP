@@ -1,8 +1,8 @@
-import { Injector, Optional } from '@opensumi/di';
-import { CancellationTokenSource, Disposable, IDisposable, Schemes } from '@opensumi/ide-core-common';
-import { ICodeEditor } from '@opensumi/ide-monaco';
-import { URI } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { IEditorContribution } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { Injector, Optional } from '@Nuvio-MCP/di';
+import { CancellationTokenSource, Disposable, IDisposable, Schemes } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
+import { URI } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { IEditorContribution } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 
 export abstract class BaseAIMonacoContribHandler extends Disposable {
   protected allowAnyScheme: boolean = false;

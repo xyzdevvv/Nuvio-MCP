@@ -1,10 +1,10 @@
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { Deferred, Emitter } from '@opensumi/ide-core-common';
-import { ExtHostCommon } from '@opensumi/ide-extension/lib/hosted/api/sumi/ext.host.common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { Deferred, Emitter } from '@Nuvio-MCP/ide-core-common';
+import { ExtHostCommon } from '@Nuvio-MCP/ide-extension/lib/hosted/api/sumi/ext.host.common';
 import {
   ExtHostToolbarActionService,
   createToolbarAPIFactory,
-} from '@opensumi/ide-extension/lib/hosted/api/sumi/ext.host.toolbar';
+} from '@Nuvio-MCP/ide-extension/lib/hosted/api/sumi/ext.host.toolbar';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { mockExtensions } from '../../../../__mocks__/extensions';

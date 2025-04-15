@@ -7,7 +7,7 @@ const tsConfigPath = path.join(__dirname, './tsconfig.json');
 const distDir = path.join(__dirname, '../lib/browser');
 
 module.exports = {
-  entry: require.resolve('@opensumi/ide-extension/lib/hosted/worker.host-preload.js'),
+  entry: require.resolve('@Nuvio-MCP/ide-extension/lib/hosted/worker.host-preload.js'),
   output: {
     // disable webpack default publicPath
     publicPath: '',

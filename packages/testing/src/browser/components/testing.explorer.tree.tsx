@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-import { BasicRecycleTree, IRecycleTreeHandle } from '@opensumi/ide-components/lib/recycle-tree';
-import { BasicCompositeTreeNode } from '@opensumi/ide-components/lib/recycle-tree/basic/tree-node.define';
-import { CommandService, Event, map, transformLabelWithCodicon, useInjectable } from '@opensumi/ide-core-browser';
-import { IIconService } from '@opensumi/ide-theme';
+import { BasicRecycleTree, IRecycleTreeHandle } from '@Nuvio-MCP/ide-components/lib/recycle-tree';
+import { BasicCompositeTreeNode } from '@Nuvio-MCP/ide-components/lib/recycle-tree/basic/tree-node.define';
+import { CommandService, Event, map, transformLabelWithCodicon, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
 
 import { ITestService, TestServiceToken } from '../../common';
 import { DebugTestCommand, GoToTestCommand, RuntTestCommand } from '../../common/commands';

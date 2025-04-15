@@ -10,7 +10,7 @@ import {
 } from '@rjsf/utils';
 import React, { useMemo } from 'react';
 
-import { Input } from '@opensumi/ide-components';
+import { Input } from '@Nuvio-MCP/ide-components';
 
 import { JSON_SCHEMA_TYPE } from '../../../common';
 import { parseSnippet } from '../../debugUtils';

@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { DisposableStore, IDisposable, IEventBus, URI } from '@opensumi/ide-core-browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
-import { ICSSStyleService } from '@opensumi/ide-theme/lib/common/style';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { DisposableStore, IDisposable, IEventBus, URI } from '@Nuvio-MCP/ide-core-browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
+import { ICSSStyleService } from '@Nuvio-MCP/ide-theme/lib/common/style';
 
 import { IContentDecorationRenderOptions, IDecorationRenderOptions, IThemeDecorationRenderOptions } from '../common';
 

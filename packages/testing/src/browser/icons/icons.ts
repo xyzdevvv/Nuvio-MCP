@@ -1,4 +1,4 @@
-import { getExternalIcon } from '@opensumi/ide-core-browser';
+import { getExternalIcon } from '@Nuvio-MCP/ide-core-browser';
 
 import { TestResultState } from '../../common/testCollection';
 

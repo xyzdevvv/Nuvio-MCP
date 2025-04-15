@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Deferred,
   ILogger,
@@ -9,8 +9,8 @@ import {
   Uri,
   isEmptyObject,
   path,
-} from '@opensumi/ide-core-common';
-import { FileStat, IFileServiceClient } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-common';
+import { FileStat, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import {
   DEFAULT_EXTENSION_STORAGE_DIR_NAME,

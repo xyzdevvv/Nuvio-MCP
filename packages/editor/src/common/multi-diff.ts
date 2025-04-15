@@ -1,11 +1,11 @@
-import { Event, IDisposable, URI } from '@opensumi/ide-core-common';
-import { ContextKeyValue } from '@opensumi/ide-monaco';
-import { Dimension } from '@opensumi/monaco-editor-core/esm/vs/base/browser/dom';
-import { IValueWithChangeEvent } from '@opensumi/monaco-editor-core/esm/vs/base/common/event';
+import { Event, IDisposable, URI } from '@Nuvio-MCP/ide-core-common';
+import { ContextKeyValue } from '@Nuvio-MCP/ide-monaco';
+import { Dimension } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/dom';
+import { IValueWithChangeEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/event';
 import {
   IDocumentDiffItem,
   IMultiDiffEditorModel,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/model';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/model';
 
 import { IResourceOpenOptions } from './editor';
 import { IResource } from './resource';

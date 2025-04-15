@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandService,
   Disposable,
@@ -9,17 +9,17 @@ import {
   fuzzyScore,
   localize,
   pMemoize,
-} from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
-import { ExtensionManagementService } from '@opensumi/ide-extension/lib/browser/extension-management.service';
-import { AbstractExtInstanceManagementService } from '@opensumi/ide-extension/lib/browser/types';
-import { observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { IIconService, IProductIconService, IThemeService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { ExtensionManagementService } from '@Nuvio-MCP/ide-extension/lib/browser/extension-management.service';
+import { AbstractExtInstanceManagementService } from '@Nuvio-MCP/ide-extension/lib/browser/types';
+import { observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { IIconService, IProductIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
 import {
   ICON_THEME_TOGGLE_COMMAND,
   PRODUCT_ICON_THEME_TOGGLE_COMMAND,
   THEME_TOGGLE_COMMAND,
-} from '@opensumi/ide-theme/lib/browser/theme.contribution';
+} from '@Nuvio-MCP/ide-theme/lib/browser/theme.contribution';
 
 import {
   IVSXExtensionBackService,

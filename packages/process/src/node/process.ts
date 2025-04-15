@@ -1,8 +1,8 @@
 import { ChildProcess, fork, spawn } from 'child_process';
 import stream from 'stream';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Emitter } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ForkOptions,

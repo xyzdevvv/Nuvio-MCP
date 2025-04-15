@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AllowedExtension,
   AuthenticationProviderInformation,
@@ -25,7 +25,7 @@ import {
   URI,
   formatLocalize,
   noAccountsId,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IMenuRegistry, MenuId } from '../menu/next';
 

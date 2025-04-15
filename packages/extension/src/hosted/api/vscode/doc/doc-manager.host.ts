@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   BinaryBuffer,
   CancellationTokenSource,
@@ -8,7 +8,7 @@ import {
   isDefined,
   isUTF8,
   normalizeFileUrl,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   ExtensionDocumentDataManager,

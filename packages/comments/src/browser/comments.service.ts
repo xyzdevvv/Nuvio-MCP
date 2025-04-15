@@ -1,7 +1,7 @@
 import flattenDeep from 'lodash/flattenDeep';
 import groupBy from 'lodash/groupBy';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   Deferred,
@@ -17,21 +17,21 @@ import {
   getIcon,
   localize,
   memoize,
-} from '@opensumi/ide-core-browser';
-import { IEditor } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IEditor } from '@Nuvio-MCP/ide-editor';
 import {
   IEditorDecorationCollectionService,
   IEditorDocumentModelService,
   ResourceService,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { positionToRange } from '@opensumi/ide-monaco';
-import * as monaco from '@opensumi/ide-monaco';
-import { monacoBrowser } from '@opensumi/ide-monaco/lib/browser';
-import { IIconService, IconType } from '@opensumi/ide-theme';
-import * as model from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import * as textModel from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { positionToRange } from '@Nuvio-MCP/ide-monaco';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monacoBrowser } from '@Nuvio-MCP/ide-monaco/lib/browser';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
+import * as model from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import * as textModel from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
 
 import {
   CommentPanelId,

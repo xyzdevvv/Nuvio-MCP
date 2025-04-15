@@ -1,11 +1,11 @@
 import uniqueId from 'lodash/uniqueId';
 
-import { IEventBus, URI } from '@opensumi/ide-core-browser';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { EmptyDocCacheImpl } from '@opensumi/ide-editor/lib/browser/doc-cache';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { EOL } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { isLinux, isMacintosh } from '@opensumi/monaco-editor-core/esm/vs/base/common/platform';
+import { IEventBus, URI } from '@Nuvio-MCP/ide-core-browser';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { EmptyDocCacheImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-cache';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { EOL } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { isLinux, isMacintosh } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/platform';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

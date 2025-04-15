@@ -1,4 +1,4 @@
-import { Disposable, Emitter, Event, MaybePromise } from '@opensumi/ide-utils';
+import { Disposable, Emitter, Event, MaybePromise } from '@Nuvio-MCP/ide-utils';
 
 export interface IRef<T> {
   instance: T;

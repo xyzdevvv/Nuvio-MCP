@@ -1,24 +1,24 @@
-import { equals } from '@opensumi/monaco-editor-core/esm/vs/base/common/arrays';
-import { LineRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/lineRange';
-import { OffsetRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/offsetRange';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+import { equals } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/arrays';
+import { LineRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/lineRange';
+import { OffsetRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/offsetRange';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 import {
   DateTimeout,
   DiffAlgorithmResult,
   InfiniteTimeout,
   SequenceDiff,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/diffAlgorithm';
-import { DefaultLinesDiffComputer } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/defaultLinesDiffComputer';
-import { LineSequence } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/lineSequence';
-import { Array2D } from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/utils';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/diffAlgorithm';
+import { DefaultLinesDiffComputer } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/defaultLinesDiffComputer';
+import { LineSequence } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/lineSequence';
+import { Array2D } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/defaultLinesDiffComputer/utils';
 import {
   ILinesDiffComputerOptions,
   LinesDiff,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/linesDiffComputer';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/linesDiffComputer';
 import {
   DetailedLineRangeMapping,
   RangeMapping,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/diff/rangeMapping';
 
 export interface IEnhanceLinesDiffComputerOptions extends ILinesDiffComputerOptions {
   onlyCareAboutPrefixOfOriginalLines: boolean;

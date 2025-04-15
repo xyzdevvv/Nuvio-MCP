@@ -1,4 +1,4 @@
-export { IExtensionProps } from '@opensumi/ide-core-common';
+export { IExtensionProps } from '@Nuvio-MCP/ide-core-common';
 
 export * from './ext.host.proxy';
 export * from './require-interceptor';

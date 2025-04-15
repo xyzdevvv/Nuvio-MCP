@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection';
-import { FileUri, path } from '@opensumi/ide-core-node';
-import { ILogService, ILogServiceManager, SupportLogNamespace } from '@opensumi/ide-logs/lib/node';
-import { IProcess, IProcessFactory, ProcessOptions } from '@opensumi/ide-process';
-import { rgPath } from '@opensumi/vscode-ripgrep';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection';
+import { FileUri, path } from '@Nuvio-MCP/ide-core-node';
+import { ILogService, ILogServiceManager, SupportLogNamespace } from '@Nuvio-MCP/ide-logs/lib/node';
+import { IProcess, IProcessFactory, ProcessOptions } from '@Nuvio-MCP/ide-process';
+import { rgPath } from '@Nuvio-MCP/vscode-ripgrep';
 
 import {
   ContentSearchOptions,

@@ -8,7 +8,7 @@ import {
   ThrottledDelayer,
   isUndefined,
   path,
-} from '@opensumi/ide-utils';
+} from '@Nuvio-MCP/ide-utils';
 
 import {
   IAccessibilityInformation,

@@ -1,4 +1,4 @@
-import { Injectable, Autowired } from '@opensumi/di';
+import { Injectable, Autowired } from '@Nuvio-MCP/di';
 import {
   Archive,
   BaseLogServiceOptions,
@@ -8,7 +8,7 @@ import {
   ILogServiceManager,
   LogLevel,
   SupportLogNamespace,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 @Injectable()
 export class MockLogger implements ILogServiceClient {

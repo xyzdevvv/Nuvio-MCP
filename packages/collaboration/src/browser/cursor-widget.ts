@@ -1,14 +1,14 @@
 // @ts-ignore
 import { Awareness } from 'y-protocols/awareness';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IDisposable } from '@opensumi/ide-core-common';
-import { ICodeEditor } from '@opensumi/ide-monaco';
-import { monacoBrowser } from '@opensumi/ide-monaco/lib/browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
+import { monacoBrowser } from '@Nuvio-MCP/ide-monaco/lib/browser';
 import {
   IContentWidget,
   IContentWidgetPosition,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
 
 import { ICursorWidgetRegistry, UserInfo, Y_REMOTE_SELECTION } from '../common';
 

@@ -1,10 +1,10 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { INodeRendererWrapProps, IRecycleTreeHandle, RecycleTree, TreeNodeEvent } from '@opensumi/ide-components';
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IDisposable } from '@opensumi/ide-core-common';
+import { INodeRendererWrapProps, IRecycleTreeHandle, RecycleTree, TreeNodeEvent } from '@Nuvio-MCP/ide-components';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import {
   DebugHoverVariableRoot,

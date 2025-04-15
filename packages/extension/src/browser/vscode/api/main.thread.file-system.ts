@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { BinaryBuffer, Disposable, Emitter, Event, IDisposable, URI, Uri, dispose } from '@opensumi/ide-core-browser';
-import { ensureDir } from '@opensumi/ide-core-common/lib/browser-fs/ensure-dir';
-import { FileChange, FileSystemProviderCapabilities, FileStat as IFileStat } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { BinaryBuffer, Disposable, Emitter, Event, IDisposable, URI, Uri, dispose } from '@Nuvio-MCP/ide-core-browser';
+import { ensureDir } from '@Nuvio-MCP/ide-core-common/lib/browser-fs/ensure-dir';
+import { FileChange, FileSystemProviderCapabilities, FileStat as IFileStat } from '@Nuvio-MCP/ide-file-service';
 import {
   FileOperationError,
   FileOperationResult,
@@ -10,7 +10,7 @@ import {
   FileType,
   IBrowserFileSystemRegistry,
   IFileServiceClient,
-} from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import { ExtHostAPIIdentifier } from '../../../common/vscode';
 import { fromFileStat, toFileStat } from '../../../common/vscode/converter';

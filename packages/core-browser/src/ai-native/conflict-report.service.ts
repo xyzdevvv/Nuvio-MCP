@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AIServiceType,
   Disposable,
   IAIReporter,
   MergeConflictEditorMode,
   MergeConflictRT,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { AINativeConfigService } from './ai-config.service';
 

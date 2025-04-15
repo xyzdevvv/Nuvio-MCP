@@ -1,4 +1,4 @@
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 import {
   IDisposable,
   IProgressOptions,
@@ -7,7 +7,7 @@ import {
   IProgressCompositeOptions,
   IProgress,
   IProgressStep,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IProgressIndicator, IProgressService } from '../src/progress';
 

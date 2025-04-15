@@ -1,9 +1,9 @@
 import { z } from 'zod';
 
-import { Autowired } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { Deferred, Domain } from '@opensumi/ide-core-common';
-import { ITerminalController, ITerminalGroupViewService } from '@opensumi/ide-terminal-next/lib/common/controller';
+import { Autowired } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, Domain } from '@Nuvio-MCP/ide-core-common';
+import { ITerminalController, ITerminalGroupViewService } from '@Nuvio-MCP/ide-terminal-next/lib/common/controller';
 
 import { IMCPServerRegistry, MCPLogger, MCPServerContribution, MCPToolDefinition } from '../../types';
 

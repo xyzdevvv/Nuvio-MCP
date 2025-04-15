@@ -1,7 +1,7 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { AIBackSerivcePath, AIBackSerivceToken } from '@opensumi/ide-core-common';
-import { NodeModule } from '@opensumi/ide-core-node';
-import { BaseAIBackService } from '@opensumi/ide-core-node/lib/ai-native/base-back.service';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { AIBackSerivcePath, AIBackSerivceToken } from '@Nuvio-MCP/ide-core-common';
+import { NodeModule } from '@Nuvio-MCP/ide-core-node';
+import { BaseAIBackService } from '@Nuvio-MCP/ide-core-node/lib/ai-native/base-back.service';
 
 import { SumiMCPServerProxyServicePath, TokenMCPServerProxyService } from '../common';
 import { ToolInvocationRegistryManager, ToolInvocationRegistryManagerImpl } from '../common/tool-invocation-registry';

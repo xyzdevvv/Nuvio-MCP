@@ -1,4 +1,4 @@
-import { URI } from '@opensumi/ide-core-common';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 import { FileChange, FileChangeType } from '../../src';
 import { FileSystemWatcher } from '../../src/browser/watcher';

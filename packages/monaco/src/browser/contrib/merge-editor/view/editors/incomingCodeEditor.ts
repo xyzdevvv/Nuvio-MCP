@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { IModelDecorationOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { IStandaloneEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IModelDecorationOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { IStandaloneEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
 
 import { DetailedLineRangeMapping } from '../../../../../common/diff';
 import { DocumentMapping } from '../../model/document-mapping';

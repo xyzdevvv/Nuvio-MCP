@@ -1,29 +1,29 @@
-import { Injector } from '@opensumi/di';
-import { CommentReactionClick, ICommentsFeatureRegistry, ICommentsService } from '@opensumi/ide-comments';
-import { CommentsFeatureRegistry } from '@opensumi/ide-comments/lib/browser/comments-feature.registry';
-import { CommentsService } from '@opensumi/ide-comments/lib/browser/comments.service';
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { Deferred, Disposable, IEventBus, URI, Uri, sleep } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import { MainThreadComments } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.comments';
+import { Injector } from '@Nuvio-MCP/di';
+import { CommentReactionClick, ICommentsFeatureRegistry, ICommentsService } from '@Nuvio-MCP/ide-comments';
+import { CommentsFeatureRegistry } from '@Nuvio-MCP/ide-comments/lib/browser/comments-feature.registry';
+import { CommentsService } from '@Nuvio-MCP/ide-comments/lib/browser/comments.service';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, Disposable, IEventBus, URI, Uri, sleep } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import { MainThreadComments } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.comments';
 import {
   ExtHostAPIIdentifier,
   IMainThreadComments,
   MainThreadAPIIdentifier,
-} from '@opensumi/ide-extension/lib/common/vscode';
-import * as types from '@opensumi/ide-extension/lib/common/vscode/ext-types';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import * as types from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
 import {
   ExtHostCommentThread,
   ExtHostComments,
   createCommentsApiFactory,
-} from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.comments';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { LayoutService } from '@opensumi/ide-main-layout/lib/browser/layout.service';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.comments';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { LayoutService } from '@Nuvio-MCP/ide-main-layout/lib/browser/layout.service';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { createMockPairRPCProtocol } from '../../../../__mocks__/initRPCProtocol';
 

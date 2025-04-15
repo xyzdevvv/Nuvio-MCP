@@ -1,4 +1,4 @@
-import { Deferred, DisposableStore } from '@opensumi/ide-core-common';
+import { Deferred, DisposableStore } from '@Nuvio-MCP/ide-core-common';
 
 import { ILogger, IRPCServiceMap } from '../../types';
 

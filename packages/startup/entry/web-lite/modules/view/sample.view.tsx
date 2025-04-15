@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 import React from 'react';
 
-import { Icon } from '@opensumi/ide-components/lib/icon';
-import { createFromIconfontCN } from '@opensumi/ide-components/lib/icon/iconfont-cn';
+import { Icon } from '@Nuvio-MCP/ide-components/lib/icon';
+import { createFromIconfontCN } from '@Nuvio-MCP/ide-components/lib/icon/iconfont-cn';
 
 type IconFontMap = 'icon-javascript' | 'icon-java' | 'icon-shoppingcart' | 'icon-python';
 

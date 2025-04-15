@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { DisposableCollection, PreferenceService, SuggestEvent } from '@opensumi/ide-core-browser';
-import { IEventBus } from '@opensumi/ide-core-common';
-import { SuggestController } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggestController';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { DisposableCollection, PreferenceService, SuggestEvent } from '@Nuvio-MCP/ide-core-browser';
+import { IEventBus } from '@Nuvio-MCP/ide-core-common';
+import { SuggestController } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggestController';
 
 import { IEditor } from '../../common';
 import { IEditorFeatureContribution } from '../types';

@@ -1,6 +1,6 @@
-import { CompositeTreeNode, ITree, TreeNode } from '@opensumi/ide-components';
-import { URI, formatLocalize } from '@opensumi/ide-core-browser';
-import { IEditorGroup, IResource } from '@opensumi/ide-editor';
+import { CompositeTreeNode, ITree, TreeNode } from '@Nuvio-MCP/ide-components';
+import { URI, formatLocalize } from '@Nuvio-MCP/ide-core-browser';
+import { IEditorGroup, IResource } from '@Nuvio-MCP/ide-editor';
 
 import { OpenedEditorService } from './services/opened-editor-tree.service';
 

@@ -1,6 +1,6 @@
 import { DragEvent, MouseEvent } from 'react';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   CompositeTreeNode,
   Decoration,
@@ -11,7 +11,7 @@ import {
   TreeNode,
   TreeNodeEvent,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   Deferred,
@@ -21,13 +21,13 @@ import {
   LabelService,
   PreferenceService,
   ThrottledDelayer,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   AbstractMenuService,
   ICtxMenuRenderer,
   MenuId,
   generateCtxMenu,
-} from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 import {
   CancellationToken,
   CancellationTokenSource,
@@ -40,7 +40,7 @@ import {
   isNumber,
   isUndefinedOrNull,
   uuid,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   ITreeViewRevealOptions,

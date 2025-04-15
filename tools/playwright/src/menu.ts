@@ -1,7 +1,7 @@
-import { OpenSumiMenuItem } from './menu-item';
-import { OpenSumiViewBase } from './view-base';
+import { Nuvio-MCPMenuItem } from './menu-item';
+import { Nuvio-MCPViewBase } from './view-base';
 
-export class OpenSumiMenu extends OpenSumiViewBase {
+export class Nuvio-MCPMenu extends Nuvio-MCPViewBase {
   selector = '.rc-trigger-popup .kt-inner-menu';
 
   protected async menuElementHandle() {
@@ -31,7 +31,7 @@ export class OpenSumiMenu extends OpenSumiViewBase {
       return [];
     }
     const items = await menuHandle.$$('.kt-inner-menu-item');
-    return items.map((element) => new OpenSumiMenuItem(element));
+    return items.map((element) => new Nuvio-MCPMenuItem(element));
   }
 
   async clickMenuItem(name: string) {

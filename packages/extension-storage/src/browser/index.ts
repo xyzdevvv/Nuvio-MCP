@@ -1,5 +1,5 @@
-import { Autowired, Provider } from '@opensumi/di';
-import { BrowserModule, ClientAppContribution, Domain } from '@opensumi/ide-core-browser';
+import { Autowired, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, ClientAppContribution, Domain } from '@Nuvio-MCP/ide-core-browser';
 
 import { IExtensionStoragePathServer, IExtensionStorageServer, IExtensionStorageService } from '../common';
 

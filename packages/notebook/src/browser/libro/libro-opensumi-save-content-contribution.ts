@@ -6,15 +6,15 @@ import {
 } from '@difizen/libro-jupyter/noeditor';
 import { ModalService, URI, getOrigin, inject, singleton } from '@difizen/mana-app';
 
-import { Injector } from '@opensumi/di';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Injector } from '@Nuvio-MCP/di';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
-import { ContentLoaderType, OpensumiInjector } from '../mana';
+import { ContentLoaderType, Nuvio-MCPInjector } from '../mana';
 
 @singleton({ contrib: ContentSaveContribution })
-export class LibroOpensumiContentSaveContribution implements ContentSaveContribution {
+export class LibroNuvio-MCPContentSaveContribution implements ContentSaveContribution {
   @inject(ModalService) protected readonly modalService: ModalService;
-  @inject(OpensumiInjector) injector: Injector;
+  @inject(Nuvio-MCPInjector) injector: Injector;
 
   canHandle = (options: NotebookOption) => options.loadType === ContentLoaderType ? 100 : 1;
   saveContent = async (options: NotebookOption, model: LibroJupyterModel) => {

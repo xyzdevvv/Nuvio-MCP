@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { isMacintosh } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { isMacintosh } from '@Nuvio-MCP/ide-core-common';
 
 @Injectable()
 export class TerminalKeyBoardInputService {

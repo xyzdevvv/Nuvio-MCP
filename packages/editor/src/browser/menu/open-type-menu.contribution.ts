@@ -1,5 +1,5 @@
-import { Autowired } from '@opensumi/di';
-import { getIcon } from '@opensumi/ide-core-browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { getIcon } from '@Nuvio-MCP/ide-core-browser';
 import {
   IMenuItem,
   IMenuRegistry,
@@ -7,9 +7,9 @@ import {
   MenuCommandDesc,
   MenuContribution,
   MenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { Command, CommandContribution, CommandRegistry, Disposable, localize } from '@opensumi/ide-core-common';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Command, CommandContribution, CommandRegistry, Disposable, localize } from '@Nuvio-MCP/ide-core-common';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
 
 import { WorkbenchEditorService } from '../types';
 

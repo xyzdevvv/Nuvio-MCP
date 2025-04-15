@@ -1,8 +1,8 @@
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
-import { IContextKeyService, IStatusBarService } from '@opensumi/ide-core-browser';
-import { MockContextKeyService } from '@opensumi/ide-core-browser/__mocks__/context-key';
-import { uuid } from '@opensumi/ide-core-common';
-import { StatusBarService } from '@opensumi/ide-status-bar/lib/browser/status-bar.service';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
+import { IContextKeyService, IStatusBarService } from '@Nuvio-MCP/ide-core-browser';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-core-browser/__mocks__/context-key';
+import { uuid } from '@Nuvio-MCP/ide-core-common';
+import { StatusBarService } from '@Nuvio-MCP/ide-status-bar/lib/browser/status-bar.service';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';

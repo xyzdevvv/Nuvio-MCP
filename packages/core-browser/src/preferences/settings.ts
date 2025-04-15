@@ -1,4 +1,4 @@
-import { IDisposable, PreferenceScopeWithLabel } from '@opensumi/ide-core-common';
+import { IDisposable, PreferenceScopeWithLabel } from '@Nuvio-MCP/ide-core-common';
 
 import { PreferenceScope } from './preference-scope';
 

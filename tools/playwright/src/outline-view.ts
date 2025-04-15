@@ -1,9 +1,9 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiContextMenu } from './context-menu';
-import { OpenSumiView } from './view';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPContextMenu } from './context-menu';
+import { Nuvio-MCPView } from './view';
 
-export class OpenSumiOutlineView extends OpenSumiView {
-  constructor(app: OpenSumiApp) {
+export class Nuvio-MCPOutlineView extends Nuvio-MCPView {
+  constructor(app: Nuvio-MCPApp) {
     super(app, {
       viewSelector: '[data-view-id="outline-view"]',
       tabSelector: '[data-view-id="outline-view"] [tabindex="0"]',
@@ -32,6 +32,6 @@ export class OpenSumiOutlineView extends OpenSumiView {
     if (!header) {
       return;
     }
-    return OpenSumiContextMenu.open(this.app, async () => header);
+    return Nuvio-MCPContextMenu.open(this.app, async () => header);
   }
 }

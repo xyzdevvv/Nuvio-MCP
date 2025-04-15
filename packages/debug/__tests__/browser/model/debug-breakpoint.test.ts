@@ -1,18 +1,18 @@
 import { join } from 'path';
 
-import { URI, uuid } from '@opensumi/ide-core-browser';
-import { IDebugBreakpoint } from '@opensumi/ide-debug';
+import { URI, uuid } from '@Nuvio-MCP/ide-core-browser';
+import { IDebugBreakpoint } from '@Nuvio-MCP/ide-debug';
 import {
   BreakpointManager,
   DebugBreakpoint,
   DebugDecorator,
   isDebugBreakpoint,
   isRuntimeBreakpoint,
-} from '@opensumi/ide-debug/lib/browser/breakpoint';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { DiskFileServicePath } from '@opensumi/ide-file-service';
-import { MockFsProvider } from '@opensumi/ide-file-service/__mocks__/file-system-provider';
-import { FileServiceClientModule } from '@opensumi/ide-file-service/lib/browser';
+} from '@Nuvio-MCP/ide-debug/lib/browser/breakpoint';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { DiskFileServicePath } from '@Nuvio-MCP/ide-file-service';
+import { MockFsProvider } from '@Nuvio-MCP/ide-file-service/__mocks__/file-system-provider';
+import { FileServiceClientModule } from '@Nuvio-MCP/ide-file-service/lib/browser';
 
 describe('Debug Breakpoints', () => {
   const mockInjector = createBrowserInjector([FileServiceClientModule]);

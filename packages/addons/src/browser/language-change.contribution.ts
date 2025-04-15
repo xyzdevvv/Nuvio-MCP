@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Domain,
@@ -7,8 +7,8 @@ import {
   PreferenceService,
   localize,
   setLanguageId,
-} from '@opensumi/ide-core-browser';
-import { IDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
 
 @Domain(ClientAppContribution)
 export class LanguageChangeHintContribution implements ClientAppContribution {

@@ -1,4 +1,4 @@
-import { Event } from '@opensumi/ide-core-common';
+import { Event } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtensionHostManager } from '../../src';
 import { ExtHostProxy } from '../../src/hosted/ext.host.proxy-base';

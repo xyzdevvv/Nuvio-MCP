@@ -1,6 +1,6 @@
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 
-import { ILogger } from '@opensumi/ide-core-common';
+import { ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import { SSEMCPServer } from '../../src/node/mcp-server.sse';
 

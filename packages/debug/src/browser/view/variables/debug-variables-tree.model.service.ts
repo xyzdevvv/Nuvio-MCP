@@ -1,6 +1,6 @@
 import isEqual from 'lodash/isEqual';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   Decoration,
   DecorationsManager,
@@ -8,7 +8,7 @@ import {
   TreeModel,
   TreeNodeEvent,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   Deferred,
   DisposableCollection,
@@ -16,9 +16,9 @@ import {
   Event,
   IClipboardService,
   ThrottledDelayer,
-} from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+} from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { DebugSession } from '../../debug-session';
 import {

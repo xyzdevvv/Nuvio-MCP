@@ -1,13 +1,13 @@
-import { CancellationToken, DisposableCollection, Emitter, Event, Uri } from '@opensumi/ide-core-common';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { FileDecorationsService } from '@opensumi/ide-decoration/lib/browser/decorationsService';
-import { MainThreadDecorations } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.decoration';
+import { CancellationToken, DisposableCollection, Emitter, Event, Uri } from '@Nuvio-MCP/ide-core-common';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { FileDecorationsService } from '@Nuvio-MCP/ide-decoration/lib/browser/decorationsService';
+import { MainThreadDecorations } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.decoration';
 import {
   ExtHostAPIIdentifier,
   IMainThreadEnv,
   MainThreadAPIIdentifier,
-} from '@opensumi/ide-extension/lib/common/vscode';
-import { createWindowApiFactory } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.window.api.impl';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { createWindowApiFactory } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.window.api.impl';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { mockExtensions } from '../../__mocks__/extensions';

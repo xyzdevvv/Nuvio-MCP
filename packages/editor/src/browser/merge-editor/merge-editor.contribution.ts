@@ -1,5 +1,5 @@
-import { Autowired } from '@opensumi/di';
-import { Disposable, Domain, Schemes } from '@opensumi/ide-core-browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Disposable, Domain, Schemes } from '@Nuvio-MCP/ide-core-browser';
 
 import { ResourceService } from '../../common';
 import { BrowserEditorContribution, EditorComponentRegistry, EditorOpenType } from '../types';

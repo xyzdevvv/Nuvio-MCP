@@ -12,8 +12,8 @@ import {
   URI,
   decodeBase64,
   encodeBase64,
-} from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import {
   DebugBreakpointWidgetContext,

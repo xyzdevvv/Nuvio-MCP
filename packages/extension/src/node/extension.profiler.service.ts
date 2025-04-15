@@ -2,8 +2,8 @@
 import { writeFile } from 'fs-extra';
 import { Profile, ProfilingSession } from 'v8-inspect-profiler';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { INodeLogger } from '@opensumi/ide-core-node/lib/logger/node-logger';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { INodeLogger } from '@Nuvio-MCP/ide-core-node/lib/logger/node-logger';
 
 import { IExtensionHostProfilerService, IExtensionNodeService } from '../common';
 

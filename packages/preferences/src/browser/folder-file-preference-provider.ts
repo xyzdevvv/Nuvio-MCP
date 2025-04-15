@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceScope, URI } from '@opensumi/ide-core-browser';
-import { FileStat } from '@opensumi/ide-file-service';
-import { IWorkspaceService } from '@opensumi/ide-workspace/lib/common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceScope, URI } from '@Nuvio-MCP/ide-core-browser';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common';
 
 import { AbstractResourcePreferenceProvider } from './abstract-resource-preference-provider';
 

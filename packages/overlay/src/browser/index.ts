@@ -1,6 +1,6 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
-import { IBrowserCtxMenu } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
+import { IBrowserCtxMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
 
 import { IDialogService, IMessageService } from '../common';
 

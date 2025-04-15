@@ -3,8 +3,8 @@ import domAlign from 'dom-align';
 import React from 'react';
 import { Root, createRoot } from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { localize } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { localize } from '@Nuvio-MCP/ide-core-browser';
 import {
   AIServiceType,
   ActionSourceEnum,
@@ -12,9 +12,9 @@ import {
   Disposable,
   IAIReporter,
   TerminalRegistryToken,
-} from '@opensumi/ide-core-common';
-import { ITerminalConnection, ITerminalController } from '@opensumi/ide-terminal-next';
-import { listenReadable } from '@opensumi/ide-utils/lib/stream';
+} from '@Nuvio-MCP/ide-core-common';
+import { ITerminalConnection, ITerminalController } from '@Nuvio-MCP/ide-terminal-next';
+import { listenReadable } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { ITerminalCommandSuggestionDesc } from '../../../common';
 

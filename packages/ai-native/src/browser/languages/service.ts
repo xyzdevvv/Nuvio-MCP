@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 
 import { LanguageParser } from './parser';
 import { SupportedTreeSitterLanguages, parserNameMap } from './tree-sitter/language-facts';

@@ -1,13 +1,13 @@
-import { Event, Uri } from '@opensumi/ide-utils';
-import { IReadableStream } from '@opensumi/ide-utils/lib/stream';
+import { Event, Uri } from '@Nuvio-MCP/ide-utils';
+import { IReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { FileChangeEvent } from './file-watch';
 
 export * from './file-watch';
 
 /**
- * @deprecated please import it from '@opensumi/ide-file-service/lib/common'
- * `import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';`
+ * @deprecated please import it from '@Nuvio-MCP/ide-file-service/lib/common'
+ * `import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';`
  */
 export const IFileServiceClient = Symbol('IFileServiceClient');
 
@@ -71,7 +71,7 @@ export interface FileStat {
 
 export interface IFileStatOptions {
   /**
-   * Whether to throw an error if the file in following error(in older version, OpenSumi will eat these errors silently):
+   * Whether to throw an error if the file in following error(in older version, Nuvio-MCP will eat these errors silently):
    * - doesn't exist
    * - no access
    * - busy

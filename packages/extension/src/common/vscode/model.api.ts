@@ -10,17 +10,17 @@ import {
   Uri as URI,
   UriComponents,
   isString,
-} from '@opensumi/ide-core-common';
-import { ISingleEditOperation } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { ISingleEditOperation } from '@Nuvio-MCP/ide-editor';
 
 import { IndentAction, SymbolKind } from './ext-types';
 
-import type { editor, languages } from '@opensumi/ide-monaco';
+import type { editor, languages } from '@Nuvio-MCP/ide-monaco';
 // eslint-disable-next-line import/no-restricted-paths
-import type { CallHierarchyItem } from '@opensumi/ide-monaco/lib/browser/contrib/callHierarchy';
+import type { CallHierarchyItem } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/callHierarchy';
 // eslint-disable-next-line import/no-restricted-paths
-import type { TypeHierarchyItem } from '@opensumi/ide-monaco/lib/browser/contrib/typeHierarchy';
-import type { CompletionItemLabel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+import type { TypeHierarchyItem } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/typeHierarchy';
+import type { CompletionItemLabel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 // 内置的api类型声明
 import type vscode from 'vscode';
 export { CallHierarchyItem, IMarkdownString, SymbolTag, TypeHierarchyItem };

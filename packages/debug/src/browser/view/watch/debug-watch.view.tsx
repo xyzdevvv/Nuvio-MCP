@@ -11,7 +11,7 @@ import {
   RecycleTree,
   TreeModel,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   Disposable,
   DisposableCollection,
@@ -19,7 +19,7 @@ import {
   getIcon,
   useDesignStyles,
   useInjectable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import {
   DebugVariable,

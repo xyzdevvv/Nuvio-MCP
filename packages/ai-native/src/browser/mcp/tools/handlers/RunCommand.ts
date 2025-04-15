@@ -1,9 +1,9 @@
 import z from 'zod';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AINativeSettingSectionsId, AppConfig, PreferenceService } from '@opensumi/ide-core-browser';
-import { ITerminalController, ITerminalGroupViewService } from '@opensumi/ide-terminal-next';
-import { Deferred } from '@opensumi/ide-utils/lib/promises';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AINativeSettingSectionsId, AppConfig, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { ITerminalController, ITerminalGroupViewService } from '@Nuvio-MCP/ide-terminal-next';
+import { Deferred } from '@Nuvio-MCP/ide-utils/lib/promises';
 
 import { ETerminalAutoExecutionPolicy } from '../../../preferences/schema';
 import { MCPLogger } from '../../../types';

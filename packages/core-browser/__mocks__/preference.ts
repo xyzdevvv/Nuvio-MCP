@@ -1,4 +1,4 @@
-import { Injectable, Injector, Optional } from '@opensumi/di';
+import { Injectable, Injector, Optional } from '@Nuvio-MCP/di';
 
 import { PreferenceScope, ISettingGroup, ISettingSection } from '../src';
 import { PreferenceProvider } from '../src/preferences';

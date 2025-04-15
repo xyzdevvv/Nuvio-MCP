@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { CommandService, EDITOR_COMMANDS } from '@opensumi/ide-core-browser';
-import { Mode, PrefixQuickOpenService, QuickOpenItem, QuickOpenModel } from '@opensumi/ide-core-browser/lib/quick-open';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CommandService, EDITOR_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { Mode, PrefixQuickOpenService, QuickOpenItem, QuickOpenModel } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 
 import { QuickOpenHandler, QuickOpenHandlerRegistry } from './prefix-quick-open.service';
 

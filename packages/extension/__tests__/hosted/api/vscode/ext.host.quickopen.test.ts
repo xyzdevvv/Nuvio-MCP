@@ -1,9 +1,9 @@
-import { Disposable } from '@opensumi/ide-core-common';
-import { IQuickInputService, QuickOpenService, QuickPickService } from '@opensumi/ide-quick-open';
-import { QuickInputService } from '@opensumi/ide-quick-open/lib/browser/quick-input-service';
-import { QuickTitleBar } from '@opensumi/ide-quick-open/lib/browser/quick-title-bar';
-import { IconService } from '@opensumi/ide-theme/lib/browser/icon.service';
-import { IIconService, IThemeService } from '@opensumi/ide-theme/lib/common/theme.service';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { IQuickInputService, QuickOpenService, QuickPickService } from '@Nuvio-MCP/ide-quick-open';
+import { QuickInputService } from '@Nuvio-MCP/ide-quick-open/lib/browser/quick-input-service';
+import { QuickTitleBar } from '@Nuvio-MCP/ide-quick-open/lib/browser/quick-title-bar';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser/icon.service';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';

@@ -1,19 +1,19 @@
-import { Injectable, Injector, Provider } from '@opensumi/di';
-import { BrowserModule, URI } from '@opensumi/ide-core-browser';
-import { ISplitPanelService } from '@opensumi/ide-core-browser/lib/components/layout/split-panel.service';
-import { IDesignStyleService } from '@opensumi/ide-core-browser/lib/design';
-import { IBrowserCtxMenu } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
+import { Injectable, Injector, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, URI } from '@Nuvio-MCP/ide-core-browser';
+import { ISplitPanelService } from '@Nuvio-MCP/ide-core-browser/lib/components/layout/split-panel.service';
+import { IDesignStyleService } from '@Nuvio-MCP/ide-core-browser/lib/design';
+import { IBrowserCtxMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
 import {
   AppLifeCycleServiceToken,
   Event,
   IAppLifeCycleService,
   LifeCyclePhase,
   Schemes,
-} from '@opensumi/ide-core-common';
-import { IEditorTabService } from '@opensumi/ide-editor/lib/browser';
-import { IThemeContribution, IThemeService, IThemeStore } from '@opensumi/ide-theme';
-import { ThemeStore } from '@opensumi/ide-theme/lib/browser/theme-store';
-import { WorkbenchThemeService } from '@opensumi/ide-theme/lib/browser/workbench.theme.service';
+} from '@Nuvio-MCP/ide-core-common';
+import { IEditorTabService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IThemeContribution, IThemeService, IThemeStore } from '@Nuvio-MCP/ide-theme';
+import { ThemeStore } from '@Nuvio-MCP/ide-theme/lib/browser/theme-store';
+import { WorkbenchThemeService } from '@Nuvio-MCP/ide-theme/lib/browser/workbench.theme.service';
 
 import { DesignCoreContribution } from './design.contribution';
 import { DesignMenuBarContribution } from './menu-bar/menu-bar.contribution';

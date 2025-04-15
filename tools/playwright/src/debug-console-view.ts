@@ -1,9 +1,9 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiContextMenu } from './context-menu';
-import { OpenSumiPanel } from './panel';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPContextMenu } from './context-menu';
+import { Nuvio-MCPPanel } from './panel';
 
-export class OpenSumiDebugConsoleView extends OpenSumiPanel {
-  constructor(app: OpenSumiApp) {
+export class Nuvio-MCPDebugConsoleView extends Nuvio-MCPPanel {
+  constructor(app: Nuvio-MCPApp) {
     super(app, 'DEBUG-CONSOLE');
   }
 
@@ -16,6 +16,6 @@ export class OpenSumiDebugConsoleView extends OpenSumiPanel {
     if (!view) {
       return;
     }
-    return OpenSumiContextMenu.open(this.app, async () => view);
+    return Nuvio-MCPContextMenu.open(this.app, async () => view);
   }
 }

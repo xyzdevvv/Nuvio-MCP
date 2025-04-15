@@ -1,5 +1,5 @@
-import { Injectable, Injector } from '@opensumi/di';
-import { NodeModule } from '@opensumi/ide-core-node';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
+import { NodeModule } from '@Nuvio-MCP/ide-core-node';
 
 import {
   DiskFileServicePath,

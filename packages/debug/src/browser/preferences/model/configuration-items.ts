@@ -1,4 +1,4 @@
-import { uuid } from '@opensumi/ide-core-common';
+import { uuid } from '@Nuvio-MCP/ide-core-common';
 
 import { DebugConfiguration } from '../../../common';
 

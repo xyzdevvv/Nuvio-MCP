@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { VALIDATE_TYPE } from '@opensumi/ide-core-browser/lib/components';
-import { HideReason } from '@opensumi/ide-core-browser/lib/quick-open';
+import { Injectable } from '@Nuvio-MCP/di';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { HideReason } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 
 import { QuickOpenModel, QuickOpenOptions, QuickOpenService } from '../';
 

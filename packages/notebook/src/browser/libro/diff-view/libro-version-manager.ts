@@ -1,13 +1,13 @@
 import { LibroService } from '@difizen/libro-core';
 import { ViewManager, getOrigin, inject, singleton } from '@difizen/mana-app';
 
-import { Injector } from '@opensumi/di';
-import { Event, MonacoService } from '@opensumi/ide-core-browser';
-import { uuid } from '@opensumi/ide-utils';
-import { IModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/model';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+import { Injector } from '@Nuvio-MCP/di';
+import { Event, MonacoService } from '@Nuvio-MCP/ide-core-browser';
+import { uuid } from '@Nuvio-MCP/ide-utils';
+import { IModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/model';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
-import { OpensumiInjector } from '../../mana';
+import { Nuvio-MCPInjector } from '../../mana';
 
 import { DiffType } from './libro-diff-protocol';
 import { LibroDiffView } from './libro-diff-view';
@@ -19,15 +19,15 @@ import type { NotebookOption } from '@difizen/libro-core';
 export class LibroVersionManager {
   protected readonly libroService: LibroService;
   protected readonly viewManager: ViewManager;
-  protected readonly opensumiInjector: Injector;
+  protected readonly Nuvio-MCPInjector: Injector;
   constructor(
     @inject(LibroService) libroService: LibroService,
     @inject(ViewManager) viewManager: ViewManager,
-    @inject(OpensumiInjector) opensumiInjector: Injector,
+    @inject(Nuvio-MCPInjector) Nuvio-MCPInjector: Injector,
   ) {
     this.libroService = libroService;
     this.viewManager = viewManager;
-    this.opensumiInjector = opensumiInjector;
+    this.Nuvio-MCPInjector = Nuvio-MCPInjector;
   }
 
   async getOrCreateView(options: NotebookOption): Promise<AIStudioLibroVersionView> {
@@ -63,7 +63,7 @@ export class LibroVersionManager {
   }
 
   createPreviewEditor(content: string, language: string, dom: HTMLElement, diffType: DiffType) {
-    const monacoService: MonacoService = this.opensumiInjector.get(MonacoService);
+    const monacoService: MonacoService = this.Nuvio-MCPInjector.get(MonacoService);
     const editor = getOrigin(monacoService).createCodeEditor(dom, {
       language,
       minimap: {
@@ -94,7 +94,7 @@ export class LibroVersionManager {
   }
 
   createDiffEditor(original: string, modified: string, language: string, dom: HTMLElement) {
-    const monacoService: MonacoService = this.opensumiInjector.get(MonacoService);
+    const monacoService: MonacoService = this.Nuvio-MCPInjector.get(MonacoService);
     const editor = getOrigin(monacoService).createDiffEditor(dom, {
       minimap: {
         enabled: false,

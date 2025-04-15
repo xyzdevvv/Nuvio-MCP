@@ -4,7 +4,7 @@ import {
   RPCProtocolMethod as _RPCProtocolMethod,
   Request as _Request,
   Response as _Response,
-} from '@opensumi/ide-core-common/lib/types/rpc';
+} from '@Nuvio-MCP/ide-core-common/lib/types/rpc';
 
 import type Fury from '@furyjs/fury';
 import type { Serializer, TypeDescription } from '@furyjs/fury';

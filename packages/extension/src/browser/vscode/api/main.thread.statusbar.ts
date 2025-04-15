@@ -1,9 +1,9 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CommandService, Disposable, IAccessibilityInformation } from '@opensumi/ide-core-browser';
-import { IStatusBarService, StatusBarAlignment, StatusBarEntry } from '@opensumi/ide-core-browser/lib/services';
-import { IMarkdownString, IThemeColor } from '@opensumi/ide-core-common';
-import { getCodiconAriaLabel } from '@opensumi/monaco-editor-core/esm/vs/base/common/iconLabels';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CommandService, Disposable, IAccessibilityInformation } from '@Nuvio-MCP/ide-core-browser';
+import { IStatusBarService, StatusBarAlignment, StatusBarEntry } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IMarkdownString, IThemeColor } from '@Nuvio-MCP/ide-core-common';
+import { getCodiconAriaLabel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/iconLabels';
 
 import { ExtHostAPIIdentifier, IExtHostStatusBar, IMainThreadStatusBar } from '../../../common/vscode';
 import * as types from '../../../common/vscode/ext-types';

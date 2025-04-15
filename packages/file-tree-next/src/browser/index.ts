@@ -1,7 +1,7 @@
-import { Provider } from '@opensumi/di';
-import { BrowserModule, Domain, ModuleDependencies } from '@opensumi/ide-core-browser';
-import { IWindowDialogService } from '@opensumi/ide-overlay';
-import { WorkspaceModule } from '@opensumi/ide-workspace/lib/browser';
+import { Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, Domain, ModuleDependencies } from '@Nuvio-MCP/ide-core-browser';
+import { IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
+import { WorkspaceModule } from '@Nuvio-MCP/ide-workspace/lib/browser';
 
 import { IFileTreeAPI, IFileTreeService } from '../common';
 

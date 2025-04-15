@@ -1,20 +1,20 @@
 import { GlobalContainer, Syringe } from '@difizen/mana-app';
 
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 
-export const OpensumiInjector = Syringe.defineToken('OpensumiInjector');
+export const Nuvio-MCPInjector = Syringe.defineToken('Nuvio-MCPInjector');
 export const ManaContainer = Symbol('ManaContainer');
 
-export const initLibroOpensumi = (injector: Injector, container?: Syringe.Container) => {
+export const initLibroNuvio-MCP = (injector: Injector, container?: Syringe.Container) => {
   const initInjector = injector;
   const initContainer = container || GlobalContainer;
   initInjector.addProviders({
     token: ManaContainer,
     useValue: initContainer,
   });
-  initContainer?.register({ token: OpensumiInjector, useValue: initInjector });
+  initContainer?.register({ token: Nuvio-MCPInjector, useValue: initInjector });
 };
 
 export const manaContainer = GlobalContainer.createChild();
 
-export const ContentLoaderType = 'libro-opensumi-loader';
+export const ContentLoaderType = 'libro-Nuvio-MCP-loader';

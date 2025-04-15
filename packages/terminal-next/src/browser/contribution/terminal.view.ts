@@ -6,8 +6,8 @@ import {
   TabBarToolbarContribution,
   ToolbarRegistry,
   localize,
-} from '@opensumi/ide-core-browser';
-import { TERMINAL_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
+} from '@Nuvio-MCP/ide-core-browser';
+import { TERMINAL_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
 
 import TerminalTabs from '../component/tab.view';
 import TerminalView from '../component/terminal.view';
@@ -45,7 +45,7 @@ export class TerminalRenderContribution implements ComponentContribution, TabBar
 
   registerComponent(registry: ComponentRegistry) {
     registry.register(
-      '@opensumi/ide-terminal-next',
+      '@Nuvio-MCP/ide-terminal-next',
       {
         component: TerminalView,
         id: TerminalRenderContribution.viewId,

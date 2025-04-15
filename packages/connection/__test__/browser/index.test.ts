@@ -1,7 +1,7 @@
-import { furySerializer } from '@opensumi/ide-connection';
-import { ReconnectingWebSocketConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/reconnecting-websocket';
-import { sleep } from '@opensumi/ide-core-common';
-import { Server, WebSocket } from '@opensumi/mock-socket';
+import { furySerializer } from '@Nuvio-MCP/ide-connection';
+import { ReconnectingWebSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/reconnecting-websocket';
+import { sleep } from '@Nuvio-MCP/ide-core-common';
+import { Server, WebSocket } from '@Nuvio-MCP/mock-socket';
 
 import { WSChannelHandler } from '../../src/browser/ws-channel-handler';
 (global as any).WebSocket = WebSocket;

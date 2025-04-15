@@ -1,8 +1,8 @@
-import { isUndefined } from '@opensumi/ide-core-common';
-import { ICodeEditor, IModelDeltaDecoration, IPosition, Position, Range } from '@opensumi/ide-monaco';
-import { empty } from '@opensumi/ide-utils/lib/strings';
-import { EditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
-import { LineDecoration } from '@opensumi/monaco-editor-core/esm/vs/editor/common/viewLayout/lineDecorations';
+import { isUndefined } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor, IModelDeltaDecoration, IPosition, Position, Range } from '@Nuvio-MCP/ide-monaco';
+import { empty } from '@Nuvio-MCP/ide-utils/lib/strings';
+import { EditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+import { LineDecoration } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/viewLayout/lineDecorations';
 
 import { EnhanceDecorationsCollection } from '../../../model/enhanceDecorationsCollection';
 import { IMultiLineDiffChangeResult } from '../diff-computer';

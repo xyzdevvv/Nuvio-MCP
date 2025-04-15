@@ -1,15 +1,15 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   Domain,
   SlotLocation,
   SlotRendererContribution,
   SlotRendererRegistry,
-} from '@opensumi/ide-core-browser';
-import { ConfigPriority, LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { Schemes } from '@opensumi/ide-core-common';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ConfigPriority, LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { Schemes } from '@Nuvio-MCP/ide-core-common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
 
 import { DesignBottomTabRenderer, DesignLeftTabRenderer, DesignRightTabRenderer } from './layout/tabbar.view';
 import { DesignThemeFileSystemProvider } from './theme/file-system.provider';

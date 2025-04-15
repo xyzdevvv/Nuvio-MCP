@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable } from '@opensumi/ide-core-browser';
-import { IPlainWebviewWindow, IWebviewService } from '@opensumi/ide-webview';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable } from '@Nuvio-MCP/ide-core-browser';
+import { IPlainWebviewWindow, IWebviewService } from '@Nuvio-MCP/ide-webview';
 
 import { ExtHostSumiAPIIdentifier } from '../../common/sumi';
 import {

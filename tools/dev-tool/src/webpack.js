@@ -418,7 +418,7 @@ exports.createNodeWebpackConfig = (entry, distDir) => ({
           'spdlog',
           'vm2',
           'canvas',
-          '@opensumi/vscode-ripgrep',
+          '@Nuvio-MCP/vscode-ripgrep',
           'vertx',
           'keytar',
           'tsconfig-paths',

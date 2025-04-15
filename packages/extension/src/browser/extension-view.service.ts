@@ -1,8 +1,8 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { warning } from '@opensumi/ide-components/lib/utils/warning';
-import { IRPCProtocol, ProxyIdentifier } from '@opensumi/ide-connection';
-import { AppConfig, IToolbarPopoverRegistry, URI, path } from '@opensumi/ide-core-browser';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { warning } from '@Nuvio-MCP/ide-components/lib/utils/warning';
+import { IRPCProtocol, ProxyIdentifier } from '@Nuvio-MCP/ide-connection';
+import { AppConfig, IToolbarPopoverRegistry, URI, path } from '@Nuvio-MCP/ide-core-browser';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
 import {
   ContributionProvider,
   Disposable,
@@ -12,8 +12,8 @@ import {
   REPORT_NAME,
   getDebugLogger,
   replaceLocalizePlaceholder,
-} from '@opensumi/ide-core-common';
-import { ISCMRepository, SCMService } from '@opensumi/ide-scm';
+} from '@Nuvio-MCP/ide-core-common';
+import { ISCMRepository, SCMService } from '@Nuvio-MCP/ide-scm';
 
 import {
   EXTENSION_EXTEND_SERVICE_PREFIX,

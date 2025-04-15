@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { URI } from '@opensumi/ide-core-common';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
-export const TEST_DATA_SCHEME = 'opensumi-test-data';
+export const TEST_DATA_SCHEME = 'Nuvio-MCP-test-data';
 
 export const enum TestUriType {
   ResultMessage,

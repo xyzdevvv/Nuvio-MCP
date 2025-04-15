@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event } from '@opensumi/ide-core-common';
-import { MarkerHover } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/hover/browser/markerHoverParticipant';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { MarkerHover } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/hover/browser/markerHoverParticipant';
 
 @Injectable()
 export class ProblemFixService {

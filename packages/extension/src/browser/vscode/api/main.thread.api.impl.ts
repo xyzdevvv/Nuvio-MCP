@@ -1,5 +1,5 @@
-import { Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 
 import {
   IMainThreadTasks,

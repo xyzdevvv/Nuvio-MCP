@@ -1,6 +1,6 @@
-import { CompositeTreeNode, ICompositeTreeNode, ITree, TreeNode } from '@opensumi/ide-components';
-import { URI } from '@opensumi/ide-core-browser';
-import { FileStat } from '@opensumi/ide-file-service';
+import { CompositeTreeNode, ICompositeTreeNode, ITree, TreeNode } from '@Nuvio-MCP/ide-components';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
 
 export class Directory extends CompositeTreeNode {
   public static is(node: any): node is Directory {

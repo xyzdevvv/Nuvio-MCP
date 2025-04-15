@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-logs",
+  "name": "@Nuvio-MCP/ide-logs",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-connection": "workspace:*",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-core-node": "workspace:*",
+    "@Nuvio-MCP/ide-connection": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-node": "workspace:*",
     "compressing": "^1.10.0",
     "spdlog": "^0.9.0"
   },
   "devDependencies": {
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

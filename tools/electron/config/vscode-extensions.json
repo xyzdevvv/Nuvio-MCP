@@ -155,9 +155,9 @@
         "version": "11.11.0"
       }
     ],
-    "opensumi": [
+    "Nuvio-MCP": [
       {
-        "name": "opensumi-default-themes",
+        "name": "Nuvio-MCP-default-themes",
         "version": "2.5.8"
       }
     ]

@@ -1,5 +1,5 @@
-import { Uri } from '@opensumi/ide-core-common';
-import { IDiffComputationResult } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
+import { IDiffComputationResult } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
 
 import { MockedMonacoUri } from './common/uri';
 import { createMockedMonacoEditorApi } from './editor';

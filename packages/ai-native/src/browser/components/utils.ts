@@ -1,7 +1,7 @@
 import { ITextMessageProps } from 'react-chat-elements';
 
-import { CODICON_OWNER, getExternalIcon } from '@opensumi/ide-core-browser';
-import { ChatMessageRole } from '@opensumi/ide-core-common/lib/types/ai-native';
+import { CODICON_OWNER, getExternalIcon } from '@Nuvio-MCP/ide-core-browser';
+import { ChatMessageRole } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native';
 
 import { IChatReplyFollowup, ISampleQuestions } from '../../common/index';
 

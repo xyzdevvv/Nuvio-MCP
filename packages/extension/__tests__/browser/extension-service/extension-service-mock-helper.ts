@@ -2,12 +2,12 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 
-import { Injectable, Provider } from '@opensumi/di';
-import { ICommentsService } from '@opensumi/ide-comments';
-import { CommentsService } from '@opensumi/ide-comments/lib/browser/comments.service';
-import { WSChannel } from '@opensumi/ide-connection';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
-import { SimpleConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/simple';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { ICommentsService } from '@Nuvio-MCP/ide-comments';
+import { CommentsService } from '@Nuvio-MCP/ide-comments/lib/browser/comments.service';
+import { WSChannel } from '@Nuvio-MCP/ide-connection';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
+import { SimpleConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/simple';
 import {
   AppConfig,
   AppLifeCycleServiceToken,
@@ -34,13 +34,13 @@ import {
   URI,
   Uri,
   createContributionProvider,
-} from '@opensumi/ide-core-browser';
-import { MockPreferenceProvider } from '@opensumi/ide-core-browser/__mocks__/preference';
-import { AppLifeCycleService } from '@opensumi/ide-core-browser/lib/bootstrap/lifecycle.service';
-import { IMenuRegistry, MenuRegistryImpl } from '@opensumi/ide-core-browser/lib/menu/next';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MockPreferenceProvider } from '@Nuvio-MCP/ide-core-browser/__mocks__/preference';
+import { AppLifeCycleService } from '@Nuvio-MCP/ide-core-browser/lib/bootstrap/lifecycle.service';
+import { IMenuRegistry, MenuRegistryImpl } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 import {
   IEditor,
   IEditorDocumentModel,
@@ -50,48 +50,48 @@ import {
   IResource,
   IUntitledOptions,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-editor';
 import {
   EditorComponentRegistry,
   IEditorActionRegistry,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
   ResourceService,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorComponentRegistryImpl } from '@opensumi/ide-editor/lib/browser/component';
-import { EditorActionRegistryImpl } from '@opensumi/ide-editor/lib/browser/menu/editor.menu';
-import { NotebookService } from '@opensumi/ide-editor/lib/browser/notebook.service';
-import { ResourceServiceImpl } from '@opensumi/ide-editor/lib/browser/resource.service';
-import { ActivationEventServiceImpl } from '@opensumi/ide-extension/lib/browser/activation.service';
-import { BrowserRequireInterceptorContribution } from '@opensumi/ide-extension/lib/browser/require-interceptor.contribution';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorComponentRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/component';
+import { EditorActionRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/menu/editor.menu';
+import { NotebookService } from '@Nuvio-MCP/ide-editor/lib/browser/notebook.service';
+import { ResourceServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/resource.service';
+import { ActivationEventServiceImpl } from '@Nuvio-MCP/ide-extension/lib/browser/activation.service';
+import { BrowserRequireInterceptorContribution } from '@Nuvio-MCP/ide-extension/lib/browser/require-interceptor.contribution';
 import {
   AbstractExtInstanceManagementService,
   IActivationEventService,
-} from '@opensumi/ide-extension/lib/browser/types';
-import { WalkthroughsService } from '@opensumi/ide-extension/lib/browser/walkthroughs.service';
-import { IExtensionStoragePathServer, IExtensionStorageService } from '@opensumi/ide-extension-storage';
-import { FileSearchServicePath } from '@opensumi/ide-file-search/lib/common/file-search';
-import { MockFileServiceClient } from '@opensumi/ide-file-service/__mocks__/file-service-client';
-import { IMainLayoutService, MainLayoutContribution } from '@opensumi/ide-main-layout';
-import { LayoutService } from '@opensumi/ide-main-layout/lib/browser/layout.service';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import { MonacoSnippetSuggestProvider } from '@opensumi/ide-monaco/lib/browser/monaco-snippet-suggest-provider';
-import { SchemaRegistry, SchemaStore } from '@opensumi/ide-monaco/lib/browser/schema-registry';
-import { PreferenceSettingsService } from '@opensumi/ide-preferences/lib/browser/preference-settings.service';
-import { IGlobalStorageServer, IWorkspaceStorageServer } from '@opensumi/ide-storage';
-import { DatabaseStorageContribution } from '@opensumi/ide-storage/lib/browser/storage.contribution';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
-import { SemanticTokenRegistryImpl } from '@opensumi/ide-theme/lib/browser/semantic-tokens-registry';
-import { ThemeData } from '@opensumi/ide-theme/lib/browser/theme-data';
-import { ThemeStore } from '@opensumi/ide-theme/lib/browser/theme-store';
-import { WorkbenchThemeService } from '@opensumi/ide-theme/lib/browser/workbench.theme.service';
-import { IIconService, IThemeData, IThemeService, IThemeStore } from '@opensumi/ide-theme/lib/common';
-import { ISemanticTokenRegistry } from '@opensumi/ide-theme/lib/common/semantic-tokens-registry';
-import { IWebviewService } from '@opensumi/ide-webview';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
-import { IWorkspaceFileService } from '@opensumi/ide-workspace-edit';
-import { WorkspaceFileService } from '@opensumi/ide-workspace-edit/lib/browser/workspace-file.service';
+} from '@Nuvio-MCP/ide-extension/lib/browser/types';
+import { WalkthroughsService } from '@Nuvio-MCP/ide-extension/lib/browser/walkthroughs.service';
+import { IExtensionStoragePathServer, IExtensionStorageService } from '@Nuvio-MCP/ide-extension-storage';
+import { FileSearchServicePath } from '@Nuvio-MCP/ide-file-search/lib/common/file-search';
+import { MockFileServiceClient } from '@Nuvio-MCP/ide-file-service/__mocks__/file-service-client';
+import { IMainLayoutService, MainLayoutContribution } from '@Nuvio-MCP/ide-main-layout';
+import { LayoutService } from '@Nuvio-MCP/ide-main-layout/lib/browser/layout.service';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import { MonacoSnippetSuggestProvider } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-snippet-suggest-provider';
+import { SchemaRegistry, SchemaStore } from '@Nuvio-MCP/ide-monaco/lib/browser/schema-registry';
+import { PreferenceSettingsService } from '@Nuvio-MCP/ide-preferences/lib/browser/preference-settings.service';
+import { IGlobalStorageServer, IWorkspaceStorageServer } from '@Nuvio-MCP/ide-storage';
+import { DatabaseStorageContribution } from '@Nuvio-MCP/ide-storage/lib/browser/storage.contribution';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
+import { SemanticTokenRegistryImpl } from '@Nuvio-MCP/ide-theme/lib/browser/semantic-tokens-registry';
+import { ThemeData } from '@Nuvio-MCP/ide-theme/lib/browser/theme-data';
+import { ThemeStore } from '@Nuvio-MCP/ide-theme/lib/browser/theme-store';
+import { WorkbenchThemeService } from '@Nuvio-MCP/ide-theme/lib/browser/workbench.theme.service';
+import { IIconService, IThemeData, IThemeService, IThemeStore } from '@Nuvio-MCP/ide-theme/lib/common';
+import { ISemanticTokenRegistry } from '@Nuvio-MCP/ide-theme/lib/common/semantic-tokens-registry';
+import { IWebviewService } from '@Nuvio-MCP/ide-webview';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
+import { IWorkspaceFileService } from '@Nuvio-MCP/ide-workspace-edit';
+import { WorkspaceFileService } from '@Nuvio-MCP/ide-workspace-edit/lib/browser/workspace-file.service';
 
 import { MockExtNodeClientService } from '../../../__mocks__/extension.service.client';
 import { MessagePort, MockWorker } from '../../../__mocks__/worker';

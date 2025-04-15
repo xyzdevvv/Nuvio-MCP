@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { observableValue, transaction } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+import { observableValue, transaction } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
 
 import type { Keybinding } from '../keybinding';
-import type { VALIDATE_TYPE } from '@opensumi/ide-components';
-import type { Event, IDisposable, MaybePromise, URI } from '@opensumi/ide-core-common';
+import type { VALIDATE_TYPE } from '@Nuvio-MCP/ide-components';
+import type { Event, IDisposable, MaybePromise, URI } from '@Nuvio-MCP/ide-core-common';
 
 export enum Mode {
   /**

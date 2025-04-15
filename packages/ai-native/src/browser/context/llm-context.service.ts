@@ -1,20 +1,20 @@
 import { DataContent } from 'ai';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-browser/lib/react-providers/config-provider';
-import { WithEventBus } from '@opensumi/ide-core-common/lib/event-bus/event-decorator';
-import { MarkerSeverity } from '@opensumi/ide-core-common/lib/types/markers/markers';
-import { Emitter, URI } from '@opensumi/ide-core-common/lib/utils';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser/lib/react-providers/config-provider';
+import { WithEventBus } from '@Nuvio-MCP/ide-core-common/lib/event-bus/event-decorator';
+import { MarkerSeverity } from '@Nuvio-MCP/ide-core-common/lib/types/markers/markers';
+import { Emitter, URI } from '@Nuvio-MCP/ide-core-common/lib/utils';
 import {
   EditorDocumentModelCreationEvent,
   EditorDocumentModelRemovalEvent,
   EditorDocumentModelSavedEvent,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser/doc-model/types';
-import { EditorSelectionChangeEvent } from '@opensumi/ide-editor/lib/browser/types';
-import { FileType, IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMarkerService } from '@opensumi/ide-markers/lib/common/types';
-import { Range } from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
+import { EditorSelectionChangeEvent } from '@Nuvio-MCP/ide-editor/lib/browser/types';
+import { FileType, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMarkerService } from '@Nuvio-MCP/ide-markers/lib/common/types';
+import { Range } from '@Nuvio-MCP/ide-monaco';
 
 import { AttachFileContext, FileContext, LLMContextService, SerializedContext } from '../../common/llm-context';
 

@@ -1,10 +1,10 @@
-import { ScrollbarVisibility } from '@opensumi/monaco-editor-core/esm/vs/base/common/scrollable';
+import { ScrollbarVisibility } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/scrollable';
 import {
   ContentWidgetPositionPreference,
   ICodeEditor,
   MouseTargetType,
   OverlayWidgetPositionPreference,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
 import {
   ConfigurationChangedEvent,
   EditorAutoIndentStrategy,
@@ -17,10 +17,10 @@ import {
   TextEditorCursorBlinkingStyle,
   TextEditorCursorStyle,
   WrappingIndent,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
-import { BareFontInfo, FontInfo } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/fontInfo';
-import { CursorChangeReason } from '@opensumi/monaco-editor-core/esm/vs/editor/common/cursorEvents';
-import { EditorType, ScrollType } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { BareFontInfo, FontInfo } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/fontInfo';
+import { CursorChangeReason } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/cursorEvents';
+import { EditorType, ScrollType } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 import {
   DefaultEndOfLine,
   EndOfLinePreference,
@@ -31,7 +31,7 @@ import {
   OverviewRulerLane,
   TextModelResolvedOptions,
   TrackedRangeStickiness,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 import {
   colorize,
   colorizeElement,
@@ -54,15 +54,15 @@ import {
   setModelMarkers,
   setTheme,
   tokenize,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneEditor';
-import { AccessibilitySupport } from '@opensumi/monaco-editor-core/esm/vs/platform/accessibility/common/accessibility';
-import { IMarkerData } from '@opensumi/monaco-editor-core/esm/vs/platform/markers/common/markers';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneEditor';
+import { AccessibilitySupport } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/accessibility/common/accessibility';
+import { IMarkerData } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/markers/common/markers';
 
 import type {
   IDecorationOptions,
   IModelDecorationOptions,
   IModelDeltaDecoration,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 export function createMonacoEditorApi() {
   return Object.freeze({

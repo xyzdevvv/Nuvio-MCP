@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable, Emitter, path } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable, Emitter, path } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtHostPlainWebview, IPlainWebviewHandle } from '../../../common/sumi/webview';
 import { IExtensionDescription, IMainThreadWebview, MainThreadAPIIdentifier } from '../../../common/vscode';

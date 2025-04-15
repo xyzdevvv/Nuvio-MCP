@@ -1,12 +1,12 @@
 import cls from 'classnames';
 import React, { FC } from 'react';
 
-import { ComponentRegistryInfo } from '@opensumi/ide-core-browser';
+import { ComponentRegistryInfo } from '@Nuvio-MCP/ide-core-browser';
 import {
   BottomTabRenderer,
   LeftTabRenderer,
   RightTabRenderer,
-} from '@opensumi/ide-main-layout/lib/browser/tabbar/renderer.view';
+} from '@Nuvio-MCP/ide-main-layout/lib/browser/tabbar/renderer.view';
 
 export const DesignLeftTabRenderer = ({
   className,

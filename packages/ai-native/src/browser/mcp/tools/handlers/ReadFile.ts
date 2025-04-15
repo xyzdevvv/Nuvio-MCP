@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { FileSearchQuickCommandHandler } from '@opensumi/ide-addons/lib/browser/file-search.contribution';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { CancellationToken, URI } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelRef, IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { FileSearchQuickCommandHandler } from '@Nuvio-MCP/ide-addons/lib/browser/file-search.contribution';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { CancellationToken, URI } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelRef, IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 @Injectable()
 export class FileHandler {

@@ -1,8 +1,8 @@
 import debounce from 'lodash/debounce';
 import React from 'react';
 
-import { useDesignStyles, useDisposable, useInjectable } from '@opensumi/ide-core-browser';
-import { AutoFocusedInput } from '@opensumi/ide-main-layout/lib/browser/input';
+import { useDesignStyles, useDisposable, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { AutoFocusedInput } from '@Nuvio-MCP/ide-main-layout/lib/browser/input';
 
 import { IMarkerService, MARKER_CONTAINER_ID } from '../common';
 

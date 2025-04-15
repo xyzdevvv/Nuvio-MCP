@@ -1,10 +1,10 @@
 import { Range } from 'vscode-languageserver-types';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IEditorDocumentEditChange, IEditorDocumentModelSaveResult } from '@opensumi/ide-core-browser';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { IContentChange, IFileSchemeDocClient, ISavingContent } from '@opensumi/ide-file-scheme';
-import { IFileServiceClient, TextDocumentContentChangeEvent } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IEditorDocumentEditChange, IEditorDocumentModelSaveResult } from '@Nuvio-MCP/ide-core-browser';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { IContentChange, IFileSchemeDocClient, ISavingContent } from '@Nuvio-MCP/ide-file-scheme';
+import { IFileServiceClient, TextDocumentContentChangeEvent } from '@Nuvio-MCP/ide-file-service';
 
 /**
  * todo: 重写文档保存逻辑

@@ -1,12 +1,12 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   Decoration,
   DecorationsManager,
   IRecycleTreeHandle,
   TreeNodeEvent,
   WatchEvent,
-} from '@opensumi/ide-components';
-import { Deferred, DisposableCollection, Emitter, Event, pSeries, path } from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-components';
+import { Deferred, DisposableCollection, Emitter, Event, pSeries, path } from '@Nuvio-MCP/ide-core-browser';
 
 import { DebugVariable, ExpressionContainer, ExpressionNode } from '../tree/debug-tree-node.define';
 import styles from '../view/variables/debug-variables.module.less';

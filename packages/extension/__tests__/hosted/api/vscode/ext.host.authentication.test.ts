@@ -1,21 +1,21 @@
-import { Injector } from '@opensumi/di';
-import { MockedStorageProvider } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { IMenuItem, IMenuRegistry, MenuId } from '@opensumi/ide-core-browser/src/menu/next';
-import { CommandRegistry, Emitter, IAuthenticationService, StorageProvider } from '@opensumi/ide-core-common';
-import { ActivationEventServiceImpl } from '@opensumi/ide-extension/lib/browser/activation.service';
-import { IActivationEventService } from '@opensumi/ide-extension/lib/browser/types';
-import { MainThreadAuthentication } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.authentication';
+import { Injector } from '@Nuvio-MCP/di';
+import { MockedStorageProvider } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { IMenuItem, IMenuRegistry, MenuId } from '@Nuvio-MCP/ide-core-browser/src/menu/next';
+import { CommandRegistry, Emitter, IAuthenticationService, StorageProvider } from '@Nuvio-MCP/ide-core-common';
+import { ActivationEventServiceImpl } from '@Nuvio-MCP/ide-extension/lib/browser/activation.service';
+import { IActivationEventService } from '@Nuvio-MCP/ide-extension/lib/browser/types';
+import { MainThreadAuthentication } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.authentication';
 import {
   ExtHostAPIIdentifier,
   IMainThreadAuthentication,
   MainThreadAPIIdentifier,
-} from '@opensumi/ide-extension/lib/common/vscode';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode';
 import {
   ExtHostAuthentication,
   createAuthenticationApiFactory,
-} from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.authentication';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { QuickPickService } from '@opensumi/ide-quick-open';
+} from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.authentication';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { QuickPickService } from '@Nuvio-MCP/ide-quick-open';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
@@ -82,7 +82,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.authentication.test.ts'
         const session = {
           id: id++ + '',
           accessToken: 'this_is_github_token',
-          account: { label: 'OpenSumi', id: 'opensumi' },
+          account: { label: 'Nuvio-MCP', id: 'Nuvio-MCP' },
           scopes: scopeList,
         };
         const sessionIndex = sessions.findIndex((s) => s.id === session.id);
@@ -150,7 +150,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.authentication.test.ts'
     expect(session).toStrictEqual({
       id: '1',
       accessToken: 'this_is_github_token',
-      account: { label: 'OpenSumi', id: 'opensumi' },
+      account: { label: 'Nuvio-MCP', id: 'Nuvio-MCP' },
       scopes: ['getRepo'],
     });
   });
@@ -159,7 +159,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.authentication.test.ts'
     const session = {
       id: 'test',
       accessToken: 'this_is_gitlab_token',
-      account: { label: 'OpenSumi', id: 'opensumi' },
+      account: { label: 'Nuvio-MCP', id: 'Nuvio-MCP' },
       scopes: ['getRepo'],
     };
     // mock
@@ -185,7 +185,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.authentication.test.ts'
     const session = {
       id: 'test',
       accessToken: 'this_is_gitlab_token',
-      account: { label: 'OpenSumi', id: 'opensumi' },
+      account: { label: 'Nuvio-MCP', id: 'Nuvio-MCP' },
       scopes: ['getRepo'],
     };
     // mock
@@ -203,7 +203,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.authentication.test.ts'
     const session = {
       id: 'test',
       accessToken: 'this_is_gitlab_token',
-      account: { label: 'OpenSumi', id: 'opensumi' },
+      account: { label: 'Nuvio-MCP', id: 'Nuvio-MCP' },
       scopes: ['getRepo'],
     };
     // mock
@@ -228,7 +228,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.authentication.test.ts'
     const session = {
       id: 'test',
       accessToken: 'this_is_gitlab_token',
-      account: { label: 'OpenSumi', id: 'opensumi' },
+      account: { label: 'Nuvio-MCP', id: 'Nuvio-MCP' },
       scopes: ['getRepo'],
     };
     jest.spyOn(authenticationProvider, 'getSessions').mockReturnValue(Promise.resolve([session]));
@@ -305,7 +305,7 @@ describe('extension/__tests__/hosted/api/vscode/ext.host.authentication.test.ts'
         const session = {
           id: 'test',
           accessToken: 'this_is_gitlab_token',
-          account: { label: 'OpenSumi', id: 'opensumi' },
+          account: { label: 'Nuvio-MCP', id: 'Nuvio-MCP' },
           scopes: scopeList,
         };
         return session;

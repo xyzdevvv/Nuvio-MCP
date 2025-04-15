@@ -1,7 +1,7 @@
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { ExtensionStorageService } from '@opensumi/ide-extension-storage/lib/browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { ExtensionStorageService } from '@Nuvio-MCP/ide-extension-storage/lib/browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

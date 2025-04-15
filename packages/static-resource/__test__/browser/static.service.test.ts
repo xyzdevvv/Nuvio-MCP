@@ -1,5 +1,5 @@
-import { URI } from '@opensumi/ide-core-browser';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
 
 import { StaticResourceService } from '../../src/browser/index';
 

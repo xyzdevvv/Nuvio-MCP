@@ -2,16 +2,16 @@ import debounce from 'lodash/debounce';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ConfigProvider,
   Disposable,
   DisposableCollection,
   IReporterService,
-} from '@opensumi/ide-core-browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { monacoBrowser } from '@opensumi/ide-monaco/lib/browser';
+} from '@Nuvio-MCP/ide-core-browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monacoBrowser } from '@Nuvio-MCP/ide-monaco/lib/browser';
 
 import {
   DEBUG_REPORT_NAME,
@@ -27,7 +27,7 @@ import { DebugExpressionProvider } from './debug-expression-provider';
 import { DebugHoverSource } from './debug-hover-source';
 import { DebugHoverView } from './debug-hover.view';
 
-import type { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import type { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 @Injectable()
 export class DebugHoverWidget implements IDebugHoverWidget {

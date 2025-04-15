@@ -6,7 +6,7 @@ import InfoCircleOutlined from '@ant-design/icons/InfoCircleOutlined';
 import Notification from 'rc-notification';
 import React from 'react';
 
-import { isUndefined } from '@opensumi/ide-utils';
+import { isUndefined } from '@Nuvio-MCP/ide-utils';
 
 export type NotificationPlacement = 'topLeft' | 'topRight' | 'bottomLeft' | 'bottomRight';
 

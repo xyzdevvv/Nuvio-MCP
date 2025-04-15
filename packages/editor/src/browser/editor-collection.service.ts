@@ -1,7 +1,7 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { AppConfig, IContextKeyService, IRange, PreferenceService } from '@opensumi/ide-core-browser';
-import { ResourceContextKey } from '@opensumi/ide-core-browser/lib/contextkey';
-import { MonacoService } from '@opensumi/ide-core-browser/lib/monaco';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { AppConfig, IContextKeyService, IRange, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { ResourceContextKey } from '@Nuvio-MCP/ide-core-browser/lib/contextkey';
+import { MonacoService } from '@Nuvio-MCP/ide-core-browser/lib/monaco';
 import {
   Disposable,
   Emitter,
@@ -14,9 +14,9 @@ import {
   WithEventBus,
   isEmptyObject,
   objects,
-} from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { IConfigurationService } from '@opensumi/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
+} from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IConfigurationService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
 
 import {
   CursorStatus,
@@ -44,8 +44,8 @@ import { IConvertedMonacoOptions, IEditorFeatureRegistry } from './types';
 import type {
   ICodeEditor as IMonacoCodeEditor,
   IDiffEditor as IMonacoDiffEditor,
-} from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import type { IDiffEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import type { IDiffEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
 
 const { removeUndefined } = objects;
 

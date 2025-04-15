@@ -1,6 +1,6 @@
-import { URI } from '@opensumi/ide-core-browser';
-import { DebugSource } from '@opensumi/ide-debug/lib/browser/model';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { DebugSource } from '@Nuvio-MCP/ide-debug/lib/browser/model';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 describe('DebugSource Model', () => {
   describe('DebugSource should be work after init', () => {

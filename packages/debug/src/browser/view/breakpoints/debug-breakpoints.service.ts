@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Emitter,
   Event,
@@ -9,13 +9,13 @@ import {
   Schemes,
   URI,
   WithEventBus,
-} from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { EditorCollectionService, ICodeEditor, getSimpleEditorOptions } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { WorkspaceEditDidDeleteFileEvent, WorkspaceEditDidRenameFileEvent } from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { EditorCollectionService, ICodeEditor, getSimpleEditorOptions } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspaceEditDidDeleteFileEvent, WorkspaceEditDidRenameFileEvent } from '@Nuvio-MCP/ide-workspace-edit';
 
 import { CONTEXT_IN_DEBUG_MODE_KEY, DEBUG_REPORT_NAME, IDebugBreakpoint } from '../../../common';
 import { IDebugSessionManager } from '../../../common/debug-session';

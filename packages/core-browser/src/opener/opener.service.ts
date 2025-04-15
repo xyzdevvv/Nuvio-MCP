@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ILogger, URI } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ILogger, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { DefaultOpener } from './default-opener';
 

@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Disposable, IDisposable } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtensionHostType, IExtCommandManagement } from '../common';
 import { IMainThreadCommands } from '../common/vscode';

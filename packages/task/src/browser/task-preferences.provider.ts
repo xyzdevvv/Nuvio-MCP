@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { FolderFilePreferenceProvider } from '@opensumi/ide-preferences/lib/browser/folder-file-preference-provider';
+import { Injectable } from '@Nuvio-MCP/di';
+import { FolderFilePreferenceProvider } from '@Nuvio-MCP/ide-preferences/lib/browser/folder-file-preference-provider';
 
 @Injectable()
 export class TaskFolderPreferenceProvider extends FolderFilePreferenceProvider {

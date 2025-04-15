@@ -1,6 +1,6 @@
 import * as fuzzy from 'fuzzy';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandRegistry,
   CommandService,
@@ -29,9 +29,9 @@ import {
   URI,
   localize,
   runWhenIdle,
-} from '@opensumi/ide-core-browser';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { IKeymapService, KEYMAPS_FILE_NAME, KEYMAPS_SCHEME, KeybindingItem, KeymapItem } from '../common';
 

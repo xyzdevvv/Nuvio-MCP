@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   DisposableCollection,
   EventType,
@@ -8,11 +8,11 @@ import {
   QuickOpenItem,
   addDisposableListener,
   isNumber,
-} from '@opensumi/ide-core-browser';
-import { VALIDATE_TYPE } from '@opensumi/ide-core-browser/lib/components';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { derived, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { derived, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import {
   IAutoFocus,

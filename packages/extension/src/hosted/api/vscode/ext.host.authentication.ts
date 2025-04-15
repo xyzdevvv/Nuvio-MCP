@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   AuthenticationProviderInformation,
   AuthenticationProviderSessionOptions,
@@ -14,7 +14,7 @@ import {
   Emitter,
   Event,
   getDebugLogger,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IExtHostAuthentication, IMainThreadAuthentication, MainThreadAPIIdentifier } from '../../../common/vscode';
 import { ExtensionIdentifier, IExtensionDescription } from '../../../common/vscode/extension';

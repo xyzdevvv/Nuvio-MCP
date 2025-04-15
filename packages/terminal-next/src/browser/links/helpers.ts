@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/1.44.0/src/vs/workbench/contrib/terminal/browser/links/terminalLinkHelpers.ts
 
-import { IRange } from '@opensumi/ide-core-common/lib/types';
+import { IRange } from '@Nuvio-MCP/ide-core-common/lib/types';
 
 import type { IBuffer, IBufferCellPosition, IBufferLine, IBufferRange, IViewportRange } from '@xterm/xterm';
 

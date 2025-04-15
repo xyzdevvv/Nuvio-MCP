@@ -1,7 +1,7 @@
-import { Autowired } from '@opensumi/di';
-import { CommandContribution, CommandRegistry, URI } from '@opensumi/ide-core-browser';
-import { Domain, MCPConfigServiceToken } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired } from '@Nuvio-MCP/di';
+import { CommandContribution, CommandRegistry, URI } from '@Nuvio-MCP/ide-core-browser';
+import { Domain, MCPConfigServiceToken } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { MCP_CONFIG_COMPONENTS_SCHEME_ID } from './mcp-config.contribution';
 import { MCPConfigService } from './mcp-config.service';

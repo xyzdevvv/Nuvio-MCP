@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AINativeSettingSectionsId,
   DisposableStore,
@@ -6,8 +6,8 @@ import {
   IDisposable,
   PreferenceService,
   StaleLRUMap,
-} from '@opensumi/ide-core-browser';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
 
 import { IIntelligentCompletionsResult } from '../intelligent-completions';
 

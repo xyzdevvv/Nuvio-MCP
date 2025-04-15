@@ -1,5 +1,5 @@
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { Uri } from '@opensumi/ide-utils';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { Uri } from '@Nuvio-MCP/ide-utils';
 
 import { IMarker, MarkerSeverity } from '../../../src';
 import { MarkerManager } from '../../../src/types/markers/markers-manager';
@@ -7,7 +7,7 @@ import { getInjector } from '../../baseInjector';
 
 describe('test for types/markers/markers-manager.ts', () => {
   let injector: MockInjector;
-  const testUri = Uri.parse('https://opensumi.com');
+  const testUri = Uri.parse('https://Nuvio-MCP.com');
   const editorUri = Uri.parse('file://users/test/index.html');
   const editorUri2 = Uri.parse('file://users/test/index2.html');
   const rawMarker = {

@@ -1,3 +1,3 @@
 export * from './extensions-point.service';
 export * from './schema/vscodeExtensionPackageSchema';
-export * from './schema/opensumiExtensionPackageSchema';
+export * from './schema/Nuvio-MCPExtensionPackageSchema';

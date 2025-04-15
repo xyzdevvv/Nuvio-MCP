@@ -1,5 +1,5 @@
-import { Injector } from '@opensumi/di';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { Injector } from '@Nuvio-MCP/di';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { TerminalNodePtyModule } from '../../src/node';
 import { TerminalProfileServiceNode } from '../../src/node/terminal.profile.service';

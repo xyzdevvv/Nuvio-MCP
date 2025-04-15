@@ -1,7 +1,7 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IRPCProtocol, SumiConnectionMultiplexer, WSChannel, createExtMessageIO } from '@opensumi/ide-connection';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { BaseConnection } from '@opensumi/ide-connection/lib/common/connection';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol, SumiConnectionMultiplexer, WSChannel, createExtMessageIO } from '@Nuvio-MCP/ide-connection';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { BaseConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
 import {
   AppConfig,
   ContributionProvider,
@@ -12,7 +12,7 @@ import {
   IApplicationService,
   IExtensionProps,
   toDisposable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import {
   CONNECTION_HANDLE_BETWEEN_EXTENSION_AND_MAIN_THREAD,

@@ -1,4 +1,4 @@
-import { DisposableCollection, Emitter, Event, IDisposable } from '@opensumi/ide-utils';
+import { DisposableCollection, Emitter, Event, IDisposable } from '@Nuvio-MCP/ide-utils';
 
 import { IExpansionStateChange, IPathChange, TreeStateManager } from './TreeStateManager';
 import { ISerializableState, TreeStateWatcherChangeType as TreeStateChangeType } from './types';

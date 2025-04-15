@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 
 import { ConnectionBackServicePath, IConnectionBackService } from '../common';
 

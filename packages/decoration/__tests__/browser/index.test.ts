@@ -1,4 +1,4 @@
-import { CancellationToken, DisposableCollection, Emitter, Event, Uri } from '@opensumi/ide-core-common';
+import { CancellationToken, DisposableCollection, Emitter, Event, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

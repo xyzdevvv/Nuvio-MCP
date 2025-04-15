@@ -1,4 +1,4 @@
-import { Injectable, Injector } from '@opensumi/di';
+import { Injectable, Injector } from '@Nuvio-MCP/di';
 
 import { BrowserModule } from '../../../browser-module';
 import { ESupportRuntime } from '../constants';

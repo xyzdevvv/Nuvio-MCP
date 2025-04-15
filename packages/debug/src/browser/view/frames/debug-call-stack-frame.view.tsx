@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 
-import { RecycleList } from '@opensumi/ide-components';
+import { RecycleList } from '@Nuvio-MCP/ide-components';
 import {
   DisposableCollection,
   ViewState,
@@ -9,7 +9,7 @@ import {
   isUndefined,
   localize,
   useInjectable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { IDebugSessionManager } from '../../../common';
 import { isFrameDeemphasized } from '../../../common/debug-frame';

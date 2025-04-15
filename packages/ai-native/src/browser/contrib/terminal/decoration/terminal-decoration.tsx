@@ -2,10 +2,10 @@ import { IDecoration, IMarker, Terminal } from '@xterm/xterm';
 import React from 'react';
 import { Root, createRoot } from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AIActionItem } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { Disposable, InlineChatFeatureRegistryToken, runWhenIdle } from '@opensumi/ide-core-common';
-import { ITerminalController } from '@opensumi/ide-terminal-next';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AIActionItem } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { Disposable, InlineChatFeatureRegistryToken, runWhenIdle } from '@Nuvio-MCP/ide-core-common';
+import { ITerminalController } from '@Nuvio-MCP/ide-terminal-next';
 
 import { InlineChatFeatureRegistry } from '../../../widget/inline-chat/inline-chat.feature.registry';
 import {

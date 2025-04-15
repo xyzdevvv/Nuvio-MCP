@@ -1,13 +1,13 @@
 import { ElementHandle } from '@playwright/test';
 
-import { OpenSumiApp } from './app';
-import { OpenSumiViewBase } from './view-base';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPViewBase } from './view-base';
 
-export abstract class OpenSumiPanel extends OpenSumiViewBase {
+export abstract class Nuvio-MCPPanel extends Nuvio-MCPViewBase {
   public view: ElementHandle<HTMLElement | SVGElement> | null;
   private whenReady: Promise<void>;
 
-  constructor(app: OpenSumiApp, private viewId: string) {
+  constructor(app: Nuvio-MCPApp, private viewId: string) {
     super(app);
     this.whenReady = this.init();
   }

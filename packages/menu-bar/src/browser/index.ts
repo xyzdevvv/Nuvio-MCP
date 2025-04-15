@@ -1,6 +1,6 @@
 /* istanbul ignore file */
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
 
 import { MenuBarWebContribution } from './menu-bar-web.contribution';
 import { MenuBarContribution } from './menu-bar.contribution';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { URI, useInjectable } from '@opensumi/ide-core-browser';
+import { URI, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { EditorCollectionService, ICodeEditor } from '../../common';
 import { IEditorDocumentModelRef } from '../../common/editor';

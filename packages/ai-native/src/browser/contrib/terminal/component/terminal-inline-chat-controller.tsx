@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { AIAction, AIActionItem } from '@opensumi/ide-core-browser/lib/components/ai-native';
+import { AIAction, AIActionItem } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
 
 import styles from './terminal-inline-chat-controller.module.less';
 

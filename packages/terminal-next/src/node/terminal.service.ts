@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { AppConfig, INodeLogger, Sequencer, isDevelopment, isElectronNode, pSeries } from '@opensumi/ide-core-node';
-import { getChunks } from '@opensumi/ide-utils/lib/strings';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { AppConfig, INodeLogger, Sequencer, isDevelopment, isElectronNode, pSeries } from '@Nuvio-MCP/ide-core-node';
+import { getChunks } from '@Nuvio-MCP/ide-utils/lib/strings';
 
 import { ETerminalErrorType, ITerminalNodeService, ITerminalServiceClient, TERMINAL_ID_SEPARATOR } from '../common';
 import { IPtyProcessProxy, IPtyService, IShellLaunchConfig } from '../common/pty';

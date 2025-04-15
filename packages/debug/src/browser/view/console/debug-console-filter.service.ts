@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, strings } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, strings } from '@Nuvio-MCP/ide-core-browser';
 
 import { matchAll } from '../../debugUtils';
 

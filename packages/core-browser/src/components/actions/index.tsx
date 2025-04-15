@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { useMemo, useState } from 'react';
 
-import { Button, CheckBox, Icon } from '@opensumi/ide-components';
-import { ClickParam, Menu } from '@opensumi/ide-components/lib/menu';
-import { isBoolean, strings } from '@opensumi/ide-core-common';
+import { Button, CheckBox, Icon } from '@Nuvio-MCP/ide-components';
+import { ClickParam, Menu } from '@Nuvio-MCP/ide-components/lib/menu';
+import { isBoolean, strings } from '@Nuvio-MCP/ide-core-common';
 
 import {
   AbstractMenuService,

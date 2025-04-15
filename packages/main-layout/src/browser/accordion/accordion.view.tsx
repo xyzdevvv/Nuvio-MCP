@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
 
-import { View, useAutorun, useInjectable } from '@opensumi/ide-core-browser';
-import { EDirection, Layout, SplitPanel } from '@opensumi/ide-core-browser/lib/components';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { replaceLocalizePlaceholder } from '@opensumi/ide-core-common';
+import { View, useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { EDirection, Layout, SplitPanel } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { replaceLocalizePlaceholder } from '@Nuvio-MCP/ide-core-common';
 
 import { AccordionService, AccordionServiceFactory, SectionState } from './accordion.service';
 import { AccordionSection } from './section.view';

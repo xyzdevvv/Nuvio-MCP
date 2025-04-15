@@ -1,7 +1,7 @@
-import { CancellationTokenSource, Disposable, Emitter } from '@opensumi/ide-core-common';
-import { IMarkdownService } from '@opensumi/ide-markdown';
-import { MarkdownModule } from '@opensumi/ide-markdown/lib/browser';
-import { IWebview, IWebviewService } from '@opensumi/ide-webview';
+import { CancellationTokenSource, Disposable, Emitter } from '@Nuvio-MCP/ide-core-common';
+import { IMarkdownService } from '@Nuvio-MCP/ide-markdown';
+import { MarkdownModule } from '@Nuvio-MCP/ide-markdown/lib/browser';
+import { IWebview, IWebviewService } from '@Nuvio-MCP/ide-webview';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 

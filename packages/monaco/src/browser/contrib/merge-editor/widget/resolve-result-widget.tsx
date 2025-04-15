@@ -1,12 +1,12 @@
 import React, { ReactNode, useCallback, useMemo } from 'react';
 
-import { Injectable } from '@opensumi/di';
-import { Button } from '@opensumi/ide-components';
-import { DialogContent, Popover, PopoverPosition } from '@opensumi/ide-core-browser/lib/components';
-import { AIInlineResult } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { ContentWidgetContainerPanel } from '@opensumi/ide-core-browser/lib/components/ai-native/content-widget/containerPanel';
-import { IAIInlineResultIconItemsProps } from '@opensumi/ide-core-browser/lib/components/ai-native/inline-chat/result';
-import { MessageType, localize, uuid } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Button } from '@Nuvio-MCP/ide-components';
+import { DialogContent, Popover, PopoverPosition } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { AIInlineResult } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { ContentWidgetContainerPanel } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/content-widget/containerPanel';
+import { IAIInlineResultIconItemsProps } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/inline-chat/result';
+import { MessageType, localize, uuid } from '@Nuvio-MCP/ide-core-common';
 
 import { ReactInlineContentWidget } from '../../../ai-native/BaseInlineContentWidget';
 import { LineRange } from '../model/line-range';

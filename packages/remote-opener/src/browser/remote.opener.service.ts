@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection/lib/common/rpc-service';
-import { IOpenerService } from '@opensumi/ide-core-browser/lib/opener';
-import { PreferenceService } from '@opensumi/ide-core-browser/lib/preferences';
-import { CommandService, Disposable, IDisposable, URI, Uri } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection/lib/common/rpc-service';
+import { IOpenerService } from '@Nuvio-MCP/ide-core-browser/lib/opener';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser/lib/preferences';
+import { CommandService, Disposable, IDisposable, URI, Uri } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { IRemoteHostConverter, IRemoteOpenerBrowserService } from '../common';
 

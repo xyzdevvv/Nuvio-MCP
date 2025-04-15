@@ -5,8 +5,8 @@ import {
   IThemeColor,
   MaybePromise,
   MessageType,
-} from '@opensumi/ide-core-common';
-import { QuickInputOptions, QuickPickItem, QuickPickOptions, QuickTitleButton } from '@opensumi/ide-quick-open';
+} from '@Nuvio-MCP/ide-core-common';
+import { QuickInputOptions, QuickPickItem, QuickPickOptions, QuickTitleButton } from '@Nuvio-MCP/ide-quick-open';
 
 import { Severity } from './enums';
 import * as types from './ext-types';

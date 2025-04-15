@@ -1,10 +1,10 @@
 import * as path from 'path';
 
-import { URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { IMarkerService, MarkerSeverity } from '@opensumi/monaco-editor-core/esm/vs/platform/markers/common/markers';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { IMarkerService, MarkerSeverity } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/markers/common/markers';
 
 import { GetOpenEditorFileDiagnosticsTool } from '../../../../src/browser/mcp/tools/getOpenEditorFileDiagnostics';
 import { MCPLogger } from '../../../../src/browser/types';

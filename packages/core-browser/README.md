@@ -1,4 +1,4 @@
-# @opensumi/ide-core-browser
+# @Nuvio-MCP/ide-core-browser
 
 ## Usage
 
@@ -6,7 +6,7 @@
 
 #### createOverlay
 ```tsx
-import { createOverlay, destroyAllOverlays } from '@opensumi/ide-core-browser/lib/utils/create-overlay';
+import { createOverlay, destroyAllOverlays } from '@Nuvio-MCP/ide-core-browser/lib/utils/create-overlay';
 
 const overlayInstance = createOverlay(<h1 style={{color: 'white'}}>hello world</h1>);
 overlayInstance.update(<h2 style={{color: 'white'}}>hello world</h2>);

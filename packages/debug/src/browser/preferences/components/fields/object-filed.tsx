@@ -2,8 +2,8 @@ import { getDefaultRegistry } from '@rjsf/core';
 import { FieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
 import React, { useEffect } from 'react';
 
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { Disposable } from '@opensumi/ide-core-common';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 import { ILaunchService } from '../../../../common';
 import { LaunchService } from '../../launch.service';

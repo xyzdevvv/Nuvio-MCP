@@ -1,11 +1,11 @@
 import os from 'os';
 import path from 'path';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { AppConfig, INodeLogger, Uri, pMemoize, retry, uuid } from '@opensumi/ide-core-node';
-import { IFileService } from '@opensumi/ide-file-service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { AppConfig, INodeLogger, Uri, pMemoize, retry, uuid } from '@Nuvio-MCP/ide-core-node';
+import { IFileService } from '@Nuvio-MCP/ide-file-service';
 
 import {
   ICreateProcessOptions,

@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Domain,
   IJSONSchemaRegistry,
@@ -10,13 +10,13 @@ import {
   URI,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   BrowserEditorContribution,
   IResource,
   IResourceProvider,
   ResourceService,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { MCPPreferencesSchema, MCPSchema, MCPSchemaUri } from './mcp-preferences';
 

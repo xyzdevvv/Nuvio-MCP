@@ -1,7 +1,7 @@
 import { useInject } from '@difizen/mana-app';
 import React, { memo, useEffect, useRef, useState } from 'react';
 
-import { IDiffEditor } from '@opensumi/ide-monaco';
+import { IDiffEditor } from '@Nuvio-MCP/ide-monaco';
 
 import { getLibroCellType, getSource } from '../libro-diff-protocol';
 import { LibroVersionManager } from '../libro-version-manager';

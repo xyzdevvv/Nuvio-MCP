@@ -1,6 +1,6 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter, IDisposable, Uri, UriUtils } from '@opensumi/ide-core-common';
-import { IExtensionStorageUri } from '@opensumi/ide-extension-storage/lib/common/storage';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter, IDisposable, Uri, UriUtils } from '@Nuvio-MCP/ide-core-common';
+import { IExtensionStorageUri } from '@Nuvio-MCP/ide-extension-storage/lib/common/storage';
 
 import {
   IExtHostStorage,

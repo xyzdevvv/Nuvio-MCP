@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { IRPCProtocol, ProxyIdentifier } from '@opensumi/ide-connection';
-import { Disposable, IDisposable } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol, ProxyIdentifier } from '@Nuvio-MCP/ide-connection';
+import { Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 export interface IMainThreadExtender<T = any> {
   identifier: ProxyIdentifier<T>;

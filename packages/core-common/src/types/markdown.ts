@@ -1,1 +1,1 @@
-export type { IMarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
+export type { IMarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';

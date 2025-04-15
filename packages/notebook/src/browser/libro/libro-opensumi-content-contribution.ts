@@ -2,16 +2,16 @@ import { ContentContribution } from '@difizen/libro-core';
 import { IContentsModel, INotebookContent, LibroJupyterModel, NotebookOption } from '@difizen/libro-jupyter/noeditor';
 import { getOrigin, inject, singleton } from '@difizen/mana-app';
 
-import { Injector } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMessageService } from '@opensumi/ide-overlay';
+import { Injector } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 
-import { ContentLoaderType, OpensumiInjector } from '../mana';
+import { ContentLoaderType, Nuvio-MCPInjector } from '../mana';
 
 @singleton({ contrib: ContentContribution })
-export class LibroOpensumiContentContribution implements ContentContribution {
-  @inject(OpensumiInjector) injector: Injector;
+export class LibroNuvio-MCPContentContribution implements ContentContribution {
+  @inject(Nuvio-MCPInjector) injector: Injector;
 
   canHandle = (options) => (options.loadType === ContentLoaderType ? 100 : 1);
   async loadContent(options: NotebookOption, model: LibroJupyterModel): Promise<INotebookContent> {

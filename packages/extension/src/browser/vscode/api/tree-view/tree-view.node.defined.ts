@@ -1,6 +1,6 @@
-import { CompositeTreeNode, ITree, TreeNode } from '@opensumi/ide-components';
-import { MenuNode } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IAccessibilityInformation, Uri, UriComponents, isObject, isString } from '@opensumi/ide-core-common';
+import { CompositeTreeNode, ITree, TreeNode } from '@Nuvio-MCP/ide-components';
+import { MenuNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IAccessibilityInformation, Uri, UriComponents, isObject, isString } from '@Nuvio-MCP/ide-core-common';
 
 import { ITreeItemLabel, TreeViewItemCheckboxInfo } from '../../../../common/vscode';
 import { Command } from '../../../../common/vscode/models';

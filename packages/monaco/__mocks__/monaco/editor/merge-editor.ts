@@ -1,20 +1,20 @@
-import { IMergeEditorEditor, IOpenMergeEditorArgs } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { Disposable } from '@opensumi/ide-core-common';
-import { IDisposable } from '@opensumi/monaco-editor-core/esm/vs/base/common/lifecycle';
-import { IDimension } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/dimension';
-import { IRange, Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import { Selection, ISelection } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/selection';
+import { IMergeEditorEditor, IOpenMergeEditorArgs } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { IDisposable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/lifecycle';
+import { IDimension } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/dimension';
+import { IRange, Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import { Selection, ISelection } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/selection';
 import {
   IEditorAction,
   IEditorViewState,
   ScrollType,
   IEditorModel,
   IEditorDecorationsCollection,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 import {
   IModelDeltaDecoration,
   IModelDecorationsChangeAccessor,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 import { ICodeEditor, IPosition, Position } from '../../../src';
 import { IEditorOptions } from '../../../lib/browser/monaco-api/editor';

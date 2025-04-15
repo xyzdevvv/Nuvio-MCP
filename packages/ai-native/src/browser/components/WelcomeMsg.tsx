@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import { useInjectable, useUpdateOnEvent } from '@opensumi/ide-core-browser';
-import { Icon, Tooltip } from '@opensumi/ide-core-browser/lib/components';
-import { withPrevented } from '@opensumi/ide-core-browser/lib/dom/event';
+import { useInjectable, useUpdateOnEvent } from '@Nuvio-MCP/ide-core-browser';
+import { Icon, Tooltip } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { withPrevented } from '@Nuvio-MCP/ide-core-browser/lib/dom/event';
 import {
   ActionSourceEnum,
   ActionTypeEnum,
@@ -10,8 +10,8 @@ import {
   ChatRenderRegistryToken,
   ChatServiceToken,
   localize,
-} from '@opensumi/ide-core-common';
-import { isMarkdownString } from '@opensumi/monaco-editor-core/esm/vs/base/common/htmlContent';
+} from '@Nuvio-MCP/ide-core-common';
+import { isMarkdownString } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/htmlContent';
 
 import 'react-chat-elements/dist/main.css';
 import { IChatAgentService, ISampleQuestions } from '../../common';

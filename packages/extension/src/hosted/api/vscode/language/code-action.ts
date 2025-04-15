@@ -1,5 +1,5 @@
-import { Cache, CancellationToken, DisposableStore, Uri as URI } from '@opensumi/ide-core-common';
-import { coalesce } from '@opensumi/ide-utils/lib/arrays';
+import { Cache, CancellationToken, DisposableStore, Uri as URI } from '@Nuvio-MCP/ide-core-common';
+import { coalesce } from '@Nuvio-MCP/ide-utils/lib/arrays';
 
 import { ExtensionDocumentDataManager, ICodeActionDto, ICodeActionListDto } from '../../../../common/vscode';
 import * as Converter from '../../../../common/vscode/converter';
@@ -10,7 +10,7 @@ import { CommandsConverter } from '../ext.host.command';
 
 import { Diagnostics } from './diagnostics';
 
-import type { CodeActionContext, WorkspaceEdit } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+import type { CodeActionContext, WorkspaceEdit } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 import type vscode from 'vscode';
 
 export class CodeActionAdapter {

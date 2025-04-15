@@ -26,7 +26,7 @@ module.exports = {
         project: './tsconfig.json',
       },
     },
-    'import/internal-regex': '^@opensumi/',
+    'import/internal-regex': '^@Nuvio-MCP/',
   },
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
@@ -213,13 +213,13 @@ module.exports = {
       {
         paths: [
           {
-            name: '@opensumi/monaco-editor-core/esm/vs/editor/editor.api',
+            name: '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/editor.api',
             message: 'please re-export the reference you want from `monaco-editor` in the `ide-monaco` package.',
           },
         ],
         patterns: [
           {
-            group: ['@opensumi/*/src/**/*', '!@opensumi/ide-dev-tool/src/**/*'],
+            group: ['@Nuvio-MCP/*/src/**/*', '!@Nuvio-MCP/ide-dev-tool/src/**/*'],
             message: "please import from 'esm' or 'lib' instead of 'src'.",
           },
         ],

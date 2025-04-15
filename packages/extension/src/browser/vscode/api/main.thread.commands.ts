@@ -1,8 +1,8 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CommandRegistry, IContextKeyService, IDisposable, ILogger } from '@opensumi/ide-core-browser';
-import { Disposable, IExtensionInfo, URI, arrays } from '@opensumi/ide-core-common';
-import { ICommandServiceToken, IMonacoCommandService } from '@opensumi/ide-monaco/lib/browser/contrib/command';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CommandRegistry, IContextKeyService, IDisposable, ILogger } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, IExtensionInfo, URI, arrays } from '@Nuvio-MCP/ide-core-common';
+import { ICommandServiceToken, IMonacoCommandService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/command';
 
 import { ArgumentProcessor, ExtHostAPIIdentifier, IExtHostCommands, IMainThreadCommands } from '../../../common/vscode';
 

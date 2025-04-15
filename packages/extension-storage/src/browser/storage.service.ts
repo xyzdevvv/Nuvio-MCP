@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig } from '@opensumi/ide-core-browser';
-import { firstSessionDateStorageKey } from '@opensumi/ide-core-common';
-import { FileStat } from '@opensumi/ide-file-service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig } from '@Nuvio-MCP/ide-core-browser';
+import { firstSessionDateStorageKey } from '@Nuvio-MCP/ide-core-common';
+import { FileStat } from '@Nuvio-MCP/ide-file-service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import {
   DEFAULT_EXTENSION_STORAGE_DIR_NAME,

@@ -15,7 +15,7 @@ import { Input, List, Tag, Tooltip, message } from 'antd';
 import React, { forwardRef } from 'react';
 import './index.less';
 
-import { DisposableCollection, localize } from '@opensumi/ide-core-common';
+import { DisposableCollection, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { Languages } from './inspector-script';
 

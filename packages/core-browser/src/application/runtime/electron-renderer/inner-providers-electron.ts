@@ -1,10 +1,10 @@
-import { Injector } from '@opensumi/di';
-import { IElectronMainMenuService } from '@opensumi/ide-core-common';
+import { Injector } from '@Nuvio-MCP/di';
+import { IElectronMainMenuService } from '@Nuvio-MCP/ide-core-common';
 import {
   IElectronMainLifeCycleService,
   IElectronMainUIService,
   IElectronURLService,
-} from '@opensumi/ide-core-common/lib/electron';
+} from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { ICtxMenuRenderer } from '../../../menu/next';
 import {

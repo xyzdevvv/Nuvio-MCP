@@ -2,15 +2,15 @@ import cls from 'classnames';
 import React, { FC, useEffect, useState } from 'react';
 import AutoSizer from 'react-virtualized-auto-sizer';
 
-import { BasicRecycleTree } from '@opensumi/ide-components';
+import { BasicRecycleTree } from '@Nuvio-MCP/ide-components';
 import {
   BasicCompositeTreeNode,
   BasicTreeNode,
-} from '@opensumi/ide-components/lib/recycle-tree/basic/tree-node.define';
-import { ViewState, transformLabelWithCodicon, useInjectable } from '@opensumi/ide-core-browser';
-import { Disposable, localize } from '@opensumi/ide-core-common';
-import { IIconService } from '@opensumi/ide-theme/lib/common/theme.service';
-import { Iterable } from '@opensumi/monaco-editor-core/esm/vs/base/common/iterator';
+} from '@Nuvio-MCP/ide-components/lib/recycle-tree/basic/tree-node.define';
+import { ViewState, transformLabelWithCodicon, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, localize } from '@Nuvio-MCP/ide-core-common';
+import { IIconService } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
+import { Iterable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/iterator';
 
 import { TestPeekMessageToken } from '../../common';
 import { ITestResult, TestResultServiceToken, maxCountPriority, resultItemParents } from '../../common/test-result';

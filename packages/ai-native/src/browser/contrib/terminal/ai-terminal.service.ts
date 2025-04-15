@@ -1,9 +1,9 @@
 import { IMarker } from '@xterm/xterm';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AIActionItem } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { Disposable, InlineChatFeatureRegistryToken } from '@opensumi/ide-core-common';
-import { ITerminalController } from '@opensumi/ide-terminal-next';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AIActionItem } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { Disposable, InlineChatFeatureRegistryToken } from '@Nuvio-MCP/ide-core-common';
+import { ITerminalController } from '@Nuvio-MCP/ide-terminal-next';
 
 import { InlineChatFeatureRegistry } from '../../widget/inline-chat/inline-chat.feature.registry';
 

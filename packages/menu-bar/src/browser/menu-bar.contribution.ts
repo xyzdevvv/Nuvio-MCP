@@ -1,8 +1,8 @@
-import { Autowired } from '@opensumi/di';
-import { Disposable, MenubarSettingId, PreferenceService } from '@opensumi/ide-core-browser';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenubarItem } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Disposable, MenubarSettingId, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenubarItem } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
 
 import { MenubarStore } from './menu-bar.store';
 import { MenuBarMixToolbarAction } from './menu-bar.view';
@@ -37,7 +37,7 @@ export class MenuBarContribution extends Disposable implements ComponentContribu
 
   registerComponent(registry: ComponentRegistry) {
     registry.register(
-      '@opensumi/ide-menu-bar',
+      '@Nuvio-MCP/ide-menu-bar',
       {
         id: 'ide-menu-bar',
         component: MenuBarMixToolbarAction,

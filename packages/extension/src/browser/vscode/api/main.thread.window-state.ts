@@ -1,6 +1,6 @@
-import { Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { DisposableCollection } from '@opensumi/ide-core-browser';
+import { Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { DisposableCollection } from '@Nuvio-MCP/ide-core-browser';
 
 import { ExtHostAPIIdentifier, IExtHostWindowState } from '../../../common/vscode';
 

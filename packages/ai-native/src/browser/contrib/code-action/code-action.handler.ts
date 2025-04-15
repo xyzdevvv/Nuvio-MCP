@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { AINativeSettingSectionsId } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { empty } from '@opensumi/ide-utils/lib/strings';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { AINativeSettingSectionsId } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { empty } from '@Nuvio-MCP/ide-utils/lib/strings';
 
 import { LanguageParserService } from '../../languages/service';
 import { ICodeBlockInfo } from '../../languages/tree-sitter/language-facts/base';

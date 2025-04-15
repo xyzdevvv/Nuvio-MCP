@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Deferred,
   DisposableStore,
@@ -16,7 +16,7 @@ import {
   ThemeIcon,
   URI,
   WithEventBus,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import {
   DEFAULT_PRODUCT_ICON_THEME_ID,
@@ -179,7 +179,7 @@ export class ProductIconService extends WithEventBus implements IProductIconServ
     }
 
     /**
-     * product-icon-style 内存储 opensumi icon
+     * product-icon-style 内存储 Nuvio-MCP icon
      * codiconStyles 内存储 codicon icon
      * monaco-colors 内为 monaco 内置样式
      * 注册时序为 monaco-colors -> codiconStyles -> product-icon-style

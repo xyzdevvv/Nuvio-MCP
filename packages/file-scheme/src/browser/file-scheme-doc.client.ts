@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { CancellationToken, IEditorDocumentModelSaveResult } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CancellationToken, IEditorDocumentModelSaveResult } from '@Nuvio-MCP/ide-core-browser';
 
 import {
   FileSchemeDocNodeServicePath,

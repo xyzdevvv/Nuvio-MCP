@@ -56,15 +56,15 @@ describe('Objects', () => {
   });
 
   test('cloneAndChangeByKV', () => {
-    // 将 property key 为 hello 的时候，值返回为 opensumi
+    // 将 property key 为 hello 的时候，值返回为 Nuvio-MCP
     const o1 = { hello: 'world', complex: { hello: 'code' }, array: [{ hello: 'theia' }] };
     expect(
       objects.cloneAndChangeByKV(o1, (k, v) => {
         if (k === 'hello' && typeof v === 'string') {
-          return 'opensumi';
+          return 'Nuvio-MCP';
         }
       }),
-    ).toEqual({ hello: 'opensumi', complex: { hello: 'opensumi' }, array: [{ hello: 'opensumi' }] });
+    ).toEqual({ hello: 'Nuvio-MCP', complex: { hello: 'Nuvio-MCP' }, array: [{ hello: 'Nuvio-MCP' }] });
     expect(o1).toEqual({ hello: 'world', complex: { hello: 'code' }, array: [{ hello: 'theia' }] });
   });
 });

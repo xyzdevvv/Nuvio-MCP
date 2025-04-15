@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-markdown",
+  "name": "@Nuvio-MCP/ide-markdown",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,16 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-core-common": "workspace:*"
+    "@Nuvio-MCP/ide-core-common": "workspace:*"
   },
   "devDependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*",
-    "@opensumi/ide-editor": "workspace:*",
-    "@opensumi/ide-webview": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*",
+    "@Nuvio-MCP/ide-editor": "workspace:*",
+    "@Nuvio-MCP/ide-webview": "workspace:*"
   }
 }

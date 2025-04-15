@@ -1,4 +1,4 @@
-import { localize } from '@opensumi/ide-core-browser';
+import { localize } from '@Nuvio-MCP/ide-core-browser';
 
 import { IDebugBreakpoint } from '../../common';
 

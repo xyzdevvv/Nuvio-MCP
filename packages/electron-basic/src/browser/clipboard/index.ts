@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { CLIPBOARD_FILE_TOKEN, IClipboardService, URI } from '@opensumi/ide-core-common';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CLIPBOARD_FILE_TOKEN, IClipboardService, URI } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 export { CLIPBOARD_FILE_TOKEN };
 

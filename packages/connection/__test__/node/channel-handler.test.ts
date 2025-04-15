@@ -1,9 +1,9 @@
 import net from 'net';
 
-import { NetSocketConnection } from '@opensumi/ide-connection/src/common/connection';
-import { ElectronChannelHandler } from '@opensumi/ide-connection/src/electron';
-import { Deferred } from '@opensumi/ide-core-common';
-import { normalizedIpcHandlerPathAsync } from '@opensumi/ide-core-common/src/utils/ipc';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/src/common/connection';
+import { ElectronChannelHandler } from '@Nuvio-MCP/ide-connection/src/electron';
+import { Deferred } from '@Nuvio-MCP/ide-core-common';
+import { normalizedIpcHandlerPathAsync } from '@Nuvio-MCP/ide-core-common/src/utils/ipc';
 
 // eslint-disable-next-line import/no-restricted-paths
 import { WSChannelHandler } from '../../src/browser';

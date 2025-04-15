@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable, ILogger, QuickPickService, formatLocalize, localize } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable, ILogger, QuickPickService, formatLocalize, localize } from '@Nuvio-MCP/ide-core-browser';
 import {
   AuthenticationProviderSessionOptions,
   AuthenticationSession,
@@ -8,8 +8,8 @@ import {
   AuthenticationSessionsChangeEvent,
   IAuthenticationProvider,
   IAuthenticationService,
-} from '@opensumi/ide-core-common';
-import { IDialogService, IMessageService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-common';
+import { IDialogService, IMessageService } from '@Nuvio-MCP/ide-overlay';
 
 import { ExtHostAPIIdentifier, IExtHostAuthentication, IMainThreadAuthentication } from '../../../common/vscode';
 import { IActivationEventService } from '../../types';

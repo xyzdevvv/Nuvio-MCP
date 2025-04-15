@@ -8,7 +8,7 @@ import {
   INodeRendererProps,
   TreeNode,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   IMatch,
   IOpenerService,
@@ -18,7 +18,7 @@ import {
   useDesignStyles,
   useInjectable,
   withPrevented,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { IRenderableMarker, IRenderableMarkerModel } from '../../common/types';
 

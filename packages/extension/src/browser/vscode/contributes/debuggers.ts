@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { replaceLocalizePlaceholder } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { replaceLocalizePlaceholder } from '@Nuvio-MCP/ide-core-browser';
 import {
   IJSONSchema,
   IJSONSchemaMap,
@@ -7,10 +7,10 @@ import {
   LifeCyclePhase,
   localize,
   objects,
-} from '@opensumi/ide-core-common';
-import { IDebugService, IDebuggerContribution } from '@opensumi/ide-debug';
-import { DebugConfigurationManager } from '@opensumi/ide-debug/lib/browser/debug-configuration-manager';
-import { DebugSchemaManager } from '@opensumi/ide-debug/lib/browser/debug-schema-manager';
+} from '@Nuvio-MCP/ide-core-common';
+import { IDebugService, IDebuggerContribution } from '@Nuvio-MCP/ide-debug';
+import { DebugConfigurationManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-configuration-manager';
+import { DebugSchemaManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-schema-manager';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { Extension } from '../../extension';

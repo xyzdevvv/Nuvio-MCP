@@ -1,5 +1,5 @@
-import { Disposable, Event } from '@opensumi/ide-core-common';
-import { IObservable, ISettableObservable } from '@opensumi/ide-monaco/lib/common/observable';
+import { Disposable, Event } from '@Nuvio-MCP/ide-core-common';
+import { IObservable, ISettableObservable } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { IShellLaunchConfig } from './pty';
 

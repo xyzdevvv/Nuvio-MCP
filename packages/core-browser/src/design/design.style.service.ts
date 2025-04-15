@@ -1,6 +1,6 @@
 import cls from 'classnames';
 
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 import { IDesignStyleService, TDesignStyles } from './types';
 

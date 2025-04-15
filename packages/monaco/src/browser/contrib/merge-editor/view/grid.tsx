@@ -10,22 +10,22 @@ import {
   runWhenIdle,
   useDisposable,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { Button, Icon, SplitPanel } from '@opensumi/ide-core-browser/lib/components';
-import { InlineActionWidget } from '@opensumi/ide-core-browser/lib/components/actions';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Button, Icon, SplitPanel } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { InlineActionWidget } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
 import {
   AbstractMenuService,
   MenuId,
   MenuItemNode,
   generateMergedInlineActions,
-} from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 import {
   IMergeEditorInputData,
   IOpenMergeEditorArgs,
   MergeEditorInputData,
-} from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
-import { CommandRegistry, FRAME_THREE } from '@opensumi/ide-core-common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
+import { CommandRegistry, FRAME_THREE } from '@Nuvio-MCP/ide-core-common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { MergeActions } from '../components/merge-actions';
 import { MappingManagerDataStore } from '../mapping-manager.store';

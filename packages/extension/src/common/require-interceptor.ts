@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Injector } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { Disposable, IDisposable, ILogger } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { Disposable, IDisposable, ILogger } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtension } from '..';
 

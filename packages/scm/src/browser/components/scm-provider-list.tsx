@@ -1,11 +1,11 @@
 import cls from 'classnames';
 import React, { CSSProperties, FC, useCallback } from 'react';
 
-import { Badge } from '@opensumi/ide-components';
-import { ViewState, useInjectable } from '@opensumi/ide-core-browser';
-import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IStatusBarService } from '@opensumi/ide-status-bar';
-import { StatusBarItem } from '@opensumi/ide-status-bar/lib/browser/status-bar-item.view';
+import { Badge } from '@Nuvio-MCP/ide-components';
+import { ViewState, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { AbstractContextMenuService, ICtxMenuRenderer, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IStatusBarService } from '@Nuvio-MCP/ide-status-bar';
+import { StatusBarItem } from '@Nuvio-MCP/ide-status-bar/lib/browser/status-bar-item.view';
 
 import { ISCMRepository } from '../../common';
 import { getSCMRepositoryDesc } from '../scm-util';

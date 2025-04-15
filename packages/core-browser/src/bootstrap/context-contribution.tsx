@@ -1,4 +1,4 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 
 export const ClientAppContextContribution = Symbol('ClientAppContextContribution');
 

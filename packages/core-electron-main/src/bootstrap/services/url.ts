@@ -1,8 +1,8 @@
 import { BrowserWindow, app } from 'electron';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Disposable, Domain } from '@opensumi/ide-core-common';
-import { IElectronURLService, IURLHandler } from '@opensumi/ide-core-common/lib/electron';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Disposable, Domain } from '@Nuvio-MCP/ide-core-common';
+import { IElectronURLService, IURLHandler } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import {
   ElectronAppConfig,

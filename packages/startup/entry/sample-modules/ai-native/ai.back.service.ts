@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AnthropicModel } from '@opensumi/ide-ai-native/lib/node/anthropic/anthropic-language-model';
-import { DeepSeekModel } from '@opensumi/ide-ai-native/lib/node/deepseek/deepseek-language-model';
-import { OpenAIModel } from '@opensumi/ide-ai-native/lib/node/openai/openai-language-model';
-import { OpenAICompatibleModel } from '@opensumi/ide-ai-native/lib/node/openai-compatible/openai-compatible-language-model';
-import { IAIBackServiceOption } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AnthropicModel } from '@Nuvio-MCP/ide-ai-native/lib/node/anthropic/anthropic-language-model';
+import { DeepSeekModel } from '@Nuvio-MCP/ide-ai-native/lib/node/deepseek/deepseek-language-model';
+import { OpenAIModel } from '@Nuvio-MCP/ide-ai-native/lib/node/openai/openai-language-model';
+import { OpenAICompatibleModel } from '@Nuvio-MCP/ide-ai-native/lib/node/openai-compatible/openai-compatible-language-model';
+import { IAIBackServiceOption } from '@Nuvio-MCP/ide-core-common';
 import {
   CancellationToken,
   ChatReadableStream,
@@ -11,7 +11,7 @@ import {
   IAIBackServiceResponse,
   INodeLogger,
   sleep,
-} from '@opensumi/ide-core-node';
+} from '@Nuvio-MCP/ide-core-node';
 
 export interface ReqeustResponse extends IAIBackServiceResponse {
   responseText?: string;

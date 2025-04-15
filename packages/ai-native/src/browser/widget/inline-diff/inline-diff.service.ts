@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter } from '@opensumi/ide-utils';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter } from '@Nuvio-MCP/ide-utils';
 
 import type { IInlineDiffService } from '../../../common/index';
 import type { IPartialEditEvent } from '../../../common/types';

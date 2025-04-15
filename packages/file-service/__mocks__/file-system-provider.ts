@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, BinaryBuffer, Uri, FileSystemProviderCapabilities } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, BinaryBuffer, Uri, FileSystemProviderCapabilities } from '@Nuvio-MCP/ide-core-common';
 
 import { FileChangeEvent, IDiskFileProvider, FileType } from '../src/common';
 

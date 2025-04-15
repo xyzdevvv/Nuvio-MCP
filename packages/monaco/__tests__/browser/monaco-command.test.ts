@@ -1,16 +1,16 @@
-import { MonacoOverrideServiceRegistry } from '@opensumi/ide-core-browser';
-import { CommandRegistry, Emitter } from '@opensumi/ide-core-common';
-import { EditorCollectionService, WorkbenchEditorService } from '@opensumi/ide-editor';
+import { MonacoOverrideServiceRegistry } from '@Nuvio-MCP/ide-core-browser';
+import { CommandRegistry, Emitter } from '@Nuvio-MCP/ide-core-common';
+import { EditorCollectionService, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   MonacoActionRegistry,
   MonacoCommandRegistry,
   MonacoCommandService,
-} from '@opensumi/ide-editor/lib/browser/monaco-contrib/command/command.service';
+} from '@Nuvio-MCP/ide-editor/lib/browser/monaco-contrib/command/command.service';
 import {
   EditorAction,
   EditorExtensionsRegistry,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
-import { CommandsRegistry, ICommandEvent } from '@opensumi/monaco-editor-core/esm/vs/platform/commands/common/commands';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
+import { CommandsRegistry, ICommandEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/commands/common/commands';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

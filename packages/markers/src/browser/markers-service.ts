@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { Deferred, Emitter, Event, IBaseMarkerManager, MarkerManager, OnEvent } from '@opensumi/ide-core-common';
-import { EditorGroupCloseEvent, EditorGroupOpenEvent } from '@opensumi/ide-editor/lib/browser';
-import { ThemeType } from '@opensumi/ide-theme';
-import { Themable } from '@opensumi/ide-theme/lib/browser/workbench.theme.service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { Deferred, Emitter, Event, IBaseMarkerManager, MarkerManager, OnEvent } from '@Nuvio-MCP/ide-core-common';
+import { EditorGroupCloseEvent, EditorGroupOpenEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { ThemeType } from '@Nuvio-MCP/ide-theme';
+import { Themable } from '@Nuvio-MCP/ide-theme/lib/browser/workbench.theme.service';
 
 import { IMarkerService } from '../common/types';
 

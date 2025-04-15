@@ -4,21 +4,21 @@ import { WebsocketProvider } from 'y-websocket';
 // @ts-ignore
 import { Doc as YDoc, Map as YMap, YMapEvent, Text as YText } from 'yjs';
 
-import { Autowired, INJECTOR_TOKEN, Inject, Injectable, Injector } from '@opensumi/di';
-import { AppConfig, DisposableCollection } from '@opensumi/ide-core-browser';
-import { Deferred, DisposableStore, ILogger, OnEvent, WithEventBus, uuid } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired, INJECTOR_TOKEN, Inject, Injectable, Injector } from '@Nuvio-MCP/di';
+import { AppConfig, DisposableCollection } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, DisposableStore, ILogger, OnEvent, WithEventBus, uuid } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 import {
   EditorDocumentModelCreationEvent,
   EditorDocumentModelRemovalEvent,
   EditorGroupCloseEvent,
   EditorGroupOpenEvent,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import { FileChangeEvent, FileChangeType, IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { ICodeEditor, ITextModel } from '@opensumi/ide-monaco';
-import { ICSSStyleService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import { FileChangeEvent, FileChangeType, IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { ICodeEditor, ITextModel } from '@Nuvio-MCP/ide-monaco';
+import { ICSSStyleService } from '@Nuvio-MCP/ide-theme';
 
 import {
   CollaborationModuleContribution,

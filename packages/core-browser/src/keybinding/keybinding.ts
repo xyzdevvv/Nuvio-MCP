@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandRegistry,
   CommandService,
@@ -11,8 +11,8 @@ import {
   formatLocalize,
   isOSX,
   isUndefined,
-} from '@opensumi/ide-core-common';
-import { ContextKeyExpression } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+} from '@Nuvio-MCP/ide-core-common';
+import { ContextKeyExpression } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import { IContextKeyService } from '../context-key';
 import { KeyboardLayoutService } from '../keyboard/keyboard-layout-service';

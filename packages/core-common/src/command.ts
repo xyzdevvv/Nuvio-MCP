@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Emitter, Event, IDisposable, MaybePromise } from '@opensumi/ide-utils';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event, IDisposable, MaybePromise } from '@Nuvio-MCP/ide-utils';
 
 import { ContributionProvider } from './contribution-provider';
 import { ILocalizedStr, createLocalizedStr, replaceLocalizePlaceholder } from './localize';

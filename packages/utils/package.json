@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-utils",
+  "name": "@Nuvio-MCP/ide-utils",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
     "iconv-lite": "^0.6.3",
@@ -23,6 +23,6 @@
     "vscode-uri": "3.0.2"
   },
   "devDependencies": {
-    "@opensumi/ide-dev-tool": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*"
   }
 }

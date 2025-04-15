@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { KeybindingRegistry, Logger } from '@opensumi/ide-core-browser';
-import { AI_INLINE_CHAT_INTERACTIVE_INPUT_VISIBLE } from '@opensumi/ide-core-browser/lib/ai-native/command';
-import { AIActionItem } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { Disposable, Event, IDisposable, formatLocalize, isUndefined } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { KeybindingRegistry, Logger } from '@Nuvio-MCP/ide-core-browser';
+import { AI_INLINE_CHAT_INTERACTIVE_INPUT_VISIBLE } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
+import { AIActionItem } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { Disposable, Event, IDisposable, formatLocalize, isUndefined } from '@Nuvio-MCP/ide-core-common';
 
 import { CodeActionService } from '../../contrib/code-action/code-action.service';
 import {

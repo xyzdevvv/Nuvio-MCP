@@ -1,13 +1,13 @@
-import { OpenSumiApp } from './app';
-import { OPENSUMI_VIEW_CONTAINERS } from './constans';
-import { OpenSumiTreeNode } from './tree-node';
-import { OpenSumiView } from './view';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCP_VIEW_CONTAINERS } from './constans';
+import { Nuvio-MCPTreeNode } from './tree-node';
+import { Nuvio-MCPView } from './view';
 
-export class OpenSumiEditor extends OpenSumiView {
-  constructor(app: OpenSumiApp, private readonly filestatElement?: OpenSumiTreeNode) {
+export class Nuvio-MCPEditor extends Nuvio-MCPView {
+  constructor(app: Nuvio-MCPApp, private readonly filestatElement?: Nuvio-MCPTreeNode) {
     super(app, {
-      tabSelector: `#${OPENSUMI_VIEW_CONTAINERS.EDITOR_TABS}`,
-      viewSelector: `#${OPENSUMI_VIEW_CONTAINERS.EDITOR}`,
+      tabSelector: `#${Nuvio-MCP_VIEW_CONTAINERS.EDITOR_TABS}`,
+      viewSelector: `#${Nuvio-MCP_VIEW_CONTAINERS.EDITOR}`,
       name: 'Editor',
     });
   }

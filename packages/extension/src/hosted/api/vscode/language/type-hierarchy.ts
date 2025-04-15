@@ -1,5 +1,5 @@
-import { CancellationToken, Uri } from '@opensumi/ide-core-common';
-import { IdGenerator } from '@opensumi/ide-core-common/lib/id-generator';
+import { CancellationToken, Uri } from '@Nuvio-MCP/ide-core-common';
+import { IdGenerator } from '@Nuvio-MCP/ide-core-common/lib/id-generator';
 
 import { ExtensionDocumentDataManager } from '../../../../common/vscode';
 import * as Converter from '../../../../common/vscode/converter';

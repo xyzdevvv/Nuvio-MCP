@@ -3,7 +3,7 @@ import { generateSerializer } from '@furyjs/fury/dist/lib/gen';
 import { PlatformBuffer } from '@furyjs/fury/dist/lib/platformBuffer';
 import { BinaryReader, BinaryWriter } from '@furyjs/fury/dist/lib/type';
 
-import { parseError, stringifyError } from '@opensumi/ide-core-common/lib/utils';
+import { parseError, stringifyError } from '@Nuvio-MCP/ide-core-common/lib/utils';
 
 import { AnySerializer, IObjectTransfer } from '../fury-extends/any';
 import { furyFactory } from '../fury-extends/shared';

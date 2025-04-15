@@ -6,17 +6,17 @@ import {
   PreferenceScope,
   PreferenceService,
   URI,
-} from '@opensumi/ide-core-browser';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { PreferenceSettingId } from '@opensumi/ide-preferences';
-import { PREFERENCE_COMMANDS } from '@opensumi/ide-preferences/lib/browser/preference-contribution';
+} from '@Nuvio-MCP/ide-core-browser';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { PreferenceSettingId } from '@Nuvio-MCP/ide-preferences';
+import { PREFERENCE_COMMANDS } from '@Nuvio-MCP/ide-preferences/lib/browser/preference-contribution';
 import {
   PreferenceSettingsService,
   defaultSettingGroup,
   defaultSettingSections,
-} from '@opensumi/ide-preferences/lib/browser/preference-settings.service';
+} from '@Nuvio-MCP/ide-preferences/lib/browser/preference-settings.service';
 
 describe('PreferenceSettingService should be work', () => {
   let injector: MockInjector;

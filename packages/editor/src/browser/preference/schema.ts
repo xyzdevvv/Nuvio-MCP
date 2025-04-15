@@ -5,7 +5,7 @@ import {
   isLinux,
   isOSX,
   localize,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { ShowLightbulbIconMode } from '../types';
 

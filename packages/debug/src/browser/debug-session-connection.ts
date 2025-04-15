@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { BaseConnection } from '@opensumi/ide-connection/lib/common/connection';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { BaseConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
 import {
   Deferred,
   Disposable,
@@ -8,10 +8,10 @@ import {
   Event,
   IDisposable,
   getDebugLogger,
-} from '@opensumi/ide-core-browser';
-import { CancellationToken, MaybePromise } from '@opensumi/ide-core-common';
-import { OutputChannel } from '@opensumi/ide-output/lib/browser/output.channel';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CancellationToken, MaybePromise } from '@Nuvio-MCP/ide-core-common';
+import { OutputChannel } from '@Nuvio-MCP/ide-output/lib/browser/output.channel';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import {
   DEBUG_REPORT_NAME,

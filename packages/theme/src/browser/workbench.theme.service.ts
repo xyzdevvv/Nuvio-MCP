@@ -1,10 +1,10 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   IPreferenceSettingsService,
   Logger,
   PreferenceSchemaProvider,
   PreferenceService,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   AppLifeCycleServiceToken,
   ContributionProvider,
@@ -27,7 +27,7 @@ import {
   isWindows,
   localize,
   uuid,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { ICSSStyleService, ThemeContributionProvider } from '../common';
 import { Color } from '../common/color';

@@ -1,6 +1,6 @@
-import { MaybePromise, URI } from '@opensumi/ide-core-common';
+import { MaybePromise, URI } from '@Nuvio-MCP/ide-core-common';
 
-import type { IModelContentChange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/textModelEvents';
+import type { IModelContentChange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/textModelEvents';
 
 interface IDocBasicCacheData {
   path: string;

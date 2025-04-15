@@ -7,8 +7,8 @@ import {
   SCM_COMMANDS,
   URI,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { MergeActions } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/components/merge-actions';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MergeActions } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/components/merge-actions';
 
 import { useMergeConflictModel } from '../merge-conflict/merge-conflict.model';
 import { MergeConflictService } from '../merge-conflict/merge-conflict.service';

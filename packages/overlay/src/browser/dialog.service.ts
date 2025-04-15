@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Deferred, Emitter, MessageType } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Deferred, Emitter, MessageType } from '@Nuvio-MCP/ide-core-common';
 
 import { AbstractMessageService, IDialogService, Icon, OpenMessageOptions } from '../common';
 

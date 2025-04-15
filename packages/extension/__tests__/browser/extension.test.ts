@@ -1,7 +1,7 @@
 import paths from 'path';
 
-import { URI, Uri, getLanguageId, setLanguageId } from '@opensumi/ide-core-browser';
-import { StaticResourceService } from '@opensumi/ide-core-browser/lib/static-resource';
+import { URI, Uri, getLanguageId, setLanguageId } from '@Nuvio-MCP/ide-core-browser';
+import { StaticResourceService } from '@Nuvio-MCP/ide-core-browser/lib/static-resource';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';
@@ -10,7 +10,7 @@ import { ExtensionServiceImpl } from '../../src/browser/extension.service';
 import { IExtensionMetaData } from '../../src/common';
 import { ExtensionService } from '../../src/common';
 
-import '@opensumi/ide-i18n';
+import '@Nuvio-MCP/ide-i18n';
 
 const mockExtension: IExtensionMetaData = {
   id: 'test.sumi-extension',

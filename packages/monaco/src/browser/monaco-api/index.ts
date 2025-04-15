@@ -2,7 +2,7 @@ import {
   EditorAutoIndentStrategy,
   EditorOptions,
   WrappingIndent,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
 
 import { createMonacoEditorApi } from './editor';
 import { createMonacoLanguageApi } from './languages';
@@ -19,8 +19,8 @@ export const monaco = Object.freeze({
 
 export const monacoApi = monaco;
 
-export { URI } from '@opensumi/monaco-editor-core/esm/vs/base/common/uri';
+export { URI } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/uri';
 export {
   ResourceEdit,
   IBulkEditResult,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';

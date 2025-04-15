@@ -1,4 +1,4 @@
-import * as monaco from '@opensumi/ide-monaco';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { IIntelligentCompletionsResult } from '../../intelligent-completions';
 

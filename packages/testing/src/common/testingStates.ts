@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { parseMarkdown } from '@opensumi/ide-components/lib/utils';
-import { strings } from '@opensumi/ide-core-common';
+import { parseMarkdown } from '@Nuvio-MCP/ide-components/lib/utils';
+import { strings } from '@Nuvio-MCP/ide-core-common';
 
 import { ITestErrorMessage, TestResultState } from './testCollection';
 

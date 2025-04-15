@@ -1,4 +1,4 @@
-import { DisposableCollection, Emitter, Event, IAsyncResult } from '@opensumi/ide-utils';
+import { DisposableCollection, Emitter, Event, IAsyncResult } from '@Nuvio-MCP/ide-utils';
 
 import { ProxiedInputProp, bindInputElement } from '../../input';
 import { createMarkedRenderer, toMarkdownHtml } from '../../utils';

@@ -1,9 +1,9 @@
 import cls from 'classnames';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, IEventBus, IMarkdownString, URI } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { IThemeService } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, IEventBus, IMarkdownString, URI } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { IDecorationApplyOptions, IDecorationRenderOptions } from '../common';
 
@@ -16,7 +16,7 @@ import {
   IThemedCssStyle,
 } from './types';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 @Injectable({ multiple: true })
 export class MonacoEditorDecorationApplier extends Disposable {

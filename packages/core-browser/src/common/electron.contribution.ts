@@ -1,5 +1,5 @@
-import { Autowired } from '@opensumi/di';
-import { Domain, localize } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { IMenuRegistry, MenuContribution } from '../menu/next/base';
 import { MenuId } from '../menu/next/menu-id';

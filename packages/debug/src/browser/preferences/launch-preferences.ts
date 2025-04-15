@@ -1,4 +1,4 @@
-import { PreferenceSchema } from '@opensumi/ide-core-browser';
+import { PreferenceSchema } from '@Nuvio-MCP/ide-core-browser';
 
 import { launchSchemaUri } from '../../common';
 

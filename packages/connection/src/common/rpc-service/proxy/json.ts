@@ -3,7 +3,7 @@ import { METHOD_NOT_REGISTERED } from '../../constants';
 
 import { ProxyBase } from './base';
 
-import type { MessageConnection } from '@opensumi/vscode-jsonrpc';
+import type { MessageConnection } from '@Nuvio-MCP/vscode-jsonrpc';
 
 interface IRPCResult {
   error: boolean;

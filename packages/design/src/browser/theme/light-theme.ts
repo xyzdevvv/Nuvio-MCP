@@ -1,4 +1,4 @@
-import { BuiltinTheme } from '@opensumi/ide-theme';
+import { BuiltinTheme } from '@Nuvio-MCP/ide-theme';
 
 export default {
   tokenColors: [
@@ -821,6 +821,6 @@ export default {
   designThemeType: 'design-light',
   inherit: true,
   hasDefaultTokens: false,
-  id: 'opensumi-design-light-theme',
-  name: 'OpenSumi Design Light+ (default light)',
+  id: 'Nuvio-MCP-design-light-theme',
+  name: 'Nuvio-MCP Design Light+ (default light)',
 };

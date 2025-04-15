@@ -1,6 +1,6 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
-import { IStatusBarService } from '@opensumi/ide-core-browser/lib/services';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
+import { IStatusBarService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 
 import { StatusBarContribution } from './status-bar.contribution';
 // import { IStatusBarService } from '../common';

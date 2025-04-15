@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   CommandService,
@@ -13,25 +13,25 @@ import {
   ServiceNames,
   WithEventBus,
   formatLocalize,
-} from '@opensumi/ide-core-browser';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import * as monaco from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 import {
   CodeActionItem,
   CodeActionKind,
   CodeActionTriggerSource,
-} from '@opensumi/ide-monaco/lib/browser/contrib/codeAction';
-import { ResourceEdit } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { ITextModel } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
-import { Selection } from '@opensumi/monaco-editor-core';
-import { IActiveCodeEditor } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { ICodeEditorService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/codeEditorService';
-import { EditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/editOperation';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import * as languages from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import { CodeActionProvider } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import { getCodeActions } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/codeAction';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/codeAction';
+import { ResourceEdit } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
+import { Selection } from '@Nuvio-MCP/monaco-editor-core';
+import { IActiveCodeEditor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { ICodeEditorService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/codeEditorService';
+import { EditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/editOperation';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import * as languages from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import { CodeActionProvider } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import { getCodeActions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/codeAction';
 
 import { MonacoCodeService } from '../editor.override';
 import { SaveReason } from '../types';

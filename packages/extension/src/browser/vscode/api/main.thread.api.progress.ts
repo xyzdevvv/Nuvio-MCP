@@ -1,13 +1,13 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
 import {
   IProgress,
   IProgressNotificationOptions,
   IProgressOptions,
   IProgressStep,
   ProgressLocation,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IExtension } from '../../../common';
 import { ExtHostAPIIdentifier } from '../../../common/vscode';

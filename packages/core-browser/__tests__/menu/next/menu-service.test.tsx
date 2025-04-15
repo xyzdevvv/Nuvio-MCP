@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Injector } from '@opensumi/di';
-import { Command } from '@opensumi/ide-core-common';
-import { CommandRegistry, CoreCommandRegistryImpl, DisposableStore } from '@opensumi/ide-core-common';
+import { Injector } from '@Nuvio-MCP/di';
+import { Command } from '@Nuvio-MCP/ide-core-common';
+import { CommandRegistry, CoreCommandRegistryImpl, DisposableStore } from '@Nuvio-MCP/ide-core-common';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

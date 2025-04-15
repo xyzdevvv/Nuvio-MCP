@@ -2,15 +2,15 @@ import cls from 'classnames';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 
-import { ComponentContextProvider, IIconResourceOptions, IconContext } from '@opensumi/ide-components';
+import { ComponentContextProvider, IIconResourceOptions, IconContext } from '@Nuvio-MCP/ide-components';
 import {
   DisposableCollection,
   LabelService,
   TComponentCDNType,
   getCDNHref as getCDNHrefRaw,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { ExtensionBrowserStyleSheet, URI, localize } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ExtensionBrowserStyleSheet, URI, localize } from '@Nuvio-MCP/ide-core-common';
 import {
   IIconService,
   IProductIconService,
@@ -18,7 +18,7 @@ import {
   PRODUCT_ICON_STYLE_ID,
   ThemeType,
   getThemeTypeSelector,
-} from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-theme';
 
 import { IExtension } from '../common';
 import { AbstractViewExtProcessService } from '../common/extension.service';
@@ -70,7 +70,7 @@ function useMutationObserver(from: HTMLHeadElement, target: HTMLHeadElement) {
   };
 }
 
-const packageName = '@opensumi/ide-components';
+const packageName = '@Nuvio-MCP/ide-components';
 
 function getCDNHref(filePath: string, version: string, cdnType: TComponentCDNType = 'alipay') {
   return getCDNHrefRaw(packageName, filePath, version, cdnType);

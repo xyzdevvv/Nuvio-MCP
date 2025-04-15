@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useCallback } from 'react';
 
-import { INJECTOR_TOKEN, Injector } from '@opensumi/di';
+import { INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   ComponentRegistryInfo,
@@ -12,12 +12,12 @@ import {
   useDesignStyles,
   useInjectable,
   useViewState,
-} from '@opensumi/ide-core-browser';
-import { InlineActionBar, InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { ProgressBar } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
+} from '@Nuvio-MCP/ide-core-browser';
+import { InlineActionBar, InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { ProgressBar } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
 
 import { AccordionService, AccordionServiceFactory } from '../accordion/accordion.service';
 import { AccordionContainer } from '../accordion/accordion.view';

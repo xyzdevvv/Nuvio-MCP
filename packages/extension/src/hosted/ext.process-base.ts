@@ -1,9 +1,9 @@
 import net from 'net';
 import { performance } from 'perf_hooks';
 
-import { Injector } from '@opensumi/di';
-import { SumiConnectionMultiplexer, createExtMessageIO } from '@opensumi/ide-connection';
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
+import { Injector } from '@Nuvio-MCP/di';
+import { SumiConnectionMultiplexer, createExtMessageIO } from '@Nuvio-MCP/ide-connection';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
 import {
   CommonProcessReporter,
   Emitter,
@@ -12,9 +12,9 @@ import {
   isPromiseCanceledError,
   locale,
   setLanguageId,
-} from '@opensumi/ide-core-common';
-import { suppressNodeJSEpipeError } from '@opensumi/ide-core-common/lib/node';
-import { argv } from '@opensumi/ide-core-common/lib/node/cli';
+} from '@Nuvio-MCP/ide-core-common';
+import { suppressNodeJSEpipeError } from '@Nuvio-MCP/ide-core-common/lib/node';
+import { argv } from '@Nuvio-MCP/ide-core-common/lib/node/cli';
 
 import { IExtensionHostService, KT_APP_CONFIG_KEY, KT_PROCESS_SOCK_OPTION_KEY, ProcessMessageType } from '../common';
 import { ExtHostAppConfig, ExtProcessConfig } from '../common/ext.process';
@@ -23,7 +23,7 @@ import { knownProtocols } from '../common/vscode/protocols';
 import { setPerformance } from './api/vscode/language/util';
 import { ExtensionLogger2 } from './extension-log2';
 
-import '@opensumi/ide-i18n';
+import '@Nuvio-MCP/ide-i18n';
 
 setPerformance(performance);
 

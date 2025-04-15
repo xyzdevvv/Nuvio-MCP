@@ -1,5 +1,5 @@
-import { IClipboardService, URI } from '@opensumi/ide-core-common';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
+import { IClipboardService, URI } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { createBrowserInjector } from '../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../tools/dev-tool/src/mock-injector';

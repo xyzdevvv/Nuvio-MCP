@@ -1,6 +1,6 @@
-import { Disposable, DisposableCollection, Emitter, Event } from '@opensumi/ide-core-common';
-import { DebugStreamConnection, getSequenceId } from '@opensumi/ide-debug';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+import { Disposable, DisposableCollection, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { DebugStreamConnection, getSequenceId } from '@Nuvio-MCP/ide-debug';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { ExtensionConnection } from '../../../../common/vscode';
 

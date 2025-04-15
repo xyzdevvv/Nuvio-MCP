@@ -2,8 +2,8 @@ import { CaretDownOutlined, CaretRightOutlined } from '@ant-design/icons';
 import { ConfigProvider, Empty, Popconfirm, message, theme } from 'antd';
 import React, { useEffect, useState } from 'react';
 
-import { localize, useInjectable } from '@opensumi/ide-core-browser';
-import { IThemeService } from '@opensumi/ide-theme/lib/common';
+import { localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IThemeService } from '@Nuvio-MCP/ide-theme/lib/common';
 
 import {
   LibroPanelCollapseItem,

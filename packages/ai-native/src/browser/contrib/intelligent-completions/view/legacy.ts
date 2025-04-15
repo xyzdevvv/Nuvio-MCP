@@ -1,6 +1,6 @@
-import { IRange, ITextModel, Range } from '@opensumi/ide-monaco';
-import { Event } from '@opensumi/ide-utils';
-import { empty } from '@opensumi/ide-utils/lib/strings';
+import { IRange, ITextModel, Range } from '@Nuvio-MCP/ide-monaco';
+import { Event } from '@Nuvio-MCP/ide-utils';
+import { empty } from '@Nuvio-MCP/ide-utils/lib/strings';
 
 import { REWRITE_DECORATION_INLINE_ADD, RewriteWidget } from '../../../widget/rewrite/rewrite-widget';
 import { AdditionsDeletionsDecorationModel } from '../decoration/additions-deletions.decoration';

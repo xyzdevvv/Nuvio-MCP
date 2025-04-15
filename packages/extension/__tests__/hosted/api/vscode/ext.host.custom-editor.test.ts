@@ -1,10 +1,10 @@
-import { CancellationTokenSource, Emitter, Uri } from '@opensumi/ide-core-common';
-import { URI } from '@opensumi/ide-core-common';
+import { CancellationTokenSource, Emitter, Uri } from '@Nuvio-MCP/ide-core-common';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 import {
   ExtHostAPIIdentifier,
   ExtensionDocumentDataManager,
   MainThreadAPIIdentifier,
-} from '@opensumi/ide-extension/lib/common/vscode';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode';
 import {
   CustomDocument,
   CustomDocumentContentChangeEvent,
@@ -13,9 +13,9 @@ import {
   CustomEditorType,
   CustomTextEditorProvider,
   IMainThreadCustomEditor,
-} from '@opensumi/ide-extension/lib/common/vscode/custom-editor';
-import { ExtHostWebviewService } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.api.webview';
-import { ExtHostCustomEditorImpl } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.custom-editor';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode/custom-editor';
+import { ExtHostWebviewService } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.api.webview';
+import { ExtHostCustomEditorImpl } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.custom-editor';
 
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
 import { createMockPairRPCProtocol } from '../../../../__mocks__/initRPCProtocol';

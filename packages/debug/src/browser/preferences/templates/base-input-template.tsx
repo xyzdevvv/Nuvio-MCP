@@ -10,7 +10,7 @@ import {
 } from '@rjsf/utils';
 import React, { ChangeEvent, FocusEvent } from 'react';
 
-import { Input } from '@opensumi/ide-components';
+import { Input } from '@Nuvio-MCP/ide-components';
 
 const INPUT_STYLE = {
   width: '100%',

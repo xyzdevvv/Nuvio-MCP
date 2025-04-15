@@ -1,6 +1,6 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { AbstractMenuService, IMenu, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { Disposable, memoize } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { AbstractMenuService, IMenu, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { Disposable, memoize } from '@Nuvio-MCP/ide-core-common';
 
 import { ICommentsService } from '../common';
 

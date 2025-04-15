@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CancellationToken, Emitter, Event, IDisposable, IExtensionInfo, MessageType } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CancellationToken, Emitter, Event, IDisposable, IExtensionInfo, MessageType } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ICreateOutputChannelOptions,

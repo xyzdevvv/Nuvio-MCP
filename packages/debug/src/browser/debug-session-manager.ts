@@ -15,7 +15,7 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/debug/src/browser/debug-session-manager.ts
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   COMMON_COMMANDS,
   CommandService,
@@ -31,12 +31,12 @@ import {
   formatLocalize,
   localize,
   uuid,
-} from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { ITaskService } from '@opensumi/ide-task/lib/common';
-import { IVariableResolverService } from '@opensumi/ide-variable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { ITaskService } from '@Nuvio-MCP/ide-task/lib/common';
+import { IVariableResolverService } from '@Nuvio-MCP/ide-variable';
 
 import {
   CONTEXT_DEBUG_STOPPED_KEY,

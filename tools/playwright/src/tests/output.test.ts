@@ -2,29 +2,29 @@ import path from 'path';
 
 import { expect } from '@playwright/test';
 
-import { OpenSumiApp } from '../app';
-import { OpenSumiExplorerView } from '../explorer-view';
-import { OpenSumiFileTreeView } from '../filetree-view';
-import { OpenSumiOutputView } from '../output-view';
+import { Nuvio-MCPApp } from '../app';
+import { Nuvio-MCPExplorerView } from '../explorer-view';
+import { Nuvio-MCPFileTreeView } from '../filetree-view';
+import { Nuvio-MCPOutputView } from '../output-view';
 import { keypressWithCmdCtrl } from '../utils/key';
-import { OpenSumiWorkspace } from '../workspace';
+import { Nuvio-MCPWorkspace } from '../workspace';
 
 import test, { page } from './hooks';
 
-let app: OpenSumiApp;
-let explorer: OpenSumiExplorerView;
-let fileTreeView: OpenSumiFileTreeView;
-let workspace: OpenSumiWorkspace;
-let output: OpenSumiOutputView;
+let app: Nuvio-MCPApp;
+let explorer: Nuvio-MCPExplorerView;
+let fileTreeView: Nuvio-MCPFileTreeView;
+let workspace: Nuvio-MCPWorkspace;
+let output: Nuvio-MCPOutputView;
 
-test.describe('OpenSumi Output View', () => {
+test.describe('Nuvio-MCP Output View', () => {
   test.beforeAll(async () => {
-    workspace = new OpenSumiWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/language')]);
-    app = await OpenSumiApp.load(page, workspace);
-    explorer = await app.open(OpenSumiExplorerView);
+    workspace = new Nuvio-MCPWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/language')]);
+    app = await Nuvio-MCPApp.load(page, workspace);
+    explorer = await app.open(Nuvio-MCPExplorerView);
     explorer.initFileTreeView(workspace.workspace.displayName);
     fileTreeView = explorer.fileTreeView;
-    output = await app.open(OpenSumiOutputView);
+    output = await app.open(Nuvio-MCPOutputView);
   });
 
   test.afterAll(() => {

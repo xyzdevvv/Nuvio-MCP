@@ -1,7 +1,7 @@
 import crypto from 'crypto';
 
-import { Injectable } from '@opensumi/di';
-import { INativeCryptoService } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { INativeCryptoService } from '@Nuvio-MCP/ide-core-common';
 
 @Injectable()
 export class CryptoService implements INativeCryptoService {

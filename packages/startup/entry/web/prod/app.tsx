@@ -1,4 +1,4 @@
-import { AIModules } from '@opensumi/ide-startup/lib/browser/common-modules';
+import { AIModules } from '@Nuvio-MCP/ide-startup/lib/browser/common-modules';
 
 import { getDefaultClientAppOpts, renderApp } from '../render-app';
 

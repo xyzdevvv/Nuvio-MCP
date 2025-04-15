@@ -1,6 +1,6 @@
-const VIEW_CONTAINERS_PREFIX = 'opensumi';
+const VIEW_CONTAINERS_PREFIX = 'Nuvio-MCP';
 
-export namespace OPENSUMI_VIEW_CONTAINERS {
+export namespace Nuvio-MCP_VIEW_CONTAINERS {
   export const LEFT_TABBAR_PANEL = `${VIEW_CONTAINERS_PREFIX}-left-tabbar-panel`;
   export const LEFT_TABBAR = `${VIEW_CONTAINERS_PREFIX}-left-tabbar`;
   export const RIGHT_TABBAR_PANEL = `${VIEW_CONTAINERS_PREFIX}-right-tabbar-panel`;

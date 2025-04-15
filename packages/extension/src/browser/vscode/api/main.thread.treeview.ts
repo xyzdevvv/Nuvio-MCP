@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { CompositeTreeNode, ITreeNodeOrCompositeTreeNode, Tree } from '@opensumi/ide-components';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { CompositeTreeNode, ITreeNodeOrCompositeTreeNode, Tree } from '@Nuvio-MCP/ide-components';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   BinaryBuffer,
   CancellationToken,
@@ -20,18 +20,18 @@ import {
   isUndefined,
   localize,
   toDisposable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   AbstractMenuService,
   IMenuRegistry,
   MenuId,
   MenuNode,
   generateCtxMenu,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IMainLayoutService, ViewCollapseChangedEvent } from '@opensumi/ide-main-layout';
-import { IIconService, IThemeService, IconType } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IMainLayoutService, ViewCollapseChangedEvent } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService, IThemeService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { ExtensionHostType } from '../../../common';
 import {

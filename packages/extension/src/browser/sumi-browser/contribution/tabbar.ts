@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { getIcon } from '@opensumi/ide-core-browser';
-import { Disposable, IDisposable } from '@opensumi/ide-core-common';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IIconService } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { getIcon } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
 
 import { AbstractSumiBrowserContributionRunner, IRunTimeParams, ITabBarViewContribution } from '../types';
 

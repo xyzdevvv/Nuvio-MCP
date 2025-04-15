@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, URI, Uri } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, URI, Uri } from '@Nuvio-MCP/ide-core-browser';
 
 import { AbstractHttpFileService } from './browser-fs-provider';
 

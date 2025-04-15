@@ -1,4 +1,4 @@
-import { ConstructorOf, Inject, Injector, Token, markInjectable, setParameters } from '@opensumi/di';
+import { ConstructorOf, Inject, Injector, Token, markInjectable, setParameters } from '@Nuvio-MCP/di';
 
 import { RPCProtocol } from '../types/rpc';
 

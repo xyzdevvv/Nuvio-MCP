@@ -1,4 +1,4 @@
-import { isIterable } from '@opensumi/ide-utils';
+import { isIterable } from '@Nuvio-MCP/ide-utils';
 
 export type Query = Record<any, any>;
 export type Store<T> = Iterable<T> | Record<any, T> | Map<any, T>;

@@ -1,1 +1,1 @@
-export { getWorkerBootstrapUrl } from '@opensumi/ide-core-browser';
+export { getWorkerBootstrapUrl } from '@Nuvio-MCP/ide-core-browser';

@@ -1,6 +1,6 @@
 import { userInfo } from 'os';
 
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   CancellationTokenSource,
   Deferred,
@@ -12,7 +12,7 @@ import {
   MultiKeyMap,
   isUndefined,
   uuid,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   ICreateContributedTerminalProfileOptions,
   ITerminalChildProcess,
@@ -25,11 +25,11 @@ import {
   ITerminalProfile,
   TERMINAL_ID_SEPARATOR,
   TerminalDataBufferer,
-} from '@opensumi/ide-terminal-next';
+} from '@Nuvio-MCP/ide-terminal-next';
 import {
   EnvironmentVariableMutatorType,
   ISerializableEnvironmentVariableCollection,
-} from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
+} from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
 
 import { IExtension, NO_ROOT_URI } from '../../../common';
 import {
@@ -141,7 +141,7 @@ export class ExtHostTerminal implements IExtHostTerminal {
       return;
     }
 
-    // 目前 OpenSumi 不是很好打通完整的 Terminal 关闭原因，先用 Unknown 打通接口
+    // 目前 Nuvio-MCP 不是很好打通完整的 Terminal 关闭原因，先用 Unknown 打通接口
     terminal.setExitStatus(e.code, TerminalExitReason.Unknown);
     this.closeTerminalEvent.fire(terminal);
 

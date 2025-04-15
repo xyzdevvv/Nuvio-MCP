@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-monaco",
+  "name": "@Nuvio-MCP/ide-monaco",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -15,17 +15,17 @@
     "build:worker": "../../node_modules/.bin/webpack --config webpack.config.js"
   },
   "dependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-overlay": "workspace:*",
-    "@opensumi/ide-theme": "workspace:*",
-    "@opensumi/ide-utils": "workspace:*",
-    "@opensumi/monaco-editor-core": "0.54.0-patch.2"
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-overlay": "workspace:*",
+    "@Nuvio-MCP/ide-theme": "workspace:*",
+    "@Nuvio-MCP/ide-utils": "workspace:*",
+    "@Nuvio-MCP/monaco-editor-core": "0.54.0-patch.2"
   },
   "devDependencies": {
-    "@opensumi/ide-dev-tool": "workspace:*",
-    "@opensumi/ide-file-service": "workspace:*",
-    "@opensumi/ide-workspace": "workspace:*"
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*",
+    "@Nuvio-MCP/ide-file-service": "workspace:*",
+    "@Nuvio-MCP/ide-workspace": "workspace:*"
   }
 }

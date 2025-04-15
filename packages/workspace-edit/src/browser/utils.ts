@@ -1,10 +1,10 @@
-import { isObject } from '@opensumi/ide-core-common';
-import { Uri } from '@opensumi/ide-monaco';
+import { isObject } from '@Nuvio-MCP/ide-core-common';
+import { Uri } from '@Nuvio-MCP/ide-monaco';
 
 import type {
   ResourceFileEdit,
   ResourceTextEdit,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
 
 export function isResourceFileEdit(thing: any): thing is ResourceFileEdit {
   return isObject(thing) && (Boolean(thing.newResource) || Boolean(thing.oldResource));

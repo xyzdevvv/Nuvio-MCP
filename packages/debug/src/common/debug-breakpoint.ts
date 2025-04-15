@@ -1,5 +1,5 @@
-import { URI } from '@opensumi/ide-core-common';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 export interface ISourceBreakpoint {
   id: string;

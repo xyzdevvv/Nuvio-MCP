@@ -1,5 +1,5 @@
-import { ServiceRegistry, getServiceMethods } from '@opensumi/ide-connection/src/common/rpc-service/registry';
-import { Deferred } from '@opensumi/ide-core-common';
+import { ServiceRegistry, getServiceMethods } from '@Nuvio-MCP/ide-connection/src/common/rpc-service/registry';
+import { Deferred } from '@Nuvio-MCP/ide-core-common';
 
 describe('registry should work', () => {
   it('can register method properly', async () => {

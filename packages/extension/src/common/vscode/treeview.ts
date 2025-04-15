@@ -1,10 +1,10 @@
-import { BinaryBuffer, Event, IAccessibilityInformation, IDisposable } from '@opensumi/ide-core-common';
-import { ThemeType } from '@opensumi/ide-theme';
+import { BinaryBuffer, Event, IAccessibilityInformation, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { ThemeType } from '@Nuvio-MCP/ide-theme';
 
 import { MarkdownString, ThemeIcon, TreeItemCollapsibleState } from './ext-types';
 import { Command, UriComponents } from './models';
 
-import type { CancellationToken } from '@opensumi/ide-core-common';
+import type { CancellationToken } from '@Nuvio-MCP/ide-core-common';
 import type vscode from 'vscode';
 
 export interface ITreeViewRevealOptions {

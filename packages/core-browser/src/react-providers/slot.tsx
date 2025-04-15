@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { PropsWithChildren } from 'react';
 
-import { Button } from '@opensumi/ide-components';
-import { getDebugLogger, localize } from '@opensumi/ide-core-common';
+import { Button } from '@Nuvio-MCP/ide-components';
+import { getDebugLogger, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { LayoutConfig } from '../bootstrap';
 import { IClientApp } from '../browser-module';

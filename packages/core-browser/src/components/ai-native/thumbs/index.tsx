@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 
-import { localize } from '@opensumi/ide-core-common';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
 import { IAIInlineChatService } from '../../../ai-native';
 import { Popover } from '../../../components';

@@ -1,5 +1,5 @@
-import { Uri } from '@opensumi/ide-core-common';
-import { join } from '@opensumi/ide-utils/lib/path';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
+import { join } from '@Nuvio-MCP/ide-utils/lib/path';
 
 import { IExtendProxy, IExtensionHost, IExtensionProps } from '../../../common';
 import { IExtHostStorage, IExtHostTerminal } from '../../../common/vscode';

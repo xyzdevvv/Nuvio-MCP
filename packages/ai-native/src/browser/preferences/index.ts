@@ -1,4 +1,4 @@
-import { Domain, PreferenceContribution } from '@opensumi/ide-core-browser';
+import { Domain, PreferenceContribution } from '@Nuvio-MCP/ide-core-browser';
 
 import { aiNativePreferenceSchema } from './schema';
 

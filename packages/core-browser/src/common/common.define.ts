@@ -1,4 +1,4 @@
-import { MaybePromise } from '@opensumi/ide-core-common';
+import { MaybePromise } from '@Nuvio-MCP/ide-core-common';
 
 import { IClientApp } from '../browser-module';
 

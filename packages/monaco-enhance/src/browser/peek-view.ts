@@ -1,9 +1,9 @@
-import { getExternalIcon } from '@opensumi/ide-core-browser';
-import { Disposable, Emitter } from '@opensumi/ide-core-common';
+import { getExternalIcon } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import { IOptions, ZoneWidget } from './zone-widget';
 
-import type { ICodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 export interface IPeekViewOptions extends IOptions {
   supportOnTitleClick?: boolean;

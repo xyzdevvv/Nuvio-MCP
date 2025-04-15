@@ -92,7 +92,7 @@ ${draftLog.join('\n')}
 
 ## Others
 
-Release Notes 见：[release-notes/v${version}.md](https://github.com/opensumi/doc/blob/main/release-notes/v${version}.md).
+Release Notes 见：[release-notes/v${version}.md](https://github.com/Nuvio-MCP/doc/blob/main/release-notes/v${version}.md).
 `;
 
   const logFile = path.resolve(__dirname, '../iteration-plan.md');

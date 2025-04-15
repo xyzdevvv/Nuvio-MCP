@@ -1,4 +1,4 @@
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-browser';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-browser';
 
 const MAX_INACTIVITY_COUNT = 30;
 const INACTIVITY_CHECK_INTERVAL = 1000;

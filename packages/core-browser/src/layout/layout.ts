@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { BasicEvent, getDebugLogger } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { BasicEvent, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 import { AppConfig, SlotLocation } from '../react-providers';
 

@@ -1,8 +1,8 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IMarkedOptions, parseMarkdown } from '@opensumi/ide-components/lib/utils';
-import { CancellationToken, Disposable, Event, IDisposable, IOpenerService, URI } from '@opensumi/ide-core-browser';
-import { HttpOpener } from '@opensumi/ide-core-browser/lib/opener/http-opener';
-import { IWebviewService } from '@opensumi/ide-webview';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IMarkedOptions, parseMarkdown } from '@Nuvio-MCP/ide-components/lib/utils';
+import { CancellationToken, Disposable, Event, IDisposable, IOpenerService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { HttpOpener } from '@Nuvio-MCP/ide-core-browser/lib/opener/http-opener';
+import { IWebviewService } from '@Nuvio-MCP/ide-webview';
 
 import { IMarkdownService } from '../common';
 

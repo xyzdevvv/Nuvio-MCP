@@ -1,7 +1,7 @@
 import React, { FC, useCallback, useEffect, useState } from 'react';
 
-import { Button, Dialog as DialogView } from '@opensumi/ide-components';
-import { localize, strings, useInjectable } from '@opensumi/ide-core-browser';
+import { Button, Dialog as DialogView } from '@Nuvio-MCP/ide-components';
+import { localize, strings, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { IDialogService } from '../common';
 

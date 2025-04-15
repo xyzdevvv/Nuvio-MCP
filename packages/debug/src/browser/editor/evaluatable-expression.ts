@@ -1,10 +1,10 @@
-import { Injectable } from '@opensumi/di';
-import { IDisposable } from '@opensumi/ide-core-common';
-import { LanguageFeatureRegistry } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languageFeatureRegistry';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { LanguageFeatureRegistry } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languageFeatureRegistry';
 
 import { EvaluatableExpressionProvider } from '../../common/evaluatable-expression';
 
-import type { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import type { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 interface SerializedDocumentFilter {
   $serialized: true;

@@ -3,7 +3,7 @@ import { dirname, join } from 'path';
 
 import { ensureDir, ensureDirSync } from 'fs-extra';
 
-import { isWindows, uuid } from '@opensumi/ide-utils';
+import { isWindows, uuid } from '@Nuvio-MCP/ide-utils';
 
 export function normalizedIpcHandlerPath(name: string, uuidSuffix = false, ipcPath = tmpdir()) {
   let handler: string;

@@ -1,12 +1,12 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@opensumi/di';
-import { VALIDATE_TYPE } from '@opensumi/ide-components';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable } from '@opensumi/ide-core-browser';
-import { IQuickInputService } from '@opensumi/ide-core-browser/lib/quick-open';
-import { QuickInputOptions, QuickPickItem, QuickPickOptions, QuickPickService } from '@opensumi/ide-quick-open';
-import { QuickOpenItemService } from '@opensumi/ide-quick-open/lib/browser/quick-open-item.service';
-import { QuickTitleBar } from '@opensumi/ide-quick-open/lib/browser/quick-title-bar';
-import { InputBoxImpl } from '@opensumi/ide-quick-open/lib/browser/quickInput.inputBox';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector, Optional } from '@Nuvio-MCP/di';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-components';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable } from '@Nuvio-MCP/ide-core-browser';
+import { IQuickInputService } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { QuickInputOptions, QuickPickItem, QuickPickOptions, QuickPickService } from '@Nuvio-MCP/ide-quick-open';
+import { QuickOpenItemService } from '@Nuvio-MCP/ide-quick-open/lib/browser/quick-open-item.service';
+import { QuickTitleBar } from '@Nuvio-MCP/ide-quick-open/lib/browser/quick-title-bar';
+import { InputBoxImpl } from '@Nuvio-MCP/ide-quick-open/lib/browser/quickInput.inputBox';
 
 import { ExtHostAPIIdentifier, IExtHostQuickOpen, IMainThreadQuickOpen, Severity } from '../../../common/vscode';
 
@@ -68,7 +68,7 @@ export class MainThreadQuickOpen extends Disposable implements IMainThreadQuickO
 
   /**
    * 将插件 severity 转换为前端组件识别的 VALIDATE_TYPE
-   * 由于插件进程不能依赖 @opensumi/ide-components 模块，所以在前端进行转换
+   * 由于插件进程不能依赖 @Nuvio-MCP/ide-components 模块，所以在前端进行转换
    * @param severity
    * @returns
    */

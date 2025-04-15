@@ -1,4 +1,4 @@
-import { Cache, DisposableStore, Uri as URI } from '@opensumi/ide-core-common';
+import { Cache, DisposableStore, Uri as URI } from '@Nuvio-MCP/ide-core-common';
 
 import {
   ExtensionDocumentDataManager,

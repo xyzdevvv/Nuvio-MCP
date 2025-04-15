@@ -1,4 +1,4 @@
-import { parseArgv } from '@opensumi/ide-utils/lib/argv';
+import { parseArgv } from '@Nuvio-MCP/ide-utils/lib/argv';
 
 const argv = parseArgv(process.argv);
 

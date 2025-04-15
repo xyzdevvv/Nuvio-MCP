@@ -1,8 +1,8 @@
 import Parser from 'web-tree-sitter';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import * as monaco from '@opensumi/ide-monaco/lib/common';
-import { Deferred, IDisposable, LRUCache } from '@opensumi/ide-utils';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import * as monaco from '@Nuvio-MCP/ide-monaco/lib/common';
+import { Deferred, IDisposable, LRUCache } from '@Nuvio-MCP/ide-utils';
 
 import { INearestCodeBlock, NearestCodeBlockType } from '../../common/types';
 

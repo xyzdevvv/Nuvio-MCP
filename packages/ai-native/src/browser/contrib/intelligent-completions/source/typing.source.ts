@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { AINativeSettingSectionsId, ECodeEditsSourceTyping, IDisposable } from '@opensumi/ide-core-common';
-import { IModelContentChangedEvent } from '@opensumi/ide-monaco';
+import { Injectable } from '@Nuvio-MCP/di';
+import { AINativeSettingSectionsId, ECodeEditsSourceTyping, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { IModelContentChangedEvent } from '@Nuvio-MCP/ide-monaco';
 
 import { BaseCodeEditsSource } from './base';
 

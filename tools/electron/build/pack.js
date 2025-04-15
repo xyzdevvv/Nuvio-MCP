@@ -10,7 +10,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 electronBuilder.build({
   config: {
-    productName: 'OpenSumi IDE',
+    productName: 'Nuvio-MCP IDE',
     electronVersion: rootPackage.devDependencies.electron,
     files: ['app/dist'],
     extraResources: [
@@ -21,7 +21,7 @@ electronBuilder.build({
       },
     ],
     asar: true,
-    asarUnpack: 'node_modules/@opensumi/vscode-ripgrep',
+    asarUnpack: 'node_modules/@Nuvio-MCP/vscode-ripgrep',
     mac: {
       target: 'dmg',
     },

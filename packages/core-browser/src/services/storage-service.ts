@@ -1,5 +1,5 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { isObject, isUndefinedOrNull, runWhenIdle } from '@opensumi/ide-core-common';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { isObject, isUndefinedOrNull, runWhenIdle } from '@Nuvio-MCP/ide-core-common';
 
 import { Logger } from '../logger';
 import { AppConfig } from '../react-providers/index';

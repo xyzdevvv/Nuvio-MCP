@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { IDisposable } from '@opensumi/ide-core-common';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { fastdom } from '../../dom';
 

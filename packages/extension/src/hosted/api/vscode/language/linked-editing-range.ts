@@ -1,9 +1,9 @@
-import { CancellationToken, IPosition, Uri, arrays, asPromise } from '@opensumi/ide-core-common';
+import { CancellationToken, IPosition, Uri, arrays, asPromise } from '@Nuvio-MCP/ide-core-common';
 
 import { ExtensionDocumentDataManager } from '../../../../common/vscode';
 import * as typeConvert from '../../../../common/vscode/converter';
 
-import type * as modes from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+import type * as modes from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 import type vscode from 'vscode';
 
 const { coalesce } = arrays;

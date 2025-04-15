@@ -1,6 +1,6 @@
 import cls from 'classnames';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   BasicEvent,
   Disposable,
@@ -12,11 +12,11 @@ import {
   URI,
   WithEventBus,
   arrays,
-} from '@opensumi/ide-core-common';
-import { URI as Uri } from '@opensumi/monaco-editor-core/esm/vs/base/common/uri';
-import { ILanguageService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
-import { IModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/model';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-core-common';
+import { URI as Uri } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/uri';
+import { ILanguageService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
+import { IModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/model';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { getIcon } from '../style/icon/icon';
 const { addElement } = arrays;

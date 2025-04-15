@@ -1,7 +1,7 @@
 import React, { FC, useCallback, useEffect, useRef, useState } from 'react';
 
-import { IRecycleTreeHandle, RecycleTree } from '@opensumi/ide-components';
-import { Disposable, ViewState, useInjectable } from '@opensumi/ide-core-browser';
+import { IRecycleTreeHandle, RecycleTree } from '@Nuvio-MCP/ide-components';
+import { Disposable, ViewState, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { IMarkerService } from '../common';
 

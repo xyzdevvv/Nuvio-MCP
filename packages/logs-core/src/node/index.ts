@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { NodeModule } from '@opensumi/ide-core-node';
+import { Injectable } from '@Nuvio-MCP/di';
+import { NodeModule } from '@Nuvio-MCP/ide-core-node';
 
 import { ILogServiceForClient, ILogServiceManager, LogServiceForClientPath } from '../common/';
 

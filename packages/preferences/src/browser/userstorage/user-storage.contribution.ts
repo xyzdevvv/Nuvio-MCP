@@ -1,7 +1,7 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution, Domain, Schemes } from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution, Domain, Schemes } from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
 
 import { IUserStorageService } from '../../common';
 

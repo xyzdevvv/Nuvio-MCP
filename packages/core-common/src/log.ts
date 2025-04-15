@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { Event } from '@opensumi/ide-utils';
+import { Event } from '@Nuvio-MCP/ide-utils';
 
 export enum LogLevel {
   Verbose,

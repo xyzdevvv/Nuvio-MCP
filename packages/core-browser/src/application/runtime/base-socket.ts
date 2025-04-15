@@ -1,8 +1,8 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { WSChannel } from '@opensumi/ide-connection';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { IRuntimeSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { IReporterService, getDebugLogger } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { WSChannel } from '@Nuvio-MCP/ide-connection';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { IRuntimeSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { IReporterService, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 import { ModuleConstructor, createConnectionService } from '../../bootstrap';
 import { AppConfig } from '../../react-providers';

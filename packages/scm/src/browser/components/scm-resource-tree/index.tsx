@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { FC, memo, useCallback, useEffect, useRef, useState } from 'react';
 
-import { IRecycleTreeHandle, RecycleTree, TreeModel, TreeNodeType } from '@opensumi/ide-components';
-import { IDisposable, isOSX, useAutorun } from '@opensumi/ide-core-browser';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
+import { IRecycleTreeHandle, RecycleTree, TreeModel, TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { IDisposable, isOSX, useAutorun } from '@Nuvio-MCP/ide-core-browser';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
 
 import { ViewModelContext } from '../../scm-model';
 

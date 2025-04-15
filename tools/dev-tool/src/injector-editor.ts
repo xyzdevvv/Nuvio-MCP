@@ -1,4 +1,4 @@
-import { MonacoService } from '@opensumi/ide-core-browser/lib/monaco';
+import { MonacoService } from '@Nuvio-MCP/ide-core-browser/lib/monaco';
 import {
   EditorCollectionService,
   EditorComponentRegistry,
@@ -10,19 +10,19 @@ import {
   ILanguageService,
   ResourceService,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorComponentRegistryImpl } from '@opensumi/ide-editor/lib/browser/component';
-import { EditorDocumentModelServiceImpl } from '@opensumi/ide-editor/lib/browser/doc-model/editor-document-model-service';
-import { EditorDocumentModelContentRegistryImpl } from '@opensumi/ide-editor/lib/browser/doc-model/editor-document-registry';
-import { EditorCollectionServiceImpl } from '@opensumi/ide-editor/lib/browser/editor-collection.service';
-import { EditorDecorationCollectionService } from '@opensumi/ide-editor/lib/browser/editor.decoration.service';
-import { EditorFeatureRegistryImpl } from '@opensumi/ide-editor/lib/browser/feature';
-import { LanguageService } from '@opensumi/ide-editor/lib/browser/language/language.service';
-import { ResourceServiceImpl } from '@opensumi/ide-editor/lib/browser/resource.service';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor/lib/common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks/workspace-service';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorComponentRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/component';
+import { EditorDocumentModelServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/editor-document-model-service';
+import { EditorDocumentModelContentRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/editor-document-registry';
+import { EditorCollectionServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/editor-collection.service';
+import { EditorDecorationCollectionService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.decoration.service';
+import { EditorFeatureRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/feature';
+import { LanguageService } from '@Nuvio-MCP/ide-editor/lib/browser/language/language.service';
+import { ResourceServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/resource.service';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor/lib/common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks/workspace-service';
 
 import { TestEditorDocumentProvider } from '../../../packages/editor/__tests__/browser/test-providers';
 import { MockedMonacoService } from '../../../packages/monaco/__mocks__/monaco.service.mock';

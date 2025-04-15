@@ -31,13 +31,13 @@ import {
   getSlotLocation,
   renderView,
   useDesignStyles,
-} from '@opensumi/ide-core-browser';
-import { InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { IMenuRegistry, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { useInjectable, useUpdateOnEventBusEvent } from '@opensumi/ide-core-browser/lib/react-hooks';
-import { formatLocalize } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { IMenuRegistry, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { useInjectable, useUpdateOnEventBusEvent } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
+import { formatLocalize } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IEditorGroup,

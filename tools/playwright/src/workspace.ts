@@ -3,9 +3,9 @@ import path from 'path';
 import fse from 'fs-extra';
 import temp from 'temp';
 
-import { Disposable, URI } from '@opensumi/ide-utils';
+import { Disposable, URI } from '@Nuvio-MCP/ide-utils';
 
-export class OpenSumiWorkspace extends Disposable {
+export class Nuvio-MCPWorkspace extends Disposable {
   private workspacePath: string;
 
   constructor(private filesToWorkspace: string[]) {

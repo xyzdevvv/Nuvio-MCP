@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   Command,
   CommandContribution,
@@ -9,8 +9,8 @@ import {
   OnEvent,
   TerminalClientAttachEvent,
   WithEventBus,
-} from '@opensumi/ide-core-browser';
-import { ITerminalController } from '@opensumi/ide-terminal-next/lib/common/controller';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ITerminalController } from '@Nuvio-MCP/ide-terminal-next/lib/common/controller';
 
 import { ITaskService } from '../common';
 

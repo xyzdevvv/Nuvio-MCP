@@ -1,8 +1,8 @@
-import { Injectable } from '@opensumi/di';
-import { MenuNode } from '@opensumi/ide-core-browser/lib/menu/next/base';
-import { CtxMenuRenderParams } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/base';
-import { IBrowserCtxMenu } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
-import { observableValue, transaction } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+import { Injectable } from '@Nuvio-MCP/di';
+import { MenuNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/base';
+import { CtxMenuRenderParams } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/base';
+import { IBrowserCtxMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
+import { observableValue, transaction } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
 
 @Injectable()
 export class BrowserCtxMenuService implements IBrowserCtxMenu {

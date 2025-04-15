@@ -1,15 +1,15 @@
-import { Emitter, IContextKeyService, IReporterService, LabelService } from '@opensumi/ide-core-browser';
-import { IDebugModelManager, IDebugProgress, IDebugServer, IDebugSessionManager } from '@opensumi/ide-debug';
-import { BreakpointManager } from '@opensumi/ide-debug/lib/browser/breakpoint';
+import { Emitter, IContextKeyService, IReporterService, LabelService } from '@Nuvio-MCP/ide-core-browser';
+import { IDebugModelManager, IDebugProgress, IDebugServer, IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { BreakpointManager } from '@Nuvio-MCP/ide-debug/lib/browser/breakpoint';
 import {
   DebugSessionContributionRegistry,
   DebugSessionFactory,
-} from '@opensumi/ide-debug/lib/browser/debug-session-contribution';
-import { DebugSessionManager } from '@opensumi/ide-debug/lib/browser/debug-session-manager';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { ITaskService } from '@opensumi/ide-task';
-import { IVariableResolverService } from '@opensumi/ide-variable';
+} from '@Nuvio-MCP/ide-debug/lib/browser/debug-session-contribution';
+import { DebugSessionManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-session-manager';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { ITaskService } from '@Nuvio-MCP/ide-task';
+import { IVariableResolverService } from '@Nuvio-MCP/ide-variable';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

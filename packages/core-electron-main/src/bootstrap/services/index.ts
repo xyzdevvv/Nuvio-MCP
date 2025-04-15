@@ -1,4 +1,4 @@
-import { Provider } from '@opensumi/di';
+import { Provider } from '@Nuvio-MCP/di';
 
 import { MenuElectronMainContribution } from './menu';
 import { ProtocolElectronMainContribution } from './protocol';

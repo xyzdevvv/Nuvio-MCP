@@ -1,5 +1,5 @@
 // 输出所有 common 里面会有的内容
-export * from '@opensumi/ide-core-common';
+export * from '@Nuvio-MCP/ide-core-common';
 
 export * from './connection';
 

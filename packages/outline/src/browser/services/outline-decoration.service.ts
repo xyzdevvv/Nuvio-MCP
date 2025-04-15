@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IMarker, MarkerManager, MarkerSeverity, URI } from '@opensumi/ide-core-browser';
-import { IThemeService, listErrorForeground, listWarningForeground } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IMarker, MarkerManager, MarkerSeverity, URI } from '@Nuvio-MCP/ide-core-browser';
+import { IThemeService, listErrorForeground, listWarningForeground } from '@Nuvio-MCP/ide-theme';
 
 import { IOutlineMarker } from '../../common';
 import { OutlineTreeNode } from '../outline-node.define';

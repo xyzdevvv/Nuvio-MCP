@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-comments",
+  "name": "@Nuvio-MCP/ide-comments",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -14,21 +14,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
     "react-mentions": "^4.4.10"
   },
   "devDependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*",
-    "@opensumi/ide-editor": "workspace:*",
-    "@opensumi/ide-main-layout": "workspace:*",
-    "@opensumi/ide-monaco": "workspace:*",
-    "@opensumi/ide-monaco-enhance": "workspace:*",
-    "@opensumi/ide-theme": "workspace:*",
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*",
+    "@Nuvio-MCP/ide-editor": "workspace:*",
+    "@Nuvio-MCP/ide-main-layout": "workspace:*",
+    "@Nuvio-MCP/ide-monaco": "workspace:*",
+    "@Nuvio-MCP/ide-monaco-enhance": "workspace:*",
+    "@Nuvio-MCP/ide-theme": "workspace:*",
     "@types/react-mentions": "^4.1.13"
   }
 }

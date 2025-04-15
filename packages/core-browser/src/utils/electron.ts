@@ -1,6 +1,6 @@
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { IDisposable } from '@opensumi/ide-core-common';
-import { IElectronMainApi } from '@opensumi/ide-core-common/lib/electron';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainApi } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 declare const ElectronIpcRenderer: IElectronIpcRenderer;
 
@@ -21,8 +21,8 @@ interface IPCMessage {
 }
 
 const getCapturer = () => {
-  if (window.__OPENSUMI_DEVTOOLS_GLOBAL_HOOK__?.captureIPC) {
-    return window.__OPENSUMI_DEVTOOLS_GLOBAL_HOOK__.captureIPC;
+  if (window.__Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__?.captureIPC) {
+    return window.__Nuvio-MCP_DEVTOOLS_GLOBAL_HOOK__.captureIPC;
   }
   return;
 };

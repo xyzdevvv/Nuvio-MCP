@@ -1,21 +1,21 @@
 import { LibroSearchToggleCommand, LibroService, LibroView, NotebookCommands } from '@difizen/libro-jupyter/noeditor';
 import { ApplicationContribution, CommandRegistry, inject, singleton } from '@difizen/mana-app';
 
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   IContextKeyService,
   KeybindingRegistry,
   KeybindingScope,
   CommandRegistry as SumiCommandRegistry,
-} from '@opensumi/ide-core-browser';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-browser';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { LIBRO_COMPONENTS_SCHEME_ID } from '../../libro.protocol';
-import { OpensumiInjector } from '../../mana/index';
+import { Nuvio-MCPInjector } from '../../mana/index';
 
 @singleton({ contrib: ApplicationContribution })
 export class Keybindhandler implements ApplicationContribution {
-  @inject(OpensumiInjector) injector: Injector;
+  @inject(Nuvio-MCPInjector) injector: Injector;
   @inject(CommandRegistry) protected readonly commandRegistry: CommandRegistry;
   @inject(LibroService) protected readonly libroService: LibroService;
 

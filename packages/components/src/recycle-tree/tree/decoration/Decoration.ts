@@ -1,4 +1,4 @@
-import { Disposable, Emitter, IDisposable } from '@opensumi/ide-utils';
+import { Disposable, Emitter, IDisposable } from '@Nuvio-MCP/ide-utils';
 
 import { ICompositeTreeNode, ITreeNode } from '../../types';
 import { TreeNode } from '../TreeNode';

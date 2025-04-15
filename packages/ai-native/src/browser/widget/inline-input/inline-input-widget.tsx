@@ -1,10 +1,10 @@
 import React, { ReactNode, useCallback, useEffect, useMemo, useState } from 'react';
 
-import { Injectable } from '@opensumi/di';
-import { AINativeConfigService, useInjectable } from '@opensumi/ide-core-browser';
-import { AIAction, InteractiveInput } from '@opensumi/ide-core-browser/lib/components/ai-native/index';
-import { AIInlineInputChatContentWidgetId, Disposable, Emitter, Event, localize } from '@opensumi/ide-core-common';
-import { ContentWidgetPositionPreference } from '@opensumi/ide-monaco/lib/browser/monaco-exports/editor';
+import { Injectable } from '@Nuvio-MCP/di';
+import { AINativeConfigService, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { AIAction, InteractiveInput } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/index';
+import { AIInlineInputChatContentWidgetId, Disposable, Emitter, Event, localize } from '@Nuvio-MCP/ide-core-common';
+import { ContentWidgetPositionPreference } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-exports/editor';
 
 import { InlineResultAction } from '../inline-actions/result-items/index';
 import { EInlineChatStatus, EResultKind } from '../inline-chat/inline-chat.service';
@@ -12,7 +12,7 @@ import { AIInlineContentWidget } from '../inline-chat/inline-content-widget';
 
 import styles from './inline-input.module.less';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco';
 
 interface IInlineInputWidgetRenderProps {
   defaultValue?: string;

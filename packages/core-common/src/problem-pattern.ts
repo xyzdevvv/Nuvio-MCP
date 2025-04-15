@@ -15,8 +15,8 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/core/src/common/severity.ts
 
-import { Injectable } from '@opensumi/di';
-import { Disposable, DisposableCollection, IDisposable, URI, isArray, isString } from '@opensumi/ide-utils';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable, DisposableCollection, IDisposable, URI, isArray, isString } from '@Nuvio-MCP/ide-utils';
 
 import { ProblemMatcher } from './problem-matcher';
 

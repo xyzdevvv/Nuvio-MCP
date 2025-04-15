@@ -1,11 +1,11 @@
-import { Injectable } from '@opensumi/di';
-import { ContextKeyChangeEvent, IScopedContextKeyService, IContextKey } from '@opensumi/ide-core-browser';
-import { Event, strings } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { ContextKeyChangeEvent, IScopedContextKeyService, IContextKey } from '@Nuvio-MCP/ide-core-browser';
+import { Event, strings } from '@Nuvio-MCP/ide-core-common';
 import {
   ContextKeyExpression,
   ContextKeyValue,
   IContextKeyService,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 const { isFalsyOrWhitespace } = strings;
 class MockKeybindingContextKey<T extends ContextKeyValue> implements IContextKey<T> {

@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
 import {
   CancellationTokenSource,
   Disposable,
@@ -13,16 +13,16 @@ import {
   formatLocalize,
   localize,
   raceCancellation,
-} from '@opensumi/ide-core-common';
-import { FileChangeType, IFileServiceClient } from '@opensumi/ide-file-service';
-import { ResourceEdit } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { IDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-common';
+import { FileChangeType, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { ResourceEdit } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
 import {
   FileOperation,
   IBulkEditServiceShape,
   IWorkspaceFileOperationParticipant,
   IWorkspaceFileService,
-} from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-workspace-edit';
 
 import { ExtHostAPIIdentifier } from '../../../common/vscode';
 import { FileSystemEvents, IExtHostFileSystemEvent } from '../../../common/vscode/file-system';

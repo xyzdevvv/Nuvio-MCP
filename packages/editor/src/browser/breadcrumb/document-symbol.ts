@@ -1,6 +1,6 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   BasicEvent,
   CancellationToken,
@@ -10,9 +10,9 @@ import {
   OnEvent,
   URI,
   WithEventBus,
-} from '@opensumi/ide-core-browser';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { DocumentSymbol, SymbolTag } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/ide-core-browser';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { DocumentSymbol, SymbolTag } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import { WorkbenchEditorService } from '../../common';
 import { EditorDocumentModelContentChangedEvent, IEditorDocumentModelService } from '../doc-model/types';

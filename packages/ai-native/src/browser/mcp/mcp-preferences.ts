@@ -1,5 +1,5 @@
-import { PreferenceSchema } from '@opensumi/ide-core-browser';
-import { CodeSchemaId, IJSONSchema } from '@opensumi/ide-core-common';
+import { PreferenceSchema } from '@Nuvio-MCP/ide-core-browser';
+import { CodeSchemaId, IJSONSchema } from '@Nuvio-MCP/ide-core-common';
 
 export const MCPSchemaUri = `${CodeSchemaId.mcp}/user`;
 

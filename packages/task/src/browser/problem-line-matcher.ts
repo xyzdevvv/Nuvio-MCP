@@ -29,7 +29,7 @@ import {
   URI,
   WatchingPattern,
   isWindows,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 const endOfLine: string = isWindows ? '\r\n' : '\n';
 

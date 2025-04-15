@@ -6,8 +6,8 @@ import * as fse from 'fs-extra';
 import trash from 'trash';
 import writeFileAtomic from 'write-file-atomic';
 
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection';
 import {
   DisposableCollection,
   Emitter,
@@ -25,7 +25,7 @@ import {
   isLinux,
   isUndefined,
   uuid,
-} from '@opensumi/ide-core-node';
+} from '@Nuvio-MCP/ide-core-node';
 
 import {
   DidFilesChangedParams,

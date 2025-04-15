@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   CommandContribution,
   CommandRegistry,
@@ -11,8 +11,8 @@ import {
   MARKER_COMMANDS,
   StatusBarAlignment,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMainLayoutService, MainLayoutContribution } from '@opensumi/ide-main-layout';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMainLayoutService, MainLayoutContribution } from '@Nuvio-MCP/ide-main-layout';
 
 import { IMarkerService, MARKER_CONTAINER_ID } from '../common';
 
@@ -123,7 +123,7 @@ export class MarkersContribution
 
   registerComponent(registry: ComponentRegistry): void {
     registry.register(
-      '@opensumi/ide-markers',
+      '@Nuvio-MCP/ide-markers',
       {
         id: MARKER_CONTAINER_ID,
         component: MarkerPanel,

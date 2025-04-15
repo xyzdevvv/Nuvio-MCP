@@ -1,6 +1,6 @@
 import debounce from 'lodash/debounce';
 
-import { AI_INLINE_COMPLETION_VISIBLE } from '@opensumi/ide-core-browser/lib/ai-native/command';
+import { AI_INLINE_COMPLETION_VISIBLE } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
 import {
   CommandService,
   CommandServiceImpl,
@@ -10,12 +10,12 @@ import {
   IntelligentCompletionsRegistryToken,
   Sequencer,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import { EditorSelectionChangeEvent } from '@opensumi/ide-editor/lib/browser';
-import { ICodeEditor, InlineCompletions, Position, Range } from '@opensumi/ide-monaco';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { empty } from '@opensumi/ide-utils/lib/strings';
-import { InlineCompletionContextKeys } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys';
+} from '@Nuvio-MCP/ide-core-common';
+import { EditorSelectionChangeEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { ICodeEditor, InlineCompletions, Position, Range } from '@Nuvio-MCP/ide-monaco';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { empty } from '@Nuvio-MCP/ide-utils/lib/strings';
+import { InlineCompletionContextKeys } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys';
 
 import { IAIInlineCompletionsProvider } from '../../../common';
 import { AINativeContextKey } from '../../ai-core.contextkeys';

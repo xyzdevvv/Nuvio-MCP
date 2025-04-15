@@ -48,4 +48,4 @@ export const InputNumber: React.FC<InputNumberProps> = (props: InputNumberProps)
   );
 };
 
-InputNumber.displayName = 'OpenSumiInputNumber';
+InputNumber.displayName = 'Nuvio-MCPInputNumber';

@@ -1,4 +1,4 @@
-import { Domain } from '@opensumi/ide-core-common';
+import { Domain } from '@Nuvio-MCP/ide-core-common';
 
 import { IMenuRegistry, MenuContribution } from '../menu/next/base';
 import { MenuId } from '../menu/next/menu-id';

@@ -1,18 +1,18 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IExtensionInfo, Uri } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IExtensionInfo, Uri } from '@Nuvio-MCP/ide-core-common';
 import {
   CommandHandler,
   IMainThreadCommands,
   MainThreadAPIIdentifier,
-} from '@opensumi/ide-extension/lib/common/vscode';
-import * as types from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import { SymbolKind } from '@opensumi/ide-extension/lib/common/vscode/ext-types';
-import * as modes from '@opensumi/ide-extension/lib/common/vscode/model.api';
+} from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import * as types from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import { SymbolKind } from '@Nuvio-MCP/ide-extension/lib/common/vscode/ext-types';
+import * as modes from '@Nuvio-MCP/ide-extension/lib/common/vscode/model.api';
 import {
   ExtHostCommands,
   createCommandsApiFactory,
-} from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.command';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+} from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.command';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
 

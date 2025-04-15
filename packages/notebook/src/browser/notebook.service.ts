@@ -1,9 +1,9 @@
 import { CellUri, CellView, LibroJupyterView, LibroService, LibroView, MIME } from '@difizen/libro-jupyter/noeditor';
 import { Container, getOrigin } from '@difizen/mana-app';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-browser';
-import { DisposableCollection, Uri } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import { DisposableCollection, Uri } from '@Nuvio-MCP/ide-core-common';
 import {
   CellKind,
   INotebookModelAddedData,
@@ -11,12 +11,12 @@ import {
   NotebookCellsChangeType,
   NotebookRawContentEventDto,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser/doc-model/types';
-import { NotebookService } from '@opensumi/ide-editor/lib/browser/notebook.service';
+} from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/types';
+import { NotebookService } from '@Nuvio-MCP/ide-editor/lib/browser/notebook.service';
 
 import { LIBRO_COMPONENTS_SCHEME_ID } from './libro.protocol';
-import { ILibroOpensumiService } from './libro.service';
+import { ILibroNuvio-MCPService } from './libro.service';
 import { ManaContainer } from './mana';
 
 @Injectable()
@@ -27,13 +27,13 @@ export class NotebookServiceOverride extends NotebookService {
   private readonly editorModelService: IEditorDocumentModelService;
   @Autowired(WorkbenchEditorService)
   private readonly workbenchEditorService: WorkbenchEditorService;
-  @Autowired(ILibroOpensumiService)
-  private readonly libroOpensumiService: ILibroOpensumiService;
+  @Autowired(ILibroNuvio-MCPService)
+  private readonly libroNuvio-MCPService: ILibroNuvio-MCPService;
 
   listenEditor() {
     return this.workbenchEditorService.onActiveResourceChange((e) => {
       if (e?.uri?.path.ext === `.${LIBRO_COMPONENTS_SCHEME_ID}`) {
-        this.libroOpensumiService.getOrCreateLibroView(e.uri).then((libroView) => {
+        this.libroNuvio-MCPService.getOrCreateLibroView(e.uri).then((libroView) => {
           this.handleOpenNotebook(libroView);
         });
       }
@@ -82,7 +82,7 @@ export class NotebookServiceOverride extends NotebookService {
       cellKind: this.isCodeCell(cell.model.mimeType) ? CellKind.Code : CellKind.Markup,
       eol: '\n',
       handle: 1,
-      language: this.libroOpensumiService.getCellLanguage(cell) ?? 'plaintext',
+      language: this.libroNuvio-MCPService.getCellLanguage(cell) ?? 'plaintext',
       mime: cell.model.mimeType,
       outputs: [],
       source: cell.model.value.split('\n'),

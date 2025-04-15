@@ -1,8 +1,8 @@
-import { Injector } from '@opensumi/di';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { ExtHostAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import { OutputPreferences } from '@opensumi/ide-output/lib/browser/output-preference';
-import { OutputService } from '@opensumi/ide-output/lib/browser/output.service';
+import { Injector } from '@Nuvio-MCP/di';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { ExtHostAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { OutputPreferences } from '@Nuvio-MCP/ide-output/lib/browser/output-preference';
+import { OutputService } from '@Nuvio-MCP/ide-output/lib/browser/output.service';
 
 import { MockOutputService } from '../../__mocks__/api/output.service';
 import { createMockPairRPCProtocol } from '../../__mocks__/initRPCProtocol';

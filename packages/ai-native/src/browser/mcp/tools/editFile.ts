@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
-import { Autowired } from '@opensumi/di';
-import { Domain } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain } from '@Nuvio-MCP/ide-core-common';
 
 import { IMCPServerRegistry, MCPLogger, MCPServerContribution, MCPToolDefinition } from '../../types';
 

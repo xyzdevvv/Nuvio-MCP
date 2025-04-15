@@ -2,9 +2,9 @@ import path from 'path';
 
 import isEqual from 'lodash/isEqual';
 
-import { CorePreferences, IContextKeyService, MonacoOverrideServiceRegistry, URI } from '@opensumi/ide-core-browser';
-import { injectMockPreferences } from '@opensumi/ide-core-browser/__mocks__/preference';
-import { useMockStorage } from '@opensumi/ide-core-browser/__mocks__/storage';
+import { CorePreferences, IContextKeyService, MonacoOverrideServiceRegistry, URI } from '@Nuvio-MCP/ide-core-browser';
+import { injectMockPreferences } from '@Nuvio-MCP/ide-core-browser/__mocks__/preference';
+import { useMockStorage } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
 import {
   CommonServerPath,
   Deferred,
@@ -13,13 +13,13 @@ import {
   IEventBus,
   OS,
   sleep,
-} from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IEditorOpenType, IResource } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IEditorOpenType, IResource } from '@Nuvio-MCP/ide-editor';
 import {
   TestEditorDocumentProvider,
   TestResourceResolver,
-} from '@opensumi/ide-editor/__tests__/browser/test-providers';
+} from '@Nuvio-MCP/ide-editor/__tests__/browser/test-providers';
 import {
   EditorModule,
   EditorPreferences,
@@ -28,19 +28,19 @@ import {
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
   IEditorFeatureRegistry,
-} from '@opensumi/ide-editor/lib/browser';
-import { EditorComponentRegistryImpl } from '@opensumi/ide-editor/lib/browser/component';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorComponentRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/component';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
-} from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { EditorCollectionServiceImpl } from '@opensumi/ide-editor/lib/browser/editor-collection.service';
-import { EditorDecorationCollectionService } from '@opensumi/ide-editor/lib/browser/editor.decoration.service';
-import { EditorFeatureRegistryImpl } from '@opensumi/ide-editor/lib/browser/feature';
-import { BaseFileSystemEditorDocumentProvider } from '@opensumi/ide-editor/lib/browser/fs-resource/fs-editor-doc';
-import { FileSystemResourceProvider } from '@opensumi/ide-editor/lib/browser/fs-resource/fs-resource';
-import { LanguageService } from '@opensumi/ide-editor/lib/browser/language/language.service';
-import { ResourceServiceImpl } from '@opensumi/ide-editor/lib/browser/resource.service';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { EditorCollectionServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/editor-collection.service';
+import { EditorDecorationCollectionService } from '@Nuvio-MCP/ide-editor/lib/browser/editor.decoration.service';
+import { EditorFeatureRegistryImpl } from '@Nuvio-MCP/ide-editor/lib/browser/feature';
+import { BaseFileSystemEditorDocumentProvider } from '@Nuvio-MCP/ide-editor/lib/browser/fs-resource/fs-editor-doc';
+import { FileSystemResourceProvider } from '@Nuvio-MCP/ide-editor/lib/browser/fs-resource/fs-resource';
+import { LanguageService } from '@Nuvio-MCP/ide-editor/lib/browser/language/language.service';
+import { ResourceServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/resource.service';
 import {
   EditorComponentRegistry,
   EditorGroupChangeEvent,
@@ -48,37 +48,37 @@ import {
   EditorOpenType,
   EditorSelectionChangeEvent,
   EditorVisibleChangeEvent,
-} from '@opensumi/ide-editor/lib/browser/types';
-import { EditorGroup, WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
+} from '@Nuvio-MCP/ide-editor/lib/browser/types';
+import { EditorGroup, WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
 import {
   EditorCollectionService,
   IDocPersistentCacheProvider,
   ILanguageService,
   ResourceService,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/common';
-import { ExtensionServiceImpl } from '@opensumi/ide-extension/lib/browser/extension.service';
-import { MainThreadExtensionDocumentData } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.doc';
-import { ExtensionService } from '@opensumi/ide-extension/lib/common';
-import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import * as TypeConverts from '@opensumi/ide-extension/lib/common/vscode/converter';
-import { ExtensionDocumentDataManagerImpl } from '@opensumi/ide-extension/lib/hosted/api/vscode/doc';
-import { MockFileServiceClient } from '@opensumi/ide-file-service/__mocks__/file-service-client';
-import { FileServiceContribution } from '@opensumi/ide-file-service/lib/browser/file-service-contribution';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { MonacoService } from '@opensumi/ide-monaco';
-import * as monaco from '@opensumi/ide-monaco';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import MonacoServiceImpl from '@opensumi/ide-monaco/lib/browser/monaco.service';
-import { MonacoOverrideServiceRegistryImpl } from '@opensumi/ide-monaco/lib/browser/override.service.registry';
-import { IDialogService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+} from '@Nuvio-MCP/ide-editor/lib/common';
+import { ExtensionServiceImpl } from '@Nuvio-MCP/ide-extension/lib/browser/extension.service';
+import { MainThreadExtensionDocumentData } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.doc';
+import { ExtensionService } from '@Nuvio-MCP/ide-extension/lib/common';
+import { ExtHostAPIIdentifier, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import * as TypeConverts from '@Nuvio-MCP/ide-extension/lib/common/vscode/converter';
+import { ExtensionDocumentDataManagerImpl } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/doc';
+import { MockFileServiceClient } from '@Nuvio-MCP/ide-file-service/__mocks__/file-service-client';
+import { FileServiceContribution } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-contribution';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { MonacoService } from '@Nuvio-MCP/ide-monaco';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import MonacoServiceImpl from '@Nuvio-MCP/ide-monaco/lib/browser/monaco.service';
+import { MonacoOverrideServiceRegistryImpl } from '@Nuvio-MCP/ide-monaco/lib/browser/override.service.registry';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 import {
   ConfigurationTarget,
   IConfigurationChangeEvent,
   IConfigurationService,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/configuration/common/configuration';
 
 import { createMockPairRPCProtocol } from '../../__mocks__/initRPCProtocol';
 import { MainThreadEditorService } from '../../src/browser/vscode/api/main.thread.editor';

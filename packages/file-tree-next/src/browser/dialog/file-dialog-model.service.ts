@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   Decoration,
   DecorationsManager,
@@ -7,9 +7,9 @@ import {
   Tree,
   TreeNodeEvent,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { CorePreferences, DisposableCollection, Emitter, Event, URI } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
+} from '@Nuvio-MCP/ide-components';
+import { CorePreferences, DisposableCollection, Emitter, Event, URI } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 
 import { IFileDialogModel, IFileDialogTreeService, PasteTypes } from '../../common';
 import { Directory, File } from '../../common/file-tree-node.define';

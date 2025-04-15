@@ -1,4 +1,4 @@
-import { Deferred, Disposable, DomListener, Emitter, Event, electronEnv } from '@opensumi/ide-core-browser';
+import { Deferred, Disposable, DomListener, Emitter, Event, electronEnv } from '@Nuvio-MCP/ide-core-browser';
 
 import { IPlainWebview } from './types';
 

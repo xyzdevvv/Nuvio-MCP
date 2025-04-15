@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { memo, useCallback, useMemo } from 'react';
 
-import { Button, Popover, PopoverPosition, PopoverTriggerType } from '@opensumi/ide-components';
+import { Button, Popover, PopoverPosition, PopoverTriggerType } from '@Nuvio-MCP/ide-components';
 import {
   IOpenerService,
   replaceLocalizePlaceholder,
@@ -9,9 +9,9 @@ import {
   toMarkdownHtml,
   transformLabelWithCodicon,
   transformLabelWithCodiconHtml,
-} from '@opensumi/ide-core-browser';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
-import { StatusBarEntry, StatusBarHoverContent } from '@opensumi/ide-core-browser/lib/services';
+} from '@Nuvio-MCP/ide-core-browser';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
+import { StatusBarEntry, StatusBarHoverContent } from '@Nuvio-MCP/ide-core-browser/lib/services';
 import {
   CommandService,
   IMarkdownString,
@@ -19,8 +19,8 @@ import {
   StatusBarHoverCommand,
   isString,
   isThemeColor,
-} from '@opensumi/ide-core-common';
-import { IIconService, IThemeService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-common';
+import { IIconService, IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import styles from './status-bar.module.less';
 

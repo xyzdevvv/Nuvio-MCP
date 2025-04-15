@@ -1,6 +1,6 @@
 # Collaboration Module 协同编辑模块
 
-> Make OpenSumi Collaborative
+> Make Nuvio-MCP Collaborative
 
 ## 如何使用
 

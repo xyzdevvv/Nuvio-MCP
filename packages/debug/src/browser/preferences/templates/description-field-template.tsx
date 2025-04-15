@@ -1,7 +1,7 @@
 import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
 import React, { useMemo } from 'react';
 
-import { IJSONSchema } from '@opensumi/ide-core-common';
+import { IJSONSchema } from '@Nuvio-MCP/ide-core-common';
 
 import styles from './json-templates.module.less';
 

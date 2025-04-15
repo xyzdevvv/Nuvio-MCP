@@ -1,12 +1,12 @@
 import { createConnection } from 'net';
 
-import { Injector } from '@opensumi/di';
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection';
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection/drivers';
-import { argv } from '@opensumi/ide-core-common/lib/node/cli';
-import { suppressNodeJSEpipeError } from '@opensumi/ide-core-common/lib/node/utils';
-import { CommonProcessReporter, IReporter, ReporterProcessMessage } from '@opensumi/ide-core-common/lib/types';
-import { Emitter, isPromiseCanceledError } from '@opensumi/ide-utils';
+import { Injector } from '@Nuvio-MCP/di';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers';
+import { argv } from '@Nuvio-MCP/ide-core-common/lib/node/cli';
+import { suppressNodeJSEpipeError } from '@Nuvio-MCP/ide-core-common/lib/node/utils';
+import { CommonProcessReporter, IReporter, ReporterProcessMessage } from '@Nuvio-MCP/ide-core-common/lib/types';
+import { Emitter, isPromiseCanceledError } from '@Nuvio-MCP/ide-utils';
 
 import { SUMI_WATCHER_PROCESS_SOCK_KEY, WATCHER_INIT_DATA_KEY } from '../../common/watcher';
 

@@ -6,9 +6,9 @@ import path from 'path';
 
 import Koa from 'koa';
 
-import { Injector } from '@opensumi/di';
-import { injectConnectionProviders } from '@opensumi/ide-connection/lib/common/server-handler';
-import { WebSocketHandler } from '@opensumi/ide-connection/lib/node';
+import { Injector } from '@Nuvio-MCP/di';
+import { injectConnectionProviders } from '@Nuvio-MCP/ide-connection/lib/common/server-handler';
+import { WebSocketHandler } from '@Nuvio-MCP/ide-connection/lib/node';
 import {
   ContributionProvider,
   ILogService,
@@ -20,9 +20,9 @@ import {
   getModuleDependencies,
   injectGDataStores,
   isWindows,
-} from '@opensumi/ide-core-common';
-import { DEFAULT_OPENVSX_REGISTRY } from '@opensumi/ide-core-common/lib/const';
-import { suppressNodeJSEpipeError } from '@opensumi/ide-core-common/lib/node';
+} from '@Nuvio-MCP/ide-core-common';
+import { DEFAULT_OPENVSX_REGISTRY } from '@Nuvio-MCP/ide-core-common/lib/const';
+import { suppressNodeJSEpipeError } from '@Nuvio-MCP/ide-core-common/lib/node';
 
 import { RPCServiceCenter, createNetServerConnection, createServerConnection2 } from '../connection';
 import { NodeModule } from '../node-module';

@@ -8,7 +8,7 @@ const distDir = path.join(__dirname, '../lib/hosted');
 const nodeEnv = process.env.NODE_ENV || 'development';
 
 module.exports = {
-  entry: require.resolve('@opensumi/ide-extension/lib/hosted/ext.process.js'),
+  entry: require.resolve('@Nuvio-MCP/ide-extension/lib/hosted/ext.process.js'),
   target: 'node',
   output: {
     filename: 'ext.process.js',

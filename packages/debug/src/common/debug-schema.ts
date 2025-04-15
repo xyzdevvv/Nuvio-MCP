@@ -1,4 +1,4 @@
-import { CodeSchemaId } from '@opensumi/ide-core-common';
+import { CodeSchemaId } from '@Nuvio-MCP/ide-core-common';
 
 export const launchSchemaUri = CodeSchemaId.launch;
 export const launchExtensionSchemaUri = `${CodeSchemaId.launch}/extension`;

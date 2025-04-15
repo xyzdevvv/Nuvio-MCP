@@ -4,23 +4,23 @@ import {
   KeybindingRegistryImpl,
   PreferenceService,
   RecentFilesManager,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   CommandRegistry,
   CommandRegistryImpl,
   CommandService,
   CommandServiceImpl,
   DisposableCollection,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { DocumentSymbol } from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
-import { FileSearchServicePath } from '@opensumi/ide-file-search/lib/common';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { PrefixQuickOpenService } from '@opensumi/ide-quick-open';
-import { QuickOpenHandlerRegistry } from '@opensumi/ide-quick-open/lib/browser/prefix-quick-open.service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import * as modes from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { DocumentSymbol } from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
+import { FileSearchServicePath } from '@Nuvio-MCP/ide-file-search/lib/common';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { PrefixQuickOpenService } from '@Nuvio-MCP/ide-quick-open';
+import { QuickOpenHandlerRegistry } from '@Nuvio-MCP/ide-quick-open/lib/browser/prefix-quick-open.service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import * as modes from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

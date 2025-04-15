@@ -1,8 +1,8 @@
 import { OpenAIProvider, createOpenAI } from '@ai-sdk/openai';
 import { LanguageModelV1 } from 'ai';
 
-import { Injectable } from '@opensumi/di';
-import { AINativeSettingSectionsId, IAIBackServiceOption } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { AINativeSettingSectionsId, IAIBackServiceOption } from '@Nuvio-MCP/ide-core-common';
 
 import { ModelInfo, openAiNativeModels } from '../../common/model';
 import { BaseLanguageModel } from '../base-language-model';

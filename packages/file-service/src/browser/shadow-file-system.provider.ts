@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { BinaryBuffer, Emitter, Event, FileSystemProviderCapabilities, Uri } from '@opensumi/ide-core-browser';
-import { IReadableStream } from '@opensumi/ide-utils/lib/stream';
+import { Injectable } from '@Nuvio-MCP/di';
+import { BinaryBuffer, Emitter, Event, FileSystemProviderCapabilities, Uri } from '@Nuvio-MCP/ide-core-browser';
+import { IReadableStream } from '@Nuvio-MCP/ide-utils/lib/stream';
 
 import { FileChangeEvent, FileStat, FileSystemProvider, FileType } from '../common';
 

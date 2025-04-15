@@ -1,8 +1,8 @@
-import { EventBusImpl, IEventBus } from '@opensumi/ide-core-common';
-import { DebugToolbarService } from '@opensumi/ide-debug/lib/browser/view/configuration/debug-toolbar.service';
-import { DebugViewModel } from '@opensumi/ide-debug/lib/browser/view/debug-view-model';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { EventBusImpl, IEventBus } from '@Nuvio-MCP/ide-core-common';
+import { DebugToolbarService } from '@Nuvio-MCP/ide-debug/lib/browser/view/configuration/debug-toolbar.service';
+import { DebugViewModel } from '@Nuvio-MCP/ide-debug/lib/browser/view/debug-view-model';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 function flushPromises() {
   return Promise.resolve();

@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IDisposable, OnEvent, URI, WithEventBus } from '@opensumi/ide-core-browser';
-import { Disposable, Emitter, ILogger, LRUMap, arrays } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IDisposable, OnEvent, URI, WithEventBus } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, Emitter, ILogger, LRUMap, arrays } from '@Nuvio-MCP/ide-core-common';
 
 import {
   AskSaveResult,

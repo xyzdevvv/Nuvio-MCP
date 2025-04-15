@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { localize, useInjectable } from '@opensumi/ide-core-browser';
+import { localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { IMainLayoutService } from '../../common';
 

@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, UriComponents, WithEventBus } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, UriComponents, WithEventBus } from '@Nuvio-MCP/ide-core-browser';
 
 import type { INotebookModelAddedData, INotebookService, NotebookDataDto, NotebookDocumentChangeDto } from './types';
 

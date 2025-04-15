@@ -4,25 +4,25 @@
  *--------------------------------------------------------------------------------------------*/
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/main/src/vs/workbench/contrib/debug/test/browser/debugANSIHandling.test.ts
 
-import { IOpenerService, uuid } from '@opensumi/ide-core-browser';
+import { IOpenerService, uuid } from '@Nuvio-MCP/ide-core-browser';
 import {
   appendStylizedStringToContainer,
   calcANSI8bitColor,
   handleANSIOutput,
-} from '@opensumi/ide-debug/lib/browser/debug-ansi-handle';
-import { LinkDetector } from '@opensumi/ide-debug/lib/browser/debug-link-detector';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { registerTerminalColors } from '@opensumi/ide-terminal-next/lib/browser/terminal.color';
-import { Color, IThemeData, IThemeService, IThemeStore, RGBA } from '@opensumi/ide-theme';
-import { SemanticTokenRegistryImpl } from '@opensumi/ide-theme/lib/browser/semantic-tokens-registry';
-import { ThemeData } from '@opensumi/ide-theme/lib/browser/theme-data';
-import { ThemeStore } from '@opensumi/ide-theme/lib/browser/theme-store';
-import { WorkbenchThemeService } from '@opensumi/ide-theme/lib/browser/workbench.theme.service';
-import { ISemanticTokenRegistry } from '@opensumi/ide-theme/lib/common/semantic-tokens-registry';
-import { OpenerService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/openerService';
+} from '@Nuvio-MCP/ide-debug/lib/browser/debug-ansi-handle';
+import { LinkDetector } from '@Nuvio-MCP/ide-debug/lib/browser/debug-link-detector';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { registerTerminalColors } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.color';
+import { Color, IThemeData, IThemeService, IThemeStore, RGBA } from '@Nuvio-MCP/ide-theme';
+import { SemanticTokenRegistryImpl } from '@Nuvio-MCP/ide-theme/lib/browser/semantic-tokens-registry';
+import { ThemeData } from '@Nuvio-MCP/ide-theme/lib/browser/theme-data';
+import { ThemeStore } from '@Nuvio-MCP/ide-theme/lib/browser/theme-store';
+import { WorkbenchThemeService } from '@Nuvio-MCP/ide-theme/lib/browser/workbench.theme.service';
+import { ISemanticTokenRegistry } from '@Nuvio-MCP/ide-theme/lib/common/semantic-tokens-registry';
+import { OpenerService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/openerService';
 
 function assert(value: any, message?: string | Error) {
   if (!value) {

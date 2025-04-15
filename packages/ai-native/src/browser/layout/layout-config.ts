@@ -1,4 +1,4 @@
-import { DESIGN_MENU_BAR_LEFT, DESIGN_MENU_BAR_RIGHT } from '@opensumi/ide-design';
+import { DESIGN_MENU_BAR_LEFT, DESIGN_MENU_BAR_RIGHT } from '@Nuvio-MCP/ide-design';
 
 /**
  * @deprecated Use {@link DESIGN_MENU_BAR_RIGHT} instead

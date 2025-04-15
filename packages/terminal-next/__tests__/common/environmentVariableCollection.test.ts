@@ -1,4 +1,4 @@
-import { OperatingSystem } from '@opensumi/ide-core-common';
+import { OperatingSystem } from '@Nuvio-MCP/ide-core-common';
 
 import { MergedEnvironmentVariableCollection } from '../../src/common/environmentVariableCollection';
 

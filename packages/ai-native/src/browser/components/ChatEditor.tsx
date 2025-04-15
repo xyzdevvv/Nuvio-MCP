@@ -2,7 +2,7 @@ import capitalize from 'lodash/capitalize';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import Highlight from 'react-highlight';
 
-import { Image } from '@opensumi/ide-components/lib/image';
+import { Image } from '@Nuvio-MCP/ide-components/lib/image';
 import {
   EDITOR_COMMANDS,
   FILE_COMMANDS,
@@ -11,9 +11,9 @@ import {
   getIcon,
   useInjectable,
   uuid,
-} from '@opensumi/ide-core-browser';
-import { Icon, Popover } from '@opensumi/ide-core-browser/lib/components';
-import { EnhanceIcon } from '@opensumi/ide-core-browser/lib/components/ai-native';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Icon, Popover } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EnhanceIcon } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
 import {
   ActionSourceEnum,
   ActionTypeEnum,
@@ -23,11 +23,11 @@ import {
   URI,
   localize,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import { insertSnippetWithMonacoEditor } from '@opensumi/ide-editor/lib/browser/editor-collection.service';
-import { MonacoCommandRegistry } from '@opensumi/ide-editor/lib/browser/monaco-contrib/command/command.service';
-import { ITheme, IThemeService } from '@opensumi/ide-theme';
-import { WorkbenchThemeService } from '@opensumi/ide-theme/lib/browser/workbench.theme.service';
+} from '@Nuvio-MCP/ide-core-common';
+import { insertSnippetWithMonacoEditor } from '@Nuvio-MCP/ide-editor/lib/browser/editor-collection.service';
+import { MonacoCommandRegistry } from '@Nuvio-MCP/ide-editor/lib/browser/monaco-contrib/command/command.service';
+import { ITheme, IThemeService } from '@Nuvio-MCP/ide-theme';
+import { WorkbenchThemeService } from '@Nuvio-MCP/ide-theme/lib/browser/workbench.theme.service';
 
 import { ChatFeatureRegistry } from '../chat/chat.feature.registry';
 
@@ -35,7 +35,7 @@ import styles from './components.module.less';
 import { highLightLanguageSupport } from './highLight';
 import { MentionType } from './mention-input/types';
 
-import type { IWorkspaceService } from '@opensumi/ide-workspace';
+import type { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import './highlightTheme.less';
 

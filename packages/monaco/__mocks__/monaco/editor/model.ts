@@ -1,6 +1,6 @@
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common';
-import { IAttachedView, IValidEditOperation } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import * as monaco from '@opensumi/ide-monaco';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { IAttachedView, IValidEditOperation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { EndOfLineSequence, EOL } from '../../../src/browser/monaco-api/types';
 import { MockedMonacoUri } from '../common/uri';

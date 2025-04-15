@@ -1,14 +1,14 @@
 import cls from 'classnames';
 import React, { ReactNode, useMemo } from 'react';
 
-import { Injectable } from '@opensumi/di';
-import { Icon } from '@opensumi/ide-components';
-import { strings, transformLabelWithCodicon, useInjectable } from '@opensumi/ide-core-browser';
-import { MenuNode } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IBrowserCtxMenu, IMenuRenderProps } from '@opensumi/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
-import { BrowserCtxMenuService } from '@opensumi/ide-overlay/lib/browser/ctx-menu/ctx-menu.service';
-import { IIconService } from '@opensumi/ide-theme';
-import { IconService } from '@opensumi/ide-theme/lib/browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Icon } from '@Nuvio-MCP/ide-components';
+import { strings, transformLabelWithCodicon, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { MenuNode } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IBrowserCtxMenu, IMenuRenderProps } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/renderer/ctxmenu/browser';
+import { BrowserCtxMenuService } from '@Nuvio-MCP/ide-overlay/lib/browser/ctx-menu/ctx-menu.service';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IconService } from '@Nuvio-MCP/ide-theme/lib/browser';
 
 import styles from '../style/design.module.less';
 

@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   Domain,
@@ -9,8 +9,8 @@ import {
   ScopedBrowserStorageService,
   StorageResolverContribution,
   URI,
-} from '@opensumi/ide-core-browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IGlobalStorageServer, IStorageServer, IWorkspaceStorageServer } from '../common';
 

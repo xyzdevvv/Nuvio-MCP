@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { memoize } from '@opensumi/ide-utils';
+import { Injectable } from '@Nuvio-MCP/di';
+import { memoize } from '@Nuvio-MCP/ide-utils';
 
 import { lockedCreate } from './lockedCreate';
 import wasmJson from './md5.wasm.json';

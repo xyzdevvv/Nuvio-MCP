@@ -1,6 +1,6 @@
-import { getExternalIcon, getIcon } from '@opensumi/ide-core-browser';
-import { IEditorMouseEvent } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import { ICodeEditorViewState } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { getExternalIcon, getIcon } from '@Nuvio-MCP/ide-core-browser';
+import { IEditorMouseEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import { ICodeEditorViewState } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 
 import { DetailedLineRangeMapping } from '../../../common/diff';
 import { IModelDecorationOptions } from '../../monaco-api/editor';

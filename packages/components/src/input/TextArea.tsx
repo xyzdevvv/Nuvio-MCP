@@ -7,4 +7,4 @@ export const TextArea = React.forwardRef<HTMLTextAreaElement, IInputBaseProps<HT
   <Input {...props} as='textarea' ref={ref} />
 ));
 
-TextArea.displayName = 'OpenSumiTextArea';
+TextArea.displayName = 'Nuvio-MCPTextArea';

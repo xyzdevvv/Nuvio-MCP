@@ -3,11 +3,11 @@ import path from 'path';
 
 import * as fse from 'fs-extra';
 
-import { isWindows } from '@opensumi/ide-core-common';
-import { FileUri, URI } from '@opensumi/ide-core-node';
-import { expectThrowsAsync } from '@opensumi/ide-core-node/__tests__/helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { isWindows } from '@Nuvio-MCP/ide-core-common';
+import { FileUri, URI } from '@Nuvio-MCP/ide-core-node';
+import { expectThrowsAsync } from '@Nuvio-MCP/ide-core-node/__tests__/helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { RecursiveFileSystemWatcher } from '../../lib/node/hosted/recursive/file-service-watcher';
 import { FileChangeType, IDiskFileProvider, IFileService } from '../../src/common';

@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { CSSProperties, FC, ReactNode, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 
-import { Badge, Icon } from '@opensumi/ide-components';
+import { Badge, Icon } from '@Nuvio-MCP/ide-components';
 import {
   ComponentRegistryInfo,
   ComponentRegistryProvider,
@@ -12,12 +12,12 @@ import {
   useDesignStyles,
   useInjectable,
   usePreference,
-} from '@opensumi/ide-core-browser';
-import { InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { Layout } from '@opensumi/ide-core-browser/lib/components/layout/layout';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { observableValue } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { Layout } from '@Nuvio-MCP/ide-core-browser/lib/components/layout/layout';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { observableValue } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { IMainLayoutService } from '../../common';
 

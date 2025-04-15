@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BasicEvent, ConstructorOf, Disposable, Event, IEventBus } from '@opensumi/ide-core-common';
+import { BasicEvent, ConstructorOf, Disposable, Event, IEventBus } from '@Nuvio-MCP/ide-core-common';
 
 import { useInjectable } from './injectable-hooks';
 

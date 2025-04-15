@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useMemo } from 'react';
 
-import { Input, RecycleList, VALIDATE_TYPE, ValidateInput, ValidateMessage } from '@opensumi/ide-components';
+import { Input, RecycleList, VALIDATE_TYPE, ValidateInput, ValidateMessage } from '@Nuvio-MCP/ide-components';
 import {
   Key,
   KeyCode,
@@ -11,8 +11,8 @@ import {
   getIcon,
   localize,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { ReactEditorComponent } from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-core-browser';
+import { ReactEditorComponent } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { IKeymapService, KeybindingItem } from '../common';
 

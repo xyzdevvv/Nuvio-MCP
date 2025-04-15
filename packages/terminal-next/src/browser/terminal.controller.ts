@@ -1,10 +1,10 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { AppConfig, ResizeEvent, getSlotLocation } from '@opensumi/ide-core-browser';
-import { TERMINAL_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
-import { ICtxMenuRenderer, IMenuRegistry, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { generateCtxMenu } from '@opensumi/ide-core-browser/lib/menu/next/menu-util';
-import { AbstractMenuService } from '@opensumi/ide-core-browser/lib/menu/next/menu.interface';
-import { PreferenceService } from '@opensumi/ide-core-browser/lib/preferences/types';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { AppConfig, ResizeEvent, getSlotLocation } from '@Nuvio-MCP/ide-core-browser';
+import { TERMINAL_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
+import { ICtxMenuRenderer, IMenuRegistry, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { generateCtxMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/menu-util';
+import { AbstractMenuService } from '@Nuvio-MCP/ide-core-browser/lib/menu/next/menu.interface';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser/lib/preferences/types';
 import {
   CommandRegistry,
   Deferred,
@@ -20,10 +20,10 @@ import {
   isThemeColor,
   replaceLocalizePlaceholder,
   withNullAsUndefined,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IThemeService } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import {
   ICreateClientWithWidgetOptions,
@@ -466,7 +466,7 @@ export class TerminalController extends WithEventBus implements ITerminalControl
 
     this.addDispose(
       this.eventBus.onDirective(
-        ResizeEvent.createDirective(getSlotLocation('@opensumi/ide-terminal-next', this.config.layoutConfig)),
+        ResizeEvent.createDirective(getSlotLocation('@Nuvio-MCP/ide-terminal-next', this.config.layoutConfig)),
         () => {
           if (this._tabBarHandler && this._tabBarHandler.isActivated()) {
             this.terminalView.resize();

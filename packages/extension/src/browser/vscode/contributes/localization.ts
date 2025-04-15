@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   GeneralSettingsId,
   ILogger,
@@ -8,10 +8,10 @@ import {
   parseWithComments,
   path,
   registerLocalizationBundle,
-} from '@opensumi/ide-core-browser';
-import { Deferred, LifeCyclePhase } from '@opensumi/ide-core-common';
-import { IExtensionStoragePathServer } from '@opensumi/ide-extension-storage';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { IExtensionStoragePathServer } from '@Nuvio-MCP/ide-extension-storage';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import {
   Contributes,

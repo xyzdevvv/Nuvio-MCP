@@ -1,11 +1,11 @@
 import React, { memo, useCallback, useEffect, useMemo, useState } from 'react';
 
-import { PreferenceService, useInjectable } from '@opensumi/ide-core-browser';
-import { Button, Icon } from '@opensumi/ide-core-browser/lib/components';
-import { EnhancePopover } from '@opensumi/ide-core-browser/lib/components/ai-native/popover';
-import { Loading } from '@opensumi/ide-core-browser/lib/components/loading';
-import { CommandService, localize } from '@opensumi/ide-core-common';
-import { AINativeSettingSectionsId } from '@opensumi/ide-core-common/lib/settings';
+import { PreferenceService, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Button, Icon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EnhancePopover } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/popover';
+import { Loading } from '@Nuvio-MCP/ide-core-browser/lib/components/loading';
+import { CommandService, localize } from '@Nuvio-MCP/ide-core-common';
+import { AINativeSettingSectionsId } from '@Nuvio-MCP/ide-core-common/lib/settings';
 
 import { ETerminalAutoExecutionPolicy } from '../../../preferences/schema';
 import { IMCPServerToolComponentProps } from '../../../types';

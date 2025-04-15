@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Iterable } from '@opensumi/monaco-editor-core/esm/vs/base/common/iterator';
+import { Iterable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/iterator';
 
 import { TestResultState } from './testCollection';
 import { maxPriority, statePriority } from './testingStates';

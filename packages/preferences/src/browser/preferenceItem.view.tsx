@@ -2,9 +2,9 @@ import cls from 'classnames';
 import debounce from 'lodash/debounce';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Button, CheckBox, Input, Option, Select, ValidateInput, ValidateMessage } from '@opensumi/ide-components';
-import { DefaultMarkedRenderer, Markdown, linkify } from '@opensumi/ide-components/lib/markdown/index';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Button, CheckBox, Input, Option, Select, ValidateInput, ValidateMessage } from '@Nuvio-MCP/ide-components';
+import { DefaultMarkedRenderer, Markdown, linkify } from '@Nuvio-MCP/ide-components/lib/markdown/index';
 import {
   DisposableCollection,
   ILogger,
@@ -21,7 +21,7 @@ import {
   localize,
   replaceLocalizePlaceholder,
   useInjectable,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { getPreferenceItemLabel, knownPrefIdMappings } from '../common';
 

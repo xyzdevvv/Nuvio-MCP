@@ -1,6 +1,6 @@
 import { IRawThemeSetting } from 'vscode-textmate';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CharCode,
   ILogger,
@@ -11,8 +11,8 @@ import {
   isString,
   localize,
   parseWithComments,
-} from '@opensumi/ide-core-browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import { Color } from '../common/color';
 import { editorBackground, editorForeground } from '../common/color-tokens/editor';

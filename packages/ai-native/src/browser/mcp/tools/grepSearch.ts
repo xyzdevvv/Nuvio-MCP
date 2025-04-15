@@ -1,10 +1,10 @@
 import { z } from 'zod';
 
-import { Autowired } from '@opensumi/di';
-import { CancellationToken, Deferred, Domain } from '@opensumi/ide-core-common';
-import { ContentSearchResult, IContentSearchClientService } from '@opensumi/ide-search';
-import { ContentSearchClientService } from '@opensumi/ide-search/lib/browser/search.service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired } from '@Nuvio-MCP/di';
+import { CancellationToken, Deferred, Domain } from '@Nuvio-MCP/ide-core-common';
+import { ContentSearchResult, IContentSearchClientService } from '@Nuvio-MCP/ide-search';
+import { ContentSearchClientService } from '@Nuvio-MCP/ide-search/lib/browser/search.service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IChatInternalService } from '../../../common';
 import { ChatInternalService } from '../../chat/chat.internal.service';
@@ -67,7 +67,7 @@ export class GrepSearchTool implements MCPServerContribution {
       throw new Error('Cannot determine project directory');
     }
 
-    // 使用 OpenSumi 的文件搜索 API
+    // 使用 Nuvio-MCP 的文件搜索 API
     const searchPattern = args.query;
     await this.searchService.doSearch(
       searchPattern,

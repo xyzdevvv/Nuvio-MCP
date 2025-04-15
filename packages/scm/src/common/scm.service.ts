@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { IInputBaseProps } from '@opensumi/ide-components';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IInputBaseProps } from '@Nuvio-MCP/ide-components';
 import {
   DisposableStore,
   Emitter,
@@ -8,7 +8,7 @@ import {
   arrays,
   getDebugLogger,
   toDisposable,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IInputValidator, ISCMInput, ISCMInputActionButtonDescriptor, ISCMProvider, ISCMRepository } from './scm';
 

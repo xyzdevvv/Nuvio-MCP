@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { CLIPBOARD_FILE_TOKEN, IClipboardService, URI } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { CLIPBOARD_FILE_TOKEN, IClipboardService, URI } from '@Nuvio-MCP/ide-core-common';
 
 import { ILogger } from '../logger';
 

@@ -9,8 +9,8 @@ import {
 } from '@rjsf/utils';
 import React, { FocusEvent } from 'react';
 
-import { CheckBox } from '@opensumi/ide-components';
-import { IJSONSchema } from '@opensumi/ide-core-common';
+import { CheckBox } from '@Nuvio-MCP/ide-components';
+import { IJSONSchema } from '@Nuvio-MCP/ide-core-common';
 
 import styles from './json-widget.module.less';
 

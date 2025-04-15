@@ -1,4 +1,4 @@
-import { ILineChange } from '@opensumi/ide-core-common/lib/types/editor';
+import { ILineChange } from '@Nuvio-MCP/ide-core-common/lib/types/editor';
 
 import { compareChanges, getModifiedEndLineNumber } from '../../../src/browser/dirty-diff/dirty-diff-util';
 

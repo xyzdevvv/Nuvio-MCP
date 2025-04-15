@@ -7,9 +7,9 @@ import compressing from 'compressing';
 import fs from 'fs-extra';
 import nodeFetch, { RequestInit } from 'node-fetch';
 
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { sleep, uuid } from '@opensumi/ide-core-common';
-import { AppConfig, RemoteService } from '@opensumi/ide-core-node';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { sleep, uuid } from '@Nuvio-MCP/ide-core-common';
+import { AppConfig, RemoteService } from '@Nuvio-MCP/ide-core-node';
 
 import {
   IExtensionInstallParam,

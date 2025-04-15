@@ -1,7 +1,7 @@
 import { protocol } from 'electron';
 import { readFile } from 'fs-extra';
 
-import { Domain, URI, getDebugLogger } from '@opensumi/ide-core-common';
+import { Domain, URI, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 import { ElectronMainContribution } from '../types';
 

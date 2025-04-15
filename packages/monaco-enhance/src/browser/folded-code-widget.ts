@@ -1,13 +1,13 @@
 import orderBy from 'lodash/orderBy';
 
-import { Disposable } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { IFoldedCodeWidgetContentProvider } from '../common';
 
 import { ZoneWidget } from './zone-widget';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 export class FoldedCodeWidget extends ZoneWidget {
   protected _fillContainer(container: HTMLElement): void {}

@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ITree, ITreeNodeOrCompositeTreeNode, Tree, TreeNodeType } from '@opensumi/ide-components';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ITree, ITreeNodeOrCompositeTreeNode, Tree, TreeNodeType } from '@Nuvio-MCP/ide-components';
 import {
   CancellationTokenSource,
   CommandService,
@@ -13,18 +13,18 @@ import {
   URI,
   pSeries,
   path,
-} from '@opensumi/ide-core-browser';
-import { CorePreferences } from '@opensumi/ide-core-browser/lib/core-preferences';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CorePreferences } from '@Nuvio-MCP/ide-core-browser/lib/core-preferences';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 import {
   FileChange,
   FileChangeType,
   FileStat,
   IFileServiceClient,
   IFileServiceWatcher,
-} from '@opensumi/ide-file-service/lib/common';
-import { IIconService } from '@opensumi/ide-theme';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-file-service/lib/common';
+import { IIconService } from '@Nuvio-MCP/ide-theme';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IFileTreeAPI, IFileTreeService } from '../common';
 import { Directory, File } from '../common/file-tree-node.define';

@@ -1,5 +1,5 @@
-import { CancellationToken, Event, IDisposable } from '@opensumi/ide-core-common';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+import { CancellationToken, Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { DebugConfiguration } from './debug-configuration';
 import { DebugSessionOptions, IDebugSessionDTO } from './debug-session-options';

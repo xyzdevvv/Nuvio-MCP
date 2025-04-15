@@ -2,19 +2,19 @@ import { ChildProcess, fork } from 'child_process';
 import { Server, Socket, createServer } from 'net';
 import path from 'path';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection/drivers/socket';
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { ILogServiceManager, SupportLogNamespace } from '@opensumi/ide-core-common/lib/log';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection/drivers/socket';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { ILogServiceManager, SupportLogNamespace } from '@Nuvio-MCP/ide-core-common/lib/log';
 import {
   DidFilesChangedParams,
   FileSystemWatcherClient,
   RecursiveWatcherBackend,
-} from '@opensumi/ide-core-common/lib/types/file-watch';
-import { normalizedIpcHandlerPathAsync } from '@opensumi/ide-core-common/lib/utils/ipc';
-import { AppConfig, Deferred, ILogService, UriComponents } from '@opensumi/ide-core-node';
-import { process as processUtil } from '@opensumi/ide-utils';
+} from '@Nuvio-MCP/ide-core-common/lib/types/file-watch';
+import { normalizedIpcHandlerPathAsync } from '@Nuvio-MCP/ide-core-common/lib/utils/ipc';
+import { AppConfig, Deferred, ILogService, UriComponents } from '@Nuvio-MCP/ide-core-node';
+import { process as processUtil } from '@Nuvio-MCP/ide-utils';
 
 import {
   IWatcherHostService,

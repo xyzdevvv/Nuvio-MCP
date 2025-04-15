@@ -1,8 +1,8 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { AINativeConfigService, ClientAppContribution, MERGE_CONFLICT_COMMANDS } from '@opensumi/ide-core-browser';
-import { MergeConflictReportService } from '@opensumi/ide-core-browser/lib/ai-native/conflict-report.service';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { AINativeConfigService, ClientAppContribution, MERGE_CONFLICT_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { MergeConflictReportService } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/conflict-report.service';
 import {
   CancelResponse,
   CancellationTokenSource,
@@ -28,17 +28,17 @@ import {
   Schemes,
   Uri,
   localize,
-} from '@opensumi/ide-core-common';
-import { GitCommands } from '@opensumi/ide-core-common/lib/commands/git';
-import { IEditor, WorkbenchEditorService } from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-core-common';
+import { GitCommands } from '@Nuvio-MCP/ide-core-common/lib/commands/git';
+import { IEditor, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   CommitType,
   DocumentMergeConflict,
   MergeConflictParser,
-} from '@opensumi/ide-editor/lib/browser/merge-conflict';
-import * as monaco from '@opensumi/ide-monaco';
-import { ITextModel } from '@opensumi/ide-monaco';
-import { LineRange } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/model/line-range';
+} from '@Nuvio-MCP/ide-editor/lib/browser/merge-conflict';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ITextModel } from '@Nuvio-MCP/ide-monaco';
+import { LineRange } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/model/line-range';
 import {
   ACCEPT_CURRENT_ACTIONS,
   AI_RESOLVE_REGENERATE_ACTIONS,
@@ -46,14 +46,14 @@ import {
   IConflictActionsEvent,
   IGNORE_ACTIONS,
   REVOKE_ACTIONS,
-} from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/types';
-import styles from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/view/merge-editor.module.less';
-import { IWidgetFactory, WidgetFactory } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/widget/facotry';
-import { StopWidget } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/widget/stop-widget';
-import { IMergeEditorShape } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/widget/types';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { ICodeEditor, IModelDeltaDecoration } from '@opensumi/ide-monaco/lib/browser/monaco-api/editor';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/types';
+import styles from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/view/merge-editor.module.less';
+import { IWidgetFactory, WidgetFactory } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/widget/facotry';
+import { StopWidget } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/widget/stop-widget';
+import { IMergeEditorShape } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/widget/types';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { ICodeEditor, IModelDeltaDecoration } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/editor';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
 
 import { DiffResolveResultWidget } from './override-resolve-result-widget';
 

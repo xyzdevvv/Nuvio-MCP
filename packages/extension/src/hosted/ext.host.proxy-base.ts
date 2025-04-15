@@ -1,8 +1,8 @@
 import net from 'net';
 
-import { IRPCProtocol, RPCService, SumiConnectionMultiplexer } from '@opensumi/ide-connection';
-import { NetSocketConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { Disposable, Emitter, IDisposable, getDebugLogger } from '@opensumi/ide-core-node';
+import { IRPCProtocol, RPCService, SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection';
+import { NetSocketConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { Disposable, Emitter, IDisposable, getDebugLogger } from '@Nuvio-MCP/ide-core-node';
 
 import { IExtensionHostManager } from '../common';
 import {

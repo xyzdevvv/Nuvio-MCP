@@ -1,7 +1,7 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { CancellationToken, Emitter, IDisposable, Uri as URI, UriComponents, dispose } from '@opensumi/ide-core-common';
-import { IDecorationData, IDecorationsService } from '@opensumi/ide-decoration';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { CancellationToken, Emitter, IDisposable, Uri as URI, UriComponents, dispose } from '@Nuvio-MCP/ide-core-common';
+import { IDecorationData, IDecorationsService } from '@Nuvio-MCP/ide-decoration';
 
 import { ExtHostAPIIdentifier } from '../../../common/vscode';
 import {

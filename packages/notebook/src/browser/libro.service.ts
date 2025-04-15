@@ -1,16 +1,16 @@
 import { CellUri, CellView, LanguageSpecRegistry, LibroService, LibroView } from '@difizen/libro-jupyter/noeditor';
 import { Container, URI as ManaURI, getOrigin } from '@difizen/mana-app';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI, WithEventBus, path } from '@opensumi/ide-core-browser';
-import { ResourceDecorationNeedChangeEvent, WorkbenchEditorService } from '@opensumi/ide-editor';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI, WithEventBus, path } from '@Nuvio-MCP/ide-core-browser';
+import { ResourceDecorationNeedChangeEvent, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
 
 import { ContentLoaderType, ManaContainer } from './mana';
 
-export const ILibroOpensumiService = Symbol('ILibroOpensumiService');
+export const ILibroNuvio-MCPService = Symbol('ILibroNuvio-MCPService');
 
 // eslint-disable-next-line @typescript-eslint/no-redeclare
-export interface ILibroOpensumiService {
+export interface ILibroNuvio-MCPService {
   getOrCreateLibroView: (uri: URI) => Promise<LibroView>;
   updateDirtyStatus: (uri: URI, dirty: boolean) => void;
   getCellViewByUri: (uri: URI) => Promise<CellView | undefined>;
@@ -18,7 +18,7 @@ export interface ILibroOpensumiService {
 }
 
 @Injectable()
-export class LibroOpensumiService extends WithEventBus implements ILibroOpensumiService {
+export class LibroNuvio-MCPService extends WithEventBus implements ILibroNuvio-MCPService {
   @Autowired(ManaContainer)
   private readonly manaContainer: Container;
 

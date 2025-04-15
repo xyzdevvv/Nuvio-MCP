@@ -1,7 +1,7 @@
 import { ChildProcess } from 'child_process';
 import stream from 'stream';
 
-import { Event } from '@opensumi/ide-core-common';
+import { Event } from '@Nuvio-MCP/ide-core-common';
 
 export const IProcessFactory = Symbol('IProcessFactory');
 export const IProcessManage = Symbol('IProcessManage');

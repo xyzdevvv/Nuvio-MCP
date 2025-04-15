@@ -1,6 +1,6 @@
-import { AppConfig, ICredentialsService, ICryptoService } from '@opensumi/ide-core-browser/src';
-import { Emitter } from '@opensumi/ide-core-common';
-import { MainThreadSecret } from '@opensumi/ide-extension/lib/browser/vscode/api/main.thread.secret';
+import { AppConfig, ICredentialsService, ICryptoService } from '@Nuvio-MCP/ide-core-browser/src';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
+import { MainThreadSecret } from '@Nuvio-MCP/ide-extension/lib/browser/vscode/api/main.thread.secret';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

@@ -1,7 +1,7 @@
-import { CancellationToken, IJSONSchema, IJSONSchemaSnippet, MaybePromise } from '@opensumi/ide-core-browser';
-import { DebugConfiguration } from '@opensumi/ide-debug/lib/common/debug-configuration';
-import { DebuggerDescription } from '@opensumi/ide-debug/lib/common/debug-service';
-import { IDebugSessionDTO } from '@opensumi/ide-debug/lib/common/debug-session-options';
+import { CancellationToken, IJSONSchema, IJSONSchemaSnippet, MaybePromise } from '@Nuvio-MCP/ide-core-browser';
+import { DebugConfiguration } from '@Nuvio-MCP/ide-debug/lib/common/debug-configuration';
+import { DebuggerDescription } from '@Nuvio-MCP/ide-debug/lib/common/debug-service';
+import { IDebugSessionDTO } from '@Nuvio-MCP/ide-debug/lib/common/debug-session-options';
 
 import { IExtHostDebug } from '../../../../common/vscode';
 import { DebugConfigurationProviderTriggerKind } from '../../../../common/vscode/ext-types';

@@ -2,11 +2,11 @@ import {
   GHOST_TEXT,
   GHOST_TEXT_DESCRIPTION,
   MultiLineDecorationModel,
-} from '@opensumi/ide-ai-native/lib/browser/contrib/intelligent-completions/decoration/multi-line.decoration';
-import { IMultiLineDiffChangeResult } from '@opensumi/ide-ai-native/lib/browser/contrib/intelligent-completions/diff-computer';
-import { EnhanceDecorationsCollection } from '@opensumi/ide-ai-native/lib/browser/model/enhanceDecorationsCollection';
-import { ICodeEditor, IPosition } from '@opensumi/ide-monaco';
-import { monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+} from '@Nuvio-MCP/ide-ai-native/lib/browser/contrib/intelligent-completions/decoration/multi-line.decoration';
+import { IMultiLineDiffChangeResult } from '@Nuvio-MCP/ide-ai-native/lib/browser/contrib/intelligent-completions/diff-computer';
+import { EnhanceDecorationsCollection } from '@Nuvio-MCP/ide-ai-native/lib/browser/model/enhanceDecorationsCollection';
+import { ICodeEditor, IPosition } from '@Nuvio-MCP/ide-monaco';
+import { monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
 describe('MultiLineDecorationModel', () => {
   let editor: ICodeEditor;
@@ -25,7 +25,7 @@ describe('MultiLineDecorationModel', () => {
 
 // 注释内容
 const person: Person = {
-  name: "OpenSumi",
+  name: "Nuvio-MCP",
   age: 18
 };
 
@@ -33,7 +33,7 @@ function greet(person: Person) {
   console.log(\`Hello, \${person.name}!\`);
 }
 
-greet(person); // Output: "Hello, OpenSumi!"`);
+greet(person); // Output: "Hello, Nuvio-MCP!"`);
   });
 
   it('should initialize correctly', () => {
@@ -83,7 +83,7 @@ greet(person); // Output: "Hello, OpenSumi!"`);
     const changes: IMultiLineDiffChangeResult[] = [
       { value: 'const person: Person = {\n  name: "' },
       { value: 'Hello ', added: true, removed: undefined },
-      { value: 'OpenSumi",\n  age: 18' },
+      { value: 'Nuvio-MCP",\n  age: 18' },
       { value: ' + 1', added: true, removed: undefined },
       { value: '\n};' },
     ];
@@ -108,13 +108,13 @@ greet(person); // Output: "Hello, OpenSumi!"`);
     /**
      * 例如原始内容是:
      * const person: Person = {
-     *  name: "OpenSumi",
+     *  name: "Nuvio-MCP",
      *  age: 18
      * };
      *
      * 修改后的内容是:
      * const person: Person = {
-     *  name: "Hello OpenSumi",
+     *  name: "Hello Nuvio-MCP",
      *  age: 18 + 1
      * };
      *

@@ -2,13 +2,13 @@ import React, { FC } from 'react';
 import ReactDOM from 'react-dom';
 import ReactDOMClient from 'react-dom/client';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, ConfigProvider, IContextKeyService, ViewState } from '@opensumi/ide-core-browser';
-import { SplitPanel } from '@opensumi/ide-core-browser/lib/components';
-import { InlineActionBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { AbstractMenuService, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { PeekViewWidget } from '@opensumi/ide-monaco-enhance/lib/browser/peek-view';
-import { renderMarkdown } from '@opensumi/monaco-editor-core/esm/vs/base/browser/markdownRenderer';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, ConfigProvider, IContextKeyService, ViewState } from '@Nuvio-MCP/ide-core-browser';
+import { SplitPanel } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { InlineActionBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { AbstractMenuService, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { PeekViewWidget } from '@Nuvio-MCP/ide-monaco-enhance/lib/browser/peek-view';
+import { renderMarkdown } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/browser/markdownRenderer';
 
 import { TestPeekMessageToken } from '../../common';
 import { TestMessageType } from '../../common/testCollection';
@@ -19,7 +19,7 @@ import { TestDto } from './test-output-peek';
 import { TestingPeekMessageServiceImpl } from './test-peek-message.service';
 import { TestTreeContainer } from './test-tree-container';
 
-import type { ICodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import './test-peek-widget.less';
 

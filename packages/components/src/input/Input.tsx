@@ -103,7 +103,7 @@ export const Input = React.forwardRef<
     ...restProps
   } = props;
 
-  warning(!controls, '[@opensumi/ide-components Input]: `controls` was deprecated, please use `addonAfter` instead');
+  warning(!controls, '[@Nuvio-MCP/ide-components Input]: `controls` was deprecated, please use `addonAfter` instead');
 
   const inputRef = React.useRef<HTMLInputElement | null>(null);
   const [isDirty, setIsDirty] = React.useState(false);
@@ -235,4 +235,4 @@ export const Input = React.forwardRef<
   );
 });
 
-Input.displayName = 'OpenSumiInput';
+Input.displayName = 'Nuvio-MCPInput';

@@ -1,6 +1,6 @@
 import merge from 'lodash/merge';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   DisposableCollection,
@@ -10,9 +10,9 @@ import {
   ILogger,
   URI,
   Uri,
-} from '@opensumi/ide-core-browser';
-import { Event, FileSystemProviderCapabilities, Schemes } from '@opensumi/ide-core-common';
-import { FileSetContentOptions, IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Event, FileSystemProviderCapabilities, Schemes } from '@Nuvio-MCP/ide-core-common';
+import { FileSetContentOptions, IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
 
 import { IUserStorageService } from '../../common';
 

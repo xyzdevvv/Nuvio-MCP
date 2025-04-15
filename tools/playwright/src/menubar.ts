@@ -1,18 +1,18 @@
 import { ElementHandle } from '@playwright/test';
 
-import { OpenSumiApp } from './app';
-import { OPENSUMI_VIEW_CONTAINERS } from './constans';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCP_VIEW_CONTAINERS } from './constans';
 import { textContent } from './utils';
-import { OpenSumiViewBase } from './view-base';
+import { Nuvio-MCPViewBase } from './view-base';
 
-export class OpenSumiMenubar extends OpenSumiViewBase {
+export class Nuvio-MCPMenubar extends Nuvio-MCPViewBase {
   static USER_KEY_TYPING_DELAY = 100;
 
   private _menuItems: ElementHandle[];
 
-  selector = `#${OPENSUMI_VIEW_CONTAINERS.MENUBAR}`;
+  selector = `#${Nuvio-MCP_VIEW_CONTAINERS.MENUBAR}`;
 
-  constructor(app: OpenSumiApp) {
+  constructor(app: Nuvio-MCPApp) {
     super(app);
   }
 

@@ -1,6 +1,6 @@
 import { ILink, Terminal } from '@xterm/xterm';
 
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
 
 import { TerminalProtocolLinkProvider } from '../../../src/browser/links/protocol-link-provider';
 

@@ -1,8 +1,8 @@
 import { BrowserWindowConstructorOptions } from 'electron';
 
-import { Injector } from '@opensumi/di';
-import { ConstructorOf, ExtensionCandidate, IDisposable } from '@opensumi/ide-core-common';
-import { IURLHandler } from '@opensumi/ide-core-common/lib/electron';
+import { Injector } from '@Nuvio-MCP/di';
+import { ConstructorOf, ExtensionCandidate, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { IURLHandler } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 import { ElectronMainModule } from '../electron-main-module';
 

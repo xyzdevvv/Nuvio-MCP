@@ -1,9 +1,9 @@
 import { ElementHandle } from '@playwright/test';
 
-import { OpenSumiApp } from './app';
-import { OpenSumiContextMenu } from './context-menu';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPContextMenu } from './context-menu';
 
-export interface IOpenSumiTreeNodeSelector {
+export interface INuvio-MCPTreeNodeSelector {
   labelClass: string;
   descriptionClass: string;
   badgeClass: string;
@@ -13,11 +13,11 @@ export interface IOpenSumiTreeNodeSelector {
   collapsedClass: string;
 }
 
-export abstract class OpenSumiTreeNode {
+export abstract class Nuvio-MCPTreeNode {
   constructor(
     protected elementHandle: ElementHandle<SVGElement | HTMLElement>,
-    protected app: OpenSumiApp,
-    private selector: IOpenSumiTreeNodeSelector = {
+    protected app: Nuvio-MCPApp,
+    private selector: INuvio-MCPTreeNodeSelector = {
       labelClass: "[class*='node_displayname__']",
       descriptionClass: "[class*='node_description__']",
       badgeClass: "[class*='node_status___']",
@@ -90,7 +90,7 @@ export abstract class OpenSumiTreeNode {
   }
 
   async openContextMenu() {
-    return OpenSumiContextMenu.open(this.app, () => this.elementHandle.waitForSelector(this.selector.labelClass));
+    return Nuvio-MCPContextMenu.open(this.app, () => this.elementHandle.waitForSelector(this.selector.labelClass));
   }
 
   abstract getFsPath(): Promise<string | null>;

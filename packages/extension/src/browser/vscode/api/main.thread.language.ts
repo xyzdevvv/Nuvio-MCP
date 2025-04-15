@@ -1,9 +1,9 @@
 // eslint-disable-next-line import/no-unresolved
 import { CancellationToken } from 'vscode';
 
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IReporterService, PreferenceService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IReporterService, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   DisposableCollection,
   Emitter,
@@ -17,26 +17,26 @@ import {
   URI,
   path,
   revive,
-} from '@opensumi/ide-core-common';
-import { IEvaluatableExpressionService } from '@opensumi/ide-debug/lib/browser/editor/evaluatable-expression';
-import { InlineValue, InlineValueContext, InlineValuesProvider } from '@opensumi/ide-debug/lib/common/inline-values';
-import { ILanguageService } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common';
+import { IEvaluatableExpressionService } from '@Nuvio-MCP/ide-debug/lib/browser/editor/evaluatable-expression';
+import { InlineValue, InlineValueContext, InlineValuesProvider } from '@Nuvio-MCP/ide-debug/lib/common/inline-values';
+import { ILanguageService } from '@Nuvio-MCP/ide-editor';
 import {
   IEditorDocumentModelService,
   ILanguageStatus,
   ILanguageStatusService,
   LanguageSelector,
-} from '@opensumi/ide-editor/lib/browser';
-import * as monaco from '@opensumi/ide-monaco';
-import { ICallHierarchyService } from '@opensumi/ide-monaco/lib/browser/contrib/callHierarchy';
-import { ITextmateTokenizer, ITextmateTokenizerService } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
-import { ITypeHierarchyService } from '@opensumi/ide-monaco/lib/browser/contrib/typeHierarchy';
-import { monaco as monacoApi } from '@opensumi/ide-monaco/lib/browser/monaco-api';
-import { languageFeaturesService } from '@opensumi/ide-monaco/lib/browser/monaco-api/languages';
-import { Range as MonacoRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import * as modes from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import { ILanguageService as IMonacoLanguageService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { ICallHierarchyService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/callHierarchy';
+import { ITextmateTokenizer, ITextmateTokenizerService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
+import { ITypeHierarchyService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/typeHierarchy';
+import { monaco as monacoApi } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
+import { languageFeaturesService } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/languages';
+import { Range as MonacoRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import * as modes from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import { ILanguageService as IMonacoLanguageService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import {
   ExtHostAPIIdentifier,
@@ -82,8 +82,8 @@ import {
   DocumentSemanticTokensProvider,
 } from './semantic-tokens/semantic-token-provider';
 
-import type { NewSymbolNameTriggerKind } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import type { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import type { NewSymbolNameTriggerKind } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import type { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 const { extname } = path;
 

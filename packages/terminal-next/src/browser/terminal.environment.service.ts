@@ -2,8 +2,8 @@ import debounce from 'lodash/debounce';
 import throttle from 'lodash/throttle';
 import React from 'react';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { StatusBarAlignment, StatusBarEntryAccessor, TERMINAL_COMMANDS, getIcon } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { StatusBarAlignment, StatusBarEntryAccessor, TERMINAL_COMMANDS, getIcon } from '@Nuvio-MCP/ide-core-browser';
 import {
   CommandService,
   Emitter,
@@ -12,10 +12,10 @@ import {
   localize,
   raceTimeout,
   toMarkdownString,
-} from '@opensumi/ide-core-common';
-import { IDialogService } from '@opensumi/ide-overlay/lib/common';
-import { IStatusBarService } from '@opensumi/ide-status-bar/lib/common';
-import { IWorkspaceStorageService } from '@opensumi/ide-workspace/lib/common';
+} from '@Nuvio-MCP/ide-core-common';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay/lib/common';
+import { IStatusBarService } from '@Nuvio-MCP/ide-status-bar/lib/common';
+import { IWorkspaceStorageService } from '@Nuvio-MCP/ide-workspace/lib/common';
 
 import { ITerminalProcessPath, ITerminalProcessService } from '../common';
 import {

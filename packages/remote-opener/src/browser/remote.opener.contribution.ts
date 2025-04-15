@@ -1,6 +1,6 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { ClientAppContribution } from '@opensumi/ide-core-browser';
-import { ContributionProvider, Domain, IApplicationService, getDebugLogger } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { ClientAppContribution } from '@Nuvio-MCP/ide-core-browser';
+import { ContributionProvider, Domain, IApplicationService, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IRemoteOpenerBrowserService,

@@ -1,6 +1,6 @@
-import { Injectable, Injector, Provider } from '@opensumi/di';
-import { BrowserModule, IContextKeyService } from '@opensumi/ide-core-browser';
-import { FolderFilePreferenceProvider } from '@opensumi/ide-preferences/lib/browser/folder-file-preference-provider';
+import { Injectable, Injector, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { FolderFilePreferenceProvider } from '@Nuvio-MCP/ide-preferences/lib/browser/folder-file-preference-provider';
 
 import {
   DebugEditor,

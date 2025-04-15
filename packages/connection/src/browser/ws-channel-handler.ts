@@ -1,5 +1,5 @@
-import { EventEmitter } from '@opensumi/events';
-import { Barrier, Deferred, DisposableStore, IReporterService, MultiMap, REPORT_NAME } from '@opensumi/ide-core-common';
+import { EventEmitter } from '@Nuvio-MCP/events';
+import { Barrier, Deferred, DisposableStore, IReporterService, MultiMap, REPORT_NAME } from '@Nuvio-MCP/ide-core-common';
 
 import { ChannelMessage } from '../common/channel/types';
 import { IRuntimeSocketConnection } from '../common/connection';

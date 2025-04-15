@@ -1,38 +1,38 @@
-import { AI_CODE_EDITS_COMMANDS } from '@opensumi/ide-core-browser/lib/ai-native/command';
-import { CommandService } from '@opensumi/ide-core-common';
+import { AI_CODE_EDITS_COMMANDS } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
+import { CommandService } from '@Nuvio-MCP/ide-core-common';
 import {
   InlineCompletionContext,
   InlineCompletionTriggerKind,
   InlineCompletionsProvider,
   Position,
   Range,
-} from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-monaco';
 import {
   IObservable,
   asyncTransaction,
   constObservable,
   derived,
   transaction,
-} from '@opensumi/ide-monaco/lib/common/observable';
-import { equalsIfDefined, itemEquals } from '@opensumi/monaco-editor-core/esm/vs/base/common/equals';
-import { LanguageFeatureRegistry } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languageFeatureRegistry';
-import { InlineCompletionsController } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController';
-import { InlineCompletionsModel } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsModel';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { equalsIfDefined, itemEquals } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/equals';
+import { LanguageFeatureRegistry } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languageFeatureRegistry';
+import { InlineCompletionsController } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController';
+import { InlineCompletionsModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsModel';
 import {
   InlineCompletionsSource,
   UpToDateInlineCompletions,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsSource';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsSource';
 import {
   InlineCompletionProviderResult,
   provideInlineCompletions,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/provideInlineCompletions';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/provideInlineCompletions';
 
 import { CodeEditsResultValue, ICodeEdit, ICodeEditsResult } from '../index';
 
 import { BaseCodeEditsView } from './base';
 
 /**
- * copy from @opensumi/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/provideInlineCompletions
+ * copy from @Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/model/provideInlineCompletions
  */
 class UpdateRequest {
   constructor(

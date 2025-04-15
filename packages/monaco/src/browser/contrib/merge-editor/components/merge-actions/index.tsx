@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { useCallback } from 'react';
 
-import { AINativeConfigService, URI, localize, useInjectable } from '@opensumi/ide-core-browser';
-import { Button, Icon } from '@opensumi/ide-core-browser/lib/components';
-import { useInMergeChanges } from '@opensumi/ide-core-browser/lib/react-hooks/git/use-in-merge-changes';
+import { AINativeConfigService, URI, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Button, Icon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { useInMergeChanges } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks/git/use-in-merge-changes';
 
 import styles from './merge-actions.module.less';
 

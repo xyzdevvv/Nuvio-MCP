@@ -1,4 +1,4 @@
-import { Disposable, Event, PreferenceSchema, PreferenceScope, isObject, isUndefined } from '@opensumi/ide-core-common';
+import { Disposable, Event, PreferenceSchema, PreferenceScope, isObject, isUndefined } from '@Nuvio-MCP/ide-core-common';
 
 import { PreferenceService } from './types';
 

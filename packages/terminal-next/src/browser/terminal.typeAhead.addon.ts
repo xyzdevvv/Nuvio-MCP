@@ -7,7 +7,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { PreferenceChange } from '@opensumi/ide-core-browser/lib/preferences';
+import { PreferenceChange } from '@Nuvio-MCP/ide-core-browser/lib/preferences';
 import {
   Disposable,
   DisposableCollection,
@@ -15,7 +15,7 @@ import {
   Event,
   debounce,
   disposableTimeout,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { CodeTerminalSettingId } from '../common/preference';
 

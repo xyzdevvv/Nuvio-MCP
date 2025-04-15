@@ -1,4 +1,4 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   PreferenceContribution,
   PreferenceProxy,
@@ -6,7 +6,7 @@ import {
   PreferenceService,
   createPreferenceProxy,
   localize,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 export const debugPreferencesSchema: PreferenceSchema = {
   type: 'object',

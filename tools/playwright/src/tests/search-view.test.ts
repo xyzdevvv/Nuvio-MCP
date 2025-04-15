@@ -2,29 +2,29 @@ import path from 'path';
 
 import { expect } from '@playwright/test';
 
-import { isLinux } from '@opensumi/ide-utils';
+import { isLinux } from '@Nuvio-MCP/ide-utils';
 
-import { OpenSumiApp } from '..';
-import { OpenSumiDiffEditor } from '../diff-editor';
-import { OpenSumiExplorerView } from '../explorer-view';
-import { OpenSumiSearchView } from '../search-view';
-import { OpenSumiTextEditor } from '../text-editor';
+import { Nuvio-MCPApp } from '..';
+import { Nuvio-MCPDiffEditor } from '../diff-editor';
+import { Nuvio-MCPExplorerView } from '../explorer-view';
+import { Nuvio-MCPSearchView } from '../search-view';
+import { Nuvio-MCPTextEditor } from '../text-editor';
 import { keypressWithCmdCtrlAndShift } from '../utils/key';
-import { OpenSumiWorkspace } from '../workspace';
+import { Nuvio-MCPWorkspace } from '../workspace';
 
 import test, { page } from './hooks';
 
-let app: OpenSumiApp;
-let search: OpenSumiSearchView;
-let editor: OpenSumiTextEditor;
-let explorer: OpenSumiExplorerView;
-let workspace: OpenSumiWorkspace;
+let app: Nuvio-MCPApp;
+let search: Nuvio-MCPSearchView;
+let editor: Nuvio-MCPTextEditor;
+let explorer: Nuvio-MCPExplorerView;
+let workspace: Nuvio-MCPWorkspace;
 
-test.describe('OpenSumi Search Panel', () => {
+test.describe('Nuvio-MCP Search Panel', () => {
   test.beforeAll(async () => {
-    workspace = new OpenSumiWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/search')]);
-    app = await OpenSumiApp.load(page, workspace);
-    search = await app.open(OpenSumiSearchView);
+    workspace = new Nuvio-MCPWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/search')]);
+    app = await Nuvio-MCPApp.load(page, workspace);
+    search = await app.open(Nuvio-MCPSearchView);
   });
 
   test('Can search files by simple text', async () => {
@@ -69,7 +69,7 @@ test.describe('OpenSumi Search Panel', () => {
       await contentNode?.open();
       await app.page.waitForTimeout(1000);
 
-      const editor = new OpenSumiTextEditor(app, contentNode);
+      const editor = new Nuvio-MCPTextEditor(app, contentNode);
       const currentTab = await editor.getCurrentTab();
       const dataUri = await currentTab?.getAttribute('data-uri');
       expect(dataUri?.startsWith('file')).toBeTruthy();
@@ -91,7 +91,7 @@ test.describe('OpenSumi Search Panel', () => {
     if (contentNode) {
       await contentNode.open();
       await app.page.waitForTimeout(1000);
-      const editor = new OpenSumiDiffEditor(app, contentNode);
+      const editor = new Nuvio-MCPDiffEditor(app, contentNode);
       const currentTab = await editor.getCurrentTab();
       const dataUri = await currentTab?.getAttribute('data-uri');
       expect(dataUri?.startsWith('file')).toBeFalsy();
@@ -180,9 +180,9 @@ test.describe('OpenSumi Search Panel', () => {
   });
 
   test('Search content with editor selection', async () => {
-    explorer = await app.open(OpenSumiExplorerView);
+    explorer = await app.open(Nuvio-MCPExplorerView);
     explorer.initFileTreeView(workspace.workspace.displayName);
-    editor = await app.openEditor(OpenSumiTextEditor, explorer, 'index.js');
+    editor = await app.openEditor(Nuvio-MCPTextEditor, explorer, 'index.js');
     await editor.selectLineContainingText('hello');
     await app.page.keyboard.press(keypressWithCmdCtrlAndShift('KeyF'), { delay: 200 });
 

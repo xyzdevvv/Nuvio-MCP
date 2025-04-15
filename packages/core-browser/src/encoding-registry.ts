@@ -6,8 +6,8 @@
 
 // based on https://github.com/microsoft/vscode/blob/04c36be045a94fee58e5f8992d3e3fd980294a84/src/vs/workbench/services/textfile/browser/textFileService.ts#L491
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, IDisposable, URI, UTF8, encodingExists } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, IDisposable, URI, UTF8, encodingExists } from '@Nuvio-MCP/ide-core-common';
 
 import { PreferenceService } from './preferences';
 import { getLanguageIdFromMonaco } from './services/label-service';

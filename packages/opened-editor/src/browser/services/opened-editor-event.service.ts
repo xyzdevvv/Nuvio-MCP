@@ -1,12 +1,12 @@
-import { Injectable } from '@opensumi/di';
-import { Emitter, Event, OnEvent, WithEventBus } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Emitter, Event, OnEvent, WithEventBus } from '@Nuvio-MCP/ide-core-browser';
 import {
   IEditorGroup,
   IResource,
   IResourceDecorationChangeEventPayload,
   ResourceDecorationChangeEvent,
-} from '@opensumi/ide-editor';
-import { EditorGroupCloseEvent, EditorGroupDisposeEvent, EditorGroupOpenEvent } from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor';
+import { EditorGroupCloseEvent, EditorGroupDisposeEvent, EditorGroupOpenEvent } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 export type OpenedEditorData = IEditorGroup | IResource;
 export interface OpenedEditorEvent {

@@ -6,9 +6,9 @@ import {
   QuickOpenActionProvider,
   QuickOpenItem,
   QuickOpenTabOptions,
-} from '@opensumi/ide-core-browser';
-import { VALIDATE_TYPE } from '@opensumi/ide-core-browser/lib/components';
-import { IObservable } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { IObservable } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 export const QuickOpenContext = React.createContext<{
   widget: IQuickOpenWidget;

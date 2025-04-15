@@ -1,7 +1,7 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, Emitter, Event, getExternalIcon } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event, getExternalIcon } from '@Nuvio-MCP/ide-core-browser';
 import {
   AbstractMenubarService,
   IMenuRegistry,
@@ -9,8 +9,8 @@ import {
   ISubmenuItem,
   MenuId,
   MenuNode,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { IObservable, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IObservable, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 export abstract class AbstractMenubarStore extends Disposable {
   menubarItems: IObservable<IMenubarItem[]>;

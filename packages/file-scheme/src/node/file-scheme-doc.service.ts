@@ -1,7 +1,7 @@
 import { existsSync, readFile, statSync, writeFile } from 'fs-extra';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
 import {
   BasicTextLines,
   CancellationToken,
@@ -14,8 +14,8 @@ import {
   iconvDecode,
   iconvEncode,
   isEditChange,
-} from '@opensumi/ide-core-node';
-import { IFileService } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-node';
+import { IFileService } from '@Nuvio-MCP/ide-file-service';
 
 import { IContentChange, IFileSchemeDocNodeService, ISavingContent } from '../common';
 

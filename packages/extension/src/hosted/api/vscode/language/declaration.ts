@@ -1,4 +1,4 @@
-import { Uri as URI } from '@opensumi/ide-core-common';
+import { Uri as URI } from '@Nuvio-MCP/ide-core-common';
 
 import * as Converter from '../../../../common/vscode/converter';
 import { ExtensionDocumentDataManager } from '../../../../common/vscode/doc';

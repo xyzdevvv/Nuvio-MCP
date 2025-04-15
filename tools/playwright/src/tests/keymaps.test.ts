@@ -2,26 +2,26 @@ import path from 'path';
 
 import { expect } from '@playwright/test';
 
-import { OpenSumiApp } from '../app';
-import { OpenSumiComponentEditor } from '../component-editor';
-import { OPENSUMI_VIEW_CONTAINERS } from '../constans';
-import { OpenSumiContextMenu } from '../context-menu';
-import { OpenSumiExplorerView } from '../explorer-view';
-import { OpenSumiTextEditor } from '../text-editor';
+import { Nuvio-MCPApp } from '../app';
+import { Nuvio-MCPComponentEditor } from '../component-editor';
+import { Nuvio-MCP_VIEW_CONTAINERS } from '../constans';
+import { Nuvio-MCPContextMenu } from '../context-menu';
+import { Nuvio-MCPExplorerView } from '../explorer-view';
+import { Nuvio-MCPTextEditor } from '../text-editor';
 import { keypressWithCmdCtrl } from '../utils';
-import { OpenSumiWorkspace } from '../workspace';
+import { Nuvio-MCPWorkspace } from '../workspace';
 
 import test, { page } from './hooks';
 
-let app: OpenSumiApp;
-let explorer: OpenSumiExplorerView;
-let workspace: OpenSumiWorkspace;
+let app: Nuvio-MCPApp;
+let explorer: Nuvio-MCPExplorerView;
+let workspace: Nuvio-MCPWorkspace;
 
-test.describe('OpenSumi Keyboard Shortcuts', () => {
+test.describe('Nuvio-MCP Keyboard Shortcuts', () => {
   test.beforeAll(async () => {
-    workspace = new OpenSumiWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
-    app = await OpenSumiApp.load(page, workspace);
-    explorer = await app.open(OpenSumiExplorerView);
+    workspace = new Nuvio-MCPWorkspace([path.resolve(__dirname, '../../src/tests/workspaces/default')]);
+    app = await Nuvio-MCPApp.load(page, workspace);
+    explorer = await app.open(Nuvio-MCPExplorerView);
     explorer.initFileTreeView(workspace.workspace.displayName);
   });
 
@@ -30,10 +30,10 @@ test.describe('OpenSumi Keyboard Shortcuts', () => {
   });
 
   const openKeymapsView = async () => {
-    const leftTabbar = await app.page.waitForSelector(`#${OPENSUMI_VIEW_CONTAINERS.LEFT_TABBAR}`);
+    const leftTabbar = await app.page.waitForSelector(`#${Nuvio-MCP_VIEW_CONTAINERS.LEFT_TABBAR}`);
     const settingsButton = await leftTabbar.$('[class*="titleActions___"] span');
     await settingsButton?.click();
-    const menu = new OpenSumiContextMenu(app);
+    const menu = new Nuvio-MCPContextMenu(app);
     await menu.clickMenuItem('Keyboard Shortcut');
   };
 
@@ -42,7 +42,7 @@ test.describe('OpenSumi Keyboard Shortcuts', () => {
     await app.page.keyboard.press(keypressWithCmdCtrl('KeyK'), { delay: 200 });
     await app.page.keyboard.press(keypressWithCmdCtrl('KeyS'), { delay: 200 });
     const editor = await app.openComponentEditor(
-      OpenSumiComponentEditor,
+      Nuvio-MCPComponentEditor,
       'keymaps:/',
       'Keyboard Shortcuts',
       "[class*='keybinding_container___']",
@@ -56,7 +56,7 @@ test.describe('OpenSumi Keyboard Shortcuts', () => {
   test('open Keyboard Settings by settings button', async () => {
     await openKeymapsView();
     const editor = await app.openComponentEditor(
-      OpenSumiComponentEditor,
+      Nuvio-MCPComponentEditor,
       'keymaps:/',
       'Keyboard Shortcuts',
       "[class*='keybinding_container___']",
@@ -68,7 +68,7 @@ test.describe('OpenSumi Keyboard Shortcuts', () => {
   test("change 'Save Current File' keybinding to 'CMD+SHIFT+S'", async () => {
     await openKeymapsView();
     const editor = await app.openComponentEditor(
-      OpenSumiComponentEditor,
+      Nuvio-MCPComponentEditor,
       'keymaps:/',
       'Keyboard Shortcuts',
       "[class*='keybinding_container___']",
@@ -98,7 +98,7 @@ test.describe('OpenSumi Keyboard Shortcuts', () => {
     await app.page.keyboard.press(keypressWithCmdCtrl('Shift+KeyS'), { delay: 200 });
     await app.page.keyboard.press('Enter');
     // varified file save keybinding
-    const textEditor = await app.openEditor(OpenSumiTextEditor, explorer, 'editor.js');
+    const textEditor = await app.openEditor(Nuvio-MCPTextEditor, explorer, 'editor.js');
     await textEditor.addTextToNewLineAfterLineByLineNumber(
       1,
       `const a = 'a';

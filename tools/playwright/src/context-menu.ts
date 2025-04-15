@@ -1,26 +1,26 @@
 import { ElementHandle } from '@playwright/test';
 
-import { OpenSumiApp } from './app';
-import { OpenSumiMenu } from './menu';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPMenu } from './menu';
 
-export class OpenSumiContextMenu extends OpenSumiMenu {
-  public static async openAt(app: OpenSumiApp, x: number, y: number): Promise<OpenSumiContextMenu> {
+export class Nuvio-MCPContextMenu extends Nuvio-MCPMenu {
+  public static async openAt(app: Nuvio-MCPApp, x: number, y: number): Promise<Nuvio-MCPContextMenu> {
     await app.page.mouse.move(x, y);
     await app.page.mouse.click(x, y, { button: 'right' });
-    return OpenSumiContextMenu.returnWhenVisible(app);
+    return Nuvio-MCPContextMenu.returnWhenVisible(app);
   }
 
   public static async open(
-    app: OpenSumiApp,
+    app: Nuvio-MCPApp,
     element: () => Promise<ElementHandle<SVGElement | HTMLElement>>,
-  ): Promise<OpenSumiContextMenu> {
+  ): Promise<Nuvio-MCPContextMenu> {
     const elementHandle = await element();
     await elementHandle.click({ button: 'right' });
-    return OpenSumiContextMenu.returnWhenVisible(app);
+    return Nuvio-MCPContextMenu.returnWhenVisible(app);
   }
 
-  private static async returnWhenVisible(app: OpenSumiApp): Promise<OpenSumiContextMenu> {
-    const menu = new OpenSumiContextMenu(app);
+  private static async returnWhenVisible(app: Nuvio-MCPApp): Promise<Nuvio-MCPContextMenu> {
+    const menu = new Nuvio-MCPContextMenu(app);
     await menu.waitForVisible();
     return menu;
   }

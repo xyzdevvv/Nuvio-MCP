@@ -1,11 +1,11 @@
 import React, { ReactNode } from 'react';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { ContentWidgetContainerPanel } from '@opensumi/ide-core-browser/lib/components/ai-native/content-widget/containerPanel';
-import { IAIInlineResultIconItemsProps } from '@opensumi/ide-core-browser/lib/components/ai-native/inline-chat/result';
-import { localize } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
-import { LineRange } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/model/line-range';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { ContentWidgetContainerPanel } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/content-widget/containerPanel';
+import { IAIInlineResultIconItemsProps } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/inline-chat/result';
+import { localize } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { LineRange } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/model/line-range';
 import {
   ACCEPT_CURRENT_ACTIONS,
   AIResolveConflictContentWidget,
@@ -13,12 +13,12 @@ import {
   IAcceptConflictActionsEvent,
   IGNORE_ACTIONS,
   REVOKE_ACTIONS,
-} from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/types';
-import { ResultCodeEditor } from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/view/editors/resultCodeEditor';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/types';
+import { ResultCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/view/editors/resultCodeEditor';
 import {
   ResolveResultWidget,
   WapperAIInlineResult,
-} from '@opensumi/ide-monaco/lib/browser/contrib/merge-editor/widget/resolve-result-widget';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/merge-editor/widget/resolve-result-widget';
 
 import { InlineDiffWidget } from '../../widget/inline-diff/inline-diff-widget';
 

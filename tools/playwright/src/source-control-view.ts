@@ -1,8 +1,8 @@
-import { OpenSumiApp } from './app';
-import { OpenSumiView } from './view';
+import { Nuvio-MCPApp } from './app';
+import { Nuvio-MCPView } from './view';
 
-export class OpenSumiSourceControlView extends OpenSumiView {
-  constructor(app: OpenSumiApp, name: string) {
+export class Nuvio-MCPSourceControlView extends Nuvio-MCPView {
+  constructor(app: Nuvio-MCPApp, name: string) {
     super(app, {
       viewSelector: '[data-view-id="scm_view"]',
       tabSelector: '[data-view-id="scm_view"] [tabindex="0"]',

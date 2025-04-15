@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { matchesFuzzy, splitGlobAware } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { matchesFuzzy, splitGlobAware } from '@Nuvio-MCP/ide-core-browser';
 
 interface ParsedQuery {
   type: 'include' | 'exclude';

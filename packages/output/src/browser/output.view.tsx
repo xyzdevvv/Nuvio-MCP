@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 
-import { Option, Select } from '@opensumi/ide-components';
-import { AppConfig, ViewState, useAutorun, useInjectable } from '@opensumi/ide-core-browser';
-import { OUTPUT_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
-import { Select as NativeSelect } from '@opensumi/ide-core-browser/lib/components/select';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common/main-layout.definition';
+import { Option, Select } from '@Nuvio-MCP/ide-components';
+import { AppConfig, ViewState, useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { OUTPUT_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
+import { Select as NativeSelect } from '@Nuvio-MCP/ide-core-browser/lib/components/select';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common/main-layout.definition';
 
 import styles from './output.module.less';
 import { OutputService } from './output.service';

@@ -1,4 +1,4 @@
-import { localize } from '@opensumi/ide-core-browser';
+import { localize } from '@Nuvio-MCP/ide-core-browser';
 
 export default class Messages {
   public static markerTitle = () => localize('markers.title');

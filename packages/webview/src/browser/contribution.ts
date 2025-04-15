@@ -1,8 +1,8 @@
 /* istanbul ignore file */
-import { Autowired } from '@opensumi/di';
-import { Domain, URI } from '@opensumi/ide-core-browser';
-import { IResource, ResourceService } from '@opensumi/ide-editor';
-import { BrowserEditorContribution, EditorComponentRegistry } from '@opensumi/ide-editor/lib/browser';
+import { Autowired } from '@Nuvio-MCP/di';
+import { Domain, URI } from '@Nuvio-MCP/ide-core-browser';
+import { IResource, ResourceService } from '@Nuvio-MCP/ide-editor';
+import { BrowserEditorContribution, EditorComponentRegistry } from '@Nuvio-MCP/ide-editor/lib/browser';
 
 import { EDITOR_WEBVIEW_SCHEME, IEditorWebviewMetaData, IWebviewService, isWebview } from './types';
 import { WebviewServiceImpl } from './webview.service';

@@ -1,7 +1,7 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { IMainThreadCommands, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import { createCommandsApiFactory } from '@opensumi/ide-extension/lib/hosted/api/sumi/ext.host.command';
-import { ExtHostCommands } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.command';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { IMainThreadCommands, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { createCommandsApiFactory } from '@Nuvio-MCP/ide-extension/lib/hosted/api/sumi/ext.host.command';
+import { ExtHostCommands } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.command';
 
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
 

@@ -1,8 +1,8 @@
 import os from 'os';
 
-import { Injector } from '@opensumi/di';
-import { normalizedIpcHandlerPath } from '@opensumi/ide-core-common/lib/utils/ipc';
-import { createNodeInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { Injector } from '@Nuvio-MCP/di';
+import { normalizedIpcHandlerPath } from '@Nuvio-MCP/ide-core-common/lib/utils/ipc';
+import { createNodeInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { TerminalNodePtyModule } from '../../src/node';
 import { PtyService } from '../../src/node/pty';

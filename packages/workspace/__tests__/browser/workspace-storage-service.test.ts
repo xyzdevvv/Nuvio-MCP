@@ -1,9 +1,9 @@
-import { CommandService, IContextKeyService } from '@opensumi/ide-core-browser';
-import { URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { WorkspaceVariableContribution } from '@opensumi/ide-workspace/lib/browser/workspace-variable-contribution';
+import { CommandService, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspaceVariableContribution } from '@Nuvio-MCP/ide-workspace/lib/browser/workspace-variable-contribution';
 
 import { WorkspaceModule } from '../../src/browser';
 

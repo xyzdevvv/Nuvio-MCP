@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 
-import { Scrollbars } from '@opensumi/ide-components';
-import { KeybindingRegistry, useAutorun, useDesignStyles, useInjectable } from '@opensumi/ide-core-browser';
-import { IThemeService, ThemeType } from '@opensumi/ide-theme';
+import { Scrollbars } from '@Nuvio-MCP/ide-components';
+import { KeybindingRegistry, useAutorun, useDesignStyles, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { IThemeService, ThemeType } from '@Nuvio-MCP/ide-theme';
 
 import { ITerminalGroupViewService, ITerminalRenderProvider, ItemType } from '../../common';
 import { TerminalContextMenuService } from '../terminal.context-menu';

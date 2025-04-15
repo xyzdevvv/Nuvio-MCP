@@ -8,9 +8,9 @@ import {
   getIcon,
   useInjectable,
   useUpdateOnEvent,
-} from '@opensumi/ide-core-browser';
-import { Popover, PopoverPosition } from '@opensumi/ide-core-browser/lib/components';
-import { EnhanceIcon } from '@opensumi/ide-core-browser/lib/components/ai-native';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Popover, PopoverPosition } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EnhanceIcon } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
 import {
   AIServiceType,
   ActionSourceEnum,
@@ -32,12 +32,12 @@ import {
   localize,
   path,
   uuid,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IMessageService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 import 'react-chat-elements/dist/main.css';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { AI_CHAT_VIEW_ID, IChatAgentService, IChatInternalService, IChatMessageStructure } from '../../common';
 import { LLMContextService, LLMContextServiceToken } from '../../common/llm-context';

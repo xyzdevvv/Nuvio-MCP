@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { OutputChannel } from '@opensumi/ide-output/lib/browser/output.channel';
-import { OutputService } from '@opensumi/ide-output/lib/browser/output.service';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { OutputChannel } from '@Nuvio-MCP/ide-output/lib/browser/output.channel';
+import { OutputService } from '@Nuvio-MCP/ide-output/lib/browser/output.service';
 
 import { IMainThreadOutput } from '../../../common/vscode';
 

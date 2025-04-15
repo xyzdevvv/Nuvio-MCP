@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IContextKeyService, PreferenceChange } from '@opensumi/ide-core-browser';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IContextKeyService, PreferenceChange } from '@Nuvio-MCP/ide-core-browser';
 import {
   CommandService,
   DisposableCollection,
@@ -9,23 +9,23 @@ import {
   URI,
   Uri,
   toDisposable,
-} from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IDocPersistentCacheProvider, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { UntitledDocumentIdCounter } from '@opensumi/ide-editor/lib/browser/untitled-resource';
+} from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IDocPersistentCacheProvider, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { UntitledDocumentIdCounter } from '@Nuvio-MCP/ide-editor/lib/browser/untitled-resource';
 import {
   EmptyDocCacheImpl,
   IEditorDocumentModel,
   IEditorDocumentModelService,
   IEditorFeatureContribution,
   IEditorFeatureRegistry,
-} from '@opensumi/ide-editor/src/browser';
-import { EditorDocumentModel } from '@opensumi/ide-editor/src/browser/doc-model/main';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/src/browser/workbench-editor.service';
-import { MockContextKeyService } from '@opensumi/ide-monaco/__mocks__/monaco.context-key.service';
-import { monacoBrowser } from '@opensumi/ide-monaco/lib/browser';
-import { monaco as monacoAPI } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+} from '@Nuvio-MCP/ide-editor/src/browser';
+import { EditorDocumentModel } from '@Nuvio-MCP/ide-editor/src/browser/doc-model/main';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/src/browser/workbench-editor.service';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.context-key.service';
+import { monacoBrowser } from '@Nuvio-MCP/ide-monaco/lib/browser';
+import { monaco as monacoAPI } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
 import { IDirtyDiffWorkbenchController } from '../../../src';
 import { DirtyDiffItem, DirtyDiffWorkbenchController } from '../../../src/browser/dirty-diff';
@@ -34,7 +34,7 @@ import { DirtyDiffModel } from '../../../src/browser/dirty-diff/dirty-diff-model
 import { DirtyDiffWidget } from '../../../src/browser/dirty-diff/dirty-diff-widget';
 import { SCMPreferences } from '../../../src/browser/scm-preference';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 jest.useFakeTimers();
 

@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { FormEvent, PropsWithChildren, memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-import { ValidateMessage } from '@opensumi/ide-components';
-import { DisposableCollection, Key, ViewState, localize, useInjectable } from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
+import { ValidateMessage } from '@Nuvio-MCP/ide-components';
+import { DisposableCollection, Key, ViewState, localize, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
 
 import {
   ContentSearchResult,

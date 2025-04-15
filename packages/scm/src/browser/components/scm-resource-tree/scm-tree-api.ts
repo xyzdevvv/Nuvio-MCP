@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService, URI } from '@opensumi/ide-core-browser';
-import { Disposable, path } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, path } from '@Nuvio-MCP/ide-core-common';
 
 import { ISCMResource, ISCMResourceGroup, SCMViewModelMode } from '../../../common';
 import { ViewModelContext } from '../../scm-model';

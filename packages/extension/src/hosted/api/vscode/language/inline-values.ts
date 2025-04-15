@@ -1,5 +1,5 @@
-import { CancellationToken, IRange, Uri, asPromise } from '@opensumi/ide-core-common';
-import { InlineValue } from '@opensumi/ide-debug/lib/common/inline-values';
+import { CancellationToken, IRange, Uri, asPromise } from '@Nuvio-MCP/ide-core-common';
+import { InlineValue } from '@Nuvio-MCP/ide-debug/lib/common/inline-values';
 
 import { ExtensionDocumentDataManager, IInlineValueContextDto } from '../../../../common/vscode';
 import * as Converter from '../../../../common/vscode/converter';

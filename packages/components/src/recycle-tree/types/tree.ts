@@ -1,4 +1,4 @@
-import { MaybePromise } from '@opensumi/ide-utils';
+import { MaybePromise } from '@Nuvio-MCP/ide-utils';
 
 import { CompositeTreeNode } from '../tree/TreeNode';
 

@@ -16,7 +16,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: opensumi/actions/bot-token@main
+      - uses: Nuvio-MCP/actions/bot-token@main
         id: bot-token
         with:
           token-server: ${{ secrets.BOT_TOKEN_SERVER }}

@@ -1,6 +1,6 @@
 import clamp from 'lodash/clamp';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   BinaryBuffer,
   Disposable,
@@ -14,7 +14,7 @@ import {
   ILogger,
   Uri,
   path,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import {
   DEBUG_MEMORY_SCHEME,

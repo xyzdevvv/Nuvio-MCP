@@ -1,9 +1,9 @@
 import cls from 'classnames';
 import React, { useEffect, useState } from 'react';
 
-import { Button } from '@opensumi/ide-components';
-import { getIcon, localize, useAutorun, useInjectable } from '@opensumi/ide-core-browser';
-import { EditorContext } from '@opensumi/ide-editor/lib/browser/editor.context';
+import { Button } from '@Nuvio-MCP/ide-components';
+import { getIcon, localize, useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { EditorContext } from '@Nuvio-MCP/ide-editor/lib/browser/editor.context';
 
 import { DebugConfigurationService } from '../../view/configuration/debug-configuration.service';
 

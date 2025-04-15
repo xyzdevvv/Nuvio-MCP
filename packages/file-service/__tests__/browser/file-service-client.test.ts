@@ -1,12 +1,12 @@
 import fs from 'fs-extra';
 import temp from 'temp';
 
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { DisposableCollection, FileUri, UTF8 } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { FileService } from '@opensumi/ide-file-service/lib/node';
-import { DiskFileSystemProvider } from '@opensumi/ide-file-service/lib/node/disk-file-system.provider';
-import { WatcherProcessManagerToken } from '@opensumi/ide-file-service/lib/node/watcher-process-manager';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { DisposableCollection, FileUri, UTF8 } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { FileService } from '@Nuvio-MCP/ide-file-service/lib/node';
+import { DiskFileSystemProvider } from '@Nuvio-MCP/ide-file-service/lib/node/disk-file-system.provider';
+import { WatcherProcessManagerToken } from '@Nuvio-MCP/ide-file-service/lib/node/watcher-process-manager';
 
 import { FileServicePath, IDiskFileProvider, IFileServiceClient } from '../../src';
 import { FileServiceClientModule } from '../../src/browser';

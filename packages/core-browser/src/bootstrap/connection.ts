@@ -1,8 +1,8 @@
-import { Injector, Provider } from '@opensumi/di';
-import { RPCServiceCenter, initRPCService } from '@opensumi/ide-connection';
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser';
-import { ISumiConnectionOptions } from '@opensumi/ide-connection/lib/common/rpc/connection';
-import { RPCServiceChannelPath } from '@opensumi/ide-connection/lib/common/server-handler';
+import { Injector, Provider } from '@Nuvio-MCP/di';
+import { RPCServiceCenter, initRPCService } from '@Nuvio-MCP/ide-connection';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser';
+import { ISumiConnectionOptions } from '@Nuvio-MCP/ide-connection/lib/common/rpc/connection';
+import { RPCServiceChannelPath } from '@Nuvio-MCP/ide-connection/lib/common/server-handler';
 import {
   BasicModule,
   BrowserConnectionCloseEvent,
@@ -11,8 +11,8 @@ import {
   IEventBus,
   ILogger,
   IReporterService,
-} from '@opensumi/ide-core-common';
-import { BackService } from '@opensumi/ide-core-common/lib/module';
+} from '@Nuvio-MCP/ide-core-common';
+import { BackService } from '@Nuvio-MCP/ide-core-common/lib/module';
 
 import { ClientAppStateService } from '../application';
 import { Logger } from '../logger';
@@ -20,7 +20,7 @@ import { AppConfig } from '../react-providers/config-provider';
 
 import { ModuleConstructor } from './app.interface';
 
-import type { MessageConnection } from '@opensumi/vscode-jsonrpc/lib/common/connection';
+import type { MessageConnection } from '@Nuvio-MCP/vscode-jsonrpc/lib/common/connection';
 
 export async function createConnectionService(
   injector: Injector,

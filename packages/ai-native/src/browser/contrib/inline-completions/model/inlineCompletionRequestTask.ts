@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { AppConfig, PreferenceService } from '@opensumi/ide-core-browser';
-import { AI_INLINE_COMPLETION_REPORTER } from '@opensumi/ide-core-browser/lib/ai-native/command';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { AppConfig, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { AI_INLINE_COMPLETION_REPORTER } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/command';
 import {
   AINativeSettingSectionsId,
   Disposable,
@@ -10,11 +10,11 @@ import {
   IntelligentCompletionsRegistryToken,
   URI,
   uuid,
-} from '@opensumi/ide-core-common';
-import { AIServiceType, IAIReporter } from '@opensumi/ide-core-common/lib/types/ai-native/reporter';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { WorkbenchEditorServiceImpl } from '@opensumi/ide-editor/lib/browser/workbench-editor.service';
-import * as monaco from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-common';
+import { AIServiceType, IAIReporter } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native/reporter';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { WorkbenchEditorServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/workbench-editor.service';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { IIntelligentCompletionsResult } from '../../intelligent-completions';
 import { IntelligentCompletionsRegistry } from '../../intelligent-completions/intelligent-completions.feature.registry';

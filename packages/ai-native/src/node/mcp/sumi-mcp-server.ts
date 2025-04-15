@@ -1,14 +1,14 @@
-// 想要通过 MCP 的方式暴露 Opensumi 的 IDE 能力，就需要 Node.js 层打通 MCP 的通信
+// 想要通过 MCP 的方式暴露 Nuvio-MCP 的 IDE 能力，就需要 Node.js 层打通 MCP 的通信
 // 因为大部分 MCP 功能的实现在前端，因此需要再这里做前后端通信
 
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection';
-import { ILogger } from '@opensumi/ide-core-common';
-import { INodeLogger } from '@opensumi/ide-core-node';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection';
+import { ILogger } from '@Nuvio-MCP/ide-core-common';
+import { INodeLogger } from '@Nuvio-MCP/ide-core-node';
 
 import pkg from '../../../package.json';
 import { BUILTIN_MCP_SERVER_NAME, ISumiMCPServerBackend } from '../../common';
@@ -152,7 +152,7 @@ export class SumiMCPServerBackend extends RPCService<IMCPServerProxyService> imp
           }));
         }
 
-        // OpenSumi 内置的 MCP Server
+        // Nuvio-MCP 内置的 MCP Server
         if (serverName === BUILTIN_MCP_SERVER_NAME) {
           return {
             name: server.getServerName(),

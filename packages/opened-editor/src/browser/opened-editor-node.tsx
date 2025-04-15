@@ -8,7 +8,7 @@ import {
   INodeRendererProps,
   TreeNode,
   TreeNodeType,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   CommandService,
   OPEN_EDITORS_COMMANDS,
@@ -16,9 +16,9 @@ import {
   getIcon,
   localize,
   useDesignStyles,
-} from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { EDITOR_WEBVIEW_SCHEME } from '@opensumi/ide-webview';
+} from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { EDITOR_WEBVIEW_SCHEME } from '@Nuvio-MCP/ide-webview';
 
 import { EditorFile, EditorFileGroup } from './opened-editor-node.define';
 import styles from './opened-editor-node.module.less';

@@ -6,7 +6,7 @@ import {
   PreferenceService,
   URI,
   isDefined,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 
 import { DebugConfiguration } from '../common';
 

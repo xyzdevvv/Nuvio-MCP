@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IElectronNativeDialogService, electronEnv } from '@opensumi/ide-core-browser';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IElectronNativeDialogService, electronEnv } from '@Nuvio-MCP/ide-core-browser';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
 
 @Injectable()
 export class ElectronNativeDialogService implements IElectronNativeDialogService {

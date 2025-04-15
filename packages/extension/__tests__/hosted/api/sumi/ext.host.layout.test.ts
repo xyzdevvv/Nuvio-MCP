@@ -1,4 +1,4 @@
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
 
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
 import { mockExtensions } from '../../../../__mocks__/extensions';

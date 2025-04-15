@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { Button, ButtonType } from '@opensumi/ide-components';
+import { Button, ButtonType } from '@Nuvio-MCP/ide-components';
 
 import { EnhanceIcon } from '../enhanceIcon';
 import { LineVertical } from '../line-vertical';

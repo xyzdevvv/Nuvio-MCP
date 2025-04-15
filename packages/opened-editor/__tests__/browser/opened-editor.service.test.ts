@@ -1,18 +1,18 @@
 import cls from 'classnames';
 
-import { TreeNodeType } from '@opensumi/ide-components';
-import { EDITOR_COMMANDS } from '@opensumi/ide-core-browser';
-import { Emitter, IEventBus, URI } from '@opensumi/ide-core-browser';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { FileDecorationsService } from '@opensumi/ide-decoration/lib/browser/decorationsService';
-import { IResource, ResourceDecorationChangeEvent, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IEditorDocumentModelService, ResourceService } from '@opensumi/ide-editor/lib/browser';
-import { MockWorkbenchEditorService } from '@opensumi/ide-editor/lib/common/mocks/workbench-editor.service';
-import { IMainLayoutService } from '@opensumi/ide-main-layout';
-import { IThemeService } from '@opensumi/ide-theme';
-import { MockThemeService } from '@opensumi/ide-theme/lib/common/mocks/theme.service';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+import { TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { EDITOR_COMMANDS } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, IEventBus, URI } from '@Nuvio-MCP/ide-core-browser';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { FileDecorationsService } from '@Nuvio-MCP/ide-decoration/lib/browser/decorationsService';
+import { IResource, ResourceDecorationChangeEvent, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IEditorDocumentModelService, ResourceService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { MockWorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common/mocks/workbench-editor.service';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
+import { MockThemeService } from '@Nuvio-MCP/ide-theme/lib/common/mocks/theme.service';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

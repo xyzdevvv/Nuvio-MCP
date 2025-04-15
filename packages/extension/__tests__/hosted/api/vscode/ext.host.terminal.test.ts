@@ -1,6 +1,6 @@
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { Deferred, Disposable, Emitter, ILogger, OperatingSystem } from '@opensumi/ide-core-common';
-import { IExtension } from '@opensumi/ide-extension';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, Disposable, Emitter, ILogger, OperatingSystem } from '@Nuvio-MCP/ide-core-common';
+import { IExtension } from '@Nuvio-MCP/ide-extension';
 import {
   ITerminalApiService,
   ITerminalController,
@@ -8,9 +8,9 @@ import {
   ITerminalProfileService,
   ITerminalService,
   ITerminalServicePath,
-} from '@opensumi/ide-terminal-next';
-import { NodePtyTerminalService } from '@opensumi/ide-terminal-next/lib/browser/terminal.service';
-import { EnvironmentVariableServiceToken } from '@opensumi/ide-terminal-next/lib/common/environmentVariable';
+} from '@Nuvio-MCP/ide-terminal-next';
+import { NodePtyTerminalService } from '@Nuvio-MCP/ide-terminal-next/lib/browser/terminal.service';
+import { EnvironmentVariableServiceToken } from '@Nuvio-MCP/ide-terminal-next/lib/common/environmentVariable';
 
 import { createBrowserInjector } from '../../../../../../tools/dev-tool/src/injector-helper';
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';

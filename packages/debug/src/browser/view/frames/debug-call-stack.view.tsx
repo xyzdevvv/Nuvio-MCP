@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ViewState, useInjectable } from '@opensumi/ide-core-browser';
+import { ViewState, useInjectable } from '@Nuvio-MCP/ide-core-browser';
 
 import { IDebugSession, IDebugSessionManager } from '../../../common';
 import { DebugSession } from '../../debug-session';

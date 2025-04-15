@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { RPCService } from '@opensumi/ide-connection';
-import { INodeLogger, OperatingSystem, isMacintosh, isWindows } from '@opensumi/ide-core-node';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { RPCService } from '@Nuvio-MCP/ide-connection';
+import { INodeLogger, OperatingSystem, isMacintosh, isWindows } from '@Nuvio-MCP/ide-core-node';
 
 import {
   INodePtyInstance,

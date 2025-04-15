@@ -4,7 +4,7 @@ import type { ColorRegistry } from '@difizen/mana-app';
 
 @singleton({ contrib: ColorContribution })
 export class LibroVariableColorRegistry implements ColorContribution {
-  // @inject(OpensumiInjector) injector: Injector;
+  // @inject(Nuvio-MCPInjector) injector: Injector;
 
   registerColors(colors: ColorRegistry): void {
     colors.register(

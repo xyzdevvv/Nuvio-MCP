@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { getDebugLogger } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 const maxChannelHistory = 1000;
 

@@ -1,11 +1,11 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandService,
   Disposable,
   IElectronMainMenuService,
   INativeMenuTemplate,
   strings,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { SpecialCases } from '../../../../keyboard';
 import { electronEnv } from '../../../../utils';

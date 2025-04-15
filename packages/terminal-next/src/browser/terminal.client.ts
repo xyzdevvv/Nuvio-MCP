@@ -1,8 +1,8 @@
 import { ISearchOptions } from '@xterm/addon-search';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IEventBus, QuickPickService, TerminalClientAttachEvent, localize } from '@opensumi/ide-core-browser';
-import { PreferenceService } from '@opensumi/ide-core-browser/lib/preferences/types';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IEventBus, QuickPickService, TerminalClientAttachEvent, localize } from '@Nuvio-MCP/ide-core-browser';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser/lib/preferences/types';
 import {
   Deferred,
   Disposable,
@@ -16,13 +16,13 @@ import {
   REPORT_NAME,
   URI,
   debounce,
-} from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor/lib/common';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { IVariableResolverService } from '@opensumi/ide-variable/lib/common';
-import { IWorkspaceService } from '@opensumi/ide-workspace/lib/common';
+} from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor/lib/common';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IVariableResolverService } from '@Nuvio-MCP/ide-variable/lib/common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common';
 
 import {
   ICreateTerminalOptions,

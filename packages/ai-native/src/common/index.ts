@@ -11,9 +11,9 @@ import {
   IDisposable,
   IMarkdownString,
   Uri,
-} from '@opensumi/ide-core-common';
-import { DESIGN_MENUBAR_CONTAINER_VIEW_ID } from '@opensumi/ide-design/lib/common/constants';
-import { IPosition, ITextModel, InlineCompletionContext } from '@opensumi/ide-monaco/lib/common';
+} from '@Nuvio-MCP/ide-core-common';
+import { DESIGN_MENUBAR_CONTAINER_VIEW_ID } from '@Nuvio-MCP/ide-design/lib/common/constants';
+import { IPosition, ITextModel, InlineCompletionContext } from '@Nuvio-MCP/ide-monaco/lib/common';
 
 import { IMCPServer, MCPServerDescription } from './mcp-server-manager';
 import { IPartialEditEvent, MCPTool } from './types';
@@ -131,7 +131,7 @@ export const IChatAgentService = Symbol('IChatAgentService');
 
 export const ChatProxyServiceToken = Symbol('ChatProxyServiceToken');
 
-// 暴露给 Node.js 层，使其可以感知 Opensumi 注册的 MCP 能力
+// 暴露给 Node.js 层，使其可以感知 Nuvio-MCP 注册的 MCP 能力
 export const TokenMCPServerProxyService = Symbol('TokenMCPServerProxyService');
 
 export interface ISumiMCPServerBackend {

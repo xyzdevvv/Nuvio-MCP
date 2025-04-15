@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-common';
-import { ValueWithChangeEvent } from '@opensumi/monaco-editor-core/esm/vs/base/common/event';
+import { Injectable } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-common';
+import { ValueWithChangeEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/event';
 
 import {
   IMultiDiffSourceResolver,

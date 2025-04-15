@@ -9,10 +9,10 @@ import {
   MaybeNull,
   MaybePromise,
   URI,
-} from '@opensumi/ide-core-browser';
-import { IContextMenu } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IThemeColor } from '@opensumi/ide-core-common';
-import { editor } from '@opensumi/ide-monaco';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IContextMenu } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IThemeColor } from '@Nuvio-MCP/ide-core-common';
+import { editor } from '@Nuvio-MCP/ide-monaco';
 
 import {
   DragOverPosition,

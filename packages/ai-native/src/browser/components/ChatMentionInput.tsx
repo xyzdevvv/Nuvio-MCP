@@ -1,24 +1,24 @@
 import { DataContent } from 'ai';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-import { Image } from '@opensumi/ide-components/lib/image';
+import { Image } from '@Nuvio-MCP/ide-components/lib/image';
 import {
   LabelService,
   PreferenceService,
   RecentFilesManager,
   getSymbolIcon,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { Icon, getIcon } from '@opensumi/ide-core-browser/lib/components';
-import { AINativeSettingSectionsId, ChatFeatureRegistryToken, URI, localize } from '@opensumi/ide-core-common';
-import { CommandService } from '@opensumi/ide-core-common/lib/command';
-import { defaultFilesWatcherExcludes } from '@opensumi/ide-core-common/lib/preferences/file-watch';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { FileSearchServicePath, IFileSearchService } from '@opensumi/ide-file-search';
-import { OutlineCompositeTreeNode, OutlineTreeNode } from '@opensumi/ide-outline/lib/browser/outline-node.define';
-import { OutlineTreeService } from '@opensumi/ide-outline/lib/browser/services/outline-tree.service';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { Icon, getIcon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { AINativeSettingSectionsId, ChatFeatureRegistryToken, URI, localize } from '@Nuvio-MCP/ide-core-common';
+import { CommandService } from '@Nuvio-MCP/ide-core-common/lib/command';
+import { defaultFilesWatcherExcludes } from '@Nuvio-MCP/ide-core-common/lib/preferences/file-watch';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { FileSearchServicePath, IFileSearchService } from '@Nuvio-MCP/ide-file-search';
+import { OutlineCompositeTreeNode, OutlineTreeNode } from '@Nuvio-MCP/ide-outline/lib/browser/outline-node.define';
+import { OutlineTreeService } from '@Nuvio-MCP/ide-outline/lib/browser/services/outline-tree.service';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IChatInternalService } from '../../common';
 import { LLMContextService } from '../../common/llm-context';

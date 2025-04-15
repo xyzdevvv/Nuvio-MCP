@@ -1,7 +1,7 @@
 import Ajv from 'ajv';
 import * as parser from 'jsonc-parser';
 
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 import { KeymapItem } from '../common';
 

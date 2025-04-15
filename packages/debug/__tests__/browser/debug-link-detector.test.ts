@@ -6,14 +6,14 @@
 
 import assert from 'assert';
 
-import { IOpenerService } from '@opensumi/ide-core-browser';
-import { isWindows } from '@opensumi/ide-core-browser';
-import { LinkDetector } from '@opensumi/ide-debug/lib/browser/debug-link-detector';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { OpenerService } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/openerService';
+import { IOpenerService } from '@Nuvio-MCP/ide-core-browser';
+import { isWindows } from '@Nuvio-MCP/ide-core-browser';
+import { LinkDetector } from '@Nuvio-MCP/ide-debug/lib/browser/debug-link-detector';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { OpenerService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/openerService';
 
 describe('Debug - Link Detector', () => {
   let linkDetector: LinkDetector;

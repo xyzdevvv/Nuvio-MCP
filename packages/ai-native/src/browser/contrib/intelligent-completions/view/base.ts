@@ -1,10 +1,10 @@
-import { Injector } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-common';
-import { ICodeEditor } from '@opensumi/ide-monaco';
+import { Injector } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
+import { ICodeEditor } from '@Nuvio-MCP/ide-monaco';
 import {
   ObservableCodeEditor,
   observableCodeEditor,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/observableCodeEditor';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/observableCodeEditor';
 
 import { CodeEditsResultValue } from '../index';
 

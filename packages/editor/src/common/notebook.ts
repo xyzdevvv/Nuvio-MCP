@@ -1,4 +1,4 @@
-import { Event, IRange, UriComponents } from '@opensumi/ide-core-common';
+import { Event, IRange, UriComponents } from '@Nuvio-MCP/ide-core-common';
 
 export enum NotebookCellsChangeType {
   ModelChange = 1,

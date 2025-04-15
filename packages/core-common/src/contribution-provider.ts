@@ -1,4 +1,4 @@
-import { ConstructorOf, Domain, Injector } from '@opensumi/di';
+import { ConstructorOf, Domain, Injector } from '@Nuvio-MCP/di';
 
 export const ContributionProvider = Symbol('ContributionProvider');
 

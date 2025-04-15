@@ -1,15 +1,15 @@
-import { AddonsModule } from '@opensumi/ide-addons/lib/node';
-import { AINativeModule } from '@opensumi/ide-ai-native/lib/node';
-import { ConstructorOf, NodeModule, ServerCommonModule } from '@opensumi/ide-core-node';
-import { ExtensionModule } from '@opensumi/ide-extension/lib/node/index';
-import { OpenVsxExtensionManagerModule } from '@opensumi/ide-extension-manager/lib/node';
-import { FileSchemeNodeModule } from '@opensumi/ide-file-scheme/lib/node';
-import { FileSearchModule } from '@opensumi/ide-file-search/lib/node';
-import { FileServiceModule } from '@opensumi/ide-file-service/lib/node';
-import { LogServiceModule } from '@opensumi/ide-logs/lib/node';
-import { ProcessModule } from '@opensumi/ide-process/lib/node';
-import { SearchModule } from '@opensumi/ide-search/lib/node';
-import { TerminalNodePtyModule } from '@opensumi/ide-terminal-next/lib/node';
+import { AddonsModule } from '@Nuvio-MCP/ide-addons/lib/node';
+import { AINativeModule } from '@Nuvio-MCP/ide-ai-native/lib/node';
+import { ConstructorOf, NodeModule, ServerCommonModule } from '@Nuvio-MCP/ide-core-node';
+import { ExtensionModule } from '@Nuvio-MCP/ide-extension/lib/node/index';
+import { OpenVsxExtensionManagerModule } from '@Nuvio-MCP/ide-extension-manager/lib/node';
+import { FileSchemeNodeModule } from '@Nuvio-MCP/ide-file-scheme/lib/node';
+import { FileSearchModule } from '@Nuvio-MCP/ide-file-search/lib/node';
+import { FileServiceModule } from '@Nuvio-MCP/ide-file-service/lib/node';
+import { LogServiceModule } from '@Nuvio-MCP/ide-logs/lib/node';
+import { ProcessModule } from '@Nuvio-MCP/ide-process/lib/node';
+import { SearchModule } from '@Nuvio-MCP/ide-search/lib/node';
+import { TerminalNodePtyModule } from '@Nuvio-MCP/ide-terminal-next/lib/node';
 
 export const CommonNodeModules: ConstructorOf<NodeModule>[] = [
   ServerCommonModule,

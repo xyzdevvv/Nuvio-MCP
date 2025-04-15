@@ -1,8 +1,8 @@
 import { IEvent } from '@xterm/xterm';
 
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { Deferred, Disposable, Event, IDisposable, Uri } from '@opensumi/ide-core-common';
-import { IObservable } from '@opensumi/ide-monaco/lib/common/observable';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, Disposable, Event, IDisposable, Uri } from '@Nuvio-MCP/ide-core-common';
+import { IObservable } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import {
   ITerminalClient,

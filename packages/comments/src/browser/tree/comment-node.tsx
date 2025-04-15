@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { useCallback } from 'react';
 
-import { ClasslistComposite, INodeRendererProps } from '@opensumi/ide-components';
-import { getIcon, useDesignStyles } from '@opensumi/ide-core-browser';
+import { ClasslistComposite, INodeRendererProps } from '@Nuvio-MCP/ide-components';
+import { getIcon, useDesignStyles } from '@Nuvio-MCP/ide-core-browser';
 
 import { CommentContentNode, CommentFileNode, CommentReplyNode } from './tree-node.defined';
 import styles from './tree-node.module.less';

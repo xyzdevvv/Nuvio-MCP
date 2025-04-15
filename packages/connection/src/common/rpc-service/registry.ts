@@ -1,4 +1,4 @@
-import { DisposableStore, Emitter, IDisposable } from '@opensumi/ide-core-common';
+import { DisposableStore, Emitter, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IMessageIO, TSumiProtocol, TSumiProtocolMethod } from '../rpc';
 import { RPCServiceMethod } from '../types';

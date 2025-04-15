@@ -1,7 +1,7 @@
-import { BasicEvent, Event, IDisposable, IJSONSchema } from '@opensumi/ide-core-common';
-import { EditorContributionInstantiation } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
-import { MultiDiffEditorWidget } from '@opensumi/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget';
-import { SyncDescriptor } from '@opensumi/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
+import { BasicEvent, Event, IDisposable, IJSONSchema } from '@Nuvio-MCP/ide-core-common';
+import { EditorContributionInstantiation } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorExtensions';
+import { MultiDiffEditorWidget } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget';
+import { SyncDescriptor } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/instantiation/common/descriptors';
 
 import { IMergeEditorEditor } from './merge-editor-widget';
 
@@ -9,20 +9,20 @@ import type {
   ICodeEditor,
   IDiffEditor,
   IDiffEditorConstructionOptions,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
-import type { IEditorContribution } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/editorBrowser';
+import type { IEditorContribution } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 import type {
   DocumentFormattingEditProvider,
   DocumentRangeFormattingEditProvider,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
-import type { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import type { IFormattingEditProviderSelector } from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
+import type { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import type { IFormattingEditProviderSelector } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/format/browser/format';
 import type {
   ISelectedSuggestion,
   SuggestWidget,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggestWidget';
-import type { IStandaloneEditorConstructionOptions } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
-import type { BrandedService } from '@opensumi/monaco-editor-core/esm/vs/platform/instantiation/common/instantiation';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggestWidget';
+import type { IStandaloneEditorConstructionOptions } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor';
+import type { BrandedService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/instantiation/common/instantiation';
 
 export * from './event';
 

@@ -1,4 +1,4 @@
-import { WSChannelHandler } from '@opensumi/ide-connection/lib/browser/ws-channel-handler';
+import { WSChannelHandler } from '@Nuvio-MCP/ide-connection/lib/browser/ws-channel-handler';
 import {
   CommandRegistry,
   CommandService,
@@ -9,12 +9,12 @@ import {
   Uri,
   isLinux,
   isWindows,
-} from '@opensumi/ide-core-browser';
-import { IApplicationService, uuid } from '@opensumi/ide-core-common';
-import { IFileTreeService } from '@opensumi/ide-file-tree-next';
-import { FileTreeContribution } from '@opensumi/ide-file-tree-next/lib/browser/file-tree-contribution';
-import { PreferenceContribution } from '@opensumi/ide-preferences/lib/browser/preference-contribution';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IApplicationService, uuid } from '@Nuvio-MCP/ide-core-common';
+import { IFileTreeService } from '@Nuvio-MCP/ide-file-tree-next';
+import { FileTreeContribution } from '@Nuvio-MCP/ide-file-tree-next/lib/browser/file-tree-contribution';
+import { PreferenceContribution } from '@Nuvio-MCP/ide-preferences/lib/browser/preference-contribution';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { MockInjector, mockService } from '../../../../tools/dev-tool/src/mock-injector';
 import { ExtensionNodeServiceServerPath, IExtensionNodeClientService } from '../../src';

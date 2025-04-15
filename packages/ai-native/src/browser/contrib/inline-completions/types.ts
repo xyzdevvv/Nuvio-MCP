@@ -1,4 +1,4 @@
-import { URI } from '@opensumi/ide-core-common';
+import { URI } from '@Nuvio-MCP/ide-core-common';
 
 export enum TokenizerName {
   cl100k_base = 'cl100k_base',

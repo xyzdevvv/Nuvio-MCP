@@ -3,7 +3,7 @@ import path from 'path';
 import compressing from 'compressing';
 import * as fs from 'fs-extra';
 
-import { Archive, toLocalISOString } from '@opensumi/ide-core-common';
+import { Archive, toLocalISOString } from '@Nuvio-MCP/ide-core-common';
 
 /**
  * @param date 不传则返回当天日志文件夹名

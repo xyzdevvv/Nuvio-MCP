@@ -1,9 +1,9 @@
-import { CommandRegistry, CommandService, EDITOR_COMMANDS, FILE_COMMANDS, URI } from '@opensumi/ide-core-browser';
-import { EditorModule } from '@opensumi/ide-editor/lib/browser';
+import { CommandRegistry, CommandService, EDITOR_COMMANDS, FILE_COMMANDS, URI } from '@Nuvio-MCP/ide-core-browser';
+import { EditorModule } from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   EditorAutoSaveEditorContribution,
   EditorContribution,
-} from '@opensumi/ide-editor/lib/browser/editor.contribution';
+} from '@Nuvio-MCP/ide-editor/lib/browser/editor.contribution';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../tools/dev-tool/src/mock-injector';

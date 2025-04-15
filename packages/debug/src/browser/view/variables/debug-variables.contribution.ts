@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   CommandContribution,
@@ -8,22 +8,22 @@ import {
   IReporterService,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { CUSTOM_EDITOR_SCHEME, CommandService, IExtensionProps, URI } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { CUSTOM_EDITOR_SCHEME, CommandService, IExtensionProps, URI } from '@Nuvio-MCP/ide-core-common';
 import {
   BrowserEditorContribution,
   EditorOpenType,
   IResource,
   ResourceService,
   WorkbenchEditorService,
-} from '@opensumi/ide-editor/lib/browser';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import { IMessageService } from '@opensumi/ide-overlay';
-import { EditorContextKeys } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
-import { ContextKeyExpr } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
+import { EditorContextKeys } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorContextKeys';
+import { ContextKeyExpr } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol';
 
 import { DEBUG_COMMANDS, DEBUG_REPORT_NAME } from '../../../common';
 import { DebugMemoryFileSystemProvider } from '../../debug-memory';

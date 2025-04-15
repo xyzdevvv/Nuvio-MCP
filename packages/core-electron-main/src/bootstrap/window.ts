@@ -12,7 +12,7 @@ import {
 } from 'electron';
 import treeKill from 'tree-kill';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Deferred,
   Disposable,
@@ -21,8 +21,8 @@ import {
   URI,
   getDebugLogger,
   isMacintosh,
-} from '@opensumi/ide-core-common';
-import { normalizedIpcHandlerPathAsync } from '@opensumi/ide-core-common/lib/utils/ipc';
+} from '@Nuvio-MCP/ide-core-common';
+import { normalizedIpcHandlerPathAsync } from '@Nuvio-MCP/ide-core-common/lib/utils/ipc';
 
 import { ElectronAppConfig, ICodeWindow, ICodeWindowOptions } from './types';
 

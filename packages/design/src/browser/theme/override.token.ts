@@ -1,5 +1,5 @@
-import { localize } from '@opensumi/ide-core-common';
-import { getColorRegistry, registerColor } from '@opensumi/ide-theme';
+import { localize } from '@Nuvio-MCP/ide-core-common';
+import { getColorRegistry, registerColor } from '@Nuvio-MCP/ide-theme';
 
 import darkTheme from './default-theme';
 import lightTheme from './light-theme';

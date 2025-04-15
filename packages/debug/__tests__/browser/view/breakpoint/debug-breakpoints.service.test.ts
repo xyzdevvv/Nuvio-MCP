@@ -1,19 +1,19 @@
-import { IContextKeyService } from '@opensumi/ide-core-browser';
-import { Disposable, EventBusImpl, IEventBus, IFileServiceClient, URI } from '@opensumi/ide-core-common';
-import { IDebugSessionManager } from '@opensumi/ide-debug';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, EventBusImpl, IEventBus, IFileServiceClient, URI } from '@Nuvio-MCP/ide-core-common';
+import { IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
 import {
   BreakpointManager,
   DebugBreakpoint,
   DebugExceptionBreakpoint,
-} from '@opensumi/ide-debug/lib/browser/breakpoint';
-import { DebugBreakpointsService } from '@opensumi/ide-debug/lib/browser/view/breakpoints/debug-breakpoints.service';
-import { DebugViewModel } from '@opensumi/ide-debug/lib/browser/view/debug-view-model';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { MockFileServiceClient } from '@opensumi/ide-file-service/__mocks__/file-service-client';
-import { IWorkspaceService, IWorkspaceStorageService } from '@opensumi/ide-workspace';
-import { WorkspaceEditDidDeleteFileEvent, WorkspaceEditDidRenameFileEvent } from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-debug/lib/browser/breakpoint';
+import { DebugBreakpointsService } from '@Nuvio-MCP/ide-debug/lib/browser/view/breakpoints/debug-breakpoints.service';
+import { DebugViewModel } from '@Nuvio-MCP/ide-debug/lib/browser/view/debug-view-model';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { MockFileServiceClient } from '@Nuvio-MCP/ide-file-service/__mocks__/file-service-client';
+import { IWorkspaceService, IWorkspaceStorageService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspaceEditDidDeleteFileEvent, WorkspaceEditDidRenameFileEvent } from '@Nuvio-MCP/ide-workspace-edit';
 
 describe('Debug Breakpoints Service', () => {
   const mockInjector = createBrowserInjector(

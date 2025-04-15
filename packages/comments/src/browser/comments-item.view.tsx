@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button } from '@opensumi/ide-components';
+import { Button } from '@Nuvio-MCP/ide-components';
 import {
   IContextKeyService,
   IMarkdownString,
@@ -11,9 +11,9 @@ import {
   toMarkdownHtml,
   useAutorun,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { InlineActionBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { AbstractMenuService, IMenu, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { InlineActionBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { AbstractMenuService, IMenu, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 
 import {
   CommentMode,

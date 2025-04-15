@@ -1,10 +1,10 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule, QuickOpenService } from '@opensumi/ide-core-browser';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, QuickOpenService } from '@Nuvio-MCP/ide-core-browser';
 import {
   IQuickInputService,
   PrefixQuickOpenService,
   QuickPickService,
-} from '@opensumi/ide-core-browser/lib/quick-open';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
 
 import { PrefixQuickOpenServiceImpl, QuickOpenContribution } from './prefix-quick-open.service';
 import { QuickInputService } from './quick-input-service';

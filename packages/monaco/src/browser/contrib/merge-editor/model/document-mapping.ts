@@ -1,5 +1,5 @@
-import { Injectable, Optional } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-common';
+import { Injectable, Optional } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-common';
 
 import { DetailedLineRangeMapping } from '../../../../common/diff';
 import { EDiffRangeTurn } from '../types';

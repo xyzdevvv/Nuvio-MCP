@@ -1,6 +1,6 @@
-import { BaseConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { IRPCProtocol } from '@opensumi/ide-connection/lib/common/rpc/multiplexer';
-import { Deferred, ExtHostSpawnOptions } from '@opensumi/ide-core-common';
+import { BaseConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection/lib/common/rpc/multiplexer';
+import { Deferred, ExtHostSpawnOptions } from '@Nuvio-MCP/ide-core-common';
 
 import { ActivatedExtensionJSON } from './activator';
 

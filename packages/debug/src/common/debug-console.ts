@@ -1,5 +1,5 @@
-import { ITree, ITreeNode } from '@opensumi/ide-components/lib/recycle-tree/types';
-import { Event } from '@opensumi/ide-core-common';
+import { ITree, ITreeNode } from '@Nuvio-MCP/ide-components/lib/recycle-tree/types';
+import { Event } from '@Nuvio-MCP/ide-core-common';
 
 export const IDebugConsoleModelService = Symbol('IDebugConsoleModelService');
 

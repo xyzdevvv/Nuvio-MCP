@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Disposable, IEventBus, ILogger } from '@opensumi/ide-core-browser';
-import { IMainLayoutService, TabBarRegistrationEvent } from '@opensumi/ide-main-layout';
-import { TabBarHandler } from '@opensumi/ide-main-layout/lib/browser/tabbar-handler';
-import { IIconService, IconShape, IconType } from '@opensumi/ide-theme';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Disposable, IEventBus, ILogger } from '@Nuvio-MCP/ide-core-browser';
+import { IMainLayoutService, TabBarRegistrationEvent } from '@Nuvio-MCP/ide-main-layout';
+import { TabBarHandler } from '@Nuvio-MCP/ide-main-layout/lib/browser/tabbar-handler';
+import { IIconService, IconShape, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { ExtHostSumiAPIIdentifier } from '../../common/sumi';
 import { IExtHostLayout, IMainThreadLayout } from '../../common/sumi/layout';

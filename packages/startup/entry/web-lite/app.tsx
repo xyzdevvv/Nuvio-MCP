@@ -1,8 +1,8 @@
-import '@opensumi/ide-i18n/lib/browser';
+import '@Nuvio-MCP/ide-i18n/lib/browser';
 import * as React from 'react';
 
-import { SlotLocation } from '@opensumi/ide-core-browser';
-import { LOCALE_TYPES } from '@opensumi/ide-core-common/lib/const';
+import { SlotLocation } from '@Nuvio-MCP/ide-core-browser';
+import { LOCALE_TYPES } from '@Nuvio-MCP/ide-core-common/lib/const';
 
 import { SampleModule } from '../sample-modules';
 
@@ -11,28 +11,28 @@ import { WebLiteModule } from './lite-module';
 import { renderApp } from './render-app';
 
 // 引入公共样式文件
-import '@opensumi/ide-core-browser/lib/style/index.less';
+import '@Nuvio-MCP/ide-core-browser/lib/style/index.less';
 import './styles.less';
 
 // 视图和slot插槽的对应关系
 const layoutConfig = {
   [SlotLocation.top]: {
-    modules: ['@opensumi/ide-menu-bar'],
+    modules: ['@Nuvio-MCP/ide-menu-bar'],
   },
   [SlotLocation.action]: {
     modules: [''],
   },
   [SlotLocation.left]: {
-    modules: ['@opensumi/ide-explorer', 'test-view'],
+    modules: ['@Nuvio-MCP/ide-explorer', 'test-view'],
   },
   [SlotLocation.main]: {
-    modules: ['@opensumi/ide-editor'],
+    modules: ['@Nuvio-MCP/ide-editor'],
   },
   [SlotLocation.statusBar]: {
-    modules: ['@opensumi/ide-status-bar'],
+    modules: ['@Nuvio-MCP/ide-status-bar'],
   },
   [SlotLocation.bottom]: {
-    modules: ['@opensumi/ide-output'],
+    modules: ['@Nuvio-MCP/ide-output'],
   },
   [SlotLocation.extra]: {
     modules: [],
@@ -55,7 +55,7 @@ renderApp({
     'editor.quickSuggestionsMaxCount': 50,
     'editor.scrollBeyondLastLine': false,
     'general.language': LOCALE_TYPES.EN_US,
-    'general.productIconTheme': 'opensumi-icons',
+    'general.productIconTheme': 'Nuvio-MCP-icons',
   },
   workspaceDir: '/test',
   extraContextProvider: (props) => (

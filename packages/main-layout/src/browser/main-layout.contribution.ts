@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   EDITOR_COMMANDS,
@@ -13,7 +13,7 @@ import {
   SlotRendererRegistry,
   getIcon,
   slotRendererRegistry,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   DEBUG_CONSOLE_CONTAINER_ID,
   DEBUG_CONTAINER_ID,
@@ -24,22 +24,22 @@ import {
   SCM_CONTAINER_ID,
   SEARCH_CONTAINER_ID,
   TERMINAL_CONTAINER_ID,
-} from '@opensumi/ide-core-browser/lib/common/container-id';
+} from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
 import {
   ComponentContribution,
   ComponentRegistry,
   TabBarToolbarContribution,
   ToolbarRegistry,
-} from '@opensumi/ide-core-browser/lib/layout';
-import { LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
+} from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
 import {
   IMenuRegistry,
   MenuCommandDesc,
   MenuContribution as MenuContribution,
   MenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { ContributionProvider, Domain, IEventBus, WithEventBus, localize } from '@opensumi/ide-core-common';
-import { Command, CommandContribution, CommandRegistry, CommandService } from '@opensumi/ide-core-common/lib/command';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { ContributionProvider, Domain, IEventBus, WithEventBus, localize } from '@Nuvio-MCP/ide-core-common';
+import { Command, CommandContribution, CommandRegistry, CommandService } from '@Nuvio-MCP/ide-core-common/lib/command';
 
 import { DROP_BOTTOM_CONTAINER, DROP_RIGHT_CONTAINER, IMainLayoutService } from '../common';
 

@@ -40,7 +40,7 @@ module.exports = {
   },
   externals: [
     function ({ request }, callback) {
-      if (['node-pty', 'nsfw', 'spdlog', '@opensumi/vscode-ripgrep', 'canvas'].indexOf(request) !== -1) {
+      if (['node-pty', 'nsfw', 'spdlog', '@Nuvio-MCP/vscode-ripgrep', 'canvas'].indexOf(request) !== -1) {
         return callback(null, `commonjs ${request}`);
       }
       callback();

@@ -1,6 +1,6 @@
-import { EventEmitter } from '@opensumi/events';
-import { BaseConnection } from '@opensumi/ide-connection/lib/common/connection';
-import { IDisposable } from '@opensumi/ide-core-common';
+import { EventEmitter } from '@Nuvio-MCP/events';
+import { BaseConnection } from '@Nuvio-MCP/ide-connection/lib/common/connection';
+import { IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 export interface IInterProcessConnection {
   $createConnection(id: string): Promise<void>;

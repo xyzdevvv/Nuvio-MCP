@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useState } from 'react';
 
-import { Injectable } from '@opensumi/di';
-import { Option, Select } from '@opensumi/ide-components';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Option, Select } from '@Nuvio-MCP/ide-components';
 import {
   AppConfig,
   DisposableCollection,
@@ -13,12 +13,12 @@ import {
   useAutorun,
   useDesignStyles,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { Select as NativeSelect } from '@opensumi/ide-core-browser/lib/components/select';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { derived, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { Select as NativeSelect } from '@Nuvio-MCP/ide-core-browser/lib/components/select';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { derived, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { DebugState } from '../../../common';
 import { DebugAction } from '../../components';

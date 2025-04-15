@@ -1,13 +1,13 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { VALIDATE_TYPE } from '@opensumi/ide-core-browser/lib/components';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-core-browser/lib/components';
 import {
   Mode,
   QuickInputOptions,
   QuickOpenItem,
   QuickOpenItemOptions,
   QuickOpenService,
-} from '@opensumi/ide-core-browser/lib/quick-open';
-import { Emitter, Event, localize } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { Emitter, Event, localize } from '@Nuvio-MCP/ide-core-common';
 
 import { QuickTitleBar } from './quick-title-bar';
 

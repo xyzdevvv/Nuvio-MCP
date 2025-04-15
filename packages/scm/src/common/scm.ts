@@ -1,5 +1,5 @@
-import { IInputBaseProps } from '@opensumi/ide-components';
-import { Command, Event, IDisposable, ISequence, Uri } from '@opensumi/ide-core-common';
+import { IInputBaseProps } from '@Nuvio-MCP/ide-components';
+import { Command, Event, IDisposable, ISequence, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import type vscode from 'vscode';
 

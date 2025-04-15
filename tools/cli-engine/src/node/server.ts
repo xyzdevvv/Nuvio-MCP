@@ -10,10 +10,10 @@ import ejs from 'ejs';
 import Koa from 'koa';
 import mount from 'koa-mount';
 
-import { IClientAppOpts } from '@opensumi/ide-core-browser';
-import { Deferred, LogLevel } from '@opensumi/ide-core-common';
-import { DEFAULT_OPENVSX_REGISTRY } from '@opensumi/ide-core-common/lib/const';
-import { IServerAppOpts, ServerApp } from '@opensumi/ide-core-node';
+import { IClientAppOpts } from '@Nuvio-MCP/ide-core-browser';
+import { Deferred, LogLevel } from '@Nuvio-MCP/ide-core-common';
+import { DEFAULT_OPENVSX_REGISTRY } from '@Nuvio-MCP/ide-core-common/lib/const';
+import { IServerAppOpts, ServerApp } from '@Nuvio-MCP/ide-core-node';
 
 import * as env from './env';
 import { openBrowser } from './openBrowser';
@@ -150,7 +150,7 @@ export async function startServer(serverParams: ServerParams, ideAppOpts: IDESer
         const pkg = await readPkgUp();
 
         const meta = {
-          ideVersion: pkg.dependencies['@opensumi/ide-core-common'],
+          ideVersion: pkg.dependencies['@Nuvio-MCP/ide-core-common'],
           engineVersion: pkg.version,
         };
 
@@ -180,7 +180,7 @@ export async function startServer(serverParams: ServerParams, ideAppOpts: IDESer
     openBrowser(`http://${deviceIp}:${port}`);
 
     console.log(`
-      The service started successfully, please click http://${deviceIp}:${port} to access the OpenSumi IDE.
+      The service started successfully, please click http://${deviceIp}:${port} to access the Nuvio-MCP IDE.
     `);
 
     deferred.resolve(server);

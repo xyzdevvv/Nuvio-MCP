@@ -1,7 +1,7 @@
-import { Constants, uuid } from '@opensumi/ide-core-common';
-import { LineRange as MonacoLineRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/lineRange';
-import { Position } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/position';
-import { Range as MonacoRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
+import { Constants, uuid } from '@Nuvio-MCP/ide-core-common';
+import { LineRange as MonacoLineRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/lineRange';
+import { Position } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/position';
+import { Range as MonacoRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
 
 import { ECompleteReason, ETurnDirection, IRangeContrast, LineRangeType } from '../types';
 

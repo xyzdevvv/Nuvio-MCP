@@ -1,9 +1,9 @@
-import { ThemeIcon } from '@opensumi/ide-core-common';
-import { SymbolKind as SymbolKindEnum } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+import { ThemeIcon } from '@Nuvio-MCP/ide-core-common';
+import { SymbolKind as SymbolKindEnum } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 import { IDE_CODICONS_CN_CSS, IDE_ICONFONT_CN_CSS, IDE_OCTICONS_CN_CSS } from './ide-iconfont';
 
-export { updateIconMap, getIcon } from '@opensumi/ide-components/lib/icon/util';
+export { updateIconMap, getIcon } from '@Nuvio-MCP/ide-components/lib/icon/util';
 
 export const DEFAULT_CDN_ICON = IDE_ICONFONT_CN_CSS;
 export { IDE_OCTICONS_CN_CSS, IDE_CODICONS_CN_CSS };

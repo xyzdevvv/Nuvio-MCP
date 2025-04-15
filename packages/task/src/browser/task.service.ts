@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Disposable,
   IDisposable,
@@ -12,7 +12,7 @@ import {
   getIcon,
   isString,
   localize,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   Emitter,
   Event,
@@ -20,11 +20,11 @@ import {
   IProblemPatternRegistry,
   ITaskDefinitionRegistry,
   platform,
-} from '@opensumi/ide-core-common';
-import { OutputChannel } from '@opensumi/ide-output/lib/browser/output.channel';
-import { OutputService } from '@opensumi/ide-output/lib/browser/output.service';
-import { ITerminalClient } from '@opensumi/ide-terminal-next/lib/common/client';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-common';
+import { OutputChannel } from '@Nuvio-MCP/ide-output/lib/browser/output.channel';
+import { OutputService } from '@Nuvio-MCP/ide-output/lib/browser/output.service';
+import { ITerminalClient } from '@Nuvio-MCP/ide-terminal-next/lib/common/client';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { ITaskProvider, ITaskService, ITaskSummary, ITaskSystem, WorkspaceFolderTaskResult } from '../common';
 import {

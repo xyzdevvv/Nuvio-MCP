@@ -1,17 +1,17 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { IContextKeyService } from '@opensumi/ide-core-browser/lib/context-key';
-import { CommandService, Event, ILineChange, URI, toDisposable } from '@opensumi/ide-core-common';
-import { EditorCollectionService, IDocPersistentCacheProvider } from '@opensumi/ide-editor';
-import { EmptyDocCacheImpl, IEditorDocumentModel, IEditorDocumentModelService } from '@opensumi/ide-editor/src/browser';
-import { EditorDocumentModel } from '@opensumi/ide-editor/src/browser/doc-model/main';
-import * as monaco from '@opensumi/ide-monaco';
-import { DetailedLineRangeMapping, positionToRange } from '@opensumi/ide-monaco';
-import { LineRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/lineRange';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { IContextKeyService } from '@Nuvio-MCP/ide-core-browser/lib/context-key';
+import { CommandService, Event, ILineChange, URI, toDisposable } from '@Nuvio-MCP/ide-core-common';
+import { EditorCollectionService, IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor';
+import { EmptyDocCacheImpl, IEditorDocumentModel, IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/src/browser';
+import { EditorDocumentModel } from '@Nuvio-MCP/ide-editor/src/browser/doc-model/main';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { DetailedLineRangeMapping, positionToRange } from '@Nuvio-MCP/ide-monaco';
+import { LineRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/lineRange';
 import {
   IDiffComputationResult,
   IEditorWorkerService,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
-import { StandaloneServices } from '@opensumi/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/editorWorker';
+import { StandaloneServices } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';
@@ -22,7 +22,7 @@ import { DirtyDiffModel } from '../../../src/browser/dirty-diff/dirty-diff-model
 import { DirtyDiffWidget } from '../../../src/browser/dirty-diff/dirty-diff-widget';
 import { MockSCMProvider } from '../../scm-test-util';
 
-import type { ICodeEditor as IMonacoCodeEditor } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+import type { ICodeEditor as IMonacoCodeEditor } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 @Injectable()
 class MockEditorDocumentModelService {
@@ -46,8 +46,8 @@ const mockedMonaco = createMockedMonaco();
 jest.useFakeTimers();
 
 // mock ThrottledDelayer to take it easy in unit test
-jest.mock('@opensumi/ide-core-common', () => ({
-  ...jest.requireActual('@opensumi/ide-core-common'),
+jest.mock('@Nuvio-MCP/ide-core-common', () => ({
+  ...jest.requireActual('@Nuvio-MCP/ide-core-common'),
   ThrottledDelayer: class {
     constructor() {}
     trigger(promiseFactory: () => Promise<any>) {

@@ -1,7 +1,7 @@
-import { CancellationToken } from '@opensumi/ide-core-common';
-import { IRange, Position } from '@opensumi/ide-core-common/lib/types';
+import { CancellationToken } from '@Nuvio-MCP/ide-core-common';
+import { IRange, Position } from '@Nuvio-MCP/ide-core-common/lib/types';
 
-import type { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import type { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 /**
  * An evaluatable expression represents additional information for an expression in a document. Evaluatable expressions are

@@ -1,7 +1,7 @@
-import { IExtensionInfo, Uri } from '@opensumi/ide-core-common';
-import { IMainThreadWebview, MainThreadAPIIdentifier } from '@opensumi/ide-extension/lib/common/vscode';
-import { ExtHostWebview } from '@opensumi/ide-extension/lib/hosted/api/sumi/ext.host.webview';
-import { ExtHostWebviewService } from '@opensumi/ide-extension/lib/hosted/api/vscode/ext.host.api.webview';
+import { IExtensionInfo, Uri } from '@Nuvio-MCP/ide-core-common';
+import { IMainThreadWebview, MainThreadAPIIdentifier } from '@Nuvio-MCP/ide-extension/lib/common/vscode';
+import { ExtHostWebview } from '@Nuvio-MCP/ide-extension/lib/hosted/api/sumi/ext.host.webview';
+import { ExtHostWebviewService } from '@Nuvio-MCP/ide-extension/lib/hosted/api/vscode/ext.host.api.webview';
 
 import { mockService } from '../../../../../../tools/dev-tool/src/mock-injector';
 describe('vscode extHostWebview Test', () => {

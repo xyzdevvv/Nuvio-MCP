@@ -1,4 +1,4 @@
-import { Injector } from '@opensumi/di';
+import { Injector } from '@Nuvio-MCP/di';
 import {
   isUndefinedOrNull,
   StorageProvider,
@@ -7,7 +7,7 @@ import {
   Emitter,
   Disposable,
   URI,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 let mockedStorage: MockedStorage | null = null;
 

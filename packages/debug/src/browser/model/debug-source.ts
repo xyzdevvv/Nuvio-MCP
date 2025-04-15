@@ -15,11 +15,11 @@
  ********************************************************************************/
 // Some code copied and modified from https://github.com/eclipse-theia/theia/tree/v1.14.0/packages/debug/src/browser/model/debug-source.ts
 
-import { IRange, URI, Uri } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { IResourceOpenOptions, WorkbenchEditorService } from '@opensumi/ide-editor';
-import { FileStat, IFileServiceClient } from '@opensumi/ide-file-service';
-import { DebugProtocol } from '@opensumi/vscode-debugprotocol/lib/debugProtocol';
+import { IRange, URI, Uri } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { IResourceOpenOptions, WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { FileStat, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { DebugProtocol } from '@Nuvio-MCP/vscode-debugprotocol/lib/debugProtocol';
 
 import { IDebugModelManager } from '../../common';
 import { DebugSession } from '../debug-session';

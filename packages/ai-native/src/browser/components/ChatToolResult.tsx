@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { localize } from '@opensumi/ide-core-common/lib/localize';
+import { localize } from '@Nuvio-MCP/ide-core-common/lib/localize';
 
 import { CodeEditorWithHighlight } from './ChatEditor';
 import styles from './ChatToolResult.module.less';

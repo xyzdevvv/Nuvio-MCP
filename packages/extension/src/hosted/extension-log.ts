@@ -1,5 +1,5 @@
-import { SumiConnectionMultiplexer } from '@opensumi/ide-connection';
-import { DebugLog, IExtensionLogger, SupportLogNamespace } from '@opensumi/ide-core-common';
+import { SumiConnectionMultiplexer } from '@Nuvio-MCP/ide-connection';
+import { DebugLog, IExtensionLogger, SupportLogNamespace } from '@Nuvio-MCP/ide-core-common';
 
 import { IMainThreadExtensionLog, MainThreadExtensionLogIdentifier } from '../common/extension-log';
 

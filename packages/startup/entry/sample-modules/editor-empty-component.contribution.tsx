@@ -8,14 +8,14 @@ import {
   EDITOR_COMMANDS,
   QUICK_OPEN_COMMANDS,
   SEARCH_COMMANDS,
-} from '@opensumi/ide-core-browser';
-import { KeybindingRegistry } from '@opensumi/ide-core-browser/lib/keybinding/keybinding';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
-import { localize, registerLocalizationBundle } from '@opensumi/ide-core-common';
-import { LOCALE_TYPES } from '@opensumi/ide-core-common/lib/const';
-import { TabbarRightExtraContentId } from '@opensumi/ide-editor';
-import { IKeymapService } from '@opensumi/ide-keymaps/lib/common/keymaps';
-import { KeybindingView } from '@opensumi/ide-quick-open/lib/browser/components/keybinding';
+} from '@Nuvio-MCP/ide-core-browser';
+import { KeybindingRegistry } from '@Nuvio-MCP/ide-core-browser/lib/keybinding/keybinding';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
+import { localize, registerLocalizationBundle } from '@Nuvio-MCP/ide-core-common';
+import { LOCALE_TYPES } from '@Nuvio-MCP/ide-core-common/lib/const';
+import { TabbarRightExtraContentId } from '@Nuvio-MCP/ide-editor';
+import { IKeymapService } from '@Nuvio-MCP/ide-keymaps/lib/common/keymaps';
+import { KeybindingView } from '@Nuvio-MCP/ide-quick-open/lib/browser/components/keybinding';
 
 import styles from './editor-empty-component.module.less';
 

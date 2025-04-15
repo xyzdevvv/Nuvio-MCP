@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IStatusBarService, StatusBarAlignment } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IStatusBarService, StatusBarAlignment } from '@Nuvio-MCP/ide-core-browser';
 import {
   AIBackSerivcePath,
   ActionSourceEnum,
@@ -12,8 +12,8 @@ import {
   IAICompletionOption,
   IAICompletionResultModel,
   IAIReportCompletionOption,
-} from '@opensumi/ide-core-common';
-import { CompletionRT, IAIReporter } from '@opensumi/ide-core-common/lib/types/ai-native/reporter';
+} from '@Nuvio-MCP/ide-core-common';
+import { CompletionRT, IAIReporter } from '@Nuvio-MCP/ide-core-common/lib/types/ai-native/reporter';
 
 import { IIntelligentCompletionsResult } from '../../intelligent-completions';
 

@@ -1,6 +1,6 @@
-import { CommandRegistry, CommandRegistryImpl } from '@opensumi/ide-core-common';
-import { MonacoCommandService } from '@opensumi/ide-editor/lib/browser/monaco-contrib/command/command.service';
-import { ICommandServiceToken } from '@opensumi/ide-monaco/lib/browser/contrib/command';
+import { CommandRegistry, CommandRegistryImpl } from '@Nuvio-MCP/ide-core-common';
+import { MonacoCommandService } from '@Nuvio-MCP/ide-editor/lib/browser/monaco-contrib/command/command.service';
+import { ICommandServiceToken } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/command';
 
 import { createBrowserInjector } from '../../../../tools/dev-tool/src/injector-helper';
 import { createMockPairRPCProtocol } from '../../__mocks__/initRPCProtocol';

@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { ContributionProvider, Disposable, IDisposable, getDebugLogger } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ContributionProvider, Disposable, IDisposable, getDebugLogger } from '@Nuvio-MCP/ide-core-browser';
 import {
   DebugSessionContribution,
   DebugSessionContributionRegistry,
-} from '@opensumi/ide-debug/lib/browser/debug-session-contribution';
+} from '@Nuvio-MCP/ide-debug/lib/browser/debug-session-contribution';
 
 export interface ExtensionDebugSessionContributionRegistrator {
   /**

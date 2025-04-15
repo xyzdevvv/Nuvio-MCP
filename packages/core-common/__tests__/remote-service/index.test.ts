@@ -1,5 +1,5 @@
-import { Injector } from '@opensumi/di';
-import { RemoteService, runInRemoteServiceContext } from '@opensumi/ide-core-common';
+import { Injector } from '@Nuvio-MCP/di';
+import { RemoteService, runInRemoteServiceContext } from '@Nuvio-MCP/ide-core-common';
 
 describe('RemoteService', () => {
   it('cannot create RemoteService if not in context', () => {

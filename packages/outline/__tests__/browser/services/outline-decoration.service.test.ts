@@ -1,6 +1,6 @@
-import { MarkerManager, MarkerSeverity, URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IThemeService } from '@opensumi/ide-theme';
+import { MarkerManager, MarkerSeverity, URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IThemeService } from '@Nuvio-MCP/ide-theme';
 
 import { createMockedMonaco } from '../../../../monaco/__mocks__/monaco';
 import { OutlineCompositeTreeNode, OutlineRoot } from '../../../src/browser/outline-node.define';

@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   CommandService,
   Disposable,
@@ -9,13 +9,13 @@ import {
   PreferenceService,
   SCM_COMMANDS,
   localize,
-} from '@opensumi/ide-core-browser';
-import { MergeConflictReportService } from '@opensumi/ide-core-browser/lib/ai-native/conflict-report.service';
-import { message } from '@opensumi/ide-core-browser/lib/components';
-import { URI, formatLocalize, runWhenIdle } from '@opensumi/ide-core-common';
-import { GitCommands } from '@opensumi/ide-core-common/lib/commands/git';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { MergeConflictReportService } from '@Nuvio-MCP/ide-core-browser/lib/ai-native/conflict-report.service';
+import { message } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { URI, formatLocalize, runWhenIdle } from '@Nuvio-MCP/ide-core-common';
+import { GitCommands } from '@Nuvio-MCP/ide-core-common/lib/commands/git';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
 
 import { DetailedLineRangeMapping } from '../../../common/diff';
 
@@ -31,7 +31,7 @@ import { StickinessConnectManager } from './view/stickiness-connect-manager';
 
 import type { IMergeEditorEditorConstructionOptions } from './merge-editor-widget';
 import type { ICodeEditor } from '../../monaco-api/editor';
-import type { IOpenMergeEditorArgs } from '@opensumi/ide-core-browser/lib/monaco/merge-editor-widget';
+import type { IOpenMergeEditorArgs } from '@Nuvio-MCP/ide-core-browser/lib/monaco/merge-editor-widget';
 
 @Injectable()
 export class MergeEditorService extends Disposable {

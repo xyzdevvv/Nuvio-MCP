@@ -1,5 +1,5 @@
 {
-  "name": "@opensumi/ide-testing",
+  "name": "@Nuvio-MCP/ide-testing",
   "version": "3.8.2",
   "files": [
     "lib",
@@ -12,22 +12,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "dependencies": {
-    "@opensumi/ide-core-common": "workspace:*",
-    "@opensumi/ide-theme": "workspace:*",
+    "@Nuvio-MCP/ide-core-common": "workspace:*",
+    "@Nuvio-MCP/ide-theme": "workspace:*",
     "react-virtualized-auto-sizer": "^1.0.2"
   },
   "devDependencies": {
-    "@opensumi/ide-components": "workspace:*",
-    "@opensumi/ide-core-browser": "workspace:*",
-    "@opensumi/ide-dev-tool": "workspace:*",
-    "@opensumi/ide-editor": "workspace:*",
-    "@opensumi/ide-file-service": "workspace:*",
-    "@opensumi/ide-main-layout": "workspace:*",
-    "@opensumi/ide-markdown": "workspace:*",
-    "@opensumi/ide-monaco": "workspace:*",
-    "@opensumi/ide-monaco-enhance": "workspace:*"
+    "@Nuvio-MCP/ide-components": "workspace:*",
+    "@Nuvio-MCP/ide-core-browser": "workspace:*",
+    "@Nuvio-MCP/ide-dev-tool": "workspace:*",
+    "@Nuvio-MCP/ide-editor": "workspace:*",
+    "@Nuvio-MCP/ide-file-service": "workspace:*",
+    "@Nuvio-MCP/ide-main-layout": "workspace:*",
+    "@Nuvio-MCP/ide-markdown": "workspace:*",
+    "@Nuvio-MCP/ide-monaco": "workspace:*",
+    "@Nuvio-MCP/ide-monaco-enhance": "workspace:*"
   }
 }

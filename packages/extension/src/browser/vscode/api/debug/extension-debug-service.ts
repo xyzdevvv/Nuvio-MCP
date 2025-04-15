@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CancellationToken,
   Disposable,
@@ -8,11 +8,11 @@ import {
   IJSONSchemaSnippet,
   ILogger,
   WaitUntilEvent,
-} from '@opensumi/ide-core-browser';
-import { DebugServer, DebuggerDescription, IDebugSessionDTO, IDebugSessionManager } from '@opensumi/ide-debug';
-import { DebugConfigurationManager } from '@opensumi/ide-debug/lib/browser/debug-configuration-manager';
-import { DebugConfiguration } from '@opensumi/ide-debug/lib/common/debug-configuration';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-core-browser';
+import { DebugServer, DebuggerDescription, IDebugSessionDTO, IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { DebugConfigurationManager } from '@Nuvio-MCP/ide-debug/lib/browser/debug-configuration-manager';
+import { DebugConfiguration } from '@Nuvio-MCP/ide-debug/lib/common/debug-configuration';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { DebugActivationEvent, IExtensionManifest } from '../../../../common/vscode';
 import { DebugConfigurationProviderTriggerKind } from '../../../../common/vscode/ext-types';

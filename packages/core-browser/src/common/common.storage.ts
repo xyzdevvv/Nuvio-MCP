@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IStorage, STORAGE_NAMESPACE, StorageProvider } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IStorage, STORAGE_NAMESPACE, StorageProvider } from '@Nuvio-MCP/ide-core-common';
 
 @Injectable()
 export class RecentStorage {

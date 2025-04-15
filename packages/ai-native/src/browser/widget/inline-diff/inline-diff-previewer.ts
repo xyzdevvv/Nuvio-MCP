@@ -1,17 +1,17 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { Disposable, ErrorResponse, IDisposable, ReplyResponse } from '@opensumi/ide-core-common';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { EOL, ICodeEditor, IPosition, ITextModel, Position, Selection } from '@opensumi/ide-monaco';
-import { ContentWidgetPositionPreference } from '@opensumi/ide-monaco/lib/browser/monaco-exports/editor';
-import { empty, getLeadingWhitespace } from '@opensumi/ide-utils/lib/strings';
-import { LineRange } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/lineRange';
-import { DefaultEndOfLine } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
-import { createTextBuffer } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model/textModel';
-import { ModelService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/modelService';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { Disposable, ErrorResponse, IDisposable, ReplyResponse } from '@Nuvio-MCP/ide-core-common';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { EOL, ICodeEditor, IPosition, ITextModel, Position, Selection } from '@Nuvio-MCP/ide-monaco';
+import { ContentWidgetPositionPreference } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-exports/editor';
+import { empty, getLeadingWhitespace } from '@Nuvio-MCP/ide-utils/lib/strings';
+import { LineRange } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/lineRange';
+import { DefaultEndOfLine } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
+import { createTextBuffer } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model/textModel';
+import { ModelService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/modelService';
 import {
   generateIndent,
   getSpaceCnt,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/contrib/indentation/common/indentUtils';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/contrib/indentation/common/indentUtils';
 
 import { EResultKind } from '../inline-chat/inline-chat.service';
 import { AIInlineContentWidget } from '../inline-chat/inline-content-widget';

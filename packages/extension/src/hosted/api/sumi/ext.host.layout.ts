@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Emitter } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import { MainThreadSumiAPIIdentifier } from '../../../common/sumi';
 import { IExtHostLayout, IMainThreadLayout, ITabbarHandler } from '../../../common/sumi/layout';

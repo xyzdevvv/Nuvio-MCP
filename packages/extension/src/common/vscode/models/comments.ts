@@ -5,9 +5,9 @@
 
 // Some code copied and modified from https://github.com/microsoft/vscode/blob/main/src/vs/editor/common/languages.ts
 
-import { IMarkdownString, IRange } from '@opensumi/ide-core-common';
+import { IMarkdownString, IRange } from '@Nuvio-MCP/ide-core-common';
 
-import type { UriComponents } from '@opensumi/monaco-editor-core/esm/vs/base/common/uri';
+import type { UriComponents } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/uri';
 import type {
   Comment,
   CommentInput,
@@ -16,7 +16,7 @@ import type {
   CommentThread,
   CommentThreadChangedEvent,
   CommentingRanges,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages';
 
 /**
  * @internal

@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Deferred,
   DisposableCollection,
@@ -15,7 +15,7 @@ import {
   isString,
   isUndefined,
   objects,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { PreferenceConfigurations } from './preference-configurations';
 import { PreferenceSchemaProvider } from './preference-contribution';

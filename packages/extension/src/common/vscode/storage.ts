@@ -1,5 +1,5 @@
-import { Event, Uri } from '@opensumi/ide-core-common';
-import { IExtensionStorageUri } from '@opensumi/ide-extension-storage';
+import { Event, Uri } from '@Nuvio-MCP/ide-core-common';
+import { IExtensionStorageUri } from '@Nuvio-MCP/ide-extension-storage';
 
 export interface KeysToAnyValues {
   [key: string]: any;

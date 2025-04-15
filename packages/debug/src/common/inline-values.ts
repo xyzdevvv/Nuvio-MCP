@@ -1,6 +1,6 @@
-import { CancellationToken, Event, IRange } from '@opensumi/ide-core-common';
-import { Range } from '@opensumi/monaco-editor-core/esm/vs/editor/common/core/range';
-import { ITextModel } from '@opensumi/monaco-editor-core/esm/vs/editor/common/model';
+import { CancellationToken, Event, IRange } from '@Nuvio-MCP/ide-core-common';
+import { Range } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/core/range';
+import { ITextModel } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/model';
 
 // Inline Values
 /**

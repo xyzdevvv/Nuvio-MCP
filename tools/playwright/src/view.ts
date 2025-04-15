@@ -1,17 +1,17 @@
 import { ElementHandle } from '@playwright/test';
 
-import { OpenSumiApp } from './app';
+import { Nuvio-MCPApp } from './app';
 import { containsClass, isElementVisible } from './utils';
-import { OpenSumiViewBase } from './view-base';
+import { Nuvio-MCPViewBase } from './view-base';
 
-export interface OpenSumiViewInfo {
+export interface Nuvio-MCPViewInfo {
   tabSelector: string;
   viewSelector: string;
   name?: string;
 }
 
-export class OpenSumiView extends OpenSumiViewBase {
-  constructor(app: OpenSumiApp, private readonly data: OpenSumiViewInfo) {
+export class Nuvio-MCPView extends Nuvio-MCPViewBase {
+  constructor(app: Nuvio-MCPApp, private readonly data: Nuvio-MCPViewInfo) {
     super(app);
   }
 
@@ -35,7 +35,7 @@ export class OpenSumiView extends OpenSumiViewBase {
     return this.page.$(this.tabSelector);
   }
 
-  async open(): Promise<OpenSumiView | undefined> {
+  async open(): Promise<Nuvio-MCPView | undefined> {
     if (!this.name) {
       return;
     }

@@ -1,5 +1,5 @@
-import { Autowired, INJECTOR_TOKEN, Injector } from '@opensumi/di';
-import { createExtHostContextProxyIdentifier } from '@opensumi/ide-connection';
+import { Autowired, INJECTOR_TOKEN, Injector } from '@Nuvio-MCP/di';
+import { createExtHostContextProxyIdentifier } from '@Nuvio-MCP/ide-connection';
 import {
   AppLifeCycleServiceToken,
   Deferred,
@@ -23,9 +23,9 @@ import {
   WithEventBus,
   createLocalizedStr,
   replaceNlsField,
-} from '@opensumi/ide-core-common';
-import { typeAndModifierIdPattern } from '@opensumi/ide-theme/lib/common/semantic-tokens-registry';
-import { IIconService, IconType, ThemeType } from '@opensumi/ide-theme/lib/common/theme.service';
+} from '@Nuvio-MCP/ide-core-common';
+import { typeAndModifierIdPattern } from '@Nuvio-MCP/ide-theme/lib/common/semantic-tokens-registry';
+import { IIconService, IconType, ThemeType } from '@Nuvio-MCP/ide-theme/lib/common/theme.service';
 
 
 import { ExtHostStorage } from '../hosted/api/vscode/ext.host.storage';
@@ -36,7 +36,7 @@ import { ISumiExtensionContributions } from './sumi/extension';
 import { IExtensionContributions, IExtensionLanguagePack, IMainThreadCommands } from './vscode';
 import { ThemeIcon } from './vscode/ext-types';
 
-import type { ContextKeyExpression } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import type { ContextKeyExpression } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 export interface IExtensionMetaData {
   id: string;
@@ -395,7 +395,7 @@ export abstract class ExtensionContributesService extends WithEventBus {
             this.extensionsSchemaService.registerExtensionPoint({
               extensionPoint: contributeName,
               jsonSchema: Constructor.schema || {},
-              frameworkKind: ['vscode', 'opensumi'],
+              frameworkKind: ['vscode', 'Nuvio-MCP'],
             });
 
             const end = Date.now() - now;

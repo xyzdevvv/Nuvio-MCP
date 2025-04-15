@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CancellationToken,
   IDisposable,
@@ -8,7 +8,7 @@ import {
   Uri,
   arrays,
   onUnexpectedExternalError,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 import {
   CallHierarchyItem,
   CallHierarchyProvider,
@@ -16,8 +16,8 @@ import {
   ICallHierarchyService,
   IncomingCall,
   OutgoingCall,
-} from '@opensumi/ide-monaco/lib/browser/contrib/callHierarchy';
-import { ITextModel, Position, ProviderResult } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/callHierarchy';
+import { ITextModel, Position, ProviderResult } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { IEditorDocumentModelService } from '../../doc-model/types';
 

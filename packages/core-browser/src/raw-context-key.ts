@@ -1,4 +1,4 @@
-import { ContextKeyValue } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+import { ContextKeyValue } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 import { IContextKey, IContextKeyService } from './context-key';
 

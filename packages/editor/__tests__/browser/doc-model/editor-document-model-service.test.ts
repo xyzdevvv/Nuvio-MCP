@@ -1,18 +1,18 @@
-import { IEventBus, URI } from '@opensumi/ide-core-browser';
-import { useMockStorage } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor';
+import { IEventBus, URI } from '@Nuvio-MCP/ide-core-browser';
+import { useMockStorage } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor';
 import {
   EditorDocumentModelCreationEvent,
   EmptyDocCacheImpl,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
-} from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { StandaloneServices } from '@opensumi/ide-monaco/lib/browser/monaco-api/services';
-import { ILanguageService } from '@opensumi/monaco-editor-core/esm/vs/editor/common/languages/language';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { StandaloneServices } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/services';
+import { ILanguageService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/languages/language';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

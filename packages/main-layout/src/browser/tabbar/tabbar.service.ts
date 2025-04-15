@@ -1,6 +1,6 @@
 import debounce from 'lodash/debounce';
 
-import { Autowired, Injectable, Injector } from '@opensumi/di';
+import { Autowired, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   CommandRegistry,
   ComponentRegistryInfo,
@@ -25,10 +25,10 @@ import {
   isUndefined,
   localize,
   toDisposable,
-} from '@opensumi/ide-core-browser';
-import { SCM_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
-import { ResizeHandle } from '@opensumi/ide-core-browser/lib/components';
-import { LAYOUT_STATE, LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
+} from '@Nuvio-MCP/ide-core-browser';
+import { SCM_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
+import { ResizeHandle } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { LAYOUT_STATE, LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
 import {
   AbstractContextMenuService,
   AbstractMenuService,
@@ -39,15 +39,15 @@ import {
   MenuId,
   generateCtxMenu,
   getTabbarCommonMenuId,
-} from '@opensumi/ide-core-browser/lib/menu/next';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
+} from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
 import {
   autorunDelta,
   derivedOpts,
   observableFromEventOpts,
   observableValue,
   transaction,
-} from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { IMainLayoutService, SUPPORT_ACCORDION_LOCATION, TabBarRegistrationEvent } from '../../common';
 import { EXPAND_BOTTOM_PANEL, RETRACT_BOTTOM_PANEL, TOGGLE_BOTTOM_PANEL_COMMAND } from '../main-layout.contribution';

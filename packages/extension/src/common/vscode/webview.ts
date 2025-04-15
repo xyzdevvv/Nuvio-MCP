@@ -1,4 +1,4 @@
-import { BasicEvent, CancellationToken, Event, IExtensionInfo, Uri } from '@opensumi/ide-core-common';
+import { BasicEvent, CancellationToken, Event, IExtensionInfo, Uri } from '@Nuvio-MCP/ide-core-common';
 
 import { ViewColumn } from './editor';
 

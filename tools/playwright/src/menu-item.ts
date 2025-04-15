@@ -2,7 +2,7 @@ import { ElementHandle } from '@playwright/test';
 
 import { textContent } from './utils';
 
-export class OpenSumiMenuItem {
+export class Nuvio-MCPMenuItem {
   constructor(protected element: ElementHandle<SVGElement | HTMLElement>) {}
 
   protected labelElementHandle() {

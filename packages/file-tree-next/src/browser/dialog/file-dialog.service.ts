@@ -1,11 +1,11 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { ITreeNodeOrCompositeTreeNode, Tree, TreeNodeType } from '@opensumi/ide-components';
-import { Schemes, URI } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
-import { WorkbenchEditorService } from '@opensumi/ide-editor';
-import { FileStat, IFileServiceClient } from '@opensumi/ide-file-service';
-import { IDialogService } from '@opensumi/ide-overlay';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { ITreeNodeOrCompositeTreeNode, Tree, TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { Schemes, URI } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { WorkbenchEditorService } from '@Nuvio-MCP/ide-editor';
+import { FileStat, IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { IFileTreeAPI, IFileTreeService } from '../../common';
 import { Directory } from '../../common/file-tree-node.define';

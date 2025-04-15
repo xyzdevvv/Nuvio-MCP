@@ -23,7 +23,7 @@ import {
   isUndefined,
   objects,
   uuid,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { IWorkspaceFolder } from '../common';
 import * as TaskTypes from '../common/task';

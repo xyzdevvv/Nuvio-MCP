@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   AppConfig,
   IStorage,
@@ -10,10 +10,10 @@ import {
   URI,
   electronEnv,
   isMacintosh,
-} from '@opensumi/ide-core-browser';
-import { IElectronMainUIService } from '@opensumi/ide-core-common/lib/electron';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { IDialogService, IOpenDialogOptions, ISaveDialogOptions, IWindowDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IElectronMainUIService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { IDialogService, IOpenDialogOptions, ISaveDialogOptions, IWindowDialogService } from '@Nuvio-MCP/ide-overlay';
 
 import { FileTreeDialogModel } from './file-dialog-model.service';
 import styles from './file-dialog.module.less';

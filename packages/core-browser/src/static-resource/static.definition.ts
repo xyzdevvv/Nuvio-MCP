@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { IDisposable, URI } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IDisposable, URI } from '@Nuvio-MCP/ide-core-common';
 
 /**
  * @class StaticResourceService 静态资源转换服务

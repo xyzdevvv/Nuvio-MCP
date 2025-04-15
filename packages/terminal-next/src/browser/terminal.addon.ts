@@ -1,6 +1,6 @@
 import { ITerminalAddon, Terminal } from '@xterm/xterm';
 
-import { Disposable, Emitter } from '@opensumi/ide-core-common';
+import { Disposable, Emitter } from '@Nuvio-MCP/ide-core-common';
 
 import { ITerminalConnection } from '../common';
 

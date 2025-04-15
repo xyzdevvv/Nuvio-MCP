@@ -1,18 +1,18 @@
-import { Injector } from '@opensumi/di';
-import { Disposable, IContextKeyService, URI } from '@opensumi/ide-core-browser';
-import { AbstractMenuService, ICtxMenuRenderer } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IDebugModel, IDebugSessionManager } from '@opensumi/ide-debug';
-import { BreakpointManager, DebugBreakpoint } from '@opensumi/ide-debug/lib/browser/breakpoint';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser';
-import { EditorDocumentModelServiceImpl } from '@opensumi/ide-editor/lib/browser/doc-model/editor-document-model-service';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { FileServiceClient } from '@opensumi/ide-file-service/lib/browser/file-service-client';
-import * as monaco from '@opensumi/ide-monaco';
-import { createMockedMonaco } from '@opensumi/ide-monaco/__mocks__/monaco';
-import { monacoBrowser } from '@opensumi/ide-monaco/lib/browser';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { WorkspaceService } from '@opensumi/ide-workspace/lib/browser/workspace-service';
+import { Injector } from '@Nuvio-MCP/di';
+import { Disposable, IContextKeyService, URI } from '@Nuvio-MCP/ide-core-browser';
+import { AbstractMenuService, ICtxMenuRenderer } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IDebugModel, IDebugSessionManager } from '@Nuvio-MCP/ide-debug';
+import { BreakpointManager, DebugBreakpoint } from '@Nuvio-MCP/ide-debug/lib/browser/breakpoint';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { EditorDocumentModelServiceImpl } from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/editor-document-model-service';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { FileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/browser/file-service-client';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
+import { createMockedMonaco } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco';
+import { monacoBrowser } from '@Nuvio-MCP/ide-monaco/lib/browser';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/browser/workspace-service';
 
 import { DebugBreakpointWidget, DebugHoverWidget, DebugModel } from '../../../src/browser/editor';
 

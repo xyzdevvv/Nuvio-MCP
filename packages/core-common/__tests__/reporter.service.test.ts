@@ -1,4 +1,4 @@
-import { sleep } from '@opensumi/ide-utils';
+import { sleep } from '@Nuvio-MCP/ide-utils';
 
 import { ReporterService } from '../src/reporter';
 import { REPORT_HOST } from '../src/types/reporter';

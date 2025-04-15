@@ -1,7 +1,7 @@
 import omit from 'lodash/omit';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { IObservable } from '@opensumi/monaco-editor-core/esm/vs/base/common/observableInternal/base';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IObservable } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/observableInternal/base';
 
 import { MenuNode } from '../../base';
 import { AbstractContextMenuService } from '../../menu.interface';

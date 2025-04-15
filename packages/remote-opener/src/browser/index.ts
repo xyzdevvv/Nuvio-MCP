@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { BrowserModule } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { BrowserModule } from '@Nuvio-MCP/ide-core-browser';
 
 import { RemoteOpenerBrowserServiceToken, RemoteOpenerConverterContribution, RemoteOpenerServicePath } from '../common';
 

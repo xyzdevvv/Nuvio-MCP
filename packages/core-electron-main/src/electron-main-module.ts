@@ -1,3 +1,3 @@
-import { BasicModule } from '@opensumi/ide-core-common';
+import { BasicModule } from '@Nuvio-MCP/ide-core-common';
 
 export class ElectronMainModule extends BasicModule {}

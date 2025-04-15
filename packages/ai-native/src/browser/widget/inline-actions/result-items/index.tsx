@@ -1,11 +1,11 @@
 import React, { useMemo } from 'react';
 
-import { ContentWidgetContainerPanel } from '@opensumi/ide-core-browser/lib/components/ai-native/content-widget/containerPanel';
+import { ContentWidgetContainerPanel } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/content-widget/containerPanel';
 import {
   AIInlineResult,
   IAIInlineResultIconItemsProps,
-} from '@opensumi/ide-core-browser/lib/components/ai-native/index';
-import { localize } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/index';
+import { localize } from '@Nuvio-MCP/ide-core-common';
 
 import { EResultKind } from '../../inline-chat/inline-chat.service';
 

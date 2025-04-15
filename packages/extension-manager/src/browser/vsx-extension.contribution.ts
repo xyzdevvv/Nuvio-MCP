@@ -1,15 +1,15 @@
-import { Autowired } from '@opensumi/di';
-import { ClientAppContribution, ComponentContribution, ComponentRegistry, getIcon } from '@opensumi/ide-core-browser';
-import { Domain, URI, localize, replaceLocalizePlaceholder } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { ClientAppContribution, ComponentContribution, ComponentRegistry, getIcon } from '@Nuvio-MCP/ide-core-browser';
+import { Domain, URI, localize, replaceLocalizePlaceholder } from '@Nuvio-MCP/ide-core-common';
 import {
   BrowserEditorContribution,
   EditorComponentRegistry,
   EditorOpenType,
   IResource,
   ResourceService,
-} from '@opensumi/ide-editor/lib/browser';
-import { IMainLayoutService, MainLayoutContribution } from '@opensumi/ide-main-layout';
-import { IIconService, IconType } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { IMainLayoutService, MainLayoutContribution } from '@Nuvio-MCP/ide-main-layout';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { IVSXExtensionService, VSXExtensionServiceToken } from '../common';
 
@@ -90,7 +90,7 @@ export class VSXExtensionContribution
   }
 
   registerComponent(registry: ComponentRegistry): void {
-    registry.register('@opensumi/ide-extension-manager', [], {
+    registry.register('@Nuvio-MCP/ide-extension-manager', [], {
       iconClass: getIcon('extension'),
       title: localize('marketplace.extension.container'),
       priority: 5,

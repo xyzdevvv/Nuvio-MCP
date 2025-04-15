@@ -19,10 +19,10 @@ import {
   SlotLocation,
   fastdom,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { EDirection, PanelContext } from '@opensumi/ide-core-browser/lib/components';
-import { Layout } from '@opensumi/ide-core-browser/lib/components/layout/layout';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
+} from '@Nuvio-MCP/ide-core-browser';
+import { EDirection, PanelContext } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { Layout } from '@Nuvio-MCP/ide-core-browser/lib/components/layout/layout';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
 
 import { BottomTabbarRenderer, LeftTabbarRenderer, RightTabbarRenderer } from './bar.view';
 import { BottomTabPanelRenderer, LeftTabPanelRenderer, RightTabPanelRenderer } from './panel.view';

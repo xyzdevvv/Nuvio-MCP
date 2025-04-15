@@ -1,6 +1,6 @@
-import { TreeNodeType } from '@opensumi/ide-components';
-import { CorePreferences, Disposable, URI } from '@opensumi/ide-core-browser';
-import { LabelService } from '@opensumi/ide-core-browser/lib/services';
+import { TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { CorePreferences, Disposable, URI } from '@Nuvio-MCP/ide-core-browser';
+import { LabelService } from '@Nuvio-MCP/ide-core-browser/lib/services';
 
 import { createBrowserInjector } from '../../../../../tools/dev-tool/src/injector-helper';
 import { MockInjector } from '../../../../../tools/dev-tool/src/mock-injector';

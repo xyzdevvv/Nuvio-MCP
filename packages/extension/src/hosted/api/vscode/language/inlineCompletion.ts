@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
 import { CancellationToken } from 'vscode';
 
-import { DisposableStore, Uri as URI } from '@opensumi/ide-core-common';
+import { DisposableStore, Uri as URI } from '@Nuvio-MCP/ide-core-common';
 
 import * as typeConvert from '../../../../common/vscode/converter';
 import { ExtensionDocumentDataManager } from '../../../../common/vscode/doc';
@@ -11,7 +11,7 @@ import * as languages from '../../../../common/vscode/languages';
 import { IdentifiableInlineCompletion, IdentifiableInlineCompletions } from '../../../../common/vscode/languages';
 import { CommandsConverter } from '../ext.host.command';
 
-import type { IPosition } from '@opensumi/ide-monaco/lib/common';
+import type { IPosition } from '@Nuvio-MCP/ide-monaco/lib/common';
 import type vscode from 'vscode';
 
 class ReferenceMap<T> {

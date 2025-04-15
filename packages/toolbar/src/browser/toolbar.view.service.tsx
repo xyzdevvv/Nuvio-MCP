@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   Disposable,
   IToolbarRegistry,
   ToolbarActionBtnClickEvent,
   createToolbarActionBtn,
-} from '@opensumi/ide-core-browser';
-import { IEventBus } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IEventBus } from '@Nuvio-MCP/ide-core-common';
 
 import {
   IToolBarAction,

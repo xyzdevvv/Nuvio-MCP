@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { Disposable, LifeCyclePhase, URI, localize } from '@opensumi/ide-core-common';
-import { GrammarsContribution } from '@opensumi/ide-monaco';
-import { ITextmateTokenizer, ITextmateTokenizerService } from '@opensumi/ide-monaco/lib/browser/contrib/tokenizer';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { Disposable, LifeCyclePhase, URI, localize } from '@Nuvio-MCP/ide-core-common';
+import { GrammarsContribution } from '@Nuvio-MCP/ide-monaco';
+import { ITextmateTokenizer, ITextmateTokenizerService } from '@Nuvio-MCP/ide-monaco/lib/browser/contrib/tokenizer';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

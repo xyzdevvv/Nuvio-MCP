@@ -1,4 +1,4 @@
-import { MessageIO, RPCResponseMessage } from '@opensumi/ide-connection/lib/common/rpc';
+import { MessageIO, RPCResponseMessage } from '@Nuvio-MCP/ide-connection/lib/common/rpc';
 
 import { protocols } from './rpc/utils';
 

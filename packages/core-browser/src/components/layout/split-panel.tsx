@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import React from 'react';
 
-import { IEventBus } from '@opensumi/ide-core-common';
+import { IEventBus } from '@Nuvio-MCP/ide-core-common';
 
 import { ResizeEvent } from '../../layout';
 import { useInjectable } from '../../react-hooks';

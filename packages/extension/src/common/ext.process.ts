@@ -1,7 +1,7 @@
 import type { SumiApiExtenders } from './sumi';
 import type { CommandHandler } from './vscode';
-import type { ConstructorOf, Injector } from '@opensumi/di';
-import type { ILogService, LogLevel } from '@opensumi/ide-core-common';
+import type { ConstructorOf, Injector } from '@Nuvio-MCP/di';
+import type { ILogService, LogLevel } from '@Nuvio-MCP/ide-core-common';
 import type Stream from 'stream';
 
 export interface IBuiltInCommand {

@@ -1,4 +1,4 @@
-import { Heap, IDisposable, onUnexpectedError } from '@opensumi/ide-utils';
+import { Heap, IDisposable, onUnexpectedError } from '@Nuvio-MCP/ide-utils';
 
 class DomOperation {
   private _disposed = false;

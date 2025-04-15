@@ -1,6 +1,6 @@
 # Connection
 
-OpenSumi RPC Connection is highly inspired by the [JSON-RPC](https://www.jsonrpc.org/specification) specification, but we use FURY instead of JSON. The protocol is defined in the [packet.md](./packet.md). It is transport agnostic in that the concepts can be used within the same process, over sockets, over http, or in many various message passing environments.
+Nuvio-MCP RPC Connection is highly inspired by the [JSON-RPC](https://www.jsonrpc.org/specification) specification, but we use FURY instead of JSON. The protocol is defined in the [packet.md](./packet.md). It is transport agnostic in that the concepts can be used within the same process, over sockets, over http, or in many various message passing environments.
 
 ## Why not JSON?
 

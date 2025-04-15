@@ -1,4 +1,4 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   Disposable,
   Emitter,
@@ -9,9 +9,9 @@ import {
   isString,
   objects,
   path,
-} from '@opensumi/ide-core-common';
-import { IShellLaunchConfig, ITerminalClient } from '@opensumi/ide-terminal-next/lib/common';
-import { IVariableResolverService } from '@opensumi/ide-variable';
+} from '@Nuvio-MCP/ide-core-common';
+import { IShellLaunchConfig, ITerminalClient } from '@Nuvio-MCP/ide-terminal-next/lib/common';
+import { IVariableResolverService } from '@Nuvio-MCP/ide-variable';
 
 import {
   IActivateTaskExecutorData,

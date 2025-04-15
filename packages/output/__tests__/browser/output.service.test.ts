@@ -1,25 +1,25 @@
-import { Injectable } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
 import {
   HashCalculateServiceImpl,
   IHashCalculateService,
-} from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { IDocPersistentCacheProvider } from '@opensumi/ide-editor';
+} from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { IDocPersistentCacheProvider } from '@Nuvio-MCP/ide-editor';
 import {
   EmptyDocCacheImpl,
   IEditorDocumentModelContentRegistry,
   IEditorDocumentModelService,
-} from '@opensumi/ide-editor/lib/browser';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
 import {
   EditorDocumentModelContentRegistryImpl,
   EditorDocumentModelServiceImpl,
-} from '@opensumi/ide-editor/lib/browser/doc-model/main';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common';
-import { MonacoService } from '@opensumi/ide-monaco';
-import { MockedMonacoService } from '@opensumi/ide-monaco/__mocks__/monaco.service.mock';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { MockWorkspaceService } from '@opensumi/ide-workspace/lib/common/mocks';
+} from '@Nuvio-MCP/ide-editor/lib/browser/doc-model/main';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common';
+import { MonacoService } from '@Nuvio-MCP/ide-monaco';
+import { MockedMonacoService } from '@Nuvio-MCP/ide-monaco/__mocks__/monaco.service.mock';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { MockWorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/common/mocks';
 
 import { MockWalkThroughSnippetSchemeDocumentProvider } from '../../../file-scheme/__mocks__/browser/file-doc';
 import { OutputPreferences } from '../../src/browser/output-preference';

@@ -1,13 +1,13 @@
 import { BrowserWindow, Menu, MenuItemConstructorOptions } from 'electron';
 
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
 import {
   Domain,
   IDisposable,
   IElectronMainMenuService,
   INativeMenuTemplate,
   isWindows,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 import { ElectronMainApiProvider, ElectronMainApiRegistry, ElectronMainContribution } from '../../types';
 

@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { CSSProperties } from 'react';
 
-import { Icon } from '@opensumi/ide-components/lib/icon/icon';
-import { isFunction } from '@opensumi/ide-core-common';
+import { Icon } from '@Nuvio-MCP/ide-components/lib/icon/icon';
+import { isFunction } from '@Nuvio-MCP/ide-core-common';
 
 const SEPERATOR = ' ';
 

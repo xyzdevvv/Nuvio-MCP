@@ -2,10 +2,10 @@ import http from 'http';
 
 import WebSocket from 'ws';
 
-import { furySerializer, wrapSerializer } from '@opensumi/ide-connection/lib/common/serializer';
-import { WSWebSocketConnection } from '@opensumi/ide-connection/src/common/connection';
-import { SumiConnection } from '@opensumi/ide-connection/src/common/rpc/connection';
-import { Deferred } from '@opensumi/ide-core-common';
+import { furySerializer, wrapSerializer } from '@Nuvio-MCP/ide-connection/lib/common/serializer';
+import { WSWebSocketConnection } from '@Nuvio-MCP/ide-connection/src/common/connection';
+import { SumiConnection } from '@Nuvio-MCP/ide-connection/src/common/rpc/connection';
+import { Deferred } from '@Nuvio-MCP/ide-core-common';
 
 import { RPCService } from '../../src';
 import { RPCServiceCenter, initRPCService } from '../../src/common';

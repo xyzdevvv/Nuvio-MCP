@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { MutableRefObject, useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 
-import { IInputBaseProps, Popover, PopoverPosition, TextArea, getIcon } from '@opensumi/ide-components';
-import { isUndefined, localize, uuid } from '@opensumi/ide-core-common';
+import { IInputBaseProps, Popover, PopoverPosition, TextArea, getIcon } from '@Nuvio-MCP/ide-components';
+import { isUndefined, localize, uuid } from '@Nuvio-MCP/ide-core-common';
 
 import { Key } from '../../../keyboard';
 import { useInjectable } from '../../../react-hooks';

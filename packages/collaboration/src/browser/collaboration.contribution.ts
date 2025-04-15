@@ -1,12 +1,12 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   FsProviderContribution,
   KeybindingContribution,
   KeybindingRegistry,
   KeybindingWeight,
-} from '@opensumi/ide-core-browser';
-import { CommandContribution, CommandRegistry, ContributionProvider, Domain } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CommandContribution, CommandRegistry, ContributionProvider, Domain } from '@Nuvio-MCP/ide-core-common';
 
 import { CollaborationModuleContribution, ICollaborationService } from '../common';
 import { REDO, UNDO } from '../common/commands';

@@ -1,4 +1,4 @@
-import { uuid } from '@opensumi/ide-core-common';
+import { uuid } from '@Nuvio-MCP/ide-core-common';
 
 import { Widget, WidgetGroup } from '../../src/browser/terminal.view';
 import { ITerminalGroupViewService } from '../../src/common';

@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Disposable } from '@opensumi/ide-core-browser';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable } from '@Nuvio-MCP/ide-core-browser';
 
 import { ITestProfileService, sorter } from '../common/test-profile';
 import { ITestRunProfile, TestRunProfileBitset } from '../common/testCollection';

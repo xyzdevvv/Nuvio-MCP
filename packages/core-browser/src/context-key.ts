@@ -1,11 +1,11 @@
-import { BasicEvent, Event } from '@opensumi/ide-core-common';
-import { ContextKeyService } from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
+import { BasicEvent, Event } from '@Nuvio-MCP/ide-core-common';
+import { ContextKeyService } from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/browser/contextKeyService';
 import {
   ContextKeyExpr,
   ContextKeyValue,
   IContextKeyServiceTarget,
   IContextKeyService as IMonacoContextKeyService,
-} from '@opensumi/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/platform/contextkey/common/contextkey';
 
 export interface IContextKey<T extends ContextKeyValue = ContextKeyValue> {
   set(value: T | undefined): void;

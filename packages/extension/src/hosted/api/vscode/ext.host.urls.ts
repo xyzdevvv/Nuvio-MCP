@@ -1,5 +1,5 @@
-import { IRPCProtocol } from '@opensumi/ide-connection';
-import { Uri, onUnexpectedError, toDisposable } from '@opensumi/ide-core-common';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
+import { Uri, onUnexpectedError, toDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { IExtHostUrls, IMainThreadUrls, MainThreadAPIIdentifier } from '../../../common/vscode';
 import { UriComponents } from '../../../common/vscode/ext-types';

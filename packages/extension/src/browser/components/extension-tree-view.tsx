@@ -10,13 +10,13 @@ import React, {
   useState,
 } from 'react';
 
-import { Injector } from '@opensumi/di';
-import { INodeRendererProps, IRecycleTreeHandle, RecycleTree, TreeNodeType } from '@opensumi/ide-components';
-import { ViewState, isOSX, useInjectable } from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { IDecorationsService } from '@opensumi/ide-decoration';
-import { WelcomeView } from '@opensumi/ide-main-layout/lib/browser/welcome.view';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common/main-layout.definition';
+import { Injector } from '@Nuvio-MCP/di';
+import { INodeRendererProps, IRecycleTreeHandle, RecycleTree, TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { ViewState, isOSX, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { IDecorationsService } from '@Nuvio-MCP/ide-decoration';
+import { WelcomeView } from '@Nuvio-MCP/ide-main-layout/lib/browser/welcome.view';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common/main-layout.definition';
 
 import { TreeViewDataProvider } from '../vscode/api/main.thread.treeview';
 import { ExtensionTreeViewModel } from '../vscode/api/tree-view/tree-view.model.service';

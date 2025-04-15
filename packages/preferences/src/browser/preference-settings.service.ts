@@ -1,7 +1,7 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { EventEmitter } from '@opensumi/events';
-import { IBasicRecycleTreeHandle } from '@opensumi/ide-components';
-import { IVirtualListHandle } from '@opensumi/ide-components/lib/virtual-list/types';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { EventEmitter } from '@Nuvio-MCP/events';
+import { IBasicRecycleTreeHandle } from '@Nuvio-MCP/ide-components';
+import { IVirtualListHandle } from '@Nuvio-MCP/ide-components/lib/virtual-list/types';
 import {
   CommandService,
   Dispatcher,
@@ -30,9 +30,9 @@ import {
   getIcon,
   isString,
   replaceLocalizePlaceholder,
-} from '@opensumi/ide-core-browser';
-import { SearchSettingId } from '@opensumi/ide-core-common/lib/settings/search';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-core-browser';
+import { SearchSettingId } from '@Nuvio-MCP/ide-core-common/lib/settings/search';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
 
 import { ESectionItemKind, PreferenceSettingId, getPreferenceItemLabel, toPreferenceReadableName } from '../common';
 

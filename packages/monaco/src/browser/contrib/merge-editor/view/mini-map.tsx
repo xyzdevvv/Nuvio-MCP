@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect } from 'react';
 
-import { Disposable, Event, useInjectable } from '@opensumi/ide-core-browser';
-import { EditorOption } from '@opensumi/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
+import { Disposable, Event, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { EditorOption } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/config/editorOptions';
 
 import { MergeEditorService } from '../merge-editor.service';
 import { LineRange } from '../model/line-range';

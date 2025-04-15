@@ -1,5 +1,5 @@
-import { Injectable, Provider } from '@opensumi/di';
-import { BrowserModule, ClientAppContribution, Domain } from '@opensumi/ide-core-browser';
+import { Injectable, Provider } from '@Nuvio-MCP/di';
+import { BrowserModule, ClientAppContribution, Domain } from '@Nuvio-MCP/ide-core-browser';
 
 @Domain(ClientAppContribution)
 class MonacoEnhanceContribution implements ClientAppContribution {

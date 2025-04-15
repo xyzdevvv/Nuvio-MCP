@@ -1,11 +1,11 @@
 /* istanbul ignore file */
-import { Autowired, Injectable } from '@opensumi/di';
-import { URI } from '@opensumi/ide-core-browser';
-import * as monaco from '@opensumi/ide-monaco';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { URI } from '@Nuvio-MCP/ide-core-browser';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 import {
   ITextModelContentProvider,
   ITextModelService,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/common/services/resolverService';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/services/resolverService';
 
 import { IEditorDocumentModelService } from './types';
 

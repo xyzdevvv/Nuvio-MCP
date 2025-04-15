@@ -1,5 +1,5 @@
-import { Disposable, Emitter, Event } from '@opensumi/ide-core-common';
-import { IScrollEvent } from '@opensumi/monaco-editor-core/esm/vs/editor/common/editorCommon';
+import { Disposable, Emitter, Event } from '@Nuvio-MCP/ide-core-common';
+import { IScrollEvent } from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/common/editorCommon';
 
 import { BaseCodeEditor } from './editors/baseCodeEditor';
 import { CurrentCodeEditor } from './editors/currentCodeEditor';

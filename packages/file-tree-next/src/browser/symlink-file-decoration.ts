@@ -1,6 +1,6 @@
-import { Optional } from '@opensumi/di';
-import { Emitter, Uri, localize } from '@opensumi/ide-core-browser';
-import { IDecorationData, IDecorationsProvider } from '@opensumi/ide-decoration';
+import { Optional } from '@Nuvio-MCP/di';
+import { Emitter, Uri, localize } from '@Nuvio-MCP/ide-core-browser';
+import { IDecorationData, IDecorationsProvider } from '@Nuvio-MCP/ide-decoration';
 
 import { FileTreeService } from './file-tree.service';
 

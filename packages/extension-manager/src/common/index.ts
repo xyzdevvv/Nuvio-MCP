@@ -1,4 +1,4 @@
-import { IObservable } from '@opensumi/ide-monaco/lib/common/observable';
+import { IObservable } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { QueryParam, QueryResult, VSXExtensionRaw, VSXSearchParam, VSXSearchResult } from './vsx-registry-types';
 

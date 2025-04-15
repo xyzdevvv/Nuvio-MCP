@@ -1,9 +1,9 @@
 {
-  "name": "@opensumi/ide-dev-tool",
+  "name": "@Nuvio-MCP/ide-dev-tool",
   "version": "3.8.2",
   "repository": {
     "type": "git",
-    "url": "git@github.com:opensumi/core.git"
+    "url": "git@github.com:Nuvio-MCP/core.git"
   },
   "bin": {
     "sumi": "./cli/index.js"

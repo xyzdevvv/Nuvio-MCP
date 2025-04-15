@@ -1,6 +1,6 @@
 import { BrowserWindow, BrowserWindowConstructorOptions, app } from 'electron';
 
-import { ConstructorOf, Injector } from '@opensumi/di';
+import { ConstructorOf, Injector } from '@Nuvio-MCP/di';
 import {
   ContributionProvider,
   EventBusImpl,
@@ -9,10 +9,10 @@ import {
   URI,
   asExtensionCandidate,
   createContributionProvider,
-} from '@opensumi/ide-core-common';
-import { IElectronMainLifeCycleService } from '@opensumi/ide-core-common/lib/electron';
-import { suppressNodeJSEpipeError } from '@opensumi/ide-core-common/lib/node';
-import { argv } from '@opensumi/ide-core-common/lib/node/cli';
+} from '@Nuvio-MCP/ide-core-common';
+import { IElectronMainLifeCycleService } from '@Nuvio-MCP/ide-core-common/lib/electron';
+import { suppressNodeJSEpipeError } from '@Nuvio-MCP/ide-core-common/lib/node';
+import { argv } from '@Nuvio-MCP/ide-core-common/lib/node/cli';
 
 import { ElectronMainModule } from '../electron-main-module';
 

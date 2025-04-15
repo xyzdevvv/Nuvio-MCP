@@ -1,8 +1,8 @@
 import cls from 'classnames';
 import React, { memo, useCallback, useEffect, useRef } from 'react';
 
-import { Injectable } from '@opensumi/di';
-import { Icon, Scrollbars } from '@opensumi/ide-components';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Icon, Scrollbars } from '@Nuvio-MCP/ide-components';
 import {
   Disposable,
   DomListener,
@@ -12,8 +12,8 @@ import {
   useDesignStyles,
   useInjectable,
   useUpdateOnEvent,
-} from '@opensumi/ide-core-browser';
-import { observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser';
+import { observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 import { BreadCrumbsMenuService } from './menu/breadcrumbs.menus';
 import styles from './navigation.module.less';

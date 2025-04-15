@@ -8,7 +8,7 @@ import {
   RecycleList,
   VALIDATE_TYPE,
   ValidateInput,
-} from '@opensumi/ide-components';
+} from '@Nuvio-MCP/ide-components';
 import {
   Key,
   KeyCode,
@@ -17,10 +17,10 @@ import {
   useAutorun,
   useDesignStyles,
   useInjectable,
-} from '@opensumi/ide-core-browser';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { IProgressService } from '@opensumi/ide-core-browser/lib/progress';
-import { ProgressBar } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
+} from '@Nuvio-MCP/ide-core-browser';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { IProgressService } from '@Nuvio-MCP/ide-core-browser/lib/progress';
+import { ProgressBar } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
 import {
   HideReason,
   QuickInputButton,
@@ -28,10 +28,10 @@ import {
   QuickOpenItem,
   QuickOpenMode,
   QuickTitleButton,
-} from '@opensumi/ide-core-browser/lib/quick-open';
-import { KEY_CODE_MAP } from '@opensumi/ide-monaco/lib/browser/monaco.keycode-map';
-import { transaction } from '@opensumi/ide-monaco/lib/common/observable';
-import { KeyCode as KeyCodeEnum } from '@opensumi/monaco-editor-core/esm/vs/base/common/keyCodes';
+} from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { KEY_CODE_MAP } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco.keycode-map';
+import { transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
+import { KeyCode as KeyCodeEnum } from '@Nuvio-MCP/monaco-editor-core/esm/vs/base/common/keyCodes';
 
 import { HighlightLabel } from './components/highlight-label';
 import { KeybindingView } from './components/keybinding';

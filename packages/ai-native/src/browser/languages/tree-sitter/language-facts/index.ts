@@ -3,7 +3,7 @@
 export * from './types';
 import Parser from 'web-tree-sitter';
 
-import { Injectable } from '@opensumi/di';
+import { Injectable } from '@Nuvio-MCP/di';
 
 import { AbstractLanguageFacts, AbstractLanguageFactsDerived, IFunctionBlockInfo } from './base';
 import { GolangLanguageFacts } from './golang';

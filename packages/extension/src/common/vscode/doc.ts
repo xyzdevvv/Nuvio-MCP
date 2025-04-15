@@ -1,5 +1,5 @@
-import { Event, IDisposable } from '@opensumi/ide-core-common';
-import { IEditorDocumentModelContentChange, SaveReason } from '@opensumi/ide-editor';
+import { Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
+import { IEditorDocumentModelContentChange, SaveReason } from '@Nuvio-MCP/ide-editor';
 
 import { ExtHostDocumentData } from '../../hosted/api/vscode/doc/ext-data.host';
 

@@ -1,12 +1,12 @@
 import path from 'path';
 
-import { Injector } from '@opensumi/di';
-import { LanguageParserService } from '@opensumi/ide-ai-native/lib/browser/languages/service';
-import { AppConfig, BrowserModule } from '@opensumi/ide-core-browser';
-import { ESupportRuntime } from '@opensumi/ide-core-browser/lib/application/runtime';
-import { RendererRuntime } from '@opensumi/ide-core-browser/lib/application/runtime/types';
-import { Uri } from '@opensumi/ide-core-common';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { Injector } from '@Nuvio-MCP/di';
+import { LanguageParserService } from '@Nuvio-MCP/ide-ai-native/lib/browser/languages/service';
+import { AppConfig, BrowserModule } from '@Nuvio-MCP/ide-core-browser';
+import { ESupportRuntime } from '@Nuvio-MCP/ide-core-browser/lib/application/runtime';
+import { RendererRuntime } from '@Nuvio-MCP/ide-core-browser/lib/application/runtime/types';
+import { Uri } from '@Nuvio-MCP/ide-core-common';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 class MockRendererRuntime extends RendererRuntime {
   runtimeName = 'web' as ESupportRuntime;
@@ -20,7 +20,7 @@ class MockRendererRuntime extends RendererRuntime {
     throw new Error('Method not implemented.');
   }
   async provideResourceUri() {
-    const result = path.dirname(require.resolve('@opensumi/tree-sitter-wasm/package.json'));
+    const result = path.dirname(require.resolve('@Nuvio-MCP/tree-sitter-wasm/package.json'));
     return Uri.file(result).toString();
   }
 }

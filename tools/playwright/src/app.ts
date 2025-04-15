@@ -1,16 +1,16 @@
 import { ElementHandle, Page } from '@playwright/test';
 
-import { Disposable } from '@opensumi/ide-utils';
+import { Disposable } from '@Nuvio-MCP/ide-utils';
 
 import { IComponentEditorInfo } from './component-editor';
-import { OpenSumiEditor } from './editor';
-import { OpenSumiExplorerView } from './explorer-view';
-import { OpenSumiMenubar } from './menubar';
-import { OpenSumiPanel } from './panel';
-import { OpenSumiCommandPalette } from './quick-command-palette';
-import { OpenSumiQuickOpenPalette } from './quick-open-palette';
-import { OpenSumiTreeNode } from './tree-node';
-import { OpenSumiWorkspace } from './workspace';
+import { Nuvio-MCPEditor } from './editor';
+import { Nuvio-MCPExplorerView } from './explorer-view';
+import { Nuvio-MCPMenubar } from './menubar';
+import { Nuvio-MCPPanel } from './panel';
+import { Nuvio-MCPCommandPalette } from './quick-command-palette';
+import { Nuvio-MCPQuickOpenPalette } from './quick-open-palette';
+import { Nuvio-MCPTreeNode } from './tree-node';
+import { Nuvio-MCPWorkspace } from './workspace';
 
 export interface AppData {
   loadingSelector: string;
@@ -22,19 +22,19 @@ export const DefaultAppData: AppData = {
   mainSelector: '#main',
 };
 
-export class OpenSumiApp extends Disposable {
+export class Nuvio-MCPApp extends Disposable {
   private _loaded = false;
-  private _quickCommandPalette: OpenSumiCommandPalette;
-  private _quickOpenPalette: OpenSumiQuickOpenPalette;
-  private _menubar: OpenSumiMenubar;
+  private _quickCommandPalette: Nuvio-MCPCommandPalette;
+  private _quickOpenPalette: Nuvio-MCPQuickOpenPalette;
+  private _menubar: Nuvio-MCPMenubar;
 
-  static async load(page: Page, workspace: OpenSumiWorkspace): Promise<OpenSumiApp> {
-    return this.loadApp(page, workspace, OpenSumiApp);
+  static async load(page: Page, workspace: Nuvio-MCPWorkspace): Promise<Nuvio-MCPApp> {
+    return this.loadApp(page, workspace, Nuvio-MCPApp);
   }
 
-  static async loadApp<T extends OpenSumiApp>(
+  static async loadApp<T extends Nuvio-MCPApp>(
     page: Page,
-    workspace: OpenSumiWorkspace,
+    workspace: Nuvio-MCPWorkspace,
     appFactory: new (page: Page) => T,
   ): Promise<T> {
     await workspace.initWorksapce();
@@ -45,9 +45,9 @@ export class OpenSumiApp extends Disposable {
 
   public constructor(public page: Page, protected appData = DefaultAppData) {
     super();
-    this._quickCommandPalette = new OpenSumiCommandPalette(this);
-    this._quickOpenPalette = new OpenSumiQuickOpenPalette(this);
-    this._menubar = new OpenSumiMenubar(this);
+    this._quickCommandPalette = new Nuvio-MCPCommandPalette(this);
+    this._quickOpenPalette = new Nuvio-MCPQuickOpenPalette(this);
+    this._menubar = new Nuvio-MCPMenubar(this);
   }
 
   get quickCommandPalette() {
@@ -62,7 +62,7 @@ export class OpenSumiApp extends Disposable {
     return this._menubar;
   }
 
-  protected async load(workspace: OpenSumiWorkspace): Promise<void> {
+  protected async load(workspace: Nuvio-MCPWorkspace): Promise<void> {
     this.disposables.push(workspace);
     const now = Date.now();
     await this.loadOrReload(this.page, `/?workspaceDir=${workspace.workspace.codeUri.fsPath}`);
@@ -92,7 +92,7 @@ export class OpenSumiApp extends Disposable {
     return !!contentPanel && contentPanel.isVisible();
   }
 
-  async open<T extends OpenSumiPanel>(PanelConstruction: new (app: OpenSumiApp) => T) {
+  async open<T extends Nuvio-MCPPanel>(PanelConstruction: new (app: Nuvio-MCPApp) => T) {
     const panel = new PanelConstruction(this);
     if (await panel.isVisible()) {
       return panel;
@@ -101,9 +101,9 @@ export class OpenSumiApp extends Disposable {
     return panel;
   }
 
-  async openEditor<T extends OpenSumiEditor>(
-    EditorConstruction: new (app: OpenSumiApp, element?: OpenSumiTreeNode) => T,
-    explorer: OpenSumiExplorerView,
+  async openEditor<T extends Nuvio-MCPEditor>(
+    EditorConstruction: new (app: Nuvio-MCPApp, element?: Nuvio-MCPTreeNode) => T,
+    explorer: Nuvio-MCPExplorerView,
     filePath: string,
     preview = true,
   ) {
@@ -118,8 +118,8 @@ export class OpenSumiApp extends Disposable {
   }
 
   // use for component editors
-  async openComponentEditor<T extends OpenSumiEditor>(
-    EditorConstruction: new (app: OpenSumiApp, info: IComponentEditorInfo) => T,
+  async openComponentEditor<T extends Nuvio-MCPEditor>(
+    EditorConstruction: new (app: Nuvio-MCPApp, info: IComponentEditorInfo) => T,
     path: string,
     name: string,
     containerSelector: string,

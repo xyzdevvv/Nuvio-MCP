@@ -1,16 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 
-import { IOpenerService, useInjectable } from '@opensumi/ide-core-browser';
-import { Disposable, IMarkdownString, Schemes, URI } from '@opensumi/ide-core-common';
+import { IOpenerService, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { Disposable, IMarkdownString, Schemes, URI } from '@Nuvio-MCP/ide-core-common';
 import {
   EditorCollectionService,
   IDiffEditor,
   IEditorDocumentModelService,
   getSimpleEditorOptions,
-} from '@opensumi/ide-editor/lib/browser';
-import { Markdown } from '@opensumi/ide-markdown';
-import { IDiffEditorOptions, IEditorOptions } from '@opensumi/ide-monaco/lib/browser/monaco-api/editor';
+} from '@Nuvio-MCP/ide-editor/lib/browser';
+import { Markdown } from '@Nuvio-MCP/ide-markdown';
+import { IDiffEditorOptions, IEditorOptions } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/editor';
 
 import { TestPeekMessageToken } from '../../common';
 import { ITestErrorMessage } from '../../common/testCollection';

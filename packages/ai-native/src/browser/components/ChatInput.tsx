@@ -1,20 +1,20 @@
 import cls from 'classnames';
 import React, { useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 
-import { AINativeConfigService, useInjectable, useLatest } from '@opensumi/ide-core-browser';
-import { Icon, Popover, PopoverPosition, getIcon } from '@opensumi/ide-core-browser/lib/components';
-import { EnhanceIcon } from '@opensumi/ide-core-browser/lib/components/ai-native';
-import { InteractiveInput } from '@opensumi/ide-core-browser/lib/components/ai-native/interactive-input/index';
+import { AINativeConfigService, useInjectable, useLatest } from '@Nuvio-MCP/ide-core-browser';
+import { Icon, Popover, PopoverPosition, getIcon } from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { EnhanceIcon } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native';
+import { InteractiveInput } from '@Nuvio-MCP/ide-core-browser/lib/components/ai-native/interactive-input/index';
 import {
   ChatAgentViewServiceToken,
   ChatFeatureRegistryToken,
   MessageType,
   localize,
   runWhenIdle,
-} from '@opensumi/ide-core-common';
-import { CommandService } from '@opensumi/ide-core-common/lib/command';
-import { MonacoCommandRegistry } from '@opensumi/ide-editor/lib/browser/monaco-contrib/command/command.service';
-import { IDialogService } from '@opensumi/ide-overlay';
+} from '@Nuvio-MCP/ide-core-common';
+import { CommandService } from '@Nuvio-MCP/ide-core-common/lib/command';
+import { MonacoCommandRegistry } from '@Nuvio-MCP/ide-editor/lib/browser/monaco-contrib/command/command.service';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
 
 import {
   AT_SIGN_SYMBOL,

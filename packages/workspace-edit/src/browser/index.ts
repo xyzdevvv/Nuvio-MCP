@@ -1,4 +1,4 @@
-import { Autowired, Injectable, Provider } from '@opensumi/di';
+import { Autowired, Injectable, Provider } from '@Nuvio-MCP/di';
 import {
   BrowserModule,
   CommandContribution,
@@ -11,8 +11,8 @@ import {
   ToolbarRegistry,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { CommandRegistry } from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-browser';
+import { CommandRegistry } from '@Nuvio-MCP/ide-core-common';
 
 import { IBulkEditServiceShape, IWorkspaceEditService, IWorkspaceFileService } from '../common';
 
@@ -24,7 +24,7 @@ import { WorkspaceFileService } from './workspace-file.service';
 import type {
   IBulkEditOptions,
   ResourceEdit,
-} from '@opensumi/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
+} from '@Nuvio-MCP/monaco-editor-core/esm/vs/editor/browser/services/bulkEditService';
 
 const ClearEditsId = 'refactor-preview.clear.edits';
 const ApplyEditsId = 'refactor-preview.apply.edits';

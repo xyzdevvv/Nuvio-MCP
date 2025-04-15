@@ -10,7 +10,7 @@ const contextKeyService = new (class extends MockContextKeyService {
   }
 })();
 
-describe('test for @opensumi/ide-core-browser/src/raw-context-key', () => {
+describe('test for @Nuvio-MCP/ide-core-browser/src/raw-context-key', () => {
   const contextA = new RawContextKey<boolean>('contextA', false);
   const contextB = new RawContextKey<string>('contextB', 'abc');
   const contextC = new RawContextKey<'test1' | 'test2'>('contextC', 'test2');

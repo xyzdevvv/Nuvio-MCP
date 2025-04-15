@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { Disposable, Emitter, Event, getDebugLogger } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { Disposable, Emitter, Event, getDebugLogger } from '@Nuvio-MCP/ide-core-common';
 
 import { IProcessManage } from '../common/index';
 

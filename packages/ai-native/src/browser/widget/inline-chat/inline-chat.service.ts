@@ -1,6 +1,6 @@
-import { Injectable } from '@opensumi/di';
-import { IAIInlineChatService } from '@opensumi/ide-core-browser';
-import { Emitter, Event } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IAIInlineChatService } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 
 export { EInlineChatStatus, EResultKind } from '../../../common';
 

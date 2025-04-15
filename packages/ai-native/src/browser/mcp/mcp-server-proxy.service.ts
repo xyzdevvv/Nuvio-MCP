@@ -1,8 +1,8 @@
 import { zodToJsonSchema } from 'zod-to-json-schema';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { ILogger } from '@opensumi/ide-core-browser';
-import { Emitter, Event } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { ILogger } from '@Nuvio-MCP/ide-core-browser';
+import { Emitter, Event } from '@Nuvio-MCP/ide-core-common';
 
 import { BUILTIN_MCP_SERVER_NAME, ISumiMCPServerBackend, SumiMCPServerProxyServicePath } from '../../common';
 import { IMCPServerProxyService } from '../../common/types';
@@ -22,12 +22,12 @@ export class MCPServerProxyService implements IMCPServerProxyService {
   private readonly _onChangeMCPServers = new Emitter<any>();
   public readonly onChangeMCPServers: Event<any> = this._onChangeMCPServers.event;
 
-  // 调用 OpenSumi 内部注册的 MCP 工具
+  // 调用 Nuvio-MCP 内部注册的 MCP 工具
   $callMCPTool(name: string, args: any) {
     return this.mcpServerRegistry.callMCPTool(name, args);
   }
 
-  // 获取 OpenSumi 内部注册的 MCP tools
+  // 获取 Nuvio-MCP 内部注册的 MCP tools
   async $getBuiltinMCPTools() {
     const tools = await this.mcpServerRegistry.getMCPTools().map((tool) =>
       // 不要传递 handler

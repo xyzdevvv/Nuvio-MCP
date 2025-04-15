@@ -7,9 +7,9 @@ import {
   INodeRendererProps,
   TreeNode,
   TreeNodeType,
-} from '@opensumi/ide-components';
-import { CommandService, URI, getIcon, useDesignStyles } from '@opensumi/ide-core-browser';
-import { SymbolTag } from '@opensumi/ide-editor/lib/browser/breadcrumb/document-symbol';
+} from '@Nuvio-MCP/ide-components';
+import { CommandService, URI, getIcon, useDesignStyles } from '@Nuvio-MCP/ide-core-browser';
+import { SymbolTag } from '@Nuvio-MCP/ide-editor/lib/browser/breadcrumb/document-symbol';
 
 import { IOutlineDecorationService } from '../common';
 

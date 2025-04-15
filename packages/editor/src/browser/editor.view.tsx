@@ -2,7 +2,7 @@ import cls from 'classnames';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Scrollbars } from '@opensumi/ide-components';
+import { Scrollbars } from '@Nuvio-MCP/ide-components';
 import {
   AppConfig,
   ComponentRegistry,
@@ -18,16 +18,16 @@ import {
   useDesignStyles,
   useDisposable,
   usePreference,
-} from '@opensumi/ide-core-browser';
+} from '@Nuvio-MCP/ide-core-browser';
 import {
   IResizeHandleDelegate,
   ResizeFlexMode,
   ResizeHandleHorizontal,
   ResizeHandleVertical,
-} from '@opensumi/ide-core-browser/lib/components';
-import { VIEW_CONTAINERS } from '@opensumi/ide-core-browser/lib/layout/view-id';
-import { useInjectable, useUpdateOnEventBusEvent } from '@opensumi/ide-core-browser/lib/react-hooks';
-import { monaco } from '@opensumi/ide-monaco/lib/browser/monaco-api';
+} from '@Nuvio-MCP/ide-core-browser/lib/components';
+import { VIEW_CONTAINERS } from '@Nuvio-MCP/ide-core-browser/lib/layout/view-id';
+import { useInjectable, useUpdateOnEventBusEvent } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
+import { monaco } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api';
 
 import { IResource, WorkbenchEditorService } from '../common';
 

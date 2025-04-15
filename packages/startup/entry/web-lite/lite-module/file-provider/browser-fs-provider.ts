@@ -1,9 +1,9 @@
 import * as fs from 'fs';
 
-import { FileChangeType, FileSystemProviderCapabilities } from '@opensumi/ide-core-browser';
-import { BinaryBuffer, Emitter, Event, FileUri, URI, Uri, path } from '@opensumi/ide-core-common';
-import { ensureDir } from '@opensumi/ide-core-common/lib/browser-fs/ensure-dir';
-import { promisify } from '@opensumi/ide-core-common/lib/browser-fs/util';
+import { FileChangeType, FileSystemProviderCapabilities } from '@Nuvio-MCP/ide-core-browser';
+import { BinaryBuffer, Emitter, Event, FileUri, URI, Uri, path } from '@Nuvio-MCP/ide-core-common';
+import { ensureDir } from '@Nuvio-MCP/ide-core-common/lib/browser-fs/ensure-dir';
+import { promisify } from '@Nuvio-MCP/ide-core-common/lib/browser-fs/util';
 import {
   FileChangeEvent,
   FileStat,
@@ -13,7 +13,7 @@ import {
   getFileTypeByExt,
   isErrnoException,
   notEmpty,
-} from '@opensumi/ide-file-service';
+} from '@Nuvio-MCP/ide-file-service';
 
 import { HttpTreeList } from './http-file.service';
 

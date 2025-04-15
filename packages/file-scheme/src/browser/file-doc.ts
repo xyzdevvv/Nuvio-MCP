@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CancellationToken,
   CommonLanguageId,
@@ -14,12 +14,12 @@ import {
   PreferenceService,
   Schemes,
   URI,
-} from '@opensumi/ide-core-browser';
-import { IHashCalculateService } from '@opensumi/ide-core-common/lib/hash-calculate/hash-calculate';
-import { IEditorDocumentModelContentProvider } from '@opensumi/ide-editor/lib/browser';
-import { BaseFileSystemEditorDocumentProvider } from '@opensumi/ide-editor/lib/browser/fs-resource/fs-editor-doc';
-import { IFileServiceClient } from '@opensumi/ide-file-service';
-import { EOL } from '@opensumi/ide-monaco/lib/browser/monaco-api/types';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IHashCalculateService } from '@Nuvio-MCP/ide-core-common/lib/hash-calculate/hash-calculate';
+import { IEditorDocumentModelContentProvider } from '@Nuvio-MCP/ide-editor/lib/browser';
+import { BaseFileSystemEditorDocumentProvider } from '@Nuvio-MCP/ide-editor/lib/browser/fs-resource/fs-editor-doc';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service';
+import { EOL } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-api/types';
 
 import { FILE_SAVE_BY_CHANGE_THRESHOLD, IFileSchemeDocClient } from '../common';
 

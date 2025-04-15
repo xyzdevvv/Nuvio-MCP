@@ -1,4 +1,4 @@
-import { Emitter, LogLevel as KTLogLevel } from '@opensumi/ide-core-common';
+import { Emitter, LogLevel as KTLogLevel } from '@Nuvio-MCP/ide-core-common';
 
 import { LogLevel, UIKind, UriComponents } from './ext-types';
 

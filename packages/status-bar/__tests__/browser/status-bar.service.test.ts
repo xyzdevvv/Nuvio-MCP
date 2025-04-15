@@ -1,10 +1,10 @@
-import { CommandRegistry, IContextKeyService } from '@opensumi/ide-core-browser';
-import { MockContextKeyService } from '@opensumi/ide-core-browser/__mocks__/context-key';
-import { LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
-import { IMenuRegistry, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { IStatusBarService, StatusBarAlignment, StatusBarEntry } from '@opensumi/ide-core-browser/lib/services';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector, mockService } from '@opensumi/ide-dev-tool/src/mock-injector';
+import { CommandRegistry, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
+import { MockContextKeyService } from '@Nuvio-MCP/ide-core-browser/__mocks__/context-key';
+import { LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
+import { IMenuRegistry, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { IStatusBarService, StatusBarAlignment, StatusBarEntry } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector, mockService } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
 
 import { StatusBarModule } from '../../src/browser';
 

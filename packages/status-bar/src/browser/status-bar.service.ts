@@ -1,9 +1,9 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { EventEmitter } from '@opensumi/events';
-import { AppConfig, Disposable, IContextKeyService, IDisposable, isUndefined } from '@opensumi/ide-core-browser';
-import { LAYOUT_STATE, LayoutState } from '@opensumi/ide-core-browser/lib/layout/layout-state';
-import { AbstractMenuService, IMenu, IMenuRegistry, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { RawContextKey } from '@opensumi/ide-core-browser/lib/raw-context-key';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { EventEmitter } from '@Nuvio-MCP/events';
+import { AppConfig, Disposable, IContextKeyService, IDisposable, isUndefined } from '@Nuvio-MCP/ide-core-browser';
+import { LAYOUT_STATE, LayoutState } from '@Nuvio-MCP/ide-core-browser/lib/layout/layout-state';
+import { AbstractMenuService, IMenu, IMenuRegistry, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { RawContextKey } from '@Nuvio-MCP/ide-core-browser/lib/raw-context-key';
 import {
   IStatusBarService,
   StatusBarAlignment,
@@ -11,9 +11,9 @@ import {
   StatusBarEntry,
   StatusBarEntryAccessor,
   StatusBarState,
-} from '@opensumi/ide-core-browser/lib/services';
-import { CommandService, DisposableCollection, memoize } from '@opensumi/ide-core-common';
-import { derived, observableValue, transaction } from '@opensumi/ide-monaco/lib/common/observable';
+} from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { CommandService, DisposableCollection, memoize } from '@Nuvio-MCP/ide-core-common';
+import { derived, observableValue, transaction } from '@Nuvio-MCP/ide-monaco/lib/common/observable';
 
 @Injectable()
 export class StatusBarService extends Disposable implements IStatusBarService {

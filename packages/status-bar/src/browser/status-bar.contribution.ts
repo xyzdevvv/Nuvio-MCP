@@ -1,8 +1,8 @@
-import { Autowired } from '@opensumi/di';
-import { CommandContribution, Domain } from '@opensumi/ide-core-browser';
-import { ComponentContribution, ComponentRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { StatusBarCommand, StatusBarEntry } from '@opensumi/ide-core-browser/lib/services';
-import { CommandRegistry } from '@opensumi/ide-core-common';
+import { Autowired } from '@Nuvio-MCP/di';
+import { CommandContribution, Domain } from '@Nuvio-MCP/ide-core-browser';
+import { ComponentContribution, ComponentRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { StatusBarCommand, StatusBarEntry } from '@Nuvio-MCP/ide-core-browser/lib/services';
+import { CommandRegistry } from '@Nuvio-MCP/ide-core-common';
 
 import { IStatusBarService } from '../common';
 
@@ -15,7 +15,7 @@ export class StatusBarContribution implements ComponentContribution, CommandCont
 
   registerComponent(registry: ComponentRegistry) {
     registry.register(
-      '@opensumi/ide-status-bar',
+      '@Nuvio-MCP/ide-status-bar',
       {
         component: StatusBarView,
         id: 'ide-status-bar',

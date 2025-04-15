@@ -1,4 +1,4 @@
-import { RecentStorage, isArray } from '@opensumi/ide-core-browser';
+import { RecentStorage, isArray } from '@Nuvio-MCP/ide-core-browser';
 
 import { IContentSearchClientService } from '../common';
 

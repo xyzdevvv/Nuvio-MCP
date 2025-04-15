@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { AIBackSerivcePath, Disposable, Emitter, Event, IAIBackService } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { AIBackSerivcePath, Disposable, Emitter, Event, IAIBackService } from '@Nuvio-MCP/ide-core-common';
 
 import { IChatManagerService } from '../../common';
 

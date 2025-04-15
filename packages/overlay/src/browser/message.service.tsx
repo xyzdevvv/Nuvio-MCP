@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Autowired, Injectable } from '@opensumi/di';
-import { notification, open } from '@opensumi/ide-components';
-import { parseWithoutEscape } from '@opensumi/ide-components/lib/utils';
-import { IOpenerService, toMarkdown } from '@opensumi/ide-core-browser';
-import { MayCancelablePromise, MessageType, localize, uuid } from '@opensumi/ide-core-common';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { notification, open } from '@Nuvio-MCP/ide-components';
+import { parseWithoutEscape } from '@Nuvio-MCP/ide-components/lib/utils';
+import { IOpenerService, toMarkdown } from '@Nuvio-MCP/ide-core-browser';
+import { MayCancelablePromise, MessageType, localize, uuid } from '@Nuvio-MCP/ide-core-common';
 
 import { AbstractMessageService, IMessageService, MAX_MESSAGE_LENGTH, OpenMessageOptions } from '../common';
 

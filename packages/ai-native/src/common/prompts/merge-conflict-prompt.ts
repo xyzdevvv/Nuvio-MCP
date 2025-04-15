@@ -1,5 +1,5 @@
-import { Injectable } from '@opensumi/di';
-import { IConflictContentMetadata } from '@opensumi/ide-core-common';
+import { Injectable } from '@Nuvio-MCP/di';
+import { IConflictContentMetadata } from '@Nuvio-MCP/ide-core-common';
 
 import { BasePromptManager } from './base-prompt-manager';
 

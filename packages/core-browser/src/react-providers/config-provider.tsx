@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { IAINativeConfig } from '@opensumi/ide-core-common';
+import { IAINativeConfig } from '@Nuvio-MCP/ide-core-common';
 
 import { ILayoutViewSize } from '../layout/constants';
 
 import type { IPreferences, LayoutConfig } from '../bootstrap';
-import type { Injector } from '@opensumi/di';
+import type { Injector } from '@Nuvio-MCP/di';
 import type {
   ExtensionBrowserStyleSheet,
   ExtensionCandidate,
@@ -13,13 +13,13 @@ import type {
   IDesignLayoutConfig,
   RecursiveWatcherBackend,
   UrlProvider,
-} from '@opensumi/ide-core-common';
+} from '@Nuvio-MCP/ide-core-common';
 
 export const AppConfig = Symbol('AppConfig');
 export interface AppConfig {
   /**
    * APP的名称
-   * 默认值为 `ClientApp.DEFAULT_APPLICATION_NAME` 即 `OpenSumi`
+   * 默认值为 `ClientApp.DEFAULT_APPLICATION_NAME` 即 `Nuvio-MCP`
    */
   appName?: string;
   /**
@@ -97,12 +97,12 @@ export interface AppConfig {
   wsPath: UrlProvider;
   /**
    * 定义 IDE 各个布局区块默认加载的模块，可针对性对模块进行增删改
-   * 默认值可参考：https://github.com/opensumi/core/tree/58b998d9e1f721928f576579f16ded46b7505e84/packages/main-layout/src/browser/default-config.ts
+   * 默认值可参考：https://github.com/Nuvio-MCP/core/tree/58b998d9e1f721928f576579f16ded46b7505e84/packages/main-layout/src/browser/default-config.ts
    */
   layoutConfig: LayoutConfig;
   /**
    * 定义 IDE 的整体布局，可以通过传入自定义布局的方式定义各个区块的默认大小及缩放选项等
-   * 默认值可参考：https://github.com/opensumi/core/blob/58b998d9e1f721928f576579f16ded46b7505e84/packages/core-browser/src/components/layout/default-layout.tsx
+   * 默认值可参考：https://github.com/Nuvio-MCP/core/blob/58b998d9e1f721928f576579f16ded46b7505e84/packages/core-browser/src/components/layout/default-layout.tsx
    */
   layoutComponent?: React.FC;
 
@@ -113,8 +113,8 @@ export interface AppConfig {
   panelSizes?: { [slotLocation: string]: number };
   /**
    * 定义各个区块的默认面板
-   * 如：{ [SlotLocation.bottom]: '@opensumi/ide-terminal-next' }
-   * 定义了底部区块默认使用 `@opensumi/ide-terminal-next` 模块进行初始化
+   * 如：{ [SlotLocation.bottom]: '@Nuvio-MCP/ide-terminal-next' }
+   * 定义了底部区块默认使用 `@Nuvio-MCP/ide-terminal-next` 模块进行初始化
    */
   defaultPanels?: { [slotLocation: string]: string };
   /**
@@ -176,7 +176,7 @@ export interface AppConfig {
   /**
    * @ClientOption
    * 额外的 ConfigProvider
-   * 可以让 OpenSumi 内部的 ReactDOM.render 调用时
+   * 可以让 Nuvio-MCP 内部的 ReactDOM.render 调用时
    * 都被其包裹一层，以达到额外的 context 传递效果
    */
   extraContextProvider?: React.ComponentType<React.PropsWithChildren<any>>;
@@ -243,7 +243,7 @@ export interface AppConfig {
    */
   isRemote?: boolean;
   /**
-   * 是否开启对 OpenSumi DevTools 的支持
+   * 是否开启对 Nuvio-MCP DevTools 的支持
    * 默认值为 false
    */
   devtools?: boolean;
@@ -271,7 +271,7 @@ export interface AppConfig {
    */
   AINativeConfig?: IAINativeConfig;
   /**
-   * OpenSumi Design 布局相关的配置项
+   * Nuvio-MCP Design 布局相关的配置项
    */
   designLayout?: IDesignLayoutConfig;
   /**
@@ -407,5 +407,5 @@ export function getCDNHref(
 }
 
 export function getTreeSitterWasmCDNUri(CDNType: string = 'npmmirror') {
-  return getCDNHref('@opensumi/tree-sitter-wasm', '', '0.0.2', CDNType as TComponentCDNType);
+  return getCDNHref('@Nuvio-MCP/tree-sitter-wasm', '', '0.0.2', CDNType as TComponentCDNType);
 }

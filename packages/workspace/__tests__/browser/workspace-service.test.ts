@@ -1,13 +1,13 @@
-import { FILES_DEFAULTS, IClientApp, IWindowService, PreferenceService } from '@opensumi/ide-core-browser';
-import { MockedStorageProvider } from '@opensumi/ide-core-browser/__mocks__/storage';
-import { Disposable, StorageProvider, URI } from '@opensumi/ide-core-common';
-import { createBrowserInjector } from '@opensumi/ide-dev-tool/src/injector-helper';
-import { MockInjector } from '@opensumi/ide-dev-tool/src/mock-injector';
-import { DiskFileServicePath, FileStat } from '@opensumi/ide-file-service';
-import { MockFsProvider } from '@opensumi/ide-file-service/__mocks__/file-system-provider';
-import { IFileServiceClient } from '@opensumi/ide-file-service/lib/common';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
-import { WorkspaceService } from '@opensumi/ide-workspace/lib/browser/workspace-service';
+import { FILES_DEFAULTS, IClientApp, IWindowService, PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { MockedStorageProvider } from '@Nuvio-MCP/ide-core-browser/__mocks__/storage';
+import { Disposable, StorageProvider, URI } from '@Nuvio-MCP/ide-core-common';
+import { createBrowserInjector } from '@Nuvio-MCP/ide-dev-tool/src/injector-helper';
+import { MockInjector } from '@Nuvio-MCP/ide-dev-tool/src/mock-injector';
+import { DiskFileServicePath, FileStat } from '@Nuvio-MCP/ide-file-service';
+import { MockFsProvider } from '@Nuvio-MCP/ide-file-service/__mocks__/file-system-provider';
+import { IFileServiceClient } from '@Nuvio-MCP/ide-file-service/lib/common';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
+import { WorkspaceService } from '@Nuvio-MCP/ide-workspace/lib/browser/workspace-service';
 
 import { WorkspaceModule } from '../../src/browser';
 import { WorkspacePreferences } from '../../src/browser/workspace-preferences';

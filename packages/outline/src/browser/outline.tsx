@@ -1,10 +1,10 @@
 import debounce from 'lodash/debounce';
 import React, { MouseEvent, PropsWithChildren, memo, useCallback, useEffect, useRef, useState } from 'react';
 
-import { INodeRendererWrapProps, IRecycleTreeHandle, RecycleTree, TreeNodeType } from '@opensumi/ide-components';
-import { ViewState, localize } from '@opensumi/ide-core-browser';
-import { Progress } from '@opensumi/ide-core-browser/lib/progress/progress-bar';
-import { useInjectable } from '@opensumi/ide-core-browser/lib/react-hooks';
+import { INodeRendererWrapProps, IRecycleTreeHandle, RecycleTree, TreeNodeType } from '@Nuvio-MCP/ide-components';
+import { ViewState, localize } from '@Nuvio-MCP/ide-core-browser';
+import { Progress } from '@Nuvio-MCP/ide-core-browser/lib/progress/progress-bar';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser/lib/react-hooks';
 
 import { OUTLINE_TREE_NODE_HEIGHT, OutlineNode } from './outline-node';
 import { OutlineCompositeTreeNode, OutlineTreeNode } from './outline-node.define';

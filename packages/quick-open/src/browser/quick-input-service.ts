@@ -1,7 +1,7 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { VALIDATE_TYPE } from '@opensumi/ide-components';
-import { IQuickInputService, QuickInputOptions, QuickOpenService } from '@opensumi/ide-core-browser/lib/quick-open';
-import { Deferred, Emitter, Event, withNullAsUndefined } from '@opensumi/ide-core-common';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { VALIDATE_TYPE } from '@Nuvio-MCP/ide-components';
+import { IQuickInputService, QuickInputOptions, QuickOpenService } from '@Nuvio-MCP/ide-core-browser/lib/quick-open';
+import { Deferred, Emitter, Event, withNullAsUndefined } from '@Nuvio-MCP/ide-core-common';
 
 import { InputBoxImpl } from './quickInput.inputBox';
 

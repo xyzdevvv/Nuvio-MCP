@@ -1,7 +1,7 @@
-import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@opensumi/di';
-import { PreferenceService } from '@opensumi/ide-core-browser';
-import { AINativeSettingSectionsId, WithEventBus, raceCancellation, sleep } from '@opensumi/ide-core-common';
-import * as monaco from '@opensumi/ide-monaco';
+import { Autowired, INJECTOR_TOKEN, Injectable, Injector } from '@Nuvio-MCP/di';
+import { PreferenceService } from '@Nuvio-MCP/ide-core-browser';
+import { AINativeSettingSectionsId, WithEventBus, raceCancellation, sleep } from '@Nuvio-MCP/ide-core-common';
+import * as monaco from '@Nuvio-MCP/ide-monaco';
 
 import { IAIInlineCompletionsProvider } from '../../../common';
 

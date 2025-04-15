@@ -1,5 +1,5 @@
-import { localize } from '@opensumi/ide-core-browser';
-import { registerColor } from '@opensumi/ide-theme/lib/common';
+import { localize } from '@Nuvio-MCP/ide-core-browser';
+import { registerColor } from '@Nuvio-MCP/ide-theme/lib/common';
 
 export const initLibroColorToken = () => {
   registerColor(

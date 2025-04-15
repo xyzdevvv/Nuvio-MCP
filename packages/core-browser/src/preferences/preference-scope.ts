@@ -1,3 +1,3 @@
-import { PreferenceScope } from '@opensumi/ide-core-common/lib/preferences/preference-scope';
+import { PreferenceScope } from '@Nuvio-MCP/ide-core-common/lib/preferences/preference-scope';
 
 export { PreferenceScope };

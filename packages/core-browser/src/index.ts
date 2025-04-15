@@ -1,4 +1,4 @@
-export * from '@opensumi/ide-core-common';
+export * from '@Nuvio-MCP/ide-core-common';
 
 // 输出当前 browser 特有的内容
 export * from './react-hooks';

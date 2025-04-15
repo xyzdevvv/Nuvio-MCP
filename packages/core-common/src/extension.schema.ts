@@ -1,6 +1,6 @@
 import { IJSONSchema } from './json-schema';
 
-export type FrameworkKind = 'vscode' | 'opensumi';
+export type FrameworkKind = 'vscode' | 'Nuvio-MCP';
 
 export interface IExtensionPointDescriptor {
   extensionPoint: string;

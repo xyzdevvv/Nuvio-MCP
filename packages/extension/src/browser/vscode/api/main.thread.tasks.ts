@@ -1,5 +1,5 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { IRPCProtocol } from '@opensumi/ide-connection';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { IRPCProtocol } from '@Nuvio-MCP/ide-connection';
 import {
   Disposable,
   IDisposable,
@@ -11,8 +11,8 @@ import {
   isString,
   uuid,
   withNullAsUndefined,
-} from '@opensumi/ide-core-common';
-import { ITaskProvider, ITaskService, IWorkspaceFolder } from '@opensumi/ide-task/lib/common';
+} from '@Nuvio-MCP/ide-core-common';
+import { ITaskProvider, ITaskService, IWorkspaceFolder } from '@Nuvio-MCP/ide-task/lib/common';
 import {
   CommandConfiguration,
   CommandOptions,
@@ -30,8 +30,8 @@ import {
   TaskScope,
   TaskSource,
   TaskSourceKind,
-} from '@opensumi/ide-task/lib/common/task';
-import { IWorkspaceService } from '@opensumi/ide-workspace';
+} from '@Nuvio-MCP/ide-task/lib/common/task';
+import { IWorkspaceService } from '@Nuvio-MCP/ide-workspace';
 
 import { ExtHostAPIIdentifier } from '../../../common/vscode';
 import {

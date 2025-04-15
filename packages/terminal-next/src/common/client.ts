@@ -1,7 +1,7 @@
 import { ISearchOptions } from '@xterm/addon-search';
 import { IEvent, Terminal } from '@xterm/xterm';
 
-import { Deferred, Disposable, Event, IDisposable } from '@opensumi/ide-core-common';
+import { Deferred, Disposable, Event, IDisposable } from '@Nuvio-MCP/ide-core-common';
 
 import { ICreateTerminalOptions, INodePtyInstance, IShellLaunchConfig, TerminalOptions } from './pty';
 import { IWidget } from './resize';

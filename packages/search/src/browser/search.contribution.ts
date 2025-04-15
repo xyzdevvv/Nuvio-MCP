@@ -1,4 +1,4 @@
-import { Autowired } from '@opensumi/di';
+import { Autowired } from '@Nuvio-MCP/di';
 import {
   ClientAppContribution,
   ComponentContribution,
@@ -11,24 +11,24 @@ import {
   SEARCH_COMMANDS,
   getIcon,
   localize,
-} from '@opensumi/ide-core-browser';
-import { SEARCH_CONTAINER_ID } from '@opensumi/ide-core-browser/lib/common/container-id';
-import { SearchInputBoxFocusedKey } from '@opensumi/ide-core-browser/lib/contextkey/search';
-import { TabBarToolbarContribution, ToolbarRegistry } from '@opensumi/ide-core-browser/lib/layout';
-import { IMenuRegistry, MenuContribution, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
+} from '@Nuvio-MCP/ide-core-browser';
+import { SEARCH_CONTAINER_ID } from '@Nuvio-MCP/ide-core-browser/lib/common/container-id';
+import { SearchInputBoxFocusedKey } from '@Nuvio-MCP/ide-core-browser/lib/contextkey/search';
+import { TabBarToolbarContribution, ToolbarRegistry } from '@Nuvio-MCP/ide-core-browser/lib/layout';
+import { IMenuRegistry, MenuContribution, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
 import {
   CommandContribution,
   CommandRegistry,
   DisposableCollection,
   MessageType,
   formatLocalize,
-} from '@opensumi/ide-core-common';
-import { Domain } from '@opensumi/ide-core-common/lib/di-helper';
-import { IEditorDocumentModelService } from '@opensumi/ide-editor/lib/browser/index';
-import { MainLayoutContribution } from '@opensumi/ide-main-layout';
-import { IMainLayoutService } from '@opensumi/ide-main-layout/lib/common';
-import { IDialogService } from '@opensumi/ide-overlay';
-import { IWorkspaceEditService } from '@opensumi/ide-workspace-edit';
+} from '@Nuvio-MCP/ide-core-common';
+import { Domain } from '@Nuvio-MCP/ide-core-common/lib/di-helper';
+import { IEditorDocumentModelService } from '@Nuvio-MCP/ide-editor/lib/browser/index';
+import { MainLayoutContribution } from '@Nuvio-MCP/ide-main-layout';
+import { IMainLayoutService } from '@Nuvio-MCP/ide-main-layout/lib/common';
+import { IDialogService } from '@Nuvio-MCP/ide-overlay';
+import { IWorkspaceEditService } from '@Nuvio-MCP/ide-workspace-edit';
 
 import { ContentSearchResult, IContentSearchClientService, OpenSearchCmdOptions } from '../common';
 
@@ -307,7 +307,7 @@ export class SearchContribution
   }
 
   registerComponent(registry: ComponentRegistry) {
-    registry.register('@opensumi/ide-search', [], {
+    registry.register('@Nuvio-MCP/ide-search', [], {
       containerId: SEARCH_CONTAINER_ID,
       iconClass: getIcon('search'),
       title: localize('search.title'),

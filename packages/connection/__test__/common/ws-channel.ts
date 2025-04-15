@@ -1,4 +1,4 @@
-import { DisposableCollection } from '@opensumi/ide-core-common';
+import { DisposableCollection } from '@Nuvio-MCP/ide-core-common';
 
 import { IWSChannelCreateOptions, WSChannel, furySerializer, wrapSerializer } from '../../src/common';
 import { IConnectionShape } from '../../src/common/connection/types';

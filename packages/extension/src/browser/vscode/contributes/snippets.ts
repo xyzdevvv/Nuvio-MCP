@@ -1,6 +1,6 @@
-import { Autowired, Injectable } from '@opensumi/di';
-import { LifeCyclePhase } from '@opensumi/ide-core-common';
-import { MonacoSnippetSuggestProvider } from '@opensumi/ide-monaco/lib/browser/monaco-snippet-suggest-provider';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
+import { LifeCyclePhase } from '@Nuvio-MCP/ide-core-common';
+import { MonacoSnippetSuggestProvider } from '@Nuvio-MCP/ide-monaco/lib/browser/monaco-snippet-suggest-provider';
 
 import { Contributes, LifeCycle, VSCodeContributePoint } from '../../../common';
 import { AbstractExtInstanceManagementService } from '../../types';

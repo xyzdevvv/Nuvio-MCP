@@ -1,13 +1,13 @@
 import React, { FC, memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-import { IContextKeyService, View, ViewState, useAutorun, useInjectable } from '@opensumi/ide-core-browser';
-import { InlineMenuBar } from '@opensumi/ide-core-browser/lib/components/actions';
-import { LayoutViewSizeConfig } from '@opensumi/ide-core-browser/lib/layout/constants';
-import { IContextMenu, IMenuRegistry, MenuId } from '@opensumi/ide-core-browser/lib/menu/next';
-import { DisposableCollection, localize } from '@opensumi/ide-core-common';
-import { AccordionContainer } from '@opensumi/ide-main-layout/lib/browser/accordion/accordion.view';
-import { TitleBar } from '@opensumi/ide-main-layout/lib/browser/accordion/titlebar.view';
-import { WelcomeView } from '@opensumi/ide-main-layout/lib/browser/welcome.view';
+import { IContextKeyService, View, ViewState, useAutorun, useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { InlineMenuBar } from '@Nuvio-MCP/ide-core-browser/lib/components/actions';
+import { LayoutViewSizeConfig } from '@Nuvio-MCP/ide-core-browser/lib/layout/constants';
+import { IContextMenu, IMenuRegistry, MenuId } from '@Nuvio-MCP/ide-core-browser/lib/menu/next';
+import { DisposableCollection, localize } from '@Nuvio-MCP/ide-core-common';
+import { AccordionContainer } from '@Nuvio-MCP/ide-main-layout/lib/browser/accordion/accordion.view';
+import { TitleBar } from '@Nuvio-MCP/ide-main-layout/lib/browser/accordion/titlebar.view';
+import { WelcomeView } from '@Nuvio-MCP/ide-main-layout/lib/browser/welcome.view';
 
 import { ISCMRepository, SCM_WELCOME_ID, scmContainerId, scmProviderViewId, scmResourceViewId } from '../common';
 

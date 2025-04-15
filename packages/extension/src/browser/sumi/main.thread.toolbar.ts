@@ -1,4 +1,4 @@
-import { Autowired, Injectable } from '@opensumi/di';
+import { Autowired, Injectable } from '@Nuvio-MCP/di';
 import {
   CommandRegistry,
   CommandService,
@@ -15,8 +15,8 @@ import {
   createToolbarActionBtn,
   createToolbarActionDropdownButton,
   createToolbarActionSelect,
-} from '@opensumi/ide-core-browser';
-import { IIconService, IconType } from '@opensumi/ide-theme';
+} from '@Nuvio-MCP/ide-core-browser';
+import { IIconService, IconType } from '@Nuvio-MCP/ide-theme';
 
 import { EMIT_EXT_HOST_EVENT } from '../../common';
 import {

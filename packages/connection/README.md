@@ -33,7 +33,7 @@ export class FileServiceModule extends NodeModule {
 `packages/file-tree/src/browser/index.ts`
 
 ```ts
-import { servicePath as FileServicePath } from '@opensumi/ide-file-service';
+import { servicePath as FileServicePath } from '@Nuvio-MCP/ide-file-service';
 
 @Injectable()
 export class FileTreeModule extends BrowserModule {
@@ -51,7 +51,7 @@ export class FileTreeModule extends BrowserModule {
 `packages/file-tree/src/browser/file-tree.service.ts`
 
 ```ts
-import { servicePath as FileServicePath } from '@opensumi/ide-file-service';
+import { servicePath as FileServicePath } from '@Nuvio-MCP/ide-file-service';
 
 @Injectable()
 export default class FileTreeService extends Disposable {

@@ -1,12 +1,12 @@
 import cls from 'classnames';
 import React, { ChangeEvent, FC, FormEvent, useCallback, useEffect, useState } from 'react';
 
-import { Select } from '@opensumi/ide-components';
-import { Button } from '@opensumi/ide-components/lib/button';
-import { Modal } from '@opensumi/ide-components/lib/modal';
-import { useInjectable } from '@opensumi/ide-core-browser';
-import { formatLocalize, localize } from '@opensumi/ide-core-common';
-import { IMessageService } from '@opensumi/ide-overlay';
+import { Select } from '@Nuvio-MCP/ide-components';
+import { Button } from '@Nuvio-MCP/ide-components/lib/button';
+import { Modal } from '@Nuvio-MCP/ide-components/lib/modal';
+import { useInjectable } from '@Nuvio-MCP/ide-core-browser';
+import { formatLocalize, localize } from '@Nuvio-MCP/ide-core-common';
+import { IMessageService } from '@Nuvio-MCP/ide-overlay';
 
 import { MCPServer, MCP_SERVER_TYPE } from '../../../../common/types';
 

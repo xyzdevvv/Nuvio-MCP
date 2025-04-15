@@ -1,5 +1,5 @@
 const str = 'hello';
-const str2 = 'opensumi';
+const str2 = 'Nuvio-MCP';
 const buffStr = Buffer.from(str + str2);
 
 const fn = () => {

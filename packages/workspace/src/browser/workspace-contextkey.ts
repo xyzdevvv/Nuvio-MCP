@@ -1,11 +1,11 @@
-import { Autowired, Injectable, Optional } from '@opensumi/di';
-import { IContextKey, IContextKeyService } from '@opensumi/ide-core-browser';
+import { Autowired, Injectable, Optional } from '@Nuvio-MCP/di';
+import { IContextKey, IContextKeyService } from '@Nuvio-MCP/ide-core-browser';
 import {
   VirtualWorkspace,
   WorkbenchState,
   WorkspaceFolderCount,
   WorkspaceTrusted,
-} from '@opensumi/ide-core-browser/lib/contextkey';
+} from '@Nuvio-MCP/ide-core-browser/lib/contextkey';
 
 @Injectable()
 export class WorkspaceContextKey {
