@@ -3873,7 +3873,7 @@ __metadata:
     "@Nuvio-MCP/ide-utils": "workspace:*"
     "@parcel/watcher": "npm:2.1.0"
     file-type: "npm:16.5.4"
-    nsfw: "npm:2.2.0"
+    nsfw: "npm:2.2.5"
     trash: "npm:^5.2.0"
     vscode-languageserver-types: "npm:^3.16.0"
     write-file-atomic: "npm:^5.0.1"
@@ -18047,13 +18047,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nsfw@npm:2.2.0":
-  version: 2.2.0
-  resolution: "nsfw@npm:2.2.0"
+"nsfw@npm:2.2.5":
+  version: 2.2.5
+  resolution: "nsfw@npm:2.2.5"
   dependencies:
     node-addon-api: "npm:*"
     node-gyp: "npm:latest"
-  checksum: 10/536ef494161877c833760a4a496b59b8d87e0e46b498e6a6e03c7d0d623f1388780b98ce9adb4592feb770eb1cf7b41984bf4eede257f609eab48e4897f76922
+  checksum: 10/038ac44ff1f210e164b1f3534d139ce21ad3dbaa2e742a1708c4bbca6b7b34979f34e0b0a91b4b2bd28bc11cd34d0aa91746fecfd01fe2ccbc94a81dcb0565ff
   languageName: node
   linkType: hard
 
