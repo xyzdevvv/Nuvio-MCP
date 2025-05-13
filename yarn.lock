@@ -3450,7 +3450,7 @@ __metadata:
     ws: "npm:^8.16.0"
     y-protocols: "npm:^1.0.2"
     y-websocket: "npm:^1.3.9"
-    yjs: "npm:13.5.39"
+    yjs: "npm:13.6.26"
   languageName: unknown
   linkType: soft
 
@@ -15991,7 +15991,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lib0@npm:^0.2.31, lib0@npm:^0.2.49, lib0@npm:^0.2.52, lib0@npm:^0.2.85":
+"lib0@npm:^0.2.31, lib0@npm:^0.2.52, lib0@npm:^0.2.85":
   version: 0.2.91
   resolution: "lib0@npm:0.2.91"
   dependencies:
@@ -16014,6 +16014,19 @@ __metadata:
     0gentesthtml: bin/gentesthtml.js
     0serve: bin/0serve.js
   checksum: 10/8ec7fb66e211b5041d988e93d768b47946f820dfbf65b9aeb5350041b09ec6fa86d528dc1605fc79eb4d66db6b5391a0e6bf73392c3d53f5a4601430664712c9
+  languageName: node
+  linkType: hard
+
+"lib0@npm:^0.2.99":
+  version: 0.2.107
+  resolution: "lib0@npm:0.2.107"
+  dependencies:
+    isomorphic.js: "npm:^0.2.4"
+  bin:
+    0ecdsa-generate-keypair: bin/0ecdsa-generate-keypair.js
+    0gentesthtml: bin/gentesthtml.js
+    0serve: bin/0serve.js
+  checksum: 10/44f25a93745932985d88e95a9f7d6dca2292a6f019a6aa0abcfac3704795431b798feedd462442f9f1d6529be915a7e70d4c9cd9f41f17ae407e21d6445e1581
   languageName: node
   linkType: hard
 
@@ -25569,12 +25582,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yjs@npm:13.5.39":
-  version: 13.5.39
-  resolution: "yjs@npm:13.5.39"
+"yjs@npm:13.6.26":
+  version: 13.6.26
+  resolution: "yjs@npm:13.6.26"
   dependencies:
-    lib0: "npm:^0.2.49"
-  checksum: 10/1fd5053f924e27fd1126c613baf8f65e39f37642b2c9829a17bf33b4f72a825bbfe73861100d09446031976c23942c87e74a7b3354bcfc4c01f3b11a592c4dfe
+    lib0: "npm:^0.2.99"
+  checksum: 10/fa9c0d2fcd40da2019fc38ebe02e08c81c5e811423c87b35c5c6ebf193217a49fa0783a02031968b25579be359525e9bec64070669ac524d3cbcd23b00de3cc9
   languageName: node
   linkType: hard
 
