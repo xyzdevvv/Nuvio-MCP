@@ -6981,9 +6981,9 @@ __metadata:
   linkType: hard
 
 "anser@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "anser@npm:2.1.1"
-  checksum: 10/7cf63f2ac34a77a410da37bd7748f9d4f1b077763b51e5eadf7b355211050e12cabbb405268cc033f6351e1e60cc00ca18431a240053ffc94c12f0c758e1e66d
+  version: 2.3.2
+  resolution: "anser@npm:2.3.2"
+  checksum: 10/2bfb5fc96533919060bd2f2c199d22011f58e3d0ca48156cec7508ca5f741ea08e38fe634ae3d6902ae44b445148438f2ebcaf09f08ff3b2be20687c19cf4419
   languageName: node
   linkType: hard
 
